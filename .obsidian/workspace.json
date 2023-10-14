@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "270322b273c6ddbb",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2023-10-14 19.08.08.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hello Obsidian/Hello Obsidian.md",
+                "file": "Excalidraw/Drawing 2023-10-14 19.08.08.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hello Obsidian/Hello Obsidian.md",
+                "file": "Excalidraw/Drawing 2023-10-14 19.08.08.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hello Obsidian/Hello Obsidian.md"
+                "file": "Excalidraw/Drawing 2023-10-14 19.08.08.excalidraw.md"
               }
             }
           },
@@ -167,11 +178,12 @@
   },
   "active": "a5f6636e469017a8",
   "lastOpenFiles": [
+    "Hello Obsidian/Hello Obsidian.md",
+    "Excalidraw/Drawing 2023-10-14 19.08.08.excalidraw.md",
+    "Excalidraw",
     "Obsidian",
     "무제 파일.md",
-    "Hello Obsidian/Hello Obsidian.md",
     "Excalidraw/Drawing 2023-10-14 18.37.21.excalidraw.md",
-    "Excalidraw",
     "Second Obsidian",
     "Hello Obsidian",
     "무제 파일.canvas",
