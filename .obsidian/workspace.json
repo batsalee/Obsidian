@@ -74,15 +74,14 @@
             }
           },
           {
-            "id": "b299010a6a9bb4b2",
+            "id": "f18192a277376823",
             "type": "leaf",
             "state": {
               "type": "mk-file-view",
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -176,6 +175,7 @@
   },
   "active": "28048b287c58c552",
   "lastOpenFiles": [
+    "Hello Obsidian/Hello Obsidian.md",
     "Hello Obsidian/Hello Obsidian.md",
     "Hello Obsidian/파일명 변경.md",
     "Hello Obsidian/파일명 변경",

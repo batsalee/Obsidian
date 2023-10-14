@@ -1,3 +1,5 @@
 {
-  "attachmentFolderPath": "첨부파일 폴더"
+  "attachmentFolderPath": "첨부파일 폴더",
+  "foldHeading": true,
+  "showLineNumber": true
 }

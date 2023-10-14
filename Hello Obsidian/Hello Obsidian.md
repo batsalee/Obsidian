@@ -1,4 +1,1 @@
----
-sticker:
----
 Hello Obsidian
