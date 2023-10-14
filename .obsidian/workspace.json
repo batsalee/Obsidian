@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "ba2778a59448dc2b",
+    "type": "split",
+    "children": [
+      {
+        "id": "31c210f0b854faf4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28048b287c58c552",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hello Obsidian/Hello Obsidian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f04464f93698917e",
+    "type": "split",
+    "children": [
+      {
+        "id": "108fafa316a90df0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5f6636e469017a8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ac77a984984a41b8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "444d57f0570de5f8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "e375788b9f7f9984",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0aeebf3c0c27fdc4",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4c48beec8a8787f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c33e0cb92f56176d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Hello Obsidian/Hello Obsidian.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ecbb9dd8a1dec49c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Hello Obsidian/Hello Obsidian.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ba35e1ded9eb5e42",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "146c9216649bfe96",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Hello Obsidian/Hello Obsidian.md"
+              }
+            }
+          },
+          {
+            "id": "8e9145508b0f8c3b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "28048b287c58c552",
+  "lastOpenFiles": [
+    "Obsidian",
+    "무제 파일.md",
+    "Hello Obsidian/Hello Obsidian.md",
+    "Excalidraw/Drawing 2023-10-14 18.37.21.excalidraw.md",
+    "Excalidraw",
+    "Second Obsidian",
+    "Hello Obsidian",
+    "무제 파일.canvas",
+    "첨부파일 폴더/Pasted image 20231014174143.png",
+    "하위폴더/마크다운 사용법.md",
+    "하위폴더/옵시디언 사용법.md",
+    "2023-10-14.md",
+    "첨부파일 폴더",
+    "하위폴더"
+  ]
+}
