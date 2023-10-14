@@ -1,11 +1,11 @@
 [
   "table-editor-obsidian",
   "obsidian-tasks-plugin",
-  "editing-toolbar",
   "oz-clear-unused-images",
   "obsidian-excalidraw-plugin",
   "recent-files-obsidian",
   "obsidian-git",
   "obsidian-table-generator",
-  "make-md"
+  "make-md",
+  "editing-toolbar"
 ]

@@ -18,8 +18,8 @@
   "activeView": "root",
   "hideFrontmatter": true,
   "activeSpace": "",
-  "spacesCompactMode": false,
-  "defaultDateFormat": "MMM dd yyyy",
+  "spacesCompactMode": true,
+  "defaultDateFormat": "yyyy-MM-dd",
   "spacesEnabled": true,
   "spacesPerformance": false,
   "collapsedTags": [],
@@ -59,7 +59,7 @@
   "hiddenFiles": [
     "Context"
   ],
-  "lineNumbers": false,
+  "lineNumbers": true,
   "hiddenExtensions": [
     ".mdb"
   ],
