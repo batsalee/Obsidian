@@ -3,10 +3,6 @@
     {
       "basename": "Hello Obsidian",
       "path": "Hello Obsidian/Hello Obsidian.md"
-    },
-    {
-      "basename": "파일명 변경",
-      "path": "Hello Obsidian/파일명 변경.md"
     }
   ],
   "omittedPaths": [],

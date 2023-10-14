@@ -159,7 +159,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,9 +176,9 @@
   },
   "active": "28048b287c58c552",
   "lastOpenFiles": [
+    "Hello Obsidian/Hello Obsidian.md",
     "Hello Obsidian/파일명 변경.md",
     "Hello Obsidian/파일명 변경",
-    "Hello Obsidian/Hello Obsidian.md",
     "Hello Obsidian/무제 파일 1.md",
     "Hello Obsidian/무제 파일 2.md",
     "무제 파일.md",
