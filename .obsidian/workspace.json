@@ -150,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,7 +165,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "28048b287c58c552",
+  "active": "a5f6636e469017a8",
   "lastOpenFiles": [
     "Obsidian",
     "무제 파일.md",
