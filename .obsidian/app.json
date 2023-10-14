@@ -1,7 +1,9 @@
 {
-  "attachmentFolderPath": "./",
+  "attachmentFolderPath": "./contents",
   "foldHeading": true,
   "showLineNumber": true,
   "alwaysUpdateLinks": true,
-  "showUnsupportedFiles": false
+  "showUnsupportedFiles": false,
+  "showInlineTitle": false,
+  "propertiesInDocument": "hidden"
 }
