@@ -1,5 +1,7 @@
 {
-  "attachmentFolderPath": "첨부파일 폴더",
+  "attachmentFolderPath": "./",
   "foldHeading": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": false
 }
