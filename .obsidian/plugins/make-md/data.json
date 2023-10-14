@@ -23,20 +23,19 @@
   "spacesEnabled": true,
   "spacesPerformance": false,
   "collapsedTags": [],
-  "enableFolderNote": true,
+  "enableFolderNote": false,
   "folderIndentationLines": true,
   "revealActiveFile": false,
   "spacesStickers": true,
   "spaceRowHeight": 29,
   "spacesDisablePatch": false,
-  "folderNoteInsideFolder": true,
-  "folderNoteDefaultView": true,
+  "folderNoteInsideFolder": false,
+  "folderNoteDefaultView": false,
   "sidebarTabs": true,
   "showRibbon": true,
-  "deleteFileOption": "trash",
+  "deleteFileOption": "system-trash",
   "expandedFolders": {
     "Obsidian": [
-      "Hello Obsidian",
       "Hello Obsidian"
     ]
   },
@@ -74,7 +73,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1697293317759,
+  "spacesAutoBackupLast": 1697293619958,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

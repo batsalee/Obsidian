@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hello Obsidian/무제 파일.md",
+                "file": "Hello Obsidian/Hello Obsidian.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hello Obsidian/무제 파일.md",
+                "file": "Hello Obsidian/Hello Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hello Obsidian/무제 파일.md",
+                "file": "Hello Obsidian/Hello Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hello Obsidian/무제 파일.md"
+                "file": "Hello Obsidian/Hello Obsidian.md"
               }
             }
           },
@@ -175,8 +175,9 @@
   },
   "active": "28048b287c58c552",
   "lastOpenFiles": [
+    "Hello Obsidian/파일명 변경.md",
+    "Hello Obsidian/파일명 변경",
     "Hello Obsidian/Hello Obsidian.md",
-    "Hello Obsidian/무제 파일.md",
     "Hello Obsidian/무제 파일 1.md",
     "Hello Obsidian/무제 파일 2.md",
     "무제 파일.md",
