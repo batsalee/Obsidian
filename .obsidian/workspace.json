@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "31c210f0b854faf4",
+        "id": "ea885394450af045",
         "type": "tabs",
         "children": [
           {
-            "id": "28048b287c58c552",
+            "id": "37ad657bac9ba23e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -81,11 +81,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 311.5
   },
   "right": {
     "id": "0aeebf3c0c27fdc4",
@@ -173,17 +174,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "28048b287c58c552",
+  "active": "f18192a277376823",
   "lastOpenFiles": [
-    "Hello Obsidian/무제 파일.md",
     "Hello Obsidian/Hello Obsidian.md",
+    "Context/spacesLastSync.log",
+    "Context",
+    "Hello Obsidian/무제 파일.md",
     "Hello Obsidian/파일명 변경.md",
     "Hello Obsidian/파일명 변경",
     "Hello Obsidian/무제 파일 1.md",
     "Hello Obsidian/무제 파일 2.md",
     "무제 파일.md",
-    "Context/spacesLastSync.log",
-    "Context",
     "Excalidraw/Drawing 2023-10-14 19.08.08.excalidraw.md",
     "Excalidraw",
     "Obsidian",
