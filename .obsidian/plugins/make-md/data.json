@@ -43,11 +43,9 @@
       "Hello Obsidian",
       "Protected",
       "Obsidian_Public",
-      "Obsidian_Public/Hello Obsidian",
       "Obsidian_Public/Public",
       "Obsidian_Public",
       "Obsidian_Public/Public",
-      "Obsidian_Public/Hello Obsidian",
       "Obsidian_Private",
       "Obsidian_Private",
       "Obsidian_Private/Private",
@@ -65,7 +63,7 @@
       "Obsidian_Private/Protected",
       "Obsidian_Public/Hello Obsidian",
       "Obsidian_Public/Hello Obsidian",
-      "Obsidian_Public/Hello Obsidian"
+      "Obsidian_Private/Protected"
     ]
   },
   "expandedSpaces": [
@@ -80,8 +78,7 @@
   "openFolders": [],
   "fileIcons": [],
   "cachedSpaces": [
-    "as",
-    "a"
+    "Obsidian"
   ],
   "menuTriggerChar": "/",
   "inlineStickerMenu": false,
@@ -106,7 +103,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1697372116275,
+  "spacesAutoBackupLast": 1697372356921,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

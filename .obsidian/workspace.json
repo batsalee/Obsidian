@@ -11,9 +11,11 @@
             "id": "37ad657bac9ba23e",
             "type": "leaf",
             "state": {
-              "type": "make-folder-view",
+              "type": "markdown",
               "state": {
-                "contextPath": "Obsidian_Public/Hello Obsidian"
+                "file": "Hello Obsidian/Hello Obsidian.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -79,8 +81,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -100,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Hello Obsidian/Hello Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Hello Obsidian/Hello Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Hello Obsidian/Hello Obsidian.md"
+              }
             }
           },
           {
@@ -176,13 +181,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ebf891792a2af8c6",
+  "active": "a5f6636e469017a8",
   "lastOpenFiles": [
+    "Hello Obsidian/Hello Obsidian.md",
+    "Hello Obsidian",
     "Obsidian_Private/Protected/Protected.md",
+    "Obsidian_Public/Hello Obsidian/Hello Obsidian.md",
     "Obsidian_Private/Protected/Protected.md.md",
     "Obsidian_Private/Personal/Personal.md",
     "Obsidian_Private/Private/Private.md",
-    "Obsidian_Public/Hello Obsidian/Hello Obsidian.md",
     "Obsidian_Public/Hello Obsidian",
     "Obsidian_Public/Public",
     "Protected/Protected.md.md",
@@ -193,8 +200,6 @@
     "새 폴더",
     "Obsidian_Public",
     "Personal",
-    "Hello Obsidian/Hello Obsidian.md",
-    "Context/spacesLastSync.log",
     "Hello Obsidian/무제 파일 1.md",
     "Hello Obsidian/무제 파일.md",
     "Hello Obsidian/무제 파일 2.md",
