@@ -92,11 +92,11 @@
     "testSpace1",
     "as",
     "test",
-    null,
     "priv",
     "Hello Obsidian",
     "Private",
-    "another_private"
+    "another_private",
+    null
   ],
   "expandFolderOnClick": true,
   "openFolders": [],
@@ -129,7 +129,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1697376658227,
+  "spacesAutoBackupLast": 1697376785085,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

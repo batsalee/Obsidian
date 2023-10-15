@@ -11,12 +11,8 @@
             "id": "37ad657bac9ba23e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian_Private/test.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -82,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -102,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian_Private/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian_Private/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Obsidian_Private/test.md"
-              }
+              "state": {}
             }
           },
           {
@@ -182,8 +174,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "37ad657bac9ba23e",
+  "active": "e375788b9f7f9984",
   "lastOpenFiles": [
+    "Obsidian_Private/Context/spacesLastSync.log",
+    "Obsidian_Private/Context",
     "Obsidian_Private/test.md",
     "Hello Obsidian/Hello Obsidian.md",
     "Obsidian_Private/Obsidian_Private/test.md",
@@ -207,7 +201,6 @@
     "Obsidian_Private/Protected/Protected.md.md",
     "Obsidian_Private/Personal/Personal.md",
     "Obsidian_Private/Private/Private.md",
-    "Obsidian_Public/Hello Obsidian",
     "Protected/Protected.md.md",
     "Hello Obsidian/무제 파일 1.md",
     "Hello Obsidian/무제 파일.md",
@@ -220,7 +213,6 @@
     "무제 파일.canvas",
     "첨부파일 폴더/Pasted image 20231014174143.png",
     "하위폴더/마크다운 사용법.md",
-    "하위폴더/옵시디언 사용법.md",
-    "2023-10-14.md"
+    "하위폴더/옵시디언 사용법.md"
   ]
 }
