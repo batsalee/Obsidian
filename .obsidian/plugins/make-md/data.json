@@ -35,19 +35,25 @@
   "showRibbon": true,
   "deleteFileOption": "system-trash",
   "expandedFolders": {
-    "Obsidian": []
+    "Obsidian": [
+      "Protected"
+    ]
   },
   "expandedSpaces": [
     "/",
     null,
     "Obsidian",
-    null,
-    "testSpace1"
+    "testSpace1",
+    "as",
+    null
   ],
   "expandFolderOnClick": true,
   "openFolders": [],
   "fileIcons": [],
-  "cachedSpaces": [],
+  "cachedSpaces": [
+    "as",
+    "a"
+  ],
   "menuTriggerChar": "/",
   "inlineStickerMenu": false,
   "emojiTriggerChar": ":",
@@ -71,7 +77,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1697370589337,
+  "spacesAutoBackupLast": 1697371115553,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
