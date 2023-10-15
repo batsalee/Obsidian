@@ -11,11 +11,9 @@
             "id": "37ad657bac9ba23e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "make-folder-view",
               "state": {
-                "file": "Protected/Protected.md.md",
-                "mode": "source",
-                "source": false
+                "contextPath": "Obsidian_Public/Hello Obsidian"
               }
             }
           }
@@ -102,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Protected/Protected.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Protected/Protected.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +137,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Protected/Protected.md.md"
-              }
+              "state": {}
             }
           },
           {
@@ -184,25 +178,29 @@
   },
   "active": "ebf891792a2af8c6",
   "lastOpenFiles": [
-    "Personal",
+    "Obsidian_Private/Protected/Protected.md",
+    "Obsidian_Private/Protected/Protected.md.md",
+    "Obsidian_Private/Personal/Personal.md",
+    "Obsidian_Private/Private/Private.md",
+    "Obsidian_Public/Hello Obsidian/Hello Obsidian.md",
+    "Obsidian_Public/Hello Obsidian",
+    "Obsidian_Public/Public",
     "Protected/Protected.md.md",
+    "Obsidian_Private/Protected",
+    "Obsidian_Private/Private",
+    "Obsidian_Private/Personal",
+    "Obsidian_Private",
+    "새 폴더",
+    "Obsidian_Public",
+    "Personal",
     "Hello Obsidian/Hello Obsidian.md",
     "Context/spacesLastSync.log",
-    "Context",
-    "Persnal",
-    "새 폴더",
-    "Private",
-    "Protected",
-    "Public",
-    "새 텍스트 문서.txt",
-    "Hello Obsidian/context.mdb",
     "Hello Obsidian/무제 파일 1.md",
     "Hello Obsidian/무제 파일.md",
     "Hello Obsidian/무제 파일 2.md",
     "무제 파일 1.md",
     "무제 파일.md",
     "Hello Obsidian/파일명 변경.md",
-    "Hello Obsidian/파일명 변경",
     "Excalidraw/Drawing 2023-10-14 19.08.08.excalidraw.md",
     "Excalidraw/Drawing 2023-10-14 18.37.21.excalidraw.md",
     "무제 파일.canvas",
