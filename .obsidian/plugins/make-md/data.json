@@ -83,6 +83,9 @@
       "Private/Protected",
       "Private/Private",
       "Private/Private"
+    ],
+    "Public": [
+      "Hello Obsidian"
     ]
   },
   "expandedSpaces": [
