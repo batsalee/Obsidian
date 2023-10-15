@@ -79,8 +79,9 @@
       "Public"
     ],
     "priv": [
-      "Private/Protected",
       "Private/Personal",
+      "Private/Protected",
+      "Private/Private",
       "Private/Private"
     ]
   },
@@ -124,7 +125,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1697375120285,
+  "spacesAutoBackupLast": 1697375338592,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
