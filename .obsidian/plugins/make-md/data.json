@@ -29,14 +29,19 @@
   "spacesStickers": true,
   "spaceRowHeight": 29,
   "spacesDisablePatch": false,
-  "folderNoteInsideFolder": true,
+  "folderNoteInsideFolder": false,
   "folderNoteDefaultView": false,
   "sidebarTabs": true,
   "showRibbon": true,
   "deleteFileOption": "system-trash",
   "expandedFolders": {
     "Obsidian": [
-      "Protected"
+      "Protected",
+      "Private",
+      "Private/Protected",
+      "Public",
+      "Hello Obsidian",
+      "Hello Obsidian"
     ],
     "as": [
       "Hello Obsidian",
@@ -103,7 +108,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1697372356921,
+  "spacesAutoBackupLast": 1697373331183,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

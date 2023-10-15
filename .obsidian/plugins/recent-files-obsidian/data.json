@@ -3,6 +3,10 @@
     {
       "basename": "Hello Obsidian",
       "path": "Hello Obsidian/Hello Obsidian.md"
+    },
+    {
+      "basename": "test_protected",
+      "path": "Private/Protected/test_protected.md"
     }
   ],
   "omittedPaths": [],
