@@ -153,9 +153,17 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "6359081808810abc",
+            "type": "leaf",
+            "state": {
+              "type": "make-context-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -174,8 +182,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f18192a277376823",
+  "active": "37ad657bac9ba23e",
   "lastOpenFiles": [
+    "무제 파일.md",
     "Hello Obsidian/Hello Obsidian.md",
     "Context/spacesLastSync.log",
     "Context",
@@ -184,7 +193,6 @@
     "Hello Obsidian/파일명 변경",
     "Hello Obsidian/무제 파일 1.md",
     "Hello Obsidian/무제 파일 2.md",
-    "무제 파일.md",
     "Excalidraw/Drawing 2023-10-14 19.08.08.excalidraw.md",
     "Excalidraw",
     "Obsidian",
