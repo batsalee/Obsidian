@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hello Obsidian/Hello Obsidian.md",
+                "file": "Protected/Protected.md.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hello Obsidian/Hello Obsidian.md",
+                "file": "Protected/Protected.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hello Obsidian/Hello Obsidian.md",
+                "file": "Protected/Protected.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hello Obsidian/Hello Obsidian.md"
+                "file": "Protected/Protected.md.md"
               }
             }
           },
@@ -182,8 +182,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ebf891792a2af8c6",
+  "active": "37ad657bac9ba23e",
   "lastOpenFiles": [
+    "Protected/Protected.md.md",
+    "Hello Obsidian/Hello Obsidian.md",
+    "Context/spacesLastSync.log",
+    "Context",
     "Persnal",
     "새 폴더",
     "Private",
@@ -192,17 +196,13 @@
     "새 텍스트 문서.txt",
     "Hello Obsidian/context.mdb",
     "Hello Obsidian/무제 파일 1.md",
-    "Context/spacesLastSync.log",
-    "Context",
     "Hello Obsidian/무제 파일.md",
-    "Hello Obsidian/Hello Obsidian.md",
     "Hello Obsidian/무제 파일 2.md",
     "무제 파일 1.md",
     "무제 파일.md",
     "Hello Obsidian/파일명 변경.md",
     "Hello Obsidian/파일명 변경",
     "Excalidraw/Drawing 2023-10-14 19.08.08.excalidraw.md",
-    "Excalidraw",
     "Excalidraw/Drawing 2023-10-14 18.37.21.excalidraw.md",
     "무제 파일.canvas",
     "첨부파일 폴더/Pasted image 20231014174143.png",
