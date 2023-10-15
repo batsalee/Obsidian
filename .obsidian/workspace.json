@@ -11,9 +11,11 @@
             "id": "37ad657bac9ba23e",
             "type": "leaf",
             "state": {
-              "type": "make-folder-view",
+              "type": "markdown",
               "state": {
-                "contextPath": "Private//"
+                "file": "Obsidian_Private/test.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -100,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Obsidian_Private/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Obsidian_Private/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Obsidian_Private/test.md"
+              }
             }
           },
           {
@@ -176,8 +182,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ebf891792a2af8c6",
+  "active": "37ad657bac9ba23e",
   "lastOpenFiles": [
+    "Obsidian_Private/test.md",
     "Hello Obsidian/Hello Obsidian.md",
     "Obsidian_Private/test.txt",
     "Obsidian_Private/새 텍스트 문서.txt",
