@@ -14,8 +14,21 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "d9e92520d1555008",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제 파일.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,15 +83,14 @@
             }
           },
           {
-            "id": "ebf891792a2af8c6",
+            "id": "f54620839b56ae16",
             "type": "leaf",
             "state": {
               "type": "mk-file-view",
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -98,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "무제 파일.md"
+              }
             }
           },
           {
@@ -174,8 +190,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e375788b9f7f9984",
+  "active": "d9e92520d1555008",
   "lastOpenFiles": [
+    "무제 파일.md",
+    "무제 폴더",
     "Context/spacesLastSync.log",
     "Context",
     "Obsidian_Private/test.md",
@@ -192,10 +210,8 @@
     "Private/Private.md",
     "Private/README.md",
     "Private/README.md.md",
-    "Private/Obsidian_Private",
     "Private/Protected/test_protected.md",
     "Private/Protected/Protected.md",
-    "Hello Obsidian",
     "Obsidian_Private/Protected/Protected.md",
     "Obsidian_Public/Hello Obsidian/Hello Obsidian.md",
     "Obsidian_Private/Protected/Protected.md.md",
@@ -206,7 +222,6 @@
     "Hello Obsidian/무제 파일.md",
     "Hello Obsidian/무제 파일 2.md",
     "무제 파일 1.md",
-    "무제 파일.md",
     "Hello Obsidian/파일명 변경.md",
     "Excalidraw/Drawing 2023-10-14 19.08.08.excalidraw.md",
     "Excalidraw/Drawing 2023-10-14 18.37.21.excalidraw.md",
