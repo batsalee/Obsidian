@@ -102,9 +102,7 @@
   "openFolders": [],
   "fileIcons": [],
   "cachedSpaces": [
-    "another_private",
-    "Hello Obsidian",
-    "Private"
+    "Public"
   ],
   "menuTriggerChar": "/",
   "inlineStickerMenu": false,
@@ -129,7 +127,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1697376785085,
+  "spacesAutoBackupLast": 1697377130423,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

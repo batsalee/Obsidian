@@ -11,8 +11,10 @@
             "id": "37ad657bac9ba23e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "make-folder-view",
+              "state": {
+                "contextPath": "Public//"
+              }
             }
           }
         ]
@@ -78,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -174,7 +176,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e375788b9f7f9984",
+  "active": "37ad657bac9ba23e",
   "lastOpenFiles": [
     "Obsidian_Private/Context/spacesLastSync.log",
     "Obsidian_Private/Context",
