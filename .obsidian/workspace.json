@@ -13,7 +13,7 @@
             "state": {
               "type": "make-folder-view",
               "state": {
-                "contextPath": "Private/Private"
+                "contextPath": "priv//"
               }
             }
           }
