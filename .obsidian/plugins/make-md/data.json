@@ -3,7 +3,7 @@
   "filePreviewOnHover": false,
   "flowMenuEnabled": true,
   "markSans": false,
-  "blinkEnabled": true,
+  "blinkEnabled": false,
   "makeMenuPlaceholder": true,
   "mobileMakeBar": true,
   "inlineStyler": true,
@@ -41,8 +41,8 @@
     "/",
     null,
     "Obsidian",
-    null,
-    "testSpace1"
+    "testSpace1",
+    null
   ],
   "expandFolderOnClick": true,
   "openFolders": [],
@@ -51,7 +51,7 @@
     "testSpace1"
   ],
   "menuTriggerChar": "/",
-  "inlineStickerMenu": true,
+  "inlineStickerMenu": false,
   "emojiTriggerChar": ":",
   "folderContextFile": "context",
   "tagContextFolder": "Context",
@@ -73,7 +73,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1697368335737,
+  "spacesAutoBackupLast": 1697369080139,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
