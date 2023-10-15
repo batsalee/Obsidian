@@ -41,13 +41,14 @@
     "/",
     null,
     "Obsidian",
-    null
+    null,
+    "testSpace1"
   ],
   "expandFolderOnClick": true,
   "openFolders": [],
   "fileIcons": [],
   "cachedSpaces": [
-    "Obsidian"
+    "testSpace1"
   ],
   "menuTriggerChar": "/",
   "inlineStickerMenu": true,
@@ -57,7 +58,7 @@
   "hiddenFiles": [
     "Context"
   ],
-  "lineNumbers": true,
+  "lineNumbers": false,
   "hiddenExtensions": [
     ".mdb"
   ],
@@ -72,7 +73,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1697367980586,
+  "spacesAutoBackupLast": 1697368294975,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

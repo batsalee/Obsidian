@@ -1,6 +1,1 @@
 Hello Obsidian
-
-```
-sf
-asf
-```
