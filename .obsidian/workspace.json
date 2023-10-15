@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hello Obsidian/무제 파일 1.md",
+                "file": "Hello Obsidian/Hello Obsidian.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Hello Obsidian/Hello Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Hello Obsidian/Hello Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Hello Obsidian/Hello Obsidian.md"
+              }
             }
           },
           {
@@ -178,31 +182,32 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b65cb230bf139573",
+  "active": "ebf891792a2af8c6",
   "lastOpenFiles": [
-    "Hello Obsidian/무제 파일 1.md",
+    "Persnal",
+    "새 폴더",
+    "Private",
+    "Protected",
+    "Public",
+    "새 텍스트 문서.txt",
     "Hello Obsidian/context.mdb",
+    "Hello Obsidian/무제 파일 1.md",
+    "Context/spacesLastSync.log",
+    "Context",
     "Hello Obsidian/무제 파일.md",
     "Hello Obsidian/Hello Obsidian.md",
     "Hello Obsidian/무제 파일 2.md",
     "무제 파일 1.md",
     "무제 파일.md",
-    "Context/spacesLastSync.log",
-    "Context",
     "Hello Obsidian/파일명 변경.md",
     "Hello Obsidian/파일명 변경",
     "Excalidraw/Drawing 2023-10-14 19.08.08.excalidraw.md",
     "Excalidraw",
-    "Obsidian",
     "Excalidraw/Drawing 2023-10-14 18.37.21.excalidraw.md",
-    "Second Obsidian",
-    "Hello Obsidian",
     "무제 파일.canvas",
     "첨부파일 폴더/Pasted image 20231014174143.png",
     "하위폴더/마크다운 사용법.md",
     "하위폴더/옵시디언 사용법.md",
-    "2023-10-14.md",
-    "첨부파일 폴더",
-    "하위폴더"
+    "2023-10-14.md"
   ]
 }

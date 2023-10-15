@@ -41,15 +41,13 @@
     "/",
     null,
     "Obsidian",
-    "testSpace1",
-    null
+    null,
+    "testSpace1"
   ],
   "expandFolderOnClick": true,
   "openFolders": [],
   "fileIcons": [],
-  "cachedSpaces": [
-    "testSpace1"
-  ],
+  "cachedSpaces": [],
   "menuTriggerChar": "/",
   "inlineStickerMenu": false,
   "emojiTriggerChar": ":",
@@ -73,7 +71,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1697369935969,
+  "spacesAutoBackupLast": 1697370589337,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
