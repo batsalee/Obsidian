@@ -11,11 +11,9 @@
             "id": "37ad657bac9ba23e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "make-folder-view",
               "state": {
-                "file": "Hello Obsidian/Hello Obsidian.md",
-                "mode": "source",
-                "source": false
+                "contextPath": "Private/Private"
               }
             }
           }
@@ -102,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hello Obsidian/Hello Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hello Obsidian/Hello Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +137,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Hello Obsidian/Hello Obsidian.md"
-              }
+              "state": {}
             }
           },
           {
@@ -185,8 +179,8 @@
   "active": "37ad657bac9ba23e",
   "lastOpenFiles": [
     "Private/Private.md",
-    "Private/README.md",
     "Hello Obsidian/Hello Obsidian.md",
+    "Private/README.md",
     "Private/README.md.md",
     "Private/Obsidian_Private",
     "Private/Protected/test_protected.md",

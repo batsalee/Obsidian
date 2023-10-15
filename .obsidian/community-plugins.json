@@ -4,8 +4,8 @@
   "oz-clear-unused-images",
   "obsidian-excalidraw-plugin",
   "recent-files-obsidian",
-  "obsidian-git",
   "obsidian-table-generator",
   "editing-toolbar",
-  "make-md"
+  "make-md",
+  "obsidian-git"
 ]

@@ -77,6 +77,12 @@
       "Private/Personal",
       "Private/Protected",
       "Public"
+    ],
+    "priv": [
+      "Private/Private",
+      "Private/Protected",
+      "Private/Personal",
+      "Private/Private"
     ]
   },
   "expandedSpaces": [
@@ -86,12 +92,14 @@
     "testSpace1",
     "as",
     "test",
-    null
+    null,
+    "priv"
   ],
   "expandFolderOnClick": true,
   "openFolders": [],
   "fileIcons": [],
   "cachedSpaces": [
+    "priv",
     "test"
   ],
   "menuTriggerChar": "/",
@@ -117,7 +125,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1697374874197,
+  "spacesAutoBackupLast": 1697375120285,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
