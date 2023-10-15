@@ -102,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hello Obsidian/무제 파일 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hello Obsidian/무제 파일 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +139,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Hello Obsidian/무제 파일 1.md"
-              }
+              "state": {}
             }
           },
           {
@@ -182,11 +178,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "37ad657bac9ba23e",
+  "active": "b65cb230bf139573",
   "lastOpenFiles": [
+    "Hello Obsidian/무제 파일 1.md",
+    "Hello Obsidian/context.mdb",
     "Hello Obsidian/무제 파일.md",
     "Hello Obsidian/Hello Obsidian.md",
-    "Hello Obsidian/무제 파일 1.md",
     "Hello Obsidian/무제 파일 2.md",
     "무제 파일 1.md",
     "무제 파일.md",
