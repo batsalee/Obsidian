@@ -11,8 +11,12 @@
             "id": "37ad657bac9ba23e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Hello Obsidian/무제 파일.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -77,7 +81,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -97,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Hello Obsidian/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Hello Obsidian/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Hello Obsidian/무제 파일.md"
+              }
             }
           },
           {
@@ -175,11 +184,11 @@
   },
   "active": "37ad657bac9ba23e",
   "lastOpenFiles": [
-    "Hello Obsidian/Hello Obsidian.md",
     "무제 파일.md",
+    "Hello Obsidian/무제 파일.md",
+    "Hello Obsidian/Hello Obsidian.md",
     "Context/spacesLastSync.log",
     "Context",
-    "Hello Obsidian/무제 파일.md",
     "Hello Obsidian/파일명 변경.md",
     "Hello Obsidian/파일명 변경",
     "Hello Obsidian/무제 파일 1.md",
