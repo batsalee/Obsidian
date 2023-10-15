@@ -19,7 +19,7 @@
   "hideFrontmatter": true,
   "activeSpace": "",
   "spacesCompactMode": false,
-  "defaultDateFormat": "MMM dd yyyy",
+  "defaultDateFormat": "yyyy-MM-dd",
   "spacesEnabled": true,
   "spacesPerformance": false,
   "collapsedTags": [],
@@ -64,7 +64,7 @@
   "inlineBacklinks": false,
   "inlineContext": true,
   "inlineBacklinksExpanded": false,
-  "inlineContextExpanded": false,
+  "inlineContextExpanded": true,
   "inlineContextSectionsExpanded": true,
   "dataviewInlineContext": false,
   "inlineContextNameLayout": "vertical",
@@ -72,7 +72,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1697367437867,
+  "spacesAutoBackupLast": 1697367622698,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
@@ -81,5 +81,5 @@
   "fmKeySticker": "sticker",
   "openSpacesOnLaunch": true,
   "indexSVG": false,
-  "readableLineWidth": false
+  "readableLineWidth": true
 }
