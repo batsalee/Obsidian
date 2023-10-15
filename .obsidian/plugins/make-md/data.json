@@ -79,7 +79,6 @@
       "Public"
     ],
     "priv": [
-      "Private/Private",
       "Private/Protected",
       "Private/Personal",
       "Private/Private"
