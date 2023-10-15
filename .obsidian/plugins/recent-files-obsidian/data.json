@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "Private/README.md"
-    },
-    {
       "basename": "Hello Obsidian",
       "path": "Hello Obsidian/Hello Obsidian.md"
+    },
+    {
+      "basename": "Private",
+      "path": "Private/Private.md"
+    },
+    {
+      "basename": "README",
+      "path": "Private/README.md"
     },
     {
       "basename": "test_protected",
