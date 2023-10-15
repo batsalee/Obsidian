@@ -93,14 +93,14 @@
     "as",
     "test",
     null,
-    "priv"
+    "priv",
+    "Hello Obsidian"
   ],
   "expandFolderOnClick": true,
   "openFolders": [],
   "fileIcons": [],
   "cachedSpaces": [
-    "priv",
-    "test"
+    "Hello Obsidian"
   ],
   "menuTriggerChar": "/",
   "inlineStickerMenu": false,
@@ -125,7 +125,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1697375338592,
+  "spacesAutoBackupLast": 1697375704168,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
