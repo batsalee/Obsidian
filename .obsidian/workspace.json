@@ -11,11 +11,9 @@
             "id": "37ad657bac9ba23e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "make-folder-view",
               "state": {
-                "file": "Obsidian_Private/test.md",
-                "mode": "source",
-                "source": false
+                "contextPath": "Private//"
               }
             }
           }
@@ -102,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian_Private/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian_Private/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +137,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Obsidian_Private/test.md"
-              }
+              "state": {}
             }
           },
           {
@@ -185,6 +179,8 @@
   "active": "37ad657bac9ba23e",
   "lastOpenFiles": [
     "Obsidian_Private/test.md",
+    "Obsidian_Private/Obsidian_Private/test.md",
+    "Obsidian_Private/Obsidian_Private",
     "Hello Obsidian/Hello Obsidian.md",
     "Obsidian_Private/test.txt",
     "Obsidian_Private/새 텍스트 문서.txt",
@@ -206,7 +202,6 @@
     "Obsidian_Private/Personal/Personal.md",
     "Obsidian_Private/Private/Private.md",
     "Obsidian_Public/Hello Obsidian",
-    "Obsidian_Public/Public",
     "Protected/Protected.md.md",
     "Hello Obsidian/무제 파일 1.md",
     "Hello Obsidian/무제 파일.md",
