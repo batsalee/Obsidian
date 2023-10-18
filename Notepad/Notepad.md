@@ -230,5 +230,44 @@ override한다고 썼는데 기반클래스에 what이 없어서 override�
 오버로딩이나 오버라이딩에 의한 동적바인딩 같은 상황
 
 
+## 12. cin 및 cin의 오류 관련
+#### cin
+cin의 4가지 상태
+- good : 입출력 작업이 가능할 때  
+- bad : 복구 불가능한 오류 발생시  
+- fail : 복구 가능한 오류 발생시  
+- eof : 입력 작업시에 EOF 도달시
+
+```c++
+if(std::cin.fail()) // cin 오류 발생시  
+{  
+	std::cin.clear(); // 플래그들을 초기화하고  
+	std::cin.ignore(100, '\0'); // '\0'이 나올때까지 무시  
+}
+```
+
+#### 입력형식 바꾸기
+setf함수를 사용
+setf함수는 인자를 1개 받는 경우와 2개 받는경우 2개가 있는데
+1개만 받는건 인자로 준 형식플래그 적용하는 것
+2개 받는건 두번째 인자의 내용을 초기화하고, 첫번째 인자를 적용하는 것
+
+입력값을 16진수 취급하게 하고 싶다면(ff입력시 255로, 123입력시 291로 취급)
+``std::cin.setf(ios_base::hex, ios_base::basefield);``
+
+또는 ``std::cin >> hex >> t;`` 처럼 써도 똑같게 됨
+여기서 hex같이 스트림을 바꿔주는 함수를 조작자라고 부름(위의 ios_base::hex와는 전혀 다른 것)
+
+hex외에도 boolalpha, left(왼쪽정렬), right(오른쪽정렬), endl, flush 등도 모두 조작자
+
+
+## 13. getline
+```C++
+getline(cin, buf); // \n까지 받음, string라이브러리  
+cin.getline(buf, bufsize, '+'); // +가 나올때까지 받음, iostream라이브러리
+```
+
 
 ## 짤짤이들
+
+- 파일입출력에서 출력으로 CSV파일형태로 하면 엑셀에서 열 수 있다. 필요할때 공부해보기
