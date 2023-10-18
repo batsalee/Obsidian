@@ -6,5 +6,6 @@
   "showUnsupportedFiles": false,
   "showInlineTitle": false,
   "propertiesInDocument": "visible",
-  "readableLineLength": false
+  "readableLineLength": false,
+  "autoPairMarkdown": false
 }

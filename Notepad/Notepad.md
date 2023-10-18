@@ -300,6 +300,7 @@ T add_num(T t)
 ```
 
 #### 가변길이 템플릿(Variadic template)
+C++ 11에 추가됨
 ``` C++
 #include <iostream>  
   
@@ -330,6 +331,42 @@ print(1, 3.1, "abc");를 호출하면
 그리고 나머지들은 args에 3.1과 "abc"로 들어감  
 그리고 print(args...);에 3.1과 "abc"가 들어가서 또 동작  
 재귀적으로 사용
+
+주의할점은 재귀적으로 사용되므로 반드시 재귀 종료를 위한 함수가 필요하고 그게 윗쪽에 선언된 print이며, 함수 작성된 순서도 당연히 윗쪽의 print가 먼저와야 오류가 발생하지 않음
+
+#### Fold
+C++ 17에 추가됨
+위의 방식은 재귀호출을 위한 베이스케이스가 필요하고 종료조건이 필요하니 코드가 더 복잡해 질 수 있음
+Fold를 쓰면 더 간단해짐
+``` C++
+#include <iostream>  
+  
+template <typename... Ints>  
+int sum_all(Ints... nums) {  
+  return (... + nums);  
+}  
+  
+int main() {  
+  // 1 + 4 + 2 + 3 + 10  
+  std::cout << sum_all(1, 4, 2, 3, 10) << std::endl;  
+}  
+``` 
+return (... + nums); 부분이 return ((((1 + 4) + 2) + 3) + 10); 처럼 해석됨  
+fold식은 반드시 (... + nums)처럼 괄호로 감싸야 한다
+
+※ 참고문서 : https://modoocode.com/290
+
+
+## 15. using
+
+C++ 11부턴 typedef보다 더 직관적인 using을 사용
+``typedef unsigned int UINT;``를 아래처럼
+``using UINT = unsigned int;`` 처럼 사용 가능
+
+타입 뿐 아니라 함수포인터도 
+``typedef void (*func)(int, int);`` 였다면
+``using func = void (*)(int, int);``로 사용 가능
+
 
 ## 짤짤이들
 
