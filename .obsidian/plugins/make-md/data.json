@@ -85,7 +85,8 @@
       "Private/Private"
     ],
     "Public": [
-      "Hello Obsidian"
+      "Hello Obsidian",
+      "Notepad"
     ]
   },
   "expandedSpaces": [
@@ -131,7 +132,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1697379043325,
+  "spacesAutoBackupLast": 1697632285283,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
