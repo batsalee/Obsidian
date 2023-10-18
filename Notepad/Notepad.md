@@ -268,6 +268,69 @@ cin.getline(buf, bufsize, '+'); // +가 나올때까지 받음, iostream�
 ```
 
 
+## 14. template함수
+1) 기본적인 형태의 template 함수
+	add_num(변수); 로 쓰면 알아서 변수 자료형에 맞게 처리해줌
+``` C++
+template <typename T>
+T add_num(T t)
+{
+	return t;
+}
+```
+
+2) template 인자 추가
+	아래 코드를 add_num<int, 5>(x); 처럼 사용하면 x+5를 리턴해줌
+```C++
+template <typename T, int num>  
+T add_num(T t)  
+{  
+	return t + num;  
+}
+```
+	
+디폴트인자도 추가 가능
+ 아래처럼 add_num(x);하면 알아서 5 더해서 리턴해줌
+``` C++
+template <typename T, int num = 5>  
+T add_num(T t)  
+{  
+	return t + num;  
+}
+```
+
+#### 가변길이 템플릿(Variadic template)
+``` C++
+#include <iostream>  
+  
+template <typename T>  
+void print(T arg) {  
+  std::cout << arg << std::endl;  
+}  
+  
+template <typename T, typename... Types>  
+void print(T arg, Types... args) {  
+  std::cout << arg << ", ";  
+  print(args...);  
+}  
+  
+int main() {  
+  print(1, 3.1, "abc");  
+  print(1, 2, 3, 4, 5, 6, 7);  
+}
+```
+위에서 ``template <typename T, typename... Types>``에서 ...을 템플릿 파라미터 팩이라고 부름
+0개 이상의 템플릿 인자들을 의미
+반면 ``void print(T arg, Types... args)``에서 ...은 함수 파라미터 팩이라고 부름
+0개 이상의 함수 파라미터를 의미
+
+파라미터팩은 추론된 인자를 제외한 나머지들을 나타내게 됨  
+print(1, 3.1, "abc");를 호출하면  
+첫번째 인자는 1이니 int로 사용되고 arg는 1로 처리됨  
+그리고 나머지들은 args에 3.1과 "abc"로 들어감  
+그리고 print(args...);에 3.1과 "abc"가 들어가서 또 동작  
+재귀적으로 사용
+
 ## 짤짤이들
 
 - 파일입출력에서 출력으로 CSV파일형태로 하면 엑셀에서 열 수 있다. 필요할때 공부해보기
