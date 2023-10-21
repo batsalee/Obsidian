@@ -569,6 +569,10 @@ sort : 일반적인 정렬 함수
 partial_sort : 배열의 일부분만 정렬함
 stable_sort : 정렬을 하되 원소들간의 순서를 보존함
 
+기본적으로 sort는 불안정정렬이고, 안정정렬이 필요하면 stable_sort를 사용하는 것
+불안정 정렬은 { 2, 2, 1, 3, 4}가 들어있다면 정렬 후 {1, 2, 2, 3, 4}가 되긴 하는데 두개의 2의 순서가 바뀔수도 안바뀔 수도 있는 것
+반면 안정 정렬은 두개의 2의 순서가 유지됨
+
 #### 함수객체와 람다함수
 1) 함수객체 형태
 ```C++
@@ -581,6 +585,15 @@ struct is_odd {
 struct comp {
 	return a > b;
 }
+```
+
+2) 람다함수 비교 조건문
+```C++
+//람다식 pred 부분에서 길이가 짧은 문자열이 앞에 오고 싶다면  
+if (a.length() == b.length()) return a < b;  
+return a.length() < b.length();  
+//형태로 구성해야 한다.  
+//그냥 a<b 하면 안되고 a.length() < b.length()
 ```
 
 #### erase와 remove
@@ -607,23 +620,29 @@ struct comp {
 두번째 매개변수 위치에 있던 값이 첫 위치로 간다는 뜻으로 
 v.begin() + 1이 첫 위치로 간다는것은 왼쪽으로 움직인다는 뜻
 
+#### lower_bound와 upper_bound
+```C++
+lower_bound(v.begin(), v.end(), 0) - v.begin() 
+// lower_bound는 x이상인 첫번째 원소의 위치 반환  
+upper_bound(v.begin(), v.end(), 0) - v.begin()
+// upper_bound는 x초과인 첫번째 원소의 위치 반환
+```
+
 #### 보이어-무어 알고리즘
 문자열에서 특정 문자열을 찾을때 find를 쓰는 방법도 있지만 보이어-무어 알고리즘을 사용하면 훨씬 빠르다.
 ```C++
-	std::string s =	"I believe I can fly I believe I can fly I believe I can fly (woo)";
+std::string s =	"I believe I can fly I believe I can fly I believe I can fly (woo)";
+std::string needle = "believe";
 
-	std::string needle = "believe";
+auto it = std::search(s.begin(), s.end(),
+		std::boyer_moore_searcher(needle.begin(), needle.end()));
 
-	auto it =
-		std::search(s.begin(), s.end(),
-				std::boyer_moore_searcher(needle.begin(), needle.end()));
-
-	if (it != s.end()) {
-		std::cout << needle << " found at " << std::distance(s.begin(), it)
-			  << std::endl;
-	} else {
-		std::cout << needle << " not found " << std::endl;
-	}
+if (it != s.end()) {
+	std::cout << needle << " at : " << std::distance(s.begin(), it) << std::endl;
+} 
+else {
+	std::cout << needle << " not found " << std::endl;
+}
 ```
 
 ## 짤짤이들
