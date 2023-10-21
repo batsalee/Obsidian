@@ -265,8 +265,8 @@ hex외에도 boolalpha, left(왼쪽정렬), right(오른쪽정렬), endl, flush 
 ## 13. getline
 ```C++
 getline(cin, buf); // \n까지 받음, string라이브러리  
-getline(cin, buf, '+'); // +가 나올때까지 받음, string라이브러리
-cin.getline(buf, bufsize, '+'); // +가 나올때까지 받음, iostream라이브러리
+getline(cin, buf, '+'); // + 바로 앞글자까지 받음, 뒷 문자열 다 잘림 string라이브러리
+cin.getline(buf, bufsize, '+'); // + 바로 앞글자까지 받음, iostream라이브러리
 ```
 
 
@@ -472,9 +472,44 @@ catch (const char* s) {
 	예를들면 생성자안에서 동적할당을 사용한다면 catch문에서 할당해제를 해줘야 함
 
 ## 17. stringstream
+```C++
+    string buffer; // 분리된 문자열을 넣는 버퍼
 
+    string str1 = "This is Test";
+    istringstream ss1(str1);
+    while (getline(ss1, buffer, ' ')) { // 띄어쓰기를 기준으로 분리
+        cout << buffer << endl;
+    }
 
+    string str2 = "AB/CDE/DFDG/ASCD";
+    istringstream ss2(str2);
+    while (getline(ss2, buffer, '/')) { // '/'을 기준으로 분리
+        cout << buffer << endl;
+    }
+```
 
+```C++
+	string name;
+	int birth;
+	bool on;
+
+	string temp = "mike 1105 1";
+	stringstream ss;
+	ss.str(temp);
+	ss >> name >> birth >> on;
+
+	cout << name << endl << birth << endl << on;
+	
+	//////////////////////////////////////////
+
+	// 갯수가 정해져있다면 이런식으로도 가능
+	istringstream ss(input);
+	string split[3]; 
+	for (int i = 0; i < 3; i++) {  
+		getline(ss, split[i], '/'); 
+		cout << spolit[i];
+	}
+```
 ## 짤짤이들
 
 - 파일입출력에서 출력으로 CSV파일형태로 하면 엑셀에서 열 수 있다. 필요할때 공부해보기
