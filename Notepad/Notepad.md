@@ -265,6 +265,7 @@ hex외에도 boolalpha, left(왼쪽정렬), right(오른쪽정렬), endl, flush 
 ## 13. getline
 ```C++
 getline(cin, buf); // \n까지 받음, string라이브러리  
+getline(cin, buf, '+'); // +가 나올때까지 받음, string라이브러리
 cin.getline(buf, bufsize, '+'); // +가 나올때까지 받음, iostream라이브러리
 ```
 
@@ -469,6 +470,9 @@ catch (const char* s) {
 	생성자는 완벽하게 생성과정을 마치고 생성자를 끝내지 않으면 객체가 생성되지 않았다고 판단하고 소멸자도 호출하지 않음
 	그러니 이런 경우 생성자 안에서 예외를 던지는 경우 catch문으로잘 처리해줘야 함
 	예를들면 생성자안에서 동적할당을 사용한다면 catch문에서 할당해제를 해줘야 함
+
+## 17. stringstream
+
 
 
 ## 짤짤이들
