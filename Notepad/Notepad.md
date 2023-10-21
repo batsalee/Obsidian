@@ -587,7 +587,22 @@ struct comp {
 }
 ```
 
-2) 람다함수 비교 조건문
+2) 람다함수
+```C++
+sort(numlist.begin(), numlist.end(),  
+	[n](const auto& a, const auto& b) -> bool  
+	{ 
+		if(abs(a-n) == abs(b-n)) return a > b;  
+		else return abs(a-n) < abs(b-n); 
+	}  
+);  
+/*
+위처럼 사용할때 return a > b처럼 앞이 크게 리턴하면 큰게 앞으로 가는 내림차순 정렬
+return abs(a-n) < abs(b-n);처럼 뒤가 크게 하면 절대값이 더 큰게 뒤로가는 오름차순 정렬
+*/
+```
+
+3) 람다함수 비교 조건문
 ```C++
 //람다식 pred 부분에서 길이가 짧은 문자열이 앞에 오고 싶다면  
 if (a.length() == b.length()) return a < b;  
@@ -619,6 +634,9 @@ return a.length() < b.length();
 매개변수는 (시작반복자, 첫 위치로 올 반복자, 종료 반복자)순이며 
 두번째 매개변수 위치에 있던 값이 첫 위치로 간다는 뜻으로 
 v.begin() + 1이 첫 위치로 간다는것은 왼쪽으로 움직인다는 뜻
+
+#### swap
+``swap(a, b);`` 혹은 ``swap(객체, 객체);
 
 #### lower_bound와 upper_bound
 ```C++
@@ -654,6 +672,16 @@ bitset같은걸로 2진수 만들때 유용할 듯
 s.remove_prefix(std::min(s.find_first_not_of("0"), s.size())); 
 // 맨 뒤는  
 s.remove_suffix(std::min(s.size() - s.find_last_not_of("0") - 1, s.size()));
+```
+
+#### accumulate
+이건 사실 ``#include <algorithm>``이 아니라 ``#include <numeric>``인데 일단 여기 같이 적어둠
+```C++
+#include <numeric>  
+int sum = std::accumulate(v.begin(), v.end(), 0);  
+// 첫번째, 두번째 인자는 어디부터 어디까지  
+// 3번째 인자는 sum값의 초기값  
+// 만약 sum이 double이면 0.0으로 적어주면 됨
 ```
 
 ## 짤짤이들
@@ -692,3 +720,18 @@ bool is_primenumber(int n)
 	return true;
 }
 ```
+
+- isdigit 사용할때 매번 이상했던 점 해결  
+``if(isdigit(*part.c_str()))``
+isdigit은 인자로 char변수를 받아야 함 , 즉 문자 한개만 받아서 그게 숫자인지 아닌지 판별함  
+근데 안에 string을 넣으니 일단 문제가 계속 생겼었고  해결법으로 c_str()로 string to char을 하려고 했지만 c_str()의 결과물은 char가 아니라 char*였음  
+그러니 char포인터 안에 있는 값인 char값을 빼오려면 *변수.c_str()을 해야 했음
+
+- *2나 /2를 여러번 반복해야 하는 경우 쉬프트연산을 떠올리기
+10 << 1; 하면 그냥 20이 되고  
+10 << 2; 하면 10 * 2 를 2번해서 40이 된다  
+10 >> 1; 은 5가 되고  
+10 >> 2; 는 2.5가 되는 것
+
+- ``cout << string(10, '*');``하면 * 10개 출력 가능
+
