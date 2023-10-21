@@ -627,6 +627,8 @@ lower_bound(v.begin(), v.end(), 0) - v.begin() 
 upper_bound(v.begin(), v.end(), 0) - v.begin()
 // upper_bound는 x초과인 첫번째 원소의 위치 반환
 ```
+또한 upper_bound 결과 - lower_bound 결과로 값의 갯수를 알 수 있다.
+만약 count를 사용한다면 for문 돌리는 효과라 O(N)이지만 위의 이분탐색 함수를 사용하면 O(logN)
 
 #### 보이어-무어 알고리즘
 문자열에서 특정 문자열을 찾을때 find를 쓰는 방법도 있지만 보이어-무어 알고리즘을 사용하면 훨씬 빠르다.
@@ -643,6 +645,15 @@ if (it != s.end()) {
 else {
 	std::cout << needle << " not found " << std::endl;
 }
+```
+
+#### 문자열 맨 앞 또는 맨 뒤의 연속된 값 지우기
+bitset같은걸로 2진수 만들때 유용할 듯
+```C++ 
+// 문자열에서 맨 앞의 연속된 0을 지우고 싶다면   
+s.remove_prefix(std::min(s.find_first_not_of("0"), s.size())); 
+// 맨 뒤는  
+s.remove_suffix(std::min(s.size() - s.find_last_not_of("0") - 1, s.size()));
 ```
 
 ## 짤짤이들
@@ -668,3 +679,16 @@ else {
 항상 생각해야한다
 
 - 0은 int형 0으로 취급, 0LL은 long long형 0으로 취급
+
+- 소수 판별할땐 N - 1까지 확인이 아니라 sqrt(N)까지만 확인하면 된다.
+```C++
+bool is_primenumber(int n)
+{
+	if (n < 2) return false;
+
+	for (int i = 2; i <= sqrt(n); i++) {
+		if (n % i == 0) return false;
+	}
+	return true;
+}
+```
