@@ -551,6 +551,33 @@ string에도 push_back(), pop_back(), back()으로 마지막글자 가져�
 반면 부동소수점이 아닌 고정 소수점의 경우 123.456789가 있으면 123과 456789를 저장한다.
 그래서 부동소수점에 비해 상대적으로 작은 값만 보관할 수 있지만 정확도는 더 높아지게 된다.
 
+## 21. ``#include <algorithm>``
+
+#### 정렬
+sort : 일반적인 정렬 함수
+partial_sort : 배열의 일부분만 정렬함
+stable_sort : 정렬을 하되 원소들간의 순서를 보존함
+
+#### 함수객체와 람다함수
+1) 함수객체 형태
+```C++
+struct is_odd {
+	bool operator()(const int& i) { return i % 2 == 1; }
+}
+
+또는
+
+struct comp {
+	return a > b;
+}
+```
+
+#### erase와 remove
+``vec.erase(remove(vec.begin(), vec.end(), 3), vec.end()); => vec에 있는 모든 3 제거``
+
+#### transform
+
+
 
 ## 짤짤이들
 
@@ -568,3 +595,9 @@ string에도 push_back(), pop_back(), back()으로 마지막글자 가져�
 단 꼭 정렬되어있는 경우에만 사용  
   
 - 전역변수와 정적변수는 저절로 0으로 초기화된다.
+
+- 나눗셈은 특별하다. 나눗셈 누를때마다 항상 이 생각이 저절로 들어야한다  
+1) 0으로 나누고 있진 않은가  
+2) 나눈 결과가 소수라서 데이터소실이 있지는 않은가  
+항상 생각해야한다
+
