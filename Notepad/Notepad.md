@@ -472,6 +472,7 @@ catch (const char* s) {
 	예를들면 생성자안에서 동적할당을 사용한다면 catch문에서 할당해제를 해줘야 함
 
 ## 17. stringstream
+
 ```C++
     string buffer; // 분리된 문자열을 넣는 버퍼
 
@@ -509,6 +510,16 @@ catch (const char* s) {
 		getline(ss, split[i], '/'); 
 		cout << spolit[i];
 	}
+```
+
+```C++
+// 입력 형태가 무조건 고정되어 있다면
+// 예를들어 10 + 20 = 30 처럼 "숫자 연산기호 숫자 등호 결과" 순으로 고정이라면
+
+stringstream ss;
+ss.str(s);
+ss >> a >> op >> b >> eq >> c;
+// 위처럼 아예 고정해버리고 시작하면 쉽다.
 ```
 
 ## 18. 재귀
@@ -576,8 +587,44 @@ struct comp {
 ``vec.erase(remove(vec.begin(), vec.end(), 3), vec.end()); => vec에 있는 모든 3 제거``
 
 #### transform
+컨테이너 내의 모든 값에대한 변경은 for문 돌리는것보다 transform을 먼저 떠올리자
 
+#### any_of / all_of
+둘의 존재를 잊지 않기
 
+#### reverse
+``reverse(vec.begin(), vec.end());``
+{1, 2, 3, 4, 5}가 들어있던 vec을 reverse하면 {5, 4, 3, 2, 1}이 된다.
+
+``reverse(str.begin(), str.end());``
+또한 문자열 뒤집기도 가능
+
+#### rotate
+벡터의 값들을 한칸씩 옮기며 회전시킴
+``rotate(v.begin(), v.begin() + 1, v.end()); // 한칸씩 왼쪽 이동``
+``rotate(v.begin(), v.end() - 1, v.end()); // 한칸씩 오른쪽 이동``
+매개변수는 (시작반복자, 첫 위치로 올 반복자, 종료 반복자)순이며 
+두번째 매개변수 위치에 있던 값이 첫 위치로 간다는 뜻으로 
+v.begin() + 1이 첫 위치로 간다는것은 왼쪽으로 움직인다는 뜻
+
+#### 보이어-무어 알고리즘
+문자열에서 특정 문자열을 찾을때 find를 쓰는 방법도 있지만 보이어-무어 알고리즘을 사용하면 훨씬 빠르다.
+```C++
+	std::string s =	"I believe I can fly I believe I can fly I believe I can fly (woo)";
+
+	std::string needle = "believe";
+
+	auto it =
+		std::search(s.begin(), s.end(),
+				std::boyer_moore_searcher(needle.begin(), needle.end()));
+
+	if (it != s.end()) {
+		std::cout << needle << " found at " << std::distance(s.begin(), it)
+			  << std::endl;
+	} else {
+		std::cout << needle << " not found " << std::endl;
+	}
+```
 
 ## 짤짤이들
 
@@ -601,3 +648,4 @@ struct comp {
 2) 나눈 결과가 소수라서 데이터소실이 있지는 않은가  
 항상 생각해야한다
 
+- 0은 int형 0으로 취급, 0LL은 long long형 0으로 취급
