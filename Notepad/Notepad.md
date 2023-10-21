@@ -674,6 +674,13 @@ s.remove_prefix(std::min(s.find_first_not_of("0"), s.size())); 
 s.remove_suffix(std::min(s.size() - s.find_last_not_of("0") - 1, s.size()));
 ```
 
+#### inner_product
+`` int result = inner_product(v1.begin(), v1.end(), v2.begin(), 0);``
+v2의 size는 v1의 size보다 크거나 같아야 함
+함수의 기능은 ``v1[0] * v2[0] + v1[1] * v2[1] * ... + v1[10] * v2[10]``
+처럼 같은 위치의 값들을 곱한 후 그 값들을 다 더해주는 것
+
+
 #### accumulate
 이건 사실 ``#include <algorithm>``이 아니라 ``#include <numeric>``인데 일단 여기 같이 적어둠
 ```C++
