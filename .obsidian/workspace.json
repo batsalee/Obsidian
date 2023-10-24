@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -182,7 +182,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d9e92520d1555008",
+  "active": "e375788b9f7f9984",
   "lastOpenFiles": [
     "C++/Modern C++/Library/thread.md",
     "C++/Modern C++/Modern C++.md",
