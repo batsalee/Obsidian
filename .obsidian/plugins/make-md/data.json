@@ -93,10 +93,7 @@
       "C++/STL/Container/연관 컨테이너",
       "C++/STL/Container/연관 컨테이너",
       "C++/STL/Container/연관 컨테이너",
-      "C++/STL",
-      "C++/STL/Iteraoter",
-      "C++/STL/Algorithm",
-      "C++/STL/Algorithm"
+      "C++/Modern C++"
     ]
   },
   "expandedSpaces": [
@@ -142,7 +139,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1698189580235,
+  "spacesAutoBackupLast": 1698190304639,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

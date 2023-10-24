@@ -1,5 +1,4 @@
 # Today_Study 정리하기
----
 
 ## 1. stoi 사용 시 core dump 오류
 
