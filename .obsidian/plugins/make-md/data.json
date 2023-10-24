@@ -87,15 +87,16 @@
     "Public": [
       "Hello Obsidian",
       "Notepad",
-      "C++/STL",
       "C++",
       "C++",
-      "C++/STL",
-      "C++/STL/Container",
       "C++/STL/Container/시퀀스 컨테이너",
       "C++/STL/Container/연관 컨테이너",
       "C++/STL/Container/연관 컨테이너",
-      "C++/STL/Container/연관 컨테이너"
+      "C++/STL/Container/연관 컨테이너",
+      "C++/STL",
+      "C++/STL/Iteraoter",
+      "C++/STL/Algorithm",
+      "C++/STL/Algorithm"
     ]
   },
   "expandedSpaces": [
@@ -141,7 +142,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1698188888046,
+  "spacesAutoBackupLast": 1698189580235,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

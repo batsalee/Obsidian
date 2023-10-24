@@ -795,3 +795,10 @@ isdigit은 인자로 char변수를 받아야 함 , 즉 문자 한개만 �
 10 >> 2; 는 2.5가 되는 것
 
 - ``cout << string(10, '*');``하면 * 10개 출력 가능
+
+* range based for는   
+기본적으로  
+for(int v : vec)  
+cout << v;  
+이런 형태겠지만 vec을 v로 복사할 필요 없이 참조만 하는 경우는  
+for(const int& v : vec) 처럼 쓰는게 더 좋다  
