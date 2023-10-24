@@ -7,5 +7,6 @@
   "showInlineTitle": false,
   "propertiesInDocument": "visible",
   "readableLineLength": false,
-  "autoPairMarkdown": false
+  "autoPairMarkdown": false,
+  "spellcheck": false
 }
