@@ -36,12 +36,18 @@
   "deleteFileOption": "system-trash",
   "expandedFolders": {
     "Obsidian": [
-      "Protected",
       "Private",
       "Private/Protected",
       "Public",
       "Hello Obsidian",
-      "Hello Obsidian"
+      "Hello Obsidian",
+      "Notepad",
+      "C++",
+      "C++/Modern C++",
+      "C++/STL",
+      "C++/STL/Container",
+      "C++/Modern C++/Library",
+      "Protected"
     ],
     "as": [
       "Hello Obsidian",
@@ -95,7 +101,8 @@
       "C++/STL/Container/연관 컨테이너",
       "C++/Modern C++",
       "C++/Modern C++/Library",
-      "C++/Modern C++/Library"
+      "C++/Modern C++/Library",
+      "C++/STL"
     ]
   },
   "expandedSpaces": [
@@ -109,14 +116,13 @@
     "Hello Obsidian",
     "Private",
     "another_private",
-    "Public",
     null
   ],
   "expandFolderOnClick": true,
   "openFolders": [],
   "fileIcons": [],
   "cachedSpaces": [
-    "Public"
+    "Obsidian"
   ],
   "menuTriggerChar": "/",
   "inlineStickerMenu": false,
@@ -141,7 +147,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1698190562964,
+  "spacesAutoBackupLast": 1698191377960,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

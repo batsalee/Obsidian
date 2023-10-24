@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "thread",
-      "path": "C++/Modern C++/Library/thread.md"
+      "basename": "Protected",
+      "path": "Protected/Protected.md"
+    },
+    {
+      "basename": "Notepad",
+      "path": "Notepad/Notepad.md"
+    },
+    {
+      "basename": "Hello Obsidian",
+      "path": "Hello Obsidian/Hello Obsidian.md"
     },
     {
       "basename": "Modern C++",
       "path": "C++/Modern C++/Modern C++.md"
     },
     {
-      "basename": "Notepad",
-      "path": "Notepad/Notepad.md"
+      "basename": "thread",
+      "path": "C++/Modern C++/Library/thread.md"
     },
     {
       "basename": "Algorithm",
@@ -79,10 +87,6 @@
     {
       "basename": "forward_list",
       "path": "C++/STL/Container/시퀀스 컨테이너/forward_list.md"
-    },
-    {
-      "basename": "Hello Obsidian",
-      "path": "Hello Obsidian/Hello Obsidian.md"
     },
     {
       "basename": "private_test",
