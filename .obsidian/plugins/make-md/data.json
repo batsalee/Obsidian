@@ -93,7 +93,9 @@
       "C++/STL/Container/연관 컨테이너",
       "C++/STL/Container/연관 컨테이너",
       "C++/STL/Container/연관 컨테이너",
-      "C++/Modern C++"
+      "C++/Modern C++",
+      "C++/Modern C++/Library",
+      "C++/Modern C++/Library"
     ]
   },
   "expandedSpaces": [
@@ -139,7 +141,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1698190304639,
+  "spacesAutoBackupLast": 1698190562964,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
