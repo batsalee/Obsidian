@@ -1,24 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "1-1. 시퀀스 컨테이너",
-      "path": "C++/STL/Container/시퀀스 컨테이너/1-1. 시퀀스 컨테이너.md"
+      "basename": "시퀀스 컨테이너",
+      "path": "C++/STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
     },
     {
-      "basename": "1. Container",
-      "path": "C++/STL/Container/1. Container.md"
+      "basename": "Container",
+      "path": "C++/STL/Container/Container.md"
     },
     {
-      "basename": "0. STL",
-      "path": "C++/STL/0. STL.md"
+      "basename": "vector",
+      "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
+    },
+    {
+      "basename": "list",
+      "path": "C++/STL/Container/시퀀스 컨테이너/list.md"
+    },
+    {
+      "basename": "deque",
+      "path": "C++/STL/Container/시퀀스 컨테이너/deque.md"
+    },
+    {
+      "basename": "연관 컨테이너",
+      "path": "C++/STL/Container/연관 컨테이너/연관 컨테이너.md"
+    },
+    {
+      "basename": "STL",
+      "path": "C++/STL/STL.md"
     },
     {
       "basename": "Notepad",
       "path": "Notepad/Notepad.md"
-    },
-    {
-      "basename": "1-2. 연관 컨테이너",
-      "path": "C++/STL/Container/연관 컨테이너/1-2. 연관 컨테이너.md"
     },
     {
       "basename": "3. Algorithm",
