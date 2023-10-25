@@ -171,6 +171,48 @@ printf("A의 값은 : %d B의 값은 : %d C의 값은 : %d\n", a, b, c);
 ## 경쟁상태
 여러 쓰레드들은 같은 메모리에 접근할 수 있음  
 만약 현재 접속중인 유저의 수를 저장하는 user_count 변수에 10이 들어있을 때  
-Thread 1이 `user_count += 1`을 하기 위해 user_count값을 얻어왔는데 + 1을 하기 직전   Thread 2로 교체가 됐고 Thread 2도 마찬가지로  `user_count += 1`을 수행한다면  
+Thread 1이 `user_count += 1`을 하기 위해 user_count값을 얻어왔는데 + 1을 하기 직전  
+Thread 2로 교체가 됐고 Thread 2도 마찬가지로  `user_count += 1`을 수행한다면  
+Thread 1의 결과는 11이고, Thread 2의 결과도 11이므로  
 user_count는 12가 되어야 정상이지만 11로 저장될 수 있음  
 
+즉 문제가 일어나지 않으려면 `user_count += 1;`을 동시에 여러 쓰레드가 접근할 수 없게 해야 함  
+
+#### 뮤텍스(mutex)
+경쟁상태를 해결하기 위해 뮤텍스 객체를 사용함  
+mutex란 상호 배제(mutual exclusion)이라는 단어에서 따옴
+```C++
+#include <mutex>  // mutex 를 사용하기 위해 필요
+#include <thread>
+
+void user(int& result, std::mutex& m) {
+	m.lock();
+	result += 1;
+	m.unlock();	
+}
+
+int main() {
+	int user_count = 0;
+	std::mutex m;  // 우리의 mutex 객체
+
+	std::thread t1(user, std::ref(user_count), std::ref(m));
+	t1.join();
+
+	std::thread t2(user, std::ref(user_count), std::ref(m));
+	t2.join();
+
+	std::cout << "user_count 최종 값 : " << user_count << '\n';
+}
+```
+위처럼 mutex 객체를 이용해 lock해주고 하나의 thread만 사용 후 unlock해주는 구조로 사용  
+
+```C++
+m.lock();
+result += 1;
+m.unlock();	
+```
+위에서 m.lock()과 m.unlock()으로 감싸진 부분을 임계 영역(critical section)이라고 부르며  
+한개의 쓰레드만이 접근 가능함
+
+만약 unlock()을 빼먹으면 모든 쓰레드가 먼저 들어간 쓰레드를 기다리기만 하고 아무 연산도 못하다가 프로그램이 죽어버림  
+이런 상황을 데드락(deadlock)이라고 부름
