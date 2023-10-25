@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Protected/ignore test.md",
+                "file": "Protected/Protected.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Protected/ignore test.md",
+                "file": "Protected/Protected.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Protected/ignore test.md",
+                "file": "Protected/Protected.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Protected/ignore test.md"
+                "file": "Protected/Protected.md"
               }
             }
           },
@@ -184,8 +184,8 @@
   },
   "active": "d9e92520d1555008",
   "lastOpenFiles": [
-    "Protected/Protected.md",
     "Protected/ignore test.md",
+    "Protected/Protected.md",
     "새 텍스트 문서.txt",
     "Notepad/Notepad.md",
     "Hello Obsidian/Hello Obsidian.md",
