@@ -216,3 +216,26 @@ m.unlock();
 
 만약 unlock()을 빼먹으면 모든 쓰레드가 먼저 들어간 쓰레드를 기다리기만 하고 아무 연산도 못하다가 프로그램이 죽어버림  
 이런 상황을 데드락(deadlock)이라고 부름
+
+그런데 코드가 많이 길어진다면 마치 동적할당 후 free를 빼먹는 것 처럼  
+프로그래머의 실수로 unlock()을 빼먹는 상황이 생길 수도 있음  
+그런 이유로 뮤텍스토 unique_ptr처럼 사용 후 해제 패턴을 따르기 위해  
+lock_guard를 사용 가능함
+
+```C++
+void user(int& result, std::mutex& m) {
+	std::lock_guard<std::mutex> lock(m);
+	result += 1;
+}
+```
+위 코드처럼 사용하면 scope를 빠져 나가면서 lock객체가 소멸되므로  
+lock_guard클래스의 소멸자가 호출되고 해당 소멸자에 unlock이 있어서 알아서 unlock됨  
+
+#### 데드락
+데드락 상황을 만들지 않기 위한 법칙들
+
+try_lock() 함수
+`if(m1.try_lock())`는 만약 m1이 lock을 할 수 있다면 lock을 하고 true를 리턴하고    
+lock을 할 수 없다면 대기하지 않고 그대로 false를 리턴한다.  
+이 함수를 이용해서false가 리턴된다면 다른 뮤텍스를 unlock시켜버리는 방식으로 특정 뮤텍스에 우선권을 줄 수 있음  
+
