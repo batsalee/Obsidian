@@ -307,4 +307,70 @@ int main()
 소비자는 위 코드처럼 할 일이 있는지 확인하고 없다면 대기한다.  
 대기 후 다시 할 일이 있는지 확인하고 또 없으면 대기한다.  
 
-하지만 위와 같은 방법은 
+하지만 위와 같은 방법은 consumer가 할 일이 없어도 계속 할 일이 있는지 확인하느라  
+다른 쓰레드들이 CPU를 사용할 시간에 consumer가 CPU를 사용하게 되므로 비효율적이다.  
+
+그러므로 아예 consumer는 대기하지 않고 그냥 재워둔 후 할 일이 생기면 알려주는 것이 좋다.  
+C++에선 이런 형태로 생산자 소비자 패턴을 구현하기 위해 여러 도구들을 제공한다.  
+
+#### condition_variable
+위 코드에서 downloaded_pages->empty()가 아닐때까지 자고 있으라는 명령을 내리고 싶다면  
+조건변수(condition_variable)을 사용해서 해결할 수 있다.  
+```C++
+#include <chrono>              // std::chrono::miliseconds
+#include <condition_variable>  // std::condition_variable
+#include <mutex>
+#include <thread>
+
+void producer(std::queue<std::string>* downloaded_pages, std::mutex* m,
+              int index, std::condition_variable* cv) 
+{
+    // data 는 쓰레드 사이에서 공유되므로 critical section 에 넣어야 한다.
+    m->lock();
+    downloaded_pages->push(content); // 페이지를 긁어와서 저장
+    m->unlock();
+
+    // consumer 에게 content 가 준비되었음을 알린다.
+    cv->notify_one();
+  }
+}
+
+void consumer(std::queue<std::string>* downloaded_pages, std::mutex* m,
+              int* num_processed, std::condition_variable* cv) {
+  while (...) {
+    std::unique_lock<std::mutex> lk(*m);
+
+    cv->wait(
+        lk, [&] { return !downloaded_pages->empty() || *num_processed == 25; });
+	// 매개변수 값이 참이될때까지 wait한다
+
+    if (*num_processed == 25) {
+      lk.unlock();
+      return;
+    }
+
+    // 맨 앞의 페이지를 읽고 대기 목록에서 제거한다.
+    std::string content = downloaded_pages->front();
+    downloaded_pages->pop();
+
+    (*num_processed)++;
+    lk.unlock();
+
+    // content 를 처리한다.
+    std::cout << content;
+    std::this_thread::sleep_for(std::chrono::milliseconds(80));
+  }
+}
+
+int main() {
+	std::mutex m;
+	std::condition_variable cv;
+
+	std::thread t1(producer, ..., &cv);
+	t1.join();
+
+	std::thread t2(consumer, ..., &cv);
+	cv.notify_all(); // 나머지 자고 있는 쓰레드들을 모두 깨운다.
+	t2.join();
+}
+```
