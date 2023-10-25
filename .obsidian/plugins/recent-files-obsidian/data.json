@@ -1,24 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Hello Obsidian",
-      "path": "Hello Obsidian/Hello Obsidian.md"
+      "basename": "thread",
+      "path": "C++/Modern C++/Library/thread.md"
     },
     {
-      "basename": "Protected",
-      "path": "Protected/Protected.md"
+      "basename": "마크다운 문법 정리",
+      "path": "Hello Obsidian/마크다운 문법 정리.md"
     },
     {
       "basename": "Notepad",
       "path": "Notepad/Notepad.md"
     },
     {
-      "basename": "Modern C++",
-      "path": "C++/Modern C++/Modern C++.md"
+      "basename": "Protected",
+      "path": "Protected/Protected.md"
     },
     {
-      "basename": "thread",
-      "path": "C++/Modern C++/Library/thread.md"
+      "basename": "Hello Obsidian",
+      "path": "Hello Obsidian/Hello Obsidian.md"
+    },
+    {
+      "basename": "Modern C++",
+      "path": "C++/Modern C++/Modern C++.md"
     },
     {
       "basename": "Algorithm",
