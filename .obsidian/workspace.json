@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -184,8 +184,9 @@
   },
   "active": "d9e92520d1555008",
   "lastOpenFiles": [
-    "Protected/Protected.md",
+    "^asd.md",
     "Hello Obsidian/Hello Obsidian.md",
+    "Protected/Protected.md",
     "Protected/ignore test.md",
     "새 텍스트 문서.txt",
     "Notepad/Notepad.md",
@@ -216,7 +217,6 @@
     "C++/STL/Container/시퀀스 컨테이너/list.md",
     "C++/STL/Container/시퀀스 컨테이너/forward_list.md",
     "C++/STL/Container/연관 컨테이너",
-    "C++/STL/Container/무제 파일.md",
     "C++/STL/Container/시퀀스 컨테이너",
     "C++/STL/Container",
     "C++/STL",
