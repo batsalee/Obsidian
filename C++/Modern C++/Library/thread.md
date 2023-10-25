@@ -225,6 +225,13 @@ void user(int& result, std::mutex& m) {
 ```
 위 코드처럼 사용하면 scope를 빠져 나가면서 lock객체가 소멸되므로  
 lock_guard클래스의 소멸자가 호출되고 해당 소멸자에 unlock이 있어서 알아서 unlock됨  
+또는 lock_guard가 아니라 unique_lock객체도 사용 가능
+```C++
+std::unique_lock<std::mutex> ul(*m);
+```
+lock_guard는 생성자만 lock을 할 수 있는 반면 unique_lock은 unlock 이후에 다시 lock을 할 수 있음  
+그 외에는 거의 동일한 기능을 하는데 condition_variable이 인자로 unique_lock을 인자로 받으니  
+condition_variable을 사용한다면 unique_lock을 사용해야 함  
 
 #### 데드락
 데드락 상황을 만들지 않기 위한 법칙들
@@ -258,3 +265,46 @@ lock을 할 수 없다면 대기하지 않고 그대로 false를 리턴한다.
 생산자는 페이지를 긁어오는 쓰레드이고  
 소비자는 긁어온 페이지를 분석하는 쓰레드의 역할을 의미한다.  
 
+```C++
+#include <chrono>
+#include <mutex>
+#include <thread>
+
+void producer(...)
+{
+	// 웹 페이지를 긁어오는 코드
+}
+
+void consumer(...)
+{
+	while(~~~) {
+		m->lock();
+		if(downloaded_pages->empty()) {
+			m->unlock(); // 할일이 없으니 다시 unlock
+
+			std::this_thread::sleep_for(std::chrono::milliseconds(10));
+			// 10ms 대기 후 다시 확인하도록
+			continue;
+		}
+		else {
+			// 페이지를 분석하는 코드
+			m->unlock(); // 다 끝나면 unlock
+		}
+	}
+}
+
+int main()
+{
+	std::mutex m;
+
+	std::thread t1(producer, ...);
+	t1.join();
+
+	std::thread t2(consumer, ...);
+	t2.join();
+}
+```
+소비자는 위 코드처럼 할 일이 있는지 확인하고 없다면 대기한다.  
+대기 후 다시 할 일이 있는지 확인하고 또 없으면 대기한다.  
+
+하지만 위와 같은 방법은 
