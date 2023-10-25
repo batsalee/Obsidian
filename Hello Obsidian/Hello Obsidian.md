@@ -109,7 +109,7 @@ __텍스트__
 
 ## 7. 이미지(Images)
 
-이미지 삽입
+이미지 삽입 및 이미지 크기 조정
 
 `![이미지 설명](이미지 URL)`
 ```
@@ -119,9 +119,16 @@ __텍스트__
 ![위키피디아 흑요석](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/ObsidianOregon.jpg/360px-ObsidianOregon.jpg)
 
 단, 일반적인 마크다운 문법으로 이미지를 올리면 사진의 크기조절이 불가능하다.
-옵시디언에서만 적용 가능한 이미지 크기 조절 문법이 있지만(하단에 작성)
+옵시디언에서만 적용 가능한 이미지 크기 조절 문법이 있지만
 다른 플랫폼에서 이미지의 크기를 조절하려면 HTML 태그를 사용해야 한다.
 `<img src="https://url/image.png" width="50" height="50">`
+
+옵시디언에서만 적용 가능한 이미지 크기 조절 방법은
+`![이미지 설명|가로x세로](이미지 URL)`로 구현한다.
+```
+![위키피디아 흑요석|100x100](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/ObsidianOregon.jpg/360px-ObsidianOregon.jpg)
+```
+![위키피디아 흑요석|100x100](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/ObsidianOregon.jpg/360px-ObsidianOregon.jpg)
 
 
 ## 8. 인용구
@@ -273,10 +280,21 @@ Tab을 누르면 오른쪽으로 열이 추가됨
 - [x] 이미 완료한 할 일
 
 
-## 3. 사진 크기 조절
+## 3. 이미지 크기 조절
 
-일반적인 마크다운 문법으로 이미지를 올리면 사진의 크기조절이 불가능하다.
+이미지 삽입 및 이미지 크기 조정
+`![이미지 설명](이미지 URL)`
+
+```
+![위키피디아 흑요석](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/ObsidianOregon.jpg/360px-ObsidianOregon.jpg)
+```
+-결과
+![위키피디아 흑요석](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/ObsidianOregon.jpg/360px-ObsidianOregon.jpg)
+
+단, 일반적인 마크다운 문법으로 이미지를 올리면 사진의 크기조절이 불가능하다.
+옵시디언에서만 적용 가능한 이미지 크기 조절 문법이 있지만
 다른 플랫폼에서 이미지의 크기를 조절하려면 HTML 태그를 사용해야 한다.
+`<img src="https://url/image.png" width="50" height="50">`
 
 옵시디언에서만 적용 가능한 이미지 크기 조절 방법은
 `![이미지 설명|가로x세로](이미지 URL)`로 구현한다.
@@ -308,9 +326,40 @@ Tab을 누르면 오른쪽으로 열이 추가됨
 ## 6. 문단 참조(Block Reference)
 
 문단 임베딩이라고 생각하면 이해가 빠를 듯
-문서를 다 임베딩 하는게 아니라 다른 노트파일에 있는 한 문단만 가져와서 인용하는 것 ^asd
+문서를 다 임베딩 하는게 아니라 다른 노트파일에 있는 한 문단만 가져와서 인용하는 것
 
-1) 임베딩될 문단이 있는 파일에 가서 `![[블록 링크#^id]]`로 id를 부여하고
-2) 임베딩할 파일에서 `![[파일명#^id]]`을 장성하면 해당 문단만 인용된다.
+1) 임베딩될 문단이 있는 파일에 가서 해당 문단의 끝에 `^myid`로 id를 부여하고
+2) 임베딩할 파일에서 `![[파일명#^myid]]`을 작성하면 해당 문단만 인용된다.
 
-![[Hello Obsidian#^asd]]
+
+## 7. 강조 상자 넣기
+
+내용을 작성하다 강조하고 싶은 부분이 있을 때 Callout을 사용해서 작성하면 좋음
+
+예시)
+```
+> [!note] 여길 주목하세요!
+> 강조 상자를 사용할 수 있습니다.
+```
+- 결과
+> [!note] 여길 주목하세요!
+> 강조 상자를 사용할 수 있습니다.
+
+위에서 `[!note]`같은걸 Callout이라고 부름
+Callout문법을 작성하면 위처럼 알맞은 아이콘 및 색상이 들어간 상자가 생성됨
+
+#### Callout 종류
+같은 줄에 작성된 단어들은 같은 기능
+- [!note]
+- [!abstract], [!summary], [!tldr]
+- [!info]
+- [!todo]
+- [!tip], [!hint], [!important]
+- [!success], [!check], [!done]
+- [!question], [!help], [!faq]
+- [!warning], [!caution], [!attention]
+- [!failure], [!fail], [!missing]
+- [!danger], [!error]
+- [!bug]
+- [!example]
+- [!quote], [!cite]
