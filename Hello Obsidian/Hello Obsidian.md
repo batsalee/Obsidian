@@ -119,12 +119,9 @@ __텍스트__
 ![위키피디아 흑요석](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/ObsidianOregon.jpg/360px-ObsidianOregon.jpg)
 
 단, 일반적인 마크다운 문법으로 이미지를 올리면 사진의 크기조절이 불가능하다.
-옵시디언에서만 적용 가능한 [이미지 크기 조절 문법](##3. 그림 크기 조절) 이 있지만
+옵시디언에서만 적용 가능한 이미지 크기 조절 문법이 있지만(하단에 작성)
 다른 플랫폼에서 이미지의 크기를 조절하려면 HTML 태그를 사용해야 한다.
 `<img src="https://url/image.png" width="50" height="50">`
-
-옵시디언에서만 적용 가능한 이미지 크기 조절 방법은
-`![이미지 설명|가로x세로](이미지 URL)`로 구현한다.
 
 
 ## 8. 인용구
@@ -276,5 +273,35 @@ Tab을 누르면 오른쪽으로 열이 추가됨
 - [x] 이미 완료한 할 일
 
 
-## 3. 그림 크기 조절
+## 3. 사진 크기 조절
 
+일반적인 마크다운 문법으로 이미지를 올리면 사진의 크기조절이 불가능하다.
+다른 플랫폼에서 이미지의 크기를 조절하려면 HTML 태그를 사용해야 한다.
+
+옵시디언에서만 적용 가능한 이미지 크기 조절 방법은
+`![이미지 설명|가로x세로](이미지 URL)`로 구현한다.
+```
+![위키피디아 흑요석|100x100](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/ObsidianOregon.jpg/360px-ObsidianOregon.jpg)
+```
+![위키피디아 흑요석|100x100](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/ObsidianOregon.jpg/360px-ObsidianOregon.jpg)
+
+
+## 4. 문서 내부 링크
+
+내부 링크는 노트 간 또는 블록 간 연결되는 링크
+``[[]]``를 사용해서 구현하며 안에 노트파일명을 넣으면 해당 노트파일로 이동한다.
+
+`[[Notepad]]`
+- 결과
+[[Notepad]]
+
+
+## 5. 문서 임베딩
+
+문서 내부 링크는 링크를 타고 해당 파일로 이동하는 것이지만
+문서 임베딩은 다른 노트의 내용 자체를 가져와서 박아놓는 것
+`![[]]`를 사용해서 구현
+
+`![[STL]]`
+- 결과
+![[Notepad]]
