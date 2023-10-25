@@ -11,8 +11,12 @@
             "id": "d9e92520d1555008",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "C++/Modern C++/Library/thread.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -98,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "C++/Modern C++/Library/thread.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "C++/Modern C++/Library/thread.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "C++/Modern C++/Library/thread.md"
+              }
             }
           },
           {
@@ -176,6 +184,8 @@
   },
   "active": "d9e92520d1555008",
   "lastOpenFiles": [
+    "C++/Modern C++/Modern C++.md",
+    "C++/STL/Container/Container.md",
     "Hello Obsidian/마크다운 문법 정리.md",
     "Hello Obsidian/Hello Obsidian.md",
     "C++/Modern C++/Library/thread.md",
@@ -185,7 +195,6 @@
     "^asd.md",
     "Protected/ignore test.md",
     "새 텍스트 문서.txt",
-    "C++/Modern C++/Modern C++.md",
     "Protected",
     "무제 파일.md",
     "C++/Modern C++/Library",
@@ -195,7 +204,6 @@
     "C++/STL/Container/연관 컨테이너/unordered_map.md",
     "C++/STL/Container/연관 컨테이너/unordered_set.md",
     "C++/STL/STL.md",
-    "C++/STL/Container/Container.md",
     "C++/STL/Algorithm",
     "C++/STL/Iteraoter",
     "C++/STL/무제 파일.md",
