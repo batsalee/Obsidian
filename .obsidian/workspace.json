@@ -11,12 +11,8 @@
             "id": "d9e92520d1555008",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hello Obsidian/마크다운 문법 정리.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -102,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hello Obsidian/마크다운 문법 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hello Obsidian/마크다운 문법 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Hello Obsidian/마크다운 문법 정리.md"
-              }
+              "state": {}
             }
           },
           {
@@ -184,11 +176,11 @@
   },
   "active": "d9e92520d1555008",
   "lastOpenFiles": [
-    "C++/Modern C++/Library/thread.md",
     "Hello Obsidian/마크다운 문법 정리.md",
+    "Hello Obsidian/Hello Obsidian.md",
+    "C++/Modern C++/Library/thread.md",
     "Notepad/Notepad.md",
     "Protected/Protected.md",
-    "Hello Obsidian/Hello Obsidian.md",
     "Hello Obsidian/옵시디언 전용 마크다운 문법 정리.md",
     "^asd.md",
     "Protected/ignore test.md",

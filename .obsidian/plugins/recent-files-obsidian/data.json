@@ -5,6 +5,10 @@
       "path": "Hello Obsidian/마크다운 문법 정리.md"
     },
     {
+      "basename": "Hello Obsidian",
+      "path": "Hello Obsidian/Hello Obsidian.md"
+    },
+    {
       "basename": "thread",
       "path": "C++/Modern C++/Library/thread.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Protected",
       "path": "Protected/Protected.md"
-    },
-    {
-      "basename": "Hello Obsidian",
-      "path": "Hello Obsidian/Hello Obsidian.md"
     },
     {
       "basename": "Modern C++",
