@@ -220,16 +220,18 @@ lock_guard를 사용 가능함
 ```C++
 void user(int& result, std::mutex& m) {
 	std::lock_guard<std::mutex> lock(m);
+	or
+	std::unique_lock<std::mutex> ul(*m);
+	
 	result += 1;
 }
 ```
 위 코드처럼 사용하면 scope를 빠져 나가면서 lock객체가 소멸되므로  
 lock_guard클래스의 소멸자가 호출되고 해당 소멸자에 unlock이 있어서 알아서 unlock됨  
-또는 lock_guard가 아니라 unique_lock객체도 사용 가능
-```C++
-std::unique_lock<std::mutex> ul(*m);
-```
-lock_guard는 생성자만 lock을 할 수 있는 반면 unique_lock은 unlock 이후에 다시 lock을 할 수 있음  
+
+lock_guard와 unique_lock의 차이점은
+lock_guard는 생성자만 lock을 할 수 있는 반면  
+unique_lock은 unlock 이후에 다시 lock을 할 수 있음  
 그 외에는 거의 동일한 기능을 하는데 condition_variable이 인자로 unique_lock을 인자로 받으니  
 condition_variable을 사용한다면 unique_lock을 사용해야 함  
 
@@ -338,23 +340,22 @@ void producer(std::queue<std::string>* downloaded_pages, std::mutex* m,
 void consumer(std::queue<std::string>* downloaded_pages, std::mutex* m,
               int* num_processed, std::condition_variable* cv) {
   while (...) {
-    std::unique_lock<std::mutex> lk(*m);
+    std::unique_lock<std::mutex> ul(*m);
 
-    cv->wait(
-        lk, [&] { return !downloaded_pages->empty() || *num_processed == 25; });
+    cv->wait(ul, [&] { return !downloaded_pages->empty(); });
 	// 매개변수 값이 참이될때까지 wait한다
 
-    if (*num_processed == 25) {
-      lk.unlock();
+    if (작업 완료시) {
+      ul.unlock();
       return;
     }
 
-    // 맨 앞의 페이지를 읽고 대기 목록에서 제거한다.
+    // wait에서 풀렸으니 작업하는 부분
     std::string content = downloaded_pages->front();
     downloaded_pages->pop();
 
     (*num_processed)++;
-    lk.unlock();
+    ul.unlock();
 
     // content 를 처리한다.
     std::cout << content;
@@ -374,3 +375,28 @@ int main() {
 	t2.join();
 }
 ```
+
+consumer함수의 4번째줄의 
+```C++
+cv->wait(lk, [&] { return !downloaded_pages->empty(); });
+// 매개변수 값이 참이될때까지 wait한다
+```
+부분은 해당 조건이 false라면 ul를 ==unlock한 후== 영원히 sleep하게 만듬  
+해당 함수를 실행중인 thread 또한 누가 깨워주기 전까지 계속 sleep상태  
+
+producer함수의 7번째줄의 
+```C++
+// consumer 에게 content 가 준비되었음을 알린다.
+cv->notify_one();
+```
+는 페이지를 다 긁어왔다면 잠자고 있는 쓰레드들 중 하나를 깨워서  
+wait조건을 다시 검사하게 시키는 역할  
+조건을 맞춘 후 깨웠으니 해당 쓰레드는 일을 다시 시작하게 되는 것  
+
+main함수의 8번째줄의
+```C++
+cv.notify_all(); // 나머지 자고 있는 쓰레드들을 모두 깨운다.
+```
+은 자고있는 프로그램의 종료 조건을 맞춘 시점이라도 consumer 쓰레드들이 있을것이고  
+해당 쓰레드들은 계속 자느라 join하지 않고 프로그램을 끝낼 수 없게 되니  
+전부 다 깨워서 join시키고 종료 조건이 맞으니 종료하기 위해 사용  
