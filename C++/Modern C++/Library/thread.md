@@ -436,3 +436,6 @@ modern C++에는 위와 같은 비동기적 실행을 쉽게 하는 도구로
 std::promise와 std::futuer를 제공함
 
 #### std::promise와 std::future
+15-4, 15-5 마저 보고 정리해보기
+
+그 외 14, 16~17-2, 17-5 보면 끝
