@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Notepad",
+      "path": "Notepad/Notepad.md"
+    },
+    {
       "basename": "노션 강의 정리",
       "path": "Notepad/노션 강의 정리.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "Hello Obsidian",
       "path": "Hello Obsidian/Hello Obsidian.md"
-    },
-    {
-      "basename": "Notepad",
-      "path": "Notepad/Notepad.md"
     },
     {
       "basename": "Protected",
