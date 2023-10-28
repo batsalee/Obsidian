@@ -48,7 +48,13 @@
       "C++/STL/Container",
       "C++/Modern C++/Library",
       "Protected",
-      "Hello Obsidian"
+      "Hello Obsidian",
+      "C++",
+      "C++",
+      "C++/C++ Code Keeping",
+      "C++/C++ Code Keeping",
+      "C++/C++ Code Keeping",
+      "C++/Code Keeping"
     ],
     "as": [
       "Hello Obsidian",
@@ -148,7 +154,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1698284958029,
+  "spacesAutoBackupLast": 1698478927357,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
