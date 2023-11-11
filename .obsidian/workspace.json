@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Code Keeping/GCD, LCM.md",
+                "file": "Notepad/Notepad.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Code Keeping/GCD, LCM.md",
+                "file": "Notepad/Notepad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Code Keeping/GCD, LCM.md",
+                "file": "Notepad/Notepad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Code Keeping/GCD, LCM.md"
+                "file": "Notepad/Notepad.md"
               }
             }
           },
@@ -182,13 +182,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "865fcff0f57ed8b2",
+  "active": "d9e92520d1555008",
   "lastOpenFiles": [
+    "Notepad/노션 강의 정리.md",
+    "Notepad/Notepad.md",
     "C++/Code Keeping/GCD, LCM.md",
     "C++/Code Keeping",
-    "Notepad/Notepad.md",
     "Notepad/Today_Study 정리파일.md",
-    "Notepad/노션 강의 정리.md",
     "C++/Modern C++/Library/thread.md",
     "C++/Modern C++/Modern C++.md",
     "C++/STL/Container/Container.md",

@@ -54,7 +54,8 @@
       "C++/C++ Code Keeping",
       "C++/C++ Code Keeping",
       "C++/C++ Code Keeping",
-      "C++/Code Keeping"
+      "C++/Code Keeping",
+      "Notepad"
     ],
     "as": [
       "Hello Obsidian",
@@ -154,7 +155,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1698478927357,
+  "spacesAutoBackupLast": 1699695306672,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
