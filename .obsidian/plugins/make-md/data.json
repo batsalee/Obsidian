@@ -55,7 +55,15 @@
       "C++/C++ Code Keeping",
       "C++/C++ Code Keeping",
       "C++/Code Keeping",
-      "Notepad"
+      "Notepad",
+      "수학적 지식",
+      "Hello Obsidian",
+      "수학적 지식",
+      "수학적 지식",
+      "수학적 지식",
+      "Math",
+      "Math",
+      "Math"
     ],
     "as": [
       "Hello Obsidian",
@@ -155,7 +163,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1699695306672,
+  "spacesAutoBackupLast": 1699899190478,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
