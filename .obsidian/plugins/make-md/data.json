@@ -64,7 +64,9 @@
       "CS 지식/프로그래밍 용어",
       "CS 지식/프로그래밍 용어",
       "CS 지식/프로그래밍 용어",
-      "Hello Obsidian"
+      "Hello Obsidian",
+      "Protected",
+      "C++"
     ],
     "as": [
       "Hello Obsidian",
@@ -164,7 +166,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1699904239464,
+  "spacesAutoBackupLast": 1699904664418,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

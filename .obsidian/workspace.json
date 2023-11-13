@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
+                "file": "C++/Code Keeping/소수 여부 판별.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
+                "file": "C++/Code Keeping/소수 여부 판별.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
+                "file": "C++/Code Keeping/소수 여부 판별.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
+                "file": "C++/Code Keeping/소수 여부 판별.md"
               }
             }
           },
@@ -197,8 +197,9 @@
   },
   "active": "0a7a112f7a2d0569",
   "lastOpenFiles": [
-    "Hello Obsidian/마크다운 문법 정리.md",
+    "Protected/컴퓨터공학 개론.md",
     "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
+    "Hello Obsidian/마크다운 문법 정리.md",
     "CS 지식/프로그래밍 용어/메타데이터(meta-data).md",
     "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md",
     "CS 지식/프로그래밍 용어/서드 파티(Third Party).md",
@@ -227,7 +228,6 @@
     "C++/STL/Container/Container.md",
     "C++/Code Keeping/윤년.md",
     "Pasted image 20231114032408.png.md",
-    "Excalidraw/Drawing 2023-11-14 03.28.48.excalidraw.md",
     "Excalidraw",
     "수학적 지식/contents/Pasted image 20231114031910.png",
     "수학적 지식/contents/Pasted image 20231114032408.png",
