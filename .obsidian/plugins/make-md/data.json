@@ -68,7 +68,9 @@
       "Excalidraw",
       "수학적 지식/contents",
       "수학적 지식",
-      "수학적 지식"
+      "수학적 지식",
+      "Hello Obsidian",
+      "Computer Science"
     ],
     "as": [
       "Hello Obsidian",
@@ -168,7 +170,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1699901408265,
+  "spacesAutoBackupLast": 1699902128713,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

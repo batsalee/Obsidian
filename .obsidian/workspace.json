@@ -13,9 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hello Obsidian/문서 작성 시 번호매기는 순서.md",
+                "file": "Computer Science/CamelCase, snake_case.md",
                 "mode": "source",
-                "backlinks": false,
                 "source": false
               }
             }
@@ -103,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hello Obsidian/문서 작성 시 번호매기는 순서.md",
+                "file": "Computer Science/CamelCase, snake_case.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hello Obsidian/문서 작성 시 번호매기는 순서.md",
+                "file": "Computer Science/CamelCase, snake_case.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hello Obsidian/문서 작성 시 번호매기는 순서.md"
+                "file": "Computer Science/CamelCase, snake_case.md"
               }
             }
           },
@@ -183,20 +182,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "865fcff0f57ed8b2",
+  "active": "d9e92520d1555008",
   "lastOpenFiles": [
-    "수학적 지식/소수 여부 판별.md",
+    "Protected/Protected.md",
+    "Computer Science/CamelCase, snake_case.md",
     "Hello Obsidian/문서 작성 시 번호매기는 순서.md",
-    "C++/Code Keeping/소수 여부 판별.md",
-    "수학적 지식/nCr.md",
+    "Computer Science",
+    "무제 파일.canvas",
     "C++/Code Keeping/nCr.md",
+    "수학적 지식/nCr.md",
+    "Hello Obsidian/무제 파일.md",
+    "수학적 지식/소수 여부 판별.md",
+    "C++/Code Keeping/소수 여부 판별.md",
     "수학적 지식/GCD, LCM.md",
     "수학적 지식/1~N까지 더하기.md",
     "C++/STL/Container/Container.md",
     "C++/Code Keeping/윤년.md",
     "Pasted image 20231114032408.png.md",
     "Excalidraw/Drawing 2023-11-14 03.28.48.excalidraw.md",
-    "무제 파일.canvas",
     "Excalidraw",
     "C++/Code Keeping/GCD, LCM.md",
     "C++/STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md",
@@ -208,7 +211,6 @@
     "Hello Obsidian/마크다운 문법 정리.md",
     "수학적 지식/두 수의 합의 나머지.md",
     "수학적 지식",
-    "Protected/Protected.md",
     "Notepad/Today_Study 정리파일.md",
     "Notepad/노션 강의 정리.md",
     "Notepad/Notepad.md",
@@ -217,14 +219,11 @@
     "C++/Modern C++/Library/thread.md",
     "C++/Modern C++/Modern C++.md",
     "Hello Obsidian/옵시디언 전용 마크다운 문법 정리.md",
-    "^asd.md",
-    "Protected/ignore test.md",
     "새 텍스트 문서.txt",
     "Protected",
     "C++/Modern C++/Library",
     "C++/Modern C++",
     "C++/STL/Algorithm",
-    "C++/STL/Iteraoter",
     "첨부파일 폴더/Pasted image 20231014174143.png"
   ]
 }

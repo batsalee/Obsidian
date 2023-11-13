@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "CamelCase, snake_case",
+      "path": "Computer Science/CamelCase, snake_case.md"
+    },
+    {
+      "basename": "Protected",
+      "path": "Protected/Protected.md"
+    },
+    {
       "basename": "문서 작성 시 번호매기는 순서",
       "path": "Hello Obsidian/문서 작성 시 번호매기는 순서.md"
+    },
+    {
+      "basename": "nCr",
+      "path": "C++/Code Keeping/nCr.md"
+    },
+    {
+      "basename": "nCr",
+      "path": "수학적 지식/nCr.md"
     },
     {
       "basename": "소수 여부 판별",
@@ -11,14 +27,6 @@
     {
       "basename": "소수 여부 판별",
       "path": "C++/Code Keeping/소수 여부 판별.md"
-    },
-    {
-      "basename": "nCr",
-      "path": "수학적 지식/nCr.md"
-    },
-    {
-      "basename": "nCr",
-      "path": "C++/Code Keeping/nCr.md"
     },
     {
       "basename": "GCD, LCM",
@@ -35,10 +43,6 @@
     {
       "basename": "윤년",
       "path": "C++/Code Keeping/윤년.md"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "무제 파일.canvas"
     },
     {
       "basename": "GCD, LCM",
@@ -59,10 +63,6 @@
     {
       "basename": "두 수의 합의 나머지",
       "path": "수학적 지식/두 수의 합의 나머지.md"
-    },
-    {
-      "basename": "Protected",
-      "path": "Protected/Protected.md"
     },
     {
       "basename": "Today_Study 정리파일",
