@@ -63,7 +63,8 @@
       "수학적 지식",
       "Math",
       "Math",
-      "Math"
+      "Math",
+      "수학적 지식/contents"
     ],
     "as": [
       "Hello Obsidian",
@@ -163,7 +164,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1699899190478,
+  "spacesAutoBackupLast": 1699899757594,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

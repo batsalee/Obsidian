@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "윤년",
-      "path": "C++/Code Keeping/윤년.md"
+      "basename": "nCr",
+      "path": "수학적 지식/nCr.md"
+    },
+    {
+      "basename": "Pasted image 20231114031910",
+      "path": "수학적 지식/contents/Pasted image 20231114031910.png"
+    },
+    {
+      "basename": "Pasted image 20231114032236",
+      "path": "수학적 지식/contents/Pasted image 20231114032236.png"
     },
     {
       "basename": "GCD, LCM",
@@ -10,7 +18,19 @@
     },
     {
       "basename": "윤년",
+      "path": "C++/Code Keeping/윤년.md"
+    },
+    {
+      "basename": "GCD, LCM",
+      "path": "수학적 지식/GCD, LCM.md"
+    },
+    {
+      "basename": "윤년",
       "path": "수학적 지식/윤년.md"
+    },
+    {
+      "basename": "마크다운 문법 정리",
+      "path": "Hello Obsidian/마크다운 문법 정리.md"
     },
     {
       "basename": "두 수의 합의 나머지",
@@ -19,10 +39,6 @@
     {
       "basename": "1~N까지 더하기",
       "path": "수학적 지식/1~N까지 더하기.md"
-    },
-    {
-      "basename": "GCD, LCM",
-      "path": "수학적 지식/GCD, LCM.md"
     },
     {
       "basename": "Protected",
@@ -39,10 +55,6 @@
     {
       "basename": "Notepad",
       "path": "Notepad/Notepad.md"
-    },
-    {
-      "basename": "마크다운 문법 정리",
-      "path": "Hello Obsidian/마크다운 문법 정리.md"
     },
     {
       "basename": "Hello Obsidian",
