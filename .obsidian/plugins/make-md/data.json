@@ -64,6 +64,8 @@
       "Math",
       "Math",
       "Math",
+      "C++/STL/Container/시퀀스 컨테이너",
+      "Excalidraw",
       "수학적 지식/contents"
     ],
     "as": [
@@ -164,7 +166,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1699899757594,
+  "spacesAutoBackupLast": 1699900240531,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

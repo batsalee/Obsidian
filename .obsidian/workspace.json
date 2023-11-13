@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "수학적 지식/nCr.md",
+                "file": "C++/Code Keeping/nCr.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "수학적 지식/nCr.md",
+                "file": "C++/Code Keeping/nCr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "수학적 지식/nCr.md",
+                "file": "C++/Code Keeping/nCr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "수학적 지식/nCr.md"
+                "file": "C++/Code Keeping/nCr.md"
               }
             }
           },
@@ -184,12 +184,20 @@
   },
   "active": "d9e92520d1555008",
   "lastOpenFiles": [
-    "수학적 지식/contents/Pasted image 20231114031910.png",
-    "수학적 지식/contents/Pasted image 20231114032236.png",
     "수학적 지식/nCr.md",
-    "수학적 지식/contents",
-    "C++/Code Keeping/GCD, LCM.md",
+    "C++/Code Keeping/nCr.md",
     "C++/Code Keeping/윤년.md",
+    "Pasted image 20231114032408.png.md",
+    "Excalidraw/Drawing 2023-11-14 03.28.48.excalidraw.md",
+    "무제 파일.canvas",
+    "Excalidraw",
+    "C++/Code Keeping/GCD, LCM.md",
+    "C++/STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md",
+    "C++/STL/Container/Container.md",
+    "수학적 지식/contents/Pasted image 20231114031910.png",
+    "수학적 지식/contents/Pasted image 20231114032408.png",
+    "수학적 지식/contents/Pasted image 20231114032236.png",
+    "수학적 지식/contents",
     "수학적 지식/GCD, LCM.md",
     "수학적 지식/윤년.md",
     "Hello Obsidian/마크다운 문법 정리.md",
@@ -204,7 +212,6 @@
     "C++/Code Keeping",
     "C++/Modern C++/Library/thread.md",
     "C++/Modern C++/Modern C++.md",
-    "C++/STL/Container/Container.md",
     "Hello Obsidian/옵시디언 전용 마크다운 문법 정리.md",
     "^asd.md",
     "Protected/ignore test.md",
@@ -215,13 +222,8 @@
     "C++/Modern C++",
     "C++/STL/Algorithm/Algorithm.md",
     "C++/STL/Iteraoter/Iterator.md",
-    "C++/STL/Container/연관 컨테이너/unordered_map.md",
-    "C++/STL/Container/연관 컨테이너/unordered_set.md",
-    "C++/STL/STL.md",
     "C++/STL/Algorithm",
     "C++/STL/Iteraoter",
-    "C++/STL/Container/연관 컨테이너",
-    "무제 파일.canvas",
     "첨부파일 폴더/Pasted image 20231014174143.png"
   ]
 }
