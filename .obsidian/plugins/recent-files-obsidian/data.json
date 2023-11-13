@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "CamelCase, snake_case",
-      "path": "프로그래밍 규범/CamelCase, snake_case.md"
+      "basename": "코딩 습관들여야 할 것들",
+      "path": "Notepad/코딩 습관들여야 할 것들.md"
+    },
+    {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
     },
     {
       "basename": "헝가리안 표기법",
       "path": "프로그래밍 규범/헝가리안 표기법.md"
+    },
+    {
+      "basename": "CamelCase, snake_case",
+      "path": "프로그래밍 규범/CamelCase, snake_case.md"
     },
     {
       "basename": "Protected",
@@ -67,10 +75,6 @@
     {
       "basename": "두 수의 합의 나머지",
       "path": "수학적 지식/두 수의 합의 나머지.md"
-    },
-    {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
     },
     {
       "basename": "노션 강의 정리",

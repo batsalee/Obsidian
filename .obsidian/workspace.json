@@ -11,9 +11,11 @@
             "id": "d9e92520d1555008",
             "type": "leaf",
             "state": {
-              "type": "make-folder-view",
+              "type": "markdown",
               "state": {
-                "contextPath": "Computer Science"
+                "file": "Notepad/코딩 습관들여야 할 것들.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -100,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notepad/코딩 습관들여야 할 것들.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notepad/코딩 습관들여야 할 것들.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Notepad/코딩 습관들여야 할 것들.md"
+              }
             }
           },
           {
@@ -176,10 +182,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "865fcff0f57ed8b2",
+  "active": "d9e92520d1555008",
   "lastOpenFiles": [
-    "프로그래밍 규범/CamelCase, snake_case.md",
+    "Notepad/Today_Study 정리파일.md",
+    "Notepad/코딩 습관들여야 할 것들.md",
     "프로그래밍 규범/헝가리안 표기법.md",
+    "프로그래밍 규범/CamelCase, snake_case.md",
     "프로그래밍 규범",
     "Protected/Protected.md",
     "Hello Obsidian/문서 작성 시 번호매기는 순서.md",
@@ -207,13 +215,11 @@
     "Hello Obsidian/마크다운 문법 정리.md",
     "수학적 지식/두 수의 합의 나머지.md",
     "수학적 지식",
-    "Notepad/Today_Study 정리파일.md",
     "Notepad/노션 강의 정리.md",
     "Notepad/Notepad.md",
     "Hello Obsidian/Hello Obsidian.md",
     "C++/Code Keeping",
     "C++/Modern C++/Library/thread.md",
-    "C++/Modern C++/Modern C++.md",
     "새 텍스트 문서.txt",
     "Protected",
     "C++/Modern C++/Library",
