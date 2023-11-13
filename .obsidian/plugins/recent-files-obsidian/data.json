@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "DLL(Dynamic Link Library)",
+      "path": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
+    },
+    {
+      "basename": "마크다운 문법 정리",
+      "path": "Hello Obsidian/마크다운 문법 정리.md"
+    },
+    {
+      "basename": "메타데이터(meta-data)",
+      "path": "CS 지식/프로그래밍 용어/메타데이터(meta-data).md"
+    },
+    {
+      "basename": "콜백함수(Callback Func)",
+      "path": "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md"
+    },
+    {
       "basename": "서드 파티(Third Party)",
       "path": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md"
     },
@@ -83,10 +99,6 @@
     {
       "basename": "윤년",
       "path": "수학적 지식/윤년.md"
-    },
-    {
-      "basename": "마크다운 문법 정리",
-      "path": "Hello Obsidian/마크다운 문법 정리.md"
     },
     {
       "basename": "두 수의 합의 나머지",

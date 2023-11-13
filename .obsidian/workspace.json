@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md",
+                "file": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md",
+                "file": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md",
+                "file": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md"
+                "file": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
               }
             }
           },
@@ -197,6 +197,10 @@
   },
   "active": "0a7a112f7a2d0569",
   "lastOpenFiles": [
+    "Hello Obsidian/마크다운 문법 정리.md",
+    "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
+    "CS 지식/프로그래밍 용어/메타데이터(meta-data).md",
+    "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md",
     "CS 지식/프로그래밍 용어/서드 파티(Third Party).md",
     "CS 지식/프로그래밍 용어.md",
     "CS 지식/프로그래밍 용어",
@@ -225,14 +229,10 @@
     "Pasted image 20231114032408.png.md",
     "Excalidraw/Drawing 2023-11-14 03.28.48.excalidraw.md",
     "Excalidraw",
-    "C++/Code Keeping/GCD, LCM.md",
-    "C++/STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md",
     "수학적 지식/contents/Pasted image 20231114031910.png",
     "수학적 지식/contents/Pasted image 20231114032408.png",
     "수학적 지식/contents/Pasted image 20231114032236.png",
     "수학적 지식/contents",
-    "수학적 지식/윤년.md",
-    "Hello Obsidian/마크다운 문법 정리.md",
     "수학적 지식",
     "C++/Code Keeping",
     "새 텍스트 문서.txt",
