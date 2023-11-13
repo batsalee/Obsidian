@@ -11,11 +11,9 @@
             "id": "d9e92520d1555008",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "make-folder-view",
               "state": {
-                "file": "Computer Science/CamelCase, snake_case.md",
-                "mode": "source",
-                "source": false
+                "contextPath": "Computer Science"
               }
             }
           }
@@ -102,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/CamelCase, snake_case.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/CamelCase, snake_case.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +137,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Computer Science/CamelCase, snake_case.md"
-              }
+              "state": {}
             }
           },
           {
@@ -182,10 +176,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d9e92520d1555008",
+  "active": "865fcff0f57ed8b2",
   "lastOpenFiles": [
+    "프로그래밍 규범/CamelCase, snake_case.md",
+    "프로그래밍 규범/헝가리안 표기법.md",
+    "프로그래밍 규범",
     "Protected/Protected.md",
-    "Computer Science/CamelCase, snake_case.md",
     "Hello Obsidian/문서 작성 시 번호매기는 순서.md",
     "Computer Science",
     "무제 파일.canvas",
@@ -218,12 +214,10 @@
     "C++/Code Keeping",
     "C++/Modern C++/Library/thread.md",
     "C++/Modern C++/Modern C++.md",
-    "Hello Obsidian/옵시디언 전용 마크다운 문법 정리.md",
     "새 텍스트 문서.txt",
     "Protected",
     "C++/Modern C++/Library",
     "C++/Modern C++",
-    "C++/STL/Algorithm",
     "첨부파일 폴더/Pasted image 20231014174143.png"
   ]
 }

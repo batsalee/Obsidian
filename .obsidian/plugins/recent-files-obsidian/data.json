@@ -2,7 +2,11 @@
   "recentFiles": [
     {
       "basename": "CamelCase, snake_case",
-      "path": "Computer Science/CamelCase, snake_case.md"
+      "path": "프로그래밍 규범/CamelCase, snake_case.md"
+    },
+    {
+      "basename": "헝가리안 표기법",
+      "path": "프로그래밍 규범/헝가리안 표기법.md"
     },
     {
       "basename": "Protected",

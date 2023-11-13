@@ -70,6 +70,9 @@
       "수학적 지식",
       "수학적 지식",
       "Hello Obsidian",
+      "Computer Science",
+      "Computer Science/프로그래밍 규범",
+      "프로그래밍 규범",
       "Computer Science"
     ],
     "as": [
@@ -170,7 +173,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1699902128713,
+  "spacesAutoBackupLast": 1699902821096,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
