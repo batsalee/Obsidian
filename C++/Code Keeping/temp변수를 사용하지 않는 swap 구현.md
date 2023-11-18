@@ -1,3 +1,16 @@
+# temp변수를 사용하지 않는 swap 구현
+
+일반적으로 두 변수를 swap한다면 
+```C++
+void swap(int &a, int &b)
+{
+	int temp = a;
+	a = b;
+	b = temp;
+}
+```
+위 코드처럼 temp변수를 만들어서 임시로 사용하지만 아래처럼 비트연산으로도 가능
+
 ```C++
 void swap(~~)
 {

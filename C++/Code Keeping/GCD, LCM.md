@@ -1,5 +1,11 @@
 # 최소공배수, 최대공약수
 
+## 1. GCD, LCM 개념
+
+[[수학적 지식/GCD, LCM|GCD, LCM]]
+
+## 2. C++ style Code
+
 1) STL 사용  
 ```C++
 #include <numeric>
