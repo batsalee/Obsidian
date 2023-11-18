@@ -5,6 +5,10 @@
       "path": "C++/개념정리/예외처리.md"
     },
     {
+      "basename": "typeid",
+      "path": "C++/연산자/typeid.md"
+    },
+    {
       "basename": "temp변수를 사용하지 않는 swap 구현",
       "path": "C++/Code Keeping/temp변수를 사용하지 않는 swap 구현.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "test",
       "path": "Obsidian_Private/test.md"
-    },
-    {
-      "basename": "test_protected",
-      "path": "Private/Protected/test_protected.md"
     }
   ],
   "omittedPaths": [],

@@ -195,10 +195,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8e9145508b0f8c3b",
+  "active": "0a7a112f7a2d0569",
   "lastOpenFiles": [
-    "C++/Code Keeping/temp변수를 사용하지 않는 swap 구현.md",
+    "C++/연산자/typeid.md",
     "C++/개념정리/예외처리.md",
+    "C++/연산자",
+    "C++/Code Keeping/temp변수를 사용하지 않는 swap 구현.md",
     "C++/개념정리",
     "C++/Code Keeping/eof.md",
     "C++/Modern C++/Library/thread.md",
@@ -228,7 +230,6 @@
     "Hello Obsidian/무제 파일.md",
     "수학적 지식/소수 여부 판별.md",
     "수학적 지식/GCD, LCM.md",
-    "수학적 지식/1~N까지 더하기.md",
     "Excalidraw",
     "수학적 지식/contents/Pasted image 20231114031910.png",
     "수학적 지식/contents/Pasted image 20231114032408.png",
@@ -236,7 +237,6 @@
     "수학적 지식/contents",
     "수학적 지식",
     "C++/Code Keeping",
-    "새 텍스트 문서.txt",
     "첨부파일 폴더/Pasted image 20231014174143.png"
   ]
 }

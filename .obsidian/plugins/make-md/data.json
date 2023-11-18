@@ -66,7 +66,8 @@
       "CS 지식/프로그래밍 용어",
       "C++",
       "C++/Code Keeping",
-      "C++/개념정리"
+      "C++/개념정리",
+      "C++/연산자"
     ],
     "as": [
       "Hello Obsidian",
@@ -166,7 +167,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1700305827741,
+  "spacesAutoBackupLast": 1700307715701,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
