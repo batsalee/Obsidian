@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "GCD, LCM",
-      "path": "수학적 지식/GCD, LCM.md"
+      "basename": "진법 변환",
+      "path": "C++/Code Keeping/진법 변환.md"
     },
     {
       "basename": "진법 변환",
       "path": "수학적 지식/진법 변환.md"
     },
     {
-      "basename": "GCD, LCM",
-      "path": "C++/Code Keeping/GCD, LCM.md"
+      "basename": "문서 작성 시 번호매기는 순서",
+      "path": "Hello Obsidian/문서 작성 시 번호매기는 순서.md"
     },
     {
-      "basename": "윤년",
-      "path": "수학적 지식/윤년.md"
+      "basename": "마크다운 문법 정리",
+      "path": "Hello Obsidian/마크다운 문법 정리.md"
+    },
+    {
+      "basename": "GCD, LCM",
+      "path": "C++/Code Keeping/GCD, LCM.md"
     },
     {
       "basename": "윤년",
@@ -25,10 +29,6 @@
       "path": "C++/Code Keeping/cout 지수출력 방지.md"
     },
     {
-      "basename": "nCr",
-      "path": "C++/Code Keeping/nCr.md"
-    },
-    {
       "basename": "temp변수를 사용하지 않는 swap 구현",
       "path": "C++/Code Keeping/temp변수를 사용하지 않는 swap 구현.md"
     },
@@ -37,20 +37,76 @@
       "path": "C++/Code Keeping/소수 여부 판별.md"
     },
     {
-      "basename": "abs",
-      "path": "C++/연산자/abs.md"
+      "basename": "nCr",
+      "path": "C++/Code Keeping/nCr.md"
     },
     {
       "basename": "eof",
       "path": "C++/Code Keeping/eof.md"
     },
     {
-      "basename": "진법 변환",
-      "path": "C++/Code Keeping/진법 변환.md"
+      "basename": "Hello Obsidian",
+      "path": "Hello Obsidian/Hello Obsidian.md"
+    },
+    {
+      "basename": "Modern C++",
+      "path": "C++/Modern C++/Modern C++.md"
+    },
+    {
+      "basename": "컴퓨터공학 개론",
+      "path": "Protected/컴퓨터공학 개론.md"
+    },
+    {
+      "basename": "DLL(Dynamic Link Library)",
+      "path": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
+    },
+    {
+      "basename": "콜백함수(Callback Func)",
+      "path": "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md"
+    },
+    {
+      "basename": "서드 파티(Third Party)",
+      "path": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md"
+    },
+    {
+      "basename": "메타데이터(meta-data)",
+      "path": "CS 지식/프로그래밍 용어/메타데이터(meta-data).md"
+    },
+    {
+      "basename": "CamelCase, snake_case",
+      "path": "CS 지식/프로그래밍 규범/CamelCase, snake_case.md"
+    },
+    {
+      "basename": "헝가리안 표기법",
+      "path": "CS 지식/프로그래밍 규범/헝가리안 표기법.md"
     },
     {
       "basename": "nCr",
       "path": "수학적 지식/nCr.md"
+    },
+    {
+      "basename": "소수 여부 판별",
+      "path": "수학적 지식/소수 여부 판별.md"
+    },
+    {
+      "basename": "윤년",
+      "path": "수학적 지식/윤년.md"
+    },
+    {
+      "basename": "두 수의 합의 나머지",
+      "path": "수학적 지식/두 수의 합의 나머지.md"
+    },
+    {
+      "basename": "1~N까지 더하기",
+      "path": "수학적 지식/1~N까지 더하기.md"
+    },
+    {
+      "basename": "GCD, LCM",
+      "path": "수학적 지식/GCD, LCM.md"
+    },
+    {
+      "basename": "abs",
+      "path": "C++/연산자/abs.md"
     },
     {
       "basename": "예외처리",
@@ -63,38 +119,6 @@
     {
       "basename": "thread",
       "path": "C++/Modern C++/Library/thread.md"
-    },
-    {
-      "basename": "컴퓨터공학 개론",
-      "path": "Protected/컴퓨터공학 개론.md"
-    },
-    {
-      "basename": "DLL(Dynamic Link Library)",
-      "path": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
-    },
-    {
-      "basename": "마크다운 문법 정리",
-      "path": "Hello Obsidian/마크다운 문법 정리.md"
-    },
-    {
-      "basename": "메타데이터(meta-data)",
-      "path": "CS 지식/프로그래밍 용어/메타데이터(meta-data).md"
-    },
-    {
-      "basename": "콜백함수(Callback Func)",
-      "path": "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md"
-    },
-    {
-      "basename": "서드 파티(Third Party)",
-      "path": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md"
-    },
-    {
-      "basename": "CamelCase, snake_case",
-      "path": "CS 지식/프로그래밍 규범/CamelCase, snake_case.md"
-    },
-    {
-      "basename": "헝가리안 표기법",
-      "path": "CS 지식/프로그래밍 규범/헝가리안 표기법.md"
     },
     {
       "basename": "Today_Study 정리파일",
@@ -117,36 +141,12 @@
       "path": "Protected/Protected.md"
     },
     {
-      "basename": "문서 작성 시 번호매기는 순서",
-      "path": "Hello Obsidian/문서 작성 시 번호매기는 순서.md"
-    },
-    {
-      "basename": "소수 여부 판별",
-      "path": "수학적 지식/소수 여부 판별.md"
-    },
-    {
-      "basename": "1~N까지 더하기",
-      "path": "수학적 지식/1~N까지 더하기.md"
-    },
-    {
       "basename": "Container",
       "path": "C++/STL/Container/Container.md"
     },
     {
       "basename": "시퀀스 컨테이너",
       "path": "C++/STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
-    },
-    {
-      "basename": "두 수의 합의 나머지",
-      "path": "수학적 지식/두 수의 합의 나머지.md"
-    },
-    {
-      "basename": "Hello Obsidian",
-      "path": "Hello Obsidian/Hello Obsidian.md"
-    },
-    {
-      "basename": "Modern C++",
-      "path": "C++/Modern C++/Modern C++.md"
     },
     {
       "basename": "Algorithm",

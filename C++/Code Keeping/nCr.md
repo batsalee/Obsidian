@@ -13,3 +13,5 @@ for(int i = 1; i <= n - r; i++) { denominator *= i; }
 
 int nCr = numerator / denominator;
 ```
+
+#CodeKeeping

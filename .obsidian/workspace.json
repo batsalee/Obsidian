@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "수학적 지식/GCD, LCM.md",
+                "file": "C++/Code Keeping/진법 변환.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "수학적 지식/GCD, LCM.md",
+                "file": "C++/Code Keeping/진법 변환.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "수학적 지식/GCD, LCM.md",
+                "file": "C++/Code Keeping/진법 변환.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "수학적 지식/GCD, LCM.md"
+                "file": "C++/Code Keeping/진법 변환.md"
               }
             }
           },
@@ -198,35 +198,35 @@
   "active": "0a7a112f7a2d0569",
   "lastOpenFiles": [
     "수학적 지식/진법 변환.md",
+    "C++/Code Keeping/진법 변환.md",
+    "Hello Obsidian/문서 작성 시 번호매기는 순서.md",
+    "Hello Obsidian/마크다운 문법 정리.md",
     "C++/Code Keeping/GCD, LCM.md",
-    "수학적 지식/GCD, LCM.md",
-    "수학적 지식/윤년.md",
     "C++/Code Keeping/윤년.md",
     "C++/Code Keeping/cout 지수출력 방지.md",
-    "C++/Code Keeping/nCr.md",
     "C++/Code Keeping/temp변수를 사용하지 않는 swap 구현.md",
     "C++/Code Keeping/소수 여부 판별.md",
-    "C++/연산자/abs.md",
+    "C++/Code Keeping/nCr.md",
     "C++/Code Keeping/eof.md",
-    "C++/Code Keeping/진법 변환.md",
-    "수학적 지식/nCr.md",
-    "C++/개념정리/예외처리.md",
-    "C++/연산자/typeid.md",
-    "C++/연산자",
-    "C++/개념정리",
-    "C++/Modern C++/Library/thread.md",
+    "Hello Obsidian/Hello Obsidian.md",
+    "C++/Modern C++/Modern C++.md",
     "Protected/컴퓨터공학 개론.md",
     "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
-    "Hello Obsidian/마크다운 문법 정리.md",
-    "CS 지식/프로그래밍 용어/메타데이터(meta-data).md",
     "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md",
     "CS 지식/프로그래밍 용어/서드 파티(Third Party).md",
-    "CS 지식/프로그래밍 용어.md",
-    "CS 지식/프로그래밍 용어",
+    "CS 지식/프로그래밍 용어/메타데이터(meta-data).md",
     "CS 지식/프로그래밍 규범/CamelCase, snake_case.md",
     "CS 지식/프로그래밍 규범/헝가리안 표기법.md",
+    "수학적 지식/nCr.md",
+    "수학적 지식/소수 여부 판별.md",
+    "수학적 지식/윤년.md",
+    "수학적 지식/두 수의 합의 나머지.md",
+    "수학적 지식/1~N까지 더하기.md",
+    "수학적 지식/GCD, LCM.md",
+    "C++/연산자",
+    "C++/개념정리",
+    "CS 지식/프로그래밍 용어",
     "CS 지식/프로그래밍 규범",
-    "Notepad/Today_Study 정리파일.md",
     "CS 지식",
     "Computer Science",
     "무제 파일.canvas",

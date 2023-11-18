@@ -10,3 +10,5 @@ bool타입을 가지며 파일의 끝을 의미하는 EOF를 읽게 되면
 while (!cin.eof()) {} // 문자라면  
 while (getline(cin, input)) {} // 문장이라면
 ```
+
+#CodeKeeping
