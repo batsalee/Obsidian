@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Protected/뇌를 자극하는 C++ 프로그래밍.md",
+                "file": "Protected/Protected.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Protected/뇌를 자극하는 C++ 프로그래밍.md",
+                "file": "Protected/Protected.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Protected/뇌를 자극하는 C++ 프로그래밍.md",
+                "file": "Protected/Protected.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Protected/뇌를 자극하는 C++ 프로그래밍.md"
+                "file": "Protected/Protected.md"
               }
             }
           },
@@ -197,8 +197,8 @@
   },
   "active": "0a7a112f7a2d0569",
   "lastOpenFiles": [
-    "Protected/뇌를 자극하는 C 프로그래밍.md",
     "Protected/뇌를 자극하는 C++ 프로그래밍.md",
+    "Protected/뇌를 자극하는 C 프로그래밍.md",
     "Protected/컴퓨터공학 개론.md",
     "Protected/Protected.md",
     "C++/STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md",
