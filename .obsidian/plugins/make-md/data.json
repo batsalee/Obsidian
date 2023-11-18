@@ -71,7 +71,8 @@
       "수학적 지식",
       "C++/연산자",
       "CS 지식",
-      "Hello Obsidian"
+      "Hello Obsidian",
+      "Protected"
     ],
     "as": [
       "Hello Obsidian",
@@ -171,7 +172,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1700309956047,
+  "spacesAutoBackupLast": 1700310912793,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

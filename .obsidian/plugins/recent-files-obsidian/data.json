@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "뇌를 자극하는 C 프로그래밍",
+      "path": "Protected/뇌를 자극하는 C 프로그래밍.md"
+    },
+    {
+      "basename": "컴퓨터공학 개론",
+      "path": "Protected/컴퓨터공학 개론.md"
+    },
+    {
+      "basename": "Protected",
+      "path": "Protected/Protected.md"
+    },
+    {
+      "basename": "시퀀스 컨테이너",
+      "path": "C++/STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
+    },
+    {
+      "basename": "list",
+      "path": "C++/STL/Container/시퀀스 컨테이너/list.md"
+    },
+    {
+      "basename": "vector",
+      "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
+    },
+    {
+      "basename": "array",
+      "path": "C++/STL/Container/시퀀스 컨테이너/array.md"
+    },
+    {
+      "basename": "Container",
+      "path": "C++/STL/Container/Container.md"
+    },
+    {
+      "basename": "STL",
+      "path": "C++/STL/STL.md"
+    },
+    {
       "basename": "진법 변환",
       "path": "C++/Code Keeping/진법 변환.md"
     },
@@ -51,10 +87,6 @@
     {
       "basename": "Modern C++",
       "path": "C++/Modern C++/Modern C++.md"
-    },
-    {
-      "basename": "컴퓨터공학 개론",
-      "path": "Protected/컴퓨터공학 개론.md"
     },
     {
       "basename": "DLL(Dynamic Link Library)",
@@ -137,18 +169,6 @@
       "path": "Notepad/Notepad.md"
     },
     {
-      "basename": "Protected",
-      "path": "Protected/Protected.md"
-    },
-    {
-      "basename": "Container",
-      "path": "C++/STL/Container/Container.md"
-    },
-    {
-      "basename": "시퀀스 컨테이너",
-      "path": "C++/STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
-    },
-    {
       "basename": "Algorithm",
       "path": "C++/STL/Algorithm/Algorithm.md"
     },
@@ -165,10 +185,6 @@
       "path": "C++/STL/Container/연관 컨테이너/unordered_set.md"
     },
     {
-      "basename": "STL",
-      "path": "C++/STL/STL.md"
-    },
-    {
       "basename": "map",
       "path": "C++/STL/Container/연관 컨테이너/map.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "multimap",
       "path": "C++/STL/Container/연관 컨테이너/multimap.md"
-    },
-    {
-      "basename": "multiset",
-      "path": "C++/STL/Container/연관 컨테이너/multiset.md"
-    },
-    {
-      "basename": "array",
-      "path": "C++/STL/Container/시퀀스 컨테이너/array.md"
-    },
-    {
-      "basename": "vector",
-      "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
-    },
-    {
-      "basename": "deque",
-      "path": "C++/STL/Container/시퀀스 컨테이너/deque.md"
     }
   ],
   "omittedPaths": [],
