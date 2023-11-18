@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "수학적 지식/진법 변환.md",
+                "file": "C++/Code Keeping/진법 변환.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "수학적 지식/진법 변환.md",
+                "file": "C++/Code Keeping/진법 변환.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "수학적 지식/진법 변환.md",
+                "file": "C++/Code Keeping/진법 변환.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "수학적 지식/진법 변환.md"
+                "file": "C++/Code Keeping/진법 변환.md"
               }
             }
           },
@@ -197,10 +197,12 @@
   },
   "active": "0a7a112f7a2d0569",
   "lastOpenFiles": [
+    "C++/Code Keeping/윤년.md",
+    "C++/Code Keeping/진법 변환.md",
     "C++/Code Keeping/cout으로 큰 숫자 출력시 지수출력 방지.md",
     "수학적 지식/진법 변환.md",
-    "C++/Code Keeping/GCD, LCM.md",
     "수학적 지식/GCD, LCM.md",
+    "C++/Code Keeping/GCD, LCM.md",
     "C++/Code Keeping/abs.md",
     "C++/개념정리/예외처리.md",
     "C++/연산자/typeid.md",
@@ -226,8 +228,6 @@
     "Notepad/노션 강의 정리.md",
     "Notepad/Notepad.md",
     "CS 지식",
-    "Protected/Protected.md",
-    "Hello Obsidian/문서 작성 시 번호매기는 순서.md",
     "Computer Science",
     "무제 파일.canvas",
     "Excalidraw",

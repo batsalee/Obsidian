@@ -2,19 +2,27 @@
   "recentFiles": [
     {
       "basename": "진법 변환",
-      "path": "수학적 지식/진법 변환.md"
+      "path": "C++/Code Keeping/진법 변환.md"
+    },
+    {
+      "basename": "윤년",
+      "path": "C++/Code Keeping/윤년.md"
     },
     {
       "basename": "cout으로 큰 숫자 출력시 지수출력 방지",
       "path": "C++/Code Keeping/cout으로 큰 숫자 출력시 지수출력 방지.md"
     },
     {
-      "basename": "GCD, LCM",
-      "path": "C++/Code Keeping/GCD, LCM.md"
+      "basename": "진법 변환",
+      "path": "수학적 지식/진법 변환.md"
     },
     {
       "basename": "GCD, LCM",
       "path": "수학적 지식/GCD, LCM.md"
+    },
+    {
+      "basename": "GCD, LCM",
+      "path": "C++/Code Keeping/GCD, LCM.md"
     },
     {
       "basename": "abs",
@@ -121,10 +129,6 @@
       "path": "C++/STL/Container/Container.md"
     },
     {
-      "basename": "윤년",
-      "path": "C++/Code Keeping/윤년.md"
-    },
-    {
       "basename": "시퀀스 컨테이너",
       "path": "C++/STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "deque",
       "path": "C++/STL/Container/시퀀스 컨테이너/deque.md"
-    },
-    {
-      "basename": "list",
-      "path": "C++/STL/Container/시퀀스 컨테이너/list.md"
     }
   ],
   "omittedPaths": [],
