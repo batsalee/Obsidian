@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Code Keeping/소수 여부 판별.md",
+                "file": "C++/Modern C++/Library/thread.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Code Keeping/소수 여부 판별.md",
+                "file": "C++/Modern C++/Library/thread.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Code Keeping/소수 여부 판별.md",
+                "file": "C++/Modern C++/Library/thread.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Code Keeping/소수 여부 판별.md"
+                "file": "C++/Modern C++/Library/thread.md"
               }
             }
           },
@@ -197,6 +197,7 @@
   },
   "active": "0a7a112f7a2d0569",
   "lastOpenFiles": [
+    "C++/Code Keeping/소수 여부 판별.md",
     "Protected/컴퓨터공학 개론.md",
     "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
     "Hello Obsidian/마크다운 문법 정리.md",
@@ -222,7 +223,6 @@
     "수학적 지식/nCr.md",
     "Hello Obsidian/무제 파일.md",
     "수학적 지식/소수 여부 판별.md",
-    "C++/Code Keeping/소수 여부 판별.md",
     "수학적 지식/GCD, LCM.md",
     "수학적 지식/1~N까지 더하기.md",
     "C++/STL/Container/Container.md",

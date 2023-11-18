@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "thread",
+      "path": "C++/Modern C++/Library/thread.md"
+    },
+    {
       "basename": "소수 여부 판별",
       "path": "C++/Code Keeping/소수 여부 판별.md"
     },
@@ -111,10 +115,6 @@
     {
       "basename": "Hello Obsidian",
       "path": "Hello Obsidian/Hello Obsidian.md"
-    },
-    {
-      "basename": "thread",
-      "path": "C++/Modern C++/Library/thread.md"
     },
     {
       "basename": "Modern C++",
