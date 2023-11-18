@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -195,7 +195,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0a7a112f7a2d0569",
+  "active": "8e9145508b0f8c3b",
   "lastOpenFiles": [
     "C++/Code Keeping/temp변수를 사용하지 않는 swap 구현.md",
     "C++/개념정리/예외처리.md",
