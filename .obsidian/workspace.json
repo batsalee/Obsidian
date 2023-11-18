@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Modern C++/Library/thread.md",
+                "file": "C++/개념정리/예외처리.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Modern C++/Library/thread.md",
+                "file": "C++/개념정리/예외처리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Modern C++/Library/thread.md",
+                "file": "C++/개념정리/예외처리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Modern C++/Library/thread.md"
+                "file": "C++/개념정리/예외처리.md"
               }
             }
           },
@@ -197,6 +197,11 @@
   },
   "active": "0a7a112f7a2d0569",
   "lastOpenFiles": [
+    "C++/Code Keeping/temp변수를 사용하지 않는 swap 구현.md",
+    "C++/개념정리/예외처리.md",
+    "C++/개념정리",
+    "C++/Code Keeping/eof.md",
+    "C++/Modern C++/Library/thread.md",
     "C++/Code Keeping/소수 여부 판별.md",
     "Protected/컴퓨터공학 개론.md",
     "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
@@ -209,7 +214,6 @@
     "CS 지식/프로그래밍 규범/CamelCase, snake_case.md",
     "CS 지식/프로그래밍 규범/헝가리안 표기법.md",
     "CS 지식/프로그래밍 규범",
-    "C++/Code Keeping/eof.md",
     "Notepad/Today_Study 정리파일.md",
     "Notepad/코딩 습관들여야 할 것들.md",
     "Notepad/노션 강의 정리.md",
@@ -225,9 +229,6 @@
     "수학적 지식/소수 여부 판별.md",
     "수학적 지식/GCD, LCM.md",
     "수학적 지식/1~N까지 더하기.md",
-    "C++/STL/Container/Container.md",
-    "C++/Code Keeping/윤년.md",
-    "Pasted image 20231114032408.png.md",
     "Excalidraw",
     "수학적 지식/contents/Pasted image 20231114031910.png",
     "수학적 지식/contents/Pasted image 20231114032408.png",
@@ -236,7 +237,6 @@
     "수학적 지식",
     "C++/Code Keeping",
     "새 텍스트 문서.txt",
-    "Protected",
     "첨부파일 폴더/Pasted image 20231014174143.png"
   ]
 }
