@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Protected/뇌를 자극하는 C 프로그래밍.md",
+                "file": "Protected/뇌를 자극하는 C++ 프로그래밍.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Protected/뇌를 자극하는 C 프로그래밍.md",
+                "file": "Protected/뇌를 자극하는 C++ 프로그래밍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Protected/뇌를 자극하는 C 프로그래밍.md",
+                "file": "Protected/뇌를 자극하는 C++ 프로그래밍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Protected/뇌를 자극하는 C 프로그래밍.md"
+                "file": "Protected/뇌를 자극하는 C++ 프로그래밍.md"
               }
             }
           },
@@ -197,8 +197,9 @@
   },
   "active": "0a7a112f7a2d0569",
   "lastOpenFiles": [
-    "Protected/컴퓨터공학 개론.md",
     "Protected/뇌를 자극하는 C 프로그래밍.md",
+    "Protected/뇌를 자극하는 C++ 프로그래밍.md",
+    "Protected/컴퓨터공학 개론.md",
     "Protected/Protected.md",
     "C++/STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md",
     "C++/STL/Container/시퀀스 컨테이너/list.md",
@@ -222,7 +223,6 @@
     "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
     "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md",
     "CS 지식/프로그래밍 용어/서드 파티(Third Party).md",
-    "CS 지식/프로그래밍 용어/메타데이터(meta-data).md",
     "C++/연산자",
     "C++/개념정리",
     "CS 지식/프로그래밍 용어",

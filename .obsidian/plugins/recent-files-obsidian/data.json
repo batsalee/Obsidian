@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "뇌를 자극하는 C++ 프로그래밍",
+      "path": "Protected/뇌를 자극하는 C++ 프로그래밍.md"
+    },
+    {
       "basename": "뇌를 자극하는 C 프로그래밍",
       "path": "Protected/뇌를 자극하는 C 프로그래밍.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "연관 컨테이너",
       "path": "C++/STL/Container/연관 컨테이너/연관 컨테이너.md"
-    },
-    {
-      "basename": "multimap",
-      "path": "C++/STL/Container/연관 컨테이너/multimap.md"
     }
   ],
   "omittedPaths": [],
