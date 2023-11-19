@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "int와 long의 차이",
+      "path": "C++/개념정리/int와 long의 차이.md"
+    },
+    {
+      "basename": "list",
+      "path": "C++/STL/Container/시퀀스 컨테이너/list.md"
+    },
+    {
+      "basename": "forward_list",
+      "path": "C++/STL/Container/시퀀스 컨테이너/forward_list.md"
+    },
+    {
       "basename": "vector",
       "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
     },
@@ -83,10 +95,6 @@
     {
       "basename": "컴퓨터공학 개론",
       "path": "Protected/컴퓨터공학 개론.md"
-    },
-    {
-      "basename": "list",
-      "path": "C++/STL/Container/시퀀스 컨테이너/list.md"
     },
     {
       "basename": "진법 변환",
@@ -191,14 +199,6 @@
     {
       "basename": "abs",
       "path": "C++/연산자/abs.md"
-    },
-    {
-      "basename": "예외처리",
-      "path": "C++/개념정리/예외처리.md"
-    },
-    {
-      "basename": "typeid",
-      "path": "C++/연산자/typeid.md"
     }
   ],
   "omittedPaths": [],

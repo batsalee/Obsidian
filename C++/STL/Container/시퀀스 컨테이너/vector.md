@@ -146,7 +146,8 @@ std::vector<int> v(nums, nums + sizeof(nums) / sizeof(int));
 - itr자리에 v.begin()같은걸 쓸 수도 있음
 
 4) 벡터에서 값 삭제
-`vec.erase(remove(vec.begin(), vec.end(), 3), vec.end());` => 벡터 내의 모든 3을 제거해줌
+- 값 한개를 지우려면 `v.erase(v.begin() + 5);` 처럼 사용하면 `v[5]`가 삭제되고 한칸씩 땡겨짐
+- 특정 값을 모두 지우려면 `vec.erase(remove(vec.begin(), vec.end(), 3), vec.end());`처럼 사용하면 벡터 내의 모든 3을 제거해줌
 
 5) 이중벡터 크기 지정
 ```C++
