@@ -23,12 +23,8 @@
             "id": "0a7a112f7a2d0569",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Protected/Protected.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -115,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Protected/Protected.md",
+                "file": "CS 지식/프로그래밍 규범/헝가리안 표기법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Protected/Protected.md",
+                "file": "CS 지식/프로그래밍 규범/헝가리안 표기법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Protected/Protected.md"
+                "file": "CS 지식/프로그래밍 규범/헝가리안 표기법.md"
               }
             }
           },
@@ -197,10 +193,10 @@
   },
   "active": "0a7a112f7a2d0569",
   "lastOpenFiles": [
+    "Protected/Protected.md",
     "Protected/뇌를 자극하는 C++ 프로그래밍.md",
     "Protected/뇌를 자극하는 C 프로그래밍.md",
     "Protected/컴퓨터공학 개론.md",
-    "Protected/Protected.md",
     "C++/STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md",
     "C++/STL/Container/시퀀스 컨테이너/list.md",
     "C++/STL/Container/시퀀스 컨테이너/vector.md",
