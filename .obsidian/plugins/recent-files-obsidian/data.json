@@ -5,16 +5,16 @@
       "path": "C++/STL/Container/시퀀스 컨테이너/deque.md"
     },
     {
+      "basename": "vector",
+      "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
+    },
+    {
       "basename": "list",
       "path": "C++/STL/Container/시퀀스 컨테이너/list.md"
     },
     {
       "basename": "forward_list",
       "path": "C++/STL/Container/시퀀스 컨테이너/forward_list.md"
-    },
-    {
-      "basename": "vector",
-      "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
     },
     {
       "basename": "연관 컨테이너",
