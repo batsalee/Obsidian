@@ -35,6 +35,7 @@ void vector()
 - 사전에 할당된 공간이 가득차면 새로운 공간할당, 기존 내용 복사 등의 비효율이 발생할 수 있음
 - vector에 insert나 remove등을 하면 iterator값이 무효화됨, 계속 새로 구하면서 써야함
 	※ 하지만 애초에 insert나 remove를 자주 사용해야 한다면 vector를 채택하지 않는것이 맞음
+- 공간이 부족해서 새로운 공간을 할당받으면 기존에 사용하던 iterator들이 모두 무효화 됨
 
 #### 4. vector의 함수 원형
 ````C++
@@ -71,106 +72,77 @@ class vector;
 - operator= : 벡터의 내용을 복사한다.
 
 4) 반복자 (Iterators)
-
 - begin : 시작 부분 (벡터의 첫번째 원소) 을 가리키는 반복자를 리턴한다.
-
 - end : 끝 부분 (벡터의 마지막 원소 바로 다음) 을 가리키는 반복자를 리턴한다.
-
-- rbegin : 역순으로 첫번째 (즉, 벡터의 마지막 원소) 를 가리키는 반복자를 리턴한다.
-
-- rend : 역순으로 끝 부분 (즉, 벡터의 첫번째 원소 바로 이전) 을 가리키는 반복자를 리턴한다.
-
+- rbegin : 역순으로 첫번째 (즉, 벡터의 마지막 원소) 를 가리키는 반복자를 리턴한다.
+- rend : 역순으로 끝 부분 (즉, 벡터의 첫번째 원소 바로 이전) 을 가리키는 반복자를 리턴한다.
 - cbegin, cend, crbegin, crend도 지원
 
 5) 할당 관련
+- size : 벡터의 size 를 리턴한다 (현재 원소의 개수)
+- capacity : 현재 벡터를 위해 할당된 전체 공간의 크기를 리턴한다.
+- max_size : 시스템상 최대로 할당할 수 있는 벡터의 최대 공간의 크기를 리턴한다.
+ 
+- resize : 벡터가 size 개의 원소를 포함하도록 변경한다.
+- reserve : 벡터에 할당된 크기를 변경한다.
 
-- size : 벡터의 size 를 리턴한다 (현재 원소의 개수)
-
-- max_size : 벡터 최대 크기를 리턴한다.
-
-- resize : 벡터가 size 개의 원소를 포함하도록 변경한다.
-
-- capacity : 벡터에 할당된 전체 크기를 리턴한다.
-
-- empty : 벡터가 비었는지 체크한다.
-
-- reserve : 벡터에 할당된 크기를 변경한다.
-
+- empty : 벡터가 비었는지 체크한다.
 - shrink_to_fit : Shrink to fit
+	- 할당된 공간을 현재 vector의 size만큼 줄이는 함수
 
 6) 원소 접근 관련
-
-- operator[] : 원소에 접근한다.
-
-- at : 원소에 접근한다.
-
-- front : 첫번째 원소에 접근한다.
-
-- back : 마지막 원소에 접근한다.
-
+- operator[] : 원소에 접근한다.
+- at : 원소에 접근한다.
+- front : 첫번째 원소에 접근한다.
+- back : 마지막 원소에 접근한다.
 - data : 벡터의 시작 주소값을 리턴함
 
 7) 수정자 (Modifier)
-
 - assign : 벡터에 원소를 집어넣는다.
-
 - push_back : 벡터 끝에 원소를 집어 넣는다.
+- pop_back : 마지막 원소를 제거한다.
 
 - insert : 벡터 중간에 원소를 추가한다.
-
-- pop_back : 마지막 원소를 제거한다.
-
 - erase : 원소를 제거한다.
-
 - clear : 원소를 모두 제거한다.
 
-- swap : 다른 벡터와 원소를 바꿔치기 한다.
+- swap : 다른 벡터와 원소를 바꿔치기 한다.
 
 - emplace : 원소를 insert함, 다만 emplace는 옛날거고 push_back과 insert가 요즘꺼니 이걸 쓰라고 하던데...
-
 - emplace_back : 제일 뒤에 값을 추가함, 이거보다 push_back 사용을 권장한다고 들었음
 
 8) 할당자
-
 - get_allocator : 할당자(allocator) 을 얻는다.
 
-7. vector 사용 팁들
-
+#### 7. vector 사용 팁들
 1) 벡터 생성시
-
-- default 생성자 : std::vector<int> v; 처럼 생성하면 size 0짜리 vector가 생성됨
-
-- 갯수 지정 : std::vetor<int> v(10); 처럼 생성하면 size 10짜리 vector가 생성됨
-
-- 순회 복사 : std::vector<int> v2(v1.begin(), v1.end()); 처럼 생성하면 v1의 시작부터 끝까지 순회하며 복사
-
-- 복사생성자 : std::vector<int> v1 = v2; 처럼 생성하면 v1이 v2와 동일한 원소를 복사본으로 가지는 벡터를 생성
+- default 생성자 : `std::vector<int> v;` 처럼 생성하면 size 0짜리 vector가 생성됨
+- 갯수 지정 : `std::vetor<int> v(10);` 처럼 생성하면 size 10짜리 vector가 생성됨
+- 순회 복사 : `std::vector<int> v2(v1.begin(), v1.end());` 처럼 생성하면 v1의 시작부터 끝까지 순회하며 복사
+- 복사생성자 : `std::vector<int> v1 = v2;` 처럼 생성하면 v1이 v2와 동일한 원소를 복사본으로 가지는 벡터를 생성
 
 2) 벡터에 대입
+- 정적배열을 벡터로 대입하려면 아래처럼 사용
+```C++
+int nums[] = {1, 2, 3, 4}; 
+std::vector<int> v(nums, nums + sizeof(nums) / sizeof(int));
+```
 
-- 정적배열을 벡터로 대입
-
-- int nums[] = {1, 2, 3, 4}; std::vector<int> v(nums, nums +sizeof(nums)/sizeof(int));
-
-- assign : 벡터객체에 이전에 있던 내용을 모두 삭제하고 인자로 받은 새로운 내용을 넣음
-
-- v.assign(v2.begin(), v2.end()); 처럼 하면 v2의 처음부터 끝까지
-
-- v.assign(n, u); 처럼 하면 n개의 u를 넣음
+- assign 함수 사용 시
+	- 벡터객체에 이전에 있던 내용을 모두 삭제하고 인자로 받은 새로운 내용을 넣음
+	- `v.assign(v2.begin(), v2.end());` 처럼 하면 v2의 처음부터 끝까지
+	- `v.assign(n, u);` 처럼 하면 n개의 u를 넣음
 
 3) 벡터에 삽입
-
 - vector의 size가 capacity보다 커지면 재할당을 받게 되고, 재할당을 하면 이전에 얻은 모든 iterator가 무효화됨
 
-- vector에 삽입을 하게 되면 해당 위치 뒤에 있는 값들을 모두 한칸씩 밀어야 하니 비효율적
+- vector의 중간에 삽입을 하게 되면 해당 위치 뒤에 있는 값들을 모두 한칸씩 밀어야 하니 비효율적
+- 애초에 vector에 insert하는건 효율적이지 못하니 중간위치에 삽입이 많이 필요하다면 list를 사용하는게 맞음
 
-- vector에 insert하는건 효율적이지 못하니 중간위치에 삽입이 많이 필요하다면 list를 써보자
-
-- v.insert(itr, 100); // itr위치에 100값을 insert
-
-- v.insert(itr, 2, 200); // itr위치에 2개의 200을 넣음
-
-- v.insert(itr, v2.begin(), v2.end()); // itr위치에 v2의 시작부터 끝까지 삽입
+- 그럼엗
+- `v.insert(itr, 100);` // itr위치에 100값을 insert
+- `v.insert(itr, 2, 200);` // itr위치에 2개의 200을 넣음
+- `v.insert(itr, v2.begin(), v2.end());` // itr위치에 v2의 시작부터 끝까지 삽입
 
 - itr자리에 v.begin()같은걸 쓸 수도 있음
 
