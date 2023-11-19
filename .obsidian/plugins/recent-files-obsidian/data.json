@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Hello Obsidian",
+      "path": "Hello Obsidian/Hello Obsidian.md"
+    },
+    {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
+    },
+    {
       "basename": "deque",
       "path": "C++/STL/Container/시퀀스 컨테이너/deque.md"
     },
     {
-      "basename": "vector",
-      "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
-    },
-    {
       "basename": "list",
       "path": "C++/STL/Container/시퀀스 컨테이너/list.md"
+    },
+    {
+      "basename": "vector",
+      "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
     },
     {
       "basename": "forward_list",
@@ -145,10 +153,6 @@
       "path": "C++/Code Keeping/eof.md"
     },
     {
-      "basename": "Hello Obsidian",
-      "path": "Hello Obsidian/Hello Obsidian.md"
-    },
-    {
       "basename": "Modern C++",
       "path": "C++/Modern C++/Modern C++.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "1~N까지 더하기",
       "path": "수학적 지식/1~N까지 더하기.md"
-    },
-    {
-      "basename": "GCD, LCM",
-      "path": "수학적 지식/GCD, LCM.md"
     }
   ],
   "omittedPaths": [],

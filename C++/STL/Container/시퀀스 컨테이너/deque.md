@@ -55,27 +55,23 @@ class deque;
               기본값으로 T 의 할당자 클래스 템플릿을 사용하며, Heap 에 할당하게 된다.  
     
 #### 5. deque의 멤버 변수들  
-- reference : Allocator::reference  
-- const_reference : Allocator::const_reference  
+- reference : Allocator::reference  
+- const_reference : Allocator::const_reference  
   
-- iterator : 임의 접근 반복자(random access iterator)  
-- const_iterator : 상수 임의 접근 반복자 (즉, 접근하는 원소의 내용을 수정 못함)  
-- reverse_iterator : 역 반복자 (끝에서 부터 참조해나간다) reverse_iterator<iterator>  
-- const_reverse_iterator : 상수 역 반복자 (reverse_iterator<const_iterator>)  
+- iterator : 임의 접근 반복자(random access iterator)  
+- const_iterator : 상수 임의 접근 반복자 (즉, 접근하는 원소의 내용을 수정 못함)  
+- reverse_iterator : 역 반복자 (끝에서 부터 참조해나간다) `reverse_iterator<iterator>`
+- const_reverse_iterator : 상수 역 반복자 `reverse_iterator<const_iterator>`
   
-- size_type : 데크 size 를 나타내는 타입 (많은 경우 size_t 와 타입이 같으며 부호없는 정수이다)  
-  
-- difference_type : 데크 내의 두 원소 사이의 거리를 나타내는 타입 (많은 경우 ptfdiff_t 와 타입이 같으며 부호있는 정수)  
-  
-- value_type : 원소 타입 (T)  
-  
-- allocator_type : 할당자  
-  
-- pointer : 포인터 (Allocator::pointer)  
-- const_pointer : 상수 포인터 (Allocator::const_pointer)  
-  
-    
-6. deque의 멤버 함수들  
+- size_type : 데크 size 를 나타내는 타입 (많은 경우 size_t 와 타입이 같으며 부호없는 정수이다)  
+- difference_type : 데크 내의 두 원소 사이의 거리를 나타내는 타입 (많은 경우 ptfdiff_t 와 타입이 같으며 부호있는 정수)  
+- value_type : 원소 타입 (T)  
+- allocator_type : 할당자  
+
+- pointer : 포인터 (Allocator::pointer)  
+- const_pointer : 상수 포인터 (Allocator::const_pointer)  
+
+#### 6. deque의 멤버 함수들  
 1) 생성자 : 데크를 생성한다.  
 2) 소멸자 : 데크를 소멸한다.  
 3) 연산자  
@@ -86,7 +82,6 @@ class deque;
   - end : 끝 부분 (마지막 원소 바로 다음) 을 가리키는 반복자를 리턴한다.  
   - rbegin : 역순으로 첫번째 (즉, 마지막 원소) 를 가리키는 반복자를 리턴한다.  
   - rend : 역순으로 끝 부분 (즉, 첫번째 원소 바로 이전) 을 가리키는 반복자를 리턴한다.
-
   - cbegin, cend, crbegin, crend도 지원  
   
 5) 할당 관련  
@@ -95,11 +90,10 @@ class deque;
   - max_size : 데크 최대 크기를 리턴한다.  
   - resize : 데크가 size 개의 원소를 포함하도록 변경한다.  
   - empty : 데크가 비었는지 체크한다.
-
-  - shrink_to_fit : Shrink to fit   
+  - shrink_to_fit : Shrink to fit
+	- 할당된 공간을 현재 vector의 size만큼 줄이는 함수
   
 6) 접근자
-
   - operator[] : 원소에 접근한다.(임의 접근)  
   - at : 원소에 접근한다.  
   - front : 첫번째 원소에 접근한다.  
@@ -120,16 +114,13 @@ class deque;
   - clear : 원소를 모두 제거한다.
 
   - emplace_front : 이것 대신 push_front 사용하기
-
   - emplace_back : 이것 대신 push_back 사용하기  
   
 8) 할당자  
   - get_allocator : 할당자(allocator) 을 얻는다.
 
-7. deque 사용 팁들
-
-
-
-- 덱의 제일 뒤에 값을넣을땐 push_back, 앞에 값을 넣을땐 push_front, pop_back이나 pop_front도 사용 가능  
+#### 7. deque 사용 팁들
+- 덱의 제일 뒤에 값을넣을땐 push_back, 앞에 값을 넣을땐 push_front사용하면 된다.
+- pop_back이나 pop_front도 사용 가능  
 
 출처 : [https://cplusplus.com/reference/deque/deque/](https://cplusplus.com/reference/deque/deque/)
