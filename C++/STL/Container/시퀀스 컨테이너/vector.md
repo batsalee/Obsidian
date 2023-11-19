@@ -3,7 +3,7 @@
 ```C++
 #include <vector>
 
-void vector()
+void main()
 {
 	std::vector<int> v;
 }

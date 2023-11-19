@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "int와 long의 차이",
-      "path": "C++/개념정리/int와 long의 차이.md"
-    },
-    {
       "basename": "list",
       "path": "C++/STL/Container/시퀀스 컨테이너/list.md"
     },
@@ -19,6 +15,10 @@
     {
       "basename": "array",
       "path": "C++/STL/Container/시퀀스 컨테이너/array.md"
+    },
+    {
+      "basename": "int와 long의 차이",
+      "path": "C++/개념정리/int와 long의 차이.md"
     },
     {
       "basename": "시퀀스 컨테이너",

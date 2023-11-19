@@ -3,7 +3,7 @@
 ```C++
 #include <forward_list>
 
-void list()
+void main()
 {
     std::forward_list<int> fl;
 }
