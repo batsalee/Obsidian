@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "deque",
+      "path": "C++/STL/Container/시퀀스 컨테이너/deque.md"
+    },
+    {
       "basename": "list",
       "path": "C++/STL/Container/시퀀스 컨테이너/list.md"
     },
@@ -13,24 +17,40 @@
       "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
     },
     {
-      "basename": "array",
-      "path": "C++/STL/Container/시퀀스 컨테이너/array.md"
-    },
-    {
-      "basename": "int와 long의 차이",
-      "path": "C++/개념정리/int와 long의 차이.md"
-    },
-    {
-      "basename": "시퀀스 컨테이너",
-      "path": "C++/STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
-    },
-    {
       "basename": "연관 컨테이너",
       "path": "C++/STL/Container/연관 컨테이너/연관 컨테이너.md"
     },
     {
       "basename": "해시 컨테이너",
       "path": "C++/STL/Container/해시 컨테이너/해시 컨테이너.md"
+    },
+    {
+      "basename": "unordered_set",
+      "path": "C++/STL/Container/해시 컨테이너/unordered_set.md"
+    },
+    {
+      "basename": "unordered_multiset",
+      "path": "C++/STL/Container/해시 컨테이너/unordered_multiset.md"
+    },
+    {
+      "basename": "unordered_map",
+      "path": "C++/STL/Container/해시 컨테이너/unordered_map.md"
+    },
+    {
+      "basename": "시퀀스 컨테이너",
+      "path": "C++/STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
+    },
+    {
+      "basename": "array",
+      "path": "C++/STL/Container/시퀀스 컨테이너/array.md"
+    },
+    {
+      "basename": "Container",
+      "path": "C++/STL/Container/Container.md"
+    },
+    {
+      "basename": "int와 long의 차이",
+      "path": "C++/개념정리/int와 long의 차이.md"
     },
     {
       "basename": "컨테이너 어댑터",
@@ -49,28 +69,12 @@
       "path": "C++/STL/Container/컨테이너 어댑터/stack.md"
     },
     {
-      "basename": "Container",
-      "path": "C++/STL/Container/Container.md"
-    },
-    {
       "basename": "STL",
       "path": "C++/STL/STL.md"
     },
     {
       "basename": "unordered_multimap",
       "path": "C++/STL/Container/해시 컨테이너/unordered_multimap.md"
-    },
-    {
-      "basename": "unordered_multiset",
-      "path": "C++/STL/Container/해시 컨테이너/unordered_multiset.md"
-    },
-    {
-      "basename": "unordered_map",
-      "path": "C++/STL/Container/해시 컨테이너/unordered_map.md"
-    },
-    {
-      "basename": "unordered_set",
-      "path": "C++/STL/Container/해시 컨테이너/unordered_set.md"
     },
     {
       "basename": "map",
@@ -195,10 +199,6 @@
     {
       "basename": "GCD, LCM",
       "path": "수학적 지식/GCD, LCM.md"
-    },
-    {
-      "basename": "abs",
-      "path": "C++/연산자/abs.md"
     }
   ],
   "omittedPaths": [],
