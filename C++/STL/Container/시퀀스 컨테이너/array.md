@@ -49,49 +49,32 @@ T자료형의 데이터를 N개 갖는 배열
 #### 6. std::array의 멤버 함수들
 
 1) 생성자 : array를 생성한다.
-
 2) 소멸자 : array를 소멸한다.
 
 3) 연산자
-
 - operator= : array의 내용을 복사한다.
 
 4) 반복자 (Iterators)
-
 - begin : 시작 부분 (array의 첫번째 원소) 을 가리키는 반복자를 리턴한다.
-
 - end : 끝 부분 (array의 마지막 원소 바로 다음) 을 가리키는 반복자를 리턴한다.
-
 - rbegin : 역순으로 첫번째 (즉, array의 마지막 원소) 를 가리키는 반복자를 리턴한다.
-
 - rend : 역순으로 끝 부분 (즉, array의 첫번째 원소 바로 이전) 을 가리키는 반복자를 리턴한다.
-
 - cbegin, cend, crbegin, crend도 지원
 
 5) 할당 관련
-
 - size : array의 size 를 리턴한다 (현재 원소의 개수)
-
 - max_size : array 최대 크기를 리턴한다.
-
 - empty : array가 비었는지 체크한다.
 
 6) 원소 접근 관련
-
 - operator[] : 원소에 접근한다.
-
 - at : 원소에 접근한다.
-
 - front : 첫번째 원소에 접근한다.
-
 - back : 마지막 원소에 접근한다.
-
 - data : array의 시작 주소값을 리턴함
 
 7) 수정자 (Modifier)
-
 - fill : array를 특정 값으로 다 채움
-
 - swap : 다른 array와 원소를 바꿔치기 한다.
 
 출처 : [https://cplusplus.com/reference/array/array/](https://cplusplus.com/reference/array/array/)
