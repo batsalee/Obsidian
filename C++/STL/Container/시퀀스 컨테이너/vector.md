@@ -139,50 +139,46 @@ std::vector<int> v(nums, nums + sizeof(nums) / sizeof(int));
 - vector의 중간에 삽입을 하게 되면 해당 위치 뒤에 있는 값들을 모두 한칸씩 밀어야 하니 비효율적
 - 애초에 vector에 insert하는건 효율적이지 못하니 중간위치에 삽입이 많이 필요하다면 list를 사용하는게 맞음
 
-- 그럼엗
+- 그럼에도 사용해야한다면 사용법
 - `v.insert(itr, 100);` // itr위치에 100값을 insert
 - `v.insert(itr, 2, 200);` // itr위치에 2개의 200을 넣음
 - `v.insert(itr, v2.begin(), v2.end());` // itr위치에 v2의 시작부터 끝까지 삽입
-
 - itr자리에 v.begin()같은걸 쓸 수도 있음
 
-4) 이중벡터 크기 지정
+4) 벡터에서 값 삭제
+`vec.erase(remove(vec.begin(), vec.end(), 3), vec.end());` => 벡터 내의 모든 3을 제거해줌
 
-- std::vector<std::vector<int>> v(행크기, std::vector<int>(열크기));
+5) 이중벡터 크기 지정
+```C++
+std::vector<std::vector<int>> v(행크기, std::vector<int>(열크기));`
+// 또는
+std::vector<int> v[행크기];
+```
 
-8. vector 사용시 주의사항
-
-1) 벡터에 많은 값들이 들어갔다가 나오게 되면 capacity가 아주 커진채로 저절로 줄어들지 않음
-
-- clear나 resize해줘도 내부 원소만 날리는거고 메모리는 줄어들지 않는다고 함
-
+#### 8. vector 사용시 주의사항
+1) Shrink to fit
+- 벡터에 많은 값들이 들어갔다가 나오게 되면 capacity가 아주 커진채로 저절로 줄어들지 않음
+- clear나 resize해줘도 내부 원소만 날리는거고 할당된 메모리의 크기는 줄어들지 않는다고 함
 - 해결법은 swap방식과 shrink_to_fit이 있음
 
-- swap방식은 resize나 clear한 후에 vector<int> (v).swap(v); 해주면 됨
-
+- swap방식은 resize나 clear한 후에 `vector<int> (v).swap(v);` 해주면 됨
 - shrink_to_fit()은 C++11부터 제공되는데 이게 약간 문제가 있다고 함
+	- 해당 사이즈만큼 새로운 벡터를 만들어서 기존 원소들을 copy하는 방식이라 큰 vector라면 애매함
+	- 어쨋든 사용하려면 resize나 clear한 후에 shrink_to_fit()하면 됨
+	- 호환성 걱정되면 기존버전인 swap 쓰면 될 듯
 
-- 해당 사이즈만큼 새로운 벡터를 만들어서 기존 원소들을 copy하는 방식이라 큰 vector라면 애매함
-
-- 어쨋든 사용하려면 resize나 clear한 후에 shrink_to_fit()하면 됨
-
-- 호환성 걱정되면 기존버전인 swap 쓰면 될 듯
-
-2) vector<bool>은 다른 자료형과 다르게 사용됨
-
+2) `vector<bool>`은 다른 자료형과 다르게 사용됨
 - 메모리 공간을 아끼기 위해 bool만 템플릿 특수화 되었다고 함
-
-- 결과적으로 bool의 레퍼런스는 bool&가 아니라 vector<bool>내의 멤버변수를 통해 처리된다고 함
-
-- 이게 문제가 된다고 하는데 operator[]가 std::vector<int>에 비해 2배이상 느리다고 함
-
-- 그래서 std::vector<bool> 쓸바에는 std::vector<int>써서 0, 1로 처리하는게 더 낫다는 말이 있는 듯함
-
+- 결과적으로 bool의 레퍼런스는 bool&가 아니라 `vector<bool>`내의 멤버변수를 통해 처리된다고 함
+- 이게 문제가 된다고 하는데 `operator[]가 std::vector<int>`에 비해 2배이상 느리다고 함
+- 그래서 `std::vector<bool>` 쓸바에는 `std::vector<int>`써서 0, 1로 처리하는게 더 낫다는 말이 있는 듯함
 - bool이 int보다 메모리를 아낄 수 있지만 어차피 scope 벗어나면 자동 해제되니까 메모리 손해는 작은 반면 속도는 차이가 큰가봄
 
-3) vector에 insert나 erase를 할 경우 기존의 itr은 무의미해짐(저절로 한칸 옮겨서 계산 안해주나봄)  
-그러므로 insert나 erase 바로 뒷줄에 itr = vec.begin()같은걸로 다시 값을 지정해줘야함
-
-erase의 경우 이런 불편함을 해결하기 위해 remove 사용
+3) iterator가 무효화되는 상황이 종종 생김
+- 더 큰 공간이 필요해서 새로운 공간을 할당한 후 값들을 복사한 경우 iterator가 무의미해짐
+- insert나 erase를 할 경우 기존의 iterator가 무의미해짐(저절로 한칸 옮겨서 계산 안해줌)  
+	그러므로 insert나 erase를 연속적으로 여러번 사용한다면 바로 뒷줄에 `itr = vec.begin()`같은걸로 다시 값을 지정해줘야함
+	그냥 애초에 이런 상황이 생기지 않게 insert나 erase를 할 상황이 많으면 list를 채택하는것이 맞음
+- erase의 경우 이런 불편함을 해결하기 위해 remove 사용
 
 출처 : [https://cplusplus.com/reference/vector/vector/](https://cplusplus.com/reference/vector/vector/)
