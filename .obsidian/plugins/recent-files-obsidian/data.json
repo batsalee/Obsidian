@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "1~N까지 더하기",
+      "path": "수학적 지식/1~N까지 더하기.md"
+    },
+    {
+      "basename": "GCD, LCM",
+      "path": "수학적 지식/GCD, LCM.md"
+    },
+    {
       "basename": "진법 변환",
       "path": "수학적 지식/진법 변환.md"
     },
@@ -171,14 +179,6 @@
     {
       "basename": "두 수의 합의 나머지",
       "path": "수학적 지식/두 수의 합의 나머지.md"
-    },
-    {
-      "basename": "1~N까지 더하기",
-      "path": "수학적 지식/1~N까지 더하기.md"
-    },
-    {
-      "basename": "GCD, LCM",
-      "path": "수학적 지식/GCD, LCM.md"
     },
     {
       "basename": "연관 컨테이너",
