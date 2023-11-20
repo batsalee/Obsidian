@@ -1,20 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "Hello Obsidian",
-      "path": "Hello Obsidian/Hello Obsidian.md"
+      "basename": "thread",
+      "path": "C++/Modern C++/Library/thread.md"
     },
     {
       "basename": "Modern C++",
       "path": "C++/Modern C++/Modern C++.md"
     },
     {
+      "basename": "Algorithm",
+      "path": "C++/STL/Algorithm/Algorithm.md"
+    },
+    {
       "basename": "Iterator",
       "path": "C++/STL/Iteraoter/Iterator.md"
     },
     {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
+      "basename": "priority_queue",
+      "path": "C++/STL/Container/컨테이너 어댑터/priority_queue.md"
+    },
+    {
+      "basename": "stack",
+      "path": "C++/STL/Container/컨테이너 어댑터/stack.md"
+    },
+    {
+      "basename": "컨테이너 어댑터",
+      "path": "C++/STL/Container/컨테이너 어댑터/컨테이너 어댑터.md"
+    },
+    {
+      "basename": "queue",
+      "path": "C++/STL/Container/컨테이너 어댑터/queue.md"
+    },
+    {
+      "basename": "multimap",
+      "path": "C++/STL/Container/연관 컨테이너/multimap.md"
+    },
+    {
+      "basename": "multiset",
+      "path": "C++/STL/Container/연관 컨테이너/multiset.md"
+    },
+    {
+      "basename": "map",
+      "path": "C++/STL/Container/연관 컨테이너/map.md"
+    },
+    {
+      "basename": "set",
+      "path": "C++/STL/Container/연관 컨테이너/set.md"
     },
     {
       "basename": "deque",
@@ -25,12 +57,128 @@
       "path": "C++/STL/Container/시퀀스 컨테이너/list.md"
     },
     {
+      "basename": "forward_list",
+      "path": "C++/STL/Container/시퀀스 컨테이너/forward_list.md"
+    },
+    {
       "basename": "vector",
       "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
     },
     {
-      "basename": "forward_list",
-      "path": "C++/STL/Container/시퀀스 컨테이너/forward_list.md"
+      "basename": "array",
+      "path": "C++/STL/Container/시퀀스 컨테이너/array.md"
+    },
+    {
+      "basename": "시퀀스 컨테이너",
+      "path": "C++/STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
+    },
+    {
+      "basename": "typeid",
+      "path": "C++/연산자/typeid.md"
+    },
+    {
+      "basename": "abs",
+      "path": "C++/연산자/abs.md"
+    },
+    {
+      "basename": "nCr",
+      "path": "C++/Code Keeping/nCr.md"
+    },
+    {
+      "basename": "예외처리",
+      "path": "C++/개념정리/예외처리.md"
+    },
+    {
+      "basename": "int와 long의 차이",
+      "path": "C++/개념정리/int와 long의 차이.md"
+    },
+    {
+      "basename": "컴퓨터공학 개론",
+      "path": "Protected/컴퓨터공학 개론.md"
+    },
+    {
+      "basename": "뇌를 자극하는 C 프로그래밍",
+      "path": "Protected/뇌를 자극하는 C 프로그래밍.md"
+    },
+    {
+      "basename": "CamelCase, snake_case",
+      "path": "CS 지식/프로그래밍 규범/CamelCase, snake_case.md"
+    },
+    {
+      "basename": "헝가리안 표기법",
+      "path": "CS 지식/프로그래밍 규범/헝가리안 표기법.md"
+    },
+    {
+      "basename": "메타데이터(meta-data)",
+      "path": "CS 지식/프로그래밍 용어/메타데이터(meta-data).md"
+    },
+    {
+      "basename": "콜백함수(Callback Func)",
+      "path": "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md"
+    },
+    {
+      "basename": "서드 파티(Third Party)",
+      "path": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md"
+    },
+    {
+      "basename": "DLL(Dynamic Link Library)",
+      "path": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
+    },
+    {
+      "basename": "소수 여부 판별",
+      "path": "수학적 지식/소수 여부 판별.md"
+    },
+    {
+      "basename": "nCr",
+      "path": "수학적 지식/nCr.md"
+    },
+    {
+      "basename": "윤년",
+      "path": "수학적 지식/윤년.md"
+    },
+    {
+      "basename": "두 수의 합의 나머지",
+      "path": "수학적 지식/두 수의 합의 나머지.md"
+    },
+    {
+      "basename": "1~N까지 더하기",
+      "path": "수학적 지식/1~N까지 더하기.md"
+    },
+    {
+      "basename": "GCD, LCM",
+      "path": "수학적 지식/GCD, LCM.md"
+    },
+    {
+      "basename": "진법 변환",
+      "path": "수학적 지식/진법 변환.md"
+    },
+    {
+      "basename": "노션 강의 정리",
+      "path": "Notepad/노션 강의 정리.md"
+    },
+    {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
+    },
+    {
+      "basename": "코딩 습관들여야 할 것들",
+      "path": "Notepad/코딩 습관들여야 할 것들.md"
+    },
+    {
+      "basename": "Notepad",
+      "path": "Notepad/Notepad.md"
+    },
+    {
+      "basename": "문서 작성 시 번호매기는 순서",
+      "path": "Hello Obsidian/문서 작성 시 번호매기는 순서.md"
+    },
+    {
+      "basename": "마크다운 문법 정리",
+      "path": "Hello Obsidian/마크다운 문법 정리.md"
+    },
+    {
+      "basename": "Hello Obsidian",
+      "path": "Hello Obsidian/Hello Obsidian.md"
     },
     {
       "basename": "연관 컨테이너",
@@ -51,154 +199,6 @@
     {
       "basename": "unordered_map",
       "path": "C++/STL/Container/해시 컨테이너/unordered_map.md"
-    },
-    {
-      "basename": "시퀀스 컨테이너",
-      "path": "C++/STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
-    },
-    {
-      "basename": "array",
-      "path": "C++/STL/Container/시퀀스 컨테이너/array.md"
-    },
-    {
-      "basename": "Container",
-      "path": "C++/STL/Container/Container.md"
-    },
-    {
-      "basename": "int와 long의 차이",
-      "path": "C++/개념정리/int와 long의 차이.md"
-    },
-    {
-      "basename": "컨테이너 어댑터",
-      "path": "C++/STL/Container/컨테이너 어댑터/컨테이너 어댑터.md"
-    },
-    {
-      "basename": "priority_queue",
-      "path": "C++/STL/Container/컨테이너 어댑터/priority_queue.md"
-    },
-    {
-      "basename": "queue",
-      "path": "C++/STL/Container/컨테이너 어댑터/queue.md"
-    },
-    {
-      "basename": "stack",
-      "path": "C++/STL/Container/컨테이너 어댑터/stack.md"
-    },
-    {
-      "basename": "STL",
-      "path": "C++/STL/STL.md"
-    },
-    {
-      "basename": "unordered_multimap",
-      "path": "C++/STL/Container/해시 컨테이너/unordered_multimap.md"
-    },
-    {
-      "basename": "map",
-      "path": "C++/STL/Container/연관 컨테이너/map.md"
-    },
-    {
-      "basename": "set",
-      "path": "C++/STL/Container/연관 컨테이너/set.md"
-    },
-    {
-      "basename": "Protected",
-      "path": "Protected/Protected.md"
-    },
-    {
-      "basename": "뇌를 자극하는 C++ 프로그래밍",
-      "path": "Protected/뇌를 자극하는 C++ 프로그래밍.md"
-    },
-    {
-      "basename": "뇌를 자극하는 C 프로그래밍",
-      "path": "Protected/뇌를 자극하는 C 프로그래밍.md"
-    },
-    {
-      "basename": "컴퓨터공학 개론",
-      "path": "Protected/컴퓨터공학 개론.md"
-    },
-    {
-      "basename": "진법 변환",
-      "path": "C++/Code Keeping/진법 변환.md"
-    },
-    {
-      "basename": "진법 변환",
-      "path": "수학적 지식/진법 변환.md"
-    },
-    {
-      "basename": "문서 작성 시 번호매기는 순서",
-      "path": "Hello Obsidian/문서 작성 시 번호매기는 순서.md"
-    },
-    {
-      "basename": "마크다운 문법 정리",
-      "path": "Hello Obsidian/마크다운 문법 정리.md"
-    },
-    {
-      "basename": "GCD, LCM",
-      "path": "C++/Code Keeping/GCD, LCM.md"
-    },
-    {
-      "basename": "윤년",
-      "path": "C++/Code Keeping/윤년.md"
-    },
-    {
-      "basename": "cout 지수출력 방지",
-      "path": "C++/Code Keeping/cout 지수출력 방지.md"
-    },
-    {
-      "basename": "temp변수를 사용하지 않는 swap 구현",
-      "path": "C++/Code Keeping/temp변수를 사용하지 않는 swap 구현.md"
-    },
-    {
-      "basename": "소수 여부 판별",
-      "path": "C++/Code Keeping/소수 여부 판별.md"
-    },
-    {
-      "basename": "nCr",
-      "path": "C++/Code Keeping/nCr.md"
-    },
-    {
-      "basename": "eof",
-      "path": "C++/Code Keeping/eof.md"
-    },
-    {
-      "basename": "DLL(Dynamic Link Library)",
-      "path": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
-    },
-    {
-      "basename": "콜백함수(Callback Func)",
-      "path": "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md"
-    },
-    {
-      "basename": "서드 파티(Third Party)",
-      "path": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md"
-    },
-    {
-      "basename": "메타데이터(meta-data)",
-      "path": "CS 지식/프로그래밍 용어/메타데이터(meta-data).md"
-    },
-    {
-      "basename": "CamelCase, snake_case",
-      "path": "CS 지식/프로그래밍 규범/CamelCase, snake_case.md"
-    },
-    {
-      "basename": "헝가리안 표기법",
-      "path": "CS 지식/프로그래밍 규범/헝가리안 표기법.md"
-    },
-    {
-      "basename": "nCr",
-      "path": "수학적 지식/nCr.md"
-    },
-    {
-      "basename": "소수 여부 판별",
-      "path": "수학적 지식/소수 여부 판별.md"
-    },
-    {
-      "basename": "윤년",
-      "path": "수학적 지식/윤년.md"
-    },
-    {
-      "basename": "두 수의 합의 나머지",
-      "path": "수학적 지식/두 수의 합의 나머지.md"
     }
   ],
   "omittedPaths": [],
