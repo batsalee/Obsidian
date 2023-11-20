@@ -90,7 +90,7 @@ class deque;
   - max_size : 데크 최대 크기를 리턴한다.  
   - resize : 데크가 size 개의 원소를 포함하도록 변경한다.  
   - empty : 데크가 비었는지 체크한다.
-  - shrink_to_fit : Shrink to fit
+  - shrink_to_fit : Shrink to fit  
 	- 할당된 공간을 현재 vector의 size만큼 줄이는 함수
   
 6) 접근자

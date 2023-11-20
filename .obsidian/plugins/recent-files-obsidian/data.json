@@ -5,6 +5,10 @@
       "path": "C++/STL/Container/시퀀스 컨테이너/deque.md"
     },
     {
+      "basename": "vector",
+      "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
+    },
+    {
       "basename": "컨테이너 어댑터",
       "path": "C++/STL/Container/컨테이너 어댑터/컨테이너 어댑터.md"
     },
@@ -71,10 +75,6 @@
     {
       "basename": "forward_list",
       "path": "C++/STL/Container/시퀀스 컨테이너/forward_list.md"
-    },
-    {
-      "basename": "vector",
-      "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
     },
     {
       "basename": "array",
