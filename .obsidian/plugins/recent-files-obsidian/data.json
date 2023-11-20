@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "진법 변환",
+      "path": "수학적 지식/진법 변환.md"
+    },
+    {
       "basename": "노션 강의 정리",
       "path": "Notepad/노션 강의 정리.md"
     },
@@ -175,10 +179,6 @@
     {
       "basename": "GCD, LCM",
       "path": "수학적 지식/GCD, LCM.md"
-    },
-    {
-      "basename": "진법 변환",
-      "path": "수학적 지식/진법 변환.md"
     },
     {
       "basename": "연관 컨테이너",
