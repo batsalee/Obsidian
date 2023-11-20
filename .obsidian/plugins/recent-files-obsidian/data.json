@@ -1,16 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "1~N까지 더하기",
-      "path": "수학적 지식/1~N까지 더하기.md"
+      "basename": "콜백함수(Callback Func)",
+      "path": "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md"
+    },
+    {
+      "basename": "서드 파티(Third Party)",
+      "path": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md"
+    },
+    {
+      "basename": "DLL(Dynamic Link Library)",
+      "path": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
+    },
+    {
+      "basename": "메타데이터(meta-data)",
+      "path": "CS 지식/프로그래밍 용어/메타데이터(meta-data).md"
+    },
+    {
+      "basename": "CamelCase, snake_case",
+      "path": "CS 지식/프로그래밍 규범/CamelCase, snake_case.md"
+    },
+    {
+      "basename": "헝가리안 표기법",
+      "path": "CS 지식/프로그래밍 규범/헝가리안 표기법.md"
+    },
+    {
+      "basename": "진법 변환",
+      "path": "수학적 지식/진법 변환.md"
     },
     {
       "basename": "GCD, LCM",
       "path": "수학적 지식/GCD, LCM.md"
     },
     {
-      "basename": "진법 변환",
-      "path": "수학적 지식/진법 변환.md"
+      "basename": "1~N까지 더하기",
+      "path": "수학적 지식/1~N까지 더하기.md"
+    },
+    {
+      "basename": "두 수의 합의 나머지",
+      "path": "수학적 지식/두 수의 합의 나머지.md"
+    },
+    {
+      "basename": "윤년",
+      "path": "수학적 지식/윤년.md"
+    },
+    {
+      "basename": "nCr",
+      "path": "수학적 지식/nCr.md"
+    },
+    {
+      "basename": "소수 여부 판별",
+      "path": "수학적 지식/소수 여부 판별.md"
     },
     {
       "basename": "노션 강의 정리",
@@ -139,46 +179,6 @@
     {
       "basename": "뇌를 자극하는 C 프로그래밍",
       "path": "Protected/뇌를 자극하는 C 프로그래밍.md"
-    },
-    {
-      "basename": "CamelCase, snake_case",
-      "path": "CS 지식/프로그래밍 규범/CamelCase, snake_case.md"
-    },
-    {
-      "basename": "헝가리안 표기법",
-      "path": "CS 지식/프로그래밍 규범/헝가리안 표기법.md"
-    },
-    {
-      "basename": "메타데이터(meta-data)",
-      "path": "CS 지식/프로그래밍 용어/메타데이터(meta-data).md"
-    },
-    {
-      "basename": "콜백함수(Callback Func)",
-      "path": "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md"
-    },
-    {
-      "basename": "서드 파티(Third Party)",
-      "path": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md"
-    },
-    {
-      "basename": "DLL(Dynamic Link Library)",
-      "path": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
-    },
-    {
-      "basename": "소수 여부 판별",
-      "path": "수학적 지식/소수 여부 판별.md"
-    },
-    {
-      "basename": "nCr",
-      "path": "수학적 지식/nCr.md"
-    },
-    {
-      "basename": "윤년",
-      "path": "수학적 지식/윤년.md"
-    },
-    {
-      "basename": "두 수의 합의 나머지",
-      "path": "수학적 지식/두 수의 합의 나머지.md"
     },
     {
       "basename": "연관 컨테이너",
