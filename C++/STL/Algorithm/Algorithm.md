@@ -23,6 +23,8 @@ void do_something(Iter begin, Iter end, Pred pred)
 - stable_sort : 정렬을 하되 원소들 간의 순서를 보존함  
  => int vector에 a=1, b=1로 있을때 sort는 a, b순서가 될수도 b, a순서가 될수도 있지만   
       stable_sort는 a, b 순서를 sort전과 똑같게 보존해줌
+      
+sort는 퀵정렬 기반으로 구현되어 있다.
 
 sort  
 std::sort(v.begin(), v.end());  
