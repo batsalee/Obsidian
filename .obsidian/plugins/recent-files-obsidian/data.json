@@ -5,6 +5,14 @@
       "path": "Hello Obsidian/Hello Obsidian.md"
     },
     {
+      "basename": "Modern C++",
+      "path": "C++/Modern C++/Modern C++.md"
+    },
+    {
+      "basename": "Iterator",
+      "path": "C++/STL/Iteraoter/Iterator.md"
+    },
+    {
       "basename": "Today_Study 정리파일",
       "path": "Notepad/Today_Study 정리파일.md"
     },
@@ -153,10 +161,6 @@
       "path": "C++/Code Keeping/eof.md"
     },
     {
-      "basename": "Modern C++",
-      "path": "C++/Modern C++/Modern C++.md"
-    },
-    {
       "basename": "DLL(Dynamic Link Library)",
       "path": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "두 수의 합의 나머지",
       "path": "수학적 지식/두 수의 합의 나머지.md"
-    },
-    {
-      "basename": "1~N까지 더하기",
-      "path": "수학적 지식/1~N까지 더하기.md"
     }
   ],
   "omittedPaths": [],
