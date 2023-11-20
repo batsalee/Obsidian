@@ -11,7 +11,7 @@ void main()
 
 #### 1. vector의 개념
 - 동적 배열로 구현되어 있음
-- 정적배열과 동적배열의 차이
+- 정적배열과 동적배열의 차이  
 	1) 정적배열 : 생성할때 공간의 크기를 지정해줘야하고, 한번 할당하면 크기를 변경할 수 없음
 	2) 동적배열 : 스스로 공간을 할당하고, 크기를 확장할 수 있고, 또 줄일수도 있음
 
@@ -33,8 +33,8 @@ void main()
 - 끝이 아닌 시작이나 중간에 새로운 원소를 삽입/삭제하는 작업은 deque나 list보다 느림
 - 먼저 큰 공간을 할당하고 시작하므로 array보다 메모리 공간을 더 많이 사용함
 - 사전에 할당된 공간이 가득차면 새로운 공간할당, 기존 내용 복사 등의 비효율이 발생할 수 있음
-- vector에 insert나 remove등을 하면 iterator값이 무효화됨, 계속 새로 구하면서 써야함
-	※ 하지만 애초에 insert나 remove를 자주 사용해야 한다면 vector를 채택하지 않는것이 맞음
+- vector에 insert나 remove등을 하면 iterator값이 무효화됨, 계속 새로 구하면서 써야함  
+	하지만 애초에 insert나 remove를 자주 사용해야 한다면 vector를 채택하지 않는것이 맞음
 - 공간이 부족해서 새로운 공간을 할당받으면 기존에 사용하던 iterator들이 모두 무효화 됨
 
 #### 4. vector의 함수 원형
@@ -87,8 +87,8 @@ class vector;
 - reserve : 벡터에 할당된 크기를 변경한다.
 
 - empty : 벡터가 비었는지 체크한다.
-- shrink_to_fit : Shrink to fit
-	- 할당된 공간을 현재 vector의 size만큼 줄이는 함수
+- shrink_to_fit : Shrink to fit  
+	할당된 공간을 현재 vector의 size만큼 줄이는 함수
 
 6) 원소 접근 관련
 - operator[] : 원소에 접근한다.
@@ -128,7 +128,7 @@ int nums[] = {1, 2, 3, 4};
 std::vector<int> v(nums, nums + sizeof(nums) / sizeof(int));
 ```
 
-- assign 함수 사용 시
+- assign 함수 사용 시  
 	- 벡터객체에 이전에 있던 내용을 모두 삭제하고 인자로 받은 새로운 내용을 넣음
 	- `v.assign(v2.begin(), v2.end());` 처럼 하면 v2의 처음부터 끝까지
 	- `v.assign(n, u);` 처럼 하면 n개의 u를 넣음

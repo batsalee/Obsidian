@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "vector",
+      "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
+    },
+    {
+      "basename": "array",
+      "path": "C++/STL/Container/시퀀스 컨테이너/array.md"
+    },
+    {
       "basename": "시퀀스 컨테이너",
       "path": "C++/STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "마크다운 문법 정리",
       "path": "Hello Obsidian/마크다운 문법 정리.md"
-    },
-    {
-      "basename": "Hello Obsidian",
-      "path": "Hello Obsidian/Hello Obsidian.md"
-    },
-    {
-      "basename": "Modern C++",
-      "path": "C++/Modern C++/Modern C++.md"
     }
   ],
   "omittedPaths": [],
