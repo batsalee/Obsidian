@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "마크다운 문법 정리",
+      "path": "Hello Obsidian/마크다운 문법 정리.md"
+    },
+    {
+      "basename": "Hello Obsidian",
+      "path": "Hello Obsidian/Hello Obsidian.md"
+    },
+    {
       "basename": "thread",
       "path": "C++/Modern C++/Library/thread.md"
     },
@@ -171,14 +179,6 @@
     {
       "basename": "문서 작성 시 번호매기는 순서",
       "path": "Hello Obsidian/문서 작성 시 번호매기는 순서.md"
-    },
-    {
-      "basename": "마크다운 문법 정리",
-      "path": "Hello Obsidian/마크다운 문법 정리.md"
-    },
-    {
-      "basename": "Hello Obsidian",
-      "path": "Hello Obsidian/Hello Obsidian.md"
     },
     {
       "basename": "연관 컨테이너",
