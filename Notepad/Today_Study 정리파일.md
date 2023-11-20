@@ -280,8 +280,8 @@ cin.getline(buf, bufsize, '+'); // + 바로 앞글자까지 받음('\n'도 �
 ```
 
 ## 14. template함수
-1) 기본적인 형태의 template 함수
-	add_num(변수); 로 쓰면 알아서 변수 자료형에 맞게 처리해줌
+1) 기본적인 형태의 template 함수  
+	add_num(변수); 로 쓰면 알아서 변수 자료형에 맞게 처리해줌  
 ``` C++
 template <typename T>
 T add_num(T t)
@@ -290,8 +290,8 @@ T add_num(T t)
 }
 ```
 
-2) template 인자 추가
-	아래 코드를 add_num<int, 5>(x); 처럼 사용하면 x+5를 리턴해줌
+2) template 인자 추가  
+	아래 코드를 add_num<int, 5>(x); 처럼 사용하면 x+5를 리턴해줌  
 ```C++
 template <typename T, int num>  
 T add_num(T t)  
@@ -313,22 +313,22 @@ T add_num(T t)
 #### 가변길이 템플릿(Variadic template)
 C++ 11에 추가됨
 ``` C++
-#include <iostream>  
-  
-template <typename T>  
-void print(T arg) {  
-  std::cout << arg << std::endl;  
-}  
-  
-template <typename T, typename... Types>  
-void print(T arg, Types... args) {  
-  std::cout << arg << ", ";  
-  print(args...);  
-}  
-  
-int main() {  
-  print(1, 3.1, "abc");  
-  print(1, 2, 3, 4, 5, 6, 7);  
+#include <iostream>
+
+template <typename T>
+void print(T arg) {
+  std::cout << arg << std::endl;
+}
+
+template <typename T, typename... Types>
+void print(T arg, Types... args) {
+  std::cout << arg << ", ";
+  print(args...);
+}
+
+int main() {
+  print(1, 3.1, "abc");
+  print(1, 2, 3, 4, 5, 6, 7);
 }
 ```
 위에서 ``template <typename T, typename... Types>``에서 ...을 템플릿 파라미터 팩이라고 부름
@@ -367,7 +367,6 @@ fold식은 반드시 (... + nums)처럼 괄호로 감싸야 한다
 
 ※ 참고문서 : https://modoocode.com/290
 
-
 ## 15. using
 
 C++ 11부턴 typedef보다 더 직관적인 using을 사용
@@ -378,13 +377,12 @@ C++ 11부턴 typedef보다 더 직관적인 using을 사용
 ``typedef void (*func)(int, int);`` 였다면
 ``using func = void (*)(int, int);``로 사용 가능
 
-
 ## 16. 예외처리
 예외란?
 문법상에는 문제가 없지만 실행해보면 오류가 발생하는 정상적이지 않은 상황들
 할당되지 않은 메모리에 접근하거나, 할당 할 수 없는 너무 큰 메모리를 할당 하는 등의 경우
 
-```C
+```C++
 // C언어에서의 예외처리 방식
 char *c = (char*)malloc(1000000000);
 if(c == NULL) {
