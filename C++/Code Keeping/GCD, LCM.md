@@ -19,8 +19,8 @@ lcm(a, b);
 ``` C++
 int GCD(int a, int b)
 {
-	if(b==0) return a;
-	else return GCD(b, a%b);
+	if(b == 0) return a;
+	else return GCD(b, a % b);
 }
 ```
 
@@ -29,8 +29,8 @@ int GCD(int a, int b)
 int GCD(int a, int b)
 {
 	while(1) {
-		int c = a%b;
-		if(c==0) return b;
+		int c = a % b;
+		if(c == 0) return b;
 		a = b;
 		b = c;
 	}

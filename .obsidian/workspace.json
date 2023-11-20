@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
+                "file": "C++/Code Keeping/GCD, LCM.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
+                "file": "C++/Code Keeping/GCD, LCM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
+                "file": "C++/Code Keeping/GCD, LCM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
+                "file": "C++/Code Keeping/GCD, LCM.md"
               }
             }
           },
@@ -184,9 +184,21 @@
   },
   "active": "0a7a112f7a2d0569",
   "lastOpenFiles": [
+    "C++/Code Keeping/윤년.md",
+    "C++/Code Keeping/진법 변환.md",
+    "C++/Code Keeping/cout 지수출력 방지.md",
+    "C++/Code Keeping/temp변수를 사용하지 않는 swap 구현.md",
+    "C++/Code Keeping/eof.md",
+    "C++/Code Keeping/소수 여부 판별.md",
+    "C++/Code Keeping/DLL(Dynamic Link Library).md",
+    "C++/Code Keeping/nCr.md",
+    "Protected/컴퓨터공학 개론.md",
+    "Protected/Protected.md",
+    "Protected/뇌를 자극하는 C 프로그래밍.md",
+    "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
+    "수학적 지식/nCr.md",
     "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md",
     "CS 지식/프로그래밍 용어/서드 파티(Third Party).md",
-    "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
     "CS 지식/프로그래밍 용어/메타데이터(meta-data).md",
     "CS 지식/프로그래밍 규범/CamelCase, snake_case.md",
     "CS 지식/프로그래밍 규범/헝가리안 표기법.md",
@@ -195,21 +207,9 @@
     "수학적 지식/1~N까지 더하기.md",
     "수학적 지식/두 수의 합의 나머지.md",
     "수학적 지식/윤년.md",
-    "수학적 지식/nCr.md",
     "수학적 지식/소수 여부 판별.md",
     "Notepad/노션 강의 정리.md",
     "Notepad/코딩 습관들여야 할 것들.md",
-    "Notepad/Today_Study 정리파일.md",
-    "C++/STL/Container/컨테이너 어댑터/컨테이너 어댑터.md",
-    "C++/STL/Container/컨테이너 어댑터/priority_queue.md",
-    "C++/STL/Algorithm/Algorithm.md",
-    "C++/STL/Container/연관 컨테이너/map.md",
-    "C++/STL/Container/연관 컨테이너/set.md",
-    "C++/Modern C++/Library/thread.md",
-    "Notepad/Notepad.md",
-    "Hello Obsidian/문서 작성 시 번호매기는 순서.md",
-    "Hello Obsidian/마크다운 문법 정리.md",
-    "Hello Obsidian/Hello Obsidian.md",
     "C++/STL/Container/컨테이너 어댑터",
     "C++/STL/Container/해시 컨테이너",
     "C++/연산자",
