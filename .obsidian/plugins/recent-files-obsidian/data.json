@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "list",
+      "path": "C++/STL/Container/시퀀스 컨테이너/list.md"
+    },
+    {
+      "basename": "forward_list",
+      "path": "C++/STL/Container/시퀀스 컨테이너/forward_list.md"
+    },
+    {
       "basename": "vector",
       "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Notepad",
       "path": "Notepad/Notepad.md"
-    },
-    {
-      "basename": "문서 작성 시 번호매기는 순서",
-      "path": "Hello Obsidian/문서 작성 시 번호매기는 순서.md"
-    },
-    {
-      "basename": "마크다운 문법 정리",
-      "path": "Hello Obsidian/마크다운 문법 정리.md"
     }
   ],
   "omittedPaths": [],
