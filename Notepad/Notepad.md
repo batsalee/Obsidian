@@ -1,3 +1,3 @@
-임시정리 메모장 용도 공간
+# 임시정리 메모장 용도 공간
 
-Obsidian git pull test
+cout이나 cin 입출력 형식 정리하는 글도 하나 써두기

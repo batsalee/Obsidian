@@ -274,11 +274,10 @@ precision은 정밀도
 
 ## 13. getline
 ```C++
-getline(cin, buf); // \n까지 받음, string라이브러리  
-getline(cin, buf, '+'); // + 바로 앞글자까지 받음, 뒷 문자열 다 잘림 string라이브러리
-cin.getline(buf, bufsize, '+'); // + 바로 앞글자까지 받음, iostream라이브러리
+getline(cin, buf); // \n 바로 앞글자까지 받음, string라이브러리  
+getline(cin, buf, '+'); // + 바로 앞글자까지 받음('\n'도 다 저장하고 +들어와야만 끝남), 뒷 문자열 다 잘림 string라이브러리
+cin.getline(buf, bufsize, '+'); // + 바로 앞글자까지 받음('\n'도 다 저장하고 +들어와야만 끝남), iostream라이브러리
 ```
-
 
 ## 14. template함수
 1) 기본적인 형태의 template 함수
