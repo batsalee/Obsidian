@@ -5,6 +5,14 @@
       "path": "Notepad/Today_Study 정리파일.md"
     },
     {
+      "basename": "thread",
+      "path": "C++/Modern C++/Library/thread.md"
+    },
+    {
+      "basename": "Algorithm",
+      "path": "C++/STL/Algorithm/Algorithm.md"
+    },
+    {
       "basename": "Notepad",
       "path": "Notepad/Notepad.md"
     },
@@ -21,16 +29,8 @@
       "path": "Hello Obsidian/Hello Obsidian.md"
     },
     {
-      "basename": "thread",
-      "path": "C++/Modern C++/Library/thread.md"
-    },
-    {
       "basename": "Modern C++",
       "path": "C++/Modern C++/Modern C++.md"
-    },
-    {
-      "basename": "Algorithm",
-      "path": "C++/STL/Algorithm/Algorithm.md"
     },
     {
       "basename": "Iterator",
