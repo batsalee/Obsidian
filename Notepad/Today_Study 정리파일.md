@@ -435,9 +435,14 @@ catch(...) {
 cout << "예외처리부분 이후\n"; // 만약 위에서 try~catch문을 사용하지 않고 그냥 str.at(10)만 있었다면 실행되지 않을 문구
 							  // 하지만 여기선 try~catch문을 사용해서 예외를 잡아줬으므로 이 문구도 출력됨
 ```
+결과)
+```
+catch문 내부
+예외처리부분 이후
+```
 
-또한 catch문은 여러개 쓸 수 있음
-아래처럼 작성하면 발생한 예외가 위에서부터 순서대로 들어갈 수 있는곳을 찾아 들어가서 해당 catch문으로 처리함
+또한 catch문은 여러개 쓸 수 있음  
+아래처럼 작성하면 발생한 예외가 위에서부터 순서대로 들어갈 수 있는곳을 찾아 들어가서 해당 catch문으로 처리함  
 ``` C++
 try {
 	func(c);
@@ -456,66 +461,65 @@ catch (const char* s) {
 }
 ```
 
-
 #### 예외처리시 주의사항
 1) catch문의 순서
-	catch문을 여러개 작성한다면 발생한 예외가 위에서 아래로 내려가며 들어갈 수 있는 매개변수에 들어가서 처리함
-	만약 아래처럼 catch문이 나열되어 있으면 부모객체던 자식객체던 전부 다 위에서 걸려버리게 됨
-	``` C++
-	catch(기반클래스 x) {}
-	catch(파생클래스 x) {}
-	```
-    그러므로 파생클래스는 파생클래스 방식대로 처리하고 싶다면
-	``` C++
-	catch(파생클래스 x) {}
-	catch(기반클래스 x) {}
-	```
-	위처럼 순서를 적어야 파생클래스는 파생클래스쪽의 예외처리방법을 따를 수 있음
+catch문을 여러개 작성한다면 발생한 예외가 위에서 아래로 내려가며 들어갈 수 있는 매개변수에 들어가서 처리함  
+만약 아래처럼 catch문이 나열되어 있으면 부모객체던 자식객체던 전부 다 위에서 걸려버리게 됨  
+``` C++
+catch(기반클래스 x) {}
+catch(파생클래스 x) {}
+```
+그러므로 파생클래스는 파생클래스 방식대로 처리하고 싶다면  
+``` C++
+catch(파생클래스 x) {}
+catch(기반클래스 x) {}
+```
+위처럼 순서를 적어야 파생클래스는 파생클래스쪽의 예외처리방법을 따를 수 있음  
 
 2) 생성자에서 예외를 던지면?
-	생성자는 완벽하게 생성과정을 마치고 생성자를 끝내지 않으면 객체가 생성되지 않았다고 판단하고 소멸자도 호출하지 않음
-	그러니 이런 경우 생성자 안에서 예외를 던지는 경우 catch문으로잘 처리해줘야 함
-	예를들면 생성자안에서 동적할당을 사용한다면 catch문에서 할당해제를 해줘야 함
+생성자는 완벽하게 생성과정을 마치고 생성자를 끝내지 않으면 객체가 생성되지 않았다고 판단하고 소멸자도 호출하지 않음  
+그러니 이런 경우 생성자 안에서 예외를 던지는 경우 catch문으로잘 처리해줘야 함  
+예를들면 생성자안에서 동적할당을 사용한다면 catch문에서 할당해제를 해줘야 함  
 
 ## 17. stringstream
 
 ```C++
-    string buffer; // 분리된 문자열을 넣는 버퍼
+string buffer; // 분리된 문자열을 넣는 버퍼
 
-    string str1 = "This is Test";
-    istringstream ss1(str1);
-    while (getline(ss1, buffer, ' ')) { // 띄어쓰기를 기준으로 분리
-        cout << buffer << endl;
-    }
+string str1 = "This is Test";
+istringstream ss1(str1);
+while (getline(ss1, buffer, ' ')) { // 띄어쓰기를 기준으로 분리
+	cout << buffer << endl;
+}
 
-    string str2 = "AB/CDE/DFDG/ASCD";
-    istringstream ss2(str2);
-    while (getline(ss2, buffer, '/')) { // '/'을 기준으로 분리
-        cout << buffer << endl;
-    }
+string str2 = "AB/CDE/DFDG/ASCD";
+istringstream ss2(str2);
+while (getline(ss2, buffer, '/')) { // '/'을 기준으로 분리
+	cout << buffer << endl;
+}
 ```
 
 ```C++
-	string name;
-	int birth;
-	bool on;
+string name;
+int birth;
+bool on;
 
-	string temp = "mike 1105 1";
-	stringstream ss;
-	ss.str(temp);
-	ss >> name >> birth >> on;
+string temp = "mike 1105 1";
+stringstream ss;
+ss.str(temp);
+ss >> name >> birth >> on;
 
-	cout << name << endl << birth << endl << on;
-	
-	//////////////////////////////////////////
+cout << name << endl << birth << endl << on;
 
-	// 갯수가 정해져있다면 이런식으로도 가능
-	istringstream ss(input);
-	string split[3]; 
-	for (int i = 0; i < 3; i++) {  
-		getline(ss, split[i], '/'); 
-		cout << spolit[i];
-	}
+//////////////////////////////////////////
+
+// 갯수가 정해져있다면 이런식으로도 가능
+istringstream ss(input);
+string split[3]; 
+for (int i = 0; i < 3; i++) {  
+	getline(ss, split[i], '/'); 
+	cout << split[i];
+}
 ```
 
 ```C++
@@ -530,7 +534,7 @@ ss >> a >> op >> b >> eq >> c;
 
 ## 18. 재귀
 
-개인적으로 가장 못하고 두려워하는 분야
+개인적으로 가장 못하고 두려워하는 분야  
 
 ★ 재귀는 매개변수와 리턴문이 필요하다  
 
@@ -539,14 +543,14 @@ dfs방식 중에 가기전에 확인하고 가는 방식과, 일단 가고 안�
 이 방법으로 하면 코드가 훨씬 지저분해짐, 둘 다 더 쉬운 상황이 있으니 익혀야 함 
 
 완전탐색/백트래킹/재귀 자체가 정말 천재가 아니고서야 경험이 꽤 쌓여야 접근 방식이라도 보일것같음  
-일단 대략적으로 느껴지는건 처음것 선택한 후 두번째것 선택하고 세번째것 선택하는데 세번째것 선택에서 조건과 맞지 않으면 두번째것 선택을 바꿔야 하므로 되돌아가야함. 이런 경우가 발생한다면 재귀를 사용한다라고 떠올려야 할듯
+일단 대략적으로 느껴지는건 처음것 선택한 후 두번째것 선택하고 세번째것 선택하는데 세번째것 선택에서 조건과 맞지 않으면 두번째것 선택을 바꿔야 하므로 되돌아가야함. 이런 경우가 발생한다면 재귀를 사용한다라고 떠올려야 할듯  
 
 ## 19. string에 algorithm 함수들 사용
 
-string에도 push_back(), pop_back(), back()으로 마지막글자 가져오기 등 다 된다
+string에도 push_back(), pop_back(), back()으로 마지막글자 가져오기 등 다 된다  
 
-항상 쓸때마다 ``string = string + 'a'``라던가 - 'a'로 썼었고
-``string[len - 1]`` 이런식으로 썼었는데 활용하면 더 깔끔하고 빠르게 가능할 듯하다
+항상 쓸때마다 ``string = string + 'a'``라던가 - 'a'로 썼었고  
+``string[len - 1]`` 이런식으로 썼었는데 활용하면 더 깔끔하고 빠르게 가능할 듯하다  
 
 ## 20. 부동소수점과 고정소수점 및 정밀도
 
