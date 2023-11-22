@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "WPF 6.0",
+      "path": "Protected/WPF 6.0.md"
+    },
+    {
+      "basename": "Protected",
+      "path": "Protected/Protected.md"
+    },
+    {
+      "basename": "마크다운 문법 정리",
+      "path": "Hello Obsidian/마크다운 문법 정리.md"
+    },
+    {
       "basename": "deque",
       "path": "C++/STL/Container/시퀀스 컨테이너/deque.md"
     },
@@ -153,10 +165,6 @@
       "path": "Protected/컴퓨터공학 개론.md"
     },
     {
-      "basename": "Protected",
-      "path": "Protected/Protected.md"
-    },
-    {
       "basename": "뇌를 자극하는 C 프로그래밍",
       "path": "Protected/뇌를 자극하는 C 프로그래밍.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "GCD, LCM",
       "path": "수학적 지식/GCD, LCM.md"
-    },
-    {
-      "basename": "1~N까지 더하기",
-      "path": "수학적 지식/1~N까지 더하기.md"
-    },
-    {
-      "basename": "두 수의 합의 나머지",
-      "path": "수학적 지식/두 수의 합의 나머지.md"
     }
   ],
   "omittedPaths": [],
