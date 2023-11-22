@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Protected/WPF 6.0.md",
+                "file": "Git/GitHub에 이미지 올리는 법.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Protected/WPF 6.0.md",
+                "file": "Git/GitHub에 이미지 올리는 법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Protected/WPF 6.0.md",
+                "file": "Git/GitHub에 이미지 올리는 법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Protected/WPF 6.0.md"
+                "file": "Git/GitHub에 이미지 올리는 법.md"
               }
             }
           },
@@ -184,8 +184,13 @@
   },
   "active": "0a7a112f7a2d0569",
   "lastOpenFiles": [
-    "Protected/Protected.md",
+    "Git/contents/Pasted image 20231123063626.png",
+    "Git/contents/Pasted image 20231123063528.png",
+    "Git/contents",
     "Protected/WPF 6.0.md",
+    "Git/GitHub에 이미지 올리는 법.md",
+    "Git",
+    "Protected/Protected.md",
     "Hello Obsidian/마크다운 문법 정리.md",
     "C++/STL/Container/시퀀스 컨테이너/deque.md",
     "C++/STL/Container/시퀀스 컨테이너/vector.md",
@@ -208,8 +213,6 @@
     "C++/STL/Container/시퀀스 컨테이너/forward_list.md",
     "C++/STL/Container/시퀀스 컨테이너/array.md",
     "C++/STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md",
-    "C++/STL/Container/Container.md",
-    "C++/STL/STL.md",
     "C++/STL/Container/컨테이너 어댑터",
     "C++/STL/Container/해시 컨테이너",
     "C++/연산자",
@@ -219,11 +222,9 @@
     "CS 지식",
     "Computer Science",
     "무제 파일.canvas",
-    "Excalidraw",
     "수학적 지식/contents/Pasted image 20231114031910.png",
     "수학적 지식/contents/Pasted image 20231114032408.png",
     "수학적 지식/contents/Pasted image 20231114032236.png",
-    "수학적 지식/contents",
     "첨부파일 폴더/Pasted image 20231014174143.png"
   ]
 }

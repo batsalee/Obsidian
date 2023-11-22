@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "GitHub에 이미지 올리는 법",
+      "path": "Git/GitHub에 이미지 올리는 법.md"
+    },
+    {
       "basename": "WPF 6.0",
       "path": "Protected/WPF 6.0.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "헝가리안 표기법",
       "path": "CS 지식/프로그래밍 규범/헝가리안 표기법.md"
-    },
-    {
-      "basename": "GCD, LCM",
-      "path": "수학적 지식/GCD, LCM.md"
     }
   ],
   "omittedPaths": [],
