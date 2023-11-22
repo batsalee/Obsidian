@@ -35,57 +35,50 @@ git push -u origin main
 2) .git 포함 다운받는 법
 버전관리 내역까지 받고싶다거나 협업이라 .git까지 같이 다운받아야 하는 경우 <>Code에서 https 주소 복사 후  
 로컬의 다운받을 위치의 폴더로 가서 우클릭 -> git bash 실행 -> git clone 주소 하면 복사 됨  
-> [!note] pull은 이미 코드 다운받은 상황에서 origin에서 변경된 내용만 받아오는 것, 위 두가지는 처음에 코드 다운받는 내용
 
-8-5. git push  
+> [!note] git pull과의 차이점
+> pull은 이미 코드 다운받은 상황에서 origin에서 변경된 내용만 받아오는 것, 위 두가지는 처음에 코드 다운받는 내용
 
-  1) 8-1에서 git push -u origin main을 했었다면 push할 위치가 지정된 것이므로 그 이후부터는 그냥 git push만 하면 됨
+## 5. git push  
 
-  2) 여러 사람이 동시에 push를 한다면?
+위의 3번문단에서 git push -u origin main을 했었다면 push할 위치가 지정된 것이므로 그 이후부터는 그냥 git push만 하면 됨
 
-    - 만약 1번내용 push된 후 2번내용 push되고 이러면 1번내용은 다 덮어씌워져 버림
+#### 하지만 만약 여러 사람이 동시에 push를 한다면?
+만약 1번내용 push된 후 2번내용 push되고 이러면 1번내용은 다 덮어씌워져 버림  
+그러므로 여러 사람이 push를 할때는 해결법이 필요함  
 
-    - 여러 사람이 push를 할때는 해결법이 필요함
+push하려는 시점에 이미 origin에 다른 사람이 push한 변경점이 있어서 내 local과 달라진 점이 있다면 push 불가능  
+반드시 origin의 내용을 pull받아와서 내 local과 merge한 후 충돌해결까지 다 해야만 push가 가능해짐  
+즉 받아올게 있으면 반드시 먼저 받아온 후에 push 해야함  
 
-    -  push하려는 시점에 이미 origin에 다른 사람이 push한 변경점이 있어서 내 local과 달라진 점이 있다면 push 불가능
+>[!warning] push 주의사항
+> push하려면 항상 원격저장소의 최신버전과 내 로컬 버전이 맞춰져 있어야 한다!
 
-    - 반드시 origin의 내용을 pull받아와서 내 local과 merge한 후 충돌해결까지 다 해야만 push가 가능해짐
+## 6. git pull
+push하기 전에 pull한 후 push하는 방법  
 
-    - 즉 받아올게 있으면 반드시 먼저 받아온 후에 push 해야함
+merge방식과 rebase방식 두가지가 있음  
+	단 여기서의 rebase는 원격이 아닌 내 local쪽을 바꾸는 거라서 협업때도 써도 문제 없음
+```
+git pull --no-rebase     // merge 방식(default라서 그냥 git pull 까지만 써도 이걸로 적용됨) 
+git pull --rebase        // rebase 방식
+```
+위의 두 방법 중 하나로 pull한 후 충돌해결하고 push하면 됨  
+여기서도 마찬가지로 rebase 방식은 add, rebase --continue 하면서 해결
 
-    ※ push하려면 항상 원격저장소의 최신버전과 내 로컬 버전이 맞춰져 있어야 한다!
+#### 강제로 push하는 법
 
-  3) 위 내용을 하는 방법!
+만약 로컬의 내용이 원격의 내용보다 뒤쳐져있어서 push가 안될때 강제로 push하는 방법이 있음  
+어떨때 쓰냐면 원격에 있는 내용이 문제가 있어서 local의 내용으로 강제로 바꿔버려야 할 때  
 
-    - pull할것이 있을때 push하는 법
+단 이 경우 협업시에는 모두 합의한 상황에서 써야 함, 다른 사람들이 작업해서 업로드한게 다 날아가므로  
+로컬의 내용을 충돌 전으로 reset한 후에 `git push --force` 하면 됨
 
-    - merge방식과 rebase방식 두가지가 있음
+>[!warning] 업로드된 내용이 강제로 갱신되므로 주의해야 함
 
-    - 단 여기서의 rebase는 원격이 아닌 내 local쪽을 바꾸는 거라서 협업때도 써도 문제 없음
+## 6. git pull
 
-    git pull --no-rebase       // merge 방식(default라서 그냥 git pull 까지만 써도 이걸로 적용됨) 
-
-    git pull --rebase            // rebase 방식
-
-    - 위 두 방법 중 하나로 pull한 후 충돌해결하고 push하면 됨
-
-    - 여기서도 마찬가지로 rebase 방식은 add, rebase --continue 하면서 해결
-
-  4) 강제로 push하는 법
-
-    ★ 주의해야 함
-
-    만약 로컬의 내용이 원격의 내용보다 뒤쳐져있어서 push가 안될때 강제로 push하는 방법이 있음
-
-    어떨때 쓰냐면 원격에 있는 내용이 문제가 있어서 local의 내용으로 강제로 바꿔버려야 할 때
-
-    단 이 경우 협업시에는 모두 합의한 상황에서 써야 함, 다른 사람들이 작업해서 업로드한게 다 날아가므로
-
-    로컬의 내용을 충돌 전으로 reset한 후에 git push --force 하면 됨
-
-8-6. git pull
-
-  - git pull 하면 다른 사람들이 바꾼 내용들이 내 로컬로 와서 변경됨
+- git pull 하면 다른 사람들이 바꾼 내용들이 내 로컬로 와서 변경됨
 
 8-7. git remote
 
