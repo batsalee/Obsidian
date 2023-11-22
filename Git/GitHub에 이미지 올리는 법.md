@@ -8,11 +8,12 @@
 ![[Pasted image 20231123063626.png|300x300]]
 
 3단계) 위의 경로에서 URL 부분만 복사해서 아래처럼 README.md 파일에 사용하면 됩니다.
-
 ```
 <img width="해상도 비율%" src="이미지 경로"/>
 ```
-
+예시)
 ```
 <img width="80%" src="https://github.com/batsalee/TaskManager/assets/109213754/18fe6053-d77d-4462-bf72-aa606aa45a37"/>
 ```
+
+#git

@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "GitHub",
+      "path": "Git/GitHub.md"
+    },
+    {
+      "basename": "마크다운 문법 정리",
+      "path": "Hello Obsidian/마크다운 문법 정리.md"
+    },
+    {
+      "basename": "Git",
+      "path": "Git/Git.md"
+    },
+    {
+      "basename": "뇌를 자극하는 C 프로그래밍",
+      "path": "Protected/뇌를 자극하는 C 프로그래밍.md"
+    },
+    {
       "basename": "GitHub에 이미지 올리는 법",
       "path": "Git/GitHub에 이미지 올리는 법.md"
     },
@@ -11,10 +27,6 @@
     {
       "basename": "Protected",
       "path": "Protected/Protected.md"
-    },
-    {
-      "basename": "마크다운 문법 정리",
-      "path": "Hello Obsidian/마크다운 문법 정리.md"
     },
     {
       "basename": "deque",
@@ -169,10 +181,6 @@
       "path": "Protected/컴퓨터공학 개론.md"
     },
     {
-      "basename": "뇌를 자극하는 C 프로그래밍",
-      "path": "Protected/뇌를 자극하는 C 프로그래밍.md"
-    },
-    {
       "basename": "DLL(Dynamic Link Library)",
       "path": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "메타데이터(meta-data)",
       "path": "CS 지식/프로그래밍 용어/메타데이터(meta-data).md"
-    },
-    {
-      "basename": "CamelCase, snake_case",
-      "path": "CS 지식/프로그래밍 규범/CamelCase, snake_case.md"
-    },
-    {
-      "basename": "헝가리안 표기법",
-      "path": "CS 지식/프로그래밍 규범/헝가리안 표기법.md"
     }
   ],
   "omittedPaths": [],
