@@ -5,12 +5,12 @@
       "path": "Git/Git.md"
     },
     {
-      "basename": "예외처리",
-      "path": "C++/개념정리/예외처리.md"
-    },
-    {
       "basename": "GitHub",
       "path": "Git/GitHub.md"
+    },
+    {
+      "basename": "예외처리",
+      "path": "C++/개념정리/예외처리.md"
     },
     {
       "basename": "GitHub에 이미지 올리는 법",
