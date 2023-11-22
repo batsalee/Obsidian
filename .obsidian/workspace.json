@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/GitHub.md",
+                "file": "Git/Git.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/GitHub.md",
+                "file": "Git/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/GitHub.md",
+                "file": "Git/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/GitHub.md"
+                "file": "Git/Git.md"
               }
             }
           },
@@ -184,11 +184,12 @@
   },
   "active": "0a7a112f7a2d0569",
   "lastOpenFiles": [
-    "Hello Obsidian/마크다운 문법 정리.md",
-    "Git/GitHub.md",
+    "C++/개념정리/예외처리.md",
     "Git/Git.md",
-    "Protected/뇌를 자극하는 C 프로그래밍.md",
+    "Git/GitHub.md",
     "Git/GitHub에 이미지 올리는 법.md",
+    "Hello Obsidian/마크다운 문법 정리.md",
+    "Protected/뇌를 자극하는 C 프로그래밍.md",
     "Git/contents/Pasted image 20231123063626.png",
     "Git/contents/Pasted image 20231123063528.png",
     "Git/contents",
@@ -213,7 +214,6 @@
     "C++/STL/Container/연관 컨테이너/multimap.md",
     "C++/STL/Container/연관 컨테이너/multiset.md",
     "C++/STL/Container/연관 컨테이너/map.md",
-    "C++/STL/Container/시퀀스 컨테이너/forward_list.md",
     "C++/STL/Container/컨테이너 어댑터",
     "C++/STL/Container/해시 컨테이너",
     "C++/연산자",

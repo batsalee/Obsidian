@@ -1,24 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Git",
+      "path": "Git/Git.md"
+    },
+    {
+      "basename": "예외처리",
+      "path": "C++/개념정리/예외처리.md"
+    },
+    {
       "basename": "GitHub",
       "path": "Git/GitHub.md"
+    },
+    {
+      "basename": "GitHub에 이미지 올리는 법",
+      "path": "Git/GitHub에 이미지 올리는 법.md"
     },
     {
       "basename": "마크다운 문법 정리",
       "path": "Hello Obsidian/마크다운 문법 정리.md"
     },
     {
-      "basename": "Git",
-      "path": "Git/Git.md"
-    },
-    {
       "basename": "뇌를 자극하는 C 프로그래밍",
       "path": "Protected/뇌를 자극하는 C 프로그래밍.md"
-    },
-    {
-      "basename": "GitHub에 이미지 올리는 법",
-      "path": "Git/GitHub에 이미지 올리는 법.md"
     },
     {
       "basename": "WPF 6.0",
@@ -119,10 +123,6 @@
     {
       "basename": "STL",
       "path": "C++/STL/STL.md"
-    },
-    {
-      "basename": "예외처리",
-      "path": "C++/개념정리/예외처리.md"
     },
     {
       "basename": "typeid",

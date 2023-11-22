@@ -41,7 +41,7 @@ git push -u origin main
 
 ## 5. git push  
 
-위의 3번문단에서 git push -u origin main을 했었다면 push할 위치가 지정된 것이므로 그 이후부터는 그냥 git push만 하면 됨
+위의 3번문단에서 git push -u origin main을 했었다면 push할 위치가 지정된 것이므로 그 이후부터는 그냥 git push만 하면 됨  
 
 #### 하지만 만약 여러 사람이 동시에 push를 한다면?
 만약 1번내용 push된 후 2번내용 push되고 이러면 1번내용은 다 덮어씌워져 버림  
@@ -54,47 +54,45 @@ push하려는 시점에 이미 origin에 다른 사람이 push한 변경점이 �
 >[!warning] push 주의사항
 > push하려면 항상 원격저장소의 최신버전과 내 로컬 버전이 맞춰져 있어야 한다!
 
+>[!warning] 강제로 push하는 법
+> 만약 로컬의 내용이 원격의 내용보다 뒤쳐져있어서 push가 안될때 pull하지 않고 강제로 push하는 방법이 있음  
+> 어떨때 쓰냐면 원격에 있는 내용이 문제가 있어서 local의 내용으로 강제로 바꿔버려야 할 때  
+> 단 이 경우 협업시에는 모두 합의한 상황에서 써야 함, 다른 사람들이 작업해서 업로드한게 다 날아가므로  
+> 로컬의 내용을 충돌 전으로 reset한 후에 `git push --force` 하면 됨
+
 ## 6. git pull
-push하기 전에 pull한 후 push하는 방법  
+
+pull한 후 push하는 방법  
 
 merge방식과 rebase방식 두가지가 있음  
-	단 여기서의 rebase는 원격이 아닌 내 local쪽을 바꾸는 거라서 협업때도 써도 문제 없음
+	단 여기서의 rebase는 원격이 아닌 내 local쪽을 바꾸는 거라서 협업때도 써도 문제 없음  
 ```
 git pull --no-rebase     // merge 방식(default라서 그냥 git pull 까지만 써도 이걸로 적용됨) 
 git pull --rebase        // rebase 방식
 ```
-위의 두 방법 중 하나로 pull한 후 충돌해결하고 push하면 됨  
-여기서도 마찬가지로 rebase 방식은 add, rebase --continue 하면서 해결
+위의 두 방법 중 하나를 사용하면 다른 사람들이 바꾼 내용들이 내 로컬로 와서 변경됨  
+여기서도 마찬가지로 rebase 방식은 add, rebase --continue 하면서 해결  
 
-#### 강제로 push하는 법
+pull로 충돌해결하고 나서 push하면 됨  
 
-만약 로컬의 내용이 원격의 내용보다 뒤쳐져있어서 push가 안될때 강제로 push하는 방법이 있음  
-어떨때 쓰냐면 원격에 있는 내용이 문제가 있어서 local의 내용으로 강제로 바꿔버려야 할 때  
+## 7. git remote
 
-단 이 경우 협업시에는 모두 합의한 상황에서 써야 함, 다른 사람들이 작업해서 업로드한게 다 날아가므로  
-로컬의 내용을 충돌 전으로 reset한 후에 `git push --force` 하면 됨
+원격 목록 보기 => `git remote`  
+만약 github에 origin 하나만 해놨으면 origin만 나오고, 여러 원격이 있으면 다 나옴  
+자세히 보려면 `git remote -v`  
 
->[!warning] 업로드된 내용이 강제로 갱신되므로 주의해야 함
+## 8. github에서 branch 만들기
 
-## 6. git pull
+1단계) 레포지토리 들어가서 왼쪽위에 main(혹은 master)클릭해서 새 브랜치 이름 적고 아래에 선택하면 됨  
+2단계) 아직 원격에만 만들어졌고 로컬의 .git은 모르는 상황이니 갱신해줘야 함 => git fetch  
+3단계) fetch로 원격의 변경사항 확인했으면 `git switch -t origin/원격브랜치이름`로  
+	원격에 새로 생긴 브랜치를 로컬에도 같은 이름으로 생성해서 연결하고 switch  
 
-- git pull 하면 다른 사람들이 바꾼 내용들이 내 로컬로 와서 변경됨
+원격의 브랜치를 삭제하고 싶다면 `git push (원격 이름) --delete (원격 브랜치명)`
 
-8-7. git remote
+>[!note] fetch와 pull의 차이점
+> fetch는 확인만 하고 가져오지는 않음  
+> pull은 확인 후 가져와서 갱신까지 함  
 
-  - 원격 목록 보기 => git remote
 
-  - 만약 github에 origin 하나만 해놨으면 origin만 나오고, 여러 원격이 있으면 다 나옴
-
-  - 자세히 보려면 git remote -v
-
-8-8. github에서 branch 만들기
-
-  1단계) 레포지토리 들어가서 왼쪽위에 main(혹은 master)클릭해서 새 브랜치 이름 적고 아래에 선택하면 됨
-
-  2단계) 아직 원격에만 만들어졌고 로컬의 .git은 모르는 상황이니 갱신해줘야 함 => git fetch
-
-  3단계) fetch로 원격의 변경사항 확인했으면 git switch -t origin/원격브랜치이름 로 원격에 새로 생긴 브랜치를 로컬에도 같은 이름으로 생성해서 연결하고 switch
-
-  ※ 원격의 브랜치를 삭제하고 싶다면 git push (원격 이름) --delete (원격 브랜치명)
 #git
