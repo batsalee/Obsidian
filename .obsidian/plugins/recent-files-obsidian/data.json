@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Git",
-      "path": "Git/Git.md"
-    },
-    {
       "basename": "GitHub",
       "path": "Git/GitHub.md"
+    },
+    {
+      "basename": "Git",
+      "path": "Git/Git.md"
     },
     {
       "basename": "예외처리",
