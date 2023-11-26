@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "DB",
+      "path": "DB/DB.md"
+    },
+    {
+      "basename": "데이터베이스 이론",
+      "path": "DB/데이터베이스 이론.md"
+    },
+    {
+      "basename": "DQL",
+      "path": "DB/DQL.md"
+    },
+    {
+      "basename": "DML",
+      "path": "DB/DML.md"
+    },
+    {
+      "basename": "DDL",
+      "path": "DB/DDL.md"
+    },
+    {
+      "basename": "DCL",
+      "path": "DB/DCL.md"
+    },
+    {
+      "basename": "TCL",
+      "path": "DB/TCL.md"
+    },
+    {
       "basename": "GitHub",
       "path": "Git/GitHub.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "DLL(Dynamic Link Library)",
       "path": "C++/Code Keeping/DLL(Dynamic Link Library).md"
-    },
-    {
-      "basename": "nCr",
-      "path": "C++/Code Keeping/nCr.md"
-    },
-    {
-      "basename": "컴퓨터공학 개론",
-      "path": "Protected/컴퓨터공학 개론.md"
-    },
-    {
-      "basename": "DLL(Dynamic Link Library)",
-      "path": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
-    },
-    {
-      "basename": "nCr",
-      "path": "수학적 지식/nCr.md"
-    },
-    {
-      "basename": "콜백함수(Callback Func)",
-      "path": "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md"
-    },
-    {
-      "basename": "서드 파티(Third Party)",
-      "path": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md"
-    },
-    {
-      "basename": "메타데이터(meta-data)",
-      "path": "CS 지식/프로그래밍 용어/메타데이터(meta-data).md"
     }
   ],
   "omittedPaths": [],
