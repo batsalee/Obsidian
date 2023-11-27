@@ -9,6 +9,10 @@
       "path": "DB/데이터베이스 이론.md"
     },
     {
+      "basename": "DCL",
+      "path": "DB/DCL.md"
+    },
+    {
       "basename": "DQL",
       "path": "DB/DQL.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "DDL",
       "path": "DB/DDL.md"
-    },
-    {
-      "basename": "DCL",
-      "path": "DB/DCL.md"
     },
     {
       "basename": "TCL",

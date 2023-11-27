@@ -1,9 +1,7 @@
 # DB
 
+#### 데이터베이스 이론
 [[데이터베이스 이론]]
-
-#### MySQL / MySQL Workbench 설치 및 기본 사용법
-https://smallpants.tistory.com/92
 
 #### SQL의 종류
 SQL(Structured Query Language) : 구조화된 질의 언어
@@ -12,6 +10,9 @@ SQL(Structured Query Language) : 구조화된 질의 언어
 3. [[DDL]] : DBA가 DB를 만들때 개념적 스키마를 명시하기 위해 사용하는 언어(CREATE, ALTER, DROP 등등)
 4. [[DCL]] : 데이터 접근 권한제어 언어(GRANT, REVOKE)
 5. [[TCL]] : 트랜잭션 언어(COMMIT, ROLLBACK)
+
+#### MySQL / MySQL Workbench 설치 및 기본 사용법
+https://smallpants.tistory.com/92
 
 #### C++과 MySQL 연동
 https://smallpants.tistory.com/98
