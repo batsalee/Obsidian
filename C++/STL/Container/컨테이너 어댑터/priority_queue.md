@@ -21,7 +21,8 @@ template <
 > 
 class priority_queue;
 ```
-vector 기반으로 만들어진 컨테이너 어댑터
+vector 기반으로 만들어진 컨테이너 어댑터  
+기본값은 less로 큰 값이 우선적으로 나오게 되어있지만 작은 값이 우선적으로 나오게 greater로 쓰고 싶다면 `priority_queue <int, vector<int>, greater<int> > pq;`처럼 생성 후 사용
 
 #### 3. priority_queue의 멤버 변수들
 - value_type : The first template parameter (T),	Type of the elements
