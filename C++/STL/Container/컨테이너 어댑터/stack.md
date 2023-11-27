@@ -5,7 +5,7 @@
 
 void main()
 {
-	std::stact<int> s;
+	std::stack<int> s;
 }
 ```
 
@@ -41,3 +41,11 @@ deque 기반으로 만들어진 컨테이너 어댑터
 #### overload된 Non-멤버 함수들
 - relational operators : Relational operators for stack (function)
 - swap (stack)	: Exchange contents of stacks (public member function)
+- 
+#### 특수화된 Non-멤버 클래스
+- `uses_allocator<stack>` : Uses allocator for stack (class template)
+
+
+
+※ 참고 문헌
+https://cplusplus.com/reference/stack/stack/
