@@ -5,28 +5,28 @@
       "path": "DB/DML.md"
     },
     {
-      "basename": "DB",
-      "path": "DB/DB.md"
-    },
-    {
-      "basename": "DQL과 DB기본문법",
-      "path": "DB/DQL과 DB기본문법.md"
-    },
-    {
-      "basename": "DDL",
-      "path": "DB/DDL.md"
+      "basename": "TCL",
+      "path": "DB/TCL.md"
     },
     {
       "basename": "DCL",
       "path": "DB/DCL.md"
     },
     {
+      "basename": "DDL",
+      "path": "DB/DDL.md"
+    },
+    {
+      "basename": "DQL과 DB기본문법",
+      "path": "DB/DQL과 DB기본문법.md"
+    },
+    {
       "basename": "데이터베이스 이론",
       "path": "DB/데이터베이스 이론.md"
     },
     {
-      "basename": "TCL",
-      "path": "DB/TCL.md"
+      "basename": "DB",
+      "path": "DB/DB.md"
     },
     {
       "basename": "GitHub",

@@ -109,15 +109,15 @@ WHERE
   AND menu_name = '국물떡볶이';
 ```
 
-컬럼 데이터 활용해서 수정하기
+#### 컬럼 데이터 활용해서 수정하기
 
-```
+```sql
 UPDATE menus
 SET price = price + 1000
 WHERE fk_business_id = 8;
 ```
 
-```
+```sql
 UPDATE menus
 SET menu_name = CONCAT('전통 ', menu_name)
 WHERE fk_business_id IN (
@@ -129,18 +129,84 @@ WHERE fk_business_id IN (
 );
 ```
 
-UPDATE문도 WHERE문을 안붙이면 모든 행이 값이 변해버림
-
-```
-UPDATE menus
-SET menu_name = '획일화';
-```
-
-★ DELETE와 UPDATE는 WHERE문 안붙이면 사고 날수 있으니 꼭 붙이는거 신경쓰기
-
+>[!warning]
+> UPDATE문에 WHERE문을 안붙이면 모든 행이 값이 변해버림
+> ```
+> UPDATE menus
+> SET menu_name = '획일화';
+> ```
+> DELETE와 UPDATE는 WHERE문 안붙이면 사고 날수 있으니 꼭 붙이는거 신경쓰기
 
 ___
 ## DELETE
+
+DELETE - 주어진 조건의 행 삭제하기
+
+>[!warning]
+> 참조무결성 위반 가능하며 위반시 아래의 조치를 취할 수 있음
+>  - RESTRICT(연산 거절)
+>  - CASCADE(참조하는 모든 튜플 연쇄적으로 삭제)
+>  - SET NULL(참조하는 외래키를 NULL로 설정)
+> 단, CASCADE가 참조무결성 조건에 명시되면 여러 튜플이 삭제될 가능성이 있으니 주의
+
+#### MySQL Workbench의 DELETE 안전장치 해제
+MySQL Workbench에서 DELETE를 사용하려는 경우 안전장치가 걸려있기 때문에 먼저 설정을 변경해줘야 함  
+※ Preferences > SQL Editor > Safe Updates 항목 체크오프하고 다시 접속  
+Preferences는 아래 사진처럼 Workbench 오른쪽위에 있는 해당 아이콘임  
+![[Pasted image 20231127125429.png]]
+
+다시 접속은 다 껐다 킬 필요 없이 아래에 mydb 옆의 x만 눌렀다가 다기 홈에서 클릭해서 들어오면 됨  
+![[Pasted image 20231127125449.png]]
+
+#### DELETE문 예시
+```sql
+DELETE FROM businesses
+WHERE status = 'CLS';
+-- 매우 주의해야할 것은 WHERE문 빼먹고 안쓰면 테이블 다 날릴 수 있음
+-- WHERE문을 안쓰면 DROP businesses와 같게 됨
+```
+
+>[!warning]
+> DELETE문에 WHERE문을 안붙이면 모든 값이 다 삭제된다.
+> ```
+> DELETE FROM businesses;
+> -- 이런식으로 테이블 다 날리지 않게 주의하기
+> ```
+> DELETE와 UPDATE는 WHERE문 안붙이면 사고 날수 있으니 꼭 붙이는거 신경쓰기
+
+```sql
+-- 만약 id가 18이었던 화룡각, 19였던 철구분식, 20이었던 얄코렐라를 DELETE한 후에
+-- 아래처럼 다시 INSERT하는 경우 각 튜플의 id가 원래 값인 18, 19, 20이 들어감
+-- 즉 DELETE는 지워도 값을 기억하고 있다는 것
+
+INSERT INTO businesses (fk_section_id, business_name, status, can_takeout)
+VALUES  (3, '화룡각', 'OPN', 1),
+        (2, '철구분식', 'OPN', 1),
+        (5, '얄코렐라', 'RMD', 1);
+```
+반면 TRUNCATE문은 아예 테이블을 삭제했다가 다시 만드는 초기화의 개념이므로 삭제 전의 값을 기억하지 않음  
+
+즉 테이블 정보를 아예 초기화할땐 DELETE가 아니라 TRUNCATE를 사용(소수점 자르는 함수 TRUNCATE와 이름만 같고 다른 기능임)  
+```sql
+TRUNCATE businesses;
+```
+
+```sql
+-- TRUNCATE로 데이터를 다 날리고 아래처럼 추가를 하면
+-- DELETE와 달리 id가 1, 2, 3으로 시작됨
+-- 즉 완전 전체 초기화를 하려면 TRUNCATE를 쓰면 된다
+
+INSERT INTO businesses (fk_section_id, business_name, status, can_takeout)
+VALUES  (3, '화룡각', 'OPN', 1),
+        (2, '철구분식', 'OPN', 1),
+        (5, '얄코렐라', 'RMD', 1);
+```
+
+___
+
+## 요약
+
+
 
 
 
