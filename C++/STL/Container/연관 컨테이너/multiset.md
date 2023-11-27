@@ -43,7 +43,7 @@ class Compare = less<T>,        // 기본적으로 less(오름차순)이며 내�
 class Alloc = allocator<T>      // set::allocator_type           
 > class multiset;
 ```
-만약 내림차순 multiset을 만들고 싶다면 `multiset<int, greater<int>> s;`처럼 사용하면 된다.
+만약 내림차순 multiset을 만들고 싶다면 `multiset<int, greater<int>> ms;`처럼 사용하면 된다.
 
 #### 5. multiset의 멤버 변수들
 - key_type : The first template parameter (T)	
@@ -101,6 +101,8 @@ class Alloc = allocator<T>      // set::allocator_type
 8) Operations
 - find	: Get iterator to element (public member function)
 - count : Count elements with a specific value (public member function)
+
+// 아래 3개의 함수는 사실상 multiset에서 사용되는 함수들  
 - lower_bound	: Return iterator to lower bound (public member function)
 - upper_bound : Return iterator to upper bound (public member function)
 - equal_range : Get range of equal elements (public member function)
@@ -118,7 +120,7 @@ auto end = ms.upper_bound(20); // 20초과가 처음 나온 iterator를 반환
 2) equal_range
 ```
 auto itr = ms.equal_range(20); 
-// pair<multiset<int>::iterator, multiset<int>:iterator>를 반환
+// pair<multiset<int>::iterator, multiset<int>:iterator>처럼 pair객체를 반환
 // pair의 first는 lower_bound와 같고, second는 upper_bound와 같음
 ```
 
