@@ -1,7 +1,4 @@
 
-3) 멀티셋과 멀티맵  
-멀티셋 멀티맵은 중복된 insert도 받음  
-insert a b c d a b c 하면 내부에 a a b b c c d 로 저장됨  
 멀티 맵의 경우   
 m.insert(std::make_pair("박세웅", 2.23));  
 m.insert(std::make_pair("박세웅", 3.59));  
@@ -18,3 +15,110 @@ std::cout << itr->first << " : " << itr->second << " " << std::endl
 박세웅 : 2.23  
 박세웅 : 3.59  
 처럼 출력 가능  
+
+
+# multimap
+
+```C++
+#include <map>
+
+void main()
+{
+    std::multimap<string, int> mm;
+}
+```
+
+#### 1. multimap의 개념
+- map 헤더에 포함되어있음(multiset 헤더 아님)
+- map과 달리 key값을 중복해서 저장할 수 있음
+- map과 마찬가지로 값을 삽입하면 자동으로 정렬됨
+
+#### 2. multimap의 장점
+- map과 같으나 값을 중복해서 저장할 수 있음
+
+#### 3. multimap의 단점
+- map과 비슷함
+
+#### 4. map의 함수원형
+```C++
+template < class Key,                          // map::key_type           
+class T,                                       // map::mapped_type           
+class Compare = less<Key>,                     // map::key_compare           
+class Alloc = allocator<pair<const Key,T> >    // map::allocator_type           
+> class multimap;
+```
+만약 내림차순 map을 만들고 싶다면 `map<string, int, greater<string>> m;`처럼 사용하면 된다.
+
+#### 5. map의 멤버 변수들
+- key_type : The first template parameter (T)	
+- mapped_type : The second template parameter (T)
+- value_type : `pair<const key_type,mapped_type>`
+
+- key_compare : The third template parameter (Compare)
+- value_compare : Nested function class to compare elements
+- allocator_type : The fourth template parameter (Alloc)
+
+- reference : value_type&	
+- const_reference : const value_type&	
+
+- pointer: 	allocator_traits<allocator_type>::pointer
+- const_pointer : 	allocator_traits<allocator_type>::const_pointer
+
+- iterator : a bidirectional iterator to const value_type
+- const_iterator : a bidirectional iterator to const value_type
+- reverse_iterator : 	`reverse_iterator<iterator>`
+- const_reverse_iterator : `reverse_iterator<const_iterator>`
+
+- difference_type : 두 원소 사이의 거리를 나타내는 타입 (많은 경우 ptfdiff_t 와 타입이 같으며 부호있는 정수)
+- size_type :  size 를 나타내는 타입 (많은 경우 size_t 와 타입이 같으며 부호없는 정수이다)
+
+#### 6. map의 멤버 함수들
+1) 생성자 : map을 생성한다.
+2) 소멸자 : map을 소멸한다.
+
+3) 연산자
+- operator= : map의 내용을 복사한다.
+
+4) 반복자 (Iterators)
+- begin : 시작 부분 (map의 첫번째 원소) 을 가리키는 반복자를 리턴한다.
+- end : 끝 부분 (map의 마지막 원소 바로 다음) 을 가리키는 반복자를 리턴한다.
+- rbegin : 역순으로 첫번째 (즉, map의 마지막 원소) 를 가리키는 반복자를 리턴한다.
+- rend : 역순으로 끝 부분 (즉, map의 첫번째 원소 바로 이전) 을 가리키는 반복자를 리턴한다.
+- cbegin, cend, crbegin, crend도 지원
+
+5) 할당 관련
+- empty : map이 비었는지 체크한다.
+- size	: map의 size를 리턴한다.(현재 원소의 개수)
+- max_size : 시스템상 최대로 할당할 수 있는 map의 최대 공간의 크기를 리턴한다.
+
+6) 원소 접근 관련
+- operator[] : 원소에 접근한다.
+- at : 원소에 접근한다.
+
+7) 수정자 (Modifier)
+- insert : 원소를 삽입한다.
+- erase :  원소를 삭제한다.
+- swap : Swap content (public member function)
+- clear : Clear content (public member function)
+- emplace : Construct and insert element (public member function)
+- emplace_hint : Construct and insert element with hint (public member function)
+
+8) Observers
+- key_comp : Return comparison object (public member function)
+- value_comp : Return comparison object (public member function)
+
+9) Operations
+- find	: Get iterator to element (public member function)
+- count : Count elements with a specific value (public member function)
+
+// 아래 3개의 함수는 사실상 multimap에서 사용되는 함수들
+- lower_bound	: Return iterator to lower bound (public member function)
+- upper_bound : Return iterator to upper bound (public member function)
+- equal_range : Get range of equal elements (public member function)
+
+10) 할당자
+- get_allocator : 할당자(allocator) 을 얻는다.
+
+
+
+출처 : https://cplusplus.com/reference/map/map/

@@ -5,7 +5,7 @@
 
 void main()
 {
-    std::map<int> m;
+    std::map<string, int> m;
 }
 ```
 
@@ -52,6 +52,7 @@ class Compare = less<Key>,                     // map::key_compare
 class Alloc = allocator<pair<const Key,T> >    // map::allocator_type           
 > class map;
 ```
+만약 내림차순 map을 만들고 싶다면 `map<string, int, greater<string>> m;`처럼 사용하면 된다.
 
 #### 5. map의 멤버 변수들
 - key_type : The first template parameter (T)	

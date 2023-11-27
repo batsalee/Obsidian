@@ -58,6 +58,7 @@ class Compare = less<T>,        // 기본적으로 less(오름차순)이며 내�
 class Alloc = allocator<T>      // set::allocator_type           
 > class set;
 ```
+만약 내림차순 set을 만들고 싶다면 `set<int, greater<int>> s;`처럼 사용하면 된다.
 
 #### 5. set의 멤버 변수들
 - key_type : The first template parameter (T)	
