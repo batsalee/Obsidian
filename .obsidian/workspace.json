@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "ba2778a59448dc2b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea885394450af045",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a7a112f7a2d0569",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/STL/Container/연관 컨테이너/set.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f04464f93698917e",
+    "type": "split",
+    "children": [
+      {
+        "id": "108fafa316a90df0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5f6636e469017a8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ac77a984984a41b8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "444d57f0570de5f8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "e375788b9f7f9984",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "865fcff0f57ed8b2",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 311.5
+  },
+  "right": {
+    "id": "0aeebf3c0c27fdc4",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4c48beec8a8787f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c33e0cb92f56176d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "C++/STL/Container/연관 컨테이너/set.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ecbb9dd8a1dec49c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "C++/STL/Container/연관 컨테이너/set.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ba35e1ded9eb5e42",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "146c9216649bfe96",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "C++/STL/Container/연관 컨테이너/set.md"
+              }
+            }
+          },
+          {
+            "id": "8e9145508b0f8c3b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "6359081808810abc",
+            "type": "leaf",
+            "state": {
+              "type": "make-context-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "0a7a112f7a2d0569",
+  "lastOpenFiles": [
+    "C++/STL/Container/시퀀스 컨테이너/vector.md",
+    "C++/STL/Container/연관 컨테이너/set.md",
+    "C++/STL/Container/시퀀스 컨테이너/forward_list.md",
+    "C++/STL/Container/시퀀스 컨테이너/array.md",
+    "C++/STL/Container/연관 컨테이너/연관 컨테이너.md",
+    "C++/STL/Container/시퀀스 컨테이너/deque.md",
+    "C++/STL/Container/시퀀스 컨테이너/list.md",
+    "C++/STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md",
+    "C++/Code Keeping/GCD, LCM.md",
+    "C++/Code Keeping/윤년.md",
+    "C++/Code Keeping/진법 변환.md",
+    "C++/Code Keeping/DLL(Dynamic Link Library).md",
+    "C++/Code Keeping/소수 여부 판별.md",
+    "C++/Code Keeping/nCr.md",
+    "C++/Code Keeping/MySQL 연동.md",
+    "C++/Code Keeping/eof.md",
+    "C++/Code Keeping/cout 지수출력 방지.md",
+    "DB/데이터베이스 이론.md",
+    "DB/contents/Pasted image 20231127120006.png",
+    "DB/contents/Pasted image 20231127122447.png",
+    "DB/contents/Pasted image 20231127120052.png",
+    "DB/SQL기본문법.md",
+    "DB/DB.md",
+    "DB/TCL.md",
+    "DB/DCL.md",
+    "DB/DDL.md",
+    "DB/DML.md",
+    "DB/DQL.md",
+    "DB/contents/Pasted image 20231127125449.png",
+    "DB/contents/Pasted image 20231127125429.png",
+    "DB/contents/Pasted image 20231127124329.png",
+    "DB/contents",
+    "Git/GitHub.md",
+    "DB",
+    "Git/contents/Pasted image 20231123063626.png",
+    "Git/contents/Pasted image 20231123063528.png",
+    "Git/contents",
+    "Git",
+    "C++/STL/Container/컨테이너 어댑터",
+    "C++/STL/Container/해시 컨테이너",
+    "C++/연산자",
+    "C++/개념정리",
+    "CS 지식/프로그래밍 용어",
+    "CS 지식/프로그래밍 규범",
+    "무제 파일.canvas",
+    "수학적 지식/contents/Pasted image 20231114031910.png",
+    "수학적 지식/contents/Pasted image 20231114032408.png"
+  ]
+}
