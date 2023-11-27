@@ -65,4 +65,18 @@ select * from test_table1; -- 데이터가 복구되지 않는다.
 다만 savepoint를 지정해뒀다면 commit 했어도 rollback이 가능함
 
 ___
-## Save
+## SavePoint
+
+SavePoint를 지정해뒀다면 commit을 했더라도 지정된 위치로 rollback할 수 있음
+```sql
+-- SavePoint 활용하기
+savepoint aa; -- savepoint를 지정하고
+commit; -- commit을 하고
+delete from test_table1; -- 데이터를 삭제해도
+rollback to aa; -- savepoint 덕분에 다시 데이터가 돌아온다
+```
+
+
+
+※ 참고문헌
+[https://jminie.tistory.com/32](https://jminie.tistory.com/32)

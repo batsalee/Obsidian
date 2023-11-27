@@ -8,6 +8,10 @@ DBA가 DB를 만들때 column단위(세로줄, 열)의 개념적 스키마를 �
 - TRUNCATE : 테이블의 구조는 남겨두고 데이터만 전부 삭제
 - RENAME : 테이블명 혹은 칼럼명 변경
 
+>[!note]
+> DDL은 column단위(세로줄)을 변경
+> DML은 row단위(가로줄)을 변경
+
 ___
 ## CREATE
 #### 1) Create Schema
