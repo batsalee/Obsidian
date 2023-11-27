@@ -1,32 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "SQL기본문법",
-      "path": "DB/SQL기본문법.md"
-    },
-    {
-      "basename": "데이터베이스 이론",
-      "path": "DB/데이터베이스 이론.md"
-    },
-    {
-      "basename": "DB",
-      "path": "DB/DB.md"
-    },
-    {
-      "basename": "DQL",
-      "path": "DB/DQL.md"
-    },
-    {
-      "basename": "DML",
-      "path": "DB/DML.md"
+      "basename": "nCr",
+      "path": "C++/Code Keeping/nCr.md"
     },
     {
       "basename": "MySQL 연동",
       "path": "C++/Code Keeping/MySQL 연동.md"
     },
     {
-      "basename": "nCr",
-      "path": "C++/Code Keeping/nCr.md"
+      "basename": "eof",
+      "path": "C++/Code Keeping/eof.md"
+    },
+    {
+      "basename": "cout 지수출력 방지",
+      "path": "C++/Code Keeping/cout 지수출력 방지.md"
+    },
+    {
+      "basename": "소수 여부 판별",
+      "path": "C++/Code Keeping/소수 여부 판별.md"
+    },
+    {
+      "basename": "DLL(Dynamic Link Library)",
+      "path": "C++/Code Keeping/DLL(Dynamic Link Library).md"
+    },
+    {
+      "basename": "데이터베이스 이론",
+      "path": "DB/데이터베이스 이론.md"
+    },
+    {
+      "basename": "Pasted image 20231127120006",
+      "path": "DB/contents/Pasted image 20231127120006.png"
+    },
+    {
+      "basename": "Pasted image 20231127122447",
+      "path": "DB/contents/Pasted image 20231127122447.png"
+    },
+    {
+      "basename": "Pasted image 20231127120052",
+      "path": "DB/contents/Pasted image 20231127120052.png"
+    },
+    {
+      "basename": "SQL기본문법",
+      "path": "DB/SQL기본문법.md"
+    },
+    {
+      "basename": "DB",
+      "path": "DB/DB.md"
     },
     {
       "basename": "TCL",
@@ -39,6 +59,14 @@
     {
       "basename": "DDL",
       "path": "DB/DDL.md"
+    },
+    {
+      "basename": "DML",
+      "path": "DB/DML.md"
+    },
+    {
+      "basename": "DQL",
+      "path": "DB/DQL.md"
     },
     {
       "basename": "GitHub",
@@ -171,34 +199,6 @@
     {
       "basename": "abs",
       "path": "C++/연산자/abs.md"
-    },
-    {
-      "basename": "int와 long의 차이",
-      "path": "C++/개념정리/int와 long의 차이.md"
-    },
-    {
-      "basename": "진법 변환",
-      "path": "C++/Code Keeping/진법 변환.md"
-    },
-    {
-      "basename": "진법 변환",
-      "path": "수학적 지식/진법 변환.md"
-    },
-    {
-      "basename": "GCD, LCM",
-      "path": "C++/Code Keeping/GCD, LCM.md"
-    },
-    {
-      "basename": "윤년",
-      "path": "C++/Code Keeping/윤년.md"
-    },
-    {
-      "basename": "cout 지수출력 방지",
-      "path": "C++/Code Keeping/cout 지수출력 방지.md"
-    },
-    {
-      "basename": "temp변수를 사용하지 않는 swap 구현",
-      "path": "C++/Code Keeping/temp변수를 사용하지 않는 swap 구현.md"
     }
   ],
   "omittedPaths": [],
