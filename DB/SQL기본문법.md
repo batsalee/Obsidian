@@ -609,3 +609,63 @@ SELECT * FROM Categories
 WHERE CategoryName = TRIM(' Beverages ')
 -- 위 처럼 써주면서 방지가 가능함
 ```
+
+패드  
+LPAD(S, N, P) S글자가 N글자가 될때까지 P를 이어붙임  
+RPAD(S, N, P) S글자가 N글자가 될때까지 P를 이어붙임
+```sql
+SELECT
+  LPAD('ABC', 5, '-'),
+  RPAD('ABC', 5, '-');
+-- LPAD는 ABC가 5글자가 될때까지 왼쪽에 -를 붙이므로 결과는 --ABC가 됨
+-- RPAD는 결과가 ABC--가 됨
+-- 사용하는 때는 제품ID가 그냥 1 내지는 10 이렇게 되있는거를 모두 000001 혹은 000010 형태로 맞추고 싶을 때
+```
+
+REPLACE(S, A, B) S중 A를 B로 변경
+```sql
+SELECT
+  REPLACE('맥도날드에서 맥도날드 햄버거를 먹었다.', '맥도날드', '버거킹');
+-- 결과는 버거킹에서 버거킹 햄버거를 먹었다.로 나옴
+
+SELECT
+  REPLACE(Description, ', ', ' and ')
+FROM Categories;
+-- ,를 and로 일괄변경하고 싶을때 씀
+```
+
+INSTR(S, s) S중 s의 첫 위치 반환, 없으면 0
+```sql
+SELECT
+  INSTR('ABCDE', 'ABC'),
+  INSTR('ABCDE', 'BCDE'),
+  INSTR('ABCDE', 'C'),
+  INSTR('ABCDE', 'DE'),
+  INSTR('ABCDE', 'F');
+-- 1 2 3 4 0이 나옴
+
+SELECT * FROM Customers
+WHERE INSTR(CustomerName, ' ') BETWEEN 1 AND 6;
+-- firstname이 1~5글자인 사람을 찾는 것
+-- < 6이 아니라 1~6으로 비트윈 한 이유는 스페이스가 아예 없으면 0이 리턴되므로 그 경우도 포함되버림
+-- 즉 한단어의 긴 글자도 포함하게 되버리므로 그게 아니려면 비트윈 사용
+```
+  
+CAST(A AS T) A를 T자료형으로 변환  
+CONVERT(A, T) A를 T자료형으로 변환
+```sql
+SELECT
+  '01' = '1',
+  CAST('01' AS DECIMAL) = CAST('1' AS DECIMAL);
+-- 01과 1은 숫자가 아니라 문자인 상태
+-- 즉 문자인 상태에선 ==의 답은 FALSE임
+-- 하지만 둘을 숫자로 바꾼다면 둘다 1이 되므로 ==의 답은 TRUE임
+```
+
+```sql
+SELECT
+  '01' = '1',
+  CONVERT('01', DECIMAL) = CONVERT('1', DECIMAL);
+```
+
+#### 3) 시간/날짜 관련 함수들
