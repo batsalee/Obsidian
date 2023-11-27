@@ -87,43 +87,39 @@ class Alloc = allocator<T>      // set::allocator_type
 3) 연산자
 - operator= : set의 내용을 복사한다.
 
+4) 반복자 (Iterators)
+- begin : 시작 부분 (set의 첫번째 원소) 을 가리키는 반복자를 리턴한다.
+- end : 끝 부분 (set의 마지막 원소 바로 다음) 을 가리키는 반복자를 리턴한다.
+- rbegin : 역순으로 첫번째 (즉, set의 마지막 원소) 를 가리키는 반복자를 리턴한다.
+- rend : 역순으로 끝 부분 (즉, set의 첫번째 원소 바로 이전) 을 가리키는 반복자를 리턴한다.
+- cbegin, cend, crbegin, crend도 지원
 
-Iterators:
-begin	Return iterator to beginning (public member function)
-end	Return iterator to end (public member function)
-rbegin	Return reverse iterator to reverse beginning (public member function)
-rend	Return reverse iterator to reverse end (public member function)
-cbegin	Return const_iterator to beginning (public member function)
-cend	Return const_iterator to end (public member function)
-crbegin	Return const_reverse_iterator to reverse beginning (public member function)
-crend	Return const_reverse_iterator to reverse end (public member function)
+5) 할당 관련
+- empty : set이 비었는지 체크한다.
+- size	: set의 size를 리턴한다.(현재 원소의 개수)
+- max_size : 시스템상 최대로 할당할 수 있는 set의 최대 공간의 크기를 리턴한다.
 
-Capacity:
-empty	Test whether container is empty (public member function)
-size	Return container size (public member function)
-max_size	Return maximum size (public member function)
+7) 수정자 (Modifier)
+- insert : 원소를 삽입한다.
+- erase :  원소를 삽입한다.
+- swap : Swap content (public member function)
+- clear : Clear content (public member function)
+- emplace : Construct and insert element (public member function)
+- emplace_hint : Construct and insert element with hint (public member function)
 
-Modifiers:
-insert	Insert element (public member function)
-erase	Erase elements (public member function)
-swap	Swap content (public member function)
-clear	Clear content (public member function)
-emplace	Construct and insert element (public member function)
-emplace_hint	Construct and insert element with hint (public member function)
+8) Observers
+- key_comp : Return comparison object (public member function)
+- value_comp : Return comparison object (public member function)
 
-Observers:
-key_comp	Return comparison object (public member function)
-value_comp	Return comparison object (public member function)
+9) Operations
+- find	: Get iterator to element (public member function)
+- count : Count elements with a specific value (public member function)
+- lower_bound	: Return iterator to lower bound (public member function)
+- upper_bound : Return iterator to upper bound (public member function)
+- equal_range : Get range of equal elements (public member function)
 
-Operations:
-find	Get iterator to element (public member function)
-count	Count elements with a specific value (public member function)
-lower_bound	Return iterator to lower bound (public member function)
-upper_bound	Return iterator to upper bound (public member function)
-equal_range	Get range of equal elements (public member function)
-
-Allocator:
-get_allocator	Get allocator (public member function)
+10) 할당자
+- get_allocator : 할당자(allocator) 을 얻는다.
 
 
 
