@@ -74,6 +74,8 @@
       "CS 지식/프로그래밍 용어",
       "C++/STL/Container/시퀀스 컨테이너",
       "C++/STL/Algorithm",
+      "자료구조",
+      "자료구조",
       "C++"
     ],
     "as": [
@@ -174,7 +176,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1701059085262,
+  "spacesAutoBackupLast": 1701077662730,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
