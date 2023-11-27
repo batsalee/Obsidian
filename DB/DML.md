@@ -25,7 +25,7 @@ ___
 ## SELECT
 
 SELECT는 아래 글에서 기본 SQL 문법과 함께 정리해뒀음
-[[DQL과 DB기본문법]]
+[[SQL기본문법 및 DQL]]
 
 ___
 ## INSERT

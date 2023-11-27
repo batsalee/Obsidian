@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Code Keeping/MySQL 연동.md",
+                "file": "DB/SQL기본문법 및 DQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Code Keeping/MySQL 연동.md",
+                "file": "DB/SQL기본문법 및 DQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Code Keeping/MySQL 연동.md",
+                "file": "DB/SQL기본문법 및 DQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Code Keeping/MySQL 연동.md"
+                "file": "DB/SQL기본문법 및 DQL.md"
               }
             }
           },
@@ -184,15 +184,15 @@
   },
   "active": "0a7a112f7a2d0569",
   "lastOpenFiles": [
-    "C++/Code Keeping/nCr.md",
-    "C++/Code Keeping/MySQL 연동.md",
+    "DB/DML.md",
+    "DB/SQL기본문법 및 DQL.md",
     "DB/DB.md",
     "DB/데이터베이스 이론.md",
+    "C++/Code Keeping/MySQL 연동.md",
+    "C++/Code Keeping/nCr.md",
     "DB/TCL.md",
     "DB/DCL.md",
     "DB/DDL.md",
-    "DB/DML.md",
-    "DB/DQL과 DB기본문법.md",
     "DB/contents/Pasted image 20231127125449.png",
     "DB/contents/Pasted image 20231127125429.png",
     "DB/contents/Pasted image 20231127124329.png",
