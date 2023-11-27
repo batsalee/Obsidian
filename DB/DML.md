@@ -24,8 +24,8 @@ DQL과 DML을 합쳐 CRUD라고 부름
 ___
 ## SELECT
 
-SELECT는 아래 글에서 기본 SQL 문법과 함께 정리해뒀음
-[[SQL기본문법 및 DQL]]
+SELECT는 아래 글에 따로 정리해뒀음
+[[DQL]]
 
 ___
 ## INSERT

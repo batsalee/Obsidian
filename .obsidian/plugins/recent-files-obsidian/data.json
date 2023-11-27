@@ -1,12 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "SQL기본문법 및 DQL",
-      "path": "DB/SQL기본문법 및 DQL.md"
-    },
-    {
-      "basename": "DML",
-      "path": "DB/DML.md"
+      "basename": "SQL기본문법",
+      "path": "DB/SQL기본문법.md"
     },
     {
       "basename": "DB",
@@ -15,6 +11,14 @@
     {
       "basename": "데이터베이스 이론",
       "path": "DB/데이터베이스 이론.md"
+    },
+    {
+      "basename": "DQL",
+      "path": "DB/DQL.md"
+    },
+    {
+      "basename": "DML",
+      "path": "DB/DML.md"
     },
     {
       "basename": "MySQL 연동",
@@ -195,10 +199,6 @@
     {
       "basename": "temp변수를 사용하지 않는 swap 구현",
       "path": "C++/Code Keeping/temp변수를 사용하지 않는 swap 구현.md"
-    },
-    {
-      "basename": "eof",
-      "path": "C++/Code Keeping/eof.md"
     }
   ],
   "omittedPaths": [],
