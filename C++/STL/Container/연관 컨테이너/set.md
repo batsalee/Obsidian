@@ -57,10 +57,74 @@ class Compare = less<T>,        // 기본적으로 less(오름차순)이며 내�
 class Alloc = allocator<T>      // set::allocator_type           
 > class set;
 ```
-#### 5. set의 개념
 
-#### 6. set의 멤버 변수들
-#### 7. set의 멤버 함수들
+#### 5. set의 멤버 변수들
+- key_type : The first template parameter (T)	
+- value_type : The first template parameter (T)	
+
+- key_compare : The second template parameter (Compare)
+- value_compare : The second template parameter (Compare)
+- allocator_type	The third template parameter (Alloc)
+
+- reference : value_type&	
+- const_reference : const value_type&	
+
+- pointer: 	allocator_traits<allocator_type>::pointer
+- const_pointer : 	allocator_traits<allocator_type>::const_pointer
+
+- iterator : a bidirectional iterator to const value_type
+- const_iterator : a bidirectional iterator to const value_type
+- reverse_iterator : 	`reverse_iterator<iterator>`
+- const_reverse_iterator : `reverse_iterator<const_iterator>`
+
+- difference_type : 두 원소 사이의 거리를 나타내는 타입 (많은 경우 ptfdiff_t 와 타입이 같으며 부호있는 정수)
+- size_type :  size 를 나타내는 타입 (많은 경우 size_t 와 타입이 같으며 부호없는 정수이다)
+
+#### 6. set의 멤버 함수들
+1) 생성자 : set을 생성한다.
+2) 소멸자 : set을 소멸한다.
+
+3) 연산자
+- operator= : set의 내용을 복사한다.
+
+
+Iterators:
+begin	Return iterator to beginning (public member function)
+end	Return iterator to end (public member function)
+rbegin	Return reverse iterator to reverse beginning (public member function)
+rend	Return reverse iterator to reverse end (public member function)
+cbegin	Return const_iterator to beginning (public member function)
+cend	Return const_iterator to end (public member function)
+crbegin	Return const_reverse_iterator to reverse beginning (public member function)
+crend	Return const_reverse_iterator to reverse end (public member function)
+
+Capacity:
+empty	Test whether container is empty (public member function)
+size	Return container size (public member function)
+max_size	Return maximum size (public member function)
+
+Modifiers:
+insert	Insert element (public member function)
+erase	Erase elements (public member function)
+swap	Swap content (public member function)
+clear	Clear content (public member function)
+emplace	Construct and insert element (public member function)
+emplace_hint	Construct and insert element with hint (public member function)
+
+Observers:
+key_comp	Return comparison object (public member function)
+value_comp	Return comparison object (public member function)
+
+Operations:
+find	Get iterator to element (public member function)
+count	Count elements with a specific value (public member function)
+lower_bound	Return iterator to lower bound (public member function)
+upper_bound	Return iterator to upper bound (public member function)
+equal_range	Get range of equal elements (public member function)
+
+Allocator:
+get_allocator	Get allocator (public member function)
+
 
 
 출처 : https://cplusplus.com/reference/set/set/
