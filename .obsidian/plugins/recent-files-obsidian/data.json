@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "TCL",
+      "path": "DB/TCL.md"
+    },
+    {
       "basename": "DDL",
       "path": "DB/DDL.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "DML",
       "path": "DB/DML.md"
-    },
-    {
-      "basename": "TCL",
-      "path": "DB/TCL.md"
     },
     {
       "basename": "GitHub",

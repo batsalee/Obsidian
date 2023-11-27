@@ -73,13 +73,10 @@ Create Domain DNum AS Int Check(DNumber>0 AND DNumber<21);
 | DEFAULT        | 값 입력이 없을 시 기본값, DEFAULT <값> 으로 지정                                     |
 | CHECK          | 값을 특정한 값으로 한정하려면 CHECK(값의 범위)                                       |
 
-PRIMARY KEY는 기본키로 테이블마다 하나만 가능
+PRIMARY KEY(기본키)는 각 행을 고유하게 식별 가능하게 만드므로 테이블마다 하나씩 둬야하며  
+기본적으로 인덱스 생성(기본키 행 기준으로 빠른 검색 가능)  
+보통 특정 의미가 있는 값이 아님녀 AUTO_INCREMENT와 함께 사용하면 편함
 
-- 기본적으로 인덱스 생성(기본키 행 기준으로 빠른 검색 가능)
-
-- 보통 AUTO_INCREMENT와 함께 사용
-
-- 각 행을 고유하게 식별 가능하게 만드므로 테이블마다 하나씩 둬야 함
 ##### 3-3) 참조무결성 설정
 ```SQL
 Create Table Employee (
@@ -98,3 +95,56 @@ Create Table Employee (
 );
 ```
 Foreign Key에 제약을 걸때 Delete와 Update때 Restrict, Cascade, Set Null, Set Default 중 선택적으로 적용
+
+___
+## ALTER
+
+테이블 변경 - ALTER TABLE
+```SQL
+-- 테이블명 변경
+ALTER TABLE people RENAME TO friends,
+-- 컬럼 자료형 변경
+CHANGE COLUMN person_id person_id TINYINT,
+-- 컬럼명 변경
+CHANGE COLUMN person_name person_nickname VARCHAR(10), 
+-- 컬럼 삭제
+DROP COLUMN birthday,
+-- 컬럼 추가
+ADD COLUMN is_married TINYINT AFTER age;
+```
+
+```SQL
+Alter Table Employee Add Job VARCHAR(12);
+Alter Table Employee Alter Job Set Default “ABC”;
+Alter Table Employee Drop Job;
+```
+SQL File에 위처럼 작성해서 사용할 수도 있고 또한 이것도 GUI로 테이블명 우클릭해서 ALTER TABLE 눌러서 편하게 가능  
+
+___
+
+## DROP
+
+테이블 삭제 - DROP TABLE
+```SQL
+DROP TABLE friends;
+```
+
+```SQL
+Drop Table Dependent Restrict;
+Drop Table Employee Cascade;
+```
+
+```SQL
+Drop Schema Company {Restrict | Cascade}
+-- 데이터베이스의 모든것을 다 삭제
+-- Table, Constraint, View, Domain, Event, Function, Index, Trigger 모두 삭제되는 것
+```
+이 또한 당연히 왼쪽에서 우클릭해서 DROP 선택 가능
+
+
+
+※ 참고문헌
+
+얄코님 MySQL강의 무료파트
+[https://www.youtube.com/watch?v=dgpBXNa9vJc](https://www.youtube.com/watch?v=dgpBXNa9vJc) 
+[https://www.yalco.kr/lectures/sql/](https://www.yalco.kr/lectures/sql/)
