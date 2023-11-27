@@ -184,9 +184,9 @@
   },
   "active": "0a7a112f7a2d0569",
   "lastOpenFiles": [
-    "DB/SQL기본문법.md",
-    "DB/DB.md",
     "DB/데이터베이스 이론.md",
+    "DB/DB.md",
+    "DB/SQL기본문법.md",
     "DB/DQL.md",
     "DB/DML.md",
     "C++/Code Keeping/MySQL 연동.md",

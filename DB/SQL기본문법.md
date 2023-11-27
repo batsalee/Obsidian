@@ -669,3 +669,230 @@ SELECT
 ```
 
 #### 3) 시간/날짜 관련 함수들
+
+| 의미                                        | 연산자                                                                        | 설명                                                                                                                                                                                                                                                                      |
+| ------------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 현재 시간/날짜 반환                         | CURRENT_DATE, CURDATE  <br>CURRENT_TIME, CURTIME  <br>CURRENT_TIMESTAMP, NOW  | 현재 날짜 반환  <br>현재 시간 반환  <br>현재 시간과 날짜 반환                                                                                                                                                                                                             |
+| 시간/날짜 객체 생성                         | DATE('2023-03-21')  <br>TIME('01:02:03')  <br>TIME(n)  <br>TIMESTAMP          | 날짜객체  <br>시간객체  <br>hh:mm:ss:nnnnnnnn에서 n의 갯수  <br>DATE + TIME = yyyy-mm-dd hh:mm:ss                                                                                                                                                                         |
+| 주어진 DATETIME에서  <br>년/월/일/요일 반환 | YEAR  <br>MONTH  <br>DAY, DAYOFMONTH  <br>WEEKDAY  <br>MONTHNAME  <br>DAYNAME | 인자로 주어진 DATETIME에서 연도 추출  <br>인자로 주어진 DATETIME에서 월 추출  <br>인자로 주어진 DATETIME에서 일 추출  <br>인자로 주어진 DATETIME에서 요일 추출(월요일이 0)  <br>인자로 주어진 DATETIME에서 해당월의 영문명 반환  <br>인자로 주어진 DATETIME의 요일명 반환 |
+| 주어진 DATETIME에서  <br>시/분/초 반환      | HOUR  <br>MINUTE  <br>SECOND                                                  | 시/분/초 반환                                                                                                                                                                                                                                                             |
+| 날짜에 +/- 연산                             | ADDDATE, DATE_ADD  <br>SUBDATE, DATE_SUB                                      | 시간/날짜에 값 더하기  <br>시간/날짜에 값 빼기                                                                                                                                                                                                                            |
+| 시간 차이 명시                              | INTERVAL                                                                      | 둘의 시간차이인 상대시각을 명시  <br>시간끼리 더하고빼거나  <br>시각에 시간을 더하고 빼서 다른시간을 만들거나                                                                                                                                                             |
+| 두 DATETIME의 차이 계산                     | DATE_DIFF  <br>TIME_DIFF                                                      | 인자로 주어진 두 날짜의 차이 반환  <br>인자로 주어진 두 시간의 차이 반환                                                                                                                                                                                                  |
+| 해당 월의 마지막 날짜                       | LAST_DAY                                                                      | 해당 월의 마지막 날짜(28일이거나 30일이거나 31일이거나)                                                                                                                                                                                                                   |
+| DATETIME의 형식을 지정                      | DATE_FORMAT                                                                   | %Y, %y, %M, %m등등의 형식으로 printf문 만들듯이 형식 변환                                                                                                                                                                                                                 |
+| DATETIME을 해석해서 객체생성                | STR_TO_DATE(S, F)                                                             | STR_TO_DATE('2021-06-04 07:48:52', '%Y-%m-%d %T')처럼 해석해서 객체생성                                                                                                                                                                                                   |
+
+  
+CURRENT_DATE, CURDATE : 현재 날짜 반환  
+CURRENT_TIME, CURTIME : 현재 시간 반환  
+CURRENT_TIMESTAMP, NOW : 현재 시간과 날짜 반환  
+보통 앞의 것들은 길어서 뒤의 것들로 씀  
+또한 예약어가 아니라 함수이므로 뒤에 괄호를 써줘야 함
+
+```
+SELECT CURDATE(), CURTIME(), NOW();
+```
+
+  
+DATE : 문자열에 따라 날짜 생성 // 날짜 객체를 생성한다고 생각하면 더 쉬움  
+TIME : 문자열에 따라 시간 생성 // 시간 객체를 생성한다고 생각하면 더 쉬움  
+함수보다는 생성자에 가까운 느낌
+
+```
+SELECT
+  '2021-6-1' = '2021-06-01',
+  DATE('2021-6-1') = DATE('2021-06-01'),
+  '1:2:3' = '01:02:03',
+  TIME('1:2:3') = TIME('01:02:03');
+-- 이건 0 1 0 1의 결과가 나옴
+-- 첫줄은 문자열이 다르니까 FALSE고 두번째줄은 날짜 객체를 만들기때문에 TRUE가 되는것
+```
+
+```
+SELECT
+  '2021-6-1 1:2:3' = '2021-06-01 01:02:03',
+  DATE('2021-6-1 1:2:3') = DATE('2021-06-01 01:02:03'),
+  TIME('2021-6-1 1:2:3') = TIME('2021-06-01 01:02:03'),
+  DATE('2021-6-1 1:2:3') = TIME('2021-06-01 01:02:03'),
+  DATE('2021-6-1') = DATE('2021-06-01 01:02:03'),
+  TIME('2021-6-1 1:2:3') = TIME('01:02:03');
+-- 첫줄은 FALSE
+-- 둘째줄 셋째줄은 같은 객체가 되니 TRUE
+-- 4째줄은 왼쪽은 날짜를 가져갔으니 2021 6 1 객체고, 오른쪽은 시간을 가져갔으니 1 2 3 객체이므로 FALSE가 됨
+-- 즉 '2021-6-1 1:2:3' 문자열을 TIME이나 DATE함수에 넣어도 그 부분만 잘 알아서 가져가준다는 뜻
+```
+
+```
+-- 사용 예시
+SELECT * FROM Orders
+WHERE
+  OrderDate BETWEEN DATE('1997-1-1') AND DATE('1997-1-31');
+```
+
+  
+YEAR 주어진 DATETIME값의 년도 반환  
+MONTH 주어진 DATETIME값의 월 반환  
+DAY, DAYOFMONTH 주어진 DATETIME값의 날짜(일) 반환
+
+WEEKDAY 주어진 DATETIME값의 요일값 반환(월요일: 0)
+
+  
+MONTHNAME 주어진 DATETIME값의 월(영문) 반환  
+DAYNAME 주어진 DATETIME값의 요일명 반환
+
+```
+SELECT
+  OrderDate,
+  YEAR(OrderDate) AS YEAR,
+  MONTH(OrderDate) AS MONTH,
+  DAY(OrderDate) AS DAY,
+  WEEKDAY(OrderDate) AS WEEKDAY,
+  MONTHNAME(OrderDate) AS MONTHNAME,
+  DAYNAME(OrderDate) AS DAYNAME
+FROM Orders;
+-- OrderDate가 1996-07-04인 경우
+-- 1996 7 4 4 3 July Thursday 결과가 나옴
+```
+
+```
+SELECT
+  OrderDate,
+  CONCAT(
+    CONCAT_WS(
+      '/',
+      YEAR(OrderDate), MONTH(OrderDate), DAY(OrderDate)
+    ),
+    ' ',
+    UPPER(LEFT(DAYNAME(OrderDate), 3))
+  )
+FROM Orders;
+-- 1996-07-04 1996/7/4 THU 처럼 나옴
+-- 이런식으로 다양하게 결합해서 사용하는 듯
+```
+
+```
+SELECT * FROM Orders
+WHERE WEEKDAY(OrderDate) = 0;
+-- 월요일만 뽑아내기
+```
+
+  
+HOUR 주어진 DATETIME의 시 반환  
+MINUTE 주어진 DATETIME의 분 반환  
+SECOND 주어진 DATETIME의 초 반환
+
+```
+SELECT
+  HOUR(NOW()), MINUTE(NOW()), SECOND(NOW());
+-- now()하면 현재 시간이 나오므로 거기서 시 분 초를 뽑아냄
+```
+
+  
+ADDDATE, DATE_ADD 시간/날짜에 값 더하기  
+SUBDATE, DATE_SUB 시간/날짜에 값 빼기
+
+```
+SELECT 
+  ADDDATE('2021-06-20', INTERVAL 1 YEAR),
+  ADDDATE('2021-06-20', INTERVAL -2 MONTH),
+  ADDDATE('2021-06-20', INTERVAL 3 WEEK),
+  ADDDATE('2021-06-20', INTERVAL -4 DAY),
+  ADDDATE('2021-06-20', INTERVAL -5 MINUTE),
+  ADDDATE('2021-06-20 13:01:12', INTERVAL 6 SECOND);
+-- INTERVAL 문구 뒤 수식대로 처리, 첫 문장은 2021-06-20에서 1년 추가하는 것
+-- 주로 어떤 사용자의 사용 권한이 만료되었는지 아닌지 판단할때 사용
+```
+
+  
+위에껀 값에 연산을 하는 개념이었다면 아래는 두 값의 차이를 계산  
+DATE_DIFF 두 시간/날짜 간 일수차  
+TIME_DIFF 두 시간/날짜 간 시간차
+
+```
+SELECT
+  OrderDate,
+  NOW(),
+  DATEDIFF(OrderDate, NOW())
+FROM Orders;
+```
+
+```
+SELECT
+  TIMEDIFF('2021-06-21 15:20:35', '2021-06-21 16:34:41');
+```
+
+```
+-- 사용 예시
+SELECT * FROM Orders
+WHERE
+  ABS(DATEDIFF(OrderDate, '1996-10-10')) < 5;
+```
+
+  
+LAST_DAY 해당 달의 마지막 날짜  
+- 월마다 마지막 날짜가 다르니 있으면 정말 편할듯
+
+```
+SELECT
+  OrderDate,
+  LAST_DAY(OrderDate),
+  DAY(LAST_DAY(OrderDate)),
+  DATEDIFF(LAST_DAY(OrderDate), OrderDate)
+FROM Orders;
+-- 이렇게 쓰면 1996-07-04 1996-07-31 31 27순으로 나오게 되고
+-- 마지막날의 날짜만 빼와서 요일을 알수도 있고 등 다양하게 사용 가능
+```
+
+  
+DATE_FORMAT 시간/날짜를 지정한 형식으로 반환  
+%Y 년도 4자리  
+%y 년도 2자리  
+%M 월 영문  
+%m 월 숫자  
+%D 일 영문(1st, 2nd, 3rd...)  
+%d, %e 일 숫자 (01 ~ 31)  
+%T hh:mm:ss  
+%r hh:mm:ss AM/PM  
+%H, %k 시 (~23)  
+%h, %l 시 (~12)  
+%i 분  
+%S, %s 초  
+%p AM/PM
+
+```
+SELECT
+  DATE_FORMAT(NOW(), '%M %D, %Y %T'),
+  DATE_FORMAT(NOW(), '%y-%m-%d %h:%i:%s %p'),
+  DATE_FORMAT(NOW(), '%Y년 %m월 %d일 %p %h시 %i분 %s초');
+```
+
+```
+SELECT REPLACE(
+  REPLACE(
+    DATE_FORMAT(NOW(), '%Y년 %m월 %d일 %p %h시 %i분 %초'),
+    'AM', '오전'
+  ),
+  'PM', '오후'
+)
+-- 리플레이스 조건을 두개 달고싶으면 이런식으로 처리하나 봄
+```
+
+  
+STR_TO_DATE(S, F) S를 F형식으로 해석하여 시간/날짜 생성
+
+```
+SELECT
+  DATEDIFF(
+    STR_TO_DATE('2021-06-04 07:48:52', '%Y-%m-%d %T'),
+    STR_TO_DATE('2021-06-01 12:30:05', '%Y-%m-%d %T')
+  ),
+  TIMEDIFF(
+    STR_TO_DATE('2021-06-04 07:48:52', '%Y-%m-%d %T'),
+    STR_TO_DATE('2021-06-01 12:30:05', '%Y-%m-%d %T')
+  );
+-- 위의 DATEDIFF는 '%Y-%m-%d %T'형태로 날짜를 받아가서 둘의 차이를 보니 3일차이
+-- 아래의 TIMEDIFF는 '%Y-%m-%d %T'형태로 시간을 받아가서 둘의 시간차이
+-- 단 단지 07:48:52와 12:30:05의 차이뿐 아니라 1일 12시30분05초 ~ 4일 7시 48분 52초로 계산
+-- 3             67:18:47 결과로 나옴
+```
