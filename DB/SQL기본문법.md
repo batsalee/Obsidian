@@ -914,7 +914,7 @@ SELECT
 ```
 
 ___
-## 4. 조건에 따라 그룹으로 묶기
+## 조건에 따라 그룹으로 묶기
 
 MAX 가장 큰 값  
 MIN 가장 작은 값  
@@ -924,7 +924,7 @@ AVG 평균 값
 이것들을 GROUP BY로 집계된 곳에서 쓰게 됨  
   
 #### 1) GROUP BY
-- 조건에 따라 집계된 값을 정렬된 결과로 가져옴
+- 조건에 따라 집계된 값을 ==정렬된 결과로== 가져옴
 - 튜플들을 여러 부분집단으로 나누고 각 부분집단마다 집단함수 적용할 수 있음
 - 예를들어 1번팀원들의 점수 평균, 2번팀원들의 점수 평균 이런걸 따로 알고 싶을 때
 
@@ -988,9 +988,8 @@ group by와 함께 쓴다면 해당 제품의 총 판매량, 해당 직
 그룹화된 데이터 걸러내기  
 
 어떤 조건들을 만족하는 그룹들에게만 집단함수 적용  
-즉 GROUP BY에 조건문을 다는 것
-
-```
+즉 GROUP BY에 조건문을 다는 것  
+```sql
 SELECT
   Country, COUNT(*) AS Count
 FROM Suppliers
@@ -999,16 +998,14 @@ HAVING Count >= 3;
 -- 즉 Country로 묶어서 각 Country의 갯수를 가져오되, 3이상인 것만 가져오게 조건을 다는 것
 -- 즉 그룹바이에 대한 조건을 다는 것
 ```
-
 ※ WHERE는 그룹하기 전 데이터, HAVING은 그룹 후 집계에 사용  
-그냥 WHERE는 GROUP BY보다 위에 잇고, HAVING은 GROUP BY보다 밑에 있다고 생각하면 됨  
+그냥 WHERE는 GROUP BY보다 위에 있고, HAVING은 GROUP BY보다 밑에 있다고 생각하면 됨  
 WHERE로 먼저 조건 걸러내고, 거기서 걸러진 조건으로 그룹화하고, 또 그 그룹에서 HAVING으로 조건 거르는 것
 
-3) WITH ROLLUP  
+#### 3) WITH ROLLUP  
 마지막행에 합계를 나타내줌  
-ORDER BY와는 함께 사용될 수 없음
-
-```
+ORDER BY와는 함께 사용될 수 없음  
+```sql
 SELECT
   Country, COUNT(*)
 FROM Suppliers
@@ -1016,46 +1013,38 @@ GROUP BY Country
 WITH ROLLUP;
 ```
 
-4) DISTINCT - 중복된 값들을 제거합니다.
-
-SELECT와 함께 사용
-
-SQL은 모든 애트리뷰트 값이 동일한 튜플을 여러개 가질 수 있음
-
-정확히 말해서 SQL은 튜플의 집합이 아니라 튜플의 다중집합임
-
-그래서 검색하면 똑같은 내용이 여러줄 나오기도 함
-
-ALL(디폴트값)이나 Distinct를 이용해서 튜플 하나만 나오게 할 수 있음
-
+#### 4) DISTINCT - 중복된 값들을 제거합니다.
+SELECT와 함께 사용  
+SQL은 모든 애트리뷰트 값이 동일한 튜플을 여러개 가질 수 있음  
+정확히 말해서 SQL은 튜플의 집합이 아니라 튜플의 다중집합임  
+그래서 검색하면 똑같은 내용이 여러줄 나오기도 함  
+ALL(디폴트값)이나 Distinct를 이용해서 튜플 하나만 나오게 할 수 있음  
   
 GROUP BY도 중복값들을 제거해줬지만 이건 그룹화가 주된 목적이고  
-DISTINCT는 말그대로 중복값들을 제거하는게 목적
-
-```
+DISTINCT는 말그대로 중복값들을 제거하는게 목적  
+```sql
 SELECT DISTINCT CategoryID
 FROM Products;
 -- GROUP BY는 결과가 정렬되서 나옴
 -- DISTINCT는 그냥 DB에 나오는 순서대로 나옴. 즉 정렬하지 않고 정적으로 그냥 나옴
 ```
 
-```
+```sql
 -- 오류 발생 예시, 집계함수와 함께 쓰이지 않으므로
 SELECT COUNT DISTINCT CategoryID
 FROM Products;
 ```
 
-```
+```sql
 SELECT DISTINCT Country
 FROM Customers
 ORDER BY Country;
 -- ORDER BY를 붙여서 수동으로 정렬을 하고 싶으면 해도 됨
 ```
 
-5) GROUP BY와 DISTINCT 함께 활용하기  
+#### 5) GROUP BY와 DISTINCT 함께 활용하기  
 나라마다 겹치지 않는 CITY가 몇개가 들어 있는가
-
-```
+```sql
 SELECT
   Country,
   COUNT(DISTINCT CITY)
@@ -1064,6 +1053,319 @@ GROUP BY Country;
 -- 만약 DISTINCT를 안쓰면 같은 CITY도 누적해서 세는거지만 이렇게 쓰면 같은 도시는 한번만 셈
 ```
 
-※ 기억할 것  
-GROUP BY : 집계합수를 사용 가능, 결과가 정렬되서 출력됨  
-DISTINCT : 집계함수가 사용 불가능, 정렬을 하지 않으므로 더 빠름
+>[!note] GROUP BY와 DISTINCT
+> GROUP BY : 그룹화가 주 목적, 집계합수를 사용 가능, 결과가 정렬되서 출력됨  
+> DISTINCT : 중복제거가 주 목적, 집계함수가 사용 불가능, 정렬을 하지 않으므로 더 빠름
+
+___
+## 쿼리 안에 서브쿼리
+
+서브쿼리란 또 다른 쿼리 안에 들어있는 쿼리  
+서브쿼리와 본쿼리 둘다 같은 테이블을 조작할 수도, 각각 다른 테이블을 조작할 수도 있음  
+SELECT문 혹은 WHERE문에 서브쿼리를 넣어서 사용  
+
+서브쿼리에는 비상관쿼리와 상관쿼리가 있음  
+
+#### 1) 비상관쿼리
+서브쿼리가 외부쿼리와 관련이 없이 독자적으로 돌아가는 것
+```SQL
+SELECT
+  CategoryID, CategoryName, Description,
+  (SELECT ProductName FROM Products WHERE ProductID = 1)
+FROM Categories;
+```
+
+```SQL
+SELECT * FROM Products
+WHERE Price < (
+  SELECT AVG(Price) FROM Products
+);
+```
+
+```SQL
+SELECT
+  CategoryID, CategoryName, Description
+FROM Categories
+WHERE
+  CategoryID =
+  (SELECT CategoryID FROM Products
+  WHERE ProductName = 'Chais');
+```
+
+```SQL
+SELECT
+  CategoryID, CategoryName, Description
+FROM Categories
+WHERE
+  CategoryID IN
+  (SELECT CategoryID FROM Products
+  WHERE Price > 50);
+```
+
+#### 2) ALL / ANY 연산자  
+~ ALL 서브쿼리의 모든 결과에 대해 ~하다  
+~ ANY 서브쿼리의 하나 이상의 결과에 대해 ~하다
+```SQL
+SELECT * FROM Products
+WHERE Price > ALL (
+  SELECT Price FROM Products
+  WHERE CategoryID = 2
+);
+-- 카테고리ID가 2인 제품들 가격들 모두보다 큰 가격이 조건이므로
+-- 카테고리ID가 2인 제품 중 가장 비싼 제품보다 더 비싼걸 가져오는게 조건이 되는 것
+```
+
+```SQL
+SELECT
+  CategoryID, CategoryName, Description
+FROM Categories
+WHERE
+  CategoryID = ANY
+  (SELECT CategoryID FROM Products
+  WHERE Price > 50);
+-- 조건에 맞는 여러가지 중 어떤것 하나라도 = 이면 가져오는 것
+-- 여기서 = ANY 를 IN으로 바꿔도 같은 의미가 되겠지
+```
+
+#### 3) 상관쿼리  
+비상관쿼리는 서브쿼리와 본쿼리와 상관없이 독자적으로 돌아가던 것  
+상관쿼리는 서브쿼리와 바깥쪽의 쿼리가 맞물려서 돌아감  
+이건 뒤에서 배울 join으로 더 쉽게 가능하지만 서브쿼리로도 가능  
+```SQL
+SELECT
+  ProductID, ProductName,
+  (
+    SELECT CategoryName FROM Categories C
+    WHERE C.CategoryID = P.CategoryID
+  ) AS CategoryName
+FROM Products P;
+-- Products는 P로, Categories는 C로 별명 만들어서 사용
+-- C.CategoryID = P.CategoryID로 맞물려서 적용
+```
+
+```SQL
+SELECT
+  SupplierName, Country, City,
+  (
+    SELECT COUNT(*) FROM Customers C
+    WHERE C.Country = S.Country
+  ) AS CustomersInTheCountry,
+  (
+    SELECT COUNT(*) FROM Customers C
+    WHERE C.Country = S.Country 
+      AND C.City = S.City
+  ) AS CustomersInTheCity
+FROM Suppliers S;
+```
+
+```SQL
+SELECT
+  CategoryID, CategoryName,
+  (
+    SELECT MAX(Price) FROM Products P
+    WHERE P.CategoryID = C.CategoryID
+  ) AS MaximumPrice,
+  (
+    SELECT AVG(Price) FROM Products P
+    WHERE P.CategoryID = C.CategoryID
+  ) AS AveragePrice
+FROM Categories C;
+```
+
+```SQL
+SELECT
+  ProductID, ProductName, CategoryID, Price
+  -- ,(SELECT AVG(Price) FROM Products P2
+  -- WHERE P2.CategoryID = P1.CategoryID)
+FROM Products P1
+WHERE Price < (
+  SELECT AVG(Price) FROM Products P2
+  WHERE P2.CategoryID = P1.CategoryID
+);
+```
+
+#### 4) EXISTS / NOT EXISTS연산자  
+존재하는가 존재하지 않는가
+```SQL
+SELECT
+  CategoryID, CategoryName
+  -- ,(SELECT MAX(P.Price) FROM Products P
+  -- WHERE P.CategoryID = C.CategoryID
+  -- ) AS MaxPrice
+FROM Categories C
+WHERE EXISTS (
+  SELECT * FROM Products P
+  WHERE P.CategoryID = C.CategoryID
+  AND P.Price > 80
+);
+```
+
+___
+## JOIN
+
+관계형 데이터베이스는 중복을 최소화하기 위해 정규화를 하는데  
+그 분리된 테이블들을 다시 합쳐서 가져오는 과정을 JOIN으로 처리함  
+```SQL
+FROM Products P
+JOIN Suppliers S
+ON P.SupplierID = S.SupplierID
+-- 위와 같은 모양새인데 이걸 
+
+FROM (Products P JOIN Suppliers S) (ON P.SupplierID = S.SupplierID)
+-- 이런 느낌으로 보는게 더 편함
+-- P랑 S를 조인하는데 ON를 조건으로 합친다.
+-- 두 테이블을 합친 그 테이블에서 select문 등을 수행한다. 라고 생각하면
+-- 먼저 join한 후에 거기서 한다 생각하면 다 쉬움
+```
+
+#### 1) JOIN(INNER JOIN) - 내부 조인
+양쪽 모두에 값이 있는 행만 반환함(즉 NULL이 발생하지 않게)  
+INNER를 생략하고 JOIN으로 적으면 INNER JOIN임
+
+```
+SELECT * FROM Categories C
+JOIN Products P 
+  ON C.CategoryID = P.CategoryID; 
+-- P에 있던 내용과 C에 있던 내용을 ID맞춰서 모두 가져옴
+```
+
+```
+SELECT C.CategoryID, C.CategoryName, P.ProductName
+FROM Categories C
+JOIN Products P 
+  ON C.CategoryID = P.CategoryID; 
+-- ambiguous 주의!
+-- ambiguous는 모호하다는 의미로 C.CategoriID가 아닌 그냥 CategoriID를 쓰면
+-- P와 C 양쪽 테이블 모두 CategoriID를 가지고 있어서 어디껄 가져와야할지 모르겠다는 뜻임
+-- 둘 중 어디껄 가져오던 상관없지만 컴퓨터는 구분 못하니 C.CategoriID로 C.을 써서 명시하는 것
+```
+
+```
+SELECT
+  CONCAT(
+    P.ProductName, ' by ', S.SupplierName
+  ) AS Product,
+  S.Phone, P.Price
+FROM Products P
+JOIN Suppliers S
+  ON P.SupplierID = S.SupplierID
+WHERE Price > 50
+ORDER BY ProductName;
+```
+
+```
+-- 여러 테이블을 JOIN할 수 있음
+SELECT 
+  C.CategoryID, C.CategoryName, 
+  P.ProductName, 
+  O.OrderDate,
+  D.Quantity
+FROM Categories C
+JOIN Products P 
+  ON C.CategoryID = P.CategoryID
+JOIN OrderDetails D
+  ON P.ProductID = D.ProductID
+JOIN Orders O
+  ON O.OrderID = D.OrderID;
+```
+
+ JOIN한 테이블 GROUP하기
+
+```
+SELECT 
+  C.CategoryName,
+  MIN(O.OrderDate) AS FirstOrder,
+  MAX(O.OrderDate) AS LastOrder,
+  SUM(D.Quantity) AS TotalQuantity
+FROM Categories C
+JOIN Products P 
+  ON C.CategoryID = P.CategoryID
+JOIN OrderDetails D
+  ON P.ProductID = D.ProductID
+JOIN Orders O
+  ON O.OrderID = D.OrderID
+GROUP BY C.CategoryID;
+```
+
+```
+SELECT 
+  C.CategoryName, P.ProductName,
+  MIN(O.OrderDate) AS FirstOrder,
+  MAX(O.OrderDate) AS LastOrder,
+  SUM(D.Quantity) AS TotalQuantity
+FROM Categories C
+JOIN Products P 
+  ON C.CategoryID = P.CategoryID
+JOIN OrderDetails D
+  ON P.ProductID = D.ProductID
+JOIN Orders O
+  ON O.OrderID = D.OrderID
+GROUP BY C.CategoryID, P.ProductID;
+```
+
+  
+같은 테이블끼리 SELF JOIN도 가능
+
+```
+SELECT
+  E1.EmployeeID, CONCAT_WS(' ', E1.FirstName, E1.LastName) AS Employee,
+  E2.EmployeeID, CONCAT_WS(' ', E2.FirstName, E2.LastName) AS NextEmployee
+FROM Employees E1 JOIN Employees E2
+ON E1.EmployeeID + 1 = E2.EmployeeID;
+-- 1번의 전, 마지막 번호의 다음은?
+-- 예를들어 1번은 전임자가 없고, 9번은 후임자가 없음
+-- 그러니 테이블을 조인했을때 가져올 값이 없음
+-- 이런식으로 가져올 값이 없을때 그냥 안가져오는게 inner join
+```
+
+2) LEFT / RIGHT OUTER JOIN - 외부조인  
+반대쪽에 데이터가 있든 없든(NULL) 선택된 방향에 있기만 하면 출력  
+왼쪽만 데이터가 있다면 오른쪽을 비우더라도 데이터를 가져옴, 빈 칸은 NULL값  
+OUTER는 생략해도 됨, LEFT JOIN이나 RIGHT JOIN만 쓰면 됨
+
+```
+SELECT
+  E1.EmployeeID, CONCAT_WS(' ', E1.FirstName, E1.LastName) AS Employee,
+  E2.EmployeeID, CONCAT_WS(' ', E2.FirstName, E2.LastName) AS NextEmployee
+FROM Employees E1
+LEFT JOIN Employees E2
+ON E1.EmployeeID + 1 = E2.EmployeeID
+ORDER BY E1.EmployeeID;
+-- LEFT를 RIGHT로 바꿔서도 실행해 보기
+```
+
+```
+SELECT
+  C.CustomerName, S.SupplierName,
+  C.City, C.Country
+FROM Customers C
+LEFT JOIN Suppliers S
+ON C.City = S.City AND C.Country = S.Country;
+-- LEFT를 RIGHT로 바꿔서도 실행해 보기
+```
+
+```
+SELECT
+  IFNULL(C.CustomerName, '-- NO CUSTOMER --'),
+  IFNULL(S.SupplierName, '-- NO SUPPLIER --'),
+  IFNULL(C.City, S.City),
+  IFNULL(C.Country, S.Country)
+FROM Customers C
+LEFT JOIN Suppliers S
+ON C.City = S.City AND C.Country = S.Country;
+
+-- LEFT를 RIGHT로 바꿔서도 실행해 보기
+```
+
+  
+3) CROSS JOIN - 교차 조인  
+조건 없이 모든 조합 반환(A * B)
+
+```
+SELECT
+  E1.LastName, E2.FirstName
+FROM Employees E1
+CROSS JOIN Employees E2
+ORDER BY E1.EmployeeID;
+-- 실전에서 뭐 쓸일은 없겠지만 이런 기능도 가능하다
+```
