@@ -1220,16 +1220,15 @@ FROM (Products P JOIN Suppliers S) (ON P.SupplierID = S.SupplierID)
 
 #### 1) JOIN(INNER JOIN) - 내부 조인
 양쪽 모두에 값이 있는 행만 반환함(즉 NULL이 발생하지 않게)  
-INNER를 생략하고 JOIN으로 적으면 INNER JOIN임
-
-```
+INNER를 생략하고 JOIN으로 적으면 INNER JOIN임  
+```SQL
 SELECT * FROM Categories C
 JOIN Products P 
   ON C.CategoryID = P.CategoryID; 
 -- P에 있던 내용과 C에 있던 내용을 ID맞춰서 모두 가져옴
 ```
 
-```
+```SQL
 SELECT C.CategoryID, C.CategoryName, P.ProductName
 FROM Categories C
 JOIN Products P 
@@ -1240,7 +1239,7 @@ JOIN Products P
 -- 둘 중 어디껄 가져오던 상관없지만 컴퓨터는 구분 못하니 C.CategoriID로 C.을 써서 명시하는 것
 ```
 
-```
+```SQL
 SELECT
   CONCAT(
     P.ProductName, ' by ', S.SupplierName
@@ -1253,7 +1252,7 @@ WHERE Price > 50
 ORDER BY ProductName;
 ```
 
-```
+```SQL
 -- 여러 테이블을 JOIN할 수 있음
 SELECT 
   C.CategoryID, C.CategoryName, 
@@ -1269,9 +1268,8 @@ JOIN Orders O
   ON O.OrderID = D.OrderID;
 ```
 
- JOIN한 테이블 GROUP하기
-
-```
+JOIN한 테이블 GROUP하기
+```SQL
 SELECT 
   C.CategoryName,
   MIN(O.OrderDate) AS FirstOrder,
@@ -1287,7 +1285,7 @@ JOIN Orders O
 GROUP BY C.CategoryID;
 ```
 
-```
+```SQL
 SELECT 
   C.CategoryName, P.ProductName,
   MIN(O.OrderDate) AS FirstOrder,
@@ -1303,10 +1301,8 @@ JOIN Orders O
 GROUP BY C.CategoryID, P.ProductID;
 ```
 
-  
 같은 테이블끼리 SELF JOIN도 가능
-
-```
+```SQL
 SELECT
   E1.EmployeeID, CONCAT_WS(' ', E1.FirstName, E1.LastName) AS Employee,
   E2.EmployeeID, CONCAT_WS(' ', E2.FirstName, E2.LastName) AS NextEmployee
@@ -1318,12 +1314,11 @@ ON E1.EmployeeID + 1 = E2.EmployeeID;
 -- 이런식으로 가져올 값이 없을때 그냥 안가져오는게 inner join
 ```
 
-2) LEFT / RIGHT OUTER JOIN - 외부조인  
+#### 2) LEFT / RIGHT OUTER JOIN - 외부조인  
 반대쪽에 데이터가 있든 없든(NULL) 선택된 방향에 있기만 하면 출력  
-왼쪽만 데이터가 있다면 오른쪽을 비우더라도 데이터를 가져옴, 빈 칸은 NULL값  
+LEFT JOIN이라면 왼쪽만 데이터가 있다면 오른쪽을 비우더라도 데이터를 가져옴, 빈 칸은 NULL값  
 OUTER는 생략해도 됨, LEFT JOIN이나 RIGHT JOIN만 쓰면 됨
-
-```
+```SQL
 SELECT
   E1.EmployeeID, CONCAT_WS(' ', E1.FirstName, E1.LastName) AS Employee,
   E2.EmployeeID, CONCAT_WS(' ', E2.FirstName, E2.LastName) AS NextEmployee
@@ -1334,7 +1329,7 @@ ORDER BY E1.EmployeeID;
 -- LEFT를 RIGHT로 바꿔서도 실행해 보기
 ```
 
-```
+```SQL
 SELECT
   C.CustomerName, S.SupplierName,
   C.City, C.Country
@@ -1344,7 +1339,7 @@ ON C.City = S.City AND C.Country = S.Country;
 -- LEFT를 RIGHT로 바꿔서도 실행해 보기
 ```
 
-```
+```SQL
 SELECT
   IFNULL(C.CustomerName, '-- NO CUSTOMER --'),
   IFNULL(S.SupplierName, '-- NO SUPPLIER --'),
@@ -1357,15 +1352,206 @@ ON C.City = S.City AND C.Country = S.Country;
 -- LEFT를 RIGHT로 바꿔서도 실행해 보기
 ```
 
-  
-3) CROSS JOIN - 교차 조인  
-조건 없이 모든 조합 반환(A * B)
-
-```
+#### 3) CROSS JOIN - 교차 조인  
+조건 없이 모든 조합 반환(A * B)  
+실전에서 뭐 쓸일은 없겠지만 이런 기능도 가능하다정도로 알아두기  
+```SQL
 SELECT
   E1.LastName, E2.FirstName
 FROM Employees E1
 CROSS JOIN Employees E2
 ORDER BY E1.EmployeeID;
--- 실전에서 뭐 쓸일은 없겠지만 이런 기능도 가능하다
 ```
+
+___
+## 집합(UNION)
+
+교집합 합집합 차집합 대칭차집합에 대한 내용  
+유니온은 서로 다른 테이블을/전혀 다른 컬럼들을 같은 컬럼 내에 이어서 보여 줄 수 있는 기능  
+JOIN은 옆으로 합치는 거라면 ==집합은 위아래로 합친다는 느낌==  
+
+집합연산들은 합집합 호환성을 갖는 테이블에만 적용
+합집합 호환성이란 애트리뷰트의 수가 같고 대응하는 애트리뷰트의 도메인이 같다 라는 의미  
+
+| 집합종류   | 명령어                            |
+| ---------- | --------------------------------- |
+| 합집합     | UNION / UNION ALL                 |
+| 교집합     | AND                               |
+| 차집합     | NOT IN                            |
+| 대칭차집합 | GROUP BY ID HAVING COUNT(\*) = 1; |
+
+#### 1) 합집합  
+UNION => 중복을 제거한 집합  
+UNION ALL => 중복을 제거하지 않은 집합
+```SQL
+SELECT CustomerName AS Name, City, Country, 'CUSTOMER'
+FROM Customers
+UNION
+SELECT SupplierName AS Name, City, Country, 'SUPPLIER'
+FROM Suppliers
+ORDER BY Name;
+-- 그냥 합집합마냥 다 합쳐서 나옴
+-- 둘은 전혀 다른 내용을 다루는 테이블인데 그냥 합쳐버린것
+-- 실제 의미가 있는 쿼리는 아님
+```
+
+```SQL
+SELECT CategoryID AS ID FROM Categories
+WHERE CategoryID > 4
+UNION
+SELECT EmployeeID AS ID FROM Employees
+WHERE EmployeeID % 2 = 0;
+-- UNION ALL로 바꿔 보기
+```
+
+#### 2) 교집합
+AND
+```SQL
+-- 교집합은 UNION이라는 명령어를 안쓰고 그냥 AND로 처리
+SELECT CategoryID AS ID
+FROM Categories C, Employees E
+WHERE 
+  C.CategoryID > 4
+  AND E.EmployeeID % 2 = 0
+  AND C.CategoryID = E.EmployeeID;
+```
+
+#### 3) 차집합
+NOT IN
+```SQL
+-- 여기도 UNION 키워드가 아니고 그냥 NOT IN을 사용
+SELECT CategoryID AS ID
+FROM Categories
+WHERE 
+  CategoryID > 4
+  AND CategoryID NOT IN (
+    SELECT EmployeeID
+    FROM Employees
+    WHERE EmployeeID % 2 = 0
+  );
+```
+  
+#### 4) 대칭차집합
+`GROUP BY <ID> HAVING COUNT(\*) = 1;`
+```SQL
+SELECT ID FROM (
+  SELECT CategoryID AS ID FROM Categories
+  WHERE CategoryID > 4
+  UNION ALL
+  SELECT EmployeeID AS ID FROM Employees
+  WHERE EmployeeID % 2 = 0
+) AS Temp 
+GROUP BY ID HAVING COUNT(*) = 1;
+-- UNION ALL로 하면 중복된건 COUNT가 1보다 클테니 1인것만 가져오게
+```
+
+___
+## 자료형
+
+#### 1) 정수
+
+| 자료형 | 바이트 | SIGNED | UNSIGNED |
+| ------ | ------ | ------ | -------- |
+|TINYINT|1|-128 ~ 127|0 ~ 255|
+|SMALLINT|2|-32,768 ~ 32,767|0 ~ 65,535|
+|MEDIUMINT|3|-8,388,608 ~ 8,388,607|0 ~ 16,777,215|
+|INT|4|-2,147,483,648 ~ 2,147,483,647|0 ~ 4,294,967,295|
+|BIGINT|8|-2^63 ~ 2^63 - 1|0 ~ 2^64 - 1|
+
+#### 2) 실수
+2-1) 고정 소수점(Fixed Point) 수
+- 상대적으로 부동 소수점에 비해 좁은 범위의 수 표현 가능, 정확한 값
+- 상대적으로 적다는 뜻이지 일반적으로 충분함
+
+|   |   |   |
+|---|---|---|
+|자료형|설명|범위|
+|DECIMAL( s, d )|실수 부분 총 자릿수( s ) & 소수 부분 자릿수 ( d )|s 최대 65|
+
+  2-2) 부동 소수점(Floating Point) 수
+
+    - 고정 소수점에 비해 더 넓은 범위의 수 표현 가능
+
+    - 상대적으로 덜 정확하지만 일반적으로는 충분히 정확
+
+|   |   |
+|---|---|
+|자료형|표현 범위|
+|FLOAT|-3.402...E+38 ~ -1.175...E-38 , 0 , 1.175...E-38 ~ 3.402...E+38|
+|DOUBLE|-1.797...E+308 ~ -2.225E-308 , 0 , 2.225...E-308 ~ 1.797...E+308|
+
+3) 문자
+
+  3-1) 문자열
+
+    - 여기서 문자열은 그냥 문자가 많은것을 의미하는게 아니라 문자 1개부터 문장까지를 의미
+
+    - 문장 수준을 넘어 글이라고 표현될 정도의 장문은 아래의 텍스트로 저장
+
+    - CHAR(4)라고 지정시 정적배열 4칸처럼 4칸 고정 문자열을 의미
+
+    - VARCHAR(4)라고 지정시 4칸 assign한 vector같은 느낌
+
+    - CHAR는 4바이트 지정시 내용이 있어도 없어도 무조건 4바이트 소비
+
+    - VARCHAR는 4바이트 지정시 내용이 없으면 1바이트(길이 정보 저장용)
+
+    - 검색시 CHAR가 더 빠름
+
+    - VARCHAR는 4칸 지정했는데 4글자보다 작으면 자동으로 CHAR로 변환됨
+
+    - VARCHAR의 단점은 길이 정보를 저장해야하므로 4글자가 들어와도 실제로는 5바이트가 소비됨
+
+    - 그러므로 들어올 글자의 갯수가 명확하다면 CHAR를 쓰는게 이득임
+
+|   |   |   |   |
+|---|---|---|---|
+|자료형|설명|차지하는 바이트|최대 바이트|
+|CHAR( s )|고정 사이즈 (남는 글자 스페이스로 채움)|s (고정값)|255|
+|VARCHAR ( s )|가변 사이즈|실제 글자 수[최대 s] + 1 [글자수 정보]|65,535|
+
+  3-2) 텍스트
+
+    - 문자열을 넘어 글이라고 표현될 정도로 긴 내용을 저장할 때
+
+|   |   |
+|---|---|
+|자료형|최대 바이트 크기|
+|TINYTEXT|255|
+|TEXT|65,535|
+|MEDIUMTEXT|16,777,215|
+|LONGTEXT|4,294,967,295|
+
+4) 시간 자료형
+
+|   |   |   |
+|---|---|---|
+|자료형|설명|비고|
+|DATE|YYYY-MM-DD||
+|TIME|HHH:MI:SS|HHH: -838 ~ 838까지의 시간|
+|DATETIME|YYYY-MM-DD HH:MI:SS|입력된 시간을 그 값 자체로 저장|
+|TIMESTAMP|YYYY-MM-DD HH:MI:SS|MySQL이 설치된 컴퓨터의 시간대를 기준으로 저장|
+
+※ DATETIME과 TIMESTAMP의 차이점
+
+DATETIME는 만약 2023-04-05 17:42:37이라면 가감없이 "2023-04-05 17:42:37" 값 자체를 저장함
+
+                       그래서 어떤 나라, 어떤 시간대에서 봐도 저장된 값으로 나옴
+
+                       어떤 역사적 시간데이터를 쓸때는 DATETIME을 사용
+
+TIMESTAMP는 MySQL의 시간과의 시차값을 저장해서 시간 자동기록
+
+                       그래서 서울에서 2021-07-15 00시에 저장한 데이터라도 뉴욕에선 2021-07-14 12시로 읽힘
+
+                       국제적인 서비스를 할 경우  사용
+
+
+
+
+※ 참고 문헌
+
+얄코님 MySQL강의 무료파트
+[https://www.youtube.com/watch?v=dgpBXNa9vJc](https://www.youtube.com/watch?v=dgpBXNa9vJc) 
+[https://www.yalco.kr/lectures/sql/](https://www.yalco.kr/lectures/sql/)
+[https://www.w3schools.com/mysql/trymysql.asp?filename=trysql_select_all](https://www.w3schools.com/mysql/trymysql.asp?filename=trysql_select_all)
