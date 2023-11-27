@@ -221,17 +221,16 @@ SELECT TRUE AND FALSE, TRUE OR FALSE;
 -- SELECT TRUE && FALSE, TRUE || FALSE; 와 같음
 ```
 
-|   |   |
-|---|---|
-|TRUE AND FALSE|TRUE OR FALSE|
-|0|1|
+| TRUE AND FALSE | TRUE OR FALSE |
+| -------------- | ------------- |
+| 0              | 1             |
 
-```
+```sql
 SELECT 2 + 3 = 6 OR 2 * 3 = 6;
 -- 이건 1이 되고
 ```
 
-```
+```sql
 -- 일반적인 AND의 쓰임
 SELECT * FROM Orders
 WHERE
@@ -239,16 +238,169 @@ WHERE
 -- 두 조건을 모두 만족하는 조건의 값을 가져 오게끔
 ```
 
-```
+```sql
 -- 일반적인 OR의 쓰임
 SELECT * FROM Products 
 WHERE
   ProductName = 'Tofu' OR CategoryId = 8;
 ```
 
-```
+```sql
 SELECT * FROM OrderDetails
 WHERE
   ProductId = 20 AND (OrderId = 10514 OR Quantity = 50);
 -- 이렇게도 사용 가능
+```
+
+  
+#### 6) 사잇값  
+BETWEEN과 NOT BETWEEN으로 사용하며 어떤 값이 어떤 값들 사이에 있다 아니다
+
+```sql
+BETWEEN {MIN} AND {MAX}; -- MIN과 MAX 사이에 있다
+NOT BETWEEN {MIN} AND {MAX}; -- MIN과 MAX 사이에 없다
+--MIN과 MAX 두 숫자도 포함해서 검색함
+```
+
+```sql
+SELECT 5 BETWEEN 1 AND 10;
+-- 5가 1과 10 사이에 있으니 결과는 1이 나옴
+
+-- 반면 이렇게 1과 10 순서를 바꾸면 결과가 0이 나옴
+SELECT 5 BETWEEN 10 AND 1;
+-- 즉 작은 숫자가 반드시 앞에 있어야 제대로 된 결과를 기대 할 수 있음
+```
+
+```sql
+SELECT 'banana' BETWEEN 'Apple' AND 'camera';
+-- 문자열에도 사용 가능
+```
+
+```sql
+SELECT * FROM OrderDetails
+WHERE ProductID BETWEEN 1 AND 4;
+-- 조건문에서도 사용 가능
+```
+
+```sql
+SELECT * FROM Customers
+WHERE CustomerName BETWEEN 'b' AND 'c';
+-- 이렇게 CustomerName이 B로 시작하는 애들만 골라 낼 수도 있음
+```
+
+#### 7) 포함값  
+IN과 NOT IN  
+IN (값1, 값2, 값3, ...), NOT IN (값1, 값2, 값3, ...) 처럼 사용
+
+```sql
+SELECT 1 + 2 IN (2, 3, 4) 
+SELECT 'Hello' IN (1, TRUE, 'hello') 
+SELECT * FROM Customers WHERE City IN ('Torino', 'Paris', 'Portland', 'Madrid') 
+-- 위 세 문장처럼 사용
+-- 1번문장처럼 연산자 사용도 가능하고
+-- 2번 문장에서 대소문자 상관없이 사용 하는것도 확인 가능하고
+-- 3번 문장에서 범위지정이 힘든 문자열들을 나열해서 사용하는 것도 가능
+```
+
+#### 8) 문자열 대체  
+LIKE를 사용하며 완벽히 일치하는게 아니라 몇글자 일치하면 가져오게 할때  
+LIKE '문자열형태' 처럼 LIKE 뒤에 '  ' 문자열 모양으로 씀
+
+LIKE '...%...'     %자리에 0~N개의 문자를 가진 패턴  
+LIKE '...\_...'       \_을 쓴 갯수만큼의 문자를 가진 패턴
+
+```sql
+SELECT
+  'HELLO' LIKE 'hel%',
+  'HELLO' LIKE 'H%',
+  'HELLO' LIKE 'H%O',
+  'HELLO' LIKE '%O',
+  'HELLO' LIKE '%HELLO%',
+  'HELLO' LIKE '%H',
+  'HELLO' LIKE 'L%'
+-- 이렇게 쓰면 %는 글자 갯수 상관없이 위치만 맞으면 되니 1 1 1 1 1 0 0 으로 결과가 나옴
+-- 다른 문장들은 % 자리에 0~N개의 문자가 들어가면 맞으니 1이고
+-- 밑에서 2개의 문장만 HELLO 완성이 불가능하니 FALSE가 되는 것
+-- 5번째꺼는 %HELLO%지만 %에는 0개가 올수도 있으니 TRUE가 되는 것
+```
+
+```sql
+SELECT
+  'HELLO' LIKE 'HEL__',
+  'HELLO' LIKE 'h___O',
+  'HELLO' LIKE 'HE_LO',
+  'HELLO' LIKE '_____',
+  'HELLO' LIKE '_HELLO',
+  'HELLO' LIKE 'HEL_',
+  'HELLO' LIKE 'H_O'
+-- 이건 _자리에 문자 한개가 대응되서 맞으면 참이 되는 개념이므로 결과는 1 1 1 1 0 0 0이 나옴
+-- %와 달리 5번째문장에 주의해야 함 _HELLO는 H앞에 문자가 하나 더 와야만 하므로 FALSE가 되는 것
+```
+
+```sql
+SELECT * FROM Employees
+WHERE Notes LIKE '%economics%'
+
+SELECT * FROM OrderDetails
+WHERE OrderID LIKE '1025_'
+-- 위 두개의 SELECT문처럼 조건을 달아서 사용 가능
+-- 숫자도 문자열처럼 ''로 감싸서 사용하면 됨
+```
+
+#### 9) Contains 연산자  
+두 집합을 비교하여 한 집합이 다른 집합 내에 모든 원소들을 포함하면 TRUE를 반환함
+
+```sql
+SELECT FName, LName
+FROM Employee
+WHERE ( 
+	SELECT PNO
+	FROM WorksOn
+	WHERE SSN=ESSN 
+
+	Contains
+
+	SELECT PNumber
+	FROM Project
+	WHERE DNum=5 
+)
+```
+
+___
+## 함수
+
+아래에는 자주 사용되는 함수들만 설명 정리해둔거고 더 자세히 보고 싶다면 아래 링크로  
+[https://dev.mysql.com/doc/refman/8.0/en/numeric-functions.html](https://dev.mysql.com/doc/refman/8.0/en/numeric-functions.html)
+
+#### 1) 숫자 관련 함수들
+
+| 의미                      | 연산자                                                    | 설명                                                              |
+| ------------------------- | --------------------------------------------------------- | ----------------------------------------------------------------- |
+| 반올림, 올림, 내림        | ROUND<br>CEIL<br>FLOOR                                    |                                                                   |
+| 절대값                    | ABS                                                       |                                                                   |
+| 괄호 안에서 최대값/최소값 | GREATEST(값1, 값2, 값3, ...)<br>LEAST(값1, 값2, 값3, ...) | 괄호 안의 값들 중 최대값/최소값                                   |
+| 속성의 최대값/최소값      | MAX<br>MIN                                                | MAX(Quantity)라고 한다면 Quantity값들 중 최대값<br>MIN은 최소값   |
+| 거듭제곱과 루트           | POW, POWER<br>SQRT                                        | POW(A, B)라고 한다면 A를 B만큼 제곱<br>SQRT(A)는 A의 제곱근(루트) |
+| 소수점 n자리까지만 표기   | TRUNCATE(N, n)                                            | N을 소수점 n자리까지만 가져오기                                   |
+
+ROUND 반올림  
+CEIL 올림              ceil은 천장이라는 뜻  
+FLOOR 내림          floor은 바닥이라는 뜻
+
+```sql
+SELECT 
+  ROUND(0.5),
+  CEIL(0.4),
+  FLOOR(0.6);
+-- 1 1 0이 됨
+```
+
+```sql
+SELECT 
+  Price,
+  ROUND(price),
+  CEIL(price),
+  FLOOR(price)
+FROM Products;
+-- 처럼 함수로 값을 변환해서 사용 가능
 ```
