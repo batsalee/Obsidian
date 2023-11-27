@@ -9,6 +9,10 @@
       "path": "DB/DB.md"
     },
     {
+      "basename": "DQL과 DB기본문법",
+      "path": "DB/DQL과 DB기본문법.md"
+    },
+    {
       "basename": "DDL",
       "path": "DB/DDL.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "데이터베이스 이론",
       "path": "DB/데이터베이스 이론.md"
-    },
-    {
-      "basename": "DQL",
-      "path": "DB/DQL.md"
     },
     {
       "basename": "TCL",
