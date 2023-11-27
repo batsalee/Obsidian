@@ -1,13 +1,5 @@
 # multiset
 
-
-
-
-3) 멀티셋과 멀티맵  
-멀티셋 멀티맵은 중복된 insert도 받음  
-insert a b c d a b c 하면 내부에 a a b b c c d 로 저장됨  
-
-
 ```C++
 #include <set>
 
@@ -23,49 +15,36 @@ void main()
 - set과 마찬가지로 값을 삽입하면 자동으로 정렬됨
 
 ```C++
-set<int> s;
+mulltiset<int> ms;
 
-s.insert(10);
-s.insert(50);
-s.insert(20);
-s.insert(40);
-s.insert(30);
-s.insert(10);
-s.insert(10);
-s.insert(10);
+ms.insert(10);
+ms.insert(50);
+ms.insert(20);
+ms.insert(40);
+ms.insert(30);
+ms.insert(10);
+ms.insert(10);
+ms.insert(10);
 ```
-위처럼 값을 넣어도 값을 넣을때마다 자동정렬되므로 begin() ~ end()로 출력하면 10 20 30 40 50 순으로 출력됨  
-또한 중복을 허용하지 않으므로 10은 한개만 들어있음  
-
-```C++
-std::cout << "s에 20이 들어는가? : ";  
-
-auto itr = s.find(20);  
-if (itr != s.end()) std::cout << "Yes" << std::endl;  
-else std::cout << "No" << std::endl;  
-```
-위처럼 find해서 itr값이 끝까지 갔다면 값이 없는 것, 중간에 멈췄다면 값이 있는 것으로 값의 존재유무 파악에 주로 사용  
+위처럼 값을 넣으면 set이었다면 10 20 30 40 50이 저장되었겠지만  
+multiset은 10 10 10 10 20 30 40 50이 저장됨  
+그러므로 단지 find뿐 아니라 lower_bound(), upper_bound(), equal_range() 멤버함수들도 유용하게 사용됨  
   
-#### 2. set의 장점
-- 값이 있냐 없냐를 판별하기에 더 좋은 구조
-- 이진탐색트리구조로 되어있어 삽입/삭제/탐색이 모두 O(logN)
-- 자동으로 정렬되므로 정렬기능이 필요한 경우 사용할 수 있음
-- 값의 중복을 허용하지 않으므로 중복을 제거하고 싶을 때 사용할 수 있음
+#### 2. multiset의 장점
+- set과 같으나 값을 중복해서 저장할 수 있음
 
-#### 3. set의 단점
-- 값을 삽입할 때마다 트리의 구조를 변경해야 하므로 다른 컨테이너보다는 느릴 수 있음
-- 값을 삽입할 때 복사 생성자를 사용하므로 큰 객체를 삽입할 경우 성능문제가 발생할 수 있음
-- 중복을 허용하고 싶거나, 정렬을 원하지 않으면 다른 컨테이너를 사용하는 것이 좋음
+#### 3. multiset의 단점
+- set과 비슷함
 
-#### 4. set의 함수원형
+#### 4. multiset의 함수원형
 ```C++
 template < class T,             // set::key_type/value_type           
 class Compare = less<T>,        // 기본적으로 less(오름차순)이며 내림차순을 원한다면 greater옵션을 사용
 class Alloc = allocator<T>      // set::allocator_type           
-> class set;
+> class multiset;
 ```
 
-#### 5. set의 멤버 변수들
+#### 5. multiset의 멤버 변수들
 - key_type : The first template parameter (T)	
 - value_type : The first template parameter (T)	
 
@@ -87,22 +66,22 @@ class Alloc = allocator<T>      // set::allocator_type
 - difference_type : 두 원소 사이의 거리를 나타내는 타입 (많은 경우 ptfdiff_t 와 타입이 같으며 부호있는 정수)
 - size_type :  size 를 나타내는 타입 (많은 경우 size_t 와 타입이 같으며 부호없는 정수이다)
 
-#### 6. set의 멤버 함수들
-1) 생성자 : set을 생성한다.
-2) 소멸자 : set을 소멸한다.
+#### 6. multiset의 멤버 함수들
+1) 생성자 : multiset을 생성한다.
+2) 소멸자 : multiset을 소멸한다.
 
 3) 연산자
-- operator= : set의 내용을 복사한다.
+- operator= : multiset의 내용을 복사한다.
 
 4) 반복자 (Iterators)
-- begin : 시작 부분 (set의 첫번째 원소) 을 가리키는 반복자를 리턴한다.
-- end : 끝 부분 (set의 마지막 원소 바로 다음) 을 가리키는 반복자를 리턴한다.
-- rbegin : 역순으로 첫번째 (즉, set의 마지막 원소) 를 가리키는 반복자를 리턴한다.
-- rend : 역순으로 끝 부분 (즉, set의 첫번째 원소 바로 이전) 을 가리키는 반복자를 리턴한다.
+- begin : 시작 부분 (multiset의 첫번째 원소) 을 가리키는 반복자를 리턴한다.
+- end : 끝 부분 (multiset의 마지막 원소 바로 다음) 을 가리키는 반복자를 리턴한다.
+- rbegin : 역순으로 첫번째 (즉, multiset의 마지막 원소) 를 가리키는 반복자를 리턴한다.
+- rend : 역순으로 끝 부분 (즉, multiset의 첫번째 원소 바로 이전) 을 가리키는 반복자를 리턴한다.
 - cbegin, cend, crbegin, crend도 지원
 
 5) 할당 관련
-- empty : set이 비었는지 체크한다.
+- empty : multiset이 비었는지 체크한다.
 - size	: set의 size를 리턴한다.(현재 원소의 개수)
 - max_size : 시스템상 최대로 할당할 수 있는 set의 최대 공간의 크기를 리턴한다.
 
@@ -127,6 +106,18 @@ class Alloc = allocator<T>      // set::allocator_type
 
 9) 할당자
 - get_allocator : 할당자(allocator) 을 얻는다.
+
+#### 7. multiset 사용 팁들
+1) lower_bound, upper_bound
+```
+auto start = ms.lower_bound(20); // 20이상이 처음 나온 iterator를 반환
+auto end = ms.upper_bound(20); // 20초과가 처음 나온 iterator를 반환
+```
+
+2) equal_range
+```
+auto itr = ms.equal_range(20); // pair<multiset<int>::iterator, multiset<
+```
 
 
 
