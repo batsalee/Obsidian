@@ -682,24 +682,20 @@ SELECT
 | 해당 월의 마지막 날짜                       | LAST_DAY                                                                      | 해당 월의 마지막 날짜(28일이거나 30일이거나 31일이거나)                                                                                                                                                                                                                   |
 | DATETIME의 형식을 지정                      | DATE_FORMAT                                                                   | %Y, %y, %M, %m등등의 형식으로 printf문 만들듯이 형식 변환                                                                                                                                                                                                                 |
 | DATETIME을 해석해서 객체생성                | STR_TO_DATE(S, F)                                                             | STR_TO_DATE('2021-06-04 07:48:52', '%Y-%m-%d %T')처럼 해석해서 객체생성                                                                                                                                                                                                   |
-
   
 CURRENT_DATE, CURDATE : 현재 날짜 반환  
 CURRENT_TIME, CURTIME : 현재 시간 반환  
 CURRENT_TIMESTAMP, NOW : 현재 시간과 날짜 반환  
 보통 앞의 것들은 길어서 뒤의 것들로 씀  
 또한 예약어가 아니라 함수이므로 뒤에 괄호를 써줘야 함
-
-```
+```sql
 SELECT CURDATE(), CURTIME(), NOW();
 ```
-
   
 DATE : 문자열에 따라 날짜 생성 // 날짜 객체를 생성한다고 생각하면 더 쉬움  
 TIME : 문자열에 따라 시간 생성 // 시간 객체를 생성한다고 생각하면 더 쉬움  
 함수보다는 생성자에 가까운 느낌
-
-```
+```sql
 SELECT
   '2021-6-1' = '2021-06-01',
   DATE('2021-6-1') = DATE('2021-06-01'),
@@ -709,7 +705,7 @@ SELECT
 -- 첫줄은 문자열이 다르니까 FALSE고 두번째줄은 날짜 객체를 만들기때문에 TRUE가 되는것
 ```
 
-```
+```sql
 SELECT
   '2021-6-1 1:2:3' = '2021-06-01 01:02:03',
   DATE('2021-6-1 1:2:3') = DATE('2021-06-01 01:02:03'),
@@ -723,25 +719,22 @@ SELECT
 -- 즉 '2021-6-1 1:2:3' 문자열을 TIME이나 DATE함수에 넣어도 그 부분만 잘 알아서 가져가준다는 뜻
 ```
 
-```
+```sql
 -- 사용 예시
 SELECT * FROM Orders
 WHERE
   OrderDate BETWEEN DATE('1997-1-1') AND DATE('1997-1-31');
 ```
 
-  
 YEAR 주어진 DATETIME값의 년도 반환  
 MONTH 주어진 DATETIME값의 월 반환  
-DAY, DAYOFMONTH 주어진 DATETIME값의 날짜(일) 반환
+DAY, DAYOFMONTH 주어진 DATETIME값의 날짜(일) 반환  
 
-WEEKDAY 주어진 DATETIME값의 요일값 반환(월요일: 0)
+WEEKDAY 주어진 DATETIME값의 요일값 반환(월요일: 0)  
 
-  
 MONTHNAME 주어진 DATETIME값의 월(영문) 반환  
 DAYNAME 주어진 DATETIME값의 요일명 반환
-
-```
+```sql
 SELECT
   OrderDate,
   YEAR(OrderDate) AS YEAR,
@@ -755,7 +748,7 @@ FROM Orders;
 -- 1996 7 4 4 3 July Thursday 결과가 나옴
 ```
 
-```
+```sql
 SELECT
   OrderDate,
   CONCAT(
@@ -771,28 +764,24 @@ FROM Orders;
 -- 이런식으로 다양하게 결합해서 사용하는 듯
 ```
 
-```
+```sql
 SELECT * FROM Orders
 WHERE WEEKDAY(OrderDate) = 0;
 -- 월요일만 뽑아내기
 ```
 
-  
 HOUR 주어진 DATETIME의 시 반환  
 MINUTE 주어진 DATETIME의 분 반환  
 SECOND 주어진 DATETIME의 초 반환
-
-```
+```sql
 SELECT
   HOUR(NOW()), MINUTE(NOW()), SECOND(NOW());
 -- now()하면 현재 시간이 나오므로 거기서 시 분 초를 뽑아냄
 ```
 
-  
 ADDDATE, DATE_ADD 시간/날짜에 값 더하기  
 SUBDATE, DATE_SUB 시간/날짜에 값 빼기
-
-```
+```sql
 SELECT 
   ADDDATE('2021-06-20', INTERVAL 1 YEAR),
   ADDDATE('2021-06-20', INTERVAL -2 MONTH),
@@ -804,12 +793,10 @@ SELECT
 -- 주로 어떤 사용자의 사용 권한이 만료되었는지 아닌지 판단할때 사용
 ```
 
-  
 위에껀 값에 연산을 하는 개념이었다면 아래는 두 값의 차이를 계산  
 DATE_DIFF 두 시간/날짜 간 일수차  
 TIME_DIFF 두 시간/날짜 간 시간차
-
-```
+```sql
 SELECT
   OrderDate,
   NOW(),
@@ -817,23 +804,20 @@ SELECT
 FROM Orders;
 ```
 
-```
+```sql
 SELECT
   TIMEDIFF('2021-06-21 15:20:35', '2021-06-21 16:34:41');
 ```
 
-```
+```sql
 -- 사용 예시
 SELECT * FROM Orders
 WHERE
   ABS(DATEDIFF(OrderDate, '1996-10-10')) < 5;
 ```
 
-  
 LAST_DAY 해당 달의 마지막 날짜  
-- 월마다 마지막 날짜가 다르니 있으면 정말 편할듯
-
-```
+```sql
 SELECT
   OrderDate,
   LAST_DAY(OrderDate),
@@ -843,7 +827,6 @@ FROM Orders;
 -- 이렇게 쓰면 1996-07-04 1996-07-31 31 27순으로 나오게 되고
 -- 마지막날의 날짜만 빼와서 요일을 알수도 있고 등 다양하게 사용 가능
 ```
-
   
 DATE_FORMAT 시간/날짜를 지정한 형식으로 반환  
 %Y 년도 4자리  
@@ -859,15 +842,14 @@ DATE_FORMAT 시간/날짜를 지정한 형식으로 반환
 %i 분  
 %S, %s 초  
 %p AM/PM
-
-```
+```sql
 SELECT
   DATE_FORMAT(NOW(), '%M %D, %Y %T'),
   DATE_FORMAT(NOW(), '%y-%m-%d %h:%i:%s %p'),
   DATE_FORMAT(NOW(), '%Y년 %m월 %d일 %p %h시 %i분 %s초');
 ```
 
-```
+```sql
 SELECT REPLACE(
   REPLACE(
     DATE_FORMAT(NOW(), '%Y년 %m월 %d일 %p %h시 %i분 %초'),
@@ -878,10 +860,8 @@ SELECT REPLACE(
 -- 리플레이스 조건을 두개 달고싶으면 이런식으로 처리하나 봄
 ```
 
-  
 STR_TO_DATE(S, F) S를 F형식으로 해석하여 시간/날짜 생성
-
-```
+```sql
 SELECT
   DATEDIFF(
     STR_TO_DATE('2021-06-04 07:48:52', '%Y-%m-%d %T'),
@@ -896,3 +876,194 @@ SELECT
 -- 단 단지 07:48:52와 12:30:05의 차이뿐 아니라 1일 12시30분05초 ~ 4일 7시 48분 52초로 계산
 -- 3             67:18:47 결과로 나옴
 ```
+  
+#### 4) 기타 함수들
+
+| 의미              | 연산자             | 설명                               |
+| ----------------- | ------------------ | ---------------------------------- |
+| IF 조건문         | IF(조건, T, F)     | 조건이 맞으면 T를, 틀리면 F를 반환 |
+| 조건이 여러개일때 | CASE / WHEN / ELSE | C언어의 switch문과 유사            |
+| if null           | IFNULL(A, B)       | A가 NULL이면 B 출력                |
+
+IF(조건, T, F) 조건이 참이면 T를, 거짓이면 F를 반환
+```sql
+SELECT
+  IF (1 > 2, '1는 2보다 크다.', '1은 2보다 작다.');
+```
+
+조건이 참 거짓 두가지가 아니라 여러가지인 경우는  
+CASE를 사용(C언어의 switch 개념)
+```sql
+SELECT
+  Price,
+  IF (Price > 30, 'Expensive', 'Cheap'),
+  CASE
+    WHEN Price < 20 THEN '저가'
+    WHEN Price BETWEEN 20 AND 30 THEN '일반'
+    ELSE '고가'
+  END
+FROM Products;
+```
+
+IFNULL(A, B) A가 NULL일 시 B 출력
+```sql
+SELECT
+  IFNULL('A', 'B'),
+  IFNULL(NULL, 'B');
+-- 테이블 JOIN할때 NULL값이 많이 생길 수 있으니 거기서 사용됨
+```
+
+___
+## 4. 조건에 따라 그룹으로 묶기
+
+MAX 가장 큰 값  
+MIN 가장 작은 값  
+COUNT 갯수 (NULL값 제외)  
+SUM 총합  
+AVG 평균 값  
+이것들을 GROUP BY로 집계된 곳에서 쓰게 됨  
+  
+#### 1) GROUP BY
+- 조건에 따라 집계된 값을 정렬된 결과로 가져옴
+- 튜플들을 여러 부분집단으로 나누고 각 부분집단마다 집단함수 적용할 수 있음
+- 예를들어 1번팀원들의 점수 평균, 2번팀원들의 점수 평균 이런걸 따로 알고 싶을 때
+
+```sql
+-- 각 부서별로 부서번호, 종업원의 수, 평균 봉급을 검색하라.
+SELECT DNo, COUNT(*), AVG(Salary)
+FROM Employee
+GROUP BY DNo
+```
+
+```sql
+SELECT Country FROM Customers
+GROUP BY Country;
+-- 만약 GROUP BY 없이 SELECT Country FROM Customers만 쓰게 된다면 같은 나라 이름도 여러번 나옴
+-- GROUP BY를 써서 겹치지 않게 뽑아냄
+-- 즉 그룹으로 묶어서 결과를 가져와줌
+```
+
+```sql
+-- 여러 컬럼을 기준으로 그룹할 수도 있음
+SELECT 
+  Country, City,
+  CONCAT_WS(', ', City, Country)
+FROM Customers
+GROUP BY Country, City;
+-- 만약 GROUP BY를 쓰지 않았다면 이 또한 중복해서 여러번 나옴
+```
+
+```sql
+-- 위에서 MAX MIN COUNT 등등을 GROUP BY와 함께 쓴다고 했는데 어떤 형식인가
+SELECT
+  COUNT(*), OrderDate
+FROM Orders
+GROUP BY OrderDate;
+-- 이렇게 쓰면 주문 날짜로 그룹해서 검색하므로 해당 날짜에 주문이 몇건이었는가를 볼 수 있게 됨
+```
+
+| COUNT(\*) | OrderDate  |
+| -------- | ---------- |
+| 1        | 1996-07-05 |
+| 2        | 1996-07-08 |
+| 1        | 1996-07-09 |
+| 1        | 1996-07-10 |
+
+```sql
+SELECT
+  ProductID,
+  SUM(Quantity) AS QuantitySum
+FROM OrderDetails
+GROUP BY ProductID
+ORDER BY QuantitySum DESC;
+-- ProductID로 그룹화를 한다는 것은 sum을 하면 해당 productID의 값들만 sum하는 것
+-- 즉 productID가 1인 제품의 값들만 전부 sum, 2인 제품의 값들만 모두 sum
+```
+
+즉 MAX, MIN, COUNT, SUM, AVG 함수들이 group by와 함께 쓰이는 이유는  
+그냥 sum을 하면 해당 db의 모든 값을 sum하는 것이지만  
+group by와 함께 쓴다면 해당 제품의 총 판매량, 해당 직원의 총 근무시간 등을 분리해서 볼 수 있음  
+  
+#### 2) HAVING
+그룹화된 데이터 걸러내기  
+
+어떤 조건들을 만족하는 그룹들에게만 집단함수 적용  
+즉 GROUP BY에 조건문을 다는 것
+
+```
+SELECT
+  Country, COUNT(*) AS Count
+FROM Suppliers
+GROUP BY Country
+HAVING Count >= 3;
+-- 즉 Country로 묶어서 각 Country의 갯수를 가져오되, 3이상인 것만 가져오게 조건을 다는 것
+-- 즉 그룹바이에 대한 조건을 다는 것
+```
+
+※ WHERE는 그룹하기 전 데이터, HAVING은 그룹 후 집계에 사용  
+그냥 WHERE는 GROUP BY보다 위에 잇고, HAVING은 GROUP BY보다 밑에 있다고 생각하면 됨  
+WHERE로 먼저 조건 걸러내고, 거기서 걸러진 조건으로 그룹화하고, 또 그 그룹에서 HAVING으로 조건 거르는 것
+
+3) WITH ROLLUP  
+마지막행에 합계를 나타내줌  
+ORDER BY와는 함께 사용될 수 없음
+
+```
+SELECT
+  Country, COUNT(*)
+FROM Suppliers
+GROUP BY Country
+WITH ROLLUP;
+```
+
+4) DISTINCT - 중복된 값들을 제거합니다.
+
+SELECT와 함께 사용
+
+SQL은 모든 애트리뷰트 값이 동일한 튜플을 여러개 가질 수 있음
+
+정확히 말해서 SQL은 튜플의 집합이 아니라 튜플의 다중집합임
+
+그래서 검색하면 똑같은 내용이 여러줄 나오기도 함
+
+ALL(디폴트값)이나 Distinct를 이용해서 튜플 하나만 나오게 할 수 있음
+
+  
+GROUP BY도 중복값들을 제거해줬지만 이건 그룹화가 주된 목적이고  
+DISTINCT는 말그대로 중복값들을 제거하는게 목적
+
+```
+SELECT DISTINCT CategoryID
+FROM Products;
+-- GROUP BY는 결과가 정렬되서 나옴
+-- DISTINCT는 그냥 DB에 나오는 순서대로 나옴. 즉 정렬하지 않고 정적으로 그냥 나옴
+```
+
+```
+-- 오류 발생 예시, 집계함수와 함께 쓰이지 않으므로
+SELECT COUNT DISTINCT CategoryID
+FROM Products;
+```
+
+```
+SELECT DISTINCT Country
+FROM Customers
+ORDER BY Country;
+-- ORDER BY를 붙여서 수동으로 정렬을 하고 싶으면 해도 됨
+```
+
+5) GROUP BY와 DISTINCT 함께 활용하기  
+나라마다 겹치지 않는 CITY가 몇개가 들어 있는가
+
+```
+SELECT
+  Country,
+  COUNT(DISTINCT CITY)
+FROM Customers
+GROUP BY Country;
+-- 만약 DISTINCT를 안쓰면 같은 CITY도 누적해서 세는거지만 이렇게 쓰면 같은 도시는 한번만 셈
+```
+
+※ 기억할 것  
+GROUP BY : 집계합수를 사용 가능, 결과가 정렬되서 출력됨  
+DISTINCT : 집계함수가 사용 불가능, 정렬을 하지 않으므로 더 빠름
