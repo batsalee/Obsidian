@@ -2,23 +2,35 @@
   "recentFiles": [
     {
       "basename": "priority_queue",
-      "path": "자료구조/priority_queue.md"
-    },
-    {
-      "basename": "priority_queue",
       "path": "C++/STL/Container/컨테이너 어댑터/priority_queue.md"
     },
     {
-      "basename": "컨테이너 어댑터",
-      "path": "C++/STL/Container/컨테이너 어댑터/컨테이너 어댑터.md"
+      "basename": "priority_queue",
+      "path": "자료구조/priority_queue.md"
+    },
+    {
+      "basename": "vector",
+      "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
+    },
+    {
+      "basename": "stack",
+      "path": "C++/STL/Container/컨테이너 어댑터/stack.md"
     },
     {
       "basename": "Stack",
       "path": "자료구조/Stack.md"
     },
     {
+      "basename": "queue",
+      "path": "C++/STL/Container/컨테이너 어댑터/queue.md"
+    },
+    {
       "basename": "Queue",
       "path": "자료구조/Queue.md"
+    },
+    {
+      "basename": "컨테이너 어댑터",
+      "path": "C++/STL/Container/컨테이너 어댑터/컨테이너 어댑터.md"
     },
     {
       "basename": "multiset",
@@ -27,18 +39,6 @@
     {
       "basename": "unordered_set",
       "path": "C++/STL/Container/해시 컨테이너/unordered_set.md"
-    },
-    {
-      "basename": "queue",
-      "path": "C++/STL/Container/컨테이너 어댑터/queue.md"
-    },
-    {
-      "basename": "stack",
-      "path": "C++/STL/Container/컨테이너 어댑터/stack.md"
-    },
-    {
-      "basename": "vector",
-      "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
     },
     {
       "basename": "multimap",

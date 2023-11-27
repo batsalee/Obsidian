@@ -23,20 +23,19 @@ class priority_queue;
 ```
 vector 기반으로 만들어진 컨테이너 어댑터
 
-#### 3. queue의 멤버 변수들
+#### 3. priority_queue의 멤버 변수들
 - value_type : The first template parameter (T),	Type of the elements
 - container_type : The second template parameter (Container), Type of the underlying container
 - reference : container_type::reference, usually value_type&
 - const_reference : container_type::const_reference,	usually const value_type&
 - size_type : an unsigned integral type, usually the same as size_t
 
-#### 4. queue의 멤버 함수들
-- 생성자 : Construct queue (public member function)
+#### 4. priority_queue의 멤버 함수들
+- 생성자 : Construct priority_queue (public member function)
 
 - empty : Test whether container is empty (public member function)
 - size : Return size (public member function)
-- front : Access next element (public member function)
-- back : Access last element (public member function)
+- top : Access top element (public member function) // 가장 높은 숫자이자 첫 칸에 있는 값
 
 - push : Insert element (public member function)
 - pop : Remove next element (public member function)
@@ -45,11 +44,37 @@ vector 기반으로 만들어진 컨테이너 어댑터
 - swap : Swap contents (public member function)
 
 #### overload된 Non-멤버 함수들
-- relational operators : Relational operators for queue (function)
 - swap (queue) : Exchange contents of queues (public member function)
 
 #### 특수화된 Non-멤버 클래스
 - `uses_allocator<queue>` : Uses allocator for queue (class template)
+
+#### 5. priority_queue 사용 팁들
+1) 값을 넣는순서에 상관없이 가장 큰 값이 앞으로 간다.
+```C++
+priority_queue<int> pq;
+
+pq.push(5);
+pq.push(3);
+pq.push(4);
+pq.push(1);
+pq.push(2);
+
+while(!pq.empty()) {
+	cout << pq.top();
+	pq.pop();
+}
+// 출력결과 : 54321
+```
+
+2) push와 emplace의 차이점
+- push는 오브젝트를 생성 후 queue에 값을 복사해서 넣어주는 방식으로 불필요한 복사가 발생 할 수 있음
+- emplace는 오브젝트를 생성하지 않고 바로 값을 넣어주는 방식
+- 다만 개인적인 생각인데 현시점에서는 컴파일러가 알아서 복사생략 해주지 않을까 싶어서 상관없지 않을까 싶기도 하고...
+
+3) 오름차순 priority_queue 만들기
+큰 값부터 나오는 것이 아니라 작은 값부터 나오게 만들 고 싶다면  
+`priority_queue <int, vector<int>, greater<int> > pq;`처럼 생성 후 사용
 
 
 
