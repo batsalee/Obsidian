@@ -79,7 +79,8 @@
       "CS 지식/프로그래밍 용어",
       "C++/STL/Container/시퀀스 컨테이너",
       "C++/STL/Algorithm",
-      "DB"
+      "DB",
+      "C++"
     ],
     "as": [
       "Hello Obsidian",
@@ -179,7 +180,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1701057290217,
+  "spacesAutoBackupLast": 1701058168443,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

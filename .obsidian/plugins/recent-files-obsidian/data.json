@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "DML",
-      "path": "DB/DML.md"
+      "basename": "MySQL 연동",
+      "path": "C++/Code Keeping/MySQL 연동.md"
+    },
+    {
+      "basename": "nCr",
+      "path": "C++/Code Keeping/nCr.md"
+    },
+    {
+      "basename": "DB",
+      "path": "DB/DB.md"
+    },
+    {
+      "basename": "데이터베이스 이론",
+      "path": "DB/데이터베이스 이론.md"
     },
     {
       "basename": "TCL",
@@ -17,16 +29,12 @@
       "path": "DB/DDL.md"
     },
     {
+      "basename": "DML",
+      "path": "DB/DML.md"
+    },
+    {
       "basename": "DQL과 DB기본문법",
       "path": "DB/DQL과 DB기본문법.md"
-    },
-    {
-      "basename": "데이터베이스 이론",
-      "path": "DB/데이터베이스 이론.md"
-    },
-    {
-      "basename": "DB",
-      "path": "DB/DB.md"
     },
     {
       "basename": "GitHub",
@@ -191,14 +199,6 @@
     {
       "basename": "eof",
       "path": "C++/Code Keeping/eof.md"
-    },
-    {
-      "basename": "소수 여부 판별",
-      "path": "C++/Code Keeping/소수 여부 판별.md"
-    },
-    {
-      "basename": "DLL(Dynamic Link Library)",
-      "path": "C++/Code Keeping/DLL(Dynamic Link Library).md"
     }
   ],
   "omittedPaths": [],
