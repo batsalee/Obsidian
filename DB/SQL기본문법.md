@@ -385,8 +385,7 @@ ___
 
 ROUND 반올림  
 CEIL 올림              ceil은 천장이라는 뜻  
-FLOOR 내림          floor은 바닥이라는 뜻
-
+FLOOR 내림          floor은 바닥이라는 뜻  
 ```sql
 SELECT 
   ROUND(0.5),
@@ -403,4 +402,210 @@ SELECT
   FLOOR(price)
 FROM Products;
 -- 처럼 함수로 값을 변환해서 사용 가능
+```
+
+ABS 절대값
+```sql
+SELECT ABS(1), ABS(-1), ABS(3 - 10);
+-- 1 1 7이 나옴
+```
+
+```sql
+SELECT * FROM OrderDetails
+WHERE ABS(Quantity - 10) < 5;
+-- Quantity가 10과 차이가 5이하인 경우를 가져오게끔
+```
+ 
+GREATEST와 LEAST  
+밑에서 나오는 MAX/MIN과는 다른 개념, GREATEST와 LEAST는 괄호안에서 찾는것  
+GREATEST (값1, 값2, ...) : 괄호 안 값들 중 가장 큰 값  
+LEAST (값1, 값2, ...) : 괄호 안 값들 중 가장 작은 값  
+```sql
+SELECT 
+  GREATEST(1, 2, 3),
+  LEAST(1, 2, 3, 4, 5);
+-- 3과 1이 결과로 나옴
+```
+
+```sql
+SELECT
+  OrderDetailID, ProductID, Quantity,
+  GREATEST(OrderDetailID, ProductID, Quantity),
+  LEAST(OrderDetailID, ProductID, Quantity)
+FROM OrderDetails;
+-- 이런식으로 사용 가능
+```
+
+MAX와 MIN
+위의 것과 다르게 애트리뷰트 값들 중 가장 큰것, 가장 작은것을 골라옴
+```sql
+SELECT
+  MAX(Quantity),
+  MIN(Quantity),
+  COUNT(Quantity),
+  SUM(Quantity),
+  AVG(Quantity)
+FROM OrderDetails
+WHERE OrderDetailID BETWEEN 20 AND 30;
+```
+
+POW와 SQRT  
+POW(A, B) 또는 POWER(A, B) A를 B만큼 제곱  
+SQRT(A) A의 제곱근(루트)  
+※ sqrt(16)은 4가 나오고, 2분의 1승도 루트를 의미하니까 pow(16, 1/2)로 해도 4가 나옴
+```sql
+SELECT
+  POW(2, 3),
+  POWER(5, 2),
+  SQRT(16);
+```
+
+```sql
+SELECT Price, POW(Price, 1/2)
+FROM Products
+WHERE SQRT(Price) < 4;
+```
+
+TRUNCATE(N, n)  
+N을 소수점 n자리까지만 가져오기
+```sql
+SELECT
+  TRUNCATE(1234.5678, 1),
+  TRUNCATE(1234.5678, 2),
+  TRUNCATE(1234.5678, 3),
+  TRUNCATE(1234.5678, -1),
+  TRUNCATE(1234.5678, -2),
+  TRUNCATE(1234.5678, -3);
+-- 마이너스면 해당 자리는 0으로 처리함
+-- 예를들어 제일 밑에꺼는 1000, 밑에서 두번째는 1200, 밑에서 세번째는 1230 으로 값이 나옴
+```
+
+```sql
+SELECT Price FROM Products
+WHERE TRUNCATE(Price, 0) = 12;
+```
+
+#### 2) 문자열 관련 함수들  
+
+| 의미               | 연산자                                           | 설명                                                                                                                                                                                                             |
+| ------------------ | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 대문자로/소문자로  | UCASE, UPPER  <br>LCASE, LOWER                   | UPPER('abcDEF')라면 모두 대문자가 되므로 ABCDEF가 반환  <br>LOWER는 소문자로                                                                                                                                     |
+| 문자열 이어붙이기  | CONCAT(...)  <br>CONCAT_WS(S, ...)               | CONCAT('HELLO', ' ', 'WORLD')라면 HELLO WORLD를 반환  <br>CONCAT_WS는 S로 ...에 있는 값들을 이어붙임  <br>예를들어 CONCAT_WS('-', 2023, 03, 21)이라면 2023-03-21을 반환                                          |
+| 문자열 일부 자르기 | SUBSTR, SUBSTRING  <br>LEFT  <br>RIGHT           | SUBSTR('문자열', N, n)라면 문자열의 N번째 글자부터 n개 가져옴  <br>LEFT('문자열', n)이라면 해당 문자열의 왼쪽에서 n개만 잘라서 가져옴  <br>RIGHT('문자열', n)이라면 해당 문자열의 오른쪽에서 n개만 잘라서 가져옴 |
+| 문자열의 길이      | LENGTH  <br>CHAR_LENGTH  <br>(=CHARACTER_LENGTH) | LENGTH는 문자열의 바이트길이를 반환  <br>CHAR_LENGTH는 문자 자체의 길이를 반환                                                                                                                                   |
+| 공백 제거          | TRIM  <br>LTRIM  <br>RTRIM                       | 양쪽 공백 제거  <br>왼쪽 공백 제거  <br>오른쪽 공백 제거                                                                                                                                                         |
+| 문자열 채워붙이기  | LPAD(S, N, P)  <br>RPAD(S, N, P)                 | LPAD('ABC', 5, '-')라면 5글자가 될때까지 왼쪽에 -를 붙이므로 --ABC가 됨  <br>RPAD('ABC', 5, '-')라면 오른쪽에 -를 붙이므로 ABC--가 됨                                                                            |
+| 문자열 대체        | REPLACE(S, A, B)                                 | S중 A를 B로 변경                                                                                                                                                                                                 |
+| 문자열 탐색        | INSTR(S, s)                                      | S중에 s의 첫 위치 반환, 없다면 0                                                                                                                                                                                 |
+| 자료형 캐스팅      | CAST(A AS T), CONVERT(A, T)                      | 01' = '1'은 FALSE가 반환되지만  <br>CAST('01' AS DECIMAL) = CASE('1' AS DECIMAL)이라면 TRUE를 반환                                                                                                               |
+ 
+UCASE, UPPER 모두 대문자로  
+LCASE, LOWER 모두 소문자로  
+```sql
+SELECT
+  UPPER('abcDEF'),
+  LOWER('abcDEF');
+```
+
+```sql
+SELECT
+  UCASE(CustomerName),
+  LCASE(ContactName)
+FROM Customers;
+-- 결과값을 대문자형태로 볼지, 소문자 형태로 볼지 정하고싶을 때
+```
+
+CONCAT(...) 괄호 안의 내용을 이어붙임(string객체의 + 기능처럼 문자열 이어붙이는 기능)  
+CONCAT_WS(S, ...) 괄호 안의 내용을 S로 이어붙임
+```sql
+SELECT CONCAT('HELLO', ' ', 'THIS IS ', 2021)
+-- HELLO THIS IS 2021로 이어진 문장으로 값이 나옴
+```
+
+```sql
+SELECT CONCAT_WS('-', 2021, 8, 15, 'AM')
+-- 값들이 -로 이어붙여져서 2021-8-15-AM의 결과가 나옴
+```
+
+```sql
+SELECT CONCAT('O-ID: ', OrderID) FROM Orders;
+-- 이렇게 쓰면 O-ID: ~~~ 형태로 printf 출력문 지정하듯이 쓸 수 있음
+```
+
+```sql
+SELECT
+  CONCAT_WS(' ', FirstName, LastName) AS FullName
+FROM Employees;
+-- 이름은 이런식으로 풀네임으로 만들 수도 있고
+```
+
+SUBSTR, SUBSTRING 주어진 값에 따라 문자열 자름  
+LEFT 왼쪽부터 N글자  
+RIGHT 오른쪽부터 N글자
+```sql
+SELECT
+  SUBSTR('ABCDEFG', 3),
+  SUBSTR('ABCDEFG', 3, 2),
+  SUBSTR('ABCDEFG', -4),
+  SUBSTR('ABCDEFG', -4, 2);
+-- c랑 똑같게 생각하면 됨, ABC CD DEFG DE가 출력됨
+-- 마이너스는 뒤에서부터라고 생각하면 됨 뒤에서부터 4글자부터 읽으니 DEFG
+-- -4, 2는 뒤에서부터 4칸인 D부터 2개
+```
+
+```sql
+SELECT
+  LEFT('ABCDEFG', 3),
+  RIGHT('ABCDEFG', 3);
+-- LEFT는 ABC가, RIGHT는 EFG가 나옴
+```
+
+```sql
+SELECT
+  OrderDate,
+  LEFT(OrderDate, 4) AS Year,
+  SUBSTR(OrderDate, 6, 2) AS Month,
+  RIGHT(OrderDate, 2) AS Day
+FROM Orders;
+-- OrderDate가 2011-10-16 이라면 년 월 일로 뜯어서 보고 싶으면 위처럼 쓸 수 있음
+```
+
+  
+LENGTH : 문자열의 바이트 길이  
+CHAR_LENGTH, CHARACTER_LENGTH : 그냥 생각하는 문자열의 문자 길이  
+바이트 길이는 환경마다 처리 방식이 다르다고 함  
+한글을 2바이트로 기대하는데 3으로 처리하기도 하다보니 그냥 MySQL에서는 글자 길이를 원하는 경우엔 CHAR_LENGTH를 쓴다고 생각하기
+```sql
+SELECT
+  CHAR_LENGTH('ABCDE'),
+  CHAR_LENGTH('안녕하세요')
+-- 이렇게 쓰면 둘 다 5로 나옴
+-- 한글도 5글자라고 처리해서 5가 나옴
+-- 한글을 다른 프로그램 언어처럼 10으로 나오게 하고 싶어도 LENGTH가 환경마다 다르다고 해서 확인해봐야할듯
+```
+  
+TRIM 양쪽 공백 재거  
+LTRIM 왼쪽 공백 제거  
+RTRIM 오른쪽 공백 제거
+```sql
+SELECT
+  CONCAT('|', ' HELLO ', '|'),
+  CONCAT('|', LTRIM(' HELLO '), '|'),
+  CONCAT('|', RTRIM(' HELLO '), '|'),
+  CONCAT('|', TRIM(' HELLO '), '|');
+-- | HELLO |      |HELLO |      | HELLO|        |HELLO| 순으로 나옴
+-- 그냥 문자열의 왼쪽이나 오른쪽에 스페이스를 지워야 하는 경우
+-- 주로 검색할때 제일 앞이나 뒤에 스페이스바를 넣고 검색하는 경우 
+-- 공백이 있으면 문자열이 일치하지 않으니 결과가 안나올 수 있으니 그걸 방지하기 위해
+```
+
+```sql
+-- 사용예시
+SELECT * FROM Categories
+WHERE CategoryName = ' Beverages '
+-- 이렇게 문자열 앞에 스페이스가 있으면 아무것도 안나오겠지만
+
+SELECT * FROM Categories
+WHERE CategoryName = TRIM(' Beverages ')
+-- 위 처럼 써주면서 방지가 가능함
 ```
