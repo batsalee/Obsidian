@@ -1,12 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "무제 파일",
-      "path": "C++/STL/Iteraoter/무제 파일.md"
+      "basename": "DB",
+      "path": "DB/DB.md"
+    },
+    {
+      "basename": "SQL기본문법",
+      "path": "DB/SQL기본문법.md"
+    },
+    {
+      "basename": "데이터베이스 이론",
+      "path": "DB/데이터베이스 이론.md"
+    },
+    {
+      "basename": "MySQL 연동",
+      "path": "C++/Code Keeping/MySQL 연동.md"
+    },
+    {
+      "basename": "Git",
+      "path": "Git/Git.md"
+    },
+    {
+      "basename": "GitHub",
+      "path": "Git/GitHub.md"
+    },
+    {
+      "basename": "GitHub에 이미지 올리는 법",
+      "path": "Git/GitHub에 이미지 올리는 법.md"
+    },
+    {
+      "basename": "Hello Obsidian",
+      "path": "Hello Obsidian/Hello Obsidian.md"
     },
     {
       "basename": "Iterator",
       "path": "C++/STL/Iteraoter/Iterator.md"
+    },
+    {
+      "basename": "priority_queue",
+      "path": "자료구조/priority_queue.md"
+    },
+    {
+      "basename": "Stack",
+      "path": "자료구조/Stack.md"
+    },
+    {
+      "basename": "Queue",
+      "path": "자료구조/Queue.md"
+    },
+    {
+      "basename": "Algorithm",
+      "path": "C++/STL/Algorithm/Algorithm.md"
     },
     {
       "basename": "vector",
@@ -65,10 +109,6 @@
       "path": "C++/STL/STL.md"
     },
     {
-      "basename": "Algorithm",
-      "path": "C++/STL/Algorithm/Algorithm.md"
-    },
-    {
       "basename": "unordered_multimap",
       "path": "C++/STL/Container/해시 컨테이너/unordered_multimap.md"
     },
@@ -91,18 +131,6 @@
     {
       "basename": "queue",
       "path": "C++/STL/Container/컨테이너 어댑터/queue.md"
-    },
-    {
-      "basename": "priority_queue",
-      "path": "자료구조/priority_queue.md"
-    },
-    {
-      "basename": "Stack",
-      "path": "자료구조/Stack.md"
-    },
-    {
-      "basename": "Queue",
-      "path": "자료구조/Queue.md"
     },
     {
       "basename": "시퀀스 컨테이너",
@@ -133,20 +161,12 @@
       "path": "C++/Code Keeping/nCr.md"
     },
     {
-      "basename": "MySQL 연동",
-      "path": "C++/Code Keeping/MySQL 연동.md"
-    },
-    {
       "basename": "eof",
       "path": "C++/Code Keeping/eof.md"
     },
     {
       "basename": "cout 지수출력 방지",
       "path": "C++/Code Keeping/cout 지수출력 방지.md"
-    },
-    {
-      "basename": "데이터베이스 이론",
-      "path": "DB/데이터베이스 이론.md"
     },
     {
       "basename": "Pasted image 20231127120006",
@@ -159,14 +179,6 @@
     {
       "basename": "Pasted image 20231127120052",
       "path": "DB/contents/Pasted image 20231127120052.png"
-    },
-    {
-      "basename": "SQL기본문법",
-      "path": "DB/SQL기본문법.md"
-    },
-    {
-      "basename": "DB",
-      "path": "DB/DB.md"
     },
     {
       "basename": "TCL",
@@ -187,18 +199,6 @@
     {
       "basename": "DQL",
       "path": "DB/DQL.md"
-    },
-    {
-      "basename": "GitHub",
-      "path": "Git/GitHub.md"
-    },
-    {
-      "basename": "Git",
-      "path": "Git/Git.md"
-    },
-    {
-      "basename": "예외처리",
-      "path": "C++/개념정리/예외처리.md"
     }
   ],
   "omittedPaths": [],
