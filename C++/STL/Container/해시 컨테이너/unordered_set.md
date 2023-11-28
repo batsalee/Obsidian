@@ -32,11 +32,47 @@ void main()
 	- 거의 랜덤한 순서로 저장됨(해싱해서 저장하므로)
 
 
-2. 장점
-3. 단점
+#### 2. unordered_set의 장점
+- set은 이진탐색트리 구조였지만 unordered_set은 해시구조이므로 탐색 및 삽입삭제가 O(1)의 속도로 빠름
+- 속도가 매우매우 중요한 상황이라면 사용하기 좋음
+
+#### 3. unordered_set의 단점
 - 해싱의 개념을 사용하므로 해시중돌이 발생할 수 있음
 	- 이로 인해 기본적으로 탐색이 O(1)이겠지만 테이블이 가득찰수록 O(N)에 가까워짐
 - 만약 할당된 공간에 값이 가득 채워져서 새로운 공간을 할당해야 하면 새로운 해시함수가 필요함
 	- 더 많은 값들을 해시값으로 반환해야 하므로
 	- 그 결과 기존의 모든 원소들도 새로운 해시함수로 전부 다시 insert해야함(rehash라고 부름)
 	- rehash는 vector의 새로운 공간 할당처럼 O(N)의 시간이 걸리는 비효율이 발생할 수 있음
+
+#### 4. unordered_set의 함수원형
+```c++
+template < 
+	class Key,                            // 키 형식
+	class Hash = std::hash<Key>,          // 해시함수 개체 형식
+	class Pred = std::equal_to<Key>,      // 비교함수 형식
+	class Alloc = std::allocator<Key>>    // 할당자 클래스
+class unordered_set;
+```
+
+#### 5. unorderd_set의 멤버 변수들
+- key_type : The first template parameter (T)	
+- value_type : The first template parameter (T)	
+
+- hasher : the second template parameter (Hash), defaults to : hash<key_type>
+- key_equal : the third template parameter (Pred)|defaults to : equal_to<key_type>
+- allocator_type : The fourth template parameter (Alloc), defaults to : allocator<value_type>
+
+- reference : value_type&	
+- const_reference : const value_type&	
+
+- pointer: 	allocator_traits<allocator_type>::pointer, for the default allocator : value_type*
+- const_pointer : allocator_traits<allocator_type>::const_pointer, 
+			     for the default allocator : const value_type*
+
+- iterator : a forward iterator to const value_type
+- const_iterator : a bidirectional iterator to const value_type
+- reverse_iterator : 	`reverse_iterator<iterator>`
+- const_reverse_iterator : `reverse_iterator<const_iterator>`
+
+- difference_type : 두 원소 사이의 거리를 나타내는 타입 (많은 경우 ptfdiff_t 와 타입이 같으며 부호있는 정수)
+- size_type :  size 를 나타내는 타입 (많은 경우 size_t 와 타입이 같으며 부호없는 정수이다)

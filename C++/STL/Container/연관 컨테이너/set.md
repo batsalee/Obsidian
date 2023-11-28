@@ -66,13 +66,13 @@ class Alloc = allocator<T>      // set::allocator_type
 
 - key_compare : The second template parameter (Compare)
 - value_compare : The second template parameter (Compare)
-- allocator_type	The third template parameter (Alloc)
+- allocator_type : The third template parameter (Alloc)
 
 - reference : value_type&	
 - const_reference : const value_type&	
 
 - pointer: 	allocator_traits<allocator_type>::pointer
-- const_pointer : 	allocator_traits<allocator_type>::const_pointer
+- const_pointer : allocator_traits<allocator_type>::const_pointer
 
 - iterator : a bidirectional iterator to const value_type
 - const_iterator : a bidirectional iterator to const value_type
