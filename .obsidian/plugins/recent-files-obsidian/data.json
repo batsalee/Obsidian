@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Iterator",
+      "path": "C++/STL/Iteraoter/Iterator.md"
+    },
+    {
+      "basename": "stack",
+      "path": "C++/STL/Container/컨테이너 어댑터/stack.md"
+    },
+    {
+      "basename": "Algorithm",
+      "path": "C++/STL/Algorithm/Algorithm.md"
+    },
+    {
       "basename": "unordered_multimap",
       "path": "C++/STL/Container/해시 컨테이너/unordered_multimap.md"
     },
     {
-      "basename": "unordered_map",
-      "path": "C++/STL/Container/해시 컨테이너/unordered_map.md"
-    },
-    {
       "basename": "unordered_multiset",
       "path": "C++/STL/Container/해시 컨테이너/unordered_multiset.md"
+    },
+    {
+      "basename": "unordered_map",
+      "path": "C++/STL/Container/해시 컨테이너/unordered_map.md"
     },
     {
       "basename": "unordered_set",
@@ -67,10 +79,6 @@
     {
       "basename": "queue",
       "path": "C++/STL/Container/컨테이너 어댑터/queue.md"
-    },
-    {
-      "basename": "stack",
-      "path": "C++/STL/Container/컨테이너 어댑터/stack.md"
     },
     {
       "basename": "컨테이너 어댑터",
@@ -191,14 +199,6 @@
     {
       "basename": "마크다운 문법 정리",
       "path": "Hello Obsidian/마크다운 문법 정리.md"
-    },
-    {
-      "basename": "뇌를 자극하는 C 프로그래밍",
-      "path": "Protected/뇌를 자극하는 C 프로그래밍.md"
-    },
-    {
-      "basename": "WPF 6.0",
-      "path": "Protected/WPF 6.0.md"
     }
   ],
   "omittedPaths": [],

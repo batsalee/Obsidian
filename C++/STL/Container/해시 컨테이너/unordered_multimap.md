@@ -48,28 +48,33 @@ class unordered_multimap;
 - size_type :  size 를 나타내는 타입 (많은 경우 size_t 와 타입이 같으며 부호없는 정수이다)
 
 #### 6. unorderd_multimap의 멤버 함수들
-1) 생성자 : unordered_map을 생성한다.
-2) 소멸자 : unordered_map을 소멸한다.
+1) 생성자 : unordered_multimap을 생성한다.
+2) 소멸자 : unordered_multimap을 소멸한다.
 
 3) 연산자
-- operator= : unordered_map의 내용을 복사한다.
+- operator= : unordered_multimap의 내용을 복사한다.
 
-4) 반복자 (Iterators)
+4) Capacity
+- empty : Test whether container is empty (public member function)
+- size : Return container size (public member function)
+- max_size : Return maximum size (public member function)
+
+5) 반복자 (Iterators)
 - begin : 시작 부분 (unordered_map의 첫번째 원소) 을 가리키는 반복자를 리턴한다.
 - end : 끝 부분 (unordered_map의 마지막 원소 바로 다음) 을 가리키는 반복자를 리턴한다.
 - cbegin, cend도 지원
 - 단, rbegin이나 rend, crbegin, crend는 지원하지 않음
 
-5) Element access
+6) Element access
 - operator[] : Access element (public member function)
 - at : Access element (public member function)
 
-6) Element lookup
+7) Element lookup
 - find	: Get iterator to element (public member function)
 - count : Count elements with a specific key (public member function)
 - equal_range : Get range of elements with a specific key (public member function)
 
-7) Modifiers
+8) Modifiers
 - emplace : Construct and insert element (public member function)
 - emplace_hint : Construct and insert element with hint (public member function)
 - insert : Insert elements (public member function)
@@ -77,28 +82,27 @@ class unordered_multimap;
 - clear : Clear content (public member function)
 - swap : Swap content (public member function)
 
-8) Buckets
+9) Buckets
 - bucket_count : Return number of buckets (public member function)
 - max_bucket_count : Return maximum number of buckets (public member function)
 - bucket_size : Return bucket size (public member type)
 - bucket : Locate element's bucket (public member function)
 
-9) Hash policy
+10) Hash policy
 - load_factor : Return load factor (public member function)
 - max_load_factor : Get or set maximum load factor (public member function)
 - rehash : Set number of buckets (public member function)
 - reserve : Request a capacity change (public member function)
 
-10) Observers
+11) Observers
 - hash_function : Get hash function (public member type)
 - key_eq : Get key equivalence predicate (public member type)
 - get_allocator : Get allocator (public member function)
 
 #### Non-member function overloads
-- operators (unordered_map) : Relational operators for unordered_map (function template)
-- swap (unordered_map) : Exchanges contents of two unordered_map containers (function template)
-
+- operators (unordered_multimap) : Relational operators for unordered_multimap (function template)
+- swap (unordered_multimap) : Exchanges contents of two unordered_multimap containers (function template)
 
 
 ※ 참고 문헌
-https://cplusplus.com/reference/unordered_map/unordered_map/
+https://cplusplus.com/reference/unordered_map/unordered_multimap/
