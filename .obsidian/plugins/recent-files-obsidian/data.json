@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "무제 파일",
+      "path": "C++/STL/Iteraoter/무제 파일.md"
+    },
+    {
       "basename": "Iterator",
       "path": "C++/STL/Iteraoter/Iterator.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "예외처리",
       "path": "C++/개념정리/예외처리.md"
-    },
-    {
-      "basename": "GitHub에 이미지 올리는 법",
-      "path": "Git/GitHub에 이미지 올리는 법.md"
     }
   ],
   "omittedPaths": [],
