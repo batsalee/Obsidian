@@ -15,27 +15,61 @@ iterator객체를 이용해 컨테이너의 element들의 순서를 저장하고
 
 다만 array나 vector는 index 사용도 가능하므로 `[]`를 이용해서 직접접근도 가능하고, iterator 사용도 가능함  
 
-#### 3. iterator 사용법
-1) iterator의 형태
-- iterator는 각 컨테이너의 멤버변수이므로 각 컨테이너마다 자료형과 제공되는 형식이 다름
-- vector의 경우 `std::vector<int>::iterator iter = vec.begin();`과 같은 형태로 사용됨
-	- 다만 대부분의 경우 너무 길어서 `auto iter = vec.begin();`으로 줄여서 사용함
+#### 3. iterator의 형태
+iterator는 각 컨테이너의 멤버변수이므로 각 컨테이너마다 자료형과 제공되는 형식이 다름  
 
-2) iterator 획득법
+vector의 경우 `std::vector<int>::iterator iter = vec.begin();`과 같은 형태로 사용됨  
+다만 대부분의 경우 너무 길어서 `auto iter = vec.begin();`으로 줄여서 사용함  
+
+#### 4. iterator 사용팁들
+1) iterator 획득법
 - 반복자는 begin과 end함수로 얻을 수 있음  
 - `vec.begin()`은 벡터가 시작하는 위치를 가리킴
-- 다만, `vec.end()`는 벡터의 끝보다 한칸뒤를 가리킴  
-- 그로인해 `vec.begin() == vec.end()`라면 벡터가 비어있다라고 판단할 수 있게 됨
+- 다만, `vec.end()`는 벡터의 ==끝보다 한칸뒤==를 가리킴  
+	- 그로인해 `vec.begin() == vec.end()`라면 벡터가 비어있다라고 판단할 수 있게 됨
 
-- cbegin(), cend(), crbegin(), crend()도 제공됨
+- cbegin(), cend(), rbegin(), rend(), crbegin(), crend()도 제공됨
+	- c는 const, r은 reverse
+	- rbegin()은 컨테이너의 가장 뒤의 값의 위치를 가리키며, rend()는 가장 첫 값보다 한칸 앞을 가리킴
 	- 단, forward_list나 unordered류는 reverse iterator가 지원되지 않음
 
-std::vector<int>::iterator itr = vec.begin(); 이라고 했을 때 itr은 포인터처럼 쓰이므로  
-vec의 첫 값을 알고싶으면 cout<< *itr; 처럼 사용하면 됨  
-  
-vector 원소들의 반복은 Range Based for를 쓰면 더 좋지만 포인터나 배열처럼 쓰고 싶다면  
-itr != vec.end(); 처럼 쓰면 끝이 아니면 반복한다 처럼 쓸 수 있음  
-  
+2) iterator로 값 참조
+`std::vector<int>::iterator itr = vec.begin();` 이라고 했을 때 itr은 포인터처럼 쓰이므로  
+vec의 첫 값을 알고싶으면 `cout<< *itr;` 처럼 사용하면 됨  
+
+3) iterator로 컨테이너 순회
+for문으로 컨테이너를 순회하고 싶다면 Range Based for를 쓰면 더 편하지만  
+포인터나 배열처럼 쓰고 싶다면 `itr != vec.end();` 처럼 쓰면 끝이 아니면 반복한다 처럼 쓸 수 있음  
+```C++
+vector<int> vec;
+
+...
+
+for(int v : vec) {
+	cout << v << ' ';
+}
+
+// 또는
+
+for(auto itr = vec.begin(); itr != vec.end(); itr++) {
+	cout << *itr << ' ';
+}
+```
+
+reverse iterator로 순회한다면 아래와 같이 사용
+```C++
+vector<int> vec;
+
+...
+
+for(auto ritr = vec.rbegin(); ritr != vec.rend(); ritr++) {
+	cout << *itr << ' ';
+}
+```
+주의할 점은 reverse iterator 사용시에도 itr++로 사용해야 한다는 것
+배열에서 index로 값의 뒤에서 앞으로 참조한다면 `index--`로 사용했겠지만 iterator는 rbegin부터 rend로 진행하므로 `ritr++`로 사용한다.
+
+4) iterator로 위치 지정
 vector.insert(itr값, 넣을값); 처럼 써서 값을 중간에 넣을 수 있음  
 vector.insert(vec.begin() + 2, 10);  
   
