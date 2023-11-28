@@ -90,7 +90,7 @@ class Alloc = allocator<pair<const Key,T> >    // map::allocator_type
 
 5) 할당 관련
 - empty : multimap이 비었는지 체크한다.
-- size	: map의 size를 리턴한다.(현재 원소의 개수)
+- size	: multimap의 size를 리턴한다.(현재 원소의 개수)
 - max_size : 시스템상 최대로 할당할 수 있는 multimap의 최대 공간의 크기를 리턴한다.
 
 6) 수정자 (Modifier)

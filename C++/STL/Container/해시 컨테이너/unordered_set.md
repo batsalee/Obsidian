@@ -1,14 +1,3 @@
-unordered의 장점은 insert erase find가 엄청 빠름  
-값을 해시함수로 해시해서 보관하는 방식이기 때문  
-보통 안전하게 그냥 셋 맵을 쓰고, 최적화가 매우 중요한 경우에만 해시함수를 잘 설계해서 unordered를 사용  
-- 해시키를 이용하는 자료구조
-- 연관 컨테이너와 달리 데이터를 넣을때 정렬하지 않음
-- 연관 컨테이너에 비해 성능이 월등히 좋음
-- 단 기본 라이브러리로 제공되는 자료형이 아닌, 직접 구현하는 상황에서는 해시키를 만드는데 주의해야 함
-- 속도가 아주 빨라야 하는경우 사용
-set과 비슷하지만 값을 정렬하지 않고, 해시구조이므로 속도가 월등함
-
-
 # unordered_set
 
 ```C++
@@ -27,6 +16,8 @@ void main()
 - 트리구조가 아닌 해시로 구현됨
 - 자동으로 정렬하지 않는다는 것 외에는 set과 비슷함
 - 마찬가지로 중복을 허용하지 않으므로 같은 값이 여러번 insert되면 뒤의 입력은 무시됨
+- 기본적으로는 set을 사용하되, 최적화가 정말 중요한 경우에 사용
+	- 기본 라이브러리로 제공되는 자료형이 아닌, 직접 구현하는 상황에서는 해시키를 만드는데 주의해야 함
 
 #### 2. unordered_set의 장점
 - insert erase find가 엄청 빠름  
@@ -75,7 +66,6 @@ class unordered_set;
 - difference_type : 두 원소 사이의 거리를 나타내는 타입 (많은 경우 ptfdiff_t 와 타입이 같으며 부호있는 정수)
 - size_type :  size 를 나타내는 타입 (많은 경우 size_t 와 타입이 같으며 부호없는 정수이다)
 
-
 #### 6. unordered_set의 멤버 함수들
 1) 생성자 : unordered_set을 생성한다.
 2) 소멸자 : unordered_set을 소멸한다.
@@ -84,15 +74,15 @@ class unordered_set;
 - operator= : unordered_set의 내용을 복사한다.
 
 4) 반복자 (Iterators)
-- begin : 시작 부분 (set의 첫번째 원소) 을 가리키는 반복자를 리턴한다.
-- end : 끝 부분 (set의 마지막 원소 바로 다음) 을 가리키는 반복자를 리턴한다.
+- begin : 시작 부분 (unordered_set의 첫번째 원소) 을 가리키는 반복자를 리턴한다.
+- end : 끝 부분 (unordered_set의 마지막 원소 바로 다음) 을 가리키는 반복자를 리턴한다.
 - cbegin, cend도 지원
 - 단, rbegin이나 rend, crbegin, crend는 지원하지 않음
 
 5) 할당 관련
-- empty : set이 비었는지 체크한다.
-- size	: set의 size를 리턴한다.(현재 원소의 개수)
-- max_size : 시스템상 최대로 할당할 수 있는 set의 최대 공간의 크기를 리턴한다.
+- empty : unordered_set이 비었는지 체크한다.
+- size	: unordered_set의 size를 리턴한다.(현재 원소의 개수)
+- max_size : 시스템상 최대로 할당할 수 있는unordered_set의 최대 공간의 크기를 리턴한다.
 
 6) 수정자 (Modifier)
 - insert : 원소를 삽입한다.
