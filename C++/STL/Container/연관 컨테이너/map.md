@@ -26,16 +26,16 @@ void main()
 - 값에 접근은 `itr->first`와 `itr->second`로 키와 value에 접근  
   
 - []연산자로 값에 접근할때 주의점  
-	cout << m["박세웅"]; 하면 알아서 2.23을 출력해줌  
+	`cout << m["박세웅"];` 하면 알아서 2.23을 출력해줌  
 	근데 문제는 없는 키에 접근해서 출력을 해도 오류를 일으키지 않고 0을 출력해줌  
-	cout << m["류현진"]; 하면 그냥 디폴트값인 0을 넣어서 생성해버리고 출력함  
+	`cout << m["류현진"];` 하면 그냥 디폴트값인 0을 넣어서 생성해버리고 출력함  
 	그러니 []로 값을 접근할거면 find로 먼저 값이 있는지 확인하고 있으면 출력하는 식으로 해야함  
   
 - 같은 키값을 여러번 insert 한다면 두번째 insert부터는 무시됨
 	`m.insert(std::make_pair("박세웅", 2.23));`  
 	`m.insert(std::make_pair("박세웅", 3.59));`  
 	처럼 입력하면 이미 있는 값의 insert는 무시하므로 2.23에서 값이 바뀌지 않음  
-	값을 바꾸려면 m["박세웅"] = 3.59;로 써야함  
+	값을 바꾸려면 `m["박세웅"] = 3.59;`로 써야함  
 
 #### 2. map의 장점
 - map은 key를 기준으로 데이터를 정렬해서 보관하므로 탐색이 빠름
@@ -46,10 +46,10 @@ void main()
 
 #### 4. map의 함수원형
 ```C++
-template < class Key,                          // map::key_type           
-class T,                                       // map::mapped_type           
-class Compare = less<Key>,                     // map::key_compare           
-class Alloc = allocator<pair<const Key,T> >    // map::allocator_type           
+template < class Key,                              // map::key_type           
+	class T,                                       // map::mapped_type           
+	class Compare = less<Key>,                     // map::key_compare           
+	class Alloc = allocator<pair<const Key,T> >    // map::allocator_type           
 > class map;
 ```
 만약 내림차순 map을 만들고 싶다면 `map<string, int, greater<string>> m;`처럼 사용하면 된다.

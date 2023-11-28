@@ -43,10 +43,11 @@ for (auto itr = range.first; itr != range.second; ++itr) {
 
 #### 4. multimap의 함수원형
 ```C++
-template < class Key,                          // map::key_type           
-class T,                                       // map::mapped_type           
-class Compare = less<Key>,                     // map::key_compare           
-class Alloc = allocator<pair<const Key,T> >    // map::allocator_type           
+template < 
+	class Key,                                     // map::key_type           
+	class T,                                       // map::mapped_type           
+	class Compare = less<Key>,                     // map::key_compare           
+	class Alloc = allocator<pair<const Key,T> >    // map::allocator_type           
 > class multimap;
 ```
 만약 내림차순 multimap을 만들고 싶다면 `multimap<string, int, greater<string>> mm;`처럼 사용하면 된다.

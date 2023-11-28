@@ -53,9 +53,10 @@ else std::cout << "No" << std::endl;
 
 #### 4. set의 함수원형
 ```C++
-template < class T,             // set::key_type/value_type           
-class Compare = less<T>,        // 기본적으로 less(오름차순)이며 내림차순을 원한다면 greater옵션을 사용
-class Alloc = allocator<T>      // set::allocator_type           
+template < 
+	class T,                        // set::key_type/value_type           
+	class Compare = less<T>,        // 기본적으로 less(오름차순)이며 내림차순을 원한다면 greater옵션을 사용
+	class Alloc = allocator<T>      // set::allocator_type           
 > class set;
 ```
 만약 내림차순 set을 만들고 싶다면 `set<int, greater<int>> s;`처럼 사용하면 된다.
