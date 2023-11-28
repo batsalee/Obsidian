@@ -5,6 +5,10 @@
       "path": "C++/STL/Iteraoter/Iterator.md"
     },
     {
+      "basename": "vector",
+      "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
+    },
+    {
       "basename": "stack",
       "path": "C++/STL/Container/컨테이너 어댑터/stack.md"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "forward_list",
       "path": "C++/STL/Container/시퀀스 컨테이너/forward_list.md"
-    },
-    {
-      "basename": "vector",
-      "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
     },
     {
       "basename": "array",
