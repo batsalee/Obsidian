@@ -1,12 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "데이터베이스 이론",
-      "path": "DB/데이터베이스 이론.md"
-    },
-    {
-      "basename": "메타데이터(meta-data)",
-      "path": "CS 지식/프로그래밍 용어/메타데이터(meta-data).md"
+      "basename": "MySQL 연동",
+      "path": "C++/Code Keeping/MySQL 연동.md"
     },
     {
       "basename": "DB",
@@ -17,8 +13,12 @@
       "path": "DB/SQL기본문법.md"
     },
     {
-      "basename": "MySQL 연동",
-      "path": "C++/Code Keeping/MySQL 연동.md"
+      "basename": "데이터베이스 이론",
+      "path": "DB/데이터베이스 이론.md"
+    },
+    {
+      "basename": "메타데이터(meta-data)",
+      "path": "CS 지식/프로그래밍 용어/메타데이터(meta-data).md"
     },
     {
       "basename": "Git",
