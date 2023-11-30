@@ -1,6 +1,6 @@
 # deque
 
-## 1) 개념
+## 1. 개념
 - 양쪽에서 끝나는 큐라는 의미의 Double ended queue의 약자로 `[데크]` 또는 `[덱]`이라고 읽음
 
 - 메모리 크기가 가변적임
@@ -14,10 +14,10 @@
 > queue의 경우 front에서는 pop을, back에서는 push를 할 수 있지만 한쪽에서 pop/push 둘다는 불가능  
 > deque는 stack과 queue가 합쳐진것이라고 볼 수 있으며 양쪽 끝에서 삽입과 삭제가 모두 가능
 
-## 2) 구현
+## 2. 구현
 - C++기반의 Deque STL : [[C++/STL/Container/시퀀스 컨테이너/deque|deque]]
 
-## 3) 시간복잡도
+## 3. 시간복잡도
 - push : O(1)
 - pop : O(1)
 - 탐색 : O(1)      // Index 기반의 사용이 가능

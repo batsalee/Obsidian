@@ -1,11 +1,11 @@
 # Queue
 
-## 1) 개념
+## 1. 개념
 - First In First Out(선입선출)
 - 사람들이 일자로 줄서있는 모습
 - queue로 데이터가 들어오는걸 Enqueue, queue에서 데이터가 나가는걸 Dequeue라고 함
 
-## 2) 종류
+## 2. 종류
 - 일반적인 Queue, 원형 Queue, Priority Queue가 있음
 
 #### 일반적인 Queue
@@ -27,10 +27,10 @@
 #### Priority Queue
 [[자료구조/priority_queue|priority_queue]]
 
-## 3)구현
+## 3.구현
 - C++기반의 Queue STL : [[C++/STL/Container/컨테이너 어댑터/queue|queue]]
 
-## 4) 시간복잡도
+## 4. 시간복잡도
 - push : O(1)
 - pop : O(1)
 - search : O(n)
