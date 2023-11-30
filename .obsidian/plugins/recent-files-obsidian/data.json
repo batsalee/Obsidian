@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "자료구조 정리중",
-      "path": "Notepad/자료구조 정리중.md"
-    },
-    {
       "basename": "트리",
       "path": "자료구조/비선형 구조/트리.md"
     },
     {
       "basename": "Heap",
-      "path": "자료구조/Heap.md"
+      "path": "자료구조/심화 자료구조/Heap.md"
     },
     {
       "basename": "priority_queue",
       "path": "자료구조/선형 구조/priority_queue.md"
+    },
+    {
+      "basename": "자료구조 정리중",
+      "path": "Notepad/자료구조 정리중.md"
     },
     {
       "basename": "Queue",
@@ -195,10 +195,6 @@
     {
       "basename": "윤년",
       "path": "C++/Code Keeping/윤년.md"
-    },
-    {
-      "basename": "진법 변환",
-      "path": "C++/Code Keeping/진법 변환.md"
     }
   ],
   "omittedPaths": [],
