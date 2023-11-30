@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "자료구조",
+      "path": "자료구조/자료구조.md"
+    },
+    {
+      "basename": "Stack",
+      "path": "자료구조/Stack.md"
+    },
+    {
+      "basename": "stack",
+      "path": "C++/STL/Container/컨테이너 어댑터/stack.md"
+    },
+    {
       "basename": "list",
       "path": "자료구조/list.md"
     },
     {
-      "basename": "자료구조",
-      "path": "자료구조/자료구조.md"
+      "basename": "Queue",
+      "path": "자료구조/Queue.md"
+    },
+    {
+      "basename": "배열",
+      "path": "자료구조/배열.md"
+    },
+    {
+      "basename": "vector",
+      "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
+    },
+    {
+      "basename": "array",
+      "path": "C++/STL/Container/시퀀스 컨테이너/array.md"
     },
     {
       "basename": "시퀀스 컨테이너",
@@ -17,24 +41,12 @@
       "path": "C++/STL/Container/시퀀스 컨테이너/list.md"
     },
     {
-      "basename": "배열",
-      "path": "자료구조/배열.md"
-    },
-    {
       "basename": "마크다운 문법 정리",
       "path": "Hello Obsidian/마크다운 문법 정리.md"
     },
     {
       "basename": "priority_queue",
       "path": "자료구조/priority_queue.md"
-    },
-    {
-      "basename": "Queue",
-      "path": "자료구조/Queue.md"
-    },
-    {
-      "basename": "Stack",
-      "path": "자료구조/Stack.md"
     },
     {
       "basename": "MySQL 연동",
@@ -81,14 +93,6 @@
       "path": "C++/STL/Algorithm/Algorithm.md"
     },
     {
-      "basename": "vector",
-      "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
-    },
-    {
-      "basename": "stack",
-      "path": "C++/STL/Container/컨테이너 어댑터/stack.md"
-    },
-    {
       "basename": "컨테이너 어댑터",
       "path": "C++/STL/Container/컨테이너 어댑터/컨테이너 어댑터.md"
     },
@@ -123,10 +127,6 @@
     {
       "basename": "forward_list",
       "path": "C++/STL/Container/시퀀스 컨테이너/forward_list.md"
-    },
-    {
-      "basename": "array",
-      "path": "C++/STL/Container/시퀀스 컨테이너/array.md"
     },
     {
       "basename": "STL",
