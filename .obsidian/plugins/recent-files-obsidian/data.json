@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "자료구조",
+      "path": "자료구조/자료구조.md"
+    },
+    {
       "basename": "priority_queue",
       "path": "자료구조/priority_queue.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "DDL",
       "path": "DB/DDL.md"
-    },
-    {
-      "basename": "DML",
-      "path": "DB/DML.md"
     }
   ],
   "omittedPaths": [],
