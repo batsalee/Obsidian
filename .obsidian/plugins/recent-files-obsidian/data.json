@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "priority_queue",
+      "path": "자료구조/priority_queue.md"
+    },
+    {
+      "basename": "Queue",
+      "path": "자료구조/Queue.md"
+    },
+    {
+      "basename": "Stack",
+      "path": "자료구조/Stack.md"
+    },
+    {
       "basename": "MySQL 연동",
       "path": "C++/Code Keeping/MySQL 연동.md"
     },
@@ -39,18 +51,6 @@
     {
       "basename": "Iterator",
       "path": "C++/STL/Iteraoter/Iterator.md"
-    },
-    {
-      "basename": "priority_queue",
-      "path": "자료구조/priority_queue.md"
-    },
-    {
-      "basename": "Stack",
-      "path": "자료구조/Stack.md"
-    },
-    {
-      "basename": "Queue",
-      "path": "자료구조/Queue.md"
     },
     {
       "basename": "Algorithm",
