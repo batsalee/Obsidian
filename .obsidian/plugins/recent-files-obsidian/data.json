@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "그래프",
+      "path": "자료구조/비선형 구조/그래프.md"
+    },
+    {
       "basename": "트리",
       "path": "자료구조/비선형 구조/트리.md"
+    },
+    {
+      "basename": "BFS, DFS",
+      "path": "알고리즘/BFS, DFS.md"
     },
     {
       "basename": "Heap",
@@ -39,10 +47,6 @@
     {
       "basename": "자료구조",
       "path": "자료구조/자료구조.md"
-    },
-    {
-      "basename": "그래프",
-      "path": "자료구조/비선형 구조/그래프.md"
     },
     {
       "basename": "deque",
