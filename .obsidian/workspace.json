@@ -186,6 +186,7 @@
   "lastOpenFiles": [
     "자료구조/비선형 구조/트리.md",
     "자료구조/비선형 구조/그래프.md",
+    "C++/STL/Container/시퀀스 컨테이너/vector.md",
     "알고리즘/BFS, DFS.md",
     "알고리즘",
     "자료구조/비선형 구조/contents/Pasted image 20231130134831.png",
@@ -220,7 +221,6 @@
     "C++/STL/Container/시퀀스 컨테이너/list.md",
     "C++/STL/Container/시퀀스 컨테이너/forward_list.md",
     "C++/STL/Container/시퀀스 컨테이너/array.md",
-    "C++/STL/Container/시퀀스 컨테이너/vector.md",
     "C++/STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md",
     "C++/STL/Container/연관 컨테이너/연관 컨테이너.md",
     "C++/STL/Container/Container.md",
