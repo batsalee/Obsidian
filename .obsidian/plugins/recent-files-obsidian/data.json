@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "priority_queue",
+      "path": "C++/STL/Container/컨테이너 어댑터/priority_queue.md"
+    },
+    {
+      "basename": "priority_queue",
+      "path": "자료구조/선형 구조/priority_queue.md"
+    },
+    {
       "basename": "그래프",
       "path": "자료구조/비선형 구조/그래프.md"
     },
     {
-      "basename": "신장트리, 최소신장트리",
-      "path": "자료구조/심화 자료구조/신장트리, 최소신장트리.md"
-    },
-    {
       "basename": "트리",
       "path": "자료구조/비선형 구조/트리.md"
+    },
+    {
+      "basename": "신장트리, 최소신장트리",
+      "path": "자료구조/심화 자료구조/신장트리, 최소신장트리.md"
     },
     {
       "basename": "vector",
@@ -23,10 +31,6 @@
     {
       "basename": "Heap",
       "path": "자료구조/심화 자료구조/Heap.md"
-    },
-    {
-      "basename": "priority_queue",
-      "path": "자료구조/선형 구조/priority_queue.md"
     },
     {
       "basename": "자료구조 정리중",
@@ -83,10 +87,6 @@
     {
       "basename": "Container",
       "path": "C++/STL/Container/Container.md"
-    },
-    {
-      "basename": "priority_queue",
-      "path": "C++/STL/Container/컨테이너 어댑터/priority_queue.md"
     },
     {
       "basename": "Notepad",
@@ -195,10 +195,6 @@
     {
       "basename": "해시 컨테이너",
       "path": "C++/STL/Container/해시 컨테이너/해시 컨테이너.md"
-    },
-    {
-      "basename": "GCD, LCM",
-      "path": "C++/Code Keeping/GCD, LCM.md"
     }
   ],
   "omittedPaths": [],
