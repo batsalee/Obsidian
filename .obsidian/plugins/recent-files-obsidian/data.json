@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Heap",
+      "path": "자료구조/심화 자료구조/Heap.md"
+    },
+    {
+      "basename": "신장트리, 최소신장트리",
+      "path": "자료구조/심화 자료구조/신장트리, 최소신장트리.md"
+    },
+    {
       "basename": "priority_queue",
       "path": "C++/STL/Container/컨테이너 어댑터/priority_queue.md"
     },
@@ -17,20 +25,12 @@
       "path": "자료구조/비선형 구조/트리.md"
     },
     {
-      "basename": "신장트리, 최소신장트리",
-      "path": "자료구조/심화 자료구조/신장트리, 최소신장트리.md"
-    },
-    {
       "basename": "vector",
       "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
     },
     {
       "basename": "BFS, DFS",
       "path": "알고리즘/BFS, DFS.md"
-    },
-    {
-      "basename": "Heap",
-      "path": "자료구조/심화 자료구조/Heap.md"
     },
     {
       "basename": "자료구조 정리중",

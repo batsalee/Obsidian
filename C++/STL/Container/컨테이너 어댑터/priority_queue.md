@@ -77,6 +77,26 @@ while(!pq.empty()) {
 큰 값부터 나오는 것이 아니라 작은 값부터 나오게 만들 고 싶다면  
 `priority_queue <int, vector<int>, greater<int> > pq;`처럼 생성 후 사용
 
+4) 정렬 우선순위 지정하는 법
+람다함수가 template 안이라서 오류가 나는듯함
+그래서 함수객체를 만들어서 사용
+```C++
+struct cmp 
+{ 
+	bool operator()(int n1, int n2) 
+	{ 
+		if (abs(n1) > abs(n2)) return true;
+		else if (abs(n1) == abs(n2)) {
+			if (n1 > n2) return true; 
+			else return false; 
+		} 
+		else return false; 
+		} 
+	}; 
+	
+std::priority_queue<int, std::vector<int>, cmp> pq3;
+```
+
 
 
 ※ 참고 문헌
