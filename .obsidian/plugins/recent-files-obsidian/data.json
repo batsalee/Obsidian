@@ -5,6 +5,10 @@
       "path": "자료구조/심화 자료구조/Hash Table.md"
     },
     {
+      "basename": "트리",
+      "path": "자료구조/비선형 구조/트리.md"
+    },
+    {
       "basename": "Heap",
       "path": "자료구조/심화 자료구조/Heap.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "그래프",
       "path": "자료구조/비선형 구조/그래프.md"
-    },
-    {
-      "basename": "트리",
-      "path": "자료구조/비선형 구조/트리.md"
     },
     {
       "basename": "vector",
