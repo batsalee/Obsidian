@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "자료구조 정리중",
+      "path": "Notepad/자료구조 정리중.md"
+    },
+    {
       "basename": "트리",
       "path": "자료구조/비선형 구조/트리.md"
+    },
+    {
+      "basename": "Heap",
+      "path": "자료구조/Heap.md"
     },
     {
       "basename": "priority_queue",
@@ -69,16 +77,8 @@
       "path": "C++/STL/Container/Container.md"
     },
     {
-      "basename": "Heap",
-      "path": "자료구조/Heap.md"
-    },
-    {
       "basename": "priority_queue",
       "path": "C++/STL/Container/컨테이너 어댑터/priority_queue.md"
-    },
-    {
-      "basename": "자료구조 정리중",
-      "path": "Notepad/자료구조 정리중.md"
     },
     {
       "basename": "Notepad",

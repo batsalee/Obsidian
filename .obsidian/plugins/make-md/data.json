@@ -76,7 +76,8 @@
       "C++/STL",
       "자료구조/선형구조",
       "자료구조/비선형 구조",
-      "자료구조"
+      "자료구조",
+      "Notepad"
     ],
     "as": [
       "Hello Obsidian",
@@ -176,7 +177,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1701317490760,
+  "spacesAutoBackupLast": 1701318534653,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
