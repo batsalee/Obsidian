@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "list",
+      "path": "자료구조/list.md"
+    },
+    {
       "basename": "자료구조",
       "path": "자료구조/자료구조.md"
+    },
+    {
+      "basename": "시퀀스 컨테이너",
+      "path": "C++/STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
+    },
+    {
+      "basename": "list",
+      "path": "C++/STL/Container/시퀀스 컨테이너/list.md"
+    },
+    {
+      "basename": "배열",
+      "path": "자료구조/배열.md"
+    },
+    {
+      "basename": "마크다운 문법 정리",
+      "path": "Hello Obsidian/마크다운 문법 정리.md"
     },
     {
       "basename": "priority_queue",
@@ -101,10 +121,6 @@
       "path": "C++/STL/Container/시퀀스 컨테이너/deque.md"
     },
     {
-      "basename": "list",
-      "path": "C++/STL/Container/시퀀스 컨테이너/list.md"
-    },
-    {
       "basename": "forward_list",
       "path": "C++/STL/Container/시퀀스 컨테이너/forward_list.md"
     },
@@ -139,10 +155,6 @@
     {
       "basename": "queue",
       "path": "C++/STL/Container/컨테이너 어댑터/queue.md"
-    },
-    {
-      "basename": "시퀀스 컨테이너",
-      "path": "C++/STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
     },
     {
       "basename": "GCD, LCM",
@@ -187,18 +199,6 @@
     {
       "basename": "Pasted image 20231127120052",
       "path": "DB/contents/Pasted image 20231127120052.png"
-    },
-    {
-      "basename": "TCL",
-      "path": "DB/TCL.md"
-    },
-    {
-      "basename": "DCL",
-      "path": "DB/DCL.md"
-    },
-    {
-      "basename": "DDL",
-      "path": "DB/DDL.md"
     }
   ],
   "omittedPaths": [],
