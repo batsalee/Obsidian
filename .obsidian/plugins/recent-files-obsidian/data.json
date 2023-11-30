@@ -5,12 +5,44 @@
       "path": "자료구조/자료구조.md"
     },
     {
+      "basename": "list",
+      "path": "자료구조/선형 구조/list.md"
+    },
+    {
+      "basename": "Stack",
+      "path": "자료구조/선형 구조/Stack.md"
+    },
+    {
+      "basename": "배열",
+      "path": "자료구조/선형 구조/배열.md"
+    },
+    {
       "basename": "deque",
-      "path": "자료구조/deque.md"
+      "path": "자료구조/선형 구조/deque.md"
     },
     {
       "basename": "deque",
       "path": "C++/STL/Container/시퀀스 컨테이너/deque.md"
+    },
+    {
+      "basename": "priority_queue",
+      "path": "자료구조/선형 구조/priority_queue.md"
+    },
+    {
+      "basename": "list",
+      "path": "C++/STL/Container/시퀀스 컨테이너/list.md"
+    },
+    {
+      "basename": "forward_list",
+      "path": "C++/STL/Container/시퀀스 컨테이너/forward_list.md"
+    },
+    {
+      "basename": "array",
+      "path": "C++/STL/Container/시퀀스 컨테이너/array.md"
+    },
+    {
+      "basename": "vector",
+      "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
     },
     {
       "basename": "시퀀스 컨테이너",
@@ -25,24 +57,12 @@
       "path": "C++/STL/Container/Container.md"
     },
     {
-      "basename": "priority_queue",
-      "path": "자료구조/priority_queue.md"
-    },
-    {
       "basename": "Heap",
       "path": "자료구조/Heap.md"
     },
     {
-      "basename": "list",
-      "path": "자료구조/list.md"
-    },
-    {
       "basename": "priority_queue",
       "path": "C++/STL/Container/컨테이너 어댑터/priority_queue.md"
-    },
-    {
-      "basename": "Stack",
-      "path": "자료구조/Stack.md"
     },
     {
       "basename": "자료구조 정리중",
@@ -54,11 +74,7 @@
     },
     {
       "basename": "Queue",
-      "path": "자료구조/Queue.md"
-    },
-    {
-      "basename": "배열",
-      "path": "자료구조/배열.md"
+      "path": "자료구조/선형 구조/Queue.md"
     },
     {
       "basename": "Pasted image 20231130113849",
@@ -71,18 +87,6 @@
     {
       "basename": "stack",
       "path": "C++/STL/Container/컨테이너 어댑터/stack.md"
-    },
-    {
-      "basename": "vector",
-      "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
-    },
-    {
-      "basename": "array",
-      "path": "C++/STL/Container/시퀀스 컨테이너/array.md"
-    },
-    {
-      "basename": "list",
-      "path": "C++/STL/Container/시퀀스 컨테이너/list.md"
     },
     {
       "basename": "마크다운 문법 정리",
@@ -161,10 +165,6 @@
       "path": "C++/STL/Container/연관 컨테이너/set.md"
     },
     {
-      "basename": "forward_list",
-      "path": "C++/STL/Container/시퀀스 컨테이너/forward_list.md"
-    },
-    {
       "basename": "STL",
       "path": "C++/STL/STL.md"
     },
@@ -195,10 +195,6 @@
     {
       "basename": "DLL(Dynamic Link Library)",
       "path": "C++/Code Keeping/DLL(Dynamic Link Library).md"
-    },
-    {
-      "basename": "소수 여부 판별",
-      "path": "C++/Code Keeping/소수 여부 판별.md"
     }
   ],
   "omittedPaths": [],
