@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "알고리즘",
+      "path": "알고리즘/알고리즘.md"
+    },
+    {
+      "basename": "BFS, DFS",
+      "path": "알고리즘/BFS, DFS.md"
+    },
+    {
       "basename": "Hash Table",
       "path": "자료구조/심화 자료구조/Hash Table.md"
     },
@@ -31,10 +39,6 @@
     {
       "basename": "vector",
       "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
-    },
-    {
-      "basename": "BFS, DFS",
-      "path": "알고리즘/BFS, DFS.md"
     },
     {
       "basename": "자료구조 정리중",
@@ -195,10 +199,6 @@
     {
       "basename": "unordered_multiset",
       "path": "C++/STL/Container/해시 컨테이너/unordered_multiset.md"
-    },
-    {
-      "basename": "해시 컨테이너",
-      "path": "C++/STL/Container/해시 컨테이너/해시 컨테이너.md"
     }
   ],
   "omittedPaths": [],
