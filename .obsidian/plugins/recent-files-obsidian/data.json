@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "복잡도개념",
+      "path": "알고리즘/복잡도개념.md"
+    },
+    {
       "basename": "알고리즘",
       "path": "알고리즘/알고리즘.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "unordered_multimap",
       "path": "C++/STL/Container/해시 컨테이너/unordered_multimap.md"
-    },
-    {
-      "basename": "unordered_multiset",
-      "path": "C++/STL/Container/해시 컨테이너/unordered_multiset.md"
     }
   ],
   "omittedPaths": [],
