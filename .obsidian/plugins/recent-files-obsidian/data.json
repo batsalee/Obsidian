@@ -9,6 +9,10 @@
       "path": "알고리즘/알고리즘.md"
     },
     {
+      "basename": "Pasted image 20231202174249",
+      "path": "알고리즘/contents/Pasted image 20231202174249.png"
+    },
+    {
       "basename": "BFS, DFS",
       "path": "알고리즘/BFS, DFS.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "STL",
       "path": "C++/STL/STL.md"
-    },
-    {
-      "basename": "unordered_multimap",
-      "path": "C++/STL/Container/해시 컨테이너/unordered_multimap.md"
     }
   ],
   "omittedPaths": [],
