@@ -77,7 +77,8 @@
       "자료구조/선형구조",
       "알고리즘",
       "CS 지식",
-      "C++"
+      "C++",
+      "알고리즘"
     ],
     "as": [
       "Hello Obsidian",
@@ -177,7 +178,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1701506571048,
+  "spacesAutoBackupLast": 1701574783179,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
