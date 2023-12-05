@@ -3,10 +3,10 @@
 ## 1. 개념
 
 그래프와 트리에 관련된 알고리즘인 만큼 [[그래프]]와 [[트리]] 자료구조에 대한 이해가 먼저 필요함  
-그래프 순회(탐색)알고리즘은 여러종류가 있는데 그 중 대표적인 것이 BFS와 DFS이다.
 
-또한 그래프에는 많은 종류가 있으며 그 중 하나인 **무방향 연결그래프**가 트리이다.
-즉 트리는 그래프의 일종이며, 그러므로 DFS나 BFS같은 탐색은 그래프에도, 트리에도 적용할 수 있다.
+그래프 순회(탐색)알고리즘은 여러종류가 있는데 그 중 대표적인 것이 BFS와 DFS이다.  
+또한 그래프에는 많은 종류가 있으며 그 중 하나인 **무방향 연결그래프**가 트리이다.  
+즉 트리는 그래프의 일종이며, 그러므로 BFS나 DFS같은 탐색은 그래프에도, 트리에도 적용할 수 있다.  
 
 
 ## 2. BFS와 DFS의 용도 및 장단점
@@ -187,3 +187,126 @@ int main()
 	return 0;
 }
 ```
+
+
+## 5. 트리순회
+
+트리순회(Tree traversal)는 트리 구조에서 각 노드를 정확히 한번만, 체계적으로 방문하는 과정을 의미  
+방문순서에 따라 전위순회, 중위순회, 후위순회, 레벨순회가 있음  
+
+설명은 이진트리 기반으로 되어있지만 다른종류의 트리에서도 일반화시킬 수 있음
+
+#### 1) 전위순회(preorder traversal)
+
+전위순회는 먼저 자신의 노드를 방문하고 그 다음 노드들을 방문하는 방식  
+일반적인 DFS의 모습  
+```C++
+preorder( node )
+    if (node.visited == false)
+        node.visited = true
+        preorder( node->left )
+        preorder( node->right )
+```
+
+#### 2) 중위순회(inorder traversal)
+
+왼쪽 노드를 먼저 방문 후 자신의 노드를 방문하고 그 다음 오른쪽 노드를 방문하는 방식  
+```C++
+inorder( node )
+    if (node.visited == false) 
+        inorder( node->left )
+        node.visited = true
+        inorder( node->right )
+```
+
+#### 3) 후위순회(postorder traversal)
+
+자식들 노드를 먼저 방문한 후 자신의 노드를 방문하는 방식
+```C++
+postorder( node )
+    if (node.visited == false) 
+        postorder( node->left ) 
+        postorder( node->right )
+        node.visited = true
+```
+
+#### 4) 레벨순회(level traversal)
+
+루트로부터 위에서 아래로 레벨순으로 순회하는 방식
+일반적인 BFS의 모습
+
+#### 5) C++ 기반의 전위순회/중위순회/후위순회
+```C++
+#include <bits/stdc++.h>
+using namespace std; 
+vector<int> adj[1004]; 
+int visited[1004];
+
+void preOrder(int here) {
+  	if(visited[here] == 0) {
+  		visited[here] = 1; 
+  		cout << here << ' ';
+  		if(adj[here].size() == 1) 
+	  		preOrder(adj[here][0]);
+  		if(adj[here].size() == 2) {
+  			preOrder(adj[here][0]); 
+  			preOrder(adj[here][1]);
+		}
+	}
+}  
+
+void inOrder(int here) {   	
+	if(visited[here] == 0) { 
+  		if(adj[here].size() == 1) { 
+  			inOrder(adj[here][0]); 
+	  		visited[here] = 1; 
+	  		cout << here << ' ';
+		}
+		else if(adj[here].size() == 2) {
+  			inOrder(adj[here][0]); 	  		
+			visited[here] = 1; 			
+	  		cout << here << ' ';  			
+			inOrder(adj[here][1]);
+		}
+		else {
+	  		visited[here] = 1; 
+	  		cout << here << ' '; 
+		}
+	}
+}
+
+void postOrder(int here) { 
+  	if(visited[here] == 0) { 
+  		if(adj[here].size() == 1)
+	  		postOrder(adj[here][0]);
+  		if(adj[here].size() == 2) {
+  			postOrder(adj[here][0]); 
+  			postOrder(adj[here][1]);
+		}
+  		visited[here] = 1; 
+  		cout << here << ' ';
+	} 
+} 
+ 
+int main(){
+	adj[1].push_back(2);
+	adj[1].push_back(3);
+	adj[2].push_back(4);
+	adj[2].push_back(5); 
+	int root = 1;
+    cout << "\n 트리순회 : postOrder \n";
+    postOrder(root); memset(visited, 0, sizeof(visited));
+    cout << "\n 트리순회 : preOrder \n"; 
+    preOrder(root); memset(visited, 0, sizeof(visited)); 
+    cout << "\n 트리순회 : inOrder \n"; 
+    inOrder(root); 
+    return 0;
+}
+```
+
+
+
+
+★ 참고 문헌
+[https://velog.io/@vagabondms/DFS-vs-BFS](https://velog.io/@vagabondms/DFS-vs-BFS)
+[https://blog.naver.com/jhc9639/222289089015](https://blog.naver.com/jhc9639/222289089015)
