@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "누적 합",
-      "path": "알고리즘/누적 합.md"
+      "basename": "BFS, DFS, 트리순회",
+      "path": "알고리즘/BFS, DFS, 트리순회.md"
+    },
+    {
+      "basename": "그래프",
+      "path": "자료구조/비선형 구조/그래프.md"
+    },
+    {
+      "basename": "트리",
+      "path": "자료구조/비선형 구조/트리.md"
     },
     {
       "basename": "알고리즘",
       "path": "알고리즘/알고리즘.md"
+    },
+    {
+      "basename": "누적 합",
+      "path": "알고리즘/누적 합.md"
     },
     {
       "basename": "복잡도개념",
@@ -17,16 +29,8 @@
       "path": "알고리즘/contents/Pasted image 20231202174249.png"
     },
     {
-      "basename": "BFS, DFS",
-      "path": "알고리즘/BFS, DFS.md"
-    },
-    {
       "basename": "Hash Table",
       "path": "자료구조/심화 자료구조/Hash Table.md"
-    },
-    {
-      "basename": "트리",
-      "path": "자료구조/비선형 구조/트리.md"
     },
     {
       "basename": "Heap",
@@ -43,10 +47,6 @@
     {
       "basename": "priority_queue",
       "path": "자료구조/선형 구조/priority_queue.md"
-    },
-    {
-      "basename": "그래프",
-      "path": "자료구조/비선형 구조/그래프.md"
     },
     {
       "basename": "vector",
@@ -195,10 +195,6 @@
     {
       "basename": "map",
       "path": "C++/STL/Container/연관 컨테이너/map.md"
-    },
-    {
-      "basename": "set",
-      "path": "C++/STL/Container/연관 컨테이너/set.md"
     }
   ],
   "omittedPaths": [],

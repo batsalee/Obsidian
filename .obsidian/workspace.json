@@ -11,8 +11,12 @@
             "id": "000f4d6c81f08bf9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘/BFS, DFS, 트리순회.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -98,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "알고리즘/BFS, DFS, 트리순회.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "알고리즘/BFS, DFS, 트리순회.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "알고리즘/BFS, DFS, 트리순회.md"
+              }
             }
           },
           {
@@ -174,10 +182,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "865fcff0f57ed8b2",
+  "active": "000f4d6c81f08bf9",
   "lastOpenFiles": [
-    "알고리즘/누적 합.md",
+    "자료구조/비선형 구조/그래프.md",
+    "알고리즘/BFS, DFS, 트리순회.md",
+    "자료구조/비선형 구조/트리.md",
     "알고리즘/알고리즘.md",
+    "알고리즘/무제 파일.md",
+    "알고리즘/누적 합.md",
     "알고리즘/contents/Pasted image 20231203123942.png",
     "알고리즘/contents/Pasted image 20231203123925.png",
     "알고리즘/contents/Pasted image 20231203123839.png",
@@ -186,19 +198,16 @@
     "알고리즘/복잡도개념.md",
     "알고리즘/contents/Pasted image 20231202174249.png",
     "알고리즘/contents",
-    "알고리즘/BFS, DFS.md",
     "자료구조/심화 자료구조/Hash Table.md",
     "자료구조/심화 자료구조/contents/Pasted image 20231130162005.png",
     "자료구조/심화 자료구조/contents/Pasted image 20231130161911.png",
     "자료구조/심화 자료구조/contents/Pasted image 20231130155250.png",
-    "자료구조/비선형 구조/트리.md",
     "자료구조/심화 자료구조/Heap.md",
     "자료구조/심화 자료구조/신장트리, 최소신장트리.md",
     "자료구조/심화 자료구조/contents/Pasted image 20231130153756.png",
     "C++/STL/Container/컨테이너 어댑터/priority_queue.md",
     "자료구조/선형 구조/priority_queue.md",
     "자료구조/priority_queue.md",
-    "자료구조/비선형 구조/그래프.md",
     "자료구조/심화 자료구조/contents",
     "C++/STL/Container/시퀀스 컨테이너/vector.md",
     "알고리즘",
