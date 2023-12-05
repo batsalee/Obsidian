@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ea885394450af045",
+        "id": "ca6865e8e2f3143d",
         "type": "tabs",
         "children": [
           {
-            "id": "0a7a112f7a2d0569",
+            "id": "000f4d6c81f08bf9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알고리즘/누적 합.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -102,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/누적 합.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/누적 합.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "알고리즘/누적 합.md"
-              }
+              "state": {}
             }
           },
           {
@@ -182,15 +174,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0a7a112f7a2d0569",
+  "active": "865fcff0f57ed8b2",
   "lastOpenFiles": [
+    "알고리즘/누적 합.md",
+    "알고리즘/알고리즘.md",
     "알고리즘/contents/Pasted image 20231203123942.png",
     "알고리즘/contents/Pasted image 20231203123925.png",
     "알고리즘/contents/Pasted image 20231203123839.png",
     "알고리즘/contents/Pasted image 20231203123525.png",
     "알고리즘/contents/Pasted image 20231203123330.png",
-    "알고리즘/누적 합.md",
-    "알고리즘/알고리즘.md",
     "알고리즘/복잡도개념.md",
     "알고리즘/contents/Pasted image 20231202174249.png",
     "알고리즘/contents",
@@ -203,7 +195,6 @@
     "자료구조/심화 자료구조/Heap.md",
     "자료구조/심화 자료구조/신장트리, 최소신장트리.md",
     "자료구조/심화 자료구조/contents/Pasted image 20231130153756.png",
-    "자료구조/심화 자료구조/contents/Pasted image 20231130153714.png",
     "C++/STL/Container/컨테이너 어댑터/priority_queue.md",
     "자료구조/선형 구조/priority_queue.md",
     "자료구조/priority_queue.md",
