@@ -41,6 +41,7 @@
 너비우선탐색(BFS, Breadth First Search)  
 
 이름처럼 너비를 우선순위로 탐색하는 방식으로 먼저 같은 레벨에 있는 노드를 모두 탐색한 후 다음 레벨의 노드로 이동해서 탐색하는 방식  
+트리순회 방법 중 레벨순회에 해당  
 
 ![[Pasted image 20231205181928.png|300x300]]  
 위 트리를 BFS로 탐색한다면 탐색순서는 0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6이 되는 것  
@@ -113,6 +114,7 @@ int main()
 깊이우선탐색(DFS, Depth First Search)  
 
 이름처럼 깊이를 우선순위로 두고 탐색하는 방식으로 한 방향으로 끝까지 내려가서 탐색을 하고 더이상 탐색할 곳이 없으면 한칸 위로 올라와서 다른 깊이로 탐색하는 방식  
+트리순회 방법 중 전위순회에 해당
 
 ![[Pasted image 20231205182437.png|300x300]]  
 위 트리를 DFS로 탐색한다면 탐색 순서는 0 -> 1 -> 3 -> 4 -> 2 -> 5 -> 6이 되는 것
@@ -307,6 +309,6 @@ int main(){
 
 
 
-★ 참고 문헌
+※ 참고 문헌
 [https://velog.io/@vagabondms/DFS-vs-BFS](https://velog.io/@vagabondms/DFS-vs-BFS)
 [https://blog.naver.com/jhc9639/222289089015](https://blog.naver.com/jhc9639/222289089015)
