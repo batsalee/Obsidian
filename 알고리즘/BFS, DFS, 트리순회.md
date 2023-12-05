@@ -33,3 +33,157 @@
 - 단점
 1) 찾고자 하는 노드가 없는 경로를 탐색할 때 그 경로가 매우 깊다면 쓸데없는 비효율이 발생함
 2) 찾은 경로가 최단경로라는 보장이 없음
+
+
+## 3. BFS
+
+#### 1) 개념
+너비우선탐색(BFS, Breadth First Search)  
+
+이름처럼 너비를 우선순위로 탐색하는 방식으로 먼저 같은 레벨에 있는 노드를 모두 탐색한 후 다음 레벨의 노드로 이동해서 탐색하는 방식  
+
+![[Pasted image 20231205181928.png|300x300]]  
+위 트리를 BFS로 탐색한다면 탐색순서는 0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6이 되는 것  
+
+#### 2) 구현
+
+BFS는 Queue를 이용해서 구현  
+
+쉽게 생각하려면 방문된 노드는 큐에 들어감  
+그 다음 큐에서 값을 빼서 해당 값의 자식노드들이 방문되었었는지 검사받음  
+그리고 그 자식노드들 또한 방문됐으니 큐에 들어감  
+```C++
+#include <iostream>
+#include <vector>
+#include <queue>
+
+std::vector<bool> visited;
+std::vector<std::vector<int>> adj;
+
+void bfs(int u)
+{
+	visited[u] = true;
+	std::cout << u << ' ';
+
+	std::queue<int> q;
+	q.push(u);
+
+	while (q.size()) {
+		int here = q.front();
+		q.pop();
+		for (int there : adj[here]) {
+			if (visited[there]) continue;
+
+			visited[there] = true;
+			std::cout << there << ' ';
+			q.push(there);
+		}
+	}
+}
+
+int main()
+{
+	std::ios::sync_with_stdio(false);
+	std::cin.tie(NULL);
+
+	int number_of_vertex, number_of_edge, start_vertex;
+	std::cin >> number_of_vertex >> number_of_edge >> start_vertex;
+
+	visited.resize(number_of_vertex + 1);
+	adj.resize(number_of_vertex + 1);
+
+	int u, v;
+	for (int i = 0; i < number_of_edge; i++) {
+		std::cin >> u >> v;
+		adj[u].push_back(v);
+		adj[v].push_back(u);
+	}
+
+	bfs(start_vertex);
+
+	return 0;
+}
+```
+
+
+## 4. DFS
+
+#### 1) 개념
+
+깊이우선탐색(DFS, Depth First Search)  
+
+이름처럼 깊이를 우선순위로 두고 탐색하는 방식으로 한 방향으로 끝까지 내려가서 탐색을 하고 더이상 탐색할 곳이 없으면 한칸 위로 올라와서 다른 깊이로 탐색하는 방식  
+
+![[Pasted image 20231205182437.png|300x300]]  
+위 트리를 DFS로 탐색한다면 탐색 순서는 0 -> 1 -> 3 -> 4 -> 2 -> 5 -> 6이 되는 것
+
+#### 2) 구현
+
+DFS는 재귀함수를 이용해서 구현하고 두 가지 방법으로 나뉘며 둘 다 사용할 줄 알아야 함  
+1) 다음 vertex가 방문됐었는지 검사 한 후 가는 방식  
+2) 무작정 가보고 방문됐었던 곳이면 그냥 return하는 방식  
+
+1번방식(노크하고 진입)  
+```C++
+void dfs(int here){
+    visited[here] = 1; 
+    
+    for(int there : adj[here]){
+        if(!visited[there]) dfs(there);
+    }
+}
+```
+
+2번방식(무작정 진입)  
+```C++
+void dfs(int here){
+    if(visited[here]) return;
+    visited[here] = 1;
+    
+    for(int there : adj[here]){ 
+        dfs(there);
+    }
+}
+```
+
+1번방식으로 구현해본 전체 코드
+```C++
+#include <iostream>
+#include <vector>
+
+std::vector<bool> visited;
+std::vector<std::vector<int>> adj;
+
+void dfs(int u)
+{
+	visited[u] = true;
+	std::cout << u << ' ';
+
+	for (int v : adj[u]) {
+		if (!visited[v]) dfs(v);
+	}
+}
+
+int main()
+{
+	std::ios::sync_with_stdio(false);
+	std::cin.tie(NULL);
+
+	int number_of_vertex, number_of_edge, start_vertex;
+	std::cin >> number_of_vertex >> number_of_edge >> start_vertex;
+
+	visited.resize(number_of_vertex + 1);
+	adj.resize(number_of_vertex + 1);
+
+	int u, v;
+	for (int i = 0; i < number_of_edge; i++) {
+		std::cin >> u >> v;
+		adj[u].push_back(v);
+		adj[v].push_back(u);
+	}
+
+	dfs(start_vertex);
+
+	return 0;
+}
+```
