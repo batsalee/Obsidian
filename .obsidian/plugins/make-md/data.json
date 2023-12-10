@@ -77,7 +77,8 @@
       "자료구조/선형구조",
       "알고리즘",
       "알고리즘",
-      "자료구조/비선형 구조"
+      "자료구조/비선형 구조",
+      "수학적 지식"
     ],
     "as": [
       "Hello Obsidian",
@@ -177,7 +178,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1702058972789,
+  "spacesAutoBackupLast": 1702236767880,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

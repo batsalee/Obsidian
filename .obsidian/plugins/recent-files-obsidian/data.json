@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "모스부호",
+      "path": "수학적 지식/모스부호.md"
+    },
+    {
       "basename": "비트마스킹",
       "path": "알고리즘/비트마스킹.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "multiset",
       "path": "C++/STL/Container/연관 컨테이너/multiset.md"
-    },
-    {
-      "basename": "map",
-      "path": "C++/STL/Container/연관 컨테이너/map.md"
     }
   ],
   "omittedPaths": [],
