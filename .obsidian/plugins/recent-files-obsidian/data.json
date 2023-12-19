@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "모스부호",
-      "path": "수학적 지식/모스부호.md"
+      "basename": "최단거리",
+      "path": "알고리즘/최단거리.md"
     },
     {
-      "basename": "비트마스킹",
-      "path": "알고리즘/비트마스킹.md"
+      "basename": "알고리즘",
+      "path": "알고리즘/알고리즘.md"
     },
     {
       "basename": "BFS, DFS, 트리순회",
       "path": "알고리즘/BFS, DFS, 트리순회.md"
     },
     {
-      "basename": "알고리즘",
-      "path": "알고리즘/알고리즘.md"
+      "basename": "모스부호",
+      "path": "수학적 지식/모스부호.md"
+    },
+    {
+      "basename": "비트마스킹",
+      "path": "알고리즘/비트마스킹.md"
     },
     {
       "basename": "그래프",
@@ -195,10 +199,6 @@
     {
       "basename": "multimap",
       "path": "C++/STL/Container/연관 컨테이너/multimap.md"
-    },
-    {
-      "basename": "multiset",
-      "path": "C++/STL/Container/연관 컨테이너/multiset.md"
     }
   ],
   "omittedPaths": [],
