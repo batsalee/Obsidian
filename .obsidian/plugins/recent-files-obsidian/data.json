@@ -5,6 +5,10 @@
       "path": "알고리즘/최단거리.md"
     },
     {
+      "basename": "DLL(Dynamic Link Library)",
+      "path": "C++/Code Keeping/DLL(Dynamic Link Library).md"
+    },
+    {
       "basename": "알고리즘",
       "path": "알고리즘/알고리즘.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "unordered_set",
       "path": "C++/STL/Container/해시 컨테이너/unordered_set.md"
-    },
-    {
-      "basename": "multimap",
-      "path": "C++/STL/Container/연관 컨테이너/multimap.md"
     }
   ],
   "omittedPaths": [],

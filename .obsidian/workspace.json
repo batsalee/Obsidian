@@ -184,8 +184,9 @@
   },
   "active": "000f4d6c81f08bf9",
   "lastOpenFiles": [
-    "알고리즘/알고리즘.md",
+    "C++/Code Keeping/DLL(Dynamic Link Library).md",
     "알고리즘/최단거리.md",
+    "알고리즘/알고리즘.md",
     "알고리즘/BFS, DFS, 트리순회.md",
     "수학적 지식/모스부호.md",
     "알고리즘/비트마스킹.md",
@@ -227,7 +228,6 @@
     "순차리스트(배열).md",
     "자료구조/선형구조/list.md",
     "자료구조/선형구조",
-    "자료구조/list.md",
     "자료구조/선형 구조",
     "자료구조/contents",
     "무제 파일.canvas"
