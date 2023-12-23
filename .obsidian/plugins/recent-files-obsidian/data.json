@@ -5,6 +5,14 @@
       "path": "알고리즘/최단거리.md"
     },
     {
+      "basename": "priority_queue",
+      "path": "C++/STL/Container/컨테이너 어댑터/priority_queue.md"
+    },
+    {
+      "basename": "priority_queue",
+      "path": "자료구조/선형 구조/priority_queue.md"
+    },
+    {
       "basename": "알고리즘",
       "path": "알고리즘/알고리즘.md"
     },
@@ -55,14 +63,6 @@
     {
       "basename": "신장트리, 최소신장트리",
       "path": "자료구조/심화 자료구조/신장트리, 최소신장트리.md"
-    },
-    {
-      "basename": "priority_queue",
-      "path": "C++/STL/Container/컨테이너 어댑터/priority_queue.md"
-    },
-    {
-      "basename": "priority_queue",
-      "path": "자료구조/선형 구조/priority_queue.md"
     },
     {
       "basename": "vector",

@@ -75,7 +75,9 @@ while(!pq.empty()) {
 
 3) 오름차순 priority_queue 만들기
 큰 값부터 나오는 것이 아니라 작은 값부터 나오게 만들 고 싶다면  
-`priority_queue <int, vector<int>, greater<int> > pq;`처럼 생성 후 사용
+`priority_queue <int, vector<int>, greater<int> > pq;`처럼 생성 후 사용하거나
+그냥 `priority_queue<int> pq;`로 선언하고 `pq.push(-value);`로 값을 -로 넣어버리고
+`int cost = -pq.top();`로 값을 빼올때 -를 또 붙여버리는 방법도 있음
 
 4) 정렬 우선순위 지정하는 법
 람다함수가 template 안이라서 오류가 나는듯함
