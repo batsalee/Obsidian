@@ -5,12 +5,12 @@
       "path": "알고리즘/최단거리.md"
     },
     {
-      "basename": "DLL(Dynamic Link Library)",
-      "path": "C++/Code Keeping/DLL(Dynamic Link Library).md"
-    },
-    {
       "basename": "알고리즘",
       "path": "알고리즘/알고리즘.md"
+    },
+    {
+      "basename": "DLL(Dynamic Link Library)",
+      "path": "C++/Code Keeping/DLL(Dynamic Link Library).md"
     },
     {
       "basename": "BFS, DFS, 트리순회",
