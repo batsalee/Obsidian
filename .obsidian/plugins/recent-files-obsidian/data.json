@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "알고리즘",
+      "path": "알고리즘/알고리즘.md"
+    },
+    {
       "basename": "최단거리",
       "path": "알고리즘/최단거리.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "priority_queue",
       "path": "자료구조/선형 구조/priority_queue.md"
-    },
-    {
-      "basename": "알고리즘",
-      "path": "알고리즘/알고리즘.md"
     },
     {
       "basename": "DLL(Dynamic Link Library)",
