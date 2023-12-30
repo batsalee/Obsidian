@@ -76,7 +76,7 @@
       "자료구조/선형구조",
       "자료구조/비선형 구조",
       "알고리즘",
-      "C++/STL"
+      "C++/Code Keeping"
     ],
     "as": [
       "Hello Obsidian",
@@ -176,7 +176,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1703392748028,
+  "spacesAutoBackupLast": 1703930156126,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

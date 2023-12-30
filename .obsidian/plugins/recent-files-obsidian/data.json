@@ -5,6 +5,38 @@
       "path": "알고리즘/최단거리.md"
     },
     {
+      "basename": "CodingTestFrame",
+      "path": "C++/Code Keeping/CodingTestFrame.md"
+    },
+    {
+      "basename": "MySQL 연동",
+      "path": "C++/Code Keeping/MySQL 연동.md"
+    },
+    {
+      "basename": "nCr",
+      "path": "C++/Code Keeping/nCr.md"
+    },
+    {
+      "basename": "DLL(Dynamic Link Library)",
+      "path": "C++/Code Keeping/DLL(Dynamic Link Library).md"
+    },
+    {
+      "basename": "소수 여부 판별",
+      "path": "C++/Code Keeping/소수 여부 판별.md"
+    },
+    {
+      "basename": "eof",
+      "path": "C++/Code Keeping/eof.md"
+    },
+    {
+      "basename": "temp변수를 사용하지 않는 swap 구현",
+      "path": "C++/Code Keeping/temp변수를 사용하지 않는 swap 구현.md"
+    },
+    {
+      "basename": "cout 지수출력 방지",
+      "path": "C++/Code Keeping/cout 지수출력 방지.md"
+    },
+    {
       "basename": "알고리즘",
       "path": "알고리즘/알고리즘.md"
     },
@@ -19,10 +51,6 @@
     {
       "basename": "priority_queue",
       "path": "자료구조/선형 구조/priority_queue.md"
-    },
-    {
-      "basename": "DLL(Dynamic Link Library)",
-      "path": "C++/Code Keeping/DLL(Dynamic Link Library).md"
     },
     {
       "basename": "BFS, DFS, 트리순회",
@@ -145,10 +173,6 @@
       "path": "Hello Obsidian/마크다운 문법 정리.md"
     },
     {
-      "basename": "MySQL 연동",
-      "path": "C++/Code Keeping/MySQL 연동.md"
-    },
-    {
       "basename": "DB",
       "path": "DB/DB.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "GitHub에 이미지 올리는 법",
       "path": "Git/GitHub에 이미지 올리는 법.md"
-    },
-    {
-      "basename": "Hello Obsidian",
-      "path": "Hello Obsidian/Hello Obsidian.md"
-    },
-    {
-      "basename": "Iterator",
-      "path": "C++/STL/Iteraoter/Iterator.md"
-    },
-    {
-      "basename": "Algorithm",
-      "path": "C++/STL/Algorithm/Algorithm.md"
-    },
-    {
-      "basename": "컨테이너 어댑터",
-      "path": "C++/STL/Container/컨테이너 어댑터/컨테이너 어댑터.md"
-    },
-    {
-      "basename": "unordered_map",
-      "path": "C++/STL/Container/해시 컨테이너/unordered_map.md"
-    },
-    {
-      "basename": "unordered_set",
-      "path": "C++/STL/Container/해시 컨테이너/unordered_set.md"
     }
   ],
   "omittedPaths": [],
