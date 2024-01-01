@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "알고리즘",
+      "path": "알고리즘/알고리즘.md"
+    },
+    {
       "basename": "최단거리",
       "path": "알고리즘/최단거리.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "cout 지수출력 방지",
       "path": "C++/Code Keeping/cout 지수출력 방지.md"
-    },
-    {
-      "basename": "알고리즘",
-      "path": "알고리즘/알고리즘.md"
     },
     {
       "basename": "비트마스킹",

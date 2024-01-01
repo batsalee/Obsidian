@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/최단거리.md",
+                "file": "알고리즘/알고리즘.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "46281f4ed08a4855",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/최단거리.md",
+                "file": "알고리즘/알고리즘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/최단거리.md",
+                "file": "알고리즘/알고리즘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/최단거리.md"
+                "file": "알고리즘/알고리즘.md"
               }
             }
           },
@@ -182,8 +193,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "000f4d6c81f08bf9",
+  "active": "46281f4ed08a4855",
   "lastOpenFiles": [
+    "알고리즘/최단거리.md",
     "C++/Code Keeping/CodingTestFrame.md",
     "C++/Code Keeping/MySQL 연동.md",
     "C++/Code Keeping/nCr.md",
@@ -192,7 +204,6 @@
     "C++/Code Keeping/eof.md",
     "C++/Code Keeping/temp변수를 사용하지 않는 swap 구현.md",
     "C++/Code Keeping/cout 지수출력 방지.md",
-    "알고리즘/최단거리.md",
     "알고리즘/알고리즘.md",
     "알고리즘/contents/Pasted image 20231224133906.png",
     "알고리즘/비트마스킹.md",
