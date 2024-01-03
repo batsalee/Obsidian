@@ -23,9 +23,11 @@
             "id": "46281f4ed08a4855",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.3"
+                "file": "알고리즘/비트마스킹.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -113,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/알고리즘.md",
+                "file": "알고리즘/비트마스킹.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/알고리즘.md",
+                "file": "알고리즘/비트마스킹.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/알고리즘.md"
+                "file": "알고리즘/비트마스킹.md"
               }
             }
           },
@@ -195,6 +197,8 @@
   },
   "active": "46281f4ed08a4855",
   "lastOpenFiles": [
+    "알고리즘/누적 합.md",
+    "알고리즘/복잡도개념.md",
     "알고리즘/최단거리.md",
     "C++/Code Keeping/CodingTestFrame.md",
     "C++/Code Keeping/MySQL 연동.md",
@@ -222,8 +226,6 @@
     "알고리즘/contents/Pasted image 20231209030626.png",
     "자료구조/비선형 구조/그래프.md",
     "자료구조/비선형 구조/트리.md",
-    "알고리즘/누적 합.md",
-    "알고리즘/복잡도개념.md",
     "알고리즘/contents",
     "자료구조/심화 자료구조/Hash Table.md",
     "자료구조/심화 자료구조/Heap.md",
