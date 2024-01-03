@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Notepad",
-      "path": "Notepad/Notepad.md"
-    },
-    {
       "basename": "최단거리",
       "path": "알고리즘/최단거리.md"
     },
     {
       "basename": "알고리즘",
       "path": "알고리즘/알고리즘.md"
+    },
+    {
+      "basename": "Notepad",
+      "path": "Notepad/Notepad.md"
     },
     {
       "basename": "비트마스킹",
