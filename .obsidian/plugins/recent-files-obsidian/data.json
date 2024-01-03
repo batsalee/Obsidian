@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "최단거리",
+      "path": "알고리즘/최단거리.md"
+    },
+    {
+      "basename": "알고리즘",
+      "path": "알고리즘/알고리즘.md"
+    },
+    {
       "basename": "비트마스킹",
       "path": "알고리즘/비트마스킹.md"
     },
@@ -11,14 +19,6 @@
     {
       "basename": "복잡도개념",
       "path": "알고리즘/복잡도개념.md"
-    },
-    {
-      "basename": "알고리즘",
-      "path": "알고리즘/알고리즘.md"
-    },
-    {
-      "basename": "최단거리",
-      "path": "알고리즘/최단거리.md"
     },
     {
       "basename": "CodingTestFrame",
