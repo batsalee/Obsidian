@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "최단거리",
-      "path": "알고리즘/최단거리.md"
-    },
-    {
       "basename": "알고리즘",
       "path": "알고리즘/알고리즘.md"
+    },
+    {
+      "basename": "완전탐색, 백트래킹",
+      "path": "알고리즘/완전탐색, 백트래킹.md"
+    },
+    {
+      "basename": "최단거리",
+      "path": "알고리즘/최단거리.md"
     },
     {
       "basename": "Notepad",
@@ -195,10 +199,6 @@
     {
       "basename": "GitHub",
       "path": "Git/GitHub.md"
-    },
-    {
-      "basename": "GitHub에 이미지 올리는 법",
-      "path": "Git/GitHub에 이미지 올리는 법.md"
     }
   ],
   "omittedPaths": [],
