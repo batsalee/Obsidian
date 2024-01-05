@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "알고리즘",
-      "path": "알고리즘/알고리즘.md"
-    },
-    {
       "basename": "완전탐색, 백트래킹",
       "path": "알고리즘/완전탐색, 백트래킹.md"
+    },
+    {
+      "basename": "알고리즘",
+      "path": "알고리즘/알고리즘.md"
     },
     {
       "basename": "최단거리",
