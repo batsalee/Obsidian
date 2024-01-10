@@ -75,10 +75,10 @@
       "C++/Code Keeping",
       "자료구조/선형구조",
       "자료구조/비선형 구조",
-      "알고리즘",
       "C++/Code Keeping",
-      "알고리즘",
-      "Notepad"
+      "Notepad",
+      "/",
+      "알고리즘"
     ],
     "as": [
       "Hello Obsidian",
@@ -178,7 +178,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1704359951466,
+  "spacesAutoBackupLast": 1704865252481,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
