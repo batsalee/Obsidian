@@ -1,24 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "알고리즘",
-      "path": "알고리즘/알고리즘.md"
-    },
-    {
       "basename": "최단거리",
       "path": "알고리즘/최단거리.md"
     },
     {
       "basename": "BFS, DFS, 트리순회",
       "path": "알고리즘/BFS, DFS, 트리순회.md"
-    },
-    {
-      "basename": "완전탐색, 백트래킹",
-      "path": "알고리즘/완전탐색, 백트래킹.md"
-    },
-    {
-      "basename": "Notepad",
-      "path": "Notepad/Notepad.md"
     },
     {
       "basename": "비트마스킹",
@@ -31,6 +19,18 @@
     {
       "basename": "복잡도개념",
       "path": "알고리즘/복잡도개념.md"
+    },
+    {
+      "basename": "알고리즘",
+      "path": "알고리즘/알고리즘.md"
+    },
+    {
+      "basename": "완전탐색, 백트래킹",
+      "path": "알고리즘/완전탐색, 백트래킹.md"
+    },
+    {
+      "basename": "Notepad",
+      "path": "Notepad/Notepad.md"
     },
     {
       "basename": "CodingTestFrame",
