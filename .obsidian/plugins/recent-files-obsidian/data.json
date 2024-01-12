@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "옵시디언 티스토리 플러그인",
+      "path": "Notepad/옵시디언 티스토리 플러그인.md"
+    },
+    {
+      "basename": "Hello Obsidian",
+      "path": "Hello Obsidian/Hello Obsidian.md"
+    },
+    {
+      "basename": "마크다운 문법 정리",
+      "path": "Hello Obsidian/마크다운 문법 정리.md"
+    },
+    {
+      "basename": "Notepad",
+      "path": "Notepad/Notepad.md"
+    },
+    {
       "basename": "최단거리",
       "path": "알고리즘/최단거리.md"
     },
     {
       "basename": "알고리즘",
       "path": "알고리즘/알고리즘.md"
-    },
-    {
-      "basename": "Notepad",
-      "path": "Notepad/Notepad.md"
     },
     {
       "basename": "CodingTestFrame",
@@ -173,10 +185,6 @@
       "path": "C++/STL/Container/컨테이너 어댑터/stack.md"
     },
     {
-      "basename": "마크다운 문법 정리",
-      "path": "Hello Obsidian/마크다운 문법 정리.md"
-    },
-    {
       "basename": "DB",
       "path": "DB/DB.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "메타데이터(meta-data)",
       "path": "CS 지식/프로그래밍 용어/메타데이터(meta-data).md"
-    },
-    {
-      "basename": "Git",
-      "path": "Git/Git.md"
-    },
-    {
-      "basename": "GitHub",
-      "path": "Git/GitHub.md"
     }
   ],
   "omittedPaths": [],
