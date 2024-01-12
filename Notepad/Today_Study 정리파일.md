@@ -815,3 +815,7 @@ for(int v : vec) {
 ```
 이런 형태겠지만 vec을 v로 복사할 필요 없이 참조만 하는 경우는  
 `for(const int& v : vec)` 처럼 쓰는게 더 좋다  
+
+
+문장의 문자들을 모두 소문자로 바꾸고 싶다면
+transform(my_string.begin(), my_string.end(), my_string.begin(), ::tolower);

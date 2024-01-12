@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "최단거리",
+      "path": "알고리즘/최단거리.md"
+    },
+    {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
+    },
+    {
       "basename": "옵시디언 티스토리 플러그인",
       "path": "Notepad/옵시디언 티스토리 플러그인.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "Notepad",
       "path": "Notepad/Notepad.md"
-    },
-    {
-      "basename": "최단거리",
-      "path": "알고리즘/최단거리.md"
     },
     {
       "basename": "알고리즘",
@@ -195,10 +199,6 @@
     {
       "basename": "데이터베이스 이론",
       "path": "DB/데이터베이스 이론.md"
-    },
-    {
-      "basename": "메타데이터(meta-data)",
-      "path": "CS 지식/프로그래밍 용어/메타데이터(meta-data).md"
     }
   ],
   "omittedPaths": [],
