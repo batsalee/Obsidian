@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notepad/Notepad.md",
+                "file": "알고리즘/최단거리.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notepad/Notepad.md",
+                "file": "알고리즘/최단거리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notepad/Notepad.md",
+                "file": "알고리즘/최단거리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notepad/Notepad.md"
+                "file": "알고리즘/최단거리.md"
               }
             }
           },
@@ -184,16 +184,16 @@
   },
   "active": "000f4d6c81f08bf9",
   "lastOpenFiles": [
+    "알고리즘/알고리즘.md",
+    "Notepad/Notepad.md",
     "알고리즘/최단거리.md",
     "C++/Code Keeping/CodingTestFrame.md",
     "알고리즘/BFS, DFS, 트리순회.md",
     "알고리즘/비트마스킹.md",
     "알고리즘/누적 합.md",
     "알고리즘/복잡도개념.md",
-    "알고리즘/알고리즘.md",
     "알고리즘/완전탐색, 백트래킹.md",
     "알고리즘/contents/Pasted image 20240110143843.png",
-    "Notepad/Notepad.md",
     "C++/Code Keeping/MySQL 연동.md",
     "C++/Code Keeping/nCr.md",
     "C++/Code Keeping/DLL(Dynamic Link Library).md",
