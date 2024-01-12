@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Notepad",
+      "path": "Notepad/Notepad.md"
+    },
+    {
       "basename": "최단거리",
       "path": "알고리즘/최단거리.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "완전탐색, 백트래킹",
       "path": "알고리즘/완전탐색, 백트래킹.md"
-    },
-    {
-      "basename": "Notepad",
-      "path": "Notepad/Notepad.md"
     },
     {
       "basename": "MySQL 연동",
