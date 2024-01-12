@@ -1,5 +1,15 @@
 # Frame
 
+#### data
+```C++
+// int 최대값
+#define INF 2147483647
+
+// 오름차순 priority_queue<pair>
+// 다익스트라
+priority_queue<pair<int, int>, vector<pair<int, int>>, greater<> > pq;
+```
+
 #### frame 1
 ```C++
 #include <bits/stdc++.h>

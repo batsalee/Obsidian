@@ -5,6 +5,10 @@
       "path": "알고리즘/최단거리.md"
     },
     {
+      "basename": "CodingTestFrame",
+      "path": "C++/Code Keeping/CodingTestFrame.md"
+    },
+    {
       "basename": "BFS, DFS, 트리순회",
       "path": "알고리즘/BFS, DFS, 트리순회.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "Notepad",
       "path": "Notepad/Notepad.md"
-    },
-    {
-      "basename": "CodingTestFrame",
-      "path": "C++/Code Keeping/CodingTestFrame.md"
     },
     {
       "basename": "MySQL 연동",
