@@ -15,7 +15,7 @@
 > deque는 stack과 queue가 합쳐진것이라고 볼 수 있으며 양쪽 끝에서 삽입과 삭제가 모두 가능
 
 ## 2. 구현
-- C++기반의 Deque STL : [[C++/STL/Container/시퀀스 컨테이너/deque|deque]]
+- C++기반의 Deque STL : [[C++/C++ STL/Container/시퀀스 컨테이너/deque|deque]]
 
 ## 3. 시간복잡도
 - push : O(1)

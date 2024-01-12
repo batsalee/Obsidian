@@ -12,7 +12,7 @@
 - 다만 항상 완벽한 정렬상태를 유지하는 것이 아닌 첫번째 원소만 루트 node에 있고 나머지는 느슨한 정렬상태
 
 ## 2. 구현
-- C++기반의 Priority_queue STL : [[C++/STL/Container/컨테이너 어댑터/priority_queue|priority_queue]]
+- C++기반의 Priority_queue STL : [[C++/C++ STL/Container/컨테이너 어댑터/priority_queue|priority_queue]]
 
 ## 3. 시간복잡도
 - insert : O(logN)

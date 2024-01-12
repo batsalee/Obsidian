@@ -40,7 +40,7 @@
 
 ## 3. 구현
 - C++기반의 단방향 연결리스트 STL : [[forward_list]]
-- C++기반의 양방향 연결리스트 STL : [[C++/STL/Container/시퀀스 컨테이너/list|list]]
+- C++기반의 양방향 연결리스트 STL : [[C++/C++ STL/Container/시퀀스 컨테이너/list|list]]
 
 ## 4. 시간복잡도
 - node 검색 : O(1)부터 O(n)까지 중 하나(바로 찾거나 끝까지 가서야 찾거나)

@@ -2,7 +2,35 @@
   "recentFiles": [
     {
       "basename": "최단거리",
-      "path": "알고리즘/최단거리.md"
+      "path": "CS 지식/알고리즘/최단거리.md"
+    },
+    {
+      "basename": "알고리즘",
+      "path": "CS 지식/알고리즘/알고리즘.md"
+    },
+    {
+      "basename": "GitHub",
+      "path": "CS 지식/Git & GitHub/GitHub.md"
+    },
+    {
+      "basename": "Git",
+      "path": "CS 지식/Git & GitHub/Git.md"
+    },
+    {
+      "basename": "트리",
+      "path": "CS 지식/자료구조/비선형 구조/트리.md"
+    },
+    {
+      "basename": "Pasted image 20231130131143",
+      "path": "CS 지식/자료구조/비선형 구조/contents/Pasted image 20231130131143.png"
+    },
+    {
+      "basename": "Pasted image 20231130132902",
+      "path": "CS 지식/자료구조/비선형 구조/contents/Pasted image 20231130132902.png"
+    },
+    {
+      "basename": "Pasted image 20231130113849",
+      "path": "CS 지식/자료구조/contents/Pasted image 20231130113849.png"
     },
     {
       "basename": "Today_Study 정리파일",
@@ -25,32 +53,28 @@
       "path": "Notepad/Notepad.md"
     },
     {
-      "basename": "알고리즘",
-      "path": "알고리즘/알고리즘.md"
-    },
-    {
       "basename": "CodingTestFrame",
       "path": "C++/Code Keeping/CodingTestFrame.md"
     },
     {
       "basename": "BFS, DFS, 트리순회",
-      "path": "알고리즘/BFS, DFS, 트리순회.md"
+      "path": "CS 지식/알고리즘/BFS, DFS, 트리순회.md"
     },
     {
       "basename": "비트마스킹",
-      "path": "알고리즘/비트마스킹.md"
+      "path": "CS 지식/알고리즘/비트마스킹.md"
     },
     {
       "basename": "누적 합",
-      "path": "알고리즘/누적 합.md"
+      "path": "CS 지식/알고리즘/누적 합.md"
     },
     {
       "basename": "복잡도개념",
-      "path": "알고리즘/복잡도개념.md"
+      "path": "CS 지식/알고리즘/복잡도개념.md"
     },
     {
       "basename": "완전탐색, 백트래킹",
-      "path": "알고리즘/완전탐색, 백트래킹.md"
+      "path": "CS 지식/알고리즘/완전탐색, 백트래킹.md"
     },
     {
       "basename": "MySQL 연동",
@@ -82,11 +106,11 @@
     },
     {
       "basename": "priority_queue",
-      "path": "C++/STL/Container/컨테이너 어댑터/priority_queue.md"
+      "path": "C++/C++ STL/Container/컨테이너 어댑터/priority_queue.md"
     },
     {
       "basename": "priority_queue",
-      "path": "자료구조/선형 구조/priority_queue.md"
+      "path": "CS 지식/자료구조/선형 구조/priority_queue.md"
     },
     {
       "basename": "모스부호",
@@ -94,31 +118,27 @@
     },
     {
       "basename": "그래프",
-      "path": "자료구조/비선형 구조/그래프.md"
-    },
-    {
-      "basename": "트리",
-      "path": "자료구조/비선형 구조/트리.md"
+      "path": "CS 지식/자료구조/비선형 구조/그래프.md"
     },
     {
       "basename": "Pasted image 20231202174249",
-      "path": "알고리즘/contents/Pasted image 20231202174249.png"
+      "path": "CS 지식/알고리즘/contents/Pasted image 20231202174249.png"
     },
     {
       "basename": "Hash Table",
-      "path": "자료구조/심화 자료구조/Hash Table.md"
+      "path": "CS 지식/자료구조/심화 자료구조/Hash Table.md"
     },
     {
       "basename": "Heap",
-      "path": "자료구조/심화 자료구조/Heap.md"
+      "path": "CS 지식/자료구조/심화 자료구조/Heap.md"
     },
     {
       "basename": "신장트리, 최소신장트리",
-      "path": "자료구조/심화 자료구조/신장트리, 최소신장트리.md"
+      "path": "CS 지식/자료구조/심화 자료구조/신장트리, 최소신장트리.md"
     },
     {
       "basename": "vector",
-      "path": "C++/STL/Container/시퀀스 컨테이너/vector.md"
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/vector.md"
     },
     {
       "basename": "자료구조 정리중",
@@ -126,79 +146,59 @@
     },
     {
       "basename": "Queue",
-      "path": "자료구조/선형 구조/Queue.md"
+      "path": "CS 지식/자료구조/선형 구조/Queue.md"
     },
     {
       "basename": "Stack",
-      "path": "자료구조/선형 구조/Stack.md"
+      "path": "CS 지식/자료구조/선형 구조/Stack.md"
     },
     {
       "basename": "deque",
-      "path": "자료구조/선형 구조/deque.md"
+      "path": "CS 지식/자료구조/선형 구조/deque.md"
     },
     {
       "basename": "list",
-      "path": "자료구조/선형 구조/list.md"
+      "path": "CS 지식/자료구조/선형 구조/list.md"
     },
     {
       "basename": "배열",
-      "path": "자료구조/선형 구조/배열.md"
+      "path": "CS 지식/자료구조/선형 구조/배열.md"
     },
     {
       "basename": "자료구조",
-      "path": "자료구조/자료구조.md"
+      "path": "CS 지식/자료구조/자료구조.md"
     },
     {
       "basename": "deque",
-      "path": "C++/STL/Container/시퀀스 컨테이너/deque.md"
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/deque.md"
     },
     {
       "basename": "list",
-      "path": "C++/STL/Container/시퀀스 컨테이너/list.md"
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/list.md"
     },
     {
       "basename": "forward_list",
-      "path": "C++/STL/Container/시퀀스 컨테이너/forward_list.md"
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/forward_list.md"
     },
     {
       "basename": "array",
-      "path": "C++/STL/Container/시퀀스 컨테이너/array.md"
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/array.md"
     },
     {
       "basename": "시퀀스 컨테이너",
-      "path": "C++/STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
     },
     {
       "basename": "연관 컨테이너",
-      "path": "C++/STL/Container/연관 컨테이너/연관 컨테이너.md"
+      "path": "C++/C++ STL/Container/연관 컨테이너/연관 컨테이너.md"
     },
     {
       "basename": "Container",
-      "path": "C++/STL/Container/Container.md"
-    },
-    {
-      "basename": "Pasted image 20231130113849",
-      "path": "자료구조/contents/Pasted image 20231130113849.png"
+      "path": "C++/C++ STL/Container/Container.md"
     },
     {
       "basename": "queue",
-      "path": "C++/STL/Container/컨테이너 어댑터/queue.md"
-    },
-    {
-      "basename": "stack",
-      "path": "C++/STL/Container/컨테이너 어댑터/stack.md"
-    },
-    {
-      "basename": "DB",
-      "path": "DB/DB.md"
-    },
-    {
-      "basename": "SQL기본문법",
-      "path": "DB/SQL기본문법.md"
-    },
-    {
-      "basename": "데이터베이스 이론",
-      "path": "DB/데이터베이스 이론.md"
+      "path": "C++/C++ STL/Container/컨테이너 어댑터/queue.md"
     }
   ],
   "omittedPaths": [],
