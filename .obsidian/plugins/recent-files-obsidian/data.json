@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "투포인터",
+      "path": "CS 지식/알고리즘/투포인터.md"
+    },
+    {
       "basename": "스위핑",
       "path": "CS 지식/알고리즘/스위핑.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "누적 합",
       "path": "CS 지식/알고리즘/누적 합.md"
-    },
-    {
-      "basename": "투포인터",
-      "path": "CS 지식/알고리즘/투포인터.md"
     },
     {
       "basename": "완전탐색, 백트래킹",
