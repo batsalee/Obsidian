@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "정렬 알고리즘",
+      "path": "CS 지식/알고리즘/정렬 알고리즘.md"
+    },
+    {
+      "basename": "알고리즘",
+      "path": "CS 지식/알고리즘/알고리즘.md"
+    },
+    {
       "basename": "투포인터",
       "path": "CS 지식/알고리즘/투포인터.md"
+    },
+    {
+      "basename": "Pasted image 20240114011945",
+      "path": "CS 지식/알고리즘/contents/Pasted image 20240114011945.png"
     },
     {
       "basename": "스위핑",
@@ -11,10 +23,6 @@
     {
       "basename": "그리디",
       "path": "CS 지식/알고리즘/그리디.md"
-    },
-    {
-      "basename": "알고리즘",
-      "path": "CS 지식/알고리즘/알고리즘.md"
     },
     {
       "basename": "누적 합",
@@ -191,14 +199,6 @@
     {
       "basename": "forward_list",
       "path": "C++/C++ STL/Container/시퀀스 컨테이너/forward_list.md"
-    },
-    {
-      "basename": "array",
-      "path": "C++/C++ STL/Container/시퀀스 컨테이너/array.md"
-    },
-    {
-      "basename": "시퀀스 컨테이너",
-      "path": "C++/C++ STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
     }
   ],
   "omittedPaths": [],

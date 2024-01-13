@@ -74,9 +74,9 @@
       "contents",
       "contents",
       "CS 지식/Git",
-      "CS 지식",
       "CS 지식/알고리즘",
-      "CS 지식/알고리즘"
+      "CS 지식/알고리즘",
+      "CS 지식"
     ],
     "as": [
       "Hello Obsidian",
@@ -176,7 +176,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1705162067366,
+  "spacesAutoBackupLast": 1705163292251,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
