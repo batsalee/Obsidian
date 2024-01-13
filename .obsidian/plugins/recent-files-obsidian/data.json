@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "비트마스킹",
+      "path": "CS 지식/알고리즘/비트마스킹.md"
+    },
+    {
+      "basename": "그리디, 스위핑, 투포인터",
+      "path": "CS 지식/알고리즘/그리디, 스위핑, 투포인터.md"
+    },
+    {
       "basename": "누적 합",
       "path": "CS 지식/알고리즘/누적 합.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "알고리즘",
       "path": "CS 지식/알고리즘/알고리즘.md"
-    },
-    {
-      "basename": "그리디, 스위핑, 투포인터",
-      "path": "CS 지식/알고리즘/그리디, 스위핑, 투포인터.md"
     },
     {
       "basename": "최단거리",
@@ -79,10 +83,6 @@
     {
       "basename": "CodingTestFrame",
       "path": "C++/Code Keeping/CodingTestFrame.md"
-    },
-    {
-      "basename": "비트마스킹",
-      "path": "CS 지식/알고리즘/비트마스킹.md"
     },
     {
       "basename": "MySQL 연동",
