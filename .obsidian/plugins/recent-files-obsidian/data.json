@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "알고리즘",
-      "path": "CS 지식/알고리즘/알고리즘.md"
-    },
-    {
       "basename": "복잡도개념",
       "path": "CS 지식/알고리즘/복잡도개념.md"
+    },
+    {
+      "basename": "옵시디언 티스토리 플러그인",
+      "path": "Notepad/옵시디언 티스토리 플러그인.md"
+    },
+    {
+      "basename": "알고리즘",
+      "path": "CS 지식/알고리즘/알고리즘.md"
     },
     {
       "basename": "누적 합",
@@ -59,10 +63,6 @@
     {
       "basename": "Today_Study 정리파일",
       "path": "Notepad/Today_Study 정리파일.md"
-    },
-    {
-      "basename": "옵시디언 티스토리 플러그인",
-      "path": "Notepad/옵시디언 티스토리 플러그인.md"
     },
     {
       "basename": "Hello Obsidian",
