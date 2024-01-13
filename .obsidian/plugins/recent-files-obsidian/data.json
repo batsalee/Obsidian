@@ -9,6 +9,18 @@
       "path": "CS 지식/알고리즘/알고리즘.md"
     },
     {
+      "basename": "DB",
+      "path": "CS 지식/Database/DB.md"
+    },
+    {
+      "basename": "deque",
+      "path": "CS 지식/자료구조/선형 구조/deque.md"
+    },
+    {
+      "basename": "배열",
+      "path": "CS 지식/자료구조/선형 구조/배열.md"
+    },
+    {
       "basename": "투포인터",
       "path": "CS 지식/알고리즘/투포인터.md"
     },
@@ -177,16 +189,8 @@
       "path": "CS 지식/자료구조/선형 구조/Stack.md"
     },
     {
-      "basename": "deque",
-      "path": "CS 지식/자료구조/선형 구조/deque.md"
-    },
-    {
       "basename": "list",
       "path": "CS 지식/자료구조/선형 구조/list.md"
-    },
-    {
-      "basename": "배열",
-      "path": "CS 지식/자료구조/선형 구조/배열.md"
     },
     {
       "basename": "deque",
@@ -195,10 +199,6 @@
     {
       "basename": "list",
       "path": "C++/C++ STL/Container/시퀀스 컨테이너/list.md"
-    },
-    {
-      "basename": "forward_list",
-      "path": "C++/C++ STL/Container/시퀀스 컨테이너/forward_list.md"
     }
   ],
   "omittedPaths": [],
