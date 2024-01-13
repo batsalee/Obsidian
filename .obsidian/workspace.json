@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/알고리즘/비트마스킹.md",
+                "file": "CS 지식/알고리즘/알고리즘.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/알고리즘/비트마스킹.md",
+                "file": "CS 지식/알고리즘/알고리즘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/알고리즘/비트마스킹.md",
+                "file": "CS 지식/알고리즘/알고리즘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/알고리즘/비트마스킹.md"
+                "file": "CS 지식/알고리즘/알고리즘.md"
               }
             }
           },
@@ -184,16 +184,19 @@
   },
   "active": "000f4d6c81f08bf9",
   "lastOpenFiles": [
-    "CS 지식/알고리즘/그리디, 스위핑, 투포인터.md",
+    "CS 지식/알고리즘/투포인터.md",
+    "CS 지식/알고리즘/알고리즘.md",
+    "CS 지식/알고리즘/스위핑.md",
+    "CS 지식/알고리즘/그리디.md",
+    "CS 지식/알고리즘/완전탐색, 백트래킹.md",
+    "CS 지식/알고리즘/비트마스킹.md",
     "CS 지식/알고리즘/누적 합.md",
     "CS 지식/알고리즘/BFS, DFS, 트리순회.md",
     "CS 지식/알고리즘/복잡도개념.md",
     "Notepad/옵시디언 티스토리 플러그인.md",
-    "CS 지식/알고리즘/알고리즘.md",
     "CS 지식/알고리즘/최단거리.md",
     "CS 지식/자료구조/자료구조.md",
     "CS 지식/자료구조/contents/Pasted image 20231130113849.png",
-    "CS 지식/알고리즘/완전탐색, 백트래킹.md",
     "CS 지식/Git & GitHub/GitHub.md",
     "CS 지식/Git & GitHub/Git.md",
     "CS 지식/디자인패턴",
@@ -207,15 +210,12 @@
     "Hello Obsidian/마크다운 문법 정리.md",
     "Notepad/Notepad.md",
     "C++/Code Keeping/CodingTestFrame.md",
-    "CS 지식/알고리즘/비트마스킹.md",
     "CS 지식/알고리즘/contents/Pasted image 20240110143843.png",
     "C++/Code Keeping/MySQL 연동.md",
     "C++/Code Keeping/nCr.md",
     "C++/Code Keeping/DLL(Dynamic Link Library).md",
     "C++/Code Keeping/소수 여부 판별.md",
     "C++/Code Keeping/eof.md",
-    "C++/Code Keeping/temp변수를 사용하지 않는 swap 구현.md",
-    "C++/Code Keeping/cout 지수출력 방지.md",
     "CS 지식/알고리즘/contents/Pasted image 20231224133906.png",
     "CS 지식/알고리즘/contents/Pasted image 20231223184202.png",
     "CS 지식/알고리즘/contents/Pasted image 20231223184142.png",
