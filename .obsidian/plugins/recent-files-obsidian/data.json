@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "옵시디언 티스토리 플러그인",
-      "path": "Notepad/옵시디언 티스토리 플러그인.md"
+      "basename": "BFS, DFS, 트리순회",
+      "path": "CS 지식/알고리즘/BFS, DFS, 트리순회.md"
+    },
+    {
+      "basename": "누적 합",
+      "path": "CS 지식/알고리즘/누적 합.md"
     },
     {
       "basename": "복잡도개념",
       "path": "CS 지식/알고리즘/복잡도개념.md"
     },
     {
-      "basename": "알고리즘",
-      "path": "CS 지식/알고리즘/알고리즘.md"
+      "basename": "옵시디언 티스토리 플러그인",
+      "path": "Notepad/옵시디언 티스토리 플러그인.md"
     },
     {
-      "basename": "누적 합",
-      "path": "CS 지식/알고리즘/누적 합.md"
+      "basename": "알고리즘",
+      "path": "CS 지식/알고리즘/알고리즘.md"
     },
     {
       "basename": "그리디, 스위핑, 투포인터",
@@ -23,10 +27,6 @@
     {
       "basename": "최단거리",
       "path": "CS 지식/알고리즘/최단거리.md"
-    },
-    {
-      "basename": "BFS, DFS, 트리순회",
-      "path": "CS 지식/알고리즘/BFS, DFS, 트리순회.md"
     },
     {
       "basename": "자료구조",
