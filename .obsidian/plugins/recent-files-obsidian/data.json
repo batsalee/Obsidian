@@ -13,6 +13,10 @@
       "path": "CS 지식/알고리즘/누적 합.md"
     },
     {
+      "basename": "그리디, 스위핑, 투포인터",
+      "path": "CS 지식/알고리즘/그리디, 스위핑, 투포인터.md"
+    },
+    {
       "basename": "최단거리",
       "path": "CS 지식/알고리즘/최단거리.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Container",
       "path": "C++/C++ STL/Container/Container.md"
-    },
-    {
-      "basename": "queue",
-      "path": "C++/C++ STL/Container/컨테이너 어댑터/queue.md"
     }
   ],
   "omittedPaths": [],
