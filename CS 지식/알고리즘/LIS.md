@@ -58,14 +58,10 @@ x번째 수인 `arr[x]`를 마지막 원소로 가지는 lis의 길이를 업데
 20을 볼때 vec.back()보다 20이 더 크니 vec = {-INF, 10, 20}  
 40을 볼때 vec.back()보다 40이 더 크니 vec = {-INF, 10, 20, 40}  
 25을 볼때 vec.back()이 더 크므로 lower_bound로 위치 찾고 대체해버리면 vec = {-INF, 10, 20, 25}  
-
-20을 볼때 vec.back()이 더 크므로 lower_bound로 위치 찾고 대체해버리면 vec = {-INF, 10, 20, 25}
-
-50을 볼때 vec.back()보다 50이 더 크니 vec = {-INF, 10, 20, 25, 50} 
-
+20을 볼때 vec.back()이 더 크므로 lower_bound로 위치 찾고 대체해버리면 vec = {-INF, 10, 20, 25}  
+50을 볼때 vec.back()보다 50이 더 크니 vec = {-INF, 10, 20, 25, 50}  
 이런식으로 쭉쭉 진행하면 최종적으로 vec = {10, 20, 25, 30, 70, 85}이고 push_back()할때마다 result++했으므로 LIS는 6
-
-```
+```C++
 #include <iostream>
 #include <vector>
 
@@ -79,13 +75,13 @@ int main()
 
     int length_of_lis = 0;
     for (int i = 0; i < 9; i++) {
-        if (vec.back() < arr[i]) {
+        if (arr[i] > vec.back()) {
             vec.push_back(arr[i]);
             length_of_lis++;
         }
         else {
-            auto it = lower_bound(vec.begin(), vec.end(), arr[i]);
-            *it = arr[i];
+            auto itr = lower_bound(vec.begin(), vec.end(), arr[i]);
+            *itr = arr[i];
         }
     }
 
@@ -95,6 +91,8 @@ int main()
 }
 ```
 
-※ 참고 문헌
 
+
+
+※ 참고 문헌
 [https://jason9319.tistory.com/113](https://jason9319.tistory.com/113)
