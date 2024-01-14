@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -182,10 +182,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ac77a984984a41b8",
+  "active": "000f4d6c81f08bf9",
   "lastOpenFiles": [
-    "CS 지식/알고리즘/알고리즘.md",
+    "Notepad/옵시디언 티스토리 플러그인.md",
     "CS 지식/알고리즘/정렬 알고리즘.md",
+    "CS 지식/알고리즘/알고리즘.md",
     "CS 지식/Database/DB.md",
     "CS 지식/자료구조/선형 구조/deque.md",
     "CS 지식/자료구조/선형 구조/배열.md",
@@ -207,7 +208,6 @@
     "CS 지식/알고리즘/비트마스킹.md",
     "CS 지식/알고리즘/BFS, DFS, 트리순회.md",
     "CS 지식/알고리즘/복잡도개념.md",
-    "Notepad/옵시디언 티스토리 플러그인.md",
     "CS 지식/알고리즘/최단거리.md",
     "CS 지식/자료구조/자료구조.md",
     "CS 지식/Git & GitHub/GitHub.md",
