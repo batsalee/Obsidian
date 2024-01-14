@@ -1,32 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "DP",
-      "path": "CS 지식/알고리즘/DP.md"
+      "basename": "완전탐색, 백트래킹",
+      "path": "CS 지식/알고리즘/완전탐색, 백트래킹.md"
     },
     {
-      "basename": "알고리즘",
-      "path": "CS 지식/알고리즘/알고리즘.md"
+      "basename": "DP",
+      "path": "CS 지식/알고리즘/DP.md"
     },
     {
       "basename": "정렬 알고리즘",
       "path": "CS 지식/알고리즘/정렬 알고리즘.md"
     },
     {
-      "basename": "이분 탐색",
-      "path": "CS 지식/알고리즘/이분 탐색.md"
-    },
-    {
-      "basename": "완전탐색, 백트래킹",
-      "path": "CS 지식/알고리즘/완전탐색, 백트래킹.md"
-    },
-    {
       "basename": "LIS",
       "path": "CS 지식/알고리즘/LIS.md"
     },
     {
+      "basename": "노션 강의 정리",
+      "path": "Notepad/노션 강의 정리.md"
+    },
+    {
+      "basename": "코딩 습관들여야 할 것들",
+      "path": "Notepad/코딩 습관들여야 할 것들.md"
+    },
+    {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
+    },
+    {
+      "basename": "Notepad",
+      "path": "Notepad/Notepad.md"
+    },
+    {
+      "basename": "자료구조 정리중",
+      "path": "Notepad/자료구조 정리중.md"
+    },
+    {
       "basename": "옵시디언 티스토리 플러그인",
       "path": "Notepad/옵시디언 티스토리 플러그인.md"
+    },
+    {
+      "basename": "알고리즘",
+      "path": "CS 지식/알고리즘/알고리즘.md"
+    },
+    {
+      "basename": "이분 탐색",
+      "path": "CS 지식/알고리즘/이분 탐색.md"
     },
     {
       "basename": "최단거리",
@@ -109,20 +129,12 @@
       "path": "CS 지식/자료구조/비선형 구조/contents/Pasted image 20231130132902.png"
     },
     {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
-    },
-    {
       "basename": "Hello Obsidian",
       "path": "Hello Obsidian/Hello Obsidian.md"
     },
     {
       "basename": "마크다운 문법 정리",
       "path": "Hello Obsidian/마크다운 문법 정리.md"
-    },
-    {
-      "basename": "Notepad",
-      "path": "Notepad/Notepad.md"
     },
     {
       "basename": "CodingTestFrame",
@@ -187,18 +199,6 @@
     {
       "basename": "vector",
       "path": "C++/C++ STL/Container/시퀀스 컨테이너/vector.md"
-    },
-    {
-      "basename": "자료구조 정리중",
-      "path": "Notepad/자료구조 정리중.md"
-    },
-    {
-      "basename": "Queue",
-      "path": "CS 지식/자료구조/선형 구조/Queue.md"
-    },
-    {
-      "basename": "Stack",
-      "path": "CS 지식/자료구조/선형 구조/Stack.md"
     }
   ],
   "omittedPaths": [],

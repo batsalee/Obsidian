@@ -102,15 +102,14 @@ DP를 이용하려면 먼저 점화식을 세워야 한다.
 
 모든 DP문제는 두 방식 모두 풀이가 가능하다.  
 둘 중 더 편하게 느껴지는 방식을 사용해도 되지만 일반적으로는 Top-Down보다는 Bottom-Up방식이 더 좋다고 할 수 있다.
-
 하지만 어떤 문제들은 두 방식의 구현 난이도가 심하게 차이나는 상황이 있기도 하므로 두 방식 모두 사용할 수 있게 연습해야 한다.
-
-```
+```C++
 int fibonacci(int n) // Bottom-Up 방식
 {
-	std::vector<int> f(n + 1);
-	f[1] = f[2] = 1;
-	for (int i = 3; i <= n; i++) {
+	std::vector<int> fibo(n + 1);
+	f[0] = 0;
+	f[1] = 1;
+	for (int i = 2; i <= n; i++) {
 		f[i] = f[i - 1] + f[i - 2];
 	}
 
@@ -119,35 +118,35 @@ int fibonacci(int n) // Bottom-Up 방식
 
 /***************************************/
 
-int arr[10001];
-
 int fibonacci(int n) // Top-Down 방식
 {
-	if (n <= 1) {
-		arr[n] = n;
-		return arr[n];
+	std::vector<int> fibo(n + 1);
+	if (n <= 1) { // 초기조건인 fibo(0) = 0, fibo(1) = 1
+		fibo[n] = n;
+		return fibo[n];
 	}
 
-	if (arr[n] != 0) {
-		return arr[n];
+	if (fibo[n] != 0) { // 이미 저장되어 있는 값이라면 그냥 return
+		return fibo[n];
 	}
-	else {
-		arr[n] = fibonacci(n - 1) + fibonacci(n - 2);
-		return arr[n];
+	else { // 아직 계산한적 없는 값이라면
+		fibo[n] = fibonacci(n - 1) + fibonacci(n - 2);
+		return fibo[n];
 	}
 }​
 ```
 
-※ Bottom-Up이 더 좋은 이유
+>[!note] Bottom-Up이 더 좋은 이유
+> 시간복잡도와 공간복잡도 모두 Bottom-Up방식이 유리하고  
+> 일반적으로 반복문으로 해결이 가능한 문제는 재귀보다는 반복문으로 해결하는것이 좋다.  
+> 
+> 예를들어 Top-Down방식은 피보나치 수열을 Fib(100000)하면 함수 콜 스택이 100000개 쌓여서 오버플로우 될 수 있다.  
+> 그래서 이런 상황에선 좋은 방식이 아니다. 생각의 방식은 더 자연스럽지만 코드면에서 좋지 않은 케이스  
+> 반면 Bottom up 방식이라면 가장 작은 sub problem인 fib(0)부터 시작해서 fib(1), fib(2), ....순으로 값을 저장하며 올라간다면  
+> `int fibo[100001]`만큼의 메모리만 사용하므로 함수스택으로 고민할일은 없다.
 
-시간복잡도와 공간복잡도 모두 Bottom-Up방식이 유리하고,
 
-일반적으로 반복문으로 해결이 가능한 문제는 재귀보다는 반복문으로 해결하는것이 좋다.
 
-예를들어 Top-Down방식은 피보나치 수열을 Fib(100000)하면 함수 콜 스택이 100000개 쌓여서 오버플로우 될 수 있다.  
-그래서 이런 상황에선 좋은 방식이 아니다. 생각의 방식은 더 자연스럽지만 코드면에서 좋지 않은 케이스  
-반면 Bottom up 방식이라면 가장 작은 sub problem인 fib(0)부터 시작해서 fib(1), fib(2), ....순으로 값을 저장하며 올라간다면 함수스택으로 고민할일은 없다.
 
 ※ 참고문헌
-
 [https://sectumsempra.tistory.com/86](https://sectumsempra.tistory.com/86)
