@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "이분 탐색",
-      "path": "CS 지식/알고리즘/이분 탐색.md"
+      "basename": "DP",
+      "path": "CS 지식/알고리즘/DP.md"
+    },
+    {
+      "basename": "알고리즘",
+      "path": "CS 지식/알고리즘/알고리즘.md"
     },
     {
       "basename": "정렬 알고리즘",
       "path": "CS 지식/알고리즘/정렬 알고리즘.md"
     },
     {
-      "basename": "완전탐색, 백트래킹",
-      "path": "CS 지식/알고리즘/완전탐색, 백트래킹.md"
+      "basename": "이분 탐색",
+      "path": "CS 지식/알고리즘/이분 탐색.md"
     },
     {
-      "basename": "알고리즘",
-      "path": "CS 지식/알고리즘/알고리즘.md"
+      "basename": "완전탐색, 백트래킹",
+      "path": "CS 지식/알고리즘/완전탐색, 백트래킹.md"
     },
     {
       "basename": "LIS",
@@ -195,10 +199,6 @@
     {
       "basename": "Stack",
       "path": "CS 지식/자료구조/선형 구조/Stack.md"
-    },
-    {
-      "basename": "list",
-      "path": "CS 지식/자료구조/선형 구조/list.md"
     }
   ],
   "omittedPaths": [],
