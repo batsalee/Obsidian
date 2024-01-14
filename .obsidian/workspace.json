@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notepad/옵시디언 티스토리 플러그인.md",
+                "file": "CS 지식/알고리즘/LIS.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notepad/옵시디언 티스토리 플러그인.md",
+                "file": "CS 지식/알고리즘/LIS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notepad/옵시디언 티스토리 플러그인.md",
+                "file": "CS 지식/알고리즘/LIS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notepad/옵시디언 티스토리 플러그인.md"
+                "file": "CS 지식/알고리즘/LIS.md"
               }
             }
           },
@@ -184,6 +184,7 @@
   },
   "active": "000f4d6c81f08bf9",
   "lastOpenFiles": [
+    "Notepad/옵시디언 티스토리 플러그인.md",
     "CS 지식/알고리즘/LIS.md",
     "CS 지식/알고리즘/알고리즘.md",
     "CS 지식/알고리즘/이분 탐색.md",
@@ -193,7 +194,6 @@
     "CS 지식/알고리즘/contents/Pasted image 20240114231806.png",
     "CS 지식/알고리즘/비트마스킹.md",
     "CS 지식/자료구조/심화 자료구조/Heap.md",
-    "Notepad/옵시디언 티스토리 플러그인.md",
     "CS 지식/Database/DB.md",
     "CS 지식/자료구조/선형 구조/deque.md",
     "CS 지식/자료구조/선형 구조/배열.md",
