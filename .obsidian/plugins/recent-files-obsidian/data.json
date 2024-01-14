@@ -5,6 +5,10 @@
       "path": "CS 지식/알고리즘/정렬 알고리즘.md"
     },
     {
+      "basename": "Heap",
+      "path": "CS 지식/자료구조/심화 자료구조/Heap.md"
+    },
+    {
       "basename": "옵시디언 티스토리 플러그인",
       "path": "Notepad/옵시디언 티스토리 플러그인.md"
     },
@@ -163,10 +167,6 @@
     {
       "basename": "Hash Table",
       "path": "CS 지식/자료구조/심화 자료구조/Hash Table.md"
-    },
-    {
-      "basename": "Heap",
-      "path": "CS 지식/자료구조/심화 자료구조/Heap.md"
     },
     {
       "basename": "신장트리, 최소신장트리",
