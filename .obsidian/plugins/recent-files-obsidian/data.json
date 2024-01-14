@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "이분 탐색",
+      "path": "CS 지식/알고리즘/이분 탐색.md"
+    },
+    {
+      "basename": "정렬 알고리즘",
+      "path": "CS 지식/알고리즘/정렬 알고리즘.md"
+    },
+    {
+      "basename": "완전탐색, 백트래킹",
+      "path": "CS 지식/알고리즘/완전탐색, 백트래킹.md"
+    },
+    {
       "basename": "알고리즘",
       "path": "CS 지식/알고리즘/알고리즘.md"
     },
@@ -9,24 +21,12 @@
       "path": "CS 지식/알고리즘/LIS.md"
     },
     {
-      "basename": "이분 탐색",
-      "path": "CS 지식/알고리즘/이분 탐색.md"
-    },
-    {
       "basename": "옵시디언 티스토리 플러그인",
       "path": "Notepad/옵시디언 티스토리 플러그인.md"
     },
     {
       "basename": "최단거리",
       "path": "CS 지식/알고리즘/최단거리.md"
-    },
-    {
-      "basename": "완전탐색, 백트래킹",
-      "path": "CS 지식/알고리즘/완전탐색, 백트래킹.md"
-    },
-    {
-      "basename": "정렬 알고리즘",
-      "path": "CS 지식/알고리즘/정렬 알고리즘.md"
     },
     {
       "basename": "비트마스킹",
