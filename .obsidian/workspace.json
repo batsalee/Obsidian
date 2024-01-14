@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "FF",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -182,7 +182,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "000f4d6c81f08bf9",
+  "active": "ac77a984984a41b8",
   "lastOpenFiles": [
     "CS 지식/알고리즘/알고리즘.md",
     "CS 지식/알고리즘/정렬 알고리즘.md",
