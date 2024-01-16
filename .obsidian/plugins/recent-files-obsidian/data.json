@@ -5,6 +5,18 @@
       "path": "CS 지식/알고리즘/완전탐색, 백트래킹.md"
     },
     {
+      "basename": "복잡도개념",
+      "path": "CS 지식/알고리즘/복잡도개념.md"
+    },
+    {
+      "basename": "누적 합",
+      "path": "CS 지식/알고리즘/누적 합.md"
+    },
+    {
+      "basename": "알고리즘",
+      "path": "CS 지식/알고리즘/알고리즘.md"
+    },
+    {
       "basename": "DP",
       "path": "CS 지식/알고리즘/DP.md"
     },
@@ -39,10 +51,6 @@
     {
       "basename": "옵시디언 티스토리 플러그인",
       "path": "Notepad/옵시디언 티스토리 플러그인.md"
-    },
-    {
-      "basename": "알고리즘",
-      "path": "CS 지식/알고리즘/알고리즘.md"
     },
     {
       "basename": "이분 탐색",
@@ -89,16 +97,8 @@
       "path": "CS 지식/알고리즘/그리디.md"
     },
     {
-      "basename": "누적 합",
-      "path": "CS 지식/알고리즘/누적 합.md"
-    },
-    {
       "basename": "BFS, DFS, 트리순회",
       "path": "CS 지식/알고리즘/BFS, DFS, 트리순회.md"
-    },
-    {
-      "basename": "복잡도개념",
-      "path": "CS 지식/알고리즘/복잡도개념.md"
     },
     {
       "basename": "자료구조",
