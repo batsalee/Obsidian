@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "vector",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/vector.md"
+    },
+    {
+      "basename": "array",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/array.md"
+    },
+    {
+      "basename": "시퀀스 컨테이너",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
+    },
+    {
+      "basename": "Container",
+      "path": "C++/C++ STL/Container/Container.md"
+    },
+    {
       "basename": "Algorithm",
       "path": "C++/C++ STL/Algorithm/Algorithm.md"
     },
@@ -83,14 +99,6 @@
     {
       "basename": "Modern C++",
       "path": "C++/Modern C++/Modern C++.md"
-    },
-    {
-      "basename": "시퀀스 컨테이너",
-      "path": "C++/C++ STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
-    },
-    {
-      "basename": "Container",
-      "path": "C++/C++ STL/Container/Container.md"
     },
     {
       "basename": "LIS",
@@ -191,14 +199,6 @@
     {
       "basename": "Priority_queue",
       "path": "CS 지식/자료구조/선형 구조/Priority_queue.md"
-    },
-    {
-      "basename": "Queue",
-      "path": "CS 지식/자료구조/선형 구조/Queue.md"
-    },
-    {
-      "basename": "자료구조",
-      "path": "CS 지식/자료구조/자료구조.md"
     }
   ],
   "omittedPaths": [],
