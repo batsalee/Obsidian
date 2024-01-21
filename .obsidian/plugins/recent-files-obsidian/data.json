@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "최단거리",
+      "path": "CS 지식/알고리즘/최단거리.md"
+    },
+    {
+      "basename": "BFS, DFS, 트리순회",
+      "path": "CS 지식/알고리즘/BFS, DFS, 트리순회.md"
+    },
+    {
       "basename": "비트마스킹",
       "path": "CS 지식/알고리즘/비트마스킹.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "소수 여부 판별",
       "path": "C++/Code Keeping/소수 여부 판별.md"
-    },
-    {
-      "basename": "소수 여부 판별",
-      "path": "수학적 지식/소수 여부 판별.md"
-    },
-    {
-      "basename": "GCD, LCM",
-      "path": "C++/Code Keeping/GCD, LCM.md"
     }
   ],
   "omittedPaths": [],
