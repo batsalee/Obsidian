@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "abs",
+      "path": "C++/연산자/abs.md"
+    },
+    {
+      "basename": "typeid",
+      "path": "C++/연산자/typeid.md"
+    },
+    {
       "basename": "예외처리",
       "path": "C++/개념정리/예외처리.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "CamelCase, snake_case",
       "path": "CS 지식/프로그래밍 규범/CamelCase, snake_case.md"
-    },
-    {
-      "basename": "헝가리안 표기법",
-      "path": "CS 지식/프로그래밍 규범/헝가리안 표기법.md"
-    },
-    {
-      "basename": "GitHub",
-      "path": "CS 지식/Git & GitHub/GitHub.md"
     }
   ],
   "omittedPaths": [],
