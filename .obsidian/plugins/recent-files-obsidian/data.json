@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "DP",
+      "path": "CS 지식/알고리즘/DP.md"
+    },
+    {
       "basename": "이분 탐색",
       "path": "CS 지식/알고리즘/이분 탐색.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "옵시디언 티스토리 플러그인",
       "path": "Hello Obsidian/옵시디언 티스토리 플러그인.md"
-    },
-    {
-      "basename": "모스부호",
-      "path": "수학적 지식/모스부호.md"
     }
   ],
   "omittedPaths": [],
