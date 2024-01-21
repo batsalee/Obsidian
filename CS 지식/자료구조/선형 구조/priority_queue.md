@@ -1,4 +1,4 @@
-# priority_queue
+# Priority_queue
 
 ## 1. 개념
 - 우선순위큐

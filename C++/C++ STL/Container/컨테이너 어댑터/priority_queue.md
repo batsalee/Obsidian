@@ -10,7 +10,7 @@ void main()
 ```
 
 #### 1. priority_queue의 개념
-[[자료구조/선형 구조/priority_queue|priority_queue]]
+[[CS 지식/자료구조/선형 구조/Priority_queue|Priority_queue]]
 
 #### 2. priority_queue의 함수 원형
 ```C++

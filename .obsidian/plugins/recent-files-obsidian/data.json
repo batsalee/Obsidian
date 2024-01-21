@@ -1,20 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "array",
-      "path": "C++/C++ STL/Container/시퀀스 컨테이너/array.md"
+      "basename": "Priority_queue",
+      "path": "CS 지식/자료구조/선형 구조/Priority_queue.md"
     },
     {
-      "basename": "vector",
-      "path": "C++/C++ STL/Container/시퀀스 컨테이너/vector.md"
+      "basename": "Queue",
+      "path": "CS 지식/자료구조/선형 구조/Queue.md"
+    },
+    {
+      "basename": "priority_queue",
+      "path": "C++/C++ STL/Container/컨테이너 어댑터/priority_queue.md"
+    },
+    {
+      "basename": "자료구조",
+      "path": "CS 지식/자료구조/자료구조.md"
+    },
+    {
+      "basename": "Stack",
+      "path": "CS 지식/자료구조/선형 구조/Stack.md"
+    },
+    {
+      "basename": "deque",
+      "path": "CS 지식/자료구조/선형 구조/deque.md"
+    },
+    {
+      "basename": "list",
+      "path": "CS 지식/자료구조/선형 구조/list.md"
     },
     {
       "basename": "배열",
       "path": "CS 지식/자료구조/선형 구조/배열.md"
     },
     {
-      "basename": "자료구조",
-      "path": "CS 지식/자료구조/자료구조.md"
+      "basename": "array",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/array.md"
+    },
+    {
+      "basename": "vector",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/vector.md"
     },
     {
       "basename": "DLL(Dynamic Link Library)",
@@ -171,34 +195,6 @@
     {
       "basename": "알고리즘",
       "path": "CS 지식/알고리즘/알고리즘.md"
-    },
-    {
-      "basename": "DP",
-      "path": "CS 지식/알고리즘/DP.md"
-    },
-    {
-      "basename": "정렬 알고리즘",
-      "path": "CS 지식/알고리즘/정렬 알고리즘.md"
-    },
-    {
-      "basename": "LIS",
-      "path": "CS 지식/알고리즘/LIS.md"
-    },
-    {
-      "basename": "이분 탐색",
-      "path": "CS 지식/알고리즘/이분 탐색.md"
-    },
-    {
-      "basename": "비트마스킹",
-      "path": "CS 지식/알고리즘/비트마스킹.md"
-    },
-    {
-      "basename": "Heap",
-      "path": "CS 지식/자료구조/심화 자료구조/Heap.md"
-    },
-    {
-      "basename": "deque",
-      "path": "CS 지식/자료구조/선형 구조/deque.md"
     }
   ],
   "omittedPaths": [],

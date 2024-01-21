@@ -25,7 +25,7 @@
 - pop요청이 들어오면 front에 있는 값이 나가고 front++하면 됨
 
 #### Priority Queue
-[[자료구조/priority_queue|priority_queue]]
+[[CS 지식/자료구조/선형 구조/Priority_queue|Priority_queue]]
 
 ## 3.구현
 - C++기반의 Queue STL : [[C++/C++ STL/Container/컨테이너 어댑터/queue|queue]]
