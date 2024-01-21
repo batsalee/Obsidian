@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "마크다운 문법 정리",
+      "path": "Hello Obsidian/마크다운 문법 정리.md"
+    },
+    {
+      "basename": "Hello Obsidian",
+      "path": "Hello Obsidian/Hello Obsidian.md"
+    },
+    {
+      "basename": "옵시디언 티스토리 플러그인",
+      "path": "Notepad/옵시디언 티스토리 플러그인.md"
+    },
+    {
+      "basename": "문서 작성 시 번호매기는 순서",
+      "path": "Hello Obsidian/문서 작성 시 번호매기는 순서.md"
+    },
+    {
       "basename": "완전탐색, 백트래킹",
       "path": "CS 지식/알고리즘/완전탐색, 백트래킹.md"
     },
@@ -51,10 +67,6 @@
     {
       "basename": "자료구조 정리중",
       "path": "Notepad/자료구조 정리중.md"
-    },
-    {
-      "basename": "옵시디언 티스토리 플러그인",
-      "path": "Notepad/옵시디언 티스토리 플러그인.md"
     },
     {
       "basename": "이분 탐색",
@@ -129,14 +141,6 @@
       "path": "CS 지식/자료구조/비선형 구조/contents/Pasted image 20231130132902.png"
     },
     {
-      "basename": "Hello Obsidian",
-      "path": "Hello Obsidian/Hello Obsidian.md"
-    },
-    {
-      "basename": "마크다운 문법 정리",
-      "path": "Hello Obsidian/마크다운 문법 정리.md"
-    },
-    {
       "basename": "CodingTestFrame",
       "path": "C++/Code Keeping/CodingTestFrame.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "신장트리, 최소신장트리",
       "path": "CS 지식/자료구조/심화 자료구조/신장트리, 최소신장트리.md"
-    },
-    {
-      "basename": "vector",
-      "path": "C++/C++ STL/Container/시퀀스 컨테이너/vector.md"
     }
   ],
   "omittedPaths": [],
