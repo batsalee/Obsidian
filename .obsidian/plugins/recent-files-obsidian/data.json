@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "map",
+      "path": "C++/C++ STL/Container/연관 컨테이너/map.md"
+    },
+    {
+      "basename": "set",
+      "path": "C++/C++ STL/Container/연관 컨테이너/set.md"
+    },
+    {
       "basename": "deque",
       "path": "C++/C++ STL/Container/시퀀스 컨테이너/deque.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Hash Table",
       "path": "CS 지식/자료구조/심화 자료구조/Hash Table.md"
-    },
-    {
-      "basename": "Heap",
-      "path": "CS 지식/자료구조/심화 자료구조/Heap.md"
-    },
-    {
-      "basename": "그래프",
-      "path": "CS 지식/자료구조/비선형 구조/그래프.md"
     }
   ],
   "omittedPaths": [],
