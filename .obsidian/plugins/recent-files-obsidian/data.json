@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Algorithm",
+      "path": "C++/C++ STL/Algorithm/Algorithm.md"
+    },
+    {
       "basename": "STL",
       "path": "C++/C++ STL/STL.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "자료구조",
       "path": "CS 지식/자료구조/자료구조.md"
-    },
-    {
-      "basename": "Stack",
-      "path": "CS 지식/자료구조/선형 구조/Stack.md"
     }
   ],
   "omittedPaths": [],
