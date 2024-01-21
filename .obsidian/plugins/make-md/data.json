@@ -74,14 +74,15 @@
       "contents",
       "contents",
       "CS 지식/Git",
-      "C++/C++ STL",
       "자료구조",
       "C++/C++ STL/Container",
       "C++/C++ STL/Container/컨테이너 어댑터",
       "CS 지식/자료구조/심화 자료구조",
       "CS 지식/알고리즘",
       "C++",
-      "C++/C++ STL/Container/시퀀스 컨테이너"
+      "C++/C++ STL/Container/시퀀스 컨테이너",
+      "C++/개념정리",
+      "C++/Code Keeping"
     ],
     "as": [
       "Hello Obsidian",

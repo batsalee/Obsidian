@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "예외처리",
+      "path": "C++/개념정리/예외처리.md"
+    },
+    {
+      "basename": "int와 long의 차이",
+      "path": "C++/개념정리/int와 long의 차이.md"
+    },
+    {
+      "basename": "thread",
+      "path": "C++/Modern C++/Library/thread.md"
+    },
+    {
+      "basename": "Modern C++",
+      "path": "C++/Modern C++/Modern C++.md"
+    },
+    {
       "basename": "STL",
       "path": "C++/C++ STL/STL.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "GitHub",
       "path": "CS 지식/Git & GitHub/GitHub.md"
-    },
-    {
-      "basename": "Git",
-      "path": "CS 지식/Git & GitHub/Git.md"
-    },
-    {
-      "basename": "DQL",
-      "path": "CS 지식/Database/DQL.md"
-    },
-    {
-      "basename": "DB",
-      "path": "CS 지식/Database/DB.md"
-    },
-    {
-      "basename": "Notepad",
-      "path": "Notepad/Notepad.md"
     }
   ],
   "omittedPaths": [],
