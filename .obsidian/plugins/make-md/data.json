@@ -78,12 +78,9 @@
       "C++/C++ STL/Container",
       "C++/C++ STL/Container/컨테이너 어댑터",
       "CS 지식/자료구조/심화 자료구조",
-      "CS 지식/알고리즘",
       "C++",
       "C++/C++ STL/Container/시퀀스 컨테이너",
-      "C++/Code Keeping",
-      "CS 지식",
-      "CS 지식/프로그래밍 용어"
+      "C++/C++ STL"
     ],
     "as": [
       "Hello Obsidian",
@@ -183,7 +180,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1705807148847,
+  "spacesAutoBackupLast": 1705821450879,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

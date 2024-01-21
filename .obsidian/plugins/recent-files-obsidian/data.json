@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "DLL(Dynamic Link Library)",
-      "path": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
+      "basename": "STL",
+      "path": "C++/C++ STL/STL.md"
+    },
+    {
+      "basename": "sqrt, pow",
+      "path": "C++/Code Keeping/sqrt, pow.md"
+    },
+    {
+      "basename": "GCD, LCM",
+      "path": "C++/Code Keeping/GCD, LCM.md"
+    },
+    {
+      "basename": "윤년",
+      "path": "C++/Code Keeping/윤년.md"
+    },
+    {
+      "basename": "진법 변환",
+      "path": "C++/Code Keeping/진법 변환.md"
+    },
+    {
+      "basename": "cout 지수출력 방지",
+      "path": "C++/Code Keeping/cout 지수출력 방지.md"
+    },
+    {
+      "basename": "temp변수를 사용하지 않는 swap 구현",
+      "path": "C++/Code Keeping/temp변수를 사용하지 않는 swap 구현.md"
+    },
+    {
+      "basename": "eof",
+      "path": "C++/Code Keeping/eof.md"
+    },
+    {
+      "basename": "소수 여부 판별",
+      "path": "C++/Code Keeping/소수 여부 판별.md"
     },
     {
       "basename": "DLL(Dynamic Link Library)",
@@ -19,6 +51,10 @@
     {
       "basename": "CodingTestFrame",
       "path": "C++/Code Keeping/CodingTestFrame.md"
+    },
+    {
+      "basename": "DLL(Dynamic Link Library)",
+      "path": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
     },
     {
       "basename": "abs",
@@ -43,10 +79,6 @@
     {
       "basename": "Modern C++",
       "path": "C++/Modern C++/Modern C++.md"
-    },
-    {
-      "basename": "STL",
-      "path": "C++/C++ STL/STL.md"
     },
     {
       "basename": "시퀀스 컨테이너",
@@ -167,38 +199,6 @@
     {
       "basename": "Stack",
       "path": "CS 지식/자료구조/선형 구조/Stack.md"
-    },
-    {
-      "basename": "deque",
-      "path": "CS 지식/자료구조/선형 구조/deque.md"
-    },
-    {
-      "basename": "list",
-      "path": "CS 지식/자료구조/선형 구조/list.md"
-    },
-    {
-      "basename": "배열",
-      "path": "CS 지식/자료구조/선형 구조/배열.md"
-    },
-    {
-      "basename": "array",
-      "path": "C++/C++ STL/Container/시퀀스 컨테이너/array.md"
-    },
-    {
-      "basename": "vector",
-      "path": "C++/C++ STL/Container/시퀀스 컨테이너/vector.md"
-    },
-    {
-      "basename": "콜백함수(Callback Func)",
-      "path": "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md"
-    },
-    {
-      "basename": "메타데이터(meta-data)",
-      "path": "CS 지식/프로그래밍 용어/메타데이터(meta-data).md"
-    },
-    {
-      "basename": "서드 파티(Third Party)",
-      "path": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md"
     }
   ],
   "omittedPaths": [],
