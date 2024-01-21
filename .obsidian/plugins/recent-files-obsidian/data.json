@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "트리",
+      "path": "CS 지식/자료구조/비선형 구조/트리.md"
+    },
+    {
+      "basename": "priority_queue",
+      "path": "C++/C++ STL/Container/컨테이너 어댑터/priority_queue.md"
+    },
+    {
       "basename": "Priority_queue",
       "path": "CS 지식/자료구조/선형 구조/Priority_queue.md"
     },
     {
       "basename": "Queue",
       "path": "CS 지식/자료구조/선형 구조/Queue.md"
-    },
-    {
-      "basename": "priority_queue",
-      "path": "C++/C++ STL/Container/컨테이너 어댑터/priority_queue.md"
     },
     {
       "basename": "자료구조",

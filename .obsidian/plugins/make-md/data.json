@@ -76,13 +76,12 @@
       "CS 지식/Git",
       "CS 지식",
       "Notepad",
-      "C++",
       "C++/C++ STL",
-      "C++/C++ STL/Container",
-      "C++/C++ STL/Container/시퀀스 컨테이너",
       "CS 지식/자료구조",
       "자료구조",
-      "CS 지식/자료구조/비선형 구조"
+      "CS 지식/자료구조/비선형 구조",
+      "C++/C++ STL/Container",
+      "C++/C++ STL/Container/컨테이너 어댑터"
     ],
     "as": [
       "Hello Obsidian",
@@ -182,7 +181,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1705806827381,
+  "spacesAutoBackupLast": 1705807148847,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
