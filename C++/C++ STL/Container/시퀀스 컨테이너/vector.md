@@ -123,13 +123,13 @@ class vector;
 - 복사생성자 : `std::vector<int> v1 = v2;` 처럼 생성하면 v1이 v2와 동일한 원소를 복사본으로 가지는 벡터를 생성
 
 2) 벡터에 대입
-- 정적배열을 벡터로 대입하려면 아래처럼 사용
+- 정적배열 -> 벡터 대입
 ```C++
 int nums[] = {1, 2, 3, 4}; 
 std::vector<int> v(nums, nums + sizeof(nums) / sizeof(int));
 ```
 
-- assign 함수 사용 시  
+- assign 함수로 대입
 	- 벡터객체에 이전에 있던 내용을 모두 삭제하고 인자로 받은 새로운 내용을 넣음
 	- `v.assign(v2.begin(), v2.end());` 처럼 하면 v2의 처음부터 끝까지
 	- `v.assign(n, u);` 처럼 하면 n개의 u를 넣음
@@ -182,5 +182,8 @@ std::vector<int> v[행크기];
 	그러므로 insert나 erase를 연속적으로 여러번 사용한다면 바로 뒷줄에 `itr = vec.begin()`같은걸로 다시 값을 지정해줘야함
 	그냥 애초에 이런 상황이 생기지 않게 insert나 erase를 할 상황이 많으면 list를 채택하는것이 맞음
 - erase의 경우 이런 불편함을 해결하기 위해 remove 사용
+
+
+
 
 출처 : [https://cplusplus.com/reference/vector/vector/](https://cplusplus.com/reference/vector/vector/)

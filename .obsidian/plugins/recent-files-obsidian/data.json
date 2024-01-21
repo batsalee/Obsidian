@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "forward_list",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/forward_list.md"
+    },
+    {
       "basename": "vector",
       "path": "C++/C++ STL/Container/시퀀스 컨테이너/vector.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "priority_queue",
       "path": "C++/C++ STL/Container/컨테이너 어댑터/priority_queue.md"
-    },
-    {
-      "basename": "Priority_queue",
-      "path": "CS 지식/자료구조/선형 구조/Priority_queue.md"
     }
   ],
   "omittedPaths": [],
