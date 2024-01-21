@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "비트마스킹",
+      "path": "CS 지식/알고리즘/비트마스킹.md"
+    },
+    {
       "basename": "투포인터",
       "path": "CS 지식/알고리즘/투포인터.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "GCD, LCM",
       "path": "C++/Code Keeping/GCD, LCM.md"
-    },
-    {
-      "basename": "GCD, LCM",
-      "path": "수학적 지식/GCD, LCM.md"
     }
   ],
   "omittedPaths": [],
