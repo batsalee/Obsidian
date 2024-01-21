@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/알고리즘/알고리즘.md",
+                "file": "CS 지식/알고리즘/복잡도개념.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/알고리즘/알고리즘.md",
+                "file": "CS 지식/알고리즘/복잡도개념.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/알고리즘/알고리즘.md",
+                "file": "CS 지식/알고리즘/복잡도개념.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/알고리즘/알고리즘.md"
+                "file": "CS 지식/알고리즘/복잡도개념.md"
               }
             }
           },
@@ -184,11 +184,11 @@
   },
   "active": "000f4d6c81f08bf9",
   "lastOpenFiles": [
+    "CS 지식/알고리즘/알고리즘.md",
     "Protected/WPF 6.0.md",
     "Protected/뇌를 자극하는 C++ 프로그래밍.md",
     "Protected/뇌를 자극하는 C 프로그래밍.md",
     "Protected/컴퓨터공학 개론.md",
-    "CS 지식/알고리즘/알고리즘.md",
     "CS 지식/자료구조/심화 자료구조/신장트리, 최소신장트리.md",
     "CS 지식/자료구조/심화 자료구조/Hash Table.md",
     "CS 지식/자료구조/심화 자료구조/Heap.md",

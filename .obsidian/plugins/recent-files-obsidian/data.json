@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "복잡도개념",
+      "path": "CS 지식/알고리즘/복잡도개념.md"
+    },
+    {
       "basename": "알고리즘",
       "path": "CS 지식/알고리즘/알고리즘.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "nCr",
       "path": "수학적 지식/nCr.md"
-    },
-    {
-      "basename": "nCr",
-      "path": "C++/Code Keeping/nCr.md"
     }
   ],
   "omittedPaths": [],
