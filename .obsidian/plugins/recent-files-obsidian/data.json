@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "윤년",
+      "path": "수학적 지식/윤년.md"
+    },
+    {
+      "basename": "윤년",
+      "path": "C++/Code Keeping/윤년.md"
+    },
+    {
+      "basename": "두 수의 합의 나머지",
+      "path": "수학적 지식/두 수의 합의 나머지.md"
+    },
+    {
+      "basename": "1~N까지 더하기",
+      "path": "수학적 지식/1~N까지 더하기.md"
+    },
+    {
+      "basename": "소수 여부 판별",
+      "path": "수학적 지식/소수 여부 판별.md"
+    },
+    {
+      "basename": "nCr",
+      "path": "수학적 지식/nCr.md"
+    },
+    {
+      "basename": "GCD, LCM",
+      "path": "C++/Code Keeping/GCD, LCM.md"
+    },
+    {
+      "basename": "GCD, LCM",
+      "path": "수학적 지식/GCD, LCM.md"
+    },
+    {
+      "basename": "소수 여부 판별",
+      "path": "C++/Code Keeping/소수 여부 판별.md"
+    },
+    {
+      "basename": "nCr",
+      "path": "C++/Code Keeping/nCr.md"
+    },
+    {
+      "basename": "노션 강의 정리",
+      "path": "Notepad/노션 강의 정리.md"
+    },
+    {
+      "basename": "코딩 습관들여야 할 것들",
+      "path": "Notepad/코딩 습관들여야 할 것들.md"
+    },
+    {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
+    },
+    {
       "basename": "Notepad",
       "path": "Notepad/Notepad.md"
     },
@@ -55,18 +107,6 @@
     {
       "basename": "LIS",
       "path": "CS 지식/알고리즘/LIS.md"
-    },
-    {
-      "basename": "노션 강의 정리",
-      "path": "Notepad/노션 강의 정리.md"
-    },
-    {
-      "basename": "코딩 습관들여야 할 것들",
-      "path": "Notepad/코딩 습관들여야 할 것들.md"
-    },
-    {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
     },
     {
       "basename": "이분 탐색",
@@ -149,16 +189,8 @@
       "path": "C++/Code Keeping/MySQL 연동.md"
     },
     {
-      "basename": "nCr",
-      "path": "C++/Code Keeping/nCr.md"
-    },
-    {
       "basename": "DLL(Dynamic Link Library)",
       "path": "C++/Code Keeping/DLL(Dynamic Link Library).md"
-    },
-    {
-      "basename": "소수 여부 판별",
-      "path": "C++/Code Keeping/소수 여부 판별.md"
     },
     {
       "basename": "eof",
@@ -167,38 +199,6 @@
     {
       "basename": "temp변수를 사용하지 않는 swap 구현",
       "path": "C++/Code Keeping/temp변수를 사용하지 않는 swap 구현.md"
-    },
-    {
-      "basename": "cout 지수출력 방지",
-      "path": "C++/Code Keeping/cout 지수출력 방지.md"
-    },
-    {
-      "basename": "priority_queue",
-      "path": "C++/C++ STL/Container/컨테이너 어댑터/priority_queue.md"
-    },
-    {
-      "basename": "priority_queue",
-      "path": "CS 지식/자료구조/선형 구조/priority_queue.md"
-    },
-    {
-      "basename": "모스부호",
-      "path": "수학적 지식/모스부호.md"
-    },
-    {
-      "basename": "그래프",
-      "path": "CS 지식/자료구조/비선형 구조/그래프.md"
-    },
-    {
-      "basename": "Pasted image 20231202174249",
-      "path": "CS 지식/알고리즘/contents/Pasted image 20231202174249.png"
-    },
-    {
-      "basename": "Hash Table",
-      "path": "CS 지식/자료구조/심화 자료구조/Hash Table.md"
-    },
-    {
-      "basename": "신장트리, 최소신장트리",
-      "path": "CS 지식/자료구조/심화 자료구조/신장트리, 최소신장트리.md"
     }
   ],
   "omittedPaths": [],
