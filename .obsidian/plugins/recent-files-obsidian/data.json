@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "마크다운 문법 정리",
-      "path": "Hello Obsidian/마크다운 문법 정리.md"
+      "basename": "Notepad",
+      "path": "Notepad/Notepad.md"
     },
     {
-      "basename": "Hello Obsidian",
-      "path": "Hello Obsidian/Hello Obsidian.md"
+      "basename": "자료구조 정리중",
+      "path": "Notepad/자료구조 정리중.md"
     },
     {
       "basename": "옵시디언 티스토리 플러그인",
@@ -15,6 +15,14 @@
     {
       "basename": "문서 작성 시 번호매기는 순서",
       "path": "Hello Obsidian/문서 작성 시 번호매기는 순서.md"
+    },
+    {
+      "basename": "마크다운 문법 정리",
+      "path": "Hello Obsidian/마크다운 문법 정리.md"
+    },
+    {
+      "basename": "Hello Obsidian",
+      "path": "Hello Obsidian/Hello Obsidian.md"
     },
     {
       "basename": "완전탐색, 백트래킹",
@@ -59,14 +67,6 @@
     {
       "basename": "Today_Study 정리파일",
       "path": "Notepad/Today_Study 정리파일.md"
-    },
-    {
-      "basename": "Notepad",
-      "path": "Notepad/Notepad.md"
-    },
-    {
-      "basename": "자료구조 정리중",
-      "path": "Notepad/자료구조 정리중.md"
     },
     {
       "basename": "이분 탐색",
