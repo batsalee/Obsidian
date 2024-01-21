@@ -11,11 +11,9 @@
             "id": "000f4d6c81f08bf9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "make-folder-view",
               "state": {
-                "file": "수학적 지식/진법 변환.md",
-                "mode": "source",
-                "source": false
+                "contextPath": "Notepad"
               }
             }
           }
@@ -102,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "수학적 지식/진법 변환.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "수학적 지식/진법 변환.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +137,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "수학적 지식/진법 변환.md"
-              }
+              "state": {}
             }
           },
           {
@@ -184,6 +178,9 @@
   },
   "active": "000f4d6c81f08bf9",
   "lastOpenFiles": [
+    "수학적 지식/모스부호.md",
+    "수학적 지식/진법 변환.md",
+    "C++/Code Keeping/진법 변환.md",
     "C++/Code Keeping/소수 여부 판별.md",
     "수학적 지식/소수 여부 판별.md",
     "C++/Code Keeping/GCD, LCM.md",
@@ -207,9 +204,6 @@
     "CS 지식/알고리즘/최단거리.md",
     "CS 지식/알고리즘/복잡도개념.md",
     "CS 지식/알고리즘/누적 합.md",
-    "CS 지식/알고리즘/알고리즘.md",
-    "CS 지식/알고리즘/DP.md",
-    "CS 지식/알고리즘/정렬 알고리즘.md",
     "CS 지식/알고리즘/contents/Pasted image 20240115064238.png",
     "CS 지식/알고리즘/contents/Pasted image 20240115062957.png",
     "CS 지식/알고리즘/contents/Pasted image 20240114231806.png",
