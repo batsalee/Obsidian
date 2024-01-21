@@ -11,9 +11,11 @@
             "id": "000f4d6c81f08bf9",
             "type": "leaf",
             "state": {
-              "type": "make-folder-view",
+              "type": "markdown",
               "state": {
-                "contextPath": "Notepad"
+                "file": "CS 지식/자료구조/자료구조.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -100,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CS 지식/자료구조/자료구조.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CS 지식/자료구조/자료구조.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CS 지식/자료구조/자료구조.md"
+              }
             }
           },
           {
@@ -178,6 +184,24 @@
   },
   "active": "000f4d6c81f08bf9",
   "lastOpenFiles": [
+    "C++/Code Keeping/DLL(Dynamic Link Library).md",
+    "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
+    "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md",
+    "CS 지식/프로그래밍 용어/메타데이터(meta-data).md",
+    "CS 지식/프로그래밍 용어/서드 파티(Third Party).md",
+    "Notepad/코딩 습관들여야 할 것들.md",
+    "C++/Code Keeping/eof.md",
+    "CS 지식/프로그래밍 규범/CamelCase, snake_case.md",
+    "CS 지식/프로그래밍 규범/헝가리안 표기법.md",
+    "CS 지식/Git & GitHub/GitHub.md",
+    "CS 지식/Git & GitHub/Git.md",
+    "CS 지식/Database/DQL.md",
+    "CS 지식/Database/DB.md",
+    "Notepad/Notepad.md",
+    "Notepad/노션 강의 정리.md",
+    "Notepad/Today_Study 정리파일.md",
+    "Notepad/자료구조 정리중.md",
+    "Hello Obsidian/옵시디언 티스토리 플러그인.md",
     "수학적 지식/모스부호.md",
     "수학적 지식/진법 변환.md",
     "C++/Code Keeping/진법 변환.md",
@@ -186,24 +210,6 @@
     "C++/Code Keeping/GCD, LCM.md",
     "수학적 지식/GCD, LCM.md",
     "수학적 지식/윤년.md",
-    "수학적 지식/두 수의 합의 나머지.md",
-    "수학적 지식/1~N까지 더하기.md",
-    "수학적 지식/nCr.md",
-    "C++/Code Keeping/nCr.md",
-    "C++/Code Keeping/윤년.md",
-    "Notepad/노션 강의 정리.md",
-    "Notepad/코딩 습관들여야 할 것들.md",
-    "Notepad/Today_Study 정리파일.md",
-    "Notepad/Notepad.md",
-    "Notepad/자료구조 정리중.md",
-    "Notepad/옵시디언 티스토리 플러그인.md",
-    "Hello Obsidian/문서 작성 시 번호매기는 순서.md",
-    "Hello Obsidian/마크다운 문법 정리.md",
-    "Hello Obsidian/Hello Obsidian.md",
-    "CS 지식/알고리즘/완전탐색, 백트래킹.md",
-    "CS 지식/알고리즘/최단거리.md",
-    "CS 지식/알고리즘/복잡도개념.md",
-    "CS 지식/알고리즘/누적 합.md",
     "CS 지식/알고리즘/contents/Pasted image 20240115064238.png",
     "CS 지식/알고리즘/contents/Pasted image 20240115062957.png",
     "CS 지식/알고리즘/contents/Pasted image 20240114231806.png",
