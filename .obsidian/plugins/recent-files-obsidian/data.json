@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "완전탐색, 백트래킹",
+      "path": "CS 지식/알고리즘/완전탐색, 백트래킹.md"
+    },
+    {
       "basename": "최단거리",
       "path": "CS 지식/알고리즘/최단거리.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "진법 변환",
       "path": "C++/Code Keeping/진법 변환.md"
-    },
-    {
-      "basename": "소수 여부 판별",
-      "path": "C++/Code Keeping/소수 여부 판별.md"
     }
   ],
   "omittedPaths": [],
