@@ -23,7 +23,7 @@ extern "C" DLLSTUDY_EXPORTS void usingDLLPrint();
 extern "C"나 define부의 export, import도 다 적어줘야함  
 dll프로젝트는 dllexport 해주고 dll을 사용할 프로젝트는 dllimport를 해주는 것  
 
-3) cpp파일은 아래와 같이 작성(DLLStudy.cpp)
+cpp파일은 아래와 같이 작성(DLLStudy.cpp)
 ```C++
 #include "pch.h" // 프리 컴파일드 헤더인데 dll 프로젝트 생성시 만들어지는 헤더
 #include "DLLStudy.h"
@@ -37,7 +37,7 @@ extern "C" DLLSTUDY_EXPORTS void usingDLLPrint()
 }
 ```
 
-4) DLLSTUDY_EXPORTS을 속성 -> C/C++ -> 전처리기 -> 전처리 정의에 넣어주고 컴파일 후 빌드까지하면 .dll과 .lib 생성완료
+3) DLLSTUDY_EXPORTS을 속성 -> C/C++ -> 전처리기 -> 전처리 정의에 넣어주고 컴파일 후 빌드까지하면 .dll과 .lib 생성완료
 
 ## 3. DLL 적용법
 

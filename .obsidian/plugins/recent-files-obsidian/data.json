@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "DLL(Dynamic Link Library)",
+      "path": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
+    },
+    {
+      "basename": "DLL(Dynamic Link Library)",
+      "path": "C++/Code Keeping/DLL(Dynamic Link Library).md"
+    },
+    {
+      "basename": "nCr",
+      "path": "C++/Code Keeping/nCr.md"
+    },
+    {
+      "basename": "MySQL 연동",
+      "path": "C++/Code Keeping/MySQL 연동.md"
+    },
+    {
+      "basename": "CodingTestFrame",
+      "path": "C++/Code Keeping/CodingTestFrame.md"
+    },
+    {
       "basename": "abs",
       "path": "C++/연산자/abs.md"
     },
@@ -169,14 +189,6 @@
       "path": "C++/C++ STL/Container/시퀀스 컨테이너/vector.md"
     },
     {
-      "basename": "DLL(Dynamic Link Library)",
-      "path": "C++/Code Keeping/DLL(Dynamic Link Library).md"
-    },
-    {
-      "basename": "DLL(Dynamic Link Library)",
-      "path": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
-    },
-    {
       "basename": "콜백함수(Callback Func)",
       "path": "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "서드 파티(Third Party)",
       "path": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md"
-    },
-    {
-      "basename": "코딩 습관들여야 할 것들",
-      "path": "Notepad/코딩 습관들여야 할 것들.md"
-    },
-    {
-      "basename": "eof",
-      "path": "C++/Code Keeping/eof.md"
-    },
-    {
-      "basename": "CamelCase, snake_case",
-      "path": "CS 지식/프로그래밍 규범/CamelCase, snake_case.md"
     }
   ],
   "omittedPaths": [],
