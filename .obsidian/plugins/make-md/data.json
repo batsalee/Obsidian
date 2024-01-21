@@ -79,9 +79,9 @@
       "C++/C++ STL",
       "CS 지식/자료구조",
       "자료구조",
-      "CS 지식/자료구조/비선형 구조",
       "C++/C++ STL/Container",
-      "C++/C++ STL/Container/컨테이너 어댑터"
+      "C++/C++ STL/Container/컨테이너 어댑터",
+      "CS 지식/자료구조/심화 자료구조"
     ],
     "as": [
       "Hello Obsidian",
