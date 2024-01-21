@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "정렬 알고리즘",
+      "path": "CS 지식/알고리즘/정렬 알고리즘.md"
+    },
+    {
       "basename": "완전탐색, 백트래킹",
       "path": "CS 지식/알고리즘/완전탐색, 백트래킹.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "진법 변환",
       "path": "수학적 지식/진법 변환.md"
-    },
-    {
-      "basename": "진법 변환",
-      "path": "C++/Code Keeping/진법 변환.md"
     }
   ],
   "omittedPaths": [],
