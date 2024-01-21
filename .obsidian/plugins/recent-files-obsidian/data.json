@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "deque",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/deque.md"
+    },
+    {
+      "basename": "list",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/list.md"
+    },
+    {
       "basename": "forward_list",
       "path": "C++/C++ STL/Container/시퀀스 컨테이너/forward_list.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "그래프",
       "path": "CS 지식/자료구조/비선형 구조/그래프.md"
-    },
-    {
-      "basename": "트리",
-      "path": "CS 지식/자료구조/비선형 구조/트리.md"
-    },
-    {
-      "basename": "priority_queue",
-      "path": "C++/C++ STL/Container/컨테이너 어댑터/priority_queue.md"
     }
   ],
   "omittedPaths": [],

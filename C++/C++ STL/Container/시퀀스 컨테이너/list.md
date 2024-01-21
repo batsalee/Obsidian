@@ -123,4 +123,7 @@ class list;
 - sort : 컨테이너의 원소를 정렬한다.
 - reverse : 원소들의 순서를 거꾸로 뒤집는다.
 
+
+
+
 출처 : [https://cplusplus.com/reference/list/list/](https://cplusplus.com/reference/list/list/)
