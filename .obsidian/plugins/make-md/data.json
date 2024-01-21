@@ -74,10 +74,13 @@
       "contents",
       "contents",
       "CS 지식/Git",
-      "C++/Code Keeping",
       "CS 지식",
       "Notepad",
-      "CS 지식/자료구조"
+      "CS 지식/자료구조",
+      "C++",
+      "C++/C++ STL",
+      "C++/C++ STL/Container",
+      "C++/C++ STL/Container/시퀀스 컨테이너"
     ],
     "as": [
       "Hello Obsidian",

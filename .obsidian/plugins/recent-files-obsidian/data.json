@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "array",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/array.md"
+    },
+    {
+      "basename": "vector",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/vector.md"
+    },
+    {
+      "basename": "배열",
+      "path": "CS 지식/자료구조/선형 구조/배열.md"
+    },
+    {
       "basename": "자료구조",
       "path": "CS 지식/자료구조/자료구조.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "deque",
       "path": "CS 지식/자료구조/선형 구조/deque.md"
-    },
-    {
-      "basename": "배열",
-      "path": "CS 지식/자료구조/선형 구조/배열.md"
-    },
-    {
-      "basename": "투포인터",
-      "path": "CS 지식/알고리즘/투포인터.md"
-    },
-    {
-      "basename": "Pasted image 20240114011945",
-      "path": "CS 지식/알고리즘/contents/Pasted image 20240114011945.png"
     }
   ],
   "omittedPaths": [],
