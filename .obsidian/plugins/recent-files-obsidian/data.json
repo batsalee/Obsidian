@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "이분 탐색",
+      "path": "CS 지식/알고리즘/이분 탐색.md"
+    },
+    {
       "basename": "정렬 알고리즘",
       "path": "CS 지식/알고리즘/정렬 알고리즘.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "모스부호",
       "path": "수학적 지식/모스부호.md"
-    },
-    {
-      "basename": "진법 변환",
-      "path": "수학적 지식/진법 변환.md"
     }
   ],
   "omittedPaths": [],
