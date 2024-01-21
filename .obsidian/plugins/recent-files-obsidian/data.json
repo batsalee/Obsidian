@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "STL",
+      "path": "C++/C++ STL/STL.md"
+    },
+    {
+      "basename": "시퀀스 컨테이너",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
+    },
+    {
+      "basename": "Container",
+      "path": "C++/C++ STL/Container/Container.md"
+    },
+    {
+      "basename": "LIS",
+      "path": "CS 지식/알고리즘/LIS.md"
+    },
+    {
       "basename": "DP",
       "path": "CS 지식/알고리즘/DP.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Notepad",
       "path": "Notepad/Notepad.md"
-    },
-    {
-      "basename": "노션 강의 정리",
-      "path": "Notepad/노션 강의 정리.md"
-    },
-    {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
-    },
-    {
-      "basename": "자료구조 정리중",
-      "path": "Notepad/자료구조 정리중.md"
-    },
-    {
-      "basename": "옵시디언 티스토리 플러그인",
-      "path": "Hello Obsidian/옵시디언 티스토리 플러그인.md"
     }
   ],
   "omittedPaths": [],
