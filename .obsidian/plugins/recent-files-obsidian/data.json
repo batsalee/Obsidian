@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Algorithm",
+      "path": "C++/C++ STL/Algorithm/Algorithm.md"
+    },
+    {
+      "basename": "Iterator",
+      "path": "C++/C++ STL/Iteraoter/Iterator.md"
+    },
+    {
       "basename": "priority_queue",
       "path": "C++/C++ STL/Container/컨테이너 어댑터/priority_queue.md"
     },
@@ -27,14 +35,6 @@
     {
       "basename": "unordered_set",
       "path": "C++/C++ STL/Container/해시 컨테이너/unordered_set.md"
-    },
-    {
-      "basename": "Iterator",
-      "path": "C++/C++ STL/Iteraoter/Iterator.md"
-    },
-    {
-      "basename": "Algorithm",
-      "path": "C++/C++ STL/Algorithm/Algorithm.md"
     },
     {
       "basename": "multimap",
