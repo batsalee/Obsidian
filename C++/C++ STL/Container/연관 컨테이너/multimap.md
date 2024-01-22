@@ -126,7 +126,7 @@ auto end = mm.upper_bound(20); // 20초과가 처음 나온 iterator를 반환
 ```
 
 2) equal_range
-```
+```C++
 auto itr = mm.equal_range(20); 
 // pair<multimap<int>::iterator, multimap<int>:iterator>처럼 pair객체를 반환
 // pair의 first는 lower_bound와 같고, second는 upper_bound와 같음
