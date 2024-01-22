@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "multimap",
+      "path": "C++/C++ STL/Container/연관 컨테이너/multimap.md"
+    },
+    {
+      "basename": "multiset",
+      "path": "C++/C++ STL/Container/연관 컨테이너/multiset.md"
+    },
+    {
       "basename": "map",
       "path": "C++/C++ STL/Container/연관 컨테이너/map.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "컴퓨터공학 개론",
       "path": "Protected/컴퓨터공학 개론.md"
-    },
-    {
-      "basename": "신장트리, 최소신장트리",
-      "path": "CS 지식/자료구조/심화 자료구조/신장트리, 최소신장트리.md"
-    },
-    {
-      "basename": "Hash Table",
-      "path": "CS 지식/자료구조/심화 자료구조/Hash Table.md"
     }
   ],
   "omittedPaths": [],

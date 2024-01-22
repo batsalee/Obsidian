@@ -10,7 +10,7 @@ void main()
 ```
 
 #### 1. multimap의 개념
-- map 헤더에 포함되어있음(multiset 헤더 아님)
+- map 헤더에 포함되어있음(multimap 헤더 아님)
 - map과 달리 key값을 중복해서 저장할 수 있음
 - map과 마찬가지로 값을 삽입하면 자동으로 정렬됨
 
@@ -120,7 +120,7 @@ template <
 
 #### 7. multimap 사용 팁들
 1) lower_bound, upper_bound
-```
+```C++
 auto start = mm.lower_bound(20); // 20이상이 처음 나온 iterator를 반환
 auto end = mm.upper_bound(20); // 20초과가 처음 나온 iterator를 반환
 ```

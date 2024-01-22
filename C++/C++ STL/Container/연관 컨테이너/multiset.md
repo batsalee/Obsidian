@@ -113,13 +113,13 @@ template <
 
 #### 7. multiset 사용 팁들
 1) lower_bound, upper_bound
-```
+```C++
 auto start = ms.lower_bound(20); // 20이상이 처음 나온 iterator를 반환
 auto end = ms.upper_bound(20); // 20초과가 처음 나온 iterator를 반환
 ```
 
 2) equal_range
-```
+```C++
 auto itr = ms.equal_range(20); 
 // pair<multiset<int>::iterator, multiset<int>:iterator>처럼 pair객체를 반환
 // pair의 first는 lower_bound와 같고, second는 upper_bound와 같음
