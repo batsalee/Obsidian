@@ -84,7 +84,8 @@
       "C++/C++ STL/Container/연관 컨테이너",
       "C++/C++ STL/Container/해시 컨테이너",
       "C++/C++ STL/Iteraoter",
-      "C++/C++ STL/Algorithm"
+      "C++/C++ STL/Algorithm",
+      "C++/C++ STL/Container/해시 컨테이너"
     ],
     "as": [
       "Hello Obsidian",
