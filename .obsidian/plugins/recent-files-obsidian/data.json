@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "priority_queue",
+      "path": "C++/C++ STL/Container/컨테이너 어댑터/priority_queue.md"
+    },
+    {
+      "basename": "queue",
+      "path": "C++/C++ STL/Container/컨테이너 어댑터/queue.md"
+    },
+    {
+      "basename": "stack",
+      "path": "C++/C++ STL/Container/컨테이너 어댑터/stack.md"
+    },
+    {
+      "basename": "unordered_multimap",
+      "path": "C++/C++ STL/Container/해시 컨테이너/unordered_multimap.md"
+    },
+    {
       "basename": "unordered_multiset",
       "path": "C++/C++ STL/Container/해시 컨테이너/unordered_multiset.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "누적 합",
       "path": "CS 지식/알고리즘/누적 합.md"
-    },
-    {
-      "basename": "스위핑",
-      "path": "CS 지식/알고리즘/스위핑.md"
-    },
-    {
-      "basename": "그리디",
-      "path": "CS 지식/알고리즘/그리디.md"
-    },
-    {
-      "basename": "복잡도개념",
-      "path": "CS 지식/알고리즘/복잡도개념.md"
-    },
-    {
-      "basename": "알고리즘",
-      "path": "CS 지식/알고리즘/알고리즘.md"
     }
   ],
   "omittedPaths": [],

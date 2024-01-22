@@ -47,7 +47,7 @@ class unordered_multimap;
 - difference_type : 두 원소 사이의 거리를 나타내는 타입 (많은 경우 ptfdiff_t 와 타입이 같으며 부호있는 정수)
 - size_type :  size 를 나타내는 타입 (많은 경우 size_t 와 타입이 같으며 부호없는 정수이다)
 
-#### 6. unorderd_multimap의 멤버 함수들
+#### 4. unorderd_multimap의 멤버 함수들
 1) 생성자 : unordered_multimap을 생성한다.
 2) 소멸자 : unordered_multimap을 소멸한다.
 

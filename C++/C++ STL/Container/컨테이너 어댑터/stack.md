@@ -14,7 +14,8 @@ void main()
 
 #### 2. stack의 함수 원형
 ```C++
-template <class T, class Container = deque<T> > class stack;
+template <class T, class Container = deque<T>>
+class stack;
 ```
 deque 기반으로 만들어진 컨테이너 어댑터
 
@@ -41,7 +42,7 @@ deque 기반으로 만들어진 컨테이너 어댑터
 #### overload된 Non-멤버 함수들
 - relational operators : Relational operators for stack (function)
 - swap (stack)	: Exchange contents of stacks (public member function)
-- 
+
 #### 특수화된 Non-멤버 클래스
 - `uses_allocator<stack>` : Uses allocator for stack (class template)
 

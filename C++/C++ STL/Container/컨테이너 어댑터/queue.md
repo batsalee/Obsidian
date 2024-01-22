@@ -14,7 +14,8 @@ void main()
 
 #### 2. queue의 함수 원형
 ```C++
-template <class T, class Container = deque<T> > class queue;
+template <class T, class Container = deque<T>>
+class queue;
 ```
 deque 기반으로 만들어진 컨테이너 어댑터
 
