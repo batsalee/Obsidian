@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "DQL",
+      "path": "CS 지식/Database/DQL.md"
+    },
+    {
+      "basename": "DB",
+      "path": "CS 지식/Database/DB.md"
+    },
+    {
+      "basename": "SQL기본문법",
+      "path": "CS 지식/Database/SQL기본문법.md"
+    },
+    {
       "basename": "GitHub",
       "path": "CS 지식/Git & GitHub/GitHub.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "LIS",
       "path": "CS 지식/알고리즘/LIS.md"
-    },
-    {
-      "basename": "DP",
-      "path": "CS 지식/알고리즘/DP.md"
-    },
-    {
-      "basename": "이분 탐색",
-      "path": "CS 지식/알고리즘/이분 탐색.md"
-    },
-    {
-      "basename": "정렬 알고리즘",
-      "path": "CS 지식/알고리즘/정렬 알고리즘.md"
     }
   ],
   "omittedPaths": [],

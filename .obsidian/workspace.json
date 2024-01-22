@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/Git & GitHub/GitHub.md",
+                "file": "CS 지식/Database/DQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/Git & GitHub/GitHub.md",
+                "file": "CS 지식/Database/DQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/Git & GitHub/GitHub.md",
+                "file": "CS 지식/Database/DQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/Git & GitHub/GitHub.md"
+                "file": "CS 지식/Database/DQL.md"
               }
             }
           },
@@ -184,8 +184,10 @@
   },
   "active": "000f4d6c81f08bf9",
   "lastOpenFiles": [
-    "CS 지식/Git & GitHub/Git.md",
+    "CS 지식/Database/DB.md",
+    "CS 지식/Database/SQL기본문법.md",
     "CS 지식/Git & GitHub/GitHub.md",
+    "CS 지식/Git & GitHub/Git.md",
     "CS 지식/Git & GitHub/GitHub에 이미지 올리는 법.md",
     "C++/C++ STL/Container/컨테이너 어댑터/컨테이너 어댑터.md",
     "C++/C++ STL/Container/해시 컨테이너/해시 컨테이너.md",
@@ -208,8 +210,6 @@
     "C++/C++ STL/Container/연관 컨테이너/set.md",
     "C++/C++ STL/Container/시퀀스 컨테이너/deque.md",
     "C++/C++ STL/Container/시퀀스 컨테이너/list.md",
-    "C++/C++ STL/Container/시퀀스 컨테이너/forward_list.md",
-    "C++/C++ STL/Container/시퀀스 컨테이너/vector.md",
     "자료구조",
     "CS 지식/알고리즘/contents/Pasted image 20240115064238.png",
     "CS 지식/알고리즘/contents/Pasted image 20240115062957.png",
