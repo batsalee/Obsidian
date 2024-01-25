@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "팩토리 메서드",
+      "path": "CS 지식/디자인패턴/생성패턴/팩토리 메서드.md"
+    },
+    {
+      "basename": "디자인패턴",
+      "path": "CS 지식/디자인패턴/디자인패턴.md"
+    },
+    {
       "basename": "DQL",
       "path": "CS 지식/Database/DQL.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "thread",
       "path": "C++/Modern C++/Library/thread.md"
-    },
-    {
-      "basename": "Modern C++",
-      "path": "C++/Modern C++/Modern C++.md"
-    },
-    {
-      "basename": "LIS",
-      "path": "CS 지식/알고리즘/LIS.md"
     }
   ],
   "omittedPaths": [],
