@@ -5,6 +5,14 @@
       "path": "C++/개념정리/자료형 범위.md"
     },
     {
+      "basename": "예외처리",
+      "path": "C++/개념정리/예외처리.md"
+    },
+    {
+      "basename": "int와 long의 차이",
+      "path": "C++/개념정리/int와 long의 차이.md"
+    },
+    {
       "basename": "아스키코드",
       "path": "CS 지식/프로그래밍 규범/아스키코드.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "DLL(Dynamic Link Library)",
       "path": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
-    },
-    {
-      "basename": "abs",
-      "path": "C++/연산자/abs.md"
-    },
-    {
-      "basename": "typeid",
-      "path": "C++/연산자/typeid.md"
     }
   ],
   "omittedPaths": [],
