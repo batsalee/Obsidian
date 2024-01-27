@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "자료형 범위",
+      "path": "C++/개념정리/자료형 범위.md"
+    },
+    {
+      "basename": "아스키코드",
+      "path": "CS 지식/프로그래밍 규범/아스키코드.md"
+    },
+    {
+      "basename": "알파벳 개수",
+      "path": "수학적 지식/알파벳 개수.md"
+    },
+    {
       "basename": "팩토리 메서드",
       "path": "CS 지식/디자인패턴/생성패턴/팩토리 메서드.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "typeid",
       "path": "C++/연산자/typeid.md"
-    },
-    {
-      "basename": "예외처리",
-      "path": "C++/개념정리/예외처리.md"
-    },
-    {
-      "basename": "int와 long의 차이",
-      "path": "C++/개념정리/int와 long의 차이.md"
-    },
-    {
-      "basename": "thread",
-      "path": "C++/Modern C++/Library/thread.md"
     }
   ],
   "omittedPaths": [],
