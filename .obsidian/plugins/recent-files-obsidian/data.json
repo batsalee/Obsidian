@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CodingTestFrame",
+      "path": "C++/Code Keeping/CodingTestFrame.md"
+    },
+    {
       "basename": "bits stdc++.h",
       "path": "C++/Code Keeping/bits stdc++.h.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "eof",
       "path": "C++/Code Keeping/eof.md"
-    },
-    {
-      "basename": "소수 여부 판별",
-      "path": "C++/Code Keeping/소수 여부 판별.md"
     }
   ],
   "omittedPaths": [],
