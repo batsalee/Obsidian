@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "bits stdc++.h",
+      "path": "C++/Code Keeping/bits stdc++.h.md"
+    },
+    {
+      "basename": "MySQL 연동",
+      "path": "C++/Code Keeping/MySQL 연동.md"
+    },
+    {
       "basename": "Today_Study 정리파일",
       "path": "Notepad/Today_Study 정리파일.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "소수 여부 판별",
       "path": "C++/Code Keeping/소수 여부 판별.md"
-    },
-    {
-      "basename": "DLL(Dynamic Link Library)",
-      "path": "C++/Code Keeping/DLL(Dynamic Link Library).md"
-    },
-    {
-      "basename": "nCr",
-      "path": "C++/Code Keeping/nCr.md"
     }
   ],
   "omittedPaths": [],

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md",
+                "file": "C++/Code Keeping/bits stdc++.h.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md",
+                "file": "C++/Code Keeping/bits stdc++.h.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md",
+                "file": "C++/Code Keeping/bits stdc++.h.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md"
+                "file": "C++/Code Keeping/bits stdc++.h.md"
               }
             }
           },
@@ -184,6 +184,13 @@
   },
   "active": "000f4d6c81f08bf9",
   "lastOpenFiles": [
+    "C++/Code Keeping/contents/Pasted image 20240205204147.png",
+    "C++/Code Keeping/contents/Pasted image 20240205204044.png",
+    "C++/Code Keeping/MySQL 연동.md",
+    "C++/Code Keeping/contents/Pasted image 20240205203939.png",
+    "C++/Code Keeping/bits stdc++.h.md",
+    "C++/Code Keeping/contents",
+    "Notepad/Today_Study 정리파일.md",
     "Notepad/코딩 습관들여야 할 것들.md",
     "Protected/뇌를 자극하는 C 프로그래밍.md",
     "C++/개념정리/자료형 범위.md",
@@ -211,10 +218,6 @@
     "C++/C++ STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md",
     "C++/C++ STL/Container/Container.md",
     "C++/C++ STL/STL.md",
-    "C++/C++ STL/Algorithm/Algorithm.md",
-    "C++/C++ STL/Iteraoter/Iterator.md",
-    "C++/C++ STL/Container/컨테이너 어댑터/priority_queue.md",
-    "C++/C++ STL/Container/컨테이너 어댑터/queue.md",
     "자료구조",
     "CS 지식/알고리즘/contents/Pasted image 20240115064238.png",
     "CS 지식/알고리즘/contents/Pasted image 20240115062957.png",
@@ -223,13 +226,10 @@
     "CS 지식/알고리즘/contents/Pasted image 20240114012124.png",
     "CS 지식/알고리즘/contents/Pasted image 20240114011945.png",
     "CS 지식/알고리즘/contents/Pasted image 20240114012023.png",
-    "CS 지식/알고리즘/contents/Pasted image 20240114010746.png",
-    "CS 지식/알고리즘/contents/Pasted image 20240114010654.png",
     "CS 지식/디자인패턴",
     "CS 지식/알고리즘/contents",
     "CS 지식/자료구조/심화 자료구조/contents",
     "CS 지식/알고리즘",
-    "CS 지식/자료구조/심화 자료구조",
     "무제 파일.canvas"
   ]
 }
