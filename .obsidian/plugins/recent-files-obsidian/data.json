@@ -5,6 +5,10 @@
       "path": "C++/개념정리/STL Container의 크기.md"
     },
     {
+      "basename": "예외처리",
+      "path": "C++/개념정리/예외처리.md"
+    },
+    {
       "basename": "자료형 범위",
       "path": "C++/개념정리/자료형 범위.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "뇌를 자극하는 C 프로그래밍",
       "path": "Protected/뇌를 자극하는 C 프로그래밍.md"
-    },
-    {
-      "basename": "예외처리",
-      "path": "C++/개념정리/예외처리.md"
     },
     {
       "basename": "int와 long의 차이",
@@ -195,10 +195,6 @@
     {
       "basename": "cout 지수출력 방지",
       "path": "C++/Code Keeping/cout 지수출력 방지.md"
-    },
-    {
-      "basename": "temp변수를 사용하지 않는 swap 구현",
-      "path": "C++/Code Keeping/temp변수를 사용하지 않는 swap 구현.md"
     }
   ],
   "omittedPaths": [],
