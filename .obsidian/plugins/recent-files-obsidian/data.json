@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "STL Container의 크기",
+      "path": "C++/개념정리/STL Container의 크기.md"
+    },
+    {
+      "basename": "자료형 범위",
+      "path": "C++/개념정리/자료형 범위.md"
+    },
+    {
       "basename": "bits stdc++.h",
       "path": "C++/Code Keeping/bits stdc++.h.md"
     },
@@ -23,10 +31,6 @@
     {
       "basename": "뇌를 자극하는 C 프로그래밍",
       "path": "Protected/뇌를 자극하는 C 프로그래밍.md"
-    },
-    {
-      "basename": "자료형 범위",
-      "path": "C++/개념정리/자료형 범위.md"
     },
     {
       "basename": "예외처리",
@@ -195,10 +199,6 @@
     {
       "basename": "temp변수를 사용하지 않는 swap 구현",
       "path": "C++/Code Keeping/temp변수를 사용하지 않는 swap 구현.md"
-    },
-    {
-      "basename": "eof",
-      "path": "C++/Code Keeping/eof.md"
     }
   ],
   "omittedPaths": [],
