@@ -1,3 +1,15 @@
+# 개념
+
+백준이나 프로그래머스같은 코딩테스트 알고리즘 사이트에서  
+`#include <bits/stdc++.h>`라는 헤더 하나만 추가된 채 작성된 코드를 본 적 있을것이다.  
+그냥 쓸만한 라이브러리 헤더는 전부 다 추가시켜둔 헤더파일이라고 보면 된다.  
+대략 아래와 같은 모습이다.
+
+실제 개발상황에서 사용하면 쓸데없는 내용이 많이 추가된다거나, 이름이 겹치는 경우가 많아서 충돌상황이 발생하므로 사용하지 않는다.  
+다만 코딩테스트같은 알고리즘 해결 상황에서 매번 헤더를 추가해줬다가, 지워줬다가 하는 상황없이 깔끔하게 알고리즘에만 집중하기 위해 사용하곤 한다.  
+그러므로 Visual Studio 코딩테스트용 프로젝트에만 적용시켜두고 사용하면 편하다.
+
+
 # 사용방법
 
 #### 1. stdc++.h 파일 다운로드
@@ -5,7 +17,7 @@ https://github.com/batsalee/Property/tree/main/CodingTest/bits
 
 #### 2.Visual Studio가 설치된 폴더의 헤더파일들이 있는곳에 bits 폴더 만들기
 visual studio 설치경로는 대략 아래와 같음
-C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\MSVC\\14.34.31933\\include
+C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\MSVC\\14.38.33130\\include
 ![[Pasted image 20240205204044.png|500x350]]
 
 #### 3. bits 폴더 안에 stdc++.h 파일 넣기
@@ -13,12 +25,13 @@ C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\MSVC\\14.
 
 #### 4. 프로젝트 속성 변경
 1) 프로젝트 속성페이지 -> C/C++ -> 명령줄 -> 추가옵션에 `/Zc:__cplusplus`추가
+![[Pasted image 20240205204403.png|500x350]]
 2) 프로젝트 속성페이지 -> 구성 속성 -> 일반 -> C++ 언어 표준 원하는 버전으로 변경(예 : C++20)
-이걸 안바꿔주면 기본적으로 C++
+![[Pasted image 20240205204459.png|500x300]]
+이걸 안바꿔주면 기본적으로 C++ 03버전으로 처리되므로 modern C++의 라이브러리는 bits/stdc++.h를 써도 적용이 안됨
 
-그 후 사용할때
-`#include <bits/stdc++.h>` 추가하고 사용
-
+#### 5. 그 후 사용할때 `#include <bits/stdc++.h>` 추가하고 사용
+![[Pasted image 20240205204558.png]]
 
 # 장단점
 1) 장점
