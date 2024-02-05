@@ -92,7 +92,8 @@
       "C++/개념정리",
       "C++/Code Keeping/contents",
       "C++/연산자",
-      "C++/contents"
+      "C++/contents",
+      "C++/개념정리/contents"
     ],
     "as": [
       "Hello Obsidian",
@@ -192,7 +193,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1707148758551,
+  "spacesAutoBackupLast": 1707149506645,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
