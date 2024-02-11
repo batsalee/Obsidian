@@ -7,7 +7,7 @@
 // -INF는 -2147483648
 
 // 오름차순 priority_queue<pair>
-// 다익스트라
+// 다익스트라 dijkstra
 priority_queue<pair<int, int>, vector<pair<int, int>>, greater<> > pq;
 ```
 
