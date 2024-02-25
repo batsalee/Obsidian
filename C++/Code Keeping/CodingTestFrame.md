@@ -6,8 +6,8 @@
 #define INF 2147483647
 // -INF는 -2147483648
 
+// 다익스트라 dijkstra
 // 오름차순 priority_queue<pair>
-// 다익스트라
 priority_queue<pair<int, int>, vector<pair<int, int>>, greater<> > pq;
 ```
 
