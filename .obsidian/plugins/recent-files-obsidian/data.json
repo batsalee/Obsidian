@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "accumulate",
+      "path": "C++/Code Keeping/accumulate.md"
+    },
+    {
+      "basename": "3개이상 max, min",
+      "path": "C++/Code Keeping/3개이상 max, min.md"
+    },
+    {
       "basename": "디자인패턴",
       "path": "CS 지식/디자인패턴/디자인패턴.md"
     },
     {
       "basename": "팩토리 메서드",
       "path": "CS 지식/디자인패턴/생성패턴/팩토리 메서드.md"
-    },
-    {
-      "basename": "3개이상 max, min",
-      "path": "C++/Code Keeping/3개이상 max, min.md"
     },
     {
       "basename": "STL Container의 크기 고찰",
@@ -195,10 +199,6 @@
     {
       "basename": "진법 변환",
       "path": "C++/Code Keeping/진법 변환.md"
-    },
-    {
-      "basename": "cout 지수출력 방지",
-      "path": "C++/Code Keeping/cout 지수출력 방지.md"
     }
   ],
   "omittedPaths": [],

@@ -93,9 +93,11 @@
       "C++/contents",
       "C++/개념정리/contents",
       "C++/Code Keeping",
-      "CS 지식",
       "CS 지식/디자인패턴",
-      "CS 지식/디자인패턴/구조패턴"
+      "CS 지식/디자인패턴/구조패턴",
+      "C++",
+      "C++/Code Keeping",
+      "C++/Code Keeping"
     ],
     "as": [
       "Hello Obsidian",
@@ -195,7 +197,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1709054136094,
+  "spacesAutoBackupLast": 1709318936924,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
