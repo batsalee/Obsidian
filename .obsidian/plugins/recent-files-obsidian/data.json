@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "디자인패턴",
+      "path": "CS 지식/디자인패턴/디자인패턴.md"
+    },
+    {
+      "basename": "팩토리 메서드",
+      "path": "CS 지식/디자인패턴/생성패턴/팩토리 메서드.md"
+    },
+    {
       "basename": "3개이상 max, min",
       "path": "C++/Code Keeping/3개이상 max, min.md"
     },
@@ -51,14 +59,6 @@
     {
       "basename": "알파벳 개수",
       "path": "수학적 지식/알파벳 개수.md"
-    },
-    {
-      "basename": "팩토리 메서드",
-      "path": "CS 지식/디자인패턴/생성패턴/팩토리 메서드.md"
-    },
-    {
-      "basename": "디자인패턴",
-      "path": "CS 지식/디자인패턴/디자인패턴.md"
     },
     {
       "basename": "DQL",
