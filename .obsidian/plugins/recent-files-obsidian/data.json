@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "70주간의 1일 1커밋 후기",
+      "path": "일기장/공부/70주간의 1일 1커밋 후기.md"
+    },
+    {
       "basename": "accumulate",
       "path": "C++/Code Keeping/accumulate.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "윤년",
       "path": "C++/Code Keeping/윤년.md"
-    },
-    {
-      "basename": "진법 변환",
-      "path": "C++/Code Keeping/진법 변환.md"
     }
   ],
   "omittedPaths": [],
