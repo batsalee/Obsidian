@@ -195,12 +195,47 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
+  "floating": {
+    "id": "2d22d85afcd2b510",
+    "type": "floating",
+    "children": [
+      {
+        "id": "f79f63a66ac54dbf",
+        "type": "window",
+        "children": [
+          {
+            "id": "6f1d4ba0dc421fe2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "db2ee1de2e2d3585",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "일기장/프로젝트/contents/Pasted image 20240311005237.png"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 256,
+        "y": 32,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "c95de6787a3c81f7",
   "lastOpenFiles": [
     "일기장/프로젝트/contents/Pasted image 20240311005237.png",
+    "일기장/프로젝트/PushPush.md",
     "일기장/프로젝트/contents",
     "일기장/공부/70주간의 1일 1커밋 후기.md",
-    "일기장/프로젝트/PushPush.md",
     "일기장/취미",
     "일기장/프로젝트",
     "일기장/공부",
@@ -225,7 +260,6 @@
     "C++/Code Keeping/contents/Pasted image 20240205204430.png",
     "C++/Code Keeping/contents/Pasted image 20240205204403.png",
     "C++/Code Keeping/contents/Pasted image 20240205204147.png",
-    "C++/Code Keeping/contents/Pasted image 20240205204044.png",
     "C++/Code Keeping/MySQL 연동.md",
     "C++/Code Keeping/contents",
     "Notepad/Today_Study 정리파일.md",

@@ -5,6 +5,10 @@
       "path": "일기장/프로젝트/PushPush.md"
     },
     {
+      "basename": "Pasted image 20240311005237",
+      "path": "일기장/프로젝트/contents/Pasted image 20240311005237.png"
+    },
+    {
       "basename": "70주간의 1일 1커밋 후기",
       "path": "일기장/공부/70주간의 1일 1커밋 후기.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "sqrt, pow",
       "path": "C++/Code Keeping/sqrt, pow.md"
-    },
-    {
-      "basename": "GCD, LCM",
-      "path": "C++/Code Keeping/GCD, LCM.md"
     }
   ],
   "omittedPaths": [],
