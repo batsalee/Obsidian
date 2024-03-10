@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일기장/공부/70주간의 1일 1커밋 후기.md",
+                "file": "일기장/프로젝트/PushPush.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일기장/공부/70주간의 1일 1커밋 후기.md",
+                "file": "일기장/프로젝트/PushPush.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일기장/공부/70주간의 1일 1커밋 후기.md",
+                "file": "일기장/프로젝트/PushPush.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일기장/공부/70주간의 1일 1커밋 후기.md"
+                "file": "일기장/프로젝트/PushPush.md"
               }
             }
           },
@@ -198,6 +198,7 @@
   "active": "c95de6787a3c81f7",
   "lastOpenFiles": [
     "일기장/공부/70주간의 1일 1커밋 후기.md",
+    "일기장/프로젝트/PushPush.md",
     "일기장/취미",
     "일기장/프로젝트",
     "일기장/공부",

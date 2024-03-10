@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "PushPush",
+      "path": "일기장/프로젝트/PushPush.md"
+    },
+    {
       "basename": "70주간의 1일 1커밋 후기",
       "path": "일기장/공부/70주간의 1일 1커밋 후기.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "GCD, LCM",
       "path": "C++/Code Keeping/GCD, LCM.md"
-    },
-    {
-      "basename": "윤년",
-      "path": "C++/Code Keeping/윤년.md"
     }
   ],
   "omittedPaths": [],

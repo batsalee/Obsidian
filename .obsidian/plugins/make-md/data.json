@@ -98,7 +98,8 @@
       "C++/Code Keeping",
       "C++/Code Keeping",
       "일기장",
-      "일기장/공부"
+      "일기장/공부",
+      "일기장/프로젝트"
     ],
     "as": [
       "Hello Obsidian",
@@ -198,7 +199,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1709850716540,
+  "spacesAutoBackupLast": 1710045289755,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
