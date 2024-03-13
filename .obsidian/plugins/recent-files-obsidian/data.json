@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "PinkWard",
+      "path": "일기장/프로젝트/PinkWard.md"
+    },
+    {
       "basename": "PushPush",
       "path": "일기장/프로젝트/PushPush.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "array",
       "path": "C++/C++ STL/Container/시퀀스 컨테이너/array.md"
-    },
-    {
-      "basename": "sqrt, pow",
-      "path": "C++/Code Keeping/sqrt, pow.md"
     }
   ],
   "omittedPaths": [],
