@@ -219,4 +219,117 @@ int Sum(int Node, int Start, int End, int Left, int Right)
 
 이때 3번노드의 경우 범위에 속해있지 않으므로 바로 return한다.  
 반면 2번노드의 경우 범위에 속해있으므로 값을 변경해줘야 한다.  
-원래 배열의 index 1에는 값 2가 있었는데 5로 변경하므로 +3ㅇ
+원래 배열의 index 1에는 값 2가 있었는데 5로 변경하므로 +3을 해주는것이므로 2번노드도 +3을 해주면 된다.  
+그 후 자식노드에도 변경되는 값이 있을테니 아래로 내려가서 또 진행한다.  
+
+위 과정을 거치면서 4번노드와 5번노드로 가는데 이 때 5번노드는 또 범위에 속하지 않으므로 return  
+4번노드의 경우는 +3해주고 그 아래의 8, 9번 노드로 진행하며 8번노드는 상관없으니 return  
+9번노드는 +3해준다.
+
+#### 구현코드
+```C++
+void Update_SegmentTree(int Node, int Start, int End, int Index, int Diff)
+{
+    if (Index < Start || Index > End) return;
+    SegmentTree[Node] = SegmentTree[Node] + Diff;
+ 
+    if (Start != End)
+    {
+        int Mid = (Start + End) / 2;
+        Update_SegmentTree(Node * 2, Start, Mid, Index, Diff);
+        Update_SegmentTree(Node * 2 + 1, Mid + 1, End, Index, Diff);
+    }
+}
+ 
+int main(void)
+{
+    int Index = 1;
+    int Value = 5;
+    int Diff = Value - Arr[Index];
+    Arr[Index] = Value;
+    Update_SegmentTree(1, 0, N - 1, Index, Diff);
+}
+```
+
+
+
+## 7. 전체 코드
+
+```C++
+#include <iostream>
+#include <vector>
+
+std::vector<int> arr{ 1, 2, 3, 4, 5 };
+std::vector<int> SegmentTree;
+
+int Make_SegmentTree(int Node, int Start, int End)
+{
+    if (Start == End) return SegmentTree[Node] = arr[Start];
+
+    int Mid = (Start + End) / 2;
+    int Left_Result = Make_SegmentTree(Node * 2, Start, Mid);
+    int Right_Result = Make_SegmentTree(Node * 2 + 1, Mid + 1, End);
+    SegmentTree[Node] = Left_Result + Right_Result;
+
+    return SegmentTree[Node];
+}
+
+int Sum(int Node, int Start, int End, int Left, int Right)
+{
+    if (Left > End || Right < Start) return 0;
+    if (Left <= Start && End <= Right) return SegmentTree[Node];
+
+    int Mid = (Start + End) / 2;
+    int Left_Result = Sum(Node * 2, Start, Mid, Left, Right);
+    int Right_Result = Sum(Node * 2 + 1, Mid + 1, End, Left, Right);
+    return Left_Result + Right_Result;
+}
+
+void Update_SegmentTree(int Node, int Start, int End, int Index, int Diff)
+{
+    if (Index < Start || Index > End) return;
+    SegmentTree[Node] = SegmentTree[Node] + Diff;
+
+    if (Start != End)
+    {
+        int Mid = (Start + End) / 2;
+        Update_SegmentTree(Node * 2, Start, Mid, Index, Diff);
+        Update_SegmentTree(Node * 2 + 1, Mid + 1, End, Index, Diff);
+    }
+}
+
+int main(void)
+{
+    int N = arr.size();
+
+    // Make
+    int Tree_Height = (int)ceil(log2(N));
+    int Tree_Size = (1 << (Tree_Height + 1));
+    SegmentTree.resize(Tree_Size);
+    Make_SegmentTree(1, 0, N - 1);
+
+    // Sum 구하기
+    int sum = Sum(1, 0, N - 1, 1, 2); // 배열 index 1 ~ 2의 합인 5 구하기
+    std::cout << sum << '\n';
+
+    // Update
+    int Index = 1;
+    int Value = 5;
+    int Diff = Value - arr[Index];
+    Update_SegmentTree(1, 0, N - 1, Index, Diff);
+}
+```
+
+
+
+## 8. 예시문제
+
+구간 최소값 예시문제) [https://www.acmicpc.net/problem/14427](https://www.acmicpc.net/problem/14427)
+
+
+
+
+
+
+※ 참고문헌
+[https://yabmoons.tistory.com/431](https://yabmoons.tistory.com/431)
