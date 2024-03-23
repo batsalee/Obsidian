@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일기장/프로젝트/PushPush.md",
+                "file": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일기장/프로젝트/PushPush.md",
+                "file": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일기장/프로젝트/PushPush.md",
+                "file": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일기장/프로젝트/PushPush.md"
+                "file": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md"
               }
             }
           },
@@ -195,45 +195,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "floating": {
-    "id": "2d22d85afcd2b510",
-    "type": "floating",
-    "children": [
-      {
-        "id": "f79f63a66ac54dbf",
-        "type": "window",
-        "children": [
-          {
-            "id": "6f1d4ba0dc421fe2",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "db2ee1de2e2d3585",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "일기장/프로젝트/contents/Pasted image 20240311005237.png"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 256,
-        "y": 32,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "c95de6787a3c81f7",
   "lastOpenFiles": [
-    "일기장/프로젝트/contents/Pasted image 20240311005237.png",
+    "CS 지식/자료구조/심화 자료구조/contents/segment tree.png",
+    "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md",
+    "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png",
+    "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130161911.png",
+    "CS 지식/자료구조/contents/Pasted image 20231130113849.png",
+    "CS 지식/자료구조/심화 자료구조/신장트리, 최소신장트리.md",
+    "CS 지식/자료구조/심화 자료구조/Hash Table.md",
+    "CS 지식/자료구조/심화 자료구조/Heap.md",
+    "CS 지식/자료구조/자료구조.md",
     "일기장/프로젝트/PushPush.md",
+    "일기장/프로젝트/contents/Pasted image 20240311005237.png",
     "일기장/프로젝트/contents",
     "일기장/공부/70주간의 1일 1커밋 후기.md",
     "일기장/취미",
@@ -256,10 +230,6 @@
     "C++/Code Keeping/CodingTestFrame.md",
     "C++/Code Keeping/contents/Pasted image 20240205205318.png",
     "C++/Code Keeping/contents/Pasted image 20240205204558.png",
-    "C++/Code Keeping/contents/Pasted image 20240205204459.png",
-    "C++/Code Keeping/contents/Pasted image 20240205204430.png",
-    "C++/Code Keeping/contents/Pasted image 20240205204403.png",
-    "C++/Code Keeping/contents/Pasted image 20240205204147.png",
     "C++/Code Keeping/MySQL 연동.md",
     "C++/Code Keeping/contents",
     "Notepad/Today_Study 정리파일.md",
@@ -272,11 +242,6 @@
     "CS 지식/디자인패턴/행동패턴",
     "CS 지식/디자인패턴/구조패턴",
     "CS 지식/디자인패턴/무제 파일.md",
-    "CS 지식/Database/DQL.md",
-    "CS 지식/Database/DB.md",
-    "CS 지식/Database/SQL기본문법.md",
-    "CS 지식/Git & GitHub/GitHub.md",
-    "CS 지식/Git & GitHub/Git.md",
     "무제 파일.canvas"
   ]
 }
