@@ -93,8 +93,7 @@
       "일기장/공부",
       "일기장/프로젝트",
       "일기장/프로젝트/contents",
-      "CS 지식",
-      "CS 지식/자료구조"
+      "Notepad"
     ],
     "as": [
       "Hello Obsidian",
@@ -194,7 +193,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1711168364638,
+  "spacesAutoBackupLast": 1712908816744,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

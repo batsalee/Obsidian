@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "던져두기",
+      "path": "Notepad/던져두기.md"
+    },
+    {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
+    },
+    {
+      "basename": "신발끈공식(다각형의 넓이 구하기)",
+      "path": "CS 지식/알고리즘/신발끈공식(다각형의 넓이 구하기).md"
+    },
+    {
+      "basename": "알고리즘",
+      "path": "CS 지식/알고리즘/알고리즘.md"
+    },
+    {
       "basename": "세그먼트 트리(Segment Tree)",
       "path": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md"
     },
@@ -93,10 +109,6 @@
       "path": "C++/Code Keeping/MySQL 연동.md"
     },
     {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
-    },
-    {
       "basename": "코딩 습관들여야 할 것들",
       "path": "Notepad/코딩 습관들여야 할 것들.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "unordered_multimap",
       "path": "C++/C++ STL/Container/해시 컨테이너/unordered_multimap.md"
-    },
-    {
-      "basename": "unordered_multiset",
-      "path": "C++/C++ STL/Container/해시 컨테이너/unordered_multiset.md"
-    },
-    {
-      "basename": "unordered_map",
-      "path": "C++/C++ STL/Container/해시 컨테이너/unordered_map.md"
-    },
-    {
-      "basename": "unordered_set",
-      "path": "C++/C++ STL/Container/해시 컨테이너/unordered_set.md"
     }
   ],
   "omittedPaths": [],
