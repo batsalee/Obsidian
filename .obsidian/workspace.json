@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "000f4d6c81f08bf9",
+            "id": "f3c8c01fc7b6d4f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Code Keeping/3개이상 max, min.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c95de6787a3c81f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f5a7c2124ac497a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notepad/던져두기.md",
+                "file": "CS 지식/디자인패턴/디자인패턴.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notepad/던져두기.md",
+                "file": "CS 지식/디자인패턴/디자인패턴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notepad/던져두기.md",
+                "file": "CS 지식/디자인패턴/디자인패턴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notepad/던져두기.md"
+                "file": "CS 지식/디자인패턴/디자인패턴.md"
               }
             }
           },
@@ -207,8 +182,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f5a7c2124ac497a9",
+  "active": "f3c8c01fc7b6d4f3",
   "lastOpenFiles": [
+    "CS 지식/디자인패턴/생성패턴/팩토리 메서드.md",
     "Notepad/던져두기.md",
     "Notepad/Today_Study 정리파일.md",
     "CS 지식/알고리즘/신발끈공식(다각형의 넓이 구하기).md",
@@ -237,7 +213,6 @@
     "무제 파일.md",
     "C++/Code Keeping/3개이상 max, min.md",
     "CS 지식/디자인패턴/디자인패턴.md",
-    "CS 지식/디자인패턴/생성패턴/팩토리 메서드.md",
     "C++/개념정리/STL Container의 크기 고찰.md",
     "C++/개념정리/contents/Pasted image 20240206011149.png",
     "C++/개념정리/contents/Pasted image 20240206005922.png",

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "디자인패턴",
+      "path": "CS 지식/디자인패턴/디자인패턴.md"
+    },
+    {
+      "basename": "팩토리 메서드",
+      "path": "CS 지식/디자인패턴/생성패턴/팩토리 메서드.md"
+    },
+    {
       "basename": "던져두기",
       "path": "Notepad/던져두기.md"
     },
@@ -75,14 +83,6 @@
     {
       "basename": "accumulate",
       "path": "C++/Code Keeping/accumulate.md"
-    },
-    {
-      "basename": "디자인패턴",
-      "path": "CS 지식/디자인패턴/디자인패턴.md"
-    },
-    {
-      "basename": "팩토리 메서드",
-      "path": "CS 지식/디자인패턴/생성패턴/팩토리 메서드.md"
     },
     {
       "basename": "STL Container의 크기 고찰",
