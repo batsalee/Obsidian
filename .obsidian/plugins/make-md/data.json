@@ -95,6 +95,7 @@
       "CS 지식",
       "CS 지식/디자인패턴",
       "CS 지식/디자인패턴/행동패턴",
+      "CS 지식/디자인패턴/구조패턴",
       "CS 지식/디자인패턴/구조패턴"
     ],
     "as": [
@@ -195,7 +196,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1714253059048,
+  "spacesAutoBackupLast": 1714254197595,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
