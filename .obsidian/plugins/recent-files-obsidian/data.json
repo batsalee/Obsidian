@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "콤포지트 패턴",
+      "path": "CS 지식/디자인패턴/구조패턴/콤포지트 패턴.md"
+    },
+    {
       "basename": "브릿지 패턴",
       "path": "CS 지식/디자인패턴/구조패턴/브릿지 패턴.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "priority_queue",
       "path": "C++/C++ STL/Container/컨테이너 어댑터/priority_queue.md"
-    },
-    {
-      "basename": "queue",
-      "path": "C++/C++ STL/Container/컨테이너 어댑터/queue.md"
     }
   ],
   "omittedPaths": [],
