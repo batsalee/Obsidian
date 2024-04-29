@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "콤포지트 패턴",
-      "path": "CS 지식/디자인패턴/구조패턴/콤포지트 패턴.md"
+      "basename": "데코레이터 패턴",
+      "path": "CS 지식/디자인패턴/구조패턴/데코레이터 패턴.md"
     },
     {
       "basename": "브릿지 패턴",
@@ -11,6 +11,10 @@
     {
       "basename": "어댑터 패턴",
       "path": "CS 지식/디자인패턴/구조패턴/어댑터 패턴.md"
+    },
+    {
+      "basename": "콤포지트 패턴",
+      "path": "CS 지식/디자인패턴/구조패턴/콤포지트 패턴.md"
     },
     {
       "basename": "디자인패턴",
@@ -195,10 +199,6 @@
     {
       "basename": "Iterator",
       "path": "C++/C++ STL/Iteraoter/Iterator.md"
-    },
-    {
-      "basename": "priority_queue",
-      "path": "C++/C++ STL/Container/컨테이너 어댑터/priority_queue.md"
     }
   ],
   "omittedPaths": [],
