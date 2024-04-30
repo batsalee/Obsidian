@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "프록시 패턴",
+      "path": "CS 지식/디자인패턴/구조패턴/프록시 패턴.md"
+    },
+    {
       "basename": "플라이웨이트 패턴",
       "path": "CS 지식/디자인패턴/구조패턴/플라이웨이트 패턴.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Container",
       "path": "C++/C++ STL/Container/Container.md"
-    },
-    {
-      "basename": "STL",
-      "path": "C++/C++ STL/STL.md"
     }
   ],
   "omittedPaths": [],
