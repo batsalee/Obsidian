@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "regex",
+      "path": "C++/Modern C++/Library/regex.md"
+    },
+    {
+      "basename": "정규표현식",
+      "path": "CS 지식/프로그래밍 지식/정규표현식.md"
+    },
+    {
+      "basename": "thread",
+      "path": "C++/Modern C++/Library/thread.md"
+    },
+    {
+      "basename": "Modern C++",
+      "path": "C++/Modern C++/Modern C++.md"
+    },
+    {
       "basename": "빌더",
       "path": "CS 지식/디자인패턴/생성패턴/빌더.md"
     },
@@ -170,7 +186,7 @@
     },
     {
       "basename": "아스키코드",
-      "path": "CS 지식/프로그래밍 규범/아스키코드.md"
+      "path": "CS 지식/프로그래밍 지식/아스키코드.md"
     },
     {
       "basename": "알파벳 개수",
@@ -183,22 +199,6 @@
     {
       "basename": "DB",
       "path": "CS 지식/Database/DB.md"
-    },
-    {
-      "basename": "SQL기본문법",
-      "path": "CS 지식/Database/SQL기본문법.md"
-    },
-    {
-      "basename": "GitHub",
-      "path": "CS 지식/Git & GitHub/GitHub.md"
-    },
-    {
-      "basename": "Git",
-      "path": "CS 지식/Git & GitHub/Git.md"
-    },
-    {
-      "basename": "GitHub에 이미지 올리는 법",
-      "path": "CS 지식/Git & GitHub/GitHub에 이미지 올리는 법.md"
     }
   ],
   "omittedPaths": [],
