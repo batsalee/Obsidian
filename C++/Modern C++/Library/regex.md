@@ -264,20 +264,15 @@ int main() {
 ![](https://blog.kakaocdn.net/dn/eeXluQ/btsHcLGys06/qOGir4y3Wvf6PWPgyPVXIk/img.png)
 
 #### 7) 중첩된 캡쳐 그룹
+만약 "sk-circle1 sk-circle"을 "1-sk-circle"로 대체하고 싶다면  
+단지 1을 `(\d)`로 캡처하는  것 뿐 아니라 뒤에 붙은 sk-circle도 날려버려야 하므로 캡처해줘야 한다.  
 
-만약 "sk-circle1 sk-circle"을 "1-sk-circle"로 대체하고 싶다면 
-
-단지 1을 (\d)로 캡처하는  것 뿐 아니라 뒤에 붙은 sk-circle도 날려버려야 하므로 캡처해줘야 한다.
-
-그러므로 (sk-circle(\d) sk-circle)로 문자열 전체를 캡처하면서 숫자부분도 캡처해줘야 한다.
-
-이때 back reference는 괄호가 열리는 순서대로 번호가 붙기때문에 가장 먼저 열린 괄호에 해당하는
-
+그러므로 `(sk-circle(\d) sk-circle)`로 문자열 전체를 캡처하면서 숫자부분도 캡처해줘야 한다.  
+이때 back reference는 괄호가 열리는 순서대로 번호가 붙기때문에 가장 먼저 열린 괄호에 해당하는  
 $1은 문자열 전체를 캡처하고, $2는 \d부분을 캡처하게 된다.
 
-즉 결과로는 $2-sk-circle을 만들면 되는 것
-
-```
+즉 결과로는 $2-sk-circle을 만들면 되는 것  
+```C++
 #include <iostream>
 #include <regex>
 
@@ -301,13 +296,14 @@ int main() {
 ```
 
 결과)
-
 ![](https://blog.kakaocdn.net/dn/ctcDmL/btsHa234wsr/Grb0l6QF7voGVCJCuIL000/img.png)
 
+
+
+
+
+
 ※ 참고 문헌
-
 [https://maloveforme.tistory.com/196](https://maloveforme.tistory.com/196)
-
 [https://modoocode.com/303](https://modoocode.com/303)
-
 [https://cplusplus.com/reference/regex/](https://cplusplus.com/reference/regex/)

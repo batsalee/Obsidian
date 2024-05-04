@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "regex",
-      "path": "C++/Modern C++/Library/regex.md"
-    },
-    {
       "basename": "정규표현식",
       "path": "CS 지식/프로그래밍 지식/정규표현식.md"
+    },
+    {
+      "basename": "regex",
+      "path": "C++/Modern C++/Library/regex.md"
     },
     {
       "basename": "thread",
