@@ -1,12 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "디자인패턴",
-      "path": "CS 지식/디자인패턴/디자인패턴.md"
-    },
-    {
       "basename": "행동패턴",
       "path": "CS 지식/디자인패턴/행동패턴/행동패턴.md"
+    },
+    {
+      "basename": "PinkWard",
+      "path": "일기장/프로젝트/PinkWard.md"
+    },
+    {
+      "basename": "PushPush",
+      "path": "일기장/프로젝트/PushPush.md"
+    },
+    {
+      "basename": "자료구조",
+      "path": "CS 지식/자료구조/자료구조.md"
+    },
+    {
+      "basename": "Heap",
+      "path": "CS 지식/자료구조/심화 자료구조/Heap.md"
+    },
+    {
+      "basename": "세그먼트 트리(Segment Tree)",
+      "path": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md"
+    },
+    {
+      "basename": "헝가리안 표기법",
+      "path": "CS 지식/프로그래밍 지식/헝가리안 표기법.md"
+    },
+    {
+      "basename": "아스키코드",
+      "path": "CS 지식/프로그래밍 지식/아스키코드.md"
+    },
+    {
+      "basename": "CamelCase, snake_case",
+      "path": "CS 지식/프로그래밍 지식/CamelCase, snake_case.md"
+    },
+    {
+      "basename": "정규표현식",
+      "path": "CS 지식/프로그래밍 지식/정규표현식.md"
+    },
+    {
+      "basename": "디자인패턴",
+      "path": "CS 지식/디자인패턴/디자인패턴.md"
     },
     {
       "basename": "구조패턴",
@@ -35,10 +71,6 @@
     {
       "basename": "팩토리 메소드",
       "path": "CS 지식/디자인패턴/생성패턴/팩토리 메소드.md"
-    },
-    {
-      "basename": "정규표현식",
-      "path": "CS 지식/프로그래밍 지식/정규표현식.md"
     },
     {
       "basename": "regex",
@@ -101,20 +133,12 @@
       "path": "CS 지식/알고리즘/알고리즘.md"
     },
     {
-      "basename": "세그먼트 트리(Segment Tree)",
-      "path": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md"
-    },
-    {
       "basename": "Hash Table",
       "path": "CS 지식/자료구조/심화 자료구조/Hash Table.md"
     },
     {
       "basename": "신장트리, 최소신장트리",
       "path": "CS 지식/자료구조/심화 자료구조/신장트리, 최소신장트리.md"
-    },
-    {
-      "basename": "Heap",
-      "path": "CS 지식/자료구조/심화 자료구조/Heap.md"
     },
     {
       "basename": "segment tree",
@@ -133,20 +157,8 @@
       "path": "CS 지식/자료구조/contents/Pasted image 20231130113849.png"
     },
     {
-      "basename": "자료구조",
-      "path": "CS 지식/자료구조/자료구조.md"
-    },
-    {
-      "basename": "PushPush",
-      "path": "일기장/프로젝트/PushPush.md"
-    },
-    {
       "basename": "3개이상 max, min",
       "path": "C++/Code Keeping/3개이상 max, min.md"
-    },
-    {
-      "basename": "PinkWard",
-      "path": "일기장/프로젝트/PinkWard.md"
     },
     {
       "basename": "Pasted image 20240311005237",
@@ -187,18 +199,6 @@
     {
       "basename": "코딩 습관들여야 할 것들",
       "path": "Notepad/코딩 습관들여야 할 것들.md"
-    },
-    {
-      "basename": "뇌를 자극하는 C 프로그래밍",
-      "path": "Protected/뇌를 자극하는 C 프로그래밍.md"
-    },
-    {
-      "basename": "int와 long의 차이",
-      "path": "C++/개념정리/int와 long의 차이.md"
-    },
-    {
-      "basename": "아스키코드",
-      "path": "CS 지식/프로그래밍 지식/아스키코드.md"
     }
   ],
   "omittedPaths": [],
