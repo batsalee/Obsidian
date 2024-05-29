@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "미디에이터",
+      "path": "CS 지식/디자인패턴/행동패턴/미디에이터.md"
+    },
+    {
       "basename": "이터레이터",
       "path": "CS 지식/디자인패턴/행동패턴/이터레이터.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "예외처리",
       "path": "C++/개념정리/예외처리.md"
-    },
-    {
-      "basename": "자료형 범위",
-      "path": "C++/개념정리/자료형 범위.md"
     }
   ],
   "omittedPaths": [],
