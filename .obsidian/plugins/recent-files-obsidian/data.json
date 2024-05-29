@@ -1,28 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "옵저버",
+      "path": "CS 지식/디자인패턴/행동패턴/옵저버.md"
+    },
+    {
       "basename": "메멘토",
       "path": "CS 지식/디자인패턴/행동패턴/메멘토.md"
-    },
-    {
-      "basename": "미디에이터",
-      "path": "CS 지식/디자인패턴/행동패턴/미디에이터.md"
-    },
-    {
-      "basename": "이터레이터",
-      "path": "CS 지식/디자인패턴/행동패턴/이터레이터.md"
     },
     {
       "basename": "인터프리터",
       "path": "CS 지식/디자인패턴/행동패턴/인터프리터.md"
     },
     {
+      "basename": "역할 사슬",
+      "path": "CS 지식/디자인패턴/행동패턴/역할 사슬.md"
+    },
+    {
       "basename": "커맨드",
       "path": "CS 지식/디자인패턴/행동패턴/커맨드.md"
     },
     {
-      "basename": "역할 사슬",
-      "path": "CS 지식/디자인패턴/행동패턴/역할 사슬.md"
+      "basename": "이터레이터",
+      "path": "CS 지식/디자인패턴/행동패턴/이터레이터.md"
+    },
+    {
+      "basename": "미디에이터",
+      "path": "CS 지식/디자인패턴/행동패턴/미디에이터.md"
     },
     {
       "basename": "행동패턴",
@@ -195,10 +199,6 @@
     {
       "basename": "accumulate",
       "path": "C++/Code Keeping/accumulate.md"
-    },
-    {
-      "basename": "STL Container의 크기 고찰",
-      "path": "C++/개념정리/STL Container의 크기 고찰.md"
     }
   ],
   "omittedPaths": [],
