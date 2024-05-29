@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "템플릿 메서드",
+      "path": "CS 지식/디자인패턴/행동패턴/템플릿 메서드.md"
+    },
+    {
       "basename": "스트레티지",
       "path": "CS 지식/디자인패턴/행동패턴/스트레티지.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "3개이상 max, min",
       "path": "C++/Code Keeping/3개이상 max, min.md"
-    },
-    {
-      "basename": "Pasted image 20240311005237",
-      "path": "일기장/프로젝트/contents/Pasted image 20240311005237.png"
     }
   ],
   "omittedPaths": [],
