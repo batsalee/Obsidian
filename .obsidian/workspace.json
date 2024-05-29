@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/디자인패턴/행동패턴/스테이트.md",
+                "file": "CS 지식/디자인패턴/행동패턴/스트레티지.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/디자인패턴/행동패턴/스테이트.md",
+                "file": "CS 지식/디자인패턴/행동패턴/스트레티지.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/디자인패턴/행동패턴/스테이트.md",
+                "file": "CS 지식/디자인패턴/행동패턴/스트레티지.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/디자인패턴/행동패턴/스테이트.md"
+                "file": "CS 지식/디자인패턴/행동패턴/스트레티지.md"
               }
             }
           },
@@ -184,8 +184,9 @@
   },
   "active": "f3c8c01fc7b6d4f3",
   "lastOpenFiles": [
-    "CS 지식/디자인패턴/행동패턴/옵저버.md",
     "CS 지식/디자인패턴/행동패턴/스테이트.md",
+    "CS 지식/디자인패턴/행동패턴/스트레티지.md",
+    "CS 지식/디자인패턴/행동패턴/옵저버.md",
     "CS 지식/디자인패턴/행동패턴/메멘토.md",
     "CS 지식/디자인패턴/행동패턴/인터프리터.md",
     "CS 지식/디자인패턴/행동패턴/역할 사슬.md",
@@ -209,7 +210,6 @@
     "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md",
     "CS 지식/프로그래밍 지식/헝가리안 표기법.md",
     "CS 지식/프로그래밍 지식/아스키코드.md",
-    "CS 지식/프로그래밍 지식/CamelCase, snake_case.md",
     "CS 지식/디자인패턴/생성패턴/contents/Pasted image 20240503042650.png",
     "CS 지식/디자인패턴/생성패턴/contents",
     "CS 지식/디자인패턴/구조패턴/contents/Pasted image 20240502140600.png",

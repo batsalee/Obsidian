@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "스트레티지",
+      "path": "CS 지식/디자인패턴/행동패턴/스트레티지.md"
+    },
+    {
       "basename": "스테이트",
       "path": "CS 지식/디자인패턴/행동패턴/스테이트.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20240311005237",
       "path": "일기장/프로젝트/contents/Pasted image 20240311005237.png"
-    },
-    {
-      "basename": "70주간의 1일 1커밋 후기",
-      "path": "일기장/공부/70주간의 1일 1커밋 후기.md"
     }
   ],
   "omittedPaths": [],
