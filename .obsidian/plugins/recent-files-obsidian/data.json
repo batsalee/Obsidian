@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "메멘토",
+      "path": "CS 지식/디자인패턴/행동패턴/메멘토.md"
+    },
+    {
       "basename": "미디에이터",
       "path": "CS 지식/디자인패턴/행동패턴/미디에이터.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "STL Container의 크기 고찰",
       "path": "C++/개념정리/STL Container의 크기 고찰.md"
-    },
-    {
-      "basename": "예외처리",
-      "path": "C++/개념정리/예외처리.md"
     }
   ],
   "omittedPaths": [],
