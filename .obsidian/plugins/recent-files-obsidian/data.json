@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "생성패턴",
+      "path": "CS 지식/디자인패턴/생성패턴/생성패턴.md"
+    },
+    {
       "basename": "디자인패턴",
       "path": "CS 지식/디자인패턴/디자인패턴.md"
     },
@@ -115,10 +119,6 @@
     {
       "basename": "CamelCase, snake_case",
       "path": "CS 지식/프로그래밍 지식/CamelCase, snake_case.md"
-    },
-    {
-      "basename": "생성패턴",
-      "path": "CS 지식/디자인패턴/생성패턴/생성패턴.md"
     },
     {
       "basename": "프로토타입",
