@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "빌더",
+      "path": "CS 지식/디자인패턴/생성패턴/빌더.md"
+    },
+    {
       "basename": "추상 팩토리",
       "path": "CS 지식/디자인패턴/생성패턴/추상 팩토리.md"
     },
@@ -131,10 +135,6 @@
     {
       "basename": "프로토타입",
       "path": "CS 지식/디자인패턴/생성패턴/프로토타입.md"
-    },
-    {
-      "basename": "빌더",
-      "path": "CS 지식/디자인패턴/생성패턴/빌더.md"
     },
     {
       "basename": "regex",
