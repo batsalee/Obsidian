@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "thread",
-      "path": "C++/Modern C++/Library/thread.md"
-    },
-    {
       "basename": "final",
       "path": "C++/Modern C++/Keyword/final.md"
+    },
+    {
+      "basename": "chrono",
+      "path": "C++/Modern C++/Library/chrono.md"
+    },
+    {
+      "basename": "random",
+      "path": "C++/Modern C++/Library/random.md"
+    },
+    {
+      "basename": "regex",
+      "path": "C++/Modern C++/Library/regex.md"
+    },
+    {
+      "basename": "thread",
+      "path": "C++/Modern C++/Library/thread.md"
     },
     {
       "basename": "nullptr",
@@ -17,20 +29,8 @@
       "path": "C++/Modern C++/Modern C++.md"
     },
     {
-      "basename": "regex",
-      "path": "C++/Modern C++/Library/regex.md"
-    },
-    {
       "basename": "정규표현식",
       "path": "CS 지식/프로그래밍 지식/정규표현식.md"
-    },
-    {
-      "basename": "chrono",
-      "path": "C++/Modern C++/Library/chrono.md"
-    },
-    {
-      "basename": "random",
-      "path": "C++/Modern C++/Library/random.md"
     },
     {
       "basename": "GitHub",
