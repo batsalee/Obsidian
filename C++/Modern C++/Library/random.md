@@ -46,3 +46,70 @@ int main() {
 
 #### 4) rand() 자체의 성능이 별로 좋지 않음
 `rand()`에서 사용하는 알고리즘이 아주 훌륭하지는 않다고 함
+
+
+## 3. C++방식의 random 라이브러리
+  
+```C++
+#include <iostream>
+#include <random>
+
+int main() {    
+    std::random_device rd;  // 시드값을 얻기 위한 random_device 생성    
+    std::mt19937 gen(rd()); // random_device 를 통해 난수 생성 엔진을 초기화 한다
+    std::uniform_int_distribution<int> dis(0, 99); // 균등 분포 정의(0 ~ 99가 균등한 난수열을 생성하기 위해)
+
+    for (int i = 0; i < 10; i++) {
+        std::cout << dis(gen) << ' ';
+    }
+
+    return 0;
+}
+```
+
+#### 1) `std::random_device rd`
+seed값을 얻기 위한 객체  
+
+C언어는 `time(NULL)`로 seed를 얻었지만 modern C++의 random 라이브러리는 random_device를 이용해 seed를 얻음  
+
+C언어 방식은 수학적 알고리즘을 이용해 가짜 난수를 생성했지만 random_device는 운영체제 자체에서 제공하는 진짜 랜덤하게 생기는 요소들이며 예를들어 장치드라이버의 noise를 기반으로 만들어진 난수같은것이 있음  
+
+다만 진짜 난수이지만 컴퓨터가 주변장치와 상호작용하여 만들어지는 것이므로 C방식의 가짜난수보다는 속도가 매우 느리므로 seed값만 random_device로 얻고 그 후는 seed값을 기반으로 한 난수 생성 엔진으로 난수를 생성함  
+
+#### 2) `std::mt19937 gen(rd())`
+`std::mt19937`은 random 라이브러리가 제공하는 난수 생성 엔진 중 하나  
+
+메르센 트위스터 알고리즘의 약자이며 mt19937알고리즘을 사용해서 C언어 방식의 `rand()`보다 난수들간의 상관관계가 매우 작은 비교적 더 양질의 난수 수열을 생성함
+
+mt19937 객체가 만들어지기만 하면 그 후 난수를 생성하는 작업은 매우 빠르지만 mt19937은 객체의 크기가 커서 메모리 제약이 심한 상황이라면 random 라이브러리의 다른 난수 생성 엔진을 사용하는 방법이 있음  
+예를들면 C언어의 rand()와 같은 알고리즘을 사용한 minstd_rand()함수가 있음  
+
+#### 3) `std::uniform_int_distribution<int> dis(0, 99)`
+0부터 99까지 균등한 확률로 난수를 만들기 위해 균등 분포를 정의하는 과정  
+다양한 분포 설정이 가능하며 균등 분포 외에 자주 사용되는 것은 정규분포가 있음  
+
+※ 균등 분포 사용방법
+```C++
+#include <iomanip>
+#include <iostream>
+#include <map>
+#include <random>
+
+int main() {
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::normal_distribution<double> dist(/* 평균 = */ 0, /* 표준 편차 = */ 1);
+
+    std::map<int, int> hist{};
+    for (int n = 0; n < 10000; ++n) {
+        ++hist[std::round(dist(gen))];
+    }
+    for (auto p : hist) {
+        std::cout << std::setw(2) << p.first << ' '
+            << std::string(p.second / 100, '*') << " " << p.second << '\n';
+    }
+}
+
+  
+
+![](https://blog.kakaocdn.net/dn/mSTC6/btsmsRAq3SX/vUplmKv30yHupT26es3BL0/img.png)
