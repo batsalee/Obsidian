@@ -95,7 +95,9 @@
       "CS 지식/프로그래밍 지식",
       "C++/Modern C++",
       "C++/Modern C++/Library",
-      "C++/Modern C++/Keyword"
+      "C++/Modern C++/Keyword",
+      "CS 지식",
+      "CS 지식/자료구조"
     ],
     "as": [
       "Hello Obsidian",
