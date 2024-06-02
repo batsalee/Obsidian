@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "GitHub",
+      "path": "CS 지식/Git & GitHub/GitHub.md"
+    },
+    {
+      "basename": "GitHub에 이미지 올리는 법",
+      "path": "CS 지식/Git & GitHub/GitHub에 이미지 올리는 법.md"
+    },
+    {
       "basename": "Git",
       "path": "CS 지식/Git & GitHub/Git.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "segment tree",
       "path": "CS 지식/자료구조/심화 자료구조/contents/segment tree.png"
-    },
-    {
-      "basename": "Pasted image 20231130145554",
-      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png"
-    },
-    {
-      "basename": "Pasted image 20231130161911",
-      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130161911.png"
     }
   ],
   "omittedPaths": [],
