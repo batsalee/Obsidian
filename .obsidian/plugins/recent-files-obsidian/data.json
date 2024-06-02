@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "비지터",
+      "path": "CS 지식/디자인패턴/행동패턴/비지터.md"
+    },
+    {
+      "basename": "템플릿 메서드",
+      "path": "CS 지식/디자인패턴/행동패턴/템플릿 메서드.md"
+    },
+    {
       "basename": "스트레티지",
       "path": "CS 지식/디자인패턴/행동패턴/스트레티지.md"
     },
@@ -151,14 +159,6 @@
     {
       "basename": "디자인패턴",
       "path": "CS 지식/디자인패턴/디자인패턴.md"
-    },
-    {
-      "basename": "비지터",
-      "path": "CS 지식/디자인패턴/행동패턴/비지터.md"
-    },
-    {
-      "basename": "템플릿 메서드",
-      "path": "CS 지식/디자인패턴/행동패턴/템플릿 메서드.md"
     },
     {
       "basename": "PinkWard",
