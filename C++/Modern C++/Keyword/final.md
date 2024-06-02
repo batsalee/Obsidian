@@ -1,3 +1,6 @@
+# final
+
+
 ## 1. 클래스에 붙이는 경우
 ```C++
 class Car final 
@@ -17,11 +20,9 @@ class Parent
 
 class Child : Parent
 {
-	void func() overide final {
+	void func() override final {
     	...
     }
 }
 ```
-
-부모클래스에서 virtual로 선언된 함수를 상속받아서 오버라이딩 하는 경우에만 사용 가능  
-여기까지가 마지노선이고 더이상 상속 후 오버라이딩 불가능하다는 의미
+부모클래스에서 virtual로 선언된 함수를 상속받아서 오버라이딩 하는 경우 여기까지가 마지노선이고 더이상 상속 후 오버라이딩 불가능하다는 의미  
