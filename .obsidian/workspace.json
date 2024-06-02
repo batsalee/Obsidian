@@ -11,8 +11,12 @@
             "id": "f3c8c01fc7b6d4f3",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "C++/Modern C++/Library/random.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -98,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "C++/Modern C++/Library/random.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "C++/Modern C++/Library/random.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "C++/Modern C++/Library/random.md"
+              }
             }
           },
           {
