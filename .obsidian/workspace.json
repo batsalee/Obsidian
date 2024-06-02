@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/디자인패턴/행동패턴/행동패턴.md",
+                "file": "CS 지식/Git & GitHub/Git.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/디자인패턴/행동패턴/행동패턴.md",
+                "file": "CS 지식/Git & GitHub/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/디자인패턴/행동패턴/행동패턴.md",
+                "file": "CS 지식/Git & GitHub/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/디자인패턴/행동패턴/행동패턴.md"
+                "file": "CS 지식/Git & GitHub/Git.md"
               }
             }
           },
@@ -184,8 +184,8 @@
   },
   "active": "f3c8c01fc7b6d4f3",
   "lastOpenFiles": [
-    "CS 지식/디자인패턴/구조패턴/구조패턴.md",
     "CS 지식/디자인패턴/행동패턴/행동패턴.md",
+    "CS 지식/디자인패턴/구조패턴/구조패턴.md",
     "CS 지식/디자인패턴/구조패턴/어댑터 패턴.md",
     "CS 지식/디자인패턴/구조패턴/데코레이터 패턴.md",
     "CS 지식/디자인패턴/구조패턴/플라이웨이트 패턴.md",

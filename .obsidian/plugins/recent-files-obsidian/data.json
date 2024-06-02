@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Git",
+      "path": "CS 지식/Git & GitHub/Git.md"
+    },
+    {
       "basename": "행동패턴",
       "path": "CS 지식/디자인패턴/행동패턴/행동패턴.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20231130161911",
       "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130161911.png"
-    },
-    {
-      "basename": "Pasted image 20231130113849",
-      "path": "CS 지식/자료구조/contents/Pasted image 20231130113849.png"
     }
   ],
   "omittedPaths": [],
