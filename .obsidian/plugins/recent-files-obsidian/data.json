@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "random",
+      "path": "C++/Modern C++/Library/random.md"
+    },
+    {
+      "basename": "Modern C++",
+      "path": "C++/Modern C++/Modern C++.md"
+    },
+    {
+      "basename": "regex",
+      "path": "C++/Modern C++/Library/regex.md"
+    },
+    {
+      "basename": "thread",
+      "path": "C++/Modern C++/Library/thread.md"
+    },
+    {
       "basename": "GitHub",
       "path": "CS 지식/Git & GitHub/GitHub.md"
     },
@@ -157,18 +173,6 @@
       "path": "CS 지식/프로그래밍 지식/CamelCase, snake_case.md"
     },
     {
-      "basename": "regex",
-      "path": "C++/Modern C++/Library/regex.md"
-    },
-    {
-      "basename": "thread",
-      "path": "C++/Modern C++/Library/thread.md"
-    },
-    {
-      "basename": "Modern C++",
-      "path": "C++/Modern C++/Modern C++.md"
-    },
-    {
       "basename": "마크다운 문법 정리",
       "path": "Hello Obsidian/마크다운 문법 정리.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "신장트리, 최소신장트리",
       "path": "CS 지식/자료구조/심화 자료구조/신장트리, 최소신장트리.md"
-    },
-    {
-      "basename": "segment tree",
-      "path": "CS 지식/자료구조/심화 자료구조/contents/segment tree.png"
     }
   ],
   "omittedPaths": [],

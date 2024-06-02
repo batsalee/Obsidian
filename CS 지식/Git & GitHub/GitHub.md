@@ -75,11 +75,9 @@ git pull --rebase        // rebase 방식
 
 pull로 충돌해결하고 나서 push하면 됨  
 
-
 >[!note] fetch와 pull의 차이점
 > fetch는 확인만 하고 가져오지는 않음  
 > pull은 확인 후 가져와서 갱신까지 함  
-
 
 ## 7. git remote
 
@@ -95,6 +93,7 @@ pull로 충돌해결하고 나서 push하면 됨
 	원격에 새로 생긴 브랜치를 로컬에도 같은 이름으로 생성해서 연결하고 switch  
 
 원격의 브랜치를 삭제하고 싶다면 `git push (원격 이름) --delete (원격 브랜치명)`
+
 
 
 #git
