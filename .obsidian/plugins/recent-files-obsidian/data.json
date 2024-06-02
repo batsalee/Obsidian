@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "스트레티지",
+      "path": "CS 지식/디자인패턴/행동패턴/스트레티지.md"
+    },
+    {
       "basename": "스테이트",
       "path": "CS 지식/디자인패턴/행동패턴/스테이트.md"
     },
@@ -155,10 +159,6 @@
     {
       "basename": "템플릿 메서드",
       "path": "CS 지식/디자인패턴/행동패턴/템플릿 메서드.md"
-    },
-    {
-      "basename": "스트레티지",
-      "path": "CS 지식/디자인패턴/행동패턴/스트레티지.md"
     },
     {
       "basename": "PinkWard",
