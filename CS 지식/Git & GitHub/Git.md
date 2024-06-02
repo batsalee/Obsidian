@@ -170,8 +170,7 @@ reset을 하려면 reset하려는 시점의 타임캡슐의 해쉬값이 필요�
 
 `git revert 해쉬값` => 입력하면 vi로 넘어가지고 커밋메시지도 자동작성되니 그냥 :wq하면 됨  
 revert가 잘 되면 되돌리고 나서 저절로 commit까지 해주게 됨  
-만약 commit을 원하지 않는다면 `git revert --no-commit`  
-revert뿐 아니라 다른 수정사항을 다 수정한 다음에 타임캡슐에 넣고 싶을 수도 있으므로  
+만약 revert뿐 아니라 다른 수정사항을 다 수정한 다음에 타임캡슐에 넣고 싶어서 commit을 원하지 않는다면 `git revert --no-commit`
 
 ##### revert에서의 충돌 해결
 만약 어떤 파일을 생성하던 시점으로 revert를 한다면 git은 해당 파일을 삭제하는 방식으로 되돌림  
