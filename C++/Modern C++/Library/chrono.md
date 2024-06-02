@@ -103,3 +103,119 @@ int main()
 `std::system_clock`은 정확히 몇시 몇분 이런식으로 알려주는게 아니라 유닉스타임(1970년 1월 1일)부터 현재까지 발생한 틱의 횟수를 time_point객체로 리턴해줌  
 즉 time_point 객체에 clock의 시작점인 유닉스타임과 현재시간의 duration을 보관하는 것
 
+`std::high_resolution_clock`은 더 정밀한 시간 계산을 원할 때 사용  
+예를들어 프로그램 성능을 측정하고 싶을 때 시작전에 time_point를 기록하고 끝난 후 time_point를 기록해서 duration을 확인하는 식으로 사용 가능  
+
+사용 예시)
+```C++
+#include <iostream>
+#include <chrono>
+
+int main() 
+{
+	std::chrono::time_point<std::chrono::high_resolution_clock> start =
+		std::chrono::high_resolution_clock::now(); // 시작 전의 timestamp 찍어두기
+
+	for (int i = 0; i < 100000; i++) {		
+	}
+
+	std::chrono::time_point<std::chrono::high_resolution_clock> end =
+		std::chrono::high_resolution_clock::now(); // 시작 후의 timestamp 찍어두기
+		
+	//auto diff = end - start; // C++ 17 이전	
+	std::chrono::duration diff = end - start; // C++ 17 이후
+
+	std::cout << "몇 번의 틱이 발생했는지 : " << diff.count() << '\n'
+		<< "실제 시간이 얼마나 걸린건지 : " << std::chrono::duration_cast<std::chrono::microseconds>(diff).count() << "us\n";
+
+	return 0;
+}
+```
+
+
+## 5. 다양한 활용 방법들
+
+#### 1) 문자열로부터 time_point 구하기
+문자열로부터 time_point를 만들기 위해서는 from_stream 함수를 이용
+```C++
+#include <iostream>
+#include <chrono>
+using namespace std::chrono;
+
+int main()
+{
+	std::istringstream ss{ "2023-07-04 23:44:03" };
+
+	std::chrono::time_point<system_clock, seconds> stp; // seconds를 다른 duration으로 변경 가능
+	std::chrono::from_stream(ss, "%F %T", stp);
+	std::cout << stp << '\n';
+}
+```
+
+#### 2) 현재 시간 구하기
+C++20 이전에는 chrono 라이브러리로만 깔끔하게 현재 몇년도 몇월 몇일 식으로 표기하는 방법은 없고 C언어의 함수들과 함께 사용해야 한다고 함  
+```C++
+#pragma warning(disable : 4996)
+
+#include <iostream>
+#include <chrono>
+#include <ctime>
+
+int main() {
+    auto now = std::chrono::system_clock::now();
+    std::time_t t = std::chrono::system_clock::to_time_t(now);
+
+    std::cout << "현재 시간 : " << std::put_time(localtime(&t), "%F %T %z") << '\n';
+}
+```
+
+C++20 이후에는 아래처럼 사용 가능
+```C++
+#include <iostream>
+#include <chrono>
+
+int main()
+{
+    // system_clock으로 현재 UTC 얻기(Universal Time Coordinated)
+    const std::chrono::system_clock::time_point utc = std::chrono::system_clock::now();
+    std::cout << "현재 UTC : " << utc << '\n'; // 2023-07-04 13:58:44.7184726
+    
+    // system_clock으로 Local Time 얻기    
+    const std::chrono::local_time<std::chrono::system_clock::duration> local_time =
+        std::chrono::zoned_time{ std::chrono::current_zone(), std::chrono::system_clock::now() }.get_local_time();    
+    std::cout << "현재 Local time : " << local_time << '\n'; // 2023-07-04 23:02:02.6299804
+    
+    return 0;
+}
+```
+
+#### 3) 유닉스 타임(에포크 타임)으로부터 경과 틱 구하기
+
+==UTC인 경우== time_point를 time_t로 변경하는 to_time_t 함수  
+반대로 time_t로부터 time_point로 변경하는 from_time_t함수를 사용
+```C++
+using namespace std::chrono;
+
+std::cout << "original time_t : " << time(nullptr) << std::endl;
+
+const system_clock::time_point utc_now = system_clock::now();
+
+std::time_t t = std::chrono::system_clock::to_time_t(utc_now);
+std::cout << "chrono time_t : " << t << std::endl;
+
+system_clock::time_point tp = std::chrono::system_clock::from_time_t(t);
+std::cout << "reverse : " << tp << std::endl;
+```
+
+==local_time의 경우== 로컬타임은 to_time_t를 사용할 수 없고 대신 time_since_epoch 함수를 사용  
+```C++
+using namespace std::chrono;
+
+const system_clock::time_point utc_now = system_clock::now();
+std::cout << "UTC : " << floor<seconds>(utc_now.time_since_epoch()).count() << std::endl;
+
+const local_time<system_clock::duration> local_now = zoned_time{ current_zone(), system_clock::now() }.get_local_time();
+std::cout << "Local : " << floor<seconds>(utc_now.time_since_epoch()).count() << std::endl;
+// floor<seconds>로 초단위까지만 남기고 내림
+```
+
