@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "final 키워드",
+      "path": "C++/Modern C++/Keyword/final 키워드.md"
+    },
+    {
+      "basename": "regex",
+      "path": "C++/Modern C++/Library/regex.md"
+    },
+    {
+      "basename": "정규표현식",
+      "path": "CS 지식/프로그래밍 지식/정규표현식.md"
+    },
+    {
       "basename": "chrono",
       "path": "C++/Modern C++/Library/chrono.md"
+    },
+    {
+      "basename": "Modern C++",
+      "path": "C++/Modern C++/Modern C++.md"
     },
     {
       "basename": "random",
@@ -11,14 +27,6 @@
     {
       "basename": "thread",
       "path": "C++/Modern C++/Library/thread.md"
-    },
-    {
-      "basename": "Modern C++",
-      "path": "C++/Modern C++/Modern C++.md"
-    },
-    {
-      "basename": "regex",
-      "path": "C++/Modern C++/Library/regex.md"
     },
     {
       "basename": "GitHub",
@@ -141,10 +149,6 @@
       "path": "CS 지식/디자인패턴/행동패턴/역할 사슬.md"
     },
     {
-      "basename": "정규표현식",
-      "path": "CS 지식/프로그래밍 지식/정규표현식.md"
-    },
-    {
       "basename": "PinkWard",
       "path": "일기장/프로젝트/PinkWard.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "알고리즘",
       "path": "CS 지식/알고리즘/알고리즘.md"
-    },
-    {
-      "basename": "Hash Table",
-      "path": "CS 지식/자료구조/심화 자료구조/Hash Table.md"
     }
   ],
   "omittedPaths": [],

@@ -219,3 +219,145 @@ std::cout << "Local : " << floor<seconds>(utc_now.time_since_epoch()).count() <<
 // floor<seconds>로 초단위까지만 남기고 내림
 ```
 
+#### 4) 년 월 일 파싱
+```C++
+/* UTC 기반 */
+{
+    using namespace std::chrono;
+    
+    // UTC 기반 현재 시간 구하기
+    const system_clock::time_point now = system_clock::now();
+    // year_month_day를 위해 day까지 절삭
+    const time_point<std::chrono::system_clock, std::chrono::days> dp = floor<std::chrono::days>(now);
+    
+    // 날짜를 얻기 위한 year_month_day
+    std::chrono::year_month_day ymd{ dp };
+    // 시간을 얻기 위한 hh_mm_ss
+    std::chrono::hh_mm_ss time{ floor< std::chrono::milliseconds>(now - dp) };
+    
+    std::cout << "UTC now : " << now << std::endl;
+    std::cout << "UTC year : " << ymd.year() << std::endl;
+    std::cout << "UTC month : " << (unsigned int)ymd.month() << std::endl;
+    std::cout << "UTC day : " << ymd.day() << std::endl;
+    std::cout << "UTC hours : " << time.hours().count() << std::endl;
+    std::cout << "UTC minutes : " << time.minutes().count() << std::endl;
+    std::cout << "UTC seconds : " << time.seconds().count() << std::endl;
+    std::cout << "UTC milliseconds : " << time.subseconds().count() << std::endl;
+}
+
+/* Local Time 기반 */
+{
+    using namespace std::chrono;
+
+    // Local Time 기반 현재 시간 구하기
+    const local_time<system_clock::duration> now = zoned_time{ current_zone(), system_clock::now() }.get_local_time();
+    // year_month_day를 위해 day까지 절삭
+    const time_point<std::chrono::local_t, std::chrono::days> dp = floor<std::chrono::days>(now);
+    
+    // 날짜를 얻기 위한 year_month_day
+    std::chrono::year_month_day ymd{ dp };
+    // 시간을 얻기 위한 hh_mm_ss
+    std::chrono::hh_mm_ss time{ std::chrono::floor< std::chrono::milliseconds>(now - dp) };
+    
+    std::cout << "Local now : " << now << std::endl;
+    std::cout << "Local year : " << ymd.year() << std::endl;
+    std::cout << "Local month : " << (unsigned int)ymd.month() << std::endl;
+    std::cout << "Local day : " << ymd.day() << std::endl;
+    std::cout << "Local hours : " << time.hours().count() << std::endl;
+    std::cout << "Local minutes : " << time.minutes().count() << std::endl;
+    std::cout << "Local seconds : " << time.seconds().count() << std::endl;
+    std::cout << "Local milliseconds : " << time.subseconds().count() << std::endl;
+}
+```
+
+#### 5) 특정 월의 마지막 날짜 구하기
+```C++
+/*
+std::chrono::year_month_day_last 를 이용해 해당 달의 마지막 날짜가 
+28일인지 30일인지 31일인지 획득 가능
+*/
+
+#include <iostream>
+#include <chrono>
+
+int main()
+{
+    using namespace std::chrono;
+
+    const system_clock::time_point now = system_clock::now();
+    time_point<std::chrono::system_clock, std::chrono::days> dp = floor<std::chrono::days>(now);
+    std::chrono::year_month_day ymd{ dp };
+
+    std::chrono::year_month_day_last last_day_of_month(ymd.year(), month_day_last(ymd.month()));
+
+    std::cout << last_day_of_month.year() << std::endl;
+    std::cout << last_day_of_month.month() << std::endl;
+    std::cout << last_day_of_month.day() << std::endl; // 여기로 마지막 날짜 획득 가능
+}
+```
+
+#### 6) 특정 일의 요일 얻기
+```C++
+#include <iostream>
+#include <chrono>
+
+int main()
+{
+    using namespace std::chrono;
+
+    const system_clock::time_point now = system_clock::now();
+    time_point<std::chrono::system_clock, std::chrono::days> dp = floor<std::chrono::days>(now);
+    std::chrono::year_month_weekday ymw{ dp };
+
+    std::cout << ymw.year() << std::endl; // 연도
+    std::cout << ymw.month() << std::endl; // 월
+    std::cout << ymw.weekday().c_encoding() << std::endl; // 일요일을 0으로 표현하는 c 스타일 요일 표현
+    std::cout << ymw.weekday().iso_encoding() << std::endl; // 일요일을 7로 표현하는 iso 스타일 요일 표현
+    std::cout << ymw.index() << std::endl; // 몇번째 주 요일인지 표현. 
+    // 예) 오늘이 월요일이고 3이 리턴 된다면 3번째 월요일을 의미한다.
+    std::cout << ymw.weekday_indexed() << std::endl; // Mon[3] 형태로 출력
+
+    //            c  iso
+    // Sunday     0   7
+    // Monday     1   1
+    // Tuesday    2   2
+    // Wednesday  3   3
+    // Thursday   4   4
+    // Friday     5   5
+    // Saturday   6   6
+    // Sunday     0   7
+}
+```
+
+#### 7) 날짜 및 시간에 증감연산
+```C++
+/*
+time_point에 duration을 더하거나 빼는 식으로 사용
+단 초, 분, 시간, 일, 주 단위까지는 활용하기 좋으나 month와 year은 사용하기 좋지 않음
+1월을 2월로 증가시키는 경우 1월 31일에서 1달을 증가시키면 2월 31일로 처리할지, 
+혹은 3월로 넘어갈지 이런것들이 복잡해지므로
+*/
+
+using namespace std::chrono;
+
+std::istringstream ss{ "1970-01-31 23:59:59" };
+std::chrono::system_clock::time_point tp;
+std::chrono::from_stream(ss, "%F %T", tp);
+
+std::cout << tp << std::endl;                               // 1970-01-31 23:59:59.0000000
+std::cout << tp + milliseconds(5) << " +5 ms" << std::endl; // 1970-01-31 23:59:59.0050000 +5 ms
+std::cout << tp + seconds(1) << " +1 sec" << std::endl;     // 1970-02-01 00:00:00.0000000 +1 sec
+std::cout << tp + minutes(1) << " +1 min" << std::endl;     // 1970-02-01 00:00:59.0000000 +1 min
+std::cout << tp + hours(1) << " +1 hour" << std::endl;      // 1970-02-01 00:59:59.0000000 +1 hour
+std::cout << tp + days(1) << " +1 day" << std::endl;        // 1970-02-01 23:59:59.0000000 +1 day
+std::cout << tp + weeks(1) << " +1 week" << std::endl;      // 1970-02-07 23:59:59.0000000 +1 week
+```
+
+  
+  
+
+  
+
+※ 참고 문헌
+[https://kukuta.tistory.com/410](https://kukuta.tistory.com/410)
+[https://modoocode.com/304](https://modoocode.com/304)

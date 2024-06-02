@@ -40,7 +40,6 @@
       "Private/Protected",
       "Public",
       "C++/STL/Container",
-      "C++/Modern C++/Library",
       "C++/C++ Code Keeping",
       "C++/C++ Code Keeping",
       "C++/C++ Code Keeping",
@@ -90,10 +89,13 @@
       "일기장/프로젝트",
       "일기장/프로젝트/contents",
       "CS 지식/프로그래밍 규범",
-      "C++/Modern C++",
       "CS 지식/자료구조/비선형 구조",
       "CS 지식/디자인패턴/행동패턴",
-      "C++"
+      "C++",
+      "CS 지식/프로그래밍 지식",
+      "C++/Modern C++",
+      "C++/Modern C++/Library",
+      "C++/Modern C++/Keyword"
     ],
     "as": [
       "Hello Obsidian",
@@ -193,7 +195,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1717309384595,
+  "spacesAutoBackupLast": 1717311598948,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
