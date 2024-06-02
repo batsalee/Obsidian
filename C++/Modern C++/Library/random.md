@@ -1,6 +1,5 @@
 # random 라이브러리
 
-
 ## 1. random 라이브러리
 
 C++ 11때 modern C++로 넘어오면서 추가된 난수 라이브러리  
@@ -88,7 +87,7 @@ mt19937 객체가 만들어지기만 하면 그 후 난수를 생성하는 작�
 0부터 99까지 균등한 확률로 난수를 만들기 위해 균등 분포를 정의하는 과정  
 다양한 분포 설정이 가능하며 균등 분포 외에 자주 사용되는 것은 정규분포가 있음  
 
-※ 균등 분포 사용방법
+※ 균등 분포 사용방법 예시
 ```C++
 #include <iomanip>
 #include <iostream>
@@ -109,7 +108,15 @@ int main() {
             << std::string(p.second / 100, '*') << " " << p.second << '\n';
     }
 }
+```
 
+결과)
+![](https://blog.kakaocdn.net/dn/mSTC6/btsmsRAq3SX/vUplmKv30yHupT26es3BL0/img.png)  
   
 
-![](https://blog.kakaocdn.net/dn/mSTC6/btsmsRAq3SX/vUplmKv30yHupT26es3BL0/img.png)
+
+
+
+
+※ 참고 문헌
+[https://modoocode.com/304](https://modoocode.com/304)

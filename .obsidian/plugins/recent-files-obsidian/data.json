@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "chrono",
+      "path": "C++/Modern C++/Library/chrono.md"
+    },
+    {
       "basename": "random",
       "path": "C++/Modern C++/Library/random.md"
+    },
+    {
+      "basename": "thread",
+      "path": "C++/Modern C++/Library/thread.md"
     },
     {
       "basename": "Modern C++",
@@ -11,10 +19,6 @@
     {
       "basename": "regex",
       "path": "C++/Modern C++/Library/regex.md"
-    },
-    {
-      "basename": "thread",
-      "path": "C++/Modern C++/Library/thread.md"
     },
     {
       "basename": "GitHub",
@@ -195,10 +199,6 @@
     {
       "basename": "Hash Table",
       "path": "CS 지식/자료구조/심화 자료구조/Hash Table.md"
-    },
-    {
-      "basename": "신장트리, 최소신장트리",
-      "path": "CS 지식/자료구조/심화 자료구조/신장트리, 최소신장트리.md"
     }
   ],
   "omittedPaths": [],

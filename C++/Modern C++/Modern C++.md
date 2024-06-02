@@ -11,4 +11,5 @@ C++14와 C++17은 비교적 작은 변화만 있었지만 C++20에선 또 대규
 # Modern C++ Library
 - [[thread]] : 
 - [[regex]] : 
-- [[random]] : 
+- [[random]] : 랜덤 관련 라이브러리
+- [[chrono]] : 시간 관련 라이브러리
