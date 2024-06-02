@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "알고리즘",
+      "path": "CS 지식/알고리즘/알고리즘.md"
+    },
+    {
+      "basename": "신발끈공식(다각형의 넓이 구하기)",
+      "path": "CS 지식/알고리즘/신발끈공식(다각형의 넓이 구하기).md"
+    },
+    {
       "basename": "final",
       "path": "C++/Modern C++/Keyword/final.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "던져두기",
       "path": "Notepad/던져두기.md"
-    },
-    {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
-    },
-    {
-      "basename": "신발끈공식(다각형의 넓이 구하기)",
-      "path": "CS 지식/알고리즘/신발끈공식(다각형의 넓이 구하기).md"
     }
   ],
   "omittedPaths": [],
