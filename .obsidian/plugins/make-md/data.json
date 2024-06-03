@@ -95,7 +95,9 @@
       "C++/Modern C++/Library",
       "C++/Modern C++/Keyword",
       "Notepad",
-      "C++/개념정리"
+      "C++/개념정리",
+      "CS 지식",
+      "CS 지식/디자인패턴"
     ],
     "as": [
       "Hello Obsidian",
