@@ -25,7 +25,8 @@ pair<string, int> sip;
 sip = make_pair("스트링", 10); // make_pair를 사용해 대입도 가능
 cout << "sip.first : " << sip.first << ", sip.second : " << sip.second << endl;
 ```
-make_pair의 존재 기억하기
+make_pair는 C++11버전이고 C++17이후로 {}를 쓰는 듯하다  
+{}를 써도 문제 없는걸로 보이니 둘 다 알아두기
 
 ## 3. 메모리 공간
 
@@ -532,6 +533,23 @@ ss >> a >> op >> b >> eq >> c;
 // 위처럼 아예 고정해버리고 시작하면 쉽다.
 ```
 
+stringstream 사용시 주의점  
+stringstream으로 문자열에서 특정 문자를 기준으로 자르게 처리할때  
+```C++
+while(getline(ss, part, 'x')) {
+	answer.push_back(part);
+}
+```
+위처럼 처리할 수가 있는데   
+문제는 ss가 "axxbxx"같은 형태라면 "a", "", "b", "" 형태로 ""도 결과에 들어가게 됨  
+그러므로 ""는 무시하게 만들어줘야 할 필요가 있음  
+```C++
+    while(getline(ss, part, 'x')) {
+        if(part != "") answer.push_back(part);
+    }
+```
+
+
 ## 18. 재귀
 
 개인적으로 가장 못하고 두려워하는 분야  
@@ -819,3 +837,148 @@ for(int v : vec) {
 
 문장의 문자들을 모두 소문자로 바꾸고 싶다면
 transform(my_string.begin(), my_string.end(), my_string.begin(), ::tolower);
+
+
+min_element / max_element는 만약 vector에 가장 작은/큰 값이 여러개라면 가장 왼쪽의 itr을 출력해줌
+
+
+cout << fixed; cout.precision();은 자동으로 반올림을 한다.
+예를들어 
+```C++
+double d = 1234.56789
+cout << fixed;
+cout.precision(3);
+cout << d; // 1234.568
+```
+
+
+우선순위큐는 heap으로 구현
+set은 이분탐색트리로 구현
+map은 레드블랙트리로 구현
+
+heap은 완전이진트리를 이용해서 구현함
+근데 완전이진트리는 array로 구현
+그러므로 heap도 구현시에는 array를 사용하는 듯
+그럼 우선순위큐도 마찬가지로 array를 사용하게 될듯(혹은 vector)
+
+
+
+set과 map에  
+algorithm header의 lower_bound와 upper_bound를 사용하면 O(N)으로 비효율적이다  
+set의 iterator는 양방향itr이기때문  
+그래서 set과 map에는 멤버함수로 lower_bound, upper_bound함수가 따로있다.  
+  
+그래서 특정값이상을 찾아 erase가 잦은 경우 단지 erase가 잦다는 이유로 list를 택할 수 없다.  
+list에서 제공하는 lower_bound는 O(N)이고 erase가 O(1)인것을 감안해도   
+set/multiset에 넣고 lower_bound하고 erase하는게 더 효율적일 수 있다.  
+  
+관련문제 : [https://www.acmicpc.net/problem/1202](https://www.acmicpc.net/problem/1202)
+
+정답코드)
+```C++
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	ios::sync_with_stdio(false); cin.tie(NULL);
+
+	int N, K;
+	cin >> N >> K;
+
+	vector<pair<int, int>> pq(N);
+	int M, V;
+	for (int i = 0; i < N; i++) {
+		cin >> M >> V;
+		pq[i] = { V, M };
+	}
+	sort(pq.begin(), pq.end(),
+		[&](auto a, auto b) {
+			if (a.first == b.first) return a.second < b.second;
+			else return a.first > b.first;
+		}
+	);
+
+	multiset<int> C;
+	int input;
+	for (int i = 0; i < K; i++) {
+		cin >> input;
+		C.insert(input);
+	}
+
+	long long answer = 0;
+	int index = 0;
+	while (index < N && C.size()) {
+		int value = pq[index].first;
+		int weight = pq[index].second;
+		index++;
+
+		auto itr = C.lower_bound(weight);
+		if (itr != C.end()) {
+			answer += value;
+			C.erase(itr);
+		}		
+	}
+
+	cout << answer;
+	
+	return 0;
+}
+```
+
+
+
+#### vector간의 비교연산자
+vector간의 비교는 보통 두 벡터가 같은지 확인하는
+```C++
+if(v1 == v2) ;
+```
+위와 같은 형태가 종종 보이지만 그 뿐 아니라 <, >, <=, >= 같은 비교연산자도 사용 가능하다  
+```C++
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	ios::sync_with_stdio(false); cin.tie(NULL);
+
+	vector<int> v1{ 1, 2, 3 };
+	vector<int> v2{ 1, 2, 3 };
+	vector<int> v3{ 1, 2, 3, 4 };
+	vector<int> v4{ 1, 2, 4, 5 };
+
+	cout << boolalpha;
+	cout << (v1 == v2) << '\n';
+	cout << (v2 < v3) << '\n';
+	cout << (v3 < v4) << '\n';
+
+	return 0;
+}
+```
+위처럼 비교연산자로 vector를 비교하면  
+vector의 size가 더 큰 쪽이 더 크게 판정되며,  
+size가 같다면 index 0부터 비교하면서 처음으로 숫자가 달라지는 index의 값 중 더 큰쪽의 vector가 더 큰것으로 판정한다.  
+마치 {1, 2, 3, 4}와 {1, 2, 4, 5} 두개의 벡터의 값들을 문자열로 붙인것마냥 1234와 1245의 비교로 1245가 더 크다고 판정하는것처럼 받아들이면 됨  
+![](https://blog.kakaocdn.net/dn/JLxTi/btsGNZzBEtW/O8X3gCIkio6usldCJMimD1/img.png)
+
+
+#### string rfind
+string에서 find로 글자를 찾으면 왼쪽부터 비교해서 처음 발견된 인덱스를 반환해줌  
+반면 rfind로 찾으면 오른쪽부터 비교해서 처음 발견된 인덱스를 반환해줌  
+```C++
+#include <iostream>
+using namespace std;
+
+int main() {
+	string str = "abcdea";
+	cout << str.find('a') << ' ' << str.rfind('a');
+}
+```
+
+결과)  
+![](https://blog.kakaocdn.net/dn/9bokk/btsHbCYqzZ4/p2erKGK2F1I3o865yEo0l1/img.png)
+그래서 특정 문자로 끝나게 자르고 싶다면 뒤에서부터 위치를 찾아서 인덱스를 얻어서 substr하는 방법이 있음
+
+
+
+#### 인터프맅

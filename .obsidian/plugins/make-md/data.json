@@ -95,7 +95,8 @@
       "C++/Modern C++/Library",
       "C++/Modern C++/Keyword",
       "CS 지식",
-      "CS 지식/디자인패턴"
+      "CS 지식/디자인패턴",
+      "Notepad"
     ],
     "as": [
       "Hello Obsidian",
@@ -195,7 +196,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1717313127661,
+  "spacesAutoBackupLast": 1717381108624,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
