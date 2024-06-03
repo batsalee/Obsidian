@@ -256,7 +256,7 @@ in.open("other.txt");
 
 int main() {
   // 파일 쓰기 준비
-  std::ofstream out("test.txt");
+  std::ofstream out("test.txt"); // 옵션없이 사용하면 기존 내용 모두 지워지므로 주의
   std::string s;
   
   if (out.is_open()) {
@@ -266,14 +266,14 @@ int main() {
   return 0;
 }
 ```
->[!war★ 주의사항
 
-test.txt가 존재하지 않는다면 test.txt를 생성한 뒤에 출력함
-
-반면 test.txt가 이미 존재한다면 옵션지정 안하면 원래 내용을 다 지워버리고 해당 내용을 작성함
-
-그러므로 옵션을 적절히 설정해줘야 함
-
+>[!warning] 주의사항
+>
+> test.txt가 존재하지 않는다면 test.txt를 생성한 뒤에 출력함  
+> 반면 test.txt가 이미 존재한다면 옵션지정 안하면 원래 내용을 다 지워버리고 해당 내용을 작성함
+> 그러므로 옵션을 적절히 설정해줘야 함
+##### 출력 옵션 지정 방법
+```C++
 std::ofstream out("test.txt", std::ios::app); // 이런식으로 옵션 사용
   
 ios::trunc // 기본값이라고 보면 되고 파일스트림을 여는 순간 내용이 모두 지워짐
@@ -286,13 +286,10 @@ ios::in, ios::out // ifstream이라면 in이 적용되어 있고, ofstream이라
 // app과 ate의 차이점
 // app은 원문은 절대 건드리지 않음
 // ate는 위치지정자를 옮길 수 있으므로 이전으로 옮기면 원문을 건들수있음
-
+```
   
-
-만약 문자열이라면 그냥 out << "~~"; 처럼 쓰면 되지만 직접 만든 객체의 내용을 파일에 저장하려면
-
-operator<<를 구현하면 됨
-
+만약 문자열이라면 그냥 `out << "...";` 처럼 쓰면 되지만 직접 만든 객체의 내용을 파일에 저장하려면 `operator<<`를 구현해야 함  
+```C++
 #include <fstream>
 #include <iostream>
 #include <string>
@@ -314,6 +311,7 @@ std::ofstream& operator<<(std::ofstream& o, Human& h) {
   o << h.get_info();
   return o;
 }
+
 int main() {
   // 파일 쓰기 준비
   std::ofstream out("test.txt");
@@ -323,9 +321,7 @@ int main() {
 
   return 0;
 }
-
-  
-
+```
   
 
   
@@ -333,5 +329,4 @@ int main() {
   
 
 ※ 참고 문헌
-
 [https://modoocode.com/306](https://modoocode.com/306)

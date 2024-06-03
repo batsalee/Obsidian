@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "디자인 패턴 공부 후기",
+      "path": "공부 후기 및 고찰/디자인 패턴 공부 후기.md"
+    },
+    {
+      "basename": "70주간의 1일 1커밋 후기",
+      "path": "공부 후기 및 고찰/70주간의 1일 1커밋 후기.md"
+    },
+    {
       "basename": "filesystem과 fstream",
       "path": "C++/Modern C++/Library/filesystem과 fstream.md"
     },
@@ -190,15 +198,7 @@
     },
     {
       "basename": "PinkWard",
-      "path": "일기장/프로젝트/PinkWard.md"
-    },
-    {
-      "basename": "PushPush",
-      "path": "일기장/프로젝트/PushPush.md"
-    },
-    {
-      "basename": "자료구조",
-      "path": "CS 지식/자료구조/자료구조.md"
+      "path": "프로젝트/PinkWard.md"
     }
   ],
   "omittedPaths": [],
