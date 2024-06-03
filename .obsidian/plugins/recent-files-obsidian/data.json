@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "우측값 레퍼런스와 좌측값의 이동",
+      "path": "C++/Modern C++/개념/우측값 레퍼런스와 좌측값의 이동.md"
+    },
+    {
+      "basename": "Modern C++",
+      "path": "C++/Modern C++/Modern C++.md"
+    },
+    {
       "basename": "디자인 패턴 공부 후기",
       "path": "공부 후기 및 고찰/디자인 패턴 공부 후기.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "filesystem과 fstream",
       "path": "C++/Modern C++/Library/filesystem과 fstream.md"
-    },
-    {
-      "basename": "Modern C++",
-      "path": "C++/Modern C++/Modern C++.md"
     },
     {
       "basename": "행동패턴",
@@ -195,10 +199,6 @@
     {
       "basename": "디자인패턴",
       "path": "CS 지식/디자인패턴/디자인패턴.md"
-    },
-    {
-      "basename": "PinkWard",
-      "path": "프로젝트/PinkWard.md"
     }
   ],
   "omittedPaths": [],
