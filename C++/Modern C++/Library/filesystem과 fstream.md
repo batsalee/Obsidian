@@ -50,29 +50,21 @@ int main() {
 
 ※ absolute와 canonical의 차이는 .이나 ..같은 정보가 포함 되냐 안되냐의 차이(canonical은 . .. 없이 깔끔하게 나옴)
 
-  
+#### 2) 파일정보 확인 관련
+`std::filesystem::exists()`로 해당 객체가 존재하는지 확인할 수 있으며  
+`std::filesystem::is_regular_file()`로 해당 객체가 파일인지 확인할 수 있으며  
+`std::filesystem::is_directory()`로 해당 객체가 폴더인지 확인할 수 있음  
 
-2. 파일정보 확인 관련
-
-std::filesystem::exists()로 해당 객체가 존재하는지 확인할 수 있으며
-
-std::filesystem::is_regular_file()로 해당 객체가 파일인지 확인할 수 있으며
-
-std::filesystem::is_directory()로 해당 객체가 폴더인지 확인할 수 있음
-
-  
-
-3. 파일 순회(directory_iterator)
-
-디렉터리 안의 모든 파일을 순회하기 위해서는 directory_iterator를 사용
-
+#### 3) 파일 순회(directory_iterator)
+디렉터리 안의 모든 파일을 순회하기 위해서는 directory_iterator를 사용  
+```C++
 #include <filesystem>
 #include <iostream>
 
 namespace fs = std::filesystem;
 
 int main() {
-  fs::directory_iterator itr(fs::current_path() / "a");
+  fs::directory_iterator itr(fs::current_path() / "a"); // 현재경로 밑의 a폴더
   while (itr != fs::end(itr)) {
     const fs::directory_entry& entry = *itr;
     std::cout << entry.path() << std::endl;
@@ -80,62 +72,37 @@ int main() {
   }
 }
 
-STL컨테이너들은 begin()함수를 사용하면 시작 itr을 편하게 정의할 수 있었는데
-
-directory_iterator는 begin()함수는 없다고 함
-
-그래서 직접 반복자를 정의해줘야 하고 그 문구가  fs::directory_iterator itr(fs::current_path() / "a");
-
-  
-
-/ "a"의 경우 path에 operator / 가 정의되어있어서 위처럼 path() / "a"라고 하면 현재 경로에 있는 a 디렉터리 안에 있는 파일들을 탐색하게 됨
-
-  
-
-begin()뿐 아니라 그냥 깔끔한 end()도 없기때문에 
-
-itr != std::filesystem::end(itr)
-
-처럼 사용해서 끝이 아닐때까지 반복
-
-  
-
-itr이 가리키는것은 디렉터리에 정의된 개개의 파일을 나타내는 directory_entry를 가리킴
-
-directory_entry에는 파일의 이름이나 크기 등의 여러 정보들이 저장되어있음
-
-그러므로 굳이 itr을 순회하지 않고 range_based_for문을 사용한다면 위 코드는
-
-#include <iostream>
-
-namespace fs = std::filesystem;
-
+/* 또는 아래처럼 range based for로 사용 가능
 int main() {
   for (const fs::directory_entry& entry :
        fs::directory_iterator(fs::current_path() / "a")) {
     std::cout << entry.path() << std::endl;
   }
 }
+*/
+```
+STL컨테이너들은 begin()함수를 사용하면 시작 itr을 편하게 정의할 수 있었는데  
+directory_iterator는 begin()함수는 없다고 함  
+그래서 직접 반복자를 정의해줘야 하고 그 문구가  fs::directory_iterator itr(fs::current_path() / "a");  
 
-처럼도 사용 가능
+/ "a"의 경우 path에 operator / 가 정의되어있어서 위처럼 path() / "a"라고 하면 현재 경로에 있는 a 디렉터리 안에 있는 파일들을 탐색하게 됨  
 
-  
+begin()뿐 아니라 그냥 깔끔한 end()도 없기때문에 `itr != std::filesystem::end(itr)`처럼 사용해서 끝이 아닐때까지 반복  
 
-단, directory_iterator의 경우 해당 디렉터리 안에 다른 디렉터리가 또 있다면 그 안까지는 확인하지 않음
+itr이 가리키는것은 디렉터리에 정의된 개개의 파일을 나타내는 directory_entry를 가리키며  
+directory_entry에는 파일의 이름이나 크기 등의 여러 정보들이 저장되어있음  
 
-디렉터리 안의 디렉터리까지 모두 보고 싶다면 recursive_directory_iterator를 사용
+> [!note] 디렉터리 안의 디렉터리 순회
+>
+> 단, directory_iterator의 경우 해당 디렉터리 안에 다른 디렉터리가 또 있다면 그 안까지는 확인하지 않음  
+> 디렉터리 안의 디렉터리까지 모두 보고 싶다면 recursive_directory_iterator를 사용
 
-  
+> [!warning] directory_iterator 사용시 주의점
+>
+> 디렉터리에서 파일이 삭제된다거나 하면 iterator가 무효화됨  
+> 그러므로 .txt파일을 모두 삭제하기 위해 순회하면서 지운다면 remove 하나 할때마다 iterator를 다시 얻어야 함
 
-※ directory_iterator 사용시 주의점
-
-디렉터리에서 파일이 삭제된다거나 하면 iterator가 무효화됨
-
-그러므로 .txt파일을 모두 삭제하기 위해 순회하면서 지운다면 remove 하나 할때마다 iterator를 다시 얻어야 함
-
-  
-
-4. 디렉터리 생성
+#### 4) 디렉터리 생성
 
 std::filesystem::path p("./a/c");
 
