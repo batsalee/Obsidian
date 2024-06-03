@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "filesystem과 fstream",
+      "path": "C++/Modern C++/Library/filesystem과 fstream.md"
+    },
+    {
+      "basename": "Modern C++",
+      "path": "C++/Modern C++/Modern C++.md"
+    },
+    {
       "basename": "행동패턴",
       "path": "CS 지식/디자인패턴/행동패턴/행동패턴.md"
     },
@@ -105,10 +113,6 @@
       "path": "C++/Modern C++/Keyword/nullptr.md"
     },
     {
-      "basename": "Modern C++",
-      "path": "C++/Modern C++/Modern C++.md"
-    },
-    {
       "basename": "정규표현식",
       "path": "CS 지식/프로그래밍 지식/정규표현식.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "자료구조",
       "path": "CS 지식/자료구조/자료구조.md"
-    },
-    {
-      "basename": "Heap",
-      "path": "CS 지식/자료구조/심화 자료구조/Heap.md"
     }
   ],
   "omittedPaths": [],
