@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "make_pair",
+                "query": "shrink",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,9 +184,10 @@
   },
   "active": "f3c8c01fc7b6d4f3",
   "lastOpenFiles": [
-    "Notepad/Notepad.md",
-    "Notepad/Today_Study 정리파일.md",
     "Notepad/코딩 습관들여야 할 것들.md",
+    "Notepad/Today_Study 정리파일.md",
+    "C++/C++ STL/Container/시퀀스 컨테이너/vector.md",
+    "Notepad/Notepad.md",
     "Notepad/노션 강의 정리.md",
     "Notepad/자료구조 정리중.md",
     "Notepad/던져두기.md",
@@ -209,7 +210,6 @@
     "C++/Modern C++/Library/random.md",
     "C++/Modern C++/Library/regex.md",
     "C++/Modern C++/Library/thread.md",
-    "C++/Modern C++/Keyword/nullptr.md",
     "C++/Modern C++/Keyword",
     "CS 지식/디자인패턴/생성패턴/contents/Pasted image 20240503042650.png",
     "CS 지식/디자인패턴/생성패턴/contents",

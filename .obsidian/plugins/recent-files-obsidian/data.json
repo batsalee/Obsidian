@@ -5,12 +5,16 @@
       "path": "Notepad/Today_Study 정리파일.md"
     },
     {
-      "basename": "Notepad",
-      "path": "Notepad/Notepad.md"
-    },
-    {
       "basename": "코딩 습관들여야 할 것들",
       "path": "Notepad/코딩 습관들여야 할 것들.md"
+    },
+    {
+      "basename": "vector",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/vector.md"
+    },
+    {
+      "basename": "Notepad",
+      "path": "Notepad/Notepad.md"
     },
     {
       "basename": "노션 강의 정리",

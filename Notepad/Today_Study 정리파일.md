@@ -14,7 +14,7 @@ if(buffer != "") stoi(buffer);
 ``` C++
 pair<int, int> ip;
 ip.first = 1;
-ip.first = 2; // 이런식으로 대입도 가능
+ip.second = 2; // 이런식으로 대입도 가능
     
 cout << "ip.first : " << ip.first << ", ip.second : " << ip.second << endl;
  
@@ -1050,3 +1050,7 @@ ProxyA가 A의 속성값을 변경시켜선 안됌
 사실상 그냥 성격과 맞지 않는 함수를 작성할 자리에 accept를 작성하고 
 accept 안에 내용을 다른 객체가 해당 역할을 하게 하는거라 구현은 쉬운데 코드 양만 늘리는 꼴인것 같기도 하고...
 그래도 코드 양 늘려서 단일책임원칙 준수하는게 목적인듯 하다.
+
+
+unique_ptr은 스마트포인터와 소유권의 개념을 합쳐서 만든 것
+vector의 capacity가 크면 shrink_to_fit 혹은 swap으로 해결
