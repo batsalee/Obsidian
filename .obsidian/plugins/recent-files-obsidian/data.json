@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
+    },
+    {
       "basename": "우측값 레퍼런스와 좌측값의 이동",
       "path": "C++/Modern C++/개념/우측값 레퍼런스와 좌측값의 이동.md"
+    },
+    {
+      "basename": "코딩 습관들여야 할 것들",
+      "path": "Notepad/코딩 습관들여야 할 것들.md"
     },
     {
       "basename": "Modern C++",
@@ -27,14 +35,6 @@
     {
       "basename": "커맨드",
       "path": "CS 지식/디자인패턴/행동패턴/커맨드.md"
-    },
-    {
-      "basename": "코딩 습관들여야 할 것들",
-      "path": "Notepad/코딩 습관들여야 할 것들.md"
-    },
-    {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
     },
     {
       "basename": "예외처리",

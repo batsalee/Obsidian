@@ -1055,3 +1055,33 @@ accept 안에 내용을 다른 객체가 해당 역할을 하게 하는거라 �
 
 unique_ptr은 스마트포인터와 소유권의 개념을 합쳐서 만든 것
 vector의 capacity가 크면 shrink_to_fit 혹은 swap으로 해결
+
+
+좌측값과 우측값의 구분 기준은 주소값을 취할수 있냐 없냐
+좌측값은 좌측 우측 다 갈수 있음, 우측값은 우측만갈 수 있음
+
+
+이동생성자는 복사생성자처럼 클래스 구현할때 직접 만들어 주는 것이지 저절로 생기는게 아니다.  
+만약 `MyString str1 = str2 + str3;`로 쓰면 str2와 str3를 붙인 MyString임시객체를 str1으로 복사생성자 이용해서 객체 생성하는 것이고  
+`MyString&& str1 = str2 + str3;`로 쓰면 str2와 str3를 붙인 MyString임시객체를 이동생성자를 이용해서 이동시키게 된다.  
+
+move함수는 좌측값을 우측값으로 형변환시켜주는 함수
+```C++
+template <typename T>
+void my_swap(T &a, T &b) {
+  T tmp(a);
+  a = b;
+  b = tmp;
+}
+```
+위같은 상황에서 a, b가 아주 크면 안좋으니까 이럴때 좌측값을 우측값마냥 만들고, operator=도 구현해서  
+```C++
+template <typename T>
+void my_swap(T &a, T &b) {
+  T tmp(std::move(a)); // 이동생성자 사용되게 하고
+  a = std::move(b);    // operator=로 이동생성자와 같은 기능하게 구현하는 것
+  b = std::move(tmp);
+}
+```
+
+`foward<T>(a)`는 a가 우측값레퍼런스일때만 move와 같은 기능을 해주는 함수
