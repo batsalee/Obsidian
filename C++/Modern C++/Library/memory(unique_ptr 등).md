@@ -161,6 +161,7 @@ int main() {
 ```
 `std::unique_ptr<Foo> ptr(new Foo(3, 5));`와 같은 기능을 한다.  
 근데 뭐 더 쉬운건진 잘 모르겠다.  
+사실상 unique_ptr보단 shared_ptr쪽에서 필요해서 만든 기능인데 만드는김에 make_unique도 만든게 아닐까...?
 
 
 ## 7. unique_ptr 사용시 주의사항
