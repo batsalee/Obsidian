@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
+    },
+    {
       "basename": "memory(unique_ptr 등)",
       "path": "C++/Modern C++/Library/memory(unique_ptr 등).md"
     },
@@ -67,10 +71,6 @@
     {
       "basename": "accumulate",
       "path": "C++/Code Keeping/accumulate.md"
-    },
-    {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
     },
     {
       "basename": "3개이상 max, min",
