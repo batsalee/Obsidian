@@ -91,15 +91,15 @@
       "CS 지식/프로그래밍 규범",
       "CS 지식/자료구조/비선형 구조",
       "CS 지식/디자인패턴/행동패턴",
-      "C++/Modern C++",
       "C++/Modern C++/Library",
       "C++/Modern C++/Keyword",
       "일기장",
       "일기장/공부",
       "일기장/취미",
       "C++/Modern C++/개념",
-      "CS 지식",
-      "CS 지식/프로그래밍 용어"
+      "CS 지식/프로그래밍 용어",
+      "C++",
+      "C++/Code Keeping"
     ],
     "as": [
       "Hello Obsidian",

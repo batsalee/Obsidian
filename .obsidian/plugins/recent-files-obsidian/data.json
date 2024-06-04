@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "accumulate",
+      "path": "C++/Code Keeping/accumulate.md"
+    },
+    {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
+    },
+    {
+      "basename": "3개이상 max, min",
+      "path": "C++/Code Keeping/3개이상 max, min.md"
+    },
+    {
+      "basename": "윤년",
+      "path": "C++/Code Keeping/윤년.md"
+    },
+    {
+      "basename": "CodingTestFrame",
+      "path": "C++/Code Keeping/CodingTestFrame.md"
+    },
+    {
       "basename": "DLL(Dynamic Link Library)",
       "path": "C++/Code Keeping/DLL(Dynamic Link Library).md"
     },
@@ -93,20 +113,12 @@
       "path": "수학적 지식/모스부호.md"
     },
     {
-      "basename": "윤년",
-      "path": "C++/Code Keeping/윤년.md"
-    },
-    {
       "basename": "GCD, LCM",
       "path": "C++/Code Keeping/GCD, LCM.md"
     },
     {
       "basename": "thread",
       "path": "C++/Modern C++/Library/thread.md"
-    },
-    {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
     },
     {
       "basename": "우측값 레퍼런스와 좌측값의 이동",
@@ -187,18 +199,6 @@
     {
       "basename": "이터레이터",
       "path": "CS 지식/디자인패턴/행동패턴/이터레이터.md"
-    },
-    {
-      "basename": "인터프리터",
-      "path": "CS 지식/디자인패턴/행동패턴/인터프리터.md"
-    },
-    {
-      "basename": "역할 사슬",
-      "path": "CS 지식/디자인패턴/행동패턴/역할 사슬.md"
-    },
-    {
-      "basename": "알고리즘",
-      "path": "CS 지식/알고리즘/알고리즘.md"
     }
   ],
   "omittedPaths": [],
