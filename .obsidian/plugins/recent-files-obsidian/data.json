@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "윤년",
+      "path": "수학적 지식/윤년.md"
+    },
+    {
+      "basename": "두 수의 합의 나머지",
+      "path": "수학적 지식/두 수의 합의 나머지.md"
+    },
+    {
+      "basename": "1~N까지 더하기",
+      "path": "수학적 지식/1~N까지 더하기.md"
+    },
+    {
+      "basename": "GCD, LCM",
+      "path": "수학적 지식/GCD, LCM.md"
+    },
+    {
+      "basename": "모스부호",
+      "path": "수학적 지식/모스부호.md"
+    },
+    {
+      "basename": "윤년",
+      "path": "C++/Code Keeping/윤년.md"
+    },
+    {
+      "basename": "GCD, LCM",
+      "path": "C++/Code Keeping/GCD, LCM.md"
+    },
+    {
+      "basename": "알파벳 개수",
+      "path": "수학적 지식/알파벳 개수.md"
+    },
+    {
+      "basename": "진법 변환",
+      "path": "수학적 지식/진법 변환.md"
+    },
+    {
+      "basename": "thread",
+      "path": "C++/Modern C++/Library/thread.md"
+    },
+    {
       "basename": "Today_Study 정리파일",
       "path": "Notepad/Today_Study 정리파일.md"
     },
@@ -117,10 +157,6 @@
       "path": "C++/Modern C++/Library/regex.md"
     },
     {
-      "basename": "thread",
-      "path": "C++/Modern C++/Library/thread.md"
-    },
-    {
       "basename": "nullptr",
       "path": "C++/Modern C++/Keyword/nullptr.md"
     },
@@ -163,42 +199,6 @@
     {
       "basename": "싱글턴",
       "path": "CS 지식/디자인패턴/생성패턴/싱글턴.md"
-    },
-    {
-      "basename": "콤포지트 패턴",
-      "path": "CS 지식/디자인패턴/구조패턴/콤포지트 패턴.md"
-    },
-    {
-      "basename": "퍼사드 패턴",
-      "path": "CS 지식/디자인패턴/구조패턴/퍼사드 패턴.md"
-    },
-    {
-      "basename": "브릿지 패턴",
-      "path": "CS 지식/디자인패턴/구조패턴/브릿지 패턴.md"
-    },
-    {
-      "basename": "팩토리 메소드",
-      "path": "CS 지식/디자인패턴/생성패턴/팩토리 메소드.md"
-    },
-    {
-      "basename": "프로토타입",
-      "path": "CS 지식/디자인패턴/생성패턴/프로토타입.md"
-    },
-    {
-      "basename": "빌더",
-      "path": "CS 지식/디자인패턴/생성패턴/빌더.md"
-    },
-    {
-      "basename": "추상 팩토리",
-      "path": "CS 지식/디자인패턴/생성패턴/추상 팩토리.md"
-    },
-    {
-      "basename": "생성패턴",
-      "path": "CS 지식/디자인패턴/생성패턴/생성패턴.md"
-    },
-    {
-      "basename": "디자인패턴",
-      "path": "CS 지식/디자인패턴/디자인패턴.md"
     }
   ],
   "omittedPaths": [],

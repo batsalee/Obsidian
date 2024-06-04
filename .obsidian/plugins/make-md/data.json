@@ -98,8 +98,7 @@
       "일기장/공부",
       "일기장/취미",
       "C++/Modern C++/개념",
-      "Notepad",
-      "C++"
+      "수학적 지식"
     ],
     "as": [
       "Hello Obsidian",
@@ -199,7 +198,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1717419069514,
+  "spacesAutoBackupLast": 1717479457048,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
