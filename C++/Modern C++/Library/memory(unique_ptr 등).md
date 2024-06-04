@@ -127,7 +127,7 @@ void do_something() {
 
 ## 5. 함수의 인자로 unique_ptr을 전달하는 방법
 
-```
+```C++
 // 올바르지 않은 전달 방식
 void do_something(std::unique_ptr<A>& ptr) { ptr->do_sth(3); }
 
@@ -136,12 +136,10 @@ int main() {
   do_something(pa);
 }
 ```
+만약 위코드처럼 레퍼런스로 전달하면 전달은 오류없이 잘 되지만 해당 객체에 pa로도 접근 가능하고 ptr로도 접근 가능하므로 유일하게 소유권을 가진다는 개념을 위배하게 된다.  
 
-만약 위코드처럼 레퍼런스로 전달하면 오류없이 잘 되지만 해당 객체에 pa로도 접근 가능하고 ptr로도 접근 가능하므로 유일하게 소유권을 가진다는 개념을 위배하게 된다.
-
-그러므로 레퍼런스로 전달하면 안되고 unique_ptr가 가리키는 포인터 주소값을 전달하도록 해야 한다.
-
-```
+그러므로 레퍼런스로 전달하면 안되고 unique_ptr가 가리키는 포인터 주소값을 전달하도록 해야 한다.  
+```C++
 void do_something(A* ptr) { ptr->do_sth(3); }
 
 int main() {
@@ -149,44 +147,35 @@ int main() {
   do_something(pa.get());
 }
 ```
+위처럼 unique_ptr 객체에 get함수를 사용하면 실제 객체의 주소값을 리턴해준다.  
 
-위처럼 unique_ptr 객체에 get함수를 사용하면 실제 객체의 주소값을 리턴해준다.
 
-|   |
-|---|
-|## unique_ptr을 쉽게 생성하기|
+## 6. unique_ptr을 쉽게 생성하기
 
-C++ 14부터 unique_ptr을 쉽게 만들 수 있는 std::make_unique 함수를 제공한다.
-
-```
+C++ 14부터 unique_ptr을 쉽게 만들 수 있는 std::make_unique 함수를 제공한다.  
+```C++
 int main() {
   auto ptr = std::make_unique<Foo>(3, 5);
   ptr->print();
 }
 ```
+`std::unique_ptr<Foo> ptr(new Foo(3, 5));`와 같은 기능을 한다.  
+근데 뭐 더 쉬운건진 잘 모르겠다.  
 
-std::unique_ptr<Foo> ptr(new Foo(3, 5));와 같은 기능을 한다.
 
-근데 뭐 더 쉬운건진 잘 모르겠다.
-
-|   |
-|---|
-|## unique_ptr 사용시 주의사항|
+## 7. unique_ptr 사용시 주의사항
 
 unique_ptr을 원소로 가지는 STL 컨테이너 사용시 unique_ptr은 복사생성자가 없으므로 주의해야 한다.
-
-```
+```C++
 int main() {
   std::vector<std::unique_ptr<A>> vec;
   std::unique_ptr<A> pa(new A(1));
 
-  vec.push_back(pa);  // ??
+  vec.push_back(pa);  // 복사생성자가 없어서 사용 불가능
 }
 ```
-
 위처럼 사용하면 pa를 복사해서 vector에 넣어야 하는데 복사생성자가 delete 되어있으니 오류가 발생하므로 pa를 벡터에 넣어주려면 이동생성자를 사용하기 위해 move를 사용해야 한다.
-
-```
+```C++
 int main() {
   std::vector<std::unique_ptr<A>> vec;
   std::unique_ptr<A> pa(new A(1));
@@ -194,21 +183,22 @@ int main() {
   vec.push_back(std::move(pa));  // 잘 실행됨
 }
 ```
-
 이동생성자는 noexcept로 잘 구현되어있나보다.
 
-|   |
-|---|
-|## 강제로 할당 해제 하는 방법|
 
-만약 스코프가 끝나기 전에 원하는 시점에 delete처럼 할당을 해제 하고 싶다면 
+## 8. 강제로 할당 해제 하는 방법
 
-```
+만약 스코프가 끝나기 전에 원하는 시점에 delete처럼 할당을 해제 하고 싶다면  
+```C++
 ptr.reset(nullptr);
 ```
+을 사용하면 된다.  
 
-을 사용하면 된다.
+
+
+
+
+
 
 ※ 참고 문헌
-
 [https://modoocode.com/229](https://modoocode.com/229)
