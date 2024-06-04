@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "typeid",
+      "path": "C++/연산자/typeid.md"
+    },
+    {
+      "basename": "abs",
+      "path": "C++/연산자/abs.md"
+    },
+    {
+      "basename": "cout 지수출력 방지",
+      "path": "C++/Code Keeping/cout 지수출력 방지.md"
+    },
+    {
+      "basename": "eof",
+      "path": "C++/Code Keeping/eof.md"
+    },
+    {
+      "basename": "소수 여부 판별",
+      "path": "C++/Code Keeping/소수 여부 판별.md"
+    },
+    {
+      "basename": "DLL(Dynamic Link Library)",
+      "path": "C++/Code Keeping/DLL(Dynamic Link Library).md"
+    },
+    {
+      "basename": "DLL(Dynamic Link Library)",
+      "path": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
+    },
+    {
+      "basename": "nCr",
+      "path": "C++/Code Keeping/nCr.md"
+    },
+    {
+      "basename": "bits stdc++.h",
+      "path": "CS 지식/프로그래밍 지식/bits stdc++.h.md"
+    },
+    {
+      "basename": "sqrt, pow",
+      "path": "C++/Code Keeping/sqrt, pow.md"
+    },
+    {
+      "basename": "CodingTestFrame",
+      "path": "C++/Code Keeping/CodingTestFrame.md"
+    },
+    {
+      "basename": "MySQL 연동",
+      "path": "C++/Code Keeping/MySQL 연동.md"
+    },
+    {
       "basename": "accumulate",
       "path": "C++/Code Keeping/accumulate.md"
     },
@@ -15,18 +63,6 @@
     {
       "basename": "윤년",
       "path": "C++/Code Keeping/윤년.md"
-    },
-    {
-      "basename": "CodingTestFrame",
-      "path": "C++/Code Keeping/CodingTestFrame.md"
-    },
-    {
-      "basename": "DLL(Dynamic Link Library)",
-      "path": "C++/Code Keeping/DLL(Dynamic Link Library).md"
-    },
-    {
-      "basename": "DLL(Dynamic Link Library)",
-      "path": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
     },
     {
       "basename": "콜백함수(Callback Func)",
@@ -57,10 +93,6 @@
       "path": "CS 지식/프로그래밍 지식/CamelCase, snake_case.md"
     },
     {
-      "basename": "bits stdc++.h",
-      "path": "CS 지식/프로그래밍 지식/bits stdc++.h.md"
-    },
-    {
       "basename": "정규표현식",
       "path": "CS 지식/프로그래밍 지식/정규표현식.md"
     },
@@ -79,14 +111,6 @@
     {
       "basename": "소수 여부 판별",
       "path": "수학적 지식/소수 여부 판별.md"
-    },
-    {
-      "basename": "소수 여부 판별",
-      "path": "C++/Code Keeping/소수 여부 판별.md"
-    },
-    {
-      "basename": "nCr",
-      "path": "C++/Code Keeping/nCr.md"
     },
     {
       "basename": "nCr",
@@ -175,30 +199,6 @@
     {
       "basename": "템플릿 메서드",
       "path": "CS 지식/디자인패턴/행동패턴/템플릿 메서드.md"
-    },
-    {
-      "basename": "스트레티지",
-      "path": "CS 지식/디자인패턴/행동패턴/스트레티지.md"
-    },
-    {
-      "basename": "스테이트",
-      "path": "CS 지식/디자인패턴/행동패턴/스테이트.md"
-    },
-    {
-      "basename": "옵저버",
-      "path": "CS 지식/디자인패턴/행동패턴/옵저버.md"
-    },
-    {
-      "basename": "메멘토",
-      "path": "CS 지식/디자인패턴/행동패턴/메멘토.md"
-    },
-    {
-      "basename": "미디에이터",
-      "path": "CS 지식/디자인패턴/행동패턴/미디에이터.md"
-    },
-    {
-      "basename": "이터레이터",
-      "path": "CS 지식/디자인패턴/행동패턴/이터레이터.md"
     }
   ],
   "omittedPaths": [],
