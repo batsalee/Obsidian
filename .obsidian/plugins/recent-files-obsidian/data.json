@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "자료형 범위",
+      "path": "C++/개념정리/자료형 범위.md"
+    },
+    {
+      "basename": "int와 long의 차이",
+      "path": "C++/개념정리/int와 long의 차이.md"
+    },
+    {
+      "basename": "C++ 예외의 종류",
+      "path": "C++/개념정리/C++ 예외의 종류.md"
+    },
+    {
       "basename": "typeid",
       "path": "C++/연산자/typeid.md"
     },
@@ -177,10 +189,6 @@
       "path": "CS 지식/디자인패턴/행동패턴/커맨드.md"
     },
     {
-      "basename": "예외처리",
-      "path": "C++/개념정리/예외처리.md"
-    },
-    {
       "basename": "vector",
       "path": "C++/C++ STL/Container/시퀀스 컨테이너/vector.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "노션 강의 정리",
       "path": "Notepad/노션 강의 정리.md"
-    },
-    {
-      "basename": "비지터",
-      "path": "CS 지식/디자인패턴/행동패턴/비지터.md"
-    },
-    {
-      "basename": "템플릿 메서드",
-      "path": "CS 지식/디자인패턴/행동패턴/템플릿 메서드.md"
     }
   ],
   "omittedPaths": [],
