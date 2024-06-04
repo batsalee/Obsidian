@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Pasted image 20240127104415",
+      "path": "CS 지식/프로그래밍 지식/contents/Pasted image 20240127104415.png"
+    },
+    {
+      "basename": "아스키코드",
+      "path": "CS 지식/프로그래밍 지식/아스키코드.md"
+    },
+    {
+      "basename": "CamelCase, snake_case",
+      "path": "CS 지식/프로그래밍 지식/CamelCase, snake_case.md"
+    },
+    {
+      "basename": "헝가리안 표기법",
+      "path": "CS 지식/프로그래밍 지식/헝가리안 표기법.md"
+    },
+    {
+      "basename": "bits stdc++.h",
+      "path": "CS 지식/프로그래밍 지식/bits stdc++.h.md"
+    },
+    {
+      "basename": "정규표현식",
+      "path": "CS 지식/프로그래밍 지식/정규표현식.md"
+    },
+    {
+      "basename": "알파벳 개수",
+      "path": "수학적 지식/알파벳 개수.md"
+    },
+    {
       "basename": "진법 변환",
       "path": "수학적 지식/진법 변환.md"
     },
@@ -15,10 +43,6 @@
     {
       "basename": "소수 여부 판별",
       "path": "C++/Code Keeping/소수 여부 판별.md"
-    },
-    {
-      "basename": "알파벳 개수",
-      "path": "수학적 지식/알파벳 개수.md"
     },
     {
       "basename": "nCr",
@@ -175,30 +199,6 @@
     {
       "basename": "regex",
       "path": "C++/Modern C++/Library/regex.md"
-    },
-    {
-      "basename": "nullptr",
-      "path": "C++/Modern C++/Keyword/nullptr.md"
-    },
-    {
-      "basename": "정규표현식",
-      "path": "CS 지식/프로그래밍 지식/정규표현식.md"
-    },
-    {
-      "basename": "GitHub",
-      "path": "CS 지식/Git & GitHub/GitHub.md"
-    },
-    {
-      "basename": "GitHub에 이미지 올리는 법",
-      "path": "CS 지식/Git & GitHub/GitHub에 이미지 올리는 법.md"
-    },
-    {
-      "basename": "Git",
-      "path": "CS 지식/Git & GitHub/Git.md"
-    },
-    {
-      "basename": "구조패턴",
-      "path": "CS 지식/디자인패턴/구조패턴/구조패턴.md"
     }
   ],
   "omittedPaths": [],

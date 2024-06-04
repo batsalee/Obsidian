@@ -11,11 +11,9 @@
             "id": "f3c8c01fc7b6d4f3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "수학적 지식/진법 변환.md",
-                "mode": "source",
-                "source": false
+                "file": "CS 지식/프로그래밍 지식/contents/Pasted image 20240127104415.png"
               }
             }
           }
@@ -102,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "수학적 지식/진법 변환.md",
+                "file": "CS 지식/프로그래밍 지식/contents/Pasted image 20240127104415.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "수학적 지식/진법 변환.md",
+                "file": "CS 지식/프로그래밍 지식/contents/Pasted image 20240127104415.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "수학적 지식/진법 변환.md"
+                "file": "CS 지식/프로그래밍 지식/contents/Pasted image 20240127104415.png"
               }
             }
           },
@@ -184,11 +182,16 @@
   },
   "active": "f3c8c01fc7b6d4f3",
   "lastOpenFiles": [
-    "C++/Code Keeping/진법 변환.md",
+    "CS 지식/프로그래밍 지식/아스키코드.md",
+    "CS 지식/프로그래밍 지식/CamelCase, snake_case.md",
+    "CS 지식/프로그래밍 지식/헝가리안 표기법.md",
+    "CS 지식/프로그래밍 지식/bits stdc++.h.md",
+    "CS 지식/프로그래밍 지식/정규표현식.md",
+    "수학적 지식/알파벳 개수.md",
     "수학적 지식/진법 변환.md",
+    "C++/Code Keeping/진법 변환.md",
     "수학적 지식/소수 여부 판별.md",
     "C++/Code Keeping/소수 여부 판별.md",
-    "수학적 지식/알파벳 개수.md",
     "C++/Code Keeping/nCr.md",
     "수학적 지식/nCr.md",
     "수학적 지식/윤년.md",
@@ -206,11 +209,6 @@
     "C++/Modern C++/개념",
     "공부 후기 및 고찰/디자인 패턴 공부 후기.md",
     "공부 후기 및 고찰/70주간의 1일 1커밋 후기.md",
-    "C++/Modern C++/Library/filesystem과 fstream.md",
-    "CS 지식/디자인패턴/행동패턴/행동패턴.md",
-    "CS 지식/디자인패턴/행동패턴/커맨드.md",
-    "C++/개념정리/예외처리.md",
-    "C++/C++ STL/Container/시퀀스 컨테이너/vector.md",
     "C++/Modern C++/Keyword",
     "CS 지식/디자인패턴/생성패턴/contents/Pasted image 20240503042650.png",
     "CS 지식/디자인패턴/생성패턴/contents",
