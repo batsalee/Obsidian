@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "memory(unique_ptr 등)",
+      "path": "C++/Modern C++/Library/memory(unique_ptr 등).md"
+    },
+    {
       "basename": "자료형 범위",
       "path": "C++/개념정리/자료형 범위.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Notepad",
       "path": "Notepad/Notepad.md"
-    },
-    {
-      "basename": "노션 강의 정리",
-      "path": "Notepad/노션 강의 정리.md"
     }
   ],
   "omittedPaths": [],
