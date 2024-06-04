@@ -11,9 +11,11 @@
             "id": "f3c8c01fc7b6d4f3",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "CS 지식/프로그래밍 지식/contents/Pasted image 20240127104415.png"
+                "file": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -100,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/프로그래밍 지식/contents/Pasted image 20240127104415.png",
+                "file": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/프로그래밍 지식/contents/Pasted image 20240127104415.png",
+                "file": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/프로그래밍 지식/contents/Pasted image 20240127104415.png"
+                "file": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
               }
             }
           },
@@ -182,9 +184,13 @@
   },
   "active": "f3c8c01fc7b6d4f3",
   "lastOpenFiles": [
+    "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md",
+    "CS 지식/프로그래밍 용어/메타데이터(meta-data).md",
+    "CS 지식/프로그래밍 용어/서드 파티(Third Party).md",
     "CS 지식/프로그래밍 지식/아스키코드.md",
-    "CS 지식/프로그래밍 지식/CamelCase, snake_case.md",
     "CS 지식/프로그래밍 지식/헝가리안 표기법.md",
+    "CS 지식/프로그래밍 지식/contents/Pasted image 20240127104415.png",
+    "CS 지식/프로그래밍 지식/CamelCase, snake_case.md",
     "CS 지식/프로그래밍 지식/bits stdc++.h.md",
     "CS 지식/프로그래밍 지식/정규표현식.md",
     "수학적 지식/알파벳 개수.md",
@@ -205,10 +211,7 @@
     "Notepad/Today_Study 정리파일.md",
     "C++/Modern C++/개념/우측값 레퍼런스와 좌측값의 이동.md",
     "Notepad/코딩 습관들여야 할 것들.md",
-    "C++/Modern C++/Modern C++.md",
     "C++/Modern C++/개념",
-    "공부 후기 및 고찰/디자인 패턴 공부 후기.md",
-    "공부 후기 및 고찰/70주간의 1일 1커밋 후기.md",
     "C++/Modern C++/Keyword",
     "CS 지식/디자인패턴/생성패턴/contents/Pasted image 20240503042650.png",
     "CS 지식/디자인패턴/생성패턴/contents",
@@ -221,7 +224,6 @@
     "CS 지식/디자인패턴/구조패턴/contents",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20240323133243.png",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20240323125348.png",
-    "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20240323125038.png",
     "프로젝트/contents",
     "일기장/취미",
     "프로젝트",
