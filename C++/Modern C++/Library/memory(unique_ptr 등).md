@@ -333,10 +333,10 @@ int main() {
   return 0;
 }
 ```
+weak_ptr은 당연히 이미 제어블록이 만들어진 shared_ptr이나 weak_ptr과 같은것을 가리키므로 평범한 포인터 주소값으로는 weak_ptr을 생성할 수 없다. 참조개수가 0이므로  
 
-당연히 weak_ptr은 이미 제어블록이 만들어진 shared_ptr이나 weak_ptr과 같은것을 가리키므로 평범한 포인터 주소값으로는 weak_ptr을 생성할 수 없다. 참조개수가 0이므로
-
-```
+전체 참고 코드)
+```C++
 #include <iostream>
 #include <memory>
 #include <string>
@@ -384,11 +384,11 @@ int main() {
 }
 ```
 
-※ 참고 문헌
 
+
+
+
+
+※ 참고 문헌
 [https://modoocode.com/252](https://modoocode.com/252)
-
-
-
-※ 참고 문헌
 [https://modoocode.com/229](https://modoocode.com/229)
