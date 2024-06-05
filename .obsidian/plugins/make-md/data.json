@@ -97,10 +97,12 @@
       "일기장/공부",
       "일기장/취미",
       "C++/Modern C++/개념",
-      "CS 지식/프로그래밍 용어",
-      "CS 지식/프로그래밍 지식",
       "C++/Modern C++",
-      "Notepad"
+      "Notepad",
+      "CS 지식",
+      "CS 지식/자료구조",
+      "CS 지식/자료구조/선형 구조",
+      "C++/C++ STL"
     ],
     "as": [
       "Hello Obsidian",
