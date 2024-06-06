@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "DB",
+      "path": "CS 지식/Database/DB.md"
+    },
+    {
+      "basename": "TCL",
+      "path": "CS 지식/Database/TCL.md"
+    },
+    {
+      "basename": "DCL",
+      "path": "CS 지식/Database/DCL.md"
+    },
+    {
+      "basename": "DDL",
+      "path": "CS 지식/Database/DDL.md"
+    },
+    {
+      "basename": "DML",
+      "path": "CS 지식/Database/DML.md"
+    },
+    {
+      "basename": "DQL",
+      "path": "CS 지식/Database/DQL.md"
+    },
+    {
+      "basename": "SQL기본문법",
+      "path": "CS 지식/Database/SQL기본문법.md"
+    },
+    {
+      "basename": "데이터베이스 이론",
+      "path": "CS 지식/Database/데이터베이스 이론.md"
+    },
+    {
       "basename": "자료구조",
       "path": "CS 지식/자료구조/자료구조.md"
     },
@@ -167,38 +199,6 @@
     {
       "basename": "1~N까지 더하기",
       "path": "수학적 지식/1~N까지 더하기.md"
-    },
-    {
-      "basename": "GCD, LCM",
-      "path": "수학적 지식/GCD, LCM.md"
-    },
-    {
-      "basename": "모스부호",
-      "path": "수학적 지식/모스부호.md"
-    },
-    {
-      "basename": "GCD, LCM",
-      "path": "C++/Code Keeping/GCD, LCM.md"
-    },
-    {
-      "basename": "thread",
-      "path": "C++/Modern C++/Library/thread.md"
-    },
-    {
-      "basename": "우측값 레퍼런스와 좌측값의 이동",
-      "path": "C++/Modern C++/개념/우측값 레퍼런스와 좌측값의 이동.md"
-    },
-    {
-      "basename": "코딩 습관들여야 할 것들",
-      "path": "Notepad/코딩 습관들여야 할 것들.md"
-    },
-    {
-      "basename": "Modern C++",
-      "path": "C++/Modern C++/Modern C++.md"
-    },
-    {
-      "basename": "디자인 패턴 공부 후기",
-      "path": "공부 후기 및 고찰/디자인 패턴 공부 후기.md"
     }
   ],
   "omittedPaths": [],

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/자료구조/자료구조.md",
+                "file": "CS 지식/Database/DB.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/자료구조/자료구조.md",
+                "file": "CS 지식/Database/DB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/자료구조/자료구조.md",
+                "file": "CS 지식/Database/DB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/자료구조/자료구조.md"
+                "file": "CS 지식/Database/DB.md"
               }
             }
           },
@@ -184,9 +184,17 @@
   },
   "active": "f3c8c01fc7b6d4f3",
   "lastOpenFiles": [
+    "CS 지식/Database/TCL.md",
+    "CS 지식/Database/DCL.md",
+    "CS 지식/Database/DDL.md",
+    "CS 지식/Database/DML.md",
+    "CS 지식/Database/DQL.md",
+    "CS 지식/Database/SQL기본문법.md",
+    "CS 지식/Database/데이터베이스 이론.md",
+    "CS 지식/Database/DB.md",
+    "CS 지식/자료구조/자료구조.md",
     "CS 지식/자료구조/선형 구조/배열.md",
     "C++/C++ STL/Container/Container.md",
-    "CS 지식/자료구조/자료구조.md",
     "C++/C++ STL/Container/시퀀스 컨테이너/deque.md",
     "CS 지식/자료구조/선형 구조/deque.md",
     "CS 지식/자료구조/선형 구조/list.md",
@@ -204,14 +212,6 @@
     "C++/Code Keeping/소수 여부 판별.md",
     "C++/Code Keeping/DLL(Dynamic Link Library).md",
     "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
-    "C++/Code Keeping/nCr.md",
-    "CS 지식/프로그래밍 지식/bits stdc++.h.md",
-    "C++/Code Keeping/bits stdc++.h.md",
-    "C++/Code Keeping/sqrt, pow.md",
-    "C++/Code Keeping/CodingTestFrame.md",
-    "C++/Code Keeping/MySQL 연동.md",
-    "C++/Code Keeping/accumulate.md",
-    "C++/Code Keeping/3개이상 max, min.md",
     "CS 지식/프로그래밍 지식/contents/Pasted image 20240127104415.png",
     "C++/Modern C++/개념",
     "C++/Modern C++/Keyword",
