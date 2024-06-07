@@ -1,20 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "DB",
-      "path": "CS 지식/Database/DB.md"
-    },
-    {
-      "basename": "TCL",
-      "path": "CS 지식/Database/TCL.md"
-    },
-    {
-      "basename": "DCL",
-      "path": "CS 지식/Database/DCL.md"
-    },
-    {
-      "basename": "DDL",
-      "path": "CS 지식/Database/DDL.md"
+      "basename": "데이터베이스 이론",
+      "path": "CS 지식/Database/데이터베이스 이론.md"
     },
     {
       "basename": "DML",
@@ -29,8 +17,20 @@
       "path": "CS 지식/Database/SQL기본문법.md"
     },
     {
-      "basename": "데이터베이스 이론",
-      "path": "CS 지식/Database/데이터베이스 이론.md"
+      "basename": "DB",
+      "path": "CS 지식/Database/DB.md"
+    },
+    {
+      "basename": "TCL",
+      "path": "CS 지식/Database/TCL.md"
+    },
+    {
+      "basename": "DCL",
+      "path": "CS 지식/Database/DCL.md"
+    },
+    {
+      "basename": "DDL",
+      "path": "CS 지식/Database/DDL.md"
     },
     {
       "basename": "자료구조",
