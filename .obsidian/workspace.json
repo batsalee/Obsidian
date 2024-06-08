@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/자료구조/선형 구조/deque.md",
+                "file": "CS 지식/자료구조/선형 구조/Priority_queue.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/자료구조/선형 구조/deque.md",
+                "file": "CS 지식/자료구조/선형 구조/Priority_queue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/자료구조/선형 구조/deque.md",
+                "file": "CS 지식/자료구조/선형 구조/Priority_queue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/자료구조/선형 구조/deque.md"
+                "file": "CS 지식/자료구조/선형 구조/Priority_queue.md"
               }
             }
           },
@@ -184,6 +184,10 @@
   },
   "active": "f3c8c01fc7b6d4f3",
   "lastOpenFiles": [
+    "CS 지식/자료구조/선형 구조/Queue.md",
+    "C++/C++ STL/Container/컨테이너 어댑터/queue.md",
+    "CS 지식/자료구조/선형 구조/Stack.md",
+    "CS 지식/자료구조/선형 구조/deque.md",
     "CS 지식/자료구조/선형 구조/list.md",
     "CS 지식/자료구조/선형 구조/배열.md",
     "CS 지식/자료구조/자료구조.md",
@@ -198,7 +202,6 @@
     "CS 지식/Database/DDL.md",
     "C++/C++ STL/Container/Container.md",
     "C++/C++ STL/Container/시퀀스 컨테이너/deque.md",
-    "CS 지식/자료구조/선형 구조/deque.md",
     "Notepad/Today_Study 정리파일.md",
     "C++/Modern C++/Library/memory(unique_ptr 등).md",
     "C++/Modern C++/Library/contents/Pasted image 20240604202817.png",
@@ -209,9 +212,6 @@
     "C++/연산자/typeid.md",
     "C++/연산자/abs.md",
     "C++/Code Keeping/cout 지수출력 방지.md",
-    "C++/Code Keeping/eof.md",
-    "C++/Code Keeping/소수 여부 판별.md",
-    "C++/Code Keeping/DLL(Dynamic Link Library).md",
     "CS 지식/프로그래밍 지식/contents/Pasted image 20240127104415.png",
     "C++/Modern C++/개념",
     "C++/Modern C++/Keyword",
