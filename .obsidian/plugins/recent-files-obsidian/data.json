@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "트리",
+      "path": "CS 지식/자료구조/비선형 구조/트리.md"
+    },
+    {
+      "basename": "그래프",
+      "path": "CS 지식/자료구조/비선형 구조/그래프.md"
+    },
+    {
       "basename": "Priority_queue",
       "path": "CS 지식/자료구조/선형 구조/Priority_queue.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "알파벳 개수",
       "path": "수학적 지식/알파벳 개수.md"
-    },
-    {
-      "basename": "진법 변환",
-      "path": "수학적 지식/진법 변환.md"
-    },
-    {
-      "basename": "진법 변환",
-      "path": "C++/Code Keeping/진법 변환.md"
     }
   ],
   "omittedPaths": [],
