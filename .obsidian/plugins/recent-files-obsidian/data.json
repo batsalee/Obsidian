@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "자료구조",
-      "path": "CS 지식/자료구조/자료구조.md"
-    },
-    {
       "basename": "배열",
       "path": "CS 지식/자료구조/선형 구조/배열.md"
+    },
+    {
+      "basename": "자료구조",
+      "path": "CS 지식/자료구조/자료구조.md"
     },
     {
       "basename": "세그먼트 트리(Segment Tree)",
