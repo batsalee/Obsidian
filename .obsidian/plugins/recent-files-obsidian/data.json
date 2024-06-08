@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Hash Table",
+      "path": "CS 지식/자료구조/심화 자료구조/Hash Table.md"
+    },
+    {
+      "basename": "Heap",
+      "path": "CS 지식/자료구조/심화 자료구조/Heap.md"
+    },
+    {
       "basename": "그래프",
       "path": "CS 지식/자료구조/비선형 구조/그래프.md"
     },
@@ -21,16 +29,8 @@
       "path": "C++/C++ STL/Container/Container.md"
     },
     {
-      "basename": "Hash Table",
-      "path": "CS 지식/자료구조/심화 자료구조/Hash Table.md"
-    },
-    {
       "basename": "신장트리, 최소신장트리",
       "path": "CS 지식/자료구조/심화 자료구조/신장트리, 최소신장트리.md"
-    },
-    {
-      "basename": "Heap",
-      "path": "CS 지식/자료구조/심화 자료구조/Heap.md"
     },
     {
       "basename": "세그먼트 트리(Segment Tree)",
