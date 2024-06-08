@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "트리",
-      "path": "CS 지식/자료구조/비선형 구조/트리.md"
-    },
-    {
       "basename": "그래프",
       "path": "CS 지식/자료구조/비선형 구조/그래프.md"
+    },
+    {
+      "basename": "vector",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/vector.md"
+    },
+    {
+      "basename": "array",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/array.md"
+    },
+    {
+      "basename": "시퀀스 컨테이너",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
+    },
+    {
+      "basename": "Container",
+      "path": "C++/C++ STL/Container/Container.md"
+    },
+    {
+      "basename": "Hash Table",
+      "path": "CS 지식/자료구조/심화 자료구조/Hash Table.md"
+    },
+    {
+      "basename": "신장트리, 최소신장트리",
+      "path": "CS 지식/자료구조/심화 자료구조/신장트리, 최소신장트리.md"
+    },
+    {
+      "basename": "Heap",
+      "path": "CS 지식/자료구조/심화 자료구조/Heap.md"
+    },
+    {
+      "basename": "세그먼트 트리(Segment Tree)",
+      "path": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md"
+    },
+    {
+      "basename": "트리",
+      "path": "CS 지식/자료구조/비선형 구조/트리.md"
     },
     {
       "basename": "Priority_queue",
@@ -41,10 +73,6 @@
       "path": "CS 지식/자료구조/자료구조.md"
     },
     {
-      "basename": "세그먼트 트리(Segment Tree)",
-      "path": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md"
-    },
-    {
       "basename": "데이터베이스 이론",
       "path": "CS 지식/Database/데이터베이스 이론.md"
     },
@@ -75,10 +103,6 @@
     {
       "basename": "DDL",
       "path": "CS 지식/Database/DDL.md"
-    },
-    {
-      "basename": "Container",
-      "path": "C++/C++ STL/Container/Container.md"
     },
     {
       "basename": "deque",
@@ -175,30 +199,6 @@
     {
       "basename": "서드 파티(Third Party)",
       "path": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md"
-    },
-    {
-      "basename": "아스키코드",
-      "path": "CS 지식/프로그래밍 지식/아스키코드.md"
-    },
-    {
-      "basename": "헝가리안 표기법",
-      "path": "CS 지식/프로그래밍 지식/헝가리안 표기법.md"
-    },
-    {
-      "basename": "Pasted image 20240127104415",
-      "path": "CS 지식/프로그래밍 지식/contents/Pasted image 20240127104415.png"
-    },
-    {
-      "basename": "CamelCase, snake_case",
-      "path": "CS 지식/프로그래밍 지식/CamelCase, snake_case.md"
-    },
-    {
-      "basename": "정규표현식",
-      "path": "CS 지식/프로그래밍 지식/정규표현식.md"
-    },
-    {
-      "basename": "알파벳 개수",
-      "path": "수학적 지식/알파벳 개수.md"
     }
   ],
   "omittedPaths": [],
