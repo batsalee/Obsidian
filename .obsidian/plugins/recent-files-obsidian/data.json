@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
+    },
+    {
+      "basename": "Notepad",
+      "path": "Notepad/Notepad.md"
+    },
+    {
+      "basename": "코딩 습관들여야 할 것들",
+      "path": "Notepad/코딩 습관들여야 할 것들.md"
+    },
+    {
+      "basename": "stack",
+      "path": "C++/C++ STL/Container/컨테이너 어댑터/stack.md"
+    },
+    {
       "basename": "Hash Table",
       "path": "CS 지식/자료구조/심화 자료구조/Hash Table.md"
     },
@@ -109,10 +125,6 @@
       "path": "C++/C++ STL/Container/시퀀스 컨테이너/deque.md"
     },
     {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
-    },
-    {
       "basename": "memory(unique_ptr 등)",
       "path": "C++/Modern C++/Library/memory(unique_ptr 등).md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "윤년",
       "path": "C++/Code Keeping/윤년.md"
-    },
-    {
-      "basename": "콜백함수(Callback Func)",
-      "path": "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md"
-    },
-    {
-      "basename": "메타데이터(meta-data)",
-      "path": "CS 지식/프로그래밍 용어/메타데이터(meta-data).md"
-    },
-    {
-      "basename": "서드 파티(Third Party)",
-      "path": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md"
     }
   ],
   "omittedPaths": [],
