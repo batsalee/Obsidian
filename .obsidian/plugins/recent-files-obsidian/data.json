@@ -1,8 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "STL",
+      "path": "C++/C++ STL/STL.md"
+    },
+    {
       "basename": "Container",
       "path": "C++/C++ STL/Container/Container.md"
+    },
+    {
+      "basename": "deque",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/deque.md"
+    },
+    {
+      "basename": "list",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/list.md"
+    },
+    {
+      "basename": "forward_list",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/forward_list.md"
+    },
+    {
+      "basename": "vector",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/vector.md"
+    },
+    {
+      "basename": "array",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/array.md"
+    },
+    {
+      "basename": "시퀀스 컨테이너",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
     },
     {
       "basename": "Today_Study 정리파일",
@@ -31,18 +59,6 @@
     {
       "basename": "그래프",
       "path": "CS 지식/자료구조/비선형 구조/그래프.md"
-    },
-    {
-      "basename": "vector",
-      "path": "C++/C++ STL/Container/시퀀스 컨테이너/vector.md"
-    },
-    {
-      "basename": "array",
-      "path": "C++/C++ STL/Container/시퀀스 컨테이너/array.md"
-    },
-    {
-      "basename": "시퀀스 컨테이너",
-      "path": "C++/C++ STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
     },
     {
       "basename": "신장트리, 최소신장트리",
@@ -121,10 +137,6 @@
       "path": "CS 지식/Database/DDL.md"
     },
     {
-      "basename": "deque",
-      "path": "C++/C++ STL/Container/시퀀스 컨테이너/deque.md"
-    },
-    {
       "basename": "memory(unique_ptr 등)",
       "path": "C++/Modern C++/Library/memory(unique_ptr 등).md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "MySQL 연동",
       "path": "C++/Code Keeping/MySQL 연동.md"
-    },
-    {
-      "basename": "accumulate",
-      "path": "C++/Code Keeping/accumulate.md"
-    },
-    {
-      "basename": "3개이상 max, min",
-      "path": "C++/Code Keeping/3개이상 max, min.md"
-    },
-    {
-      "basename": "윤년",
-      "path": "C++/Code Keeping/윤년.md"
     }
   ],
   "omittedPaths": [],
