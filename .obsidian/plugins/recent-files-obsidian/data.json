@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "regex",
+      "path": "C++/Modern C++/Library/regex.md"
+    },
+    {
       "basename": "STL",
       "path": "C++/C++ STL/STL.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "CodingTestFrame",
       "path": "C++/Code Keeping/CodingTestFrame.md"
-    },
-    {
-      "basename": "MySQL 연동",
-      "path": "C++/Code Keeping/MySQL 연동.md"
     }
   ],
   "omittedPaths": [],

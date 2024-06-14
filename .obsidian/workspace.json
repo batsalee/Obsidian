@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f7fcbfec310abaa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/Modern C++/Library/regex.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/C++ STL/STL.md",
+                "file": "C++/Modern C++/Library/regex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/C++ STL/STL.md",
+                "file": "C++/Modern C++/Library/regex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/C++ STL/STL.md"
+                "file": "C++/Modern C++/Library/regex.md"
               }
             }
           },
@@ -182,7 +195,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f3c8c01fc7b6d4f3",
+  "active": "f7fcbfec310abaa1",
   "lastOpenFiles": [
     "C++/C++ STL/Container/Container.md",
     "C++/C++ STL/Container/시퀀스 컨테이너/deque.md",
