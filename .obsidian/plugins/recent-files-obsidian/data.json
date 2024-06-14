@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
+    },
+    {
       "basename": "regex",
       "path": "C++/Modern C++/Library/regex.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "시퀀스 컨테이너",
       "path": "C++/C++ STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
-    },
-    {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
     },
     {
       "basename": "Notepad",

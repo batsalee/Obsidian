@@ -1143,3 +1143,11 @@ slot : bucket 하나당 저장될 값의 갯수, 정적배열일수도 잇고 �
 
 stack은 vector나 deque로 구현
 queue는 deque나 list로 구현
+
+#### 정규표현식 긍정형 전방탐색
+"JOIOIOIOI" 같은 문자열에서 IOI가 몇번 나오는지 확인하고 싶을 때  
+그냥 regex re("IOI");로 사용하면 IOIIOI 같은건 2번 잘 탐색하지만 IOIOI같은건 한번으로밖에 탐색못함  
+처음 나온 IOI를 소모해버리기 때문에 지워지고 뒤에 OI만 남기때문이고 소모하지 않고 탐색하려면  
+긍정형 전방탐색(Positive Lookahead)를 사용해야 함  
+문법은 "(?=...)"형태이고 이 상황에선 regex re("(?=(IOI))");처럼 사용해야 함  
+또한 suffix방식이 아닌 iterator방식을 사용해야 함  
