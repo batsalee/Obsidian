@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md",
+                "file": "C++/C++ STL/STL.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md",
+                "file": "C++/C++ STL/STL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md",
+                "file": "C++/C++ STL/STL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md"
+                "file": "C++/C++ STL/STL.md"
               }
             }
           },
@@ -197,6 +197,7 @@
   },
   "active": "f7fcbfec310abaa1",
   "lastOpenFiles": [
+    "Notepad/Today_Study 정리파일.md",
     "C++/Modern C++/Library/regex.md",
     "C++/C++ STL/Container/Container.md",
     "C++/C++ STL/Container/시퀀스 컨테이너/deque.md",
@@ -205,7 +206,6 @@
     "C++/C++ STL/Container/시퀀스 컨테이너/vector.md",
     "C++/C++ STL/Container/시퀀스 컨테이너/array.md",
     "C++/C++ STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md",
-    "Notepad/Today_Study 정리파일.md",
     "Notepad/Notepad.md",
     "Notepad/코딩 습관들여야 할 것들.md",
     "C++/C++ STL/Container/컨테이너 어댑터/stack.md",
