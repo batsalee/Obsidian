@@ -5,7 +5,7 @@
 
 void main()
 {
-    std::list<int> d;
+    std::list<int> l;
 }
 ```
 
