@@ -110,6 +110,7 @@ class vector;
 
 - emplace : 원소를 insert함, 다만 emplace는 옛날거고 push_back과 insert가 요즘꺼니 이걸 쓰라고 하던데...
 - emplace_back : 제일 뒤에 값을 추가함, 이거보다 push_back 사용을 권장한다고 들었음
+- emplace보다 push가 안정적인 이유는 push는 임시객체를 만든 후 벡터에 삽입하므로 시간비효율이 생길 수는 있지만 안정적이고 emplace는 임시객체 생성 없이 들어갈 수 있는 가까운 형태로 추론해서 들어가므로 빠르지만 예상치 못한 일이 생길 수 있다 정도로 생각하면 될 듯 함
 
 8) 할당자
 - get_allocator : 할당자(allocator) 을 얻는다.
@@ -135,11 +136,10 @@ std::vector<int> v(nums, nums + sizeof(nums) / sizeof(int));
 
 3) 벡터에 삽입
 - vector의 size가 capacity보다 커지면 재할당을 받게 되고, 재할당을 하면 이전에 얻은 모든 iterator가 무효화됨
-
 - vector의 중간에 삽입을 하게 되면 해당 위치 뒤에 있는 값들을 모두 한칸씩 밀어야 하니 비효율적
 - 애초에 vector에 insert하는건 효율적이지 못하니 중간위치에 삽입이 많이 필요하다면 list를 사용하는게 맞음
 
-- 그럼에도 사용해야한다면 사용법
+- 그럼에도 사용해야한다면
 - `v.insert(itr, 100);` // itr위치에 100값을 insert
 - `v.insert(itr, 2, 200);` // itr위치에 2개의 200을 넣음
 - `v.insert(itr, v2.begin(), v2.end());` // itr위치에 v2의 시작부터 끝까지 삽입
