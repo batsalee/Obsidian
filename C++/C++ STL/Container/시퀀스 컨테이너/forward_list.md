@@ -55,7 +55,7 @@ class forward_list;
 - const_iterator : 상수 단방향 반복자 (즉, 접근하는 원소의 내용을 수정 못함)
 
 - size_type : 리스트 size 를 나타내는 타입 (많은 경우 size_t 와 타입이 같으며 부호없는 정수이다)
-- difference_type : 리스트 내의 두 원소 사이의 거리를 나타내는 타입 (많은 경우 ptfdiff_t 와 타입이 같으며 부호있는 정수)
+- difference_type : 리스트 내의 두 원소 사이의 거리를 나타내는 타입 (많은 경우 ptrdiff_t 와 타입이 같으며 부호있는 정수)
 - value_type : 원소 타입 (T)
 - allocator_type : 할당자
 
