@@ -40,7 +40,7 @@ T자료형의 데이터를 N개 갖는 배열
 - const_reverse_iterator : 상수 역 반복자 `reverse_iterator<const_iterator>`
 
 - size_type : array size 를 나타내는 타입 (많은 경우 size_t 와 타입이 같으며 부호없는 정수이다)
-- difference_type : array 내의 두 원소 사이의 거리를 나타내는 타입 (많은 경우 ptfdiff_t 와 타입이 같으며 부호있는 정수)
+- difference_type : array 내의 두 원소 사이의 거리를 나타내는 타입 (많은 경우 ptrdiff_t 와 타입이 같으며 부호있는 정수)
 - value_type : 원소 타입 (T)
 
 - pointer : 포인터 (Allocator::pointer)
