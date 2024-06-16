@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "진법 변환",
+      "path": "C++/Code Keeping/진법 변환.md"
+    },
+    {
       "basename": "STL",
       "path": "C++/C++ STL/STL.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "sqrt, pow",
       "path": "C++/Code Keeping/sqrt, pow.md"
-    },
-    {
-      "basename": "CodingTestFrame",
-      "path": "C++/Code Keeping/CodingTestFrame.md"
     }
   ],
   "omittedPaths": [],
