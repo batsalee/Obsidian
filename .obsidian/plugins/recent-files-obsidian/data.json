@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "BFS, DFS, 트리순회",
+      "path": "CS 지식/알고리즘/BFS, DFS, 트리순회.md"
+    },
+    {
       "basename": "진법 변환",
       "path": "C++/Code Keeping/진법 변환.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "bits stdc++.h",
       "path": "CS 지식/프로그래밍 지식/bits stdc++.h.md"
-    },
-    {
-      "basename": "sqrt, pow",
-      "path": "C++/Code Keeping/sqrt, pow.md"
     }
   ],
   "omittedPaths": [],
