@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/알고리즘/BFS, DFS, 트리순회.md",
+                "file": "C++/C++ STL/Container/시퀀스 컨테이너/array.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/알고리즘/BFS, DFS, 트리순회.md",
+                "file": "C++/C++ STL/Container/시퀀스 컨테이너/array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/알고리즘/BFS, DFS, 트리순회.md",
+                "file": "C++/C++ STL/Container/시퀀스 컨테이너/array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/알고리즘/BFS, DFS, 트리순회.md"
+                "file": "C++/C++ STL/Container/시퀀스 컨테이너/array.md"
               }
             }
           },
@@ -197,17 +197,18 @@
   },
   "active": "f7fcbfec310abaa1",
   "lastOpenFiles": [
-    "C++/Code Keeping/진법 변환.md",
+    "C++/C++ STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md",
+    "C++/C++ STL/Container/Container.md",
     "C++/C++ STL/STL.md",
+    "CS 지식/알고리즘/BFS, DFS, 트리순회.md",
+    "C++/Code Keeping/진법 변환.md",
     "Notepad/Today_Study 정리파일.md",
     "C++/Modern C++/Library/regex.md",
-    "C++/C++ STL/Container/Container.md",
     "C++/C++ STL/Container/시퀀스 컨테이너/deque.md",
     "C++/C++ STL/Container/시퀀스 컨테이너/list.md",
     "C++/C++ STL/Container/시퀀스 컨테이너/forward_list.md",
     "C++/C++ STL/Container/시퀀스 컨테이너/vector.md",
     "C++/C++ STL/Container/시퀀스 컨테이너/array.md",
-    "C++/C++ STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md",
     "Notepad/Notepad.md",
     "Notepad/코딩 습관들여야 할 것들.md",
     "C++/C++ STL/Container/컨테이너 어댑터/stack.md",
@@ -222,7 +223,6 @@
     "C++/C++ STL/Container/컨테이너 어댑터/queue.md",
     "CS 지식/자료구조/선형 구조/Stack.md",
     "CS 지식/자료구조/선형 구조/deque.md",
-    "CS 지식/자료구조/선형 구조/list.md",
     "C++/Modern C++/Library/contents/Pasted image 20240604202817.png",
     "C++/Modern C++/Library/contents",
     "CS 지식/프로그래밍 지식/contents/Pasted image 20240127104415.png",
