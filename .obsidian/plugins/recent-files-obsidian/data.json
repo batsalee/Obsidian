@@ -5,6 +5,10 @@
       "path": "C++/C++ STL/Container/연관 컨테이너/map.md"
     },
     {
+      "basename": "vector",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/vector.md"
+    },
+    {
       "basename": "set",
       "path": "C++/C++ STL/Container/연관 컨테이너/set.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "deque",
       "path": "C++/C++ STL/Container/시퀀스 컨테이너/deque.md"
-    },
-    {
-      "basename": "vector",
-      "path": "C++/C++ STL/Container/시퀀스 컨테이너/vector.md"
     },
     {
       "basename": "list",

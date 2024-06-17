@@ -66,8 +66,8 @@ template < class Key,                              // map::key_type
 - reference : value_type&	
 - const_reference : const value_type&	
 
-- pointer: 	allocator_traits<allocator_type>::pointer
-- const_pointer : 	allocator_traits<allocator_type>::const_pointer
+- pointer : allocator_traits<allocator_type>::pointer
+- const_pointer : allocator_traits<allocator_type>::const_pointer
 
 - iterator : a bidirectional iterator to const value_type
 - const_iterator : a bidirectional iterator to const value_type
@@ -127,4 +127,8 @@ template < class Key,                              // map::key_type
 
 
 
-출처 : https://cplusplus.com/reference/map/map/
+
+
+※ 참고 문헌
+[https://cplusplus.com/reference/map/map/](https://cplusplus.com/reference/map/map/)
+[https://modoocode.com/224](https://modoocode.com/224)
