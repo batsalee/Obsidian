@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "연관 컨테이너",
+      "path": "C++/C++ STL/Container/연관 컨테이너/연관 컨테이너.md"
+    },
+    {
+      "basename": "multiset",
+      "path": "C++/C++ STL/Container/연관 컨테이너/multiset.md"
+    },
+    {
       "basename": "deque",
       "path": "C++/C++ STL/Container/시퀀스 컨테이너/deque.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "DLL(Dynamic Link Library)",
       "path": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
-    },
-    {
-      "basename": "nCr",
-      "path": "C++/Code Keeping/nCr.md"
-    },
-    {
-      "basename": "bits stdc++.h",
-      "path": "CS 지식/프로그래밍 지식/bits stdc++.h.md"
     }
   ],
   "omittedPaths": [],
