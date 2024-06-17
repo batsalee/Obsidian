@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "priority_queue",
+      "path": "C++/C++ STL/Container/컨테이너 어댑터/priority_queue.md"
+    },
+    {
+      "basename": "queue",
+      "path": "C++/C++ STL/Container/컨테이너 어댑터/queue.md"
+    },
+    {
+      "basename": "stack",
+      "path": "C++/C++ STL/Container/컨테이너 어댑터/stack.md"
+    },
+    {
+      "basename": "컨테이너 어댑터",
+      "path": "C++/C++ STL/Container/컨테이너 어댑터/컨테이너 어댑터.md"
+    },
+    {
       "basename": "unordered_map",
       "path": "C++/C++ STL/Container/해시 컨테이너/unordered_map.md"
     },
@@ -105,10 +121,6 @@
       "path": "Notepad/코딩 습관들여야 할 것들.md"
     },
     {
-      "basename": "stack",
-      "path": "C++/C++ STL/Container/컨테이너 어댑터/stack.md"
-    },
-    {
       "basename": "Hash Table",
       "path": "CS 지식/자료구조/심화 자료구조/Hash Table.md"
     },
@@ -139,10 +151,6 @@
     {
       "basename": "Queue",
       "path": "CS 지식/자료구조/선형 구조/Queue.md"
-    },
-    {
-      "basename": "queue",
-      "path": "C++/C++ STL/Container/컨테이너 어댑터/queue.md"
     },
     {
       "basename": "Stack",
@@ -191,14 +199,6 @@
     {
       "basename": "DCL",
       "path": "CS 지식/Database/DCL.md"
-    },
-    {
-      "basename": "DDL",
-      "path": "CS 지식/Database/DDL.md"
-    },
-    {
-      "basename": "memory(unique_ptr 등)",
-      "path": "C++/Modern C++/Library/memory(unique_ptr 등).md"
     }
   ],
   "omittedPaths": [],
