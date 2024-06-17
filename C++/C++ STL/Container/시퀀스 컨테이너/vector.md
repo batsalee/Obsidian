@@ -138,6 +138,9 @@ std::vector<int> v(nums, nums + sizeof(nums) / sizeof(int));
 	- 벡터객체에 이전에 있던 내용을 모두 삭제하고 인자로 받은 새로운 내용을 넣음
 	- `v.assign(v2.begin(), v2.end());` 처럼 하면 v2의 처음부터 끝까지
 	- `v.assign(n, u);` 처럼 하면 n개의 u를 넣음
+- 심지어 다른 컨테이너의 값도 가져올 수 있음
+	- set이나 deque같은 객체에서 vector로 값을 옮길 수 있음  
+	- 기본적으로 vector객체 = set객체; 식의 대입은 불가능한데 `vector.assign(set.begin(), set.end());` 형태로 대입 가능
 
 3) 벡터에 삽입
 - vector의 size가 capacity보다 커지면 재할당을 받게 되고, 재할당을 하면 이전에 얻은 모든 iterator가 무효화됨
@@ -162,8 +165,10 @@ std::vector<int> v[행크기];
 ```
 
 6) 속도
-- vector보다는 array가 빠르고, array보다
-
+미세하지만 vector보다는 array가 빠르고, array보다는 일반배열이 빠르다.  
+그러므로 알고리즘 문제풀땐 그냥 일반배열 쓰는게 이득이 될 수도 있다.  
+하지만 vector나 array를 꼭 써야하는데 속도를 올리고 싶다면  
+`data()` 멤버함수로 포인터값을 받아서 이 값으로 접근하면 일반배열과 같은 속도로 사용 가능하다.  
 
 #### 8. vector 사용시 주의사항
 1) Shrink to fit
