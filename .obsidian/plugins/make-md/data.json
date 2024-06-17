@@ -95,7 +95,9 @@
       "CS 지식/알고리즘",
       "C++",
       "C++/C++ STL",
-      "C++/C++ STL/Algorithm"
+      "C++/C++ STL/Algorithm",
+      "C++/C++ STL/Container",
+      "C++/C++ STL/Container/시퀀스 컨테이너"
     ],
     "as": [
       "Hello Obsidian",
