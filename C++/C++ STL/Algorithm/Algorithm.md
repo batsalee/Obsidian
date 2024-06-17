@@ -288,7 +288,7 @@ v2의 size는 v1의 size보다 크거나 같아야 함
 처럼 같은 위치의 값들을 곱한 후 그 값들을 다 더해주는 것  
 
 #### accumulate
-이건 사실 ``#include <algorithm>``이 아니라 ``#include <numeric>``인데 일단 여기 같이 적어둠  
+이건 사실 ``#include <algorithm>``이 아니라 ``#include <numeric>``인데 자주 사용해서 일단 여기 같이 적어둠  
 ```C++
 #include <numeric>  
 int sum = std::accumulate(v.begin(), v.end(), 0);  

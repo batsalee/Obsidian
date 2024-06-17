@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "unordered_set",
+      "path": "C++/C++ STL/Container/해시 컨테이너/unordered_set.md"
+    },
+    {
+      "basename": "해시 컨테이너",
+      "path": "C++/C++ STL/Container/해시 컨테이너/해시 컨테이너.md"
+    },
+    {
+      "basename": "Algorithm",
+      "path": "C++/C++ STL/Algorithm/Algorithm.md"
+    },
+    {
+      "basename": "Iterator",
+      "path": "C++/C++ STL/Iteraoter/Iterator.md"
+    },
+    {
       "basename": "multimap",
       "path": "C++/C++ STL/Container/연관 컨테이너/multimap.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "C++ 예외의 종류",
       "path": "C++/개념정리/C++ 예외의 종류.md"
-    },
-    {
-      "basename": "typeid",
-      "path": "C++/연산자/typeid.md"
-    },
-    {
-      "basename": "abs",
-      "path": "C++/연산자/abs.md"
-    },
-    {
-      "basename": "cout 지수출력 방지",
-      "path": "C++/Code Keeping/cout 지수출력 방지.md"
-    },
-    {
-      "basename": "eof",
-      "path": "C++/Code Keeping/eof.md"
     }
   ],
   "omittedPaths": [],
