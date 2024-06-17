@@ -102,9 +102,9 @@ template <
 
 6) 수정자 (Modifier)
 - insert : 원소를 삽입한다.
-- erase :  원소를 삭제한다.
+- erase :  원소를 삭제한다.     // 없는 값을 erase해도 문제가 일어나지 않는다.
 - swap : Swap content (public member function)
-- clear : Clear content (public member function)
+- clear : Clear content (public member function)        // O(N)
 - emplace : Construct and insert element (public member function)
 - emplace_hint : Construct and insert element with hint (public member function)
 

@@ -76,7 +76,6 @@
       "자료구조",
       "C++/C++ STL/Container/컨테이너 어댑터",
       "CS 지식/자료구조/심화 자료구조",
-      "C++/C++ STL/Iteraoter",
       "C++/C++ STL/Algorithm",
       "C++/contents",
       "C++/개념정리/contents",
@@ -94,10 +93,11 @@
       "C++/Modern C++",
       "C++/C++ STL",
       "C++/C++ STL/Algorithm",
-      "C++/C++ STL/Container/시퀀스 컨테이너",
       "C++",
       "CS 지식/디자인패턴",
-      "C++/C++ STL/Container/연관 컨테이너"
+      "Notepad",
+      "C++/C++ STL/Container",
+      "C++/C++ STL/Container/시퀀스 컨테이너"
     ],
     "as": [
       "Hello Obsidian",

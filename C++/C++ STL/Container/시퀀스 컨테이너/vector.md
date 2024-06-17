@@ -161,6 +161,10 @@ std::vector<std::vector<int>> v(행크기, std::vector<int>(열크기));`
 std::vector<int> v[행크기];
 ```
 
+6) 속도
+- vector보다는 array가 빠르고, array보다
+
+
 #### 8. vector 사용시 주의사항
 1) Shrink to fit
 - 벡터에 많은 값들이 들어갔다가 나오게 되면 capacity가 아주 커진채로 저절로 줄어들지 않음

@@ -1151,3 +1151,10 @@ queue는 deque나 list로 구현
 긍정형 전방탐색(Positive Lookahead)를 사용해야 함  
 문법은 "(?=...)"형태이고 이 상황에선 regex re("(?=(IOI))");처럼 사용해야 함  
 또한 suffix방식이 아닌 iterator방식을 사용해야 함  
+
+
+set에 없는 값을 erase해도 문제가 생기지 않는다.
+
+unordered_map에 값을 받은 후 특정 조건으로 정렬을 하고 싶으면   
+`vector<pair<string,int>> v(m.begin(), m.end());`처럼 벡터로 복사해준 후 sort해야한다.
+
