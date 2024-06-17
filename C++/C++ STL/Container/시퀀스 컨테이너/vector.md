@@ -33,8 +33,9 @@ void main()
 - 끝이 아닌 시작이나 중간에 새로운 원소를 삽입/삭제하는 작업은 deque나 list보다 느림
 - 먼저 큰 공간을 할당하고 시작하므로 array보다 메모리 공간을 더 많이 사용함
 - 사전에 할당된 공간이 가득차면 새로운 공간할당, 기존 내용 복사 등의 비효율이 발생할 수 있음
-- vector에 insert나 remove등을 하면 iterator값이 무효화됨, 계속 새로 구하면서 써야함  
-	하지만 애초에 insert나 remove를 자주 사용해야 한다면 vector를 채택하지 않는것이 맞음
+- vector에 insert나 erase등을 하면 iterator값이 무효화됨, 계속 새로 구하면서 써야함    
+	하지만 애초에 insert나 erase를 자주 사용해야 한다면 vector를 채택하지 않는것이 맞음
+	그래도 꼭 vector에서 여러번 erase해야 한다면 remove / remove_if와 함께 활용
 - 공간이 부족해서 새로운 공간을 할당받으면 기존에 사용하던 iterator들이 모두 무효화 됨
 
 #### 4. vector의 함수 원형
@@ -155,6 +156,7 @@ std::vector<int> v(nums, nums + sizeof(nums) / sizeof(int));
 
 4) 벡터에서 값 삭제
 - 값 한개를 지우려면 `v.erase(v.begin() + 5);` 처럼 사용하면 `v[5]`가 삭제되고 한칸씩 땡겨짐
+- 벡터에서 erase를 사용할때마다 iterator가 무효화되므로 불편한데 remove / remove_if와 함께사용해서 해결 가능
 - 특정 값을 모두 지우려면 `vec.erase(remove(vec.begin(), vec.end(), 3), vec.end());`처럼 사용하면 벡터 내의 모든 3을 제거해줌
 
 5) 이중벡터 크기 지정
