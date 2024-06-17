@@ -110,10 +110,15 @@ class vector;
 
 - emplace : 원소를 insert함, 다만 emplace는 옛날거고 push_back과 insert가 요즘꺼니 이걸 쓰라고 하던데...
 - emplace_back : 제일 뒤에 값을 추가함, 이거보다 push_back 사용을 권장한다고 들었음
-- emplace보다 push가 안정적인 이유는 push는 임시객체를 만든 후 벡터에 삽입하므로 시간비효율이 생길 수는 있지만 안정적이고 emplace는 임시객체 생성 없이 들어갈 수 있는 가까운 형태로 추론해서 들어가므로 빠르지만 예상치 못한 일이 생길 수 있다 정도로 생각하면 될 듯 함
 
 8) 할당자
 - get_allocator : 할당자(allocator) 을 얻는다.
+  
+###### push_back과 emplace_back
+- push_back : 임시객체를 만든 후 벡터에 넣을때 복사함
+- emplace_back : 임시객체를 만들지 않고 해당 벡터에 들어갈 수 있는 가장 가까운 형태로 추론해서 바로 들어감
+그래서 push_back이 복사가 한번 더 일어나서 비효율적일 수 있지만 형변환문제에서 안전하고, emplace_back은 좀 더 빠를 수 있지만 예상치 못한 자료형으로 들어갈 수 있어서 안정적이지 않을 수 있음  
+그리고 요즘은 컴파일러가 복사생략도 알아서 해주니까 push_back으로 안정성 챙기는걸 추천하는 듯 함
 
 #### 7. vector 사용 팁들
 1) 벡터 생성시
