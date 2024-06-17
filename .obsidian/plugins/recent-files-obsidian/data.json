@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Algorithm",
+      "path": "C++/C++ STL/Algorithm/Algorithm.md"
+    },
+    {
       "basename": "vector",
       "path": "C++/C++ STL/Container/시퀀스 컨테이너/vector.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "set",
       "path": "C++/C++ STL/Container/연관 컨테이너/set.md"
-    },
-    {
-      "basename": "Algorithm",
-      "path": "C++/C++ STL/Algorithm/Algorithm.md"
     },
     {
       "basename": "Iterator",
