@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "BFS, DFS, 트리순회",
+      "path": "CS 지식/알고리즘/BFS, DFS, 트리순회.md"
+    },
+    {
       "basename": "Algorithm",
       "path": "C++/C++ STL/Algorithm/Algorithm.md"
     },
@@ -103,10 +107,6 @@
     {
       "basename": "Container",
       "path": "C++/C++ STL/Container/Container.md"
-    },
-    {
-      "basename": "BFS, DFS, 트리순회",
-      "path": "CS 지식/알고리즘/BFS, DFS, 트리순회.md"
     },
     {
       "basename": "진법 변환",

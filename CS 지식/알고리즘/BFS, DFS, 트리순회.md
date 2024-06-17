@@ -191,7 +191,14 @@ int main()
 ```
 
 #### 3) 연결된 컴포넌트 탐색
+몇개의 구역으로 나뉘어져있는지 탐색하는 문제다.
 ![500x300](https://blog.kakaocdn.net/dn/bg4eHn/btsH1mlUctr/BjgJeRTSqNq9vcZuDBUPgK/img.png)
+
+예시 문제)  
+기초버전 : [https://smallpants.tistory.com/265](https://smallpants.tistory.com/265)  
+심화버전 : [https://smallpants.tistory.com/263](https://smallpants.tistory.com/263)  
+
+예시 코드)  
 ```C++
 #include<bits/stdc++.h>
 using namespace std; 

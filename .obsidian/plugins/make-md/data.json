@@ -92,12 +92,12 @@
       "C++/Modern C++",
       "C++/C++ STL",
       "C++/C++ STL/Algorithm",
-      "C++",
-      "CS 지식/디자인패턴",
       "Notepad",
       "C++/C++ STL/Container",
       "C++/C++ STL/Container/시퀀스 컨테이너",
-      "C++/C++ STL/Iteraoter"
+      "C++/C++ STL/Iteraoter",
+      "CS 지식",
+      "CS 지식/알고리즘"
     ],
     "as": [
       "Hello Obsidian",
