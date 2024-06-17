@@ -15,7 +15,6 @@ void main()
 - 값을 정렬해서 보관(값을 정렬하지 않는 set은 unordered_set)
 - 데이터 중에 키값이 존재하는지 존재유무에 중점을 둠
 - 이진탐색트리로 구현됨
-
 ```C++
 set<int> s;
 
@@ -47,8 +46,7 @@ else std::cout << "No" << std::endl;
 - 값의 중복을 허용하지 않으므로 중복을 제거하고 싶을 때 사용할 수 있음
 
 #### 3. set의 단점
-- 값을 삽입할 때마다 트리의 구조를 변경해야 하므로 다른 컨테이너보다는 느릴 수 있음
-- 값을 삽입할 때 복사 생성자를 사용하므로 큰 객체를 삽입할 경우 성능문제가 발생할 수 있음
+- 값을 삽입할 때 새로운 값도 정렬되어야 하므로 트리의 구조를 변경해야 해서 다른 컨테이너보다는 느릴 수 있음
 - 중복을 허용하고 싶거나, 정렬을 원하지 않으면 다른 컨테이너를 사용하는 것이 좋음
 
 #### 4. set의 함수원형
@@ -80,7 +78,7 @@ template <
 - reverse_iterator : 	`reverse_iterator<iterator>`
 - const_reverse_iterator : `reverse_iterator<const_iterator>`
 
-- difference_type : 두 원소 사이의 거리를 나타내는 타입 (많은 경우 ptfdiff_t 와 타입이 같으며 부호있는 정수)
+- difference_type : 두 원소 사이의 거리를 나타내는 타입 (많은 경우 ptrdiff_t 와 타입이 같으며 부호있는 정수)
 - size_type :  size 를 나타내는 타입 (많은 경우 size_t 와 타입이 같으며 부호없는 정수이다)
 
 #### 6. set의 멤버 함수들
