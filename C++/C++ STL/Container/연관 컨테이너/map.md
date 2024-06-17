@@ -16,27 +16,6 @@ void main()
 - 키값이 존재하는지, 존재한다면 키값에 대응하는 값이 무엇인지 확인하는 목적이 강함  
 - 과거에는 이진탐색트리로 구현되었지만 최근에는 레드블랙트리로 구현됨
 
-- 맵의 insert는 pair 객체를 인자로 받음  
-	`m.insert(std::pair<std::string, double>("박세웅", 2.23));`
-- 혹은 make_pair함수로 자료형 길게 안적고 가능  
-	`m.insert(std::make_pair("박세웅", 2.23));  `
-- 혹은 insert를 안쓰고 그냥 인덱스에 대입도 가능  
-	`m["박세웅"] = 2.23;` // 이미 키가 있으면 값이 바뀌고, 없으면 새로 추가해줌  
-  
-- 값에 접근은 `itr->first`와 `itr->second`로 키와 value에 접근  
-  
-- []연산자로 값에 접근할때 주의점  
-	`cout << m["박세웅"];` 하면 알아서 2.23을 출력해줌  
-	근데 문제는 없는 키에 접근해서 출력을 해도 오류를 일으키지 않고 0을 출력해줌  
-	`cout << m["류현진"];` 하면 그냥 디폴트값인 0을 넣어서 생성해버리고 출력함  
-	그러니 []로 값을 접근할거면 find로 먼저 값이 있는지 확인하고 있으면 출력하는 식으로 해야함  
-  
-- 같은 키값을 여러번 insert 한다면 두번째 insert부터는 무시됨
-	`m.insert(std::make_pair("박세웅", 2.23));`  
-	`m.insert(std::make_pair("박세웅", 3.59));`  
-	처럼 입력하면 이미 있는 값의 insert는 무시하므로 2.23에서 값이 바뀌지 않음  
-	값을 바꾸려면 `m["박세웅"] = 3.59;`로 써야함  
-
 #### 2. map의 장점
 - map은 key를 기준으로 데이터를 정렬해서 보관하므로 탐색이 빠름
 - 중복을 허용하지 않으므로 중복방지용으로 사용하기 좋음
@@ -114,15 +93,37 @@ template < class Key,                              // map::key_type
 
 9) Operations
 - find	: Get iterator to element (public member function)
+// 아래 4개의 함수는 사실상 multimap에서 사용되는 함수들  
 - count : Count elements with a specific value (public member function)
-
-// 아래 3개의 함수는 사실상 multimap에서 사용되는 함수들
 - lower_bound	: Return iterator to lower bound (public member function)
 - upper_bound : Return iterator to upper bound (public member function)
 - equal_range : Get range of equal elements (public member function)
 
 10) 할당자
 - get_allocator : 할당자(allocator) 을 얻는다.
+
+#### 7. map 사용 팁과 주의사항
+###### 1) 삽입과 변경
+- 그냥 키를 인덱스처럼 사용해서 대입 가능하고 이미 키가 있으면 값이 바뀌고, 없으면 새로 추가해줌  
+`m["박세웅"] = 2.23;`
+- 또는 pair 객체를 저장하는 set느낌으로 쓸 수도 있음  
+`m.insert(std::pair<std::string, double>("박세웅", 2.23));`
+- 당연히 make_pair도 사용 가능  
+`m.insert(std::make_pair("박세웅", 2.23));`
+  
+- 중복을 허용하지 않으므로 같은 키값을 여러번 insert 한다면 두번째 insert부터는 무시됨  
+`m.insert(std::make_pair("박세웅", 2.23));`
+`m.insert(std::make_pair("박세웅", 3.59));`  
+처럼 입력하면 이미 있는 값의 insert는 무시하므로 2.23에서 값이 바뀌지 않음  
+값을 변경하려면 `m["박세웅"] = 3.59;`로 써야함
+
+###### 2) map의 값에 접근 및 주의사항
+- iterator로 값에 접근한다면 `itr->first`와 `itr->second`로 key와 value에 접근
+- `[]`연산자로 값에 접근한다면 `cout << m["박세웅"];`하면 알아서 2.23을 출력해줌
+
+근데 문제는 없는 키에 접근해서 출력을 해도 오류를 일으키지 않고 0을 출력해줌  
+예를들어 `cout << m["류현진"];`하면 그냥 디폴트값인 0을 넣어서 생성해버리고 출력함  
+그러니 `[]`로 값을 접근할때 없던 값에 0이 들어가는걸 원치 않는다면 find로 먼저 값이 있는지 확인하고 있으면 출력해야 함
 
 
 

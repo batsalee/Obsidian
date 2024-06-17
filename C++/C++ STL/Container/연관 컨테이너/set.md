@@ -114,9 +114,8 @@ template <
 
 8) Operations
 - find	: Get iterator to element (public member function)
+// 아래 4개의 함수는 사실상 multiset에서 사용되는 함수들
 - count : Count elements with a specific value (public member function)
-
-// 아래 3개의 함수는 사실상 multiset에서 사용되는 함수들
 - lower_bound	: Return iterator to lower bound (public member function)
 - upper_bound : Return iterator to upper bound (public member function)
 - equal_range : Get range of equal elements (public member function)
