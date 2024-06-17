@@ -96,7 +96,8 @@
       "CS 지식/디자인패턴",
       "Notepad",
       "C++/C++ STL/Container",
-      "C++/C++ STL/Container/시퀀스 컨테이너"
+      "C++/C++ STL/Container/시퀀스 컨테이너",
+      "C++/C++ STL/Iteraoter"
     ],
     "as": [
       "Hello Obsidian",
