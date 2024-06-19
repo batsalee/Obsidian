@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/알고리즘/BFS, DFS, 트리순회.md",
+                "file": "프로젝트/PushPush.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/알고리즘/BFS, DFS, 트리순회.md",
+                "file": "프로젝트/PushPush.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/알고리즘/BFS, DFS, 트리순회.md",
+                "file": "프로젝트/PushPush.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/알고리즘/BFS, DFS, 트리순회.md"
+                "file": "프로젝트/PushPush.md"
               }
             }
           },
@@ -184,6 +184,8 @@
   },
   "active": "f7fcbfec310abaa1",
   "lastOpenFiles": [
+    "프로젝트/PinkWard.md",
+    "CS 지식/알고리즘/BFS, DFS, 트리순회.md",
     "C++/C++ STL/Algorithm/Algorithm.md",
     "C++/C++ STL/Iteraoter/Iterator.md",
     "C++/C++ STL/Container/시퀀스 컨테이너/vector.md",
@@ -208,8 +210,6 @@
     "C++/C++ STL/Container/시퀀스 컨테이너/list.md",
     "C++/C++ STL/Container/시퀀스 컨테이너/forward_list.md",
     "C++/C++ STL/STL.md",
-    "C++/C++ STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md",
-    "C++/C++ STL/Container/Container.md",
     "C++/Modern C++/Library/contents/Pasted image 20240604202817.png",
     "C++/Modern C++/Library/contents",
     "CS 지식/프로그래밍 지식/contents/Pasted image 20240127104415.png",

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "PushPush",
+      "path": "프로젝트/PushPush.md"
+    },
+    {
+      "basename": "PinkWard",
+      "path": "프로젝트/PinkWard.md"
+    },
+    {
       "basename": "BFS, DFS, 트리순회",
       "path": "CS 지식/알고리즘/BFS, DFS, 트리순회.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "SQL기본문법",
       "path": "CS 지식/Database/SQL기본문법.md"
-    },
-    {
-      "basename": "DB",
-      "path": "CS 지식/Database/DB.md"
-    },
-    {
-      "basename": "TCL",
-      "path": "CS 지식/Database/TCL.md"
     }
   ],
   "omittedPaths": [],
