@@ -195,10 +195,6 @@
     {
       "basename": "DML",
       "path": "CS 지식/Database/DML.md"
-    },
-    {
-      "basename": "DQL",
-      "path": "CS 지식/Database/DQL.md"
     }
   ],
   "omittedPaths": [],

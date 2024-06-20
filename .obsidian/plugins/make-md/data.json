@@ -97,7 +97,9 @@
       "C++/C++ STL/Container/시퀀스 컨테이너",
       "C++/C++ STL/Iteraoter",
       "CS 지식/알고리즘",
-      "프로젝트"
+      "프로젝트",
+      "프로젝트/contents",
+      "프로젝트/contents"
     ],
     "as": [
       "Hello Obsidian",
@@ -197,7 +199,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1718870524098,
+  "spacesAutoBackupLast": 1718870833442,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
