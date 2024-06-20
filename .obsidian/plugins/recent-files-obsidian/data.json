@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "나 혼자 산다",
+      "path": "프로젝트/나 혼자 산다.md"
+    },
+    {
       "basename": "PushPush",
       "path": "프로젝트/PushPush.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "DQL",
       "path": "CS 지식/Database/DQL.md"
-    },
-    {
-      "basename": "SQL기본문법",
-      "path": "CS 지식/Database/SQL기본문법.md"
     }
   ],
   "omittedPaths": [],
