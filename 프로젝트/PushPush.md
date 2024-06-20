@@ -1,5 +1,13 @@
 # PushPush
 
+## 목차
+1. 개요  
+2. 프로젝트 설명  
+3. 개발 환경
+4. 고충과 해결방법
+5. 배운점
+6. 링크
+---
 ## 1. 개요
 
 대학교 1학년시절 학술제에 제출하기위해 제작했으며  
@@ -20,7 +28,7 @@ PushPush라는 이름의 게임을 콘솔창에서 키보드로 동작하게 구
 ![[Pasted image 20240311005237.png]]
 
 
-## 3. 사용 기술
+## 3. 개발 환경
 
 - Visual Studio 6.0
 - C언어
@@ -57,4 +65,8 @@ PushPush라는 이름의 게임을 콘솔창에서 키보드로 동작하게 구
 
 ## 6. 링크
 
-https://github.com/batsalee/UniversityData/tree/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/PushPush
+#### 1) Github
+[https://github.com/batsalee/UniversityData/tree/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/PushPush](https://github.com/batsalee/UniversityData/tree/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/PushPush)
+
+#### 2) Blog
+[https://smallpants.tistory.com/225](https://smallpants.tistory.com/225)
