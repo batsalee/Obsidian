@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "나 혼자 산다",
-      "path": "프로젝트/나 혼자 산다.md"
+      "basename": "InfoManager",
+      "path": "프로젝트/InfoManager.md"
     },
     {
       "basename": "오늘 뭐 먹지",
       "path": "프로젝트/오늘 뭐 먹지.md"
     },
     {
-      "basename": "PushPush",
-      "path": "프로젝트/PushPush.md"
-    },
-    {
       "basename": "PinkWard",
       "path": "프로젝트/PinkWard.md"
+    },
+    {
+      "basename": "나 혼자 산다",
+      "path": "프로젝트/나 혼자 산다.md"
+    },
+    {
+      "basename": "PushPush",
+      "path": "프로젝트/PushPush.md"
     },
     {
       "basename": "BFS, DFS, 트리순회",
@@ -195,10 +199,6 @@
     {
       "basename": "데이터베이스 이론",
       "path": "CS 지식/Database/데이터베이스 이론.md"
-    },
-    {
-      "basename": "DML",
-      "path": "CS 지식/Database/DML.md"
     }
   ],
   "omittedPaths": [],
