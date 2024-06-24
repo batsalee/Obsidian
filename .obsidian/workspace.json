@@ -182,8 +182,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f7fcbfec310abaa1",
+  "active": "865fcff0f57ed8b2",
   "lastOpenFiles": [
+    "공부 후기 및 고찰/gui글",
+    "공부 후기 및 고찰/ai글",
     "프로젝트/오늘 뭐 먹지.md",
     "프로젝트/PinkWard.md",
     "프로젝트/InfoManager.md",
@@ -212,7 +214,6 @@
     "C++/C++ STL/Container/연관 컨테이너/multimap.md",
     "C++/C++ STL/Container/연관 컨테이너/multiset.md",
     "C++/C++ STL/Container/시퀀스 컨테이너/array.md",
-    "C++/C++ STL/Container/연관 컨테이너/연관 컨테이너.md",
     "C++/Modern C++/Library/contents/Pasted image 20240604202817.png",
     "C++/Modern C++/Library/contents",
     "CS 지식/프로그래밍 지식/contents/Pasted image 20240127104415.png",
@@ -229,7 +230,6 @@
     "일기장/취미",
     "프로젝트",
     "공부 후기 및 고찰",
-    "일기장",
     "무제 파일.canvas"
   ]
 }
