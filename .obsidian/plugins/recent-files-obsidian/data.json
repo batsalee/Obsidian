@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "AI 시대에 내가 살아남을 수 있을까",
+      "path": "공부 후기 및 고찰/AI 시대에 내가 살아남을 수 있을까.md"
+    },
+    {
       "basename": "InfoManager",
       "path": "프로젝트/InfoManager.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "자료구조",
       "path": "CS 지식/자료구조/자료구조.md"
-    },
-    {
-      "basename": "데이터베이스 이론",
-      "path": "CS 지식/Database/데이터베이스 이론.md"
     }
   ],
   "omittedPaths": [],
