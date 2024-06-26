@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "복잡도개념",
+      "path": "CS 지식/알고리즘/복잡도개념.md"
+    },
+    {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
+    },
+    {
       "basename": "AI 시대에 내가 살아남을 수 있을까",
       "path": "공부 후기 및 고찰/AI 시대에 내가 살아남을 수 있을까.md"
     },
@@ -39,10 +47,6 @@
     {
       "basename": "vector",
       "path": "C++/C++ STL/Container/시퀀스 컨테이너/vector.md"
-    },
-    {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
     },
     {
       "basename": "set",
@@ -195,10 +199,6 @@
     {
       "basename": "배열",
       "path": "CS 지식/자료구조/선형 구조/배열.md"
-    },
-    {
-      "basename": "자료구조",
-      "path": "CS 지식/자료구조/자료구조.md"
     }
   ],
   "omittedPaths": [],
