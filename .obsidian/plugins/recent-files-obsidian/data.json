@@ -5,6 +5,18 @@
       "path": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md"
     },
     {
+      "basename": "Pasted image 20231130153325",
+      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153325.png"
+    },
+    {
+      "basename": "Pasted image 20231130161911",
+      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130161911.png"
+    },
+    {
+      "basename": "Pasted image 20231130153604",
+      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153604.png"
+    },
+    {
       "basename": "신장트리, 최소신장트리",
       "path": "CS 지식/자료구조/심화 자료구조/신장트리, 최소신장트리.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Queue",
       "path": "CS 지식/자료구조/선형 구조/Queue.md"
-    },
-    {
-      "basename": "Stack",
-      "path": "CS 지식/자료구조/선형 구조/Stack.md"
-    },
-    {
-      "basename": "deque",
-      "path": "CS 지식/자료구조/선형 구조/deque.md"
-    },
-    {
-      "basename": "list",
-      "path": "CS 지식/자료구조/선형 구조/list.md"
     }
   ],
   "omittedPaths": [],
