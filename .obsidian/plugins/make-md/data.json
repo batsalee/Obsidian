@@ -98,7 +98,8 @@
       "프로젝트/contents",
       "프로젝트/contents",
       "CS 지식",
-      "CS 지식/자료구조"
+      "CS 지식/자료구조",
+      "수학적 지식"
     ],
     "as": [
       "Hello Obsidian",
@@ -198,7 +199,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1719403182434,
+  "spacesAutoBackupLast": 1719830534074,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
