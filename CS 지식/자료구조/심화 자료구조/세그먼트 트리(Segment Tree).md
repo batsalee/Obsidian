@@ -432,12 +432,20 @@ int main(void)
 풀이 : 그냥 위에 있는 코드 그대로 가져다 써도 됨
 
 #### 구간 최소값 예시문제
+[https://www.acmicpc.net/problem/10868](https://www.acmicpc.net/problem/10868)
+풀이 : [https://smallpants.tistory.com/277](https://smallpants.tistory.com/277)
+
 [https://www.acmicpc.net/problem/14427](https://www.acmicpc.net/problem/14427)
 [https://www.acmicpc.net/problem/14428](https://www.acmicpc.net/problem/14428)
 [https://www.acmicpc.net/problem/14438](https://www.acmicpc.net/problem/14438)
 
+#### 구간 최소값과 최대값 동시에 구하는 예시문제
+[https://www.acmicpc.net/problem/2357](https://www.acmicpc.net/problem/2357)
+풀이 : [https://smallpants.tistory.com/276](https://smallpants.tistory.com/276)
+
 #### 구간 곱 예시문제
 [https://www.acmicpc.net/problem/11505](https://www.acmicpc.net/problem/11505)
+풀이 : [https://smallpants.tistory.com/275](https://smallpants.tistory.com/275)
 
 
 
