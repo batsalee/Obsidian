@@ -150,7 +150,7 @@ void Make_SegmentTree(int Node, int Start, int End) {
     else {
         int Mid = (Start + End) / 2;
         Make_SegmentTree(Node * 2, Start, Mid);
-        Make_SegmentTree(node * 2 + 1, Mid + 1, End);
+        Make_SegmentTree(Node * 2 + 1, Mid + 1, End);
         SegmentTree[Node] = SegmentTree[Node * 2] + SegmentTree[Node * 2 + 1];
     }
 }
