@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "세그먼트 트리(Segment Tree)",
+      "path": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md"
+    },
+    {
+      "basename": "신장트리, 최소신장트리",
+      "path": "CS 지식/자료구조/심화 자료구조/신장트리, 최소신장트리.md"
+    },
+    {
       "basename": "알고리즘 공부를 하다 보면 드는 생각",
       "path": "공부 후기 및 고찰/알고리즘 공부를 하다 보면 드는 생각.md"
     },
@@ -167,14 +175,6 @@
     {
       "basename": "그래프",
       "path": "CS 지식/자료구조/비선형 구조/그래프.md"
-    },
-    {
-      "basename": "신장트리, 최소신장트리",
-      "path": "CS 지식/자료구조/심화 자료구조/신장트리, 최소신장트리.md"
-    },
-    {
-      "basename": "세그먼트 트리(Segment Tree)",
-      "path": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md"
     },
     {
       "basename": "트리",

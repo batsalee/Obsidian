@@ -1,0 +1,248 @@
+{
+  "main": {
+    "id": "ba2778a59448dc2b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca6865e8e2f3143d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7fcbfec310abaa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "공부 후기 및 고찰/알고리즘 공부를 하다 보면 드는 생각.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e057a9316aafac78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f04464f93698917e",
+    "type": "split",
+    "children": [
+      {
+        "id": "108fafa316a90df0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5f6636e469017a8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ac77a984984a41b8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "shrink",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "444d57f0570de5f8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "e375788b9f7f9984",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "865fcff0f57ed8b2",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 309.5
+  },
+  "right": {
+    "id": "0aeebf3c0c27fdc4",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4c48beec8a8787f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c33e0cb92f56176d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ecbb9dd8a1dec49c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ba35e1ded9eb5e42",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "146c9216649bfe96",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md"
+              }
+            }
+          },
+          {
+            "id": "8e9145508b0f8c3b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "6359081808810abc",
+            "type": "leaf",
+            "state": {
+              "type": "make-context-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "e057a9316aafac78",
+  "lastOpenFiles": [
+    "CS 지식/자료구조/심화 자료구조/신장트리, 최소신장트리.md",
+    "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md",
+    "공부 후기 및 고찰/알고리즘 공부를 하다 보면 드는 생각.md",
+    "공부 후기 및 고찰/AI 시대에 내가 살아남을 수 있을까.md",
+    "CS 지식/알고리즘/복잡도개념.md",
+    "Notepad/Today_Study 정리파일.md",
+    "프로젝트/InfoManager.md",
+    "공부 후기 및 고찰/gui글",
+    "공부 후기 및 고찰/ai글",
+    "프로젝트/오늘 뭐 먹지.md",
+    "프로젝트/PinkWard.md",
+    "프로젝트/나 혼자 산다.md",
+    "프로젝트/PushPush.md",
+    "프로젝트/contents/Pasted image 20240620170608.png",
+    "프로젝트/contents",
+    "프로젝트/contents/Pasted image 20240311005237.png",
+    "CS 지식/알고리즘/BFS, DFS, 트리순회.md",
+    "C++/C++ STL/Algorithm/Algorithm.md",
+    "C++/C++ STL/Iteraoter/Iterator.md",
+    "C++/C++ STL/Container/시퀀스 컨테이너/vector.md",
+    "C++/C++ STL/Container/연관 컨테이너/set.md",
+    "C++/C++ STL/Container/연관 컨테이너/map.md",
+    "CS 지식/디자인패턴/행동패턴/이터레이터.md",
+    "C++/C++ STL/Container/컨테이너 어댑터/priority_queue.md",
+    "C++/C++ STL/Container/컨테이너 어댑터/queue.md",
+    "C++/C++ STL/Container/컨테이너 어댑터/stack.md",
+    "C++/C++ STL/Container/컨테이너 어댑터/컨테이너 어댑터.md",
+    "C++/C++ STL/Container/해시 컨테이너/unordered_map.md",
+    "C++/C++ STL/Container/해시 컨테이너/unordered_set.md",
+    "C++/C++ STL/Container/해시 컨테이너/unordered_multiset.md",
+    "C++/C++ STL/Container/해시 컨테이너/unordered_multimap.md",
+    "C++/Modern C++/Library/contents/Pasted image 20240604202817.png",
+    "C++/Modern C++/Library/contents",
+    "CS 지식/프로그래밍 지식/contents/Pasted image 20240127104415.png",
+    "C++/Modern C++/개념",
+    "C++/Modern C++/Keyword",
+    "CS 지식/디자인패턴/생성패턴/contents/Pasted image 20240503042650.png",
+    "CS 지식/디자인패턴/생성패턴/contents",
+    "CS 지식/디자인패턴/구조패턴/contents/Pasted image 20240502140600.png",
+    "CS 지식/디자인패턴/구조패턴/contents/Pasted image 20240430122446.png",
+    "CS 지식/디자인패턴/구조패턴/contents/Pasted image 20240430080445.png",
+    "CS 지식/디자인패턴/구조패턴/contents/Pasted image 20240430080244.png",
+    "CS 지식/디자인패턴/구조패턴/contents/Pasted image 20240430080148.png",
+    "CS 지식/디자인패턴/구조패턴/contents",
+    "일기장/취미",
+    "프로젝트",
+    "무제 파일.canvas"
+  ]
+}
