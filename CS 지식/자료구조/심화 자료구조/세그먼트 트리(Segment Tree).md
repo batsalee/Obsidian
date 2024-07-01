@@ -409,8 +409,6 @@ int main(void)
     // Update
     int Index = 1;
     int Value = 5;
-    int Diff = Value - arr[Index];
-    arr[Index] = Value;
     Update_SegmentTree(1, 0, N - 1, Index, Diff);
 
     // Min 구하기
