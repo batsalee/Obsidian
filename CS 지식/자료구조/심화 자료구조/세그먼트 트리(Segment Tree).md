@@ -247,9 +247,8 @@ void Update_SegmentTree(int Node, int Start, int End, int Index, int Value) {
 배열 index 0~2의 합을 구한다면 2번노드의 값인 6을 그대로 리턴하면 된다.  
 즉 이 경우는 경우의 수 중 두번째의 경우에 해당한다.  
 
-배열 index 2~3의 합을 구한다면 왼쪽과 오른쪽 서브트리에 걸쳐있으므로 계속 아래로 탐색해서 원하는 구간이 나오면 그 값을 더해서 리턴한다.
-
-```
+배열 index 2~3의 합을 구한다면 왼쪽과 오른쪽 서브트리에 걸쳐있으므로 계속 아래로 탐색해서 원하는 구간이 나오면 그 값을 리턴해서 더한다.
+```C++
 int Sum(int Node, int Start, int End, int Left, int Right)
 {
     if (Left > End || Right < Start) return 0;
@@ -273,13 +272,11 @@ int Sum(int Node, int Start, int End, int Left, int Right)
 */
 ```
 
-|   |
-|---|
-|## 최종적으로 코드 정리|
+
+## 7. 최종적으로 코드 정리
 
 #### 구간합 코드
-
-```
+```C++
 #include <iostream>
 #include <vector>
 
@@ -348,12 +345,9 @@ int main()
 ```
 
 #### 구간합 외의 세그먼트 트리
-
-최솟값 뿐 아니라 최댓값, 곱, XOR연산 등도 모두 가능하다.
-
-최솟값을 예시로 설명한다면 구간합에서 +로 사용했던 부분들을 모두 min으로 바꿔주면 된다.
-
-```
+최솟값 뿐 아니라 최댓값, 곱, XOR연산 등도 모두 가능하다.  
+최솟값을 예시로 설명한다면 구간합에서 +로 사용했던 부분들을 모두 min으로 바꿔주면 된다.  
+```C++
 #include <iostream>
 #include <cmath>
 #include <vector>
@@ -427,28 +421,25 @@ int main(void)
 }
 ```
 
-|   |
-|---|
-|## 예시 문제|
+
+## 8. 예시 문제
 
 #### 구간 합 예시문제 
-
 [https://www.acmicpc.net/problem/2042](https://www.acmicpc.net/problem/2042)
 
 #### 구간 최소값 예시문제
-
 [https://www.acmicpc.net/problem/14427](https://www.acmicpc.net/problem/14427)
-
 [https://www.acmicpc.net/problem/14428](https://www.acmicpc.net/problem/14428)
-
 [https://www.acmicpc.net/problem/14438](https://www.acmicpc.net/problem/14438)
 
 #### 구간 곱 예시문제
-
 [https://www.acmicpc.net/problem/11505](https://www.acmicpc.net/problem/11505)
 
+
+
+
+
+
 ※ 참고문헌
-
 [https://yabmoons.tistory.com/431](https://yabmoons.tistory.com/431)
-
 [https://book.acmicpc.net/ds/segment-tree](https://book.acmicpc.net/ds/segment-tree)
