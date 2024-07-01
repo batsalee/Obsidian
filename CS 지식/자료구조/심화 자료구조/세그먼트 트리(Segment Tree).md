@@ -288,7 +288,7 @@ void Make_SegmentTree(int Node, int Start, int End) {
     else {
         int Mid = (Start + End) / 2;
         Make_SegmentTree(Node * 2, Start, Mid);
-        Make_SegmentTree(node * 2 + 1, Mid + 1, End);
+        Make_SegmentTree(Node * 2 + 1, Mid + 1, End);
         SegmentTree[Node] = SegmentTree[Node * 2] + SegmentTree[Node * 2 + 1];
     }
 }
@@ -426,6 +426,10 @@ int main(void)
 
 #### 구간 합 예시문제 
 [https://www.acmicpc.net/problem/2042](https://www.acmicpc.net/problem/2042)
+풀이 : [https://smallpants.tistory.com/278](https://smallpants.tistory.com/278)
+
+[https://www.acmicpc.net/problem/1275](https://www.acmicpc.net/problem/1275)
+풀이 : 그냥 위에 있는 코드 그대로 가져다 써도 됨
 
 #### 구간 최소값 예시문제
 [https://www.acmicpc.net/problem/14427](https://www.acmicpc.net/problem/14427)
