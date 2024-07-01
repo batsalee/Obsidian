@@ -1158,3 +1158,9 @@ set에 없는 값을 erase해도 문제가 생기지 않는다.
 unordered_map에 값을 받은 후 특정 조건으로 정렬을 하고 싶으면   
 `vector<pair<string,int>> v(m.begin(), m.end());`처럼 벡터로 복사해준 후 sort해야한다.
 
+
+
+pair로 대소비교나 정렬하면 편하다.
+pair로 value, index 순으로 보관하고 min이랑 연계하면  
+값이 작은것, 값이 같다면 index가 낮은것 으로 사용하기 편하다    
+혹은 sort할때도 편하다.

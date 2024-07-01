@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
+    },
+    {
       "basename": "세그먼트 트리(Segment Tree)",
       "path": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "복잡도개념",
       "path": "CS 지식/알고리즘/복잡도개념.md"
-    },
-    {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
     },
     {
       "basename": "InfoManager",
