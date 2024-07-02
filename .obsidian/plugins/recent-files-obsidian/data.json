@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
+    },
+    {
+      "basename": "노션 강의 정리",
+      "path": "Notepad/노션 강의 정리.md"
+    },
+    {
+      "basename": "코딩 습관들여야 할 것들",
+      "path": "Notepad/코딩 습관들여야 할 것들.md"
+    },
+    {
+      "basename": "Notepad",
+      "path": "Notepad/Notepad.md"
+    },
+    {
       "basename": "트리",
       "path": "CS 지식/자료구조/비선형 구조/트리.md"
     },
@@ -93,10 +109,6 @@
       "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130152029.png"
     },
     {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
-    },
-    {
       "basename": "알고리즘 공부를 하다 보면 드는 생각",
       "path": "공부 후기 및 고찰/알고리즘 공부를 하다 보면 드는 생각.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "unordered_set",
       "path": "C++/C++ STL/Container/해시 컨테이너/unordered_set.md"
-    },
-    {
-      "basename": "unordered_multiset",
-      "path": "C++/C++ STL/Container/해시 컨테이너/unordered_multiset.md"
-    },
-    {
-      "basename": "unordered_multimap",
-      "path": "C++/C++ STL/Container/해시 컨테이너/unordered_multimap.md"
-    },
-    {
-      "basename": "해시 컨테이너",
-      "path": "C++/C++ STL/Container/해시 컨테이너/해시 컨테이너.md"
     }
   ],
   "omittedPaths": [],
