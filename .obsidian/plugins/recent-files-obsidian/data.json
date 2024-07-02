@@ -1,12 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
-    },
-    {
       "basename": "세그먼트 트리(Segment Tree)",
       "path": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md"
+    },
+    {
+      "basename": "Pasted image 20231130153756",
+      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153756.png"
+    },
+    {
+      "basename": "Pasted image 20231130153714",
+      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153714.png"
+    },
+    {
+      "basename": "Pasted image 20231130153604",
+      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153604.png"
+    },
+    {
+      "basename": "Pasted image 20231130153529",
+      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153529.png"
+    },
+    {
+      "basename": "Pasted image 20231130153143",
+      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153143.png"
+    },
+    {
+      "basename": "Pasted image 20231130153325",
+      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153325.png"
+    },
+    {
+      "basename": "Pasted image 20231130145554",
+      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png"
+    },
+    {
+      "basename": "Pasted image 20231130145542",
+      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145542.png"
+    },
+    {
+      "basename": "Pasted image 20231130152029",
+      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130152029.png"
+    },
+    {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
     },
     {
       "basename": "알고리즘 공부를 하다 보면 드는 생각",
@@ -21,16 +57,8 @@
       "path": "수학적 지식/모스부호.md"
     },
     {
-      "basename": "Pasted image 20231130153325",
-      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153325.png"
-    },
-    {
       "basename": "Pasted image 20231130161911",
       "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130161911.png"
-    },
-    {
-      "basename": "Pasted image 20231130153604",
-      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153604.png"
     },
     {
       "basename": "신장트리, 최소신장트리",
@@ -171,34 +199,6 @@
     {
       "basename": "진법 변환",
       "path": "C++/Code Keeping/진법 변환.md"
-    },
-    {
-      "basename": "regex",
-      "path": "C++/Modern C++/Library/regex.md"
-    },
-    {
-      "basename": "Notepad",
-      "path": "Notepad/Notepad.md"
-    },
-    {
-      "basename": "코딩 습관들여야 할 것들",
-      "path": "Notepad/코딩 습관들여야 할 것들.md"
-    },
-    {
-      "basename": "Hash Table",
-      "path": "CS 지식/자료구조/심화 자료구조/Hash Table.md"
-    },
-    {
-      "basename": "Heap",
-      "path": "CS 지식/자료구조/심화 자료구조/Heap.md"
-    },
-    {
-      "basename": "그래프",
-      "path": "CS 지식/자료구조/비선형 구조/그래프.md"
-    },
-    {
-      "basename": "트리",
-      "path": "CS 지식/자료구조/비선형 구조/트리.md"
     }
   ],
   "omittedPaths": [],
