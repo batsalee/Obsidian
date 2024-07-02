@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "펜윅 트리(Fenwick Tree)",
+      "path": "CS 지식/자료구조/심화 자료구조/펜윅 트리(Fenwick Tree).md"
+    },
+    {
+      "basename": "Pasted image 20231130113849",
+      "path": "CS 지식/자료구조/contents/Pasted image 20231130113849.png"
+    },
+    {
+      "basename": "세그먼트 트리, 펜윅 트리",
+      "path": "CS 지식/알고리즘/세그먼트 트리, 펜윅 트리.md"
+    },
+    {
+      "basename": "LIS",
+      "path": "CS 지식/알고리즘/LIS.md"
+    },
+    {
       "basename": "세그먼트 트리(Segment Tree)",
       "path": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "forward_list",
       "path": "C++/C++ STL/Container/시퀀스 컨테이너/forward_list.md"
-    },
-    {
-      "basename": "STL",
-      "path": "C++/C++ STL/STL.md"
-    },
-    {
-      "basename": "시퀀스 컨테이너",
-      "path": "C++/C++ STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
-    },
-    {
-      "basename": "Container",
-      "path": "C++/C++ STL/Container/Container.md"
-    },
-    {
-      "basename": "진법 변환",
-      "path": "C++/Code Keeping/진법 변환.md"
     }
   ],
   "omittedPaths": [],
