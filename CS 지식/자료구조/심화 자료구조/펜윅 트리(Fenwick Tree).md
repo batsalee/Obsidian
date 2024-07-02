@@ -1,6 +1,5 @@
 # 펜윅 트리(Fenwick Tree)
 
-
 ## 1. 먼저 알아야 할 것
 
 펜윅트리는 세그먼트 트리에서 응용된 자료구조이며, 더 간단하고 더 적은 메모리로 연산을 처리하는 자료구조이다.  
@@ -148,33 +147,25 @@ void Make_FenwickTree()
 }
 ```
 
-|   |
-|---|
-|## 펜윅트리로 구간합 구하는 법|
+
+## 5. 펜윅트리로 구간합 구하는 법
 
 배열의 index 1 ~ 7의 구간합을 구하라고 한다면 아래의 노드들의 합을 계산해줘야 한다.
-
 ![](https://blog.kakaocdn.net/dn/cRCaO7/btshA0JwX0D/0vEGi5EIZJrWou5SKP1MyK/img.png)
 
-인덱스를 역순으로 작아지는 방법을 사용해야 하는데
+인덱스를 역순으로 작아지는 방법을 사용해야 하는데  
+7 = 0111  
+6 = 0110  
+4 = 0100  
+이며 작아지는 방법은 1이 존재하는 최하위비트를 찾아서 해당 비트에 1을 빼주면 된다.  
+그렇게 반복해서 0000이 나오면 종료한다.  
 
-7 = 0111
-
-6 = 0110
-
-4 = 0100
-
-이며 작아지는 방법은 1이 존재하는 최하위비트를 찾아서 해당 비트에 1을 빼주면 된다.
-
-그렇게 반복해서 0000이 나오면 종료한다.
-
-위 방법을 공식으로 표현하면 아래와 같다
-
+위 방법을 공식으로 표현하면 아래와 같다.  
 ```
-해당 index까지의 누적합 = 현재 index번호 - (현재 index번호 & -현재 index번호)
+다음 index = 현재 index - (현재 index & -현재 index)
 ```
 
-```
+```C++
 int Sum(int Idx)
 {
     int Result = 0;
@@ -185,16 +176,13 @@ int Sum(int Idx)
     return Result;
 }
 ```
+Sum(10) 처럼 사용하면 1 ~ 10의 합을 return해준다.  
+그럼 5 ~ 10의 합을 구하고 싶다면? Sum(10) - Sum(4) 처럼 사용하면 된다.  
 
-Sum(10) 처럼 사용하면 1 ~ 10의 합을 return해준다.
 
-그럼 5 ~ 10의 합을 구하고 싶다면? Sum(10) - Sum(4) 처럼 사용하면 된다.
+## 6. 최종적으로 코드 정리
 
-|   |
-|---|
-|## 최종적으로 코드 정리|
-
-```
+```C++
 #include <iostream>
 #include <vector>
 
@@ -244,19 +232,20 @@ int main()
 }
 ```
 
-만약 arr에 값을 입력받는다면 for문으로 arr에 입력받을텐데 거기에 Update함수를 끼워넣으면 되니까 Make_FenwickTree();함수도 필요없게 된다.
-
-```
-for (int i = 1; i <= n; i++) {
+만약 arr에 값을 입력받는다면 for문으로 arr에 입력받을텐데 거기에 Update함수를 끼워넣으면 되니까 Make_FenwickTree();함수도 필요없게 된다.  
+```C++
+for (int i = 1; i <= N; i++) {
 	cin >> arr[i];
 	Update(i, arr[i]);
 }
 ```
-
 이러면 Sum함수와 Update함수와 main함수만 있으니 소스코드 양도 엄청 줄고 확실히 세그먼트트리보다 간결해보이긴 한다.
 
+
+
+
+
+
 ※ 참고 문헌
-
 [https://yabmoons.tistory.com/438](https://yabmoons.tistory.com/438)
-
 [https://www.acmicpc.net/blog/view/21](https://www.acmicpc.net/blog/view/21)
