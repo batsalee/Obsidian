@@ -74,7 +74,6 @@
       "contents",
       "CS 지식/Git",
       "자료구조",
-      "CS 지식/자료구조/심화 자료구조",
       "C++/C++ STL/Algorithm",
       "C++/contents",
       "C++/개념정리/contents",
@@ -82,7 +81,6 @@
       "일기장/프로젝트",
       "일기장/프로젝트/contents",
       "CS 지식/프로그래밍 규범",
-      "CS 지식/디자인패턴/행동패턴",
       "C++/Modern C++/Library",
       "C++/Modern C++/Keyword",
       "일기장",
@@ -97,9 +95,9 @@
       "C++/C++ STL/Iteraoter",
       "프로젝트/contents",
       "프로젝트/contents",
-      "CS 지식/자료구조",
-      "CS 지식/알고리즘",
-      "Notepad"
+      "CS 지식",
+      "CS 지식/소프트웨어공학",
+      "CS 지식/소프트웨어공학"
     ],
     "as": [
       "Hello Obsidian",
@@ -199,7 +197,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1719999964404,
+  "spacesAutoBackupLast": 1720008036497,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

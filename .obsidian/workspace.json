@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notepad/mermaid 사용해보기.md",
+                "file": "CS 지식/소프트웨어공학/클래스 다이어그램.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notepad/mermaid 사용해보기.md",
+                "file": "CS 지식/소프트웨어공학/클래스 다이어그램.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notepad/mermaid 사용해보기.md",
+                "file": "CS 지식/소프트웨어공학/클래스 다이어그램.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notepad/mermaid 사용해보기.md"
+                "file": "CS 지식/소프트웨어공학/클래스 다이어그램.md"
               }
             }
           },
@@ -184,8 +184,11 @@
   },
   "active": "deb3021d490e2fa7",
   "lastOpenFiles": [
-    "Notepad/Today_Study 정리파일.md",
+    "CS 지식/소프트웨어공학/UML.md",
+    "CS 지식/소프트웨어공학/클래스 다이어그램.md",
     "Notepad/mermaid 사용해보기.md",
+    "CS 지식/소프트웨어공학",
+    "Notepad/Today_Study 정리파일.md",
     "Notepad/노션 강의 정리.md",
     "Notepad/코딩 습관들여야 할 것들.md",
     "Notepad/Notepad.md",
@@ -220,8 +223,6 @@
     "프로젝트/InfoManager.md",
     "공부 후기 및 고찰/gui글",
     "공부 후기 및 고찰/ai글",
-    "프로젝트/오늘 뭐 먹지.md",
-    "프로젝트/PinkWard.md",
     "프로젝트/contents",
     "C++/Modern C++/Library/contents",
     "C++/Modern C++/개념",
@@ -229,7 +230,6 @@
     "CS 지식/디자인패턴/생성패턴/contents",
     "CS 지식/디자인패턴/구조패턴/contents",
     "일기장/취미",
-    "프로젝트",
     "무제 파일.canvas"
   ]
 }
