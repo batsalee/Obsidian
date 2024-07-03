@@ -97,7 +97,6 @@
       "C++/C++ STL/Iteraoter",
       "프로젝트/contents",
       "프로젝트/contents",
-      "CS 지식",
       "CS 지식/자료구조",
       "CS 지식/알고리즘",
       "Notepad"
@@ -200,7 +199,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1719933675018,
+  "spacesAutoBackupLast": 1719999964404,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

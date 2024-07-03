@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md",
+                "file": "Notepad/mermaid 사용해보기.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md",
+                "file": "Notepad/mermaid 사용해보기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md",
+                "file": "Notepad/mermaid 사용해보기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md"
+                "file": "Notepad/mermaid 사용해보기.md"
               }
             }
           },
@@ -184,9 +184,10 @@
   },
   "active": "deb3021d490e2fa7",
   "lastOpenFiles": [
+    "Notepad/Today_Study 정리파일.md",
+    "Notepad/mermaid 사용해보기.md",
     "Notepad/노션 강의 정리.md",
     "Notepad/코딩 습관들여야 할 것들.md",
-    "Notepad/Today_Study 정리파일.md",
     "Notepad/Notepad.md",
     "CS 지식/자료구조/비선형 구조/트리.md",
     "CS 지식/프로그래밍 지식/bits stdc++.h.md",
@@ -221,7 +222,6 @@
     "공부 후기 및 고찰/ai글",
     "프로젝트/오늘 뭐 먹지.md",
     "프로젝트/PinkWard.md",
-    "프로젝트/나 혼자 산다.md",
     "프로젝트/contents",
     "C++/Modern C++/Library/contents",
     "C++/Modern C++/개념",

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "mermaid 사용해보기",
+      "path": "Notepad/mermaid 사용해보기.md"
+    },
+    {
       "basename": "Today_Study 정리파일",
       "path": "Notepad/Today_Study 정리파일.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "unordered_map",
       "path": "C++/C++ STL/Container/해시 컨테이너/unordered_map.md"
-    },
-    {
-      "basename": "unordered_set",
-      "path": "C++/C++ STL/Container/해시 컨테이너/unordered_set.md"
     }
   ],
   "omittedPaths": [],
