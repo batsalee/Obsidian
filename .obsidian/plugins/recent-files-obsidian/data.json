@@ -5,24 +5,32 @@
       "path": "CS 지식/알고리즘/MST 알고리즘.md"
     },
     {
-      "basename": "유니온 파인드",
-      "path": "CS 지식/알고리즘/유니온 파인드.md"
+      "basename": "세그먼트 트리, 펜윅 트리",
+      "path": "CS 지식/알고리즘/세그먼트 트리, 펜윅 트리.md"
+    },
+    {
+      "basename": "알고리즘",
+      "path": "CS 지식/알고리즘/알고리즘.md"
     },
     {
       "basename": "신장 트리, 최소 신장 트리",
       "path": "CS 지식/자료구조/심화 자료구조/신장 트리, 최소 신장 트리.md"
     },
     {
+      "basename": "유니온 파인드",
+      "path": "CS 지식/알고리즘/유니온 파인드.md"
+    },
+    {
       "basename": "펜윅 트리(Fenwick Tree)",
       "path": "CS 지식/자료구조/심화 자료구조/펜윅 트리(Fenwick Tree).md"
     },
     {
-      "basename": "최단거리",
-      "path": "CS 지식/알고리즘/최단거리.md"
+      "basename": "세그먼트 트리(Segment Tree)",
+      "path": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md"
     },
     {
-      "basename": "세그먼트 트리, 펜윅 트리",
-      "path": "CS 지식/알고리즘/세그먼트 트리, 펜윅 트리.md"
+      "basename": "최단거리",
+      "path": "CS 지식/알고리즘/최단거리.md"
     },
     {
       "basename": "Heap",
@@ -95,10 +103,6 @@
     {
       "basename": "Hash Table",
       "path": "CS 지식/자료구조/심화 자료구조/Hash Table.md"
-    },
-    {
-      "basename": "세그먼트 트리(Segment Tree)",
-      "path": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md"
     },
     {
       "basename": "Pasted image 20231130113849",
@@ -195,10 +199,6 @@
     {
       "basename": "map",
       "path": "C++/C++ STL/Container/연관 컨테이너/map.md"
-    },
-    {
-      "basename": "이터레이터",
-      "path": "CS 지식/디자인패턴/행동패턴/이터레이터.md"
     }
   ],
   "omittedPaths": [],
