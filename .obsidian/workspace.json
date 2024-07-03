@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/알고리즘/MST 알고리즘.md",
+                "file": "CS 지식/알고리즘/유니온 파인드.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/알고리즘/MST 알고리즘.md",
+                "file": "CS 지식/알고리즘/유니온 파인드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/알고리즘/MST 알고리즘.md",
+                "file": "CS 지식/알고리즘/유니온 파인드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/알고리즘/MST 알고리즘.md"
+                "file": "CS 지식/알고리즘/유니온 파인드.md"
               }
             }
           },
@@ -184,8 +184,10 @@
   },
   "active": "deb3021d490e2fa7",
   "lastOpenFiles": [
-    "CS 지식/자료구조/심화 자료구조/신장 트리, 최소 신장 트리.md",
     "CS 지식/알고리즘/MST 알고리즘.md",
+    "CS 지식/알고리즘/유니온 파인드.md",
+    "CS 지식/자료구조/심화 자료구조/신장 트리, 최소 신장 트리.md",
+    "CS 지식/자료구조/심화 자료구조/펜윅 트리(Fenwick Tree).md",
     "CS 지식/알고리즘/최단거리.md",
     "CS 지식/알고리즘/세그먼트 트리, 펜윅 트리.md",
     "CS 지식/자료구조/심화 자료구조/Heap.md",
@@ -201,7 +203,6 @@
     "Notepad/Notepad.md",
     "CS 지식/자료구조/비선형 구조/트리.md",
     "CS 지식/프로그래밍 지식/bits stdc++.h.md",
-    "CS 지식/자료구조/심화 자료구조/펜윅 트리(Fenwick Tree).md",
     "CS 지식/알고리즘/BFS, DFS, 트리순회.md",
     "CS 지식/알고리즘/완전탐색, 백트래킹.md",
     "CS 지식/알고리즘/DP.md",
@@ -220,7 +221,6 @@
     "공부 후기 및 고찰/알고리즘 공부를 하다 보면 드는 생각.md",
     "수학적 지식/모듈러 연산의 분배법칙.md",
     "수학적 지식/모스부호.md",
-    "공부 후기 및 고찰/AI 시대에 내가 살아남을 수 있을까.md",
     "공부 후기 및 고찰/gui글",
     "공부 후기 및 고찰/ai글",
     "프로젝트/contents",
