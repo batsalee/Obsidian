@@ -188,54 +188,40 @@ ___
 - 크루스칼 알고리즘은 진행 과정중에 보면 그래프의 형태가 아니지만 프림은 진행 과정중에도 그래프의 형태이다.
 
 #### 2. 자세한 설명
+![300x300](https://blog.kakaocdn.net/dn/dJcG7T/btsInNbS1xz/iCKvMnLscwsw7M5je62xO0/img.png)
 
-![](https://blog.kakaocdn.net/dn/dJcG7T/btsInNbS1xz/iCKvMnLscwsw7M5je62xO0/img.png)
+먼저 사전준비를 한다.  
+거리를 보관하는 `Dist[]` 배열을 만들고 INF로 채운다.  
+임의의 시작점을 선택해야 한다. 무난하게 1번을 선택하고 시작한다. `Dist[1] =  0`이 된다.  
+시작점(1번)과 연결된 정점들의 거리를 업데이트한다. 위 사진을 예시로 `Dist[2] = 5`, `Dist[3] = 3`이 된다.
 
-사전준비를 한다.
+![300x300](https://blog.kakaocdn.net/dn/cJHbQN/btsIlDPB2bg/rYtdYtGtOmGLvxodQpMmqK/img.png)
 
-거리를 보관하는 Dist[] 배열에 INF로 채운다.
+###### 1) 선택된 정점들 그룹과 연결된 간선들 중 가장 짧은 길이의 간선을 연결하고 연결된 정점을 선택한다.
+현재 선택된 정점은 1번정점뿐이다.  
+1번정점에 연결된 간선 중 가장 짧은 길이는 1 - 3 간선이므로 해당 간선을 연결하고 3번정점을 선택한다.  
+이제 선택된 정점 그룹은 { 1, 3 }이다.  
 
-임의의 시작점을 선택해야 한다. 무난하게 1번을 선택하고 시작한다. Dist[1] =  0이 된다.
+###### 2) 방금 선택된 정점에서 연결된 정점들의 거리를 업데이트한다.
+3번정점의 시점에서 연결된 정점인 4번과 5번정점까지의 거리를 업데이트한다.  
+![400x300](https://blog.kakaocdn.net/dn/cQjWgj/btsInmyXAY0/FZoTNS2kwCtxpHxO6Nx7Gk/img.png)
 
-시작점(1번)과 연결된 정점들의 거리를 업데이트한다. 위 사진을 예시로 Dist[2] = 5, Dist[3] = 3이 된다.
+###### 3) 반복한다.
+현재 선택된 정점 그룹은 {1, 3}이다.  
+1번과 3번에 연결된 간선들 중 가장 짧은 길이의 간선은 3 - 4간선이므로 연결해준다.  
+이제 4번도 선택된 정점이다.  
 
-![](https://blog.kakaocdn.net/dn/cJHbQN/btsIlDPB2bg/rYtdYtGtOmGLvxodQpMmqK/img.png)
+방금 선택된 4번에서 연결된 정점들의 거리를 업데이트한다.  
+ `Dist[2] = 1`, `Dist[6] = 5`가 된다.
+![400x300](https://blog.kakaocdn.net/dn/bTKcdh/btsInVASlJo/uogbIZeTrlwfFACCpQv5g1/img.png)
 
-1) 선택된 정점들 그룹과 연결된 간선들 중 가장 짧은 길이의 간선을 연결하고 연결된 정점을 선택한다.
-
-현재 선택된 정점은 1번정점뿐이다.
-
-1번정점에 연결된 간선 중 가장 짧은 길이는 1 - 3 간선이므로 해당 간선을 연결하고 3번정점을 선택한다.
-
-이제 선택된 정점은 { 1, 3 }이다.
-
-2) 선택된 정점 그룹에서 연결된 정점들의 거리를 업데이트한다.
-
-3번정점의 시점에서 연결된 정점인 4번과 5번정점까지의 거리를 업데이트한다.
-
-단, 단지 3번정점에서의 거리가 아닌 이미 연결된 1번과 3번을 묶어서 생각해야 한다.
-
-![](https://blog.kakaocdn.net/dn/cQjWgj/btsInmyXAY0/FZoTNS2kwCtxpHxO6Nx7Gk/img.png)
-
-3) 반복한다.
-
-현재 선택된 정점은 1, 3이다.
-
-1번과 3번에 연결된 간선들 중 가장 짧은 길이의 간선은 3 - 4간선이므로 연결해준다.
-
-이제 4번도 선택된 정점이다.
-
-![](https://blog.kakaocdn.net/dn/bTKcdh/btsInVASlJo/uogbIZeTrlwfFACCpQv5g1/img.png)
-
-가장 짧은 간선으로 연결되어 있는 정점을 선택하고 정점들의 거리를 업데이트한다.
-
-즉 4번에서 거리를 업데이트하면 Dist[2] = 1, Dist[6] = 5가 된다.
-
-![](https://blog.kakaocdn.net/dn/bTPAou/btsImHDDUaG/0OqjxClmupdJQlqjvxmEUk/img.png)
-
-다시 3번과정으로 돌아가서 가장 짧은 거리를 선택하면 2 - 4 간선이고 연결하면 2번 정점도 선택된 정점이다.
+현재 선택된 정점 그룹은 {1, 3, 4}이다.
+선택된 정점 그룹에서 짧은 간선을 선택하면 2 - 4 간선이고 연결하면 2번 정점도 선택된 정점이다.
 
 2번정점에서 거리를 업데이트하려고 보니까 이미 기존의 값들과 같아서 업데이트는 발생하지 않는다.
+![400x300](https://blog.kakaocdn.net/dn/bTPAou/btsImHDDUaG/0OqjxClmupdJQlqjvxmEUk/img.png)
+
+
 
 ![](https://blog.kakaocdn.net/dn/cNalwz/btsImjXp62t/4XWGxEK5GDwJX9gVufQ5U1/img.png)
 
