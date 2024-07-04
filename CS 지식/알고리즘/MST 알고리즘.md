@@ -282,7 +282,7 @@ int main()
 for(int i = 1; i <= N - 1; i++) { // N - 1회 반복
     int Min_Cost = INF;
     int Min_Idx = -1;
-    for(int j = 1; j <= N; j++) {
+    for(int j = 1; j <= N; j++) { // j : 노드 인덱스, 가장 가까운 노드 찾기
     	if(selected[j] == true) continue;
         
         if(Min_Cost > dist[j]) { // 가장 비용이 적은 간선 찾기
@@ -294,8 +294,6 @@ for(int i = 1; i <= N - 1; i++) { // N - 1회 반복
     // 만약 Min_idx에 -1이 들어있거나, Min_Cost가 INF라면 모든 정점이 연결된 그래프아 아닌 것
     
     selected[Min_Idx] = true; // 가장 비용이 적은 간선으로 이어진 정점 선택
-    Answer = Answer + Min_Cost; // 누적 거리
-    
     for(int j = 0; j < Cost[Min_Idx].size(); j++) {
     	// 선택된 정점에서의 간선 거리들 업데이트
         int Next = Cost[Min_idx][j].first;
@@ -303,12 +301,13 @@ for(int i = 1; i <= N - 1; i++) { // N - 1회 반복
         if(selected[Next] == true) continue;
         if(dist[Next] > Distance) Dist[Next] = Distance;
     }    
+    
+    Answer = Answer + Min_Cost; // 누적 거리
 }
 ```
 
 #### 통합 코드
-
-```
+```C++
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -355,8 +354,6 @@ int Prim()
     // 만약 Min_idx에 -1이 들어있거나, Min_Cost가 INF라면 모든 정점이 연결된 그래프아 아닌 것
 
         selected[Min_Idx] = true; // 가장 비용이 적은 간선으로 이어진 정점 선택
-        Answer = Answer + Min_Cost; // 누적 거리
-
         for (int j = 0; j < Cost[Min_Idx].size(); j++) {
             // 선택된 정점에서의 간선 거리들 업데이트
             int Next = Cost[Min_Idx][j].first;
@@ -365,6 +362,8 @@ int Prim()
             if (selected[Next] == true) continue;
             if (dist[Next] > Distance) dist[Next] = Distance;
         }
+    
+	    Answer = Answer + Min_Cost; // 누적 거리
     }
     
     return Answer;
@@ -372,12 +371,9 @@ int Prim()
 ```
 
 #### Priority_Queue를 사용하는 방법
-
-첫번째 방법에서 사용한 Dist[]배열을 사용하지 않는다.
-
-최소힙을 사용하는 방법이라서 일반적으로 Priority_Queue를 사용한다.
-
-```
+첫번째 방법에서 사용한 `Dist[]`배열을 사용하지 않는다.  
+최소힙을 사용하는 방법이라서 일반적으로 Priority_Queue를 사용한다.  
+```C++
 #include <bits/stdc++.h>
 #include <iostream>
 using namespace std;
@@ -396,13 +392,13 @@ int Prim_Using_Heap()
 	priority_queue<pair<int, int>, vector<pair<int, int>>, greater<>> PQ;
 	    
 	selected[1] = true;  // 시작점 무난하게 1번으로
-	for(int i = 0; i < Cost[1].size(); i++) { // 연결된 정점들 거리 업데이트
+	for(int i = 0; i < Cost[1].size(); i++) { // 1번에 연결된 정점들 push
 		int Next = Cost[1][i].first;
 		int Distance = Cost[1][i].second;
 
 		PQ.push(make_pair(Distance, Next));
 	}
-	// 연결된 간선 정보를 기록하고 싶다면 adj[]만들고 adj[해당정점] = 1로 기록해야할듯하다.
+	// 연결된 간선 정보를 기록하고 싶다면 parent[]만들고 parent[해당정점] = 1로 기록해야할듯하다.
 
 	while (PQ.size()) {
 		int Distance = PQ.top().first;
@@ -411,8 +407,8 @@ int Prim_Using_Heap()
 
 		if (selected[Cur] == false) {
 			selected[Cur] = true;
-			Answer = Answer + Distance;
 			for (int i  = 0; i  < Cost[Cur].size(); i++) {
+				// 선택된 간선에 연결된 정점들까지의거리 push
 				int nDistance  = Cost[Cur][i].second;
 				int Next  = Cost[Cur][i].first;
 				if (selected[Next] == false) {
@@ -421,6 +417,8 @@ int Prim_Using_Heap()
 				    // adj[해당정점] = 1로 기록해야할듯하다.
 				}
 			}
+			
+			Answer = Answer + Distance;
 		}
 	}
 
@@ -428,20 +426,18 @@ int Prim_Using_Heap()
 }
 ```
 
-다익스트라와 유사한 코드이다.
+다익스트라와 유사한 코드이다.  
+다익스트라는 거리를 비교해서 더 짧으면 갱신해나가는 방식이고, 프림은 선택되지 않았으면 선택해나가는 방식이다.  
+헷갈리지 않아야 겠다.  
 
-다익스트라는 거리를 비교해서 더 짧으면 갱신해나가는 방식이고, 프림은 선택되지 않았으면 선택해나가는 방식이다.
 
-헷갈리지 않아야 겠다.
+
+
+
 
 ※ 참고 문헌
-
 [https://ansohxxn.github.io/algorithm/mst/](https://ansohxxn.github.io/algorithm/mst/)
-
 [https://blog.naver.com/ndb796/221230994142](https://blog.naver.com/ndb796/221230994142)
-
 [https://yabmoons.tistory.com/186](https://yabmoons.tistory.com/186)
-
 [https://yabmoons.tistory.com/362](https://yabmoons.tistory.com/362)
-
 [https://yabmoons.tistory.com/363](https://yabmoons.tistory.com/363)
