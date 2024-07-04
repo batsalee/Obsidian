@@ -379,10 +379,7 @@ int Prim()
 최소힙을 사용하는 방법이라서 일반적으로 Priority_Queue를 사용한다.  
 ```C++
 #include <bits/stdc++.h>
-#include <iostream>
 using namespace std;
-
-#define INF 2147483647
 
 int Prim_Using_Heap()
 {
