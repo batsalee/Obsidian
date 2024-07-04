@@ -95,72 +95,69 @@ Parent[] 배열을 사용해서 부모가 같은지 판단한다.
 #### 예시 코드
 주로 누적 거리를 묻는듯하다.  
 ```C++
-/*
-1) 부모를 찾는 find 함수
-*/
-int findParent(int x) // 노드 x의 부모를 찾는 함수
+#include <bits/stdc++.h>
+using namespace std;
+
+vector<int> parent;
+
+int Find(int x) // 노드 x의 부모를 찾는 함수
 {
-    if (Parent[x] == x) return x;
-    return Parent[x] = Find_Parent(Parent[x]);
+	if (parent[x] == x) return x;
+	return parent[x] = Find(parent[x]);
 }
 
-/****************************************************************************************/
-
-/*
-2) 서로 같은 부모를 갖는지 판단해주는 함수
-*/
-bool isSameParent(int x, int y) // 노드 x와 y가 서로 같은 부모를 갖는지 판단해주는 함수
-{    
-    x = Find_Parent(x);     // 노드 x의 부모 찾기    
-    y = Find_Parent(y);     // 노드 y의 부모 찾기
-    
-    if(x == y) return true; // 두 부모가 같은 부모라면, true를 반환
-    else return false;      // 두 부모가 서로 다른 부모라면, false를 반환
-}
-
-/****************************************************************************************/
-
-/*
-3) 서로 다른 부모일 경우, 두 개의 노드를 연결해주는 union 함수
-*/
 void Union(int x, int y) // 노드 x와 y를 합쳐주는 함수
 {
-    x = Find_Parent(x);    // 먼저 x의 부모를 찾고
-    y = Find_Parent(y);    // y의 부모를 찾아준다.
-    if (x < y) Parent[y] = x; // 더 작은 숫자를 부모로 병합
-    else if (x > y) Parent[x] = y;
-    // 만약 두 노드의 부모가 서로 같다면 아무 동작도 하지 않고
-    // 다르다면 한쪽 노드의 부모를 연결되는 다른 한쪽 노드로 설정해버림.
-    // 이 과정을 통해 노드 x의 부모도 x, 노드 y의 부모도 x로 부모가 같아진다.
+	x = Find(x); // 먼저 x의 부모를 찾고
+	y = Find(y); // y의 부모를 찾아준다.
+	if (x < y) parent[y] = x; // 더 작은 숫자를 부모로 병합
+	else if (x > y) parent[x] = y;
+	// 만약 두 노드의 부모가 서로 같다면 아무 동작도 하지 않고
+	// 다르다면 한쪽 노드의 부모를 연결되는 다른 한쪽 노드로 설정해버림.
+	// 이 과정을 통해 노드 x의 부모도 x, 노드 y의 부모도 x로 부모가 같아진다.
 }
-
-/****************************************************************************************/
 
 int main()
 {
-	// 입력받고
-    vector<...> v;
-    
-    // 비용 기준으로 sort
-    
-    int parent[N]; // 초기 설정은 자기 자신이 부모
-    for(int i = 0; i < N; i++) {
-    	parent[i] = i;
-    }
-    
-    // 누적 거리 계산
-    int sum = 0;
-    for(int i = 0; i < v.size(); i++) {
-        if(!isSameParent(v[i].second.first, v[i].second.second)) { // 부모가 다르다면
-            sum += v[i].distance;
-            union(v[i].second.first, v[i].second.second);
-        }
-        // N - 1개가 채워졌다면 조기종료해도 좋을듯하다.
-    }   
-    
-    cout << sum;
-    
-    return 0;
+	ios::sync_with_stdio(false); cin.tie(NULL);
+
+	int V, E;
+	cin >> V >> E;
+
+	// 입력받고 비용 기준으로 오름차순 정렬
+	vector<tuple<int, int, int>> costs(E); // cost, from, to
+	int A, B, C;
+	for (int i = 0; i < E; i++) {
+		cin >> A >> B >> C;
+		costs[i] = { C, A, B }; // sort 쉽게하려고 위치 바꿔주고
+	}
+	sort(costs.begin(), costs.end());
+
+	// 처음엔 자기 자신을 부모로
+	parent.resize(V + 1);
+	for (int i = 1; i < V + 1; i++) {
+		parent[i] = i;
+	}
+
+	// 누적 거리 계산
+	int answer = 0, count = 0;
+	for (auto t : costs) {
+		int cost = get<0>(t);
+		int from = get<1>(t);
+		int to = get<2>(t);
+
+		if (Find(from) != Find(to)) { // 부모가 다르다면
+			answer += cost; // 비용에 더해주고
+			Union(from, to); // 두 노드를 연결해주고
+			count++; // 간선의 갯수를 count(V - 1개면 끝내려고)
+		}
+
+		if (count == V - 1) break;
+	}
+
+	cout << answer;
+
+	return 0;
 }
 ```
 
@@ -377,7 +374,7 @@ int Prim()
 #### Priority_Queue를 사용하는 방법
 첫번째 방법에서 사용한 `Dist[]`배열을 사용하지 않는다.  
 최소힙을 사용하는 방법이라서 일반적으로 Priority_Queue를 사용한다.  
-**
+
 백준 1992번 문제의 풀이인데 전형적인 프림 코드라 똑같게 남긴다.  
 [https://www.acmicpc.net/problem/1922](https://www.acmicpc.net/problem/1922)  
 ```C++
