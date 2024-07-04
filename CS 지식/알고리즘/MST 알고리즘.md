@@ -438,6 +438,9 @@ int main()
 
 #### 예시문제
 전형적인 프림 알고리즘 : [https://smallpants.tistory.com/290](https://smallpants.tistory.com/290)
+입력이 인접리스트가 아니라 인접배열이라면? : [https://smallpants.tistory.com/291](https://smallpants.tistory.com/291)
+
+
 
 
 
