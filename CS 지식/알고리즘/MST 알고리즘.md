@@ -377,53 +377,61 @@ int Prim()
 #### Priority_Queue를 사용하는 방법
 첫번째 방법에서 사용한 `Dist[]`배열을 사용하지 않는다.  
 최소힙을 사용하는 방법이라서 일반적으로 Priority_Queue를 사용한다.  
+
+백준 1992번 문제의 풀이인데 전형적인 프림 코드라 똑같게 남긴다.  
+[https://www.acmicpc.net/problem/1922](https://www.acmicpc.net/problem/1922)  
 ```C++
 #include <bits/stdc++.h>
 using namespace std;
 
-int Prim_Using_Heap()
+int main()
 {
-	int N;
-	cin >> N;
+    ios::sync_with_stdio(false); cin.tie(NULL);
 
-	int Answer = 0;
-	vector<vector<pair<int, int>>> Cost;
-	vector<bool> selected(N + 1, false); // 정점을 1번부터 써서 N + 1로
+	int N, M;
+	cin >> N >> M;
 
-	priority_queue<pair<int, int>, vector<pair<int, int>>, greater<>> PQ;
-	    
-	selected[1] = true;  // 시작점 무난하게 1번으로
-	for(int i = 0; i < Cost[1].size(); i++) { // 1번에 연결된 정점들 push
-		int Next = Cost[1][i].first;
-		int Distance = Cost[1][i].second;
-
-		PQ.push(make_pair(Distance, Next));
+	// line[1]에는 1과 인접한 간선들의 정보가 들어감
+	// line[1][0] 은 1에 인접된 첫번째 간선의 정보이며 to, cost 순서인 pair객체
+	vector<vector<pair<int, int>>> lines(N + 1); // 정점을 1번부터 쓰니까 N + 1
+	int from, to, cost;
+	for (int i = 0; i < M; i++) {
+		cin >> from >> to >> cost;
+		lines[from].push_back({ to, cost });
+		lines[to].push_back({ from, cost }); // 반대로 가도 비용 같으니 넣어주기
 	}
-	// 연결된 간선 정보를 기록하고 싶다면 parent[]만들고 parent[해당정점] = 1로 기록해야할듯하다.
 
-	while (PQ.size()) {
-		int Distance = PQ.top().first;
-		int Cur = PQ.top().second;
-		PQ.pop();
+	priority_queue<pair<int, int>, vector<pair<int, int>>, greater<>> pq;
+	vector<bool> selected(N + 1, false);
 
-		if (selected[Cur] == false) {
-			selected[Cur] = true;
-			for (int i  = 0; i  < Cost[Cur].size(); i++) {
-				// 선택된 간선에 연결된 정점들까지의거리 push
-				int nDistance  = Cost[Cur][i].second;
-				int Next  = Cost[Cur][i].first;
-				if (selected[Next] == false) {
-				    PQ.push(make_pair(nDistance, Next));
-				    // 연결된 간선 정보를 기록하고 싶다면 adj[]만들고 
-				    // adj[해당정점] = 1로 기록해야할듯하다.
-				}
-			}
-			
-			Answer = Answer + Distance;
+	selected[1] = true; // 시작점 무난하게 1번으로
+	for (auto p : lines[1]) { // 1번에 연결된 정점들 정보 업데이트
+		int adj_vertex = p.first;
+		int distance_to_adj = p.second;
+		pq.push({ distance_to_adj, adj_vertex }); // dist로 정렬하기 위해 순서 반대로
+	}
+
+	int answer = 0;
+	while (pq.size()) {
+		int distance_to_this = pq.top().first;
+		int this_vertex = pq.top().second;
+		pq.pop();
+		
+		if (selected[this_vertex]) continue;
+
+		selected[this_vertex] = true; // 가장 가까운 곳 선택하고
+		for (auto p : lines[this_vertex]) { // 이 정점에서의 거리 업데이트
+			int adj_vertex = p.first;
+			int distance_to_adj = p.second;
+			if(!selected[adj_vertex]) pq.push({ distance_to_adj, adj_vertex });
 		}
+
+		answer += distance_to_this;		
 	}
 
-	return Answer;
+	cout << answer;
+
+	return 0;
 }
 ```
 
@@ -431,7 +439,8 @@ int Prim_Using_Heap()
 다익스트라는 거리를 비교해서 더 짧으면 갱신해나가는 방식이고, 프림은 선택되지 않았으면 선택해나가는 방식이다.  
 헷갈리지 않아야 겠다.  
 
-
+#### 예시문제
+전형적인 프림 알고리즘 : [https://smallpants.tistory.com/290](https://smallpants.tistory.com/290)
 
 
 
