@@ -164,6 +164,9 @@ int main()
 }
 ```
 
+#### 예시 문제
+[https://smallpants.tistory.com/288](https://smallpants.tistory.com/288)
+
 ___
 ## 프림 알고리즘(Prim Algorithm)
 
