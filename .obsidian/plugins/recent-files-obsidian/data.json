@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "MST 알고리즘",
+      "path": "CS 지식/알고리즘/MST 알고리즘.md"
+    },
+    {
+      "basename": "유니온 파인드",
+      "path": "CS 지식/알고리즘/유니온 파인드.md"
+    },
+    {
       "basename": "클래스 다이어그램",
       "path": "CS 지식/소프트웨어공학/클래스 다이어그램.md"
     },
     {
       "basename": "Today_Study 정리파일",
       "path": "Notepad/Today_Study 정리파일.md"
-    },
-    {
-      "basename": "MST 알고리즘",
-      "path": "CS 지식/알고리즘/MST 알고리즘.md"
     },
     {
       "basename": "세그먼트 트리, 펜윅 트리",
@@ -23,10 +27,6 @@
     {
       "basename": "신장 트리, 최소 신장 트리",
       "path": "CS 지식/자료구조/심화 자료구조/신장 트리, 최소 신장 트리.md"
-    },
-    {
-      "basename": "유니온 파인드",
-      "path": "CS 지식/알고리즘/유니온 파인드.md"
     },
     {
       "basename": "펜윅 트리(Fenwick Tree)",
