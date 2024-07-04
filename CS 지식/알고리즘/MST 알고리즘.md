@@ -165,7 +165,8 @@ int main()
 ```
 
 #### 예시 문제
-[https://smallpants.tistory.com/288](https://smallpants.tistory.com/288)
+전형적인 MST 크루스칼 문제 : [https://smallpants.tistory.com/288](https://smallpants.tistory.com/288)  
+마을을 둘로 나눈다면? : [https://smallpants.tistory.com/289](https://smallpants.tistory.com/289)  
 
 ___
 ## 프림 알고리즘(Prim Algorithm)
