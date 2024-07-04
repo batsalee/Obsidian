@@ -377,7 +377,7 @@ int Prim()
 #### Priority_Queue를 사용하는 방법
 첫번째 방법에서 사용한 `Dist[]`배열을 사용하지 않는다.  
 최소힙을 사용하는 방법이라서 일반적으로 Priority_Queue를 사용한다.  
-
+**
 백준 1992번 문제의 풀이인데 전형적인 프림 코드라 똑같게 남긴다.  
 [https://www.acmicpc.net/problem/1922](https://www.acmicpc.net/problem/1922)  
 ```C++
