@@ -1171,6 +1171,7 @@ pair로 value, index 순으로 보관하고 min이랑 연계하면
 
 간선 적으면 크루스칼
 간선 많으면 프림
+근데 그냥 프림보다 크루스칼이 더 빠르다. 크루스칼 쓰자
 
 클래스 다이어그램 화살표 방향들 헷갈리지 않아야겠다.
 다른 클래스를 참조할땐 가리키지만
@@ -1179,3 +1180,25 @@ pair로 value, index 순으로 보관하고 min이랑 연계하면
 
 set도 레드블랙트리로 구현됐다는데?
 어쩐지 이상하더라 이거 좀 확인해봐야할듯?
+
+좌표만 주어지고 거리는 안주어질때 for문으로 0 ~ N * 0 ~ N 할 필요 없다
+기존엔 
+```
+	for (int i = 0; i < N; i++) {
+		for (int j = 0; j < N; j++) {
+			if (i == j) continue;
+			double dist = getDistance(coordinate[i], coordinate[j]);
+		}
+	}
+```
+이런 식으로 했었는데 이러면 1 - 2도 구해지고, 2 - 1도 구해지는 등 쓸데없이 중복이 생긴다.
+```
+	for (int i = 0; i < N - 1; i++) {
+		for (int j = i + 1; j < N; j++) {
+			double dist = getDistance(coordinate[i], coordinate[j]);
+		}
+	}
+```
+조건을 이렇게 거는게 이득이다.
+당연한거긴 한데 알고리즘 문제풀다보면 다른데 신경쓰느라 정작 이런건 또 안보일 때가 있는것같다.
+
