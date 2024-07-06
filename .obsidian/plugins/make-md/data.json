@@ -99,7 +99,6 @@
       "CS 지식/소프트웨어공학",
       "CS 지식/소프트웨어공학",
       "CS 지식/자료구조/심화 자료구조",
-      "CS 지식/알고리즘",
       "Notepad"
     ],
     "as": [
@@ -200,7 +199,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1720030331295,
+  "spacesAutoBackupLast": 1720262959745,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
