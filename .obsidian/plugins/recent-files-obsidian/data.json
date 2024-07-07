@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "데스크탑 프로그램 GUI 프레임워크 정리",
-      "path": "CS 지식/프로그래밍 지식/데스크탑 프로그램 GUI 프레임워크 정리.md"
-    },
-    {
       "basename": "TaskManager",
       "path": "프로젝트/TaskManager.md"
+    },
+    {
+      "basename": "TaskManager 리팩토링",
+      "path": "프로젝트/TaskManager 리팩토링.md"
+    },
+    {
+      "basename": "데스크탑 프로그램 GUI 프레임워크 정리",
+      "path": "CS 지식/프로그래밍 지식/데스크탑 프로그램 GUI 프레임워크 정리.md"
     },
     {
       "basename": "InfoManager",
@@ -195,10 +199,6 @@
     {
       "basename": "Algorithm",
       "path": "C++/C++ STL/Algorithm/Algorithm.md"
-    },
-    {
-      "basename": "Iterator",
-      "path": "C++/C++ STL/Iteraoter/Iterator.md"
     }
   ],
   "omittedPaths": [],
