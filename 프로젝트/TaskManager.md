@@ -77,6 +77,9 @@ Release -> Schedule -> fixed_schedule 경로로 들어가서 everyday.txt 파일
 
 ## 4. 프로그램 구성
 
+version 1.0으로 개발하고 릴리즈 한 시점의 Class Diagram입니다.  
+현재는 디자인패턴 공부 후 클래스 구현에 대해 많은 깨달음을 얻고 version 2.0을 위해 리팩토링 중입니다.  
+
 #### 1) C++ Class Diagram
 ```mermaid
 ---
@@ -142,6 +145,62 @@ classDiagram
     FolderOpener<--Scheduler
 ```
 
+#### 2) QML 모듈 다이어그램
+```mermaid
+---
+title : QML 모듈 다이어그램
+---
+
+classDiagram
+
+    class main{
+
+    }
+
+    class Resizer{
+
+    }
+
+    class ButtonList{
+
+    }
+
+    class TitleBar{
+
+    }
+
+    class TaskList{
+
+    }
+
+    class InformationWindow{
+
+    }
+
+    class TextInputWindow{
+
+    }
+
+  
+
+    main-->Resizer
+
+    main-->ButtonList
+
+    main-->TitleBar
+
+    main-->TaskList    
+
+    ButtonList-->TextInputWindow
+
+    ButtonList-->InformationWindow
+
+    note for Resizer "FlameLess 윈도우 사용을 위해\nFrame의 기능 직접구현"
+
+    note for TitleBar "FrameLess 윈도우 사용을 위해\n위치조정 기능 및 날짜/시간정보 출력"
+
+    note for TaskList "Task들이 담기는 ListView"
+```
 
 ---
 
