@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "TaskManager",
+      "path": "프로젝트/TaskManager.md"
+    },
+    {
+      "basename": "데스크탑 GUI 툴",
+      "path": "CS 지식/프로그래밍 지식/데스크탑 GUI 툴.md"
+    },
+    {
       "basename": "InfoManager",
       "path": "프로젝트/InfoManager.md"
+    },
+    {
+      "basename": "PushPush",
+      "path": "프로젝트/PushPush.md"
+    },
+    {
+      "basename": "나 혼자 산다",
+      "path": "프로젝트/나 혼자 산다.md"
+    },
+    {
+      "basename": "오늘 뭐 먹지",
+      "path": "프로젝트/오늘 뭐 먹지.md"
+    },
+    {
+      "basename": "PinkWard",
+      "path": "프로젝트/PinkWard.md"
     },
     {
       "basename": "시퀀스 다이어그램",
@@ -169,36 +193,12 @@
       "path": "CS 지식/알고리즘/복잡도개념.md"
     },
     {
-      "basename": "오늘 뭐 먹지",
-      "path": "프로젝트/오늘 뭐 먹지.md"
-    },
-    {
-      "basename": "PinkWard",
-      "path": "프로젝트/PinkWard.md"
-    },
-    {
-      "basename": "나 혼자 산다",
-      "path": "프로젝트/나 혼자 산다.md"
-    },
-    {
-      "basename": "PushPush",
-      "path": "프로젝트/PushPush.md"
-    },
-    {
       "basename": "Algorithm",
       "path": "C++/C++ STL/Algorithm/Algorithm.md"
     },
     {
       "basename": "Iterator",
       "path": "C++/C++ STL/Iteraoter/Iterator.md"
-    },
-    {
-      "basename": "vector",
-      "path": "C++/C++ STL/Container/시퀀스 컨테이너/vector.md"
-    },
-    {
-      "basename": "set",
-      "path": "C++/C++ STL/Container/연관 컨테이너/set.md"
     }
   ],
   "omittedPaths": [],

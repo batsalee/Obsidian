@@ -98,8 +98,9 @@
       "CS 지식/소프트웨어공학",
       "CS 지식/소프트웨어공학",
       "CS 지식/자료구조/심화 자료구조",
-      "Notepad",
-      "프로젝트"
+      "프로젝트",
+      "CS 지식",
+      "CS 지식/프로그래밍 지식"
     ],
     "as": [
       "Hello Obsidian",
@@ -199,7 +200,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1720262959745,
+  "spacesAutoBackupLast": 1720373287596,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
