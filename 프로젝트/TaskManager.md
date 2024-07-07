@@ -77,6 +77,70 @@ Release -> Schedule -> fixed_schedule 경로로 들어가서 everyday.txt 파일
 
 ## 4. 프로그램 구성
 
+#### 1) C++ Class Diagram
+```mermaid
+---
+title: TaskManager Class Diagram
+---
+
+classDiagram
+
+    class Date{
+
+        -year : QString
+
+        -month : QString
+
+        -day : QString
+
+        -day_of_week : QString
+
+        -getTodaysDate() void
+
+    }      
+
+    class FolderOpener{
+
+        +openFolder(path : const QString&) void
+
+    }
+
+    class Scheduler{
+
+        -year : QString
+
+        -month : QString
+
+        -day : QString
+
+        -day_of_week : QString
+
+        -path : QString
+
+        -createTaskfile() void
+
+        -appendDayOfWeekTaskfile() void
+
+        -appendYesterDayTaskfile() void
+
+        -readTaskfile() void
+
+        -updateTaskfile() void
+
+        +insertTask(added_task : QString) Q_INVOKABLE void
+
+        +updateTask(y : qint32, x : qint32, updated_task : QString) Q_INVOKABLE void
+
+        +deleteTask(y : qint32, x : qint32) Q_INVOKABLE void
+
+        +getTaskList() Q_INVOKABLE QList~QList~QString~~
+
+    }
+
+    Date<--Scheduler
+
+    FolderOpener<--Scheduler
+```
 
 
 ---
