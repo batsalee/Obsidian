@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "InfoManager",
+      "path": "프로젝트/InfoManager.md"
+    },
+    {
       "basename": "시퀀스 다이어그램",
       "path": "CS 지식/소프트웨어공학/시퀀스 다이어그램.md"
     },
@@ -163,10 +167,6 @@
     {
       "basename": "복잡도개념",
       "path": "CS 지식/알고리즘/복잡도개념.md"
-    },
-    {
-      "basename": "InfoManager",
-      "path": "프로젝트/InfoManager.md"
     },
     {
       "basename": "오늘 뭐 먹지",
