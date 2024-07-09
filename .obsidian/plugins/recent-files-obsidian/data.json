@@ -5,6 +5,10 @@
       "path": "CS 지식/알고리즘/위상정렬.md"
     },
     {
+      "basename": "MST 알고리즘",
+      "path": "CS 지식/알고리즘/MST 알고리즘.md"
+    },
+    {
       "basename": "알고리즘",
       "path": "CS 지식/알고리즘/알고리즘.md"
     },
@@ -63,10 +67,6 @@
     {
       "basename": "Notepad",
       "path": "Notepad/Notepad.md"
-    },
-    {
-      "basename": "MST 알고리즘",
-      "path": "CS 지식/알고리즘/MST 알고리즘.md"
     },
     {
       "basename": "유니온 파인드",
