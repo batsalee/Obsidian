@@ -88,7 +88,6 @@
       "일기장/취미",
       "C++/Modern C++/개념",
       "C++/Modern C++",
-      "C++/C++ STL",
       "C++/C++ STL/Algorithm",
       "C++/C++ STL/Container",
       "C++/C++ STL/Container/시퀀스 컨테이너",
@@ -98,10 +97,7 @@
       "CS 지식/소프트웨어공학",
       "CS 지식/소프트웨어공학",
       "CS 지식/자료구조/심화 자료구조",
-      "CS 지식",
-      "CS 지식/알고리즘",
-      "공부 후기 및 고찰",
-      "프로젝트"
+      "C++"
     ],
     "as": [
       "Hello Obsidian",
@@ -201,7 +197,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1720572755421,
+  "spacesAutoBackupLast": 1720737010363,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

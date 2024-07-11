@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "string_view",
+      "path": "C++/Modern C++/Library/string_view.md"
+    },
+    {
+      "basename": "Raw String Literal",
+      "path": "C++/Modern C++/Keyword/Raw String Literal.md"
+    },
+    {
       "basename": "TaskManager 리팩토링",
       "path": "프로젝트/TaskManager 리팩토링.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "모듈러 연산의 분배법칙",
       "path": "수학적 지식/모듈러 연산의 분배법칙.md"
-    },
-    {
-      "basename": "모스부호",
-      "path": "수학적 지식/모스부호.md"
-    },
-    {
-      "basename": "Pasted image 20231130161911",
-      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130161911.png"
     }
   ],
   "omittedPaths": [],
