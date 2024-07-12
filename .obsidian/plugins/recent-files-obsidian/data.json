@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "객체지향의 원칙",
+      "path": "CS 지식/소프트웨어공학/객체지향의 원칙.md"
+    },
+    {
+      "basename": "스트레티지",
+      "path": "CS 지식/디자인패턴/행동패턴/스트레티지.md"
+    },
+    {
       "basename": "string_view",
       "path": "C++/Modern C++/Library/string_view.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Pasted image 20231130152029",
       "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130152029.png"
-    },
-    {
-      "basename": "알고리즘 공부를 하다 보면 드는 생각",
-      "path": "공부 후기 및 고찰/알고리즘 공부를 하다 보면 드는 생각.md"
-    },
-    {
-      "basename": "모듈러 연산의 분배법칙",
-      "path": "수학적 지식/모듈러 연산의 분배법칙.md"
     }
   ],
   "omittedPaths": [],
