@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "소프트웨어 공학 용어",
+      "path": "CS 지식/소프트웨어공학/소프트웨어 공학 용어.md"
+    },
+    {
       "basename": "객체지향의 원칙",
       "path": "CS 지식/소프트웨어공학/객체지향의 원칙.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20231130153325",
       "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153325.png"
-    },
-    {
-      "basename": "Pasted image 20231130152029",
-      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130152029.png"
     }
   ],
   "omittedPaths": [],
