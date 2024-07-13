@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Algorithm",
+      "path": "C++/C++ STL/Algorithm/Algorithm.md"
+    },
+    {
       "basename": "Today_Study 정리파일",
       "path": "Notepad/Today_Study 정리파일.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20231130153143",
       "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153143.png"
-    },
-    {
-      "basename": "Pasted image 20231130153325",
-      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153325.png"
     }
   ],
   "omittedPaths": [],
