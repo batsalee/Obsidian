@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/소프트웨어공학/UML/상태 다이어그램.md",
+                "file": "CS 지식/소프트웨어공학/UML/활동 다이어그램.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/소프트웨어공학/UML/상태 다이어그램.md",
+                "file": "CS 지식/소프트웨어공학/UML/활동 다이어그램.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/소프트웨어공학/UML/상태 다이어그램.md",
+                "file": "CS 지식/소프트웨어공학/UML/활동 다이어그램.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/소프트웨어공학/UML/상태 다이어그램.md"
+                "file": "CS 지식/소프트웨어공학/UML/활동 다이어그램.md"
               }
             }
           },
@@ -182,11 +182,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "865fcff0f57ed8b2",
+  "active": "deb3021d490e2fa7",
   "lastOpenFiles": [
+    "CS 지식/소프트웨어공학/UML/상태 다이어그램.md",
+    "CS 지식/소프트웨어공학/UML/활동 다이어그램.md",
     "CS 지식/소프트웨어공학/UML",
     "CS 지식/소프트웨어공학/UML/유스케이스 다이어그램.md",
-    "CS 지식/소프트웨어공학/UML/상태 다이어그램.md",
     "CS 지식/소프트웨어공학/UML/시퀀스 다이어그램.md",
     "CS 지식/소프트웨어공학/UML/클래스 다이어그램.md",
     "C++/C++ STL/Algorithm/Algorithm.md",
@@ -229,7 +230,6 @@
     "C++/Modern C++/Keyword",
     "CS 지식/디자인패턴/생성패턴/contents",
     "CS 지식/디자인패턴/구조패턴/contents",
-    "일기장/취미",
     "무제 파일.canvas"
   ]
 }
