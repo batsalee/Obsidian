@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "상태 다이어그램",
+      "path": "CS 지식/소프트웨어공학/상태 다이어그램.md"
+    },
+    {
       "basename": "유스케이스 다이어그램",
       "path": "CS 지식/소프트웨어공학/유스케이스 다이어그램.md"
+    },
+    {
+      "basename": "시퀀스 다이어그램",
+      "path": "CS 지식/소프트웨어공학/시퀀스 다이어그램.md"
+    },
+    {
+      "basename": "클래스 다이어그램",
+      "path": "CS 지식/소프트웨어공학/클래스 다이어그램.md"
     },
     {
       "basename": "Algorithm",
@@ -85,10 +97,6 @@
       "path": "프로젝트/PinkWard.md"
     },
     {
-      "basename": "시퀀스 다이어그램",
-      "path": "CS 지식/소프트웨어공학/시퀀스 다이어그램.md"
-    },
-    {
       "basename": "코딩 습관들여야 할 것들",
       "path": "Notepad/코딩 습관들여야 할 것들.md"
     },
@@ -107,10 +115,6 @@
     {
       "basename": "신장 트리, 최소 신장 트리",
       "path": "CS 지식/자료구조/심화 자료구조/신장 트리, 최소 신장 트리.md"
-    },
-    {
-      "basename": "클래스 다이어그램",
-      "path": "CS 지식/소프트웨어공학/클래스 다이어그램.md"
     },
     {
       "basename": "세그먼트 트리, 펜윅 트리",
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20231130153604",
       "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153604.png"
-    },
-    {
-      "basename": "Pasted image 20231130153529",
-      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153529.png"
     }
   ],
   "omittedPaths": [],
