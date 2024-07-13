@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "유스케이스 다이어그램",
+      "path": "CS 지식/소프트웨어공학/유스케이스 다이어그램.md"
+    },
+    {
       "basename": "Algorithm",
       "path": "C++/C++ STL/Algorithm/Algorithm.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20231130153529",
       "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153529.png"
-    },
-    {
-      "basename": "Pasted image 20231130153143",
-      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153143.png"
     }
   ],
   "omittedPaths": [],
