@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "TaskManager 리팩토링",
+      "path": "프로젝트/TaskManager 리팩토링.md"
+    },
+    {
+      "basename": "TaskManager",
+      "path": "프로젝트/TaskManager.md"
+    },
+    {
       "basename": "활동 다이어그램",
       "path": "CS 지식/소프트웨어공학/UML/활동 다이어그램.md"
     },
@@ -49,10 +57,6 @@
       "path": "C++/Modern C++/Keyword/Raw String Literal.md"
     },
     {
-      "basename": "TaskManager 리팩토링",
-      "path": "프로젝트/TaskManager 리팩토링.md"
-    },
-    {
       "basename": "백준 플래티넘 티어 달성 후기",
       "path": "공부 후기 및 고찰/백준 플래티넘 티어 달성 후기.md"
     },
@@ -71,10 +75,6 @@
     {
       "basename": "복잡도개념",
       "path": "CS 지식/알고리즘/복잡도개념.md"
-    },
-    {
-      "basename": "TaskManager",
-      "path": "프로젝트/TaskManager.md"
     },
     {
       "basename": "데스크탑 프로그램 GUI 프레임워크 정리",
