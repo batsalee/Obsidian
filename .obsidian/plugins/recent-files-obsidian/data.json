@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "constexpr",
+      "path": "C++/Modern C++/constexpr.md"
+    },
+    {
       "basename": "Uniform Initialization, initializer_list",
       "path": "C++/Modern C++/Uniform Initialization, initializer_list.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "BFS, DFS, 트리순회",
       "path": "CS 지식/알고리즘/BFS, DFS, 트리순회.md"
-    },
-    {
-      "basename": "완전탐색, 백트래킹",
-      "path": "CS 지식/알고리즘/완전탐색, 백트래킹.md"
     }
   ],
   "omittedPaths": [],

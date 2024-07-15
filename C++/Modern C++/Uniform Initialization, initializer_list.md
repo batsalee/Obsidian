@@ -183,29 +183,19 @@ int main() {
 
 ## 4. initializer_list와 auto
 
-|                           |
-| ------------------------- |
-| ## initializer_list와 auto |
-
-auto 자료형에 {}를 이용해서 객체를 생성한다면 initializer_list가 생성된다.
-
-```
+auto 자료형에 {}를 이용해서 객체를 생성한다면 initializer_list가 생성된다.  
+```C++
 auto list = {1, 2, 3};
 // 위 식은 아래와 같다.
 initializer_list<int> list{1, 2, 3};
 ```
 
-아래의 경우는 C++ 버전에 따라 다르게 처리된다.
-
-auto로 사용할때의 얘기임을 명심해야한다.
-
-= 를 붙여서 생성하는 경우와 안붙이고 생성하는 경우의 판정이 다르다.
-
-= 를 붙이면 auto는 항상 initializer_list로 추론된다.
-
-반면 안붙이면 값이 한개면 해당 값의 타입으로 추론된다. 값이 여러개면 오류다.
-
-```
+아래의 경우는 C++ 버전에 따라 다르게 처리된다.  
+auto로 사용할때의 얘기임을 명심해야한다.  
+\= 를 붙여서 생성하는 경우와 안붙이고 생성하는 경우의 판정이 다르다.  
+\= 를 붙이면 auto는 항상 initializer_list로 추론된다.  
+반면 안붙이면 값이 한개면 해당 값의 타입으로 추론된다. 값이 여러개면 오류다.  
+```C++
 auto a = {1};     // 버전 상관없이 initializer_list<int>
 auto c = {1, 2};  // 버전 상관없이 initializer_list<int>
 
@@ -213,21 +203,21 @@ auto b{1};        // C++ 11이라면 initializer_list<int>, C++ 17이라면 그�
 auto d{1, 2};     // C++ 11이라면 initializer_list<int>, C++ 17이라면 그냥 오류발생
 ```
 
-아래의 경우는 initializer_list<const char*>가 된다.
-
-```
+아래의 경우는 initializer_list<const char*>가 된다.  
+```C++
 auto list = {"a", "b", "c"};
 ```
-
-만약 const char*가 아닌 string으로 만들고 싶다면 리터럴연산자를 붙여줘야 한다.
-
-마치 숫자 0 쓸때 0LL쓰면 long long으로 취급되는것과 같은 기능인듯하다.
-
-```
+만약 const char\*가 아닌 string으로 만들고 싶다면 리터럴연산자를 붙여줘야 한다.  
+마치 숫자 0 쓸때 0LL쓰면 long long으로 취급되는것과 같은 기능인듯하다.  
+```C++
 using namespace std::literals;  // 문자열 리터럴 연산자를 사용하기 위해 추가해야함
 auto list = {"a"s, "b"s, "c"s};
 ```
 
-※ 참고 문헌
 
+
+
+
+
+※ 참고 문헌  
 [https://modoocode.com/286](https://modoocode.com/286)
