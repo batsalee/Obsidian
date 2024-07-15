@@ -971,26 +971,17 @@ wait()대신에 wait_for을 사용하면 값이 준비될때까지 기다리는�
     }
   }
 ```
-
-wait_for을 사용하고 난 결과를 future_status에 보관한다
-
-여기엔 총 3가지 상태가 있다.
-
+wait_for을 사용하고 난 결과를 future_status에 보관한다  
+여기엔 총 3가지 상태가 있다.  
 - future_status::ready : future에 값이 설정 됐을 때
-
 - future_status::timeout : 설정한 시간이 지났지만 값이 설정되지 않아서 리턴됐을 때
-
 - future_status::deferred : 결과값을 계산하는 함수가 채 실행되지 않았을 때
 
 #### shared_future
-
-future이 get()은 이동되기때문에 한번만 써야한다.
-
-하지만 여러 쓰레드에서 future의 값을 get해야 한다면 share_future를 사용한다.
-
-shared_future를 사용하면 모든 복사본들이 하나의 객체를 가리키는 방식이므로 포인터나 레퍼런스를 쓸 필요가 없다.
-
-```
+future에서 get()은 이동되기때문에 한번만 써야한다.  
+하지만 여러 쓰레드에서 future의 값을 get해야 한다면 share_future를 사용한다.  
+shared_future를 사용하면 모든 복사본들이 하나의 객체를 가리키는 방식이므로 포인터나 레퍼런스를 쓸 필요가 없다.  
+```C++
 #include <chrono>
 #include <future>
 #include <iostream>
@@ -1026,27 +1017,21 @@ int main() {
 }
 ```
 
-|   |
-|---|
-|## async|
 
-promise나 packaged_task는 비동기적으로 실행하기 위해 쓰레드를 명시적으로 생성해서 실행해야 했다.
+## 12. async
 
-하지만 async를 어떤 함수에 전달하면 알아서 쓰레드를 만들어서 해당 함수를 비동기적으로 실행하고 그 결과를 future에 전달한다.
-
+promise나 packaged_task는 비동기적으로 실행하기 위해 쓰레드를 명시적으로 생성해서 실행해야 했다.  
+하지만 async를 어떤 함수에 전달하면 알아서 쓰레드를 만들어서 해당 함수를 비동기적으로 실행하고 그 결과를 future에 전달한다.  
+```C++
+ std::future<int> lower_half_future = 
+	 std::async(std::launch::async, sum, cref(v), 0, v.size() / 2);
 ```
- std::future<int> lower_half_future = std::async(std::launch::async, sum, cref(v), 0, v.size() / 2);
-```
+위처럼 async함수에 sum함수를 전달하면 알아서 쓰레드를 만들어서 sum함수를 수행하고 그 결과를 future에 보관한다.  
+첫번째 인자인 std::launch::async는 즉시 쓰레드를 생성해서 인자로 전달된 함수를 실행하라는 의미이다.  
+반면 std::launch::deferred로 사용하면 future의 get함수가 호출 되었을때 실행하는 방식으로 사실상 동기적으로 실행하게 된다. 즉 비동기적으로 사용하고 싶다면 async를, 동기적으로 사용해도 상관없다면 deferred를 쓴다.  
 
-위처럼 async함수에 sum함수를 전달하면 알아서 쓰레드를 만들어서 sum함수를 수행하고 그 결과를 future에 보관한다.
-
-첫번째 인자인 std::launch::async는 즉시 쓰레드를 생성해서 인자로 전달된 함수를 실행하라는 의미이다.
-
-반면 std::launch::deferred로 사용하면 future의 get함수가 호출 되었을때 실행하는 방식으로 사실상 동기적으로 실행하게 된다. 즉 비동기적으로 사용하고 싶다면 async를, 동기적으로 사용해도 상관없다면 deferred를 쓴다.
-
-전체 코드
-
-```
+#### 전체 코드
+```C++
 #include <future>
 #include <iostream>
 #include <thread>
@@ -1085,30 +1070,22 @@ int main() {
   std::cout << "1 부터 1000 까지의 합 : " << parallel_sum(v) << std::endl;
 }
 ```
+parallel_sum 부분이 핵심인데 async로 인해 생긴 쓰레드에서 1 ~ 500까지 비동기적으로 sum한다.  
+비동기적 쓰레드가 1 ~ 500을 sum할동안 현재 쓰레드는 upper_half에 501 ~ 1000까지 sum하는 작업을 한다.  
+그 후 두 결과를 합친다.  
+이를 통해 시간을 절반으로 줄인다.  
 
-parallel_sum 부분이 핵심인데 async로 인해 생긴 쓰레드에서 1 ~ 500까지 비동기적으로 sum한다.
 
-비동기적 쓰레드가 1 ~ 500을 sum할동안 현재 쓰레드는 upper_half에 501 ~ 1000까지 sum하는 작업을 한다.
+## 13. 쓰레드풀
 
-그 후 두 결과를 합친다.
+쓰레드풀이란 미리 쓰레드들이 여렇 만들어져서 대기하고 있다가, 할일이 들어오면 대기하던 쓰레드 중 하나가 이를 받아서 실행하는 개념이다.  
 
-이를 통해 시간을 절반으로 줄인다.
-
-|   |
-|---|
-|## 쓰레드풀|
-
-쓰레드풀이란 미리 쓰레드들이 여렇 만들어져서 대기하고 있다가, 할일이 들어오면 대기하던 쓰레드 중 하나가 이를 받아서 실행하는 개념이다.
-
-정말 넘모 어렵다.
-
-잘 작성된 코드만 일단 첨부해두고 나중에 실력이 쌓이고 더 이해가 깊어지면 아래 글 읽어보기로 하자
-
+정말 넘모 어렵다.  
+잘 작성된 코드만 일단 첨부해두고 나중에 실력이 쌓이고 더 이해가 깊어지면 아래 글 읽어보기로 하자  
 [https://modoocode.com/285](https://modoocode.com/285)
 
-위 글에서 완성된 ThreadPool 구현 예시
-
-```
+위 글에서 완성된 ThreadPool 구현 예시  
+```C++
 #include <chrono>
 #include <condition_variable>
 #include <cstdio>
@@ -1226,14 +1203,14 @@ int main() {
 }
 ```
 
-※ 참고 문헌
 
+
+
+
+
+※ 참고 문헌  
 [https://modoocode.com/269](https://modoocode.com/269)
-
 [https://modoocode.com/270](https://modoocode.com/270)
-
 [https://modoocode.com/271](https://modoocode.com/271)
-
 [https://modoocode.com/284](https://modoocode.com/284)
-
 [https://modoocode.com/285](https://modoocode.com/285)
