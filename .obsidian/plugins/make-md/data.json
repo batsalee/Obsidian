@@ -95,10 +95,10 @@
       "CS 지식/자료구조/심화 자료구조",
       "CS 지식/디자인패턴/행동패턴",
       "CS 지식/소프트웨어공학/UML",
-      "C++/Modern C++",
       "C++",
       "C++/Modern C++/Library",
-      "Notepad"
+      "C++/Modern C++",
+      "CS 지식/프로그래밍 지식"
     ],
     "as": [
       "Hello Obsidian",
@@ -198,7 +198,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1721018283207,
+  "spacesAutoBackupLast": 1721035043823,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

@@ -5,6 +5,10 @@
       "path": "C++/Modern C++/thread.md"
     },
     {
+      "basename": "메모리와 캐시",
+      "path": "CS 지식/프로그래밍 지식/메모리와 캐시.md"
+    },
+    {
       "basename": "Today_Study 정리파일",
       "path": "Notepad/Today_Study 정리파일.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "트리",
       "path": "CS 지식/자료구조/비선형 구조/트리.md"
-    },
-    {
-      "basename": "bits stdc++.h",
-      "path": "CS 지식/프로그래밍 지식/bits stdc++.h.md"
     }
   ],
   "omittedPaths": [],
