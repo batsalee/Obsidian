@@ -167,8 +167,7 @@ constexpr 생성자의 인자들 또한 반드시 리터럴 타입이어야 하�
 constexpr 생성자가 있는 클래스는 다른 클래스를 가상상속받을 수 없음  
 
 #### 예시코드
-
-```
+```C++
 #include <iostream>
 
 class Vector {
@@ -206,17 +205,13 @@ int main() {
 }
 ```
 
-|   |
-|---|
-|## if constexpr|
 
-if constexpr은 조건이 반드시 bool로 타입변환될 수 있어야 하는 컴파일타임상수식이어야만 사용가능
+## 6. if constexpr
 
-그래서 조건이 참이라면 else 부분은 컴파일되지 않고 완전 무시됨
-
-조건이 거짓이라면 else부분만 컴파일됨
-
-```
+if constexpr은 조건이 반드시 bool로 타입변환될 수 있어야 하는 컴파일타임상수식이어야만 사용가능  
+그래서 조건이 참이라면 else 부분은 컴파일되지 않고 완전 무시됨  
+조건이 거짓이라면 else부분만 컴파일됨  
+```C++
 template <typename T>
 void show_value(T t) {
   if constexpr (std::is_pointer_v<T>) {
@@ -226,9 +221,12 @@ void show_value(T t) {
   }
 }
 ```
+위의 경우 T t로 int a가 들어온다면 a는 포인터가 아니니 거짓이 되고, 그럼 else부분만 컴파일됨  
 
-위의 경우 T t로 int a가 들어온다면 a는 포인터가 아니니 거짓이 되고, 그럼 else부분만 컴파일됨
 
-※ 참고 문헌
 
+
+
+
+※ 참고 문헌  
 [https://modoocode.com/293](https://modoocode.com/293)

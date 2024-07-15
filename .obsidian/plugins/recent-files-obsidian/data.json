@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "decltype, declval, value category",
+      "path": "C++/Modern C++/decltype, declval, value category.md"
+    },
+    {
       "basename": "constexpr",
       "path": "C++/Modern C++/constexpr.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "bits stdc++.h",
       "path": "CS 지식/프로그래밍 지식/bits stdc++.h.md"
-    },
-    {
-      "basename": "BFS, DFS, 트리순회",
-      "path": "CS 지식/알고리즘/BFS, DFS, 트리순회.md"
     }
   ],
   "omittedPaths": [],
