@@ -706,41 +706,31 @@ int main() {
   std::cout << "Counter : " << counter << std::endl;
 }
 ```
-
-counter->fetch_add(1, memory_order_relaxed);는 counter++와 개념은 동일하지만 메모리 접근 방식이 다르다.
-
-counter++였다면 먼저 counter의 값을 읽고, 1을 더하고, 다시 그 결과를 기록하겠지만
-
-memory_order_relaxed라면 읽고, 더하고, 기록하는 순서가 뒤바뀌어도 된다.
-
-즉 어떻게 뒤바뀌던 말던 결론적으로는 1을 더한다라는 연산이 10000번 등장하기때문에 최종 결과는 같다.
+`counter->fetch_add(1, memory_order_relaxed);`는 counter++와 개념은 동일하지만 메모리 접근 방식이 다르다.  
+counter++였다면 먼저 counter의 값을 읽고, 1을 더하고, 다시 그 결과를 기록하겠지만  
+memory_order_relaxed라면 읽고, 더하고, 기록하는 순서가 뒤바뀌어도 된다.  
+즉 어떻게 뒤바뀌던 말던 결론적으로는 1을 더한다라는 연산이 10000번 등장하기때문에 최종 결과는 같다.  
 
 #### memory_order_release와 memory_order_acquire
+위의 memory_order_relaxed는 특수한 경우에 사용이 가능하지만 용도가 굉장히 제한적이다.  
+좀 더 엄격한 방식인 memory_order_release와 memory_order_acquire가 있다.  
 
-위의 memory_order_relaxed는 특수한 경우에 사용이 가능하지만 용도가 굉장히 제한적이다.
+memory_order_release는 해당 명령 이전의 모든 메모리 명령이 해당명령 이후로 재배치되는 것을 금지한다.  
+또한 같은 변수를 memory_order_acquire로 읽는 쓰레드가 있다면 memory_order_release이전에 오는 메모리 명령들이 해당 쓰레드에 의해 관찰될 수 있어야 한다.  
 
-좀 더 엄격한 방식인 memory_order_release와 memory_order_acquire가 있다.
+memory_order_acquire의 경우 release와 반대로 해당 명령 뒤에 오는 모든 메모리 명령들이 해당 명령 위로 재배치되는 것을 금지한다.  
+그래서 release와 acquire를 이용해서 서로 다른 두개의 쓰레드가 동기화를 수행할 수 있다.  
 
-memory_order_release는 해당 명령 이전의 모든 메모리 명령이 해당명령 이후로 재배치되는 것을 금지한다.
-
-또한 같은 변수를 memory_order_acquire로 읽는 쓰레드가 있다면 memory_order_release이전에 오는 메모리 명령들이 해당 쓰레드에 의해 관찰될 수 있어야 한다.
-
-memory_order_acquire의 경우 release와 반대로 해당 명령 뒤에 오는 모든 메모리 명령들이 해당 명령 위로 재배치되는 것을 금지한다.
-
-그래서 release와 acquire를 이용해서 서로 다른 두개의 쓰레드가 동기화를 수행할 수 있다.
-
-예를들어 아래와 같은 코드가 있다면 relaxed끼리는 자기들끼리 CPU에서 재배치 될 수 있지만 release 뒤로 재배치될 수는 없음
-
-```
+예를들어 아래와 같은 코드가 있다면 relaxed끼리는 자기들끼리 CPU에서 재배치 될 수 있지만 release 뒤로 재배치될 수는 없다.  
+```C++
 data[0].store(1, memory_order_relaxed);
 data[1].store(2, memory_order_relaxed);
 data[2].store(3, memory_order_relaxed);
 is_ready.store(true, std::memory_order_release);
 ```
 
-반면 아래와 같은 코드가 있다면 아래의 relaxed들은 acquire 위로 재배치 될 수 없음
-
-```
+반면 아래와 같은 코드가 있다면 아래의 relaxed들은 acquire 위로 재배치 될 수 없다.  
+```C++
 while (!is_ready.load(std::memory_order_acquire)) {
   }
 
@@ -749,15 +739,12 @@ while (!is_ready.load(std::memory_order_acquire)) {
   std::cout << "data[2] : " << data[2].load(memory_order_relaxed) << std::endl;
 ```
 
-그래서 아래 사진 한장으로 모든게 이해되는데
-
+그래서 아래 사진 한장으로 모든게 이해되는데  
 ![](https://blog.kakaocdn.net/dn/E1uDM/btsIy0xrU7c/FR2NE06Laz1LOtLnPpy5Yk/img.png)
+release와 acquire 둘이 동기화 되는 시점인거고 그 전과 후는 값이 동기화 될 수 밖에 없다.  
 
-release와 acquire 둘이 동기화 되는 시점인거고 그 전과 후는 값이 동기화 될 수 밖에 없음
-
-전체 코드
-
-```
+#### 전체 코드  
+```C++
 #include <atomic>
 #include <iostream>
 #include <thread>
@@ -797,59 +784,44 @@ int main() {
 ```
 
 #### memory_order_acq_rel
-
-이름에서 acq와 rel이 보이듯이 qcquire와 release를 모두 수행하는 용도이다.
-
-읽기와 쓰기를 모두 수행하는 fetch_add 같은 함수에서 사용가능하다.
+이름에서 acq와 rel이 보이듯이 acquire와 release를 모두 수행하는 용도이다.  
+읽기와 쓰기를 모두 수행하는 fetch_add 같은 함수에서 사용가능하다.  
 
 #### memory_order_seq_cst
+메모리 명령의 순차적 일관성(sequential consistency)를 보장해준다.  
+즉 메모리 명령 재배치도 하지말고, 모든 쓰레드에서 모든 시점에 동일한 값을 관찰할 수 있는  
+사람이 기대하는 방식대로 CPU가 작동하게 하는 방식이다.  
 
-메모리 명령의 순차적 일관성(sequential consistency)를 보장해준다.
+이 기준이 atomic 객체를 사용할때 memory_order를 따로 지정해주지 않으면 사용되는 default 값이다.  
+atomic한 counter++은 counter.fetch_add(1, memory_order_seq_cst)와 동일한 연산이다.
 
-즉 메모리 명령 재배치도 하지말고, 모든 쓰레드에서 모든 시점에 동일한 값을 관찰할 수 있는
+다만 당연히 가장 코스트가 큰 연산 방식이라서 꼭 필요할때만 사용해야 한다.  
+그러므로 atomic객체를 사용할때 memory_order를 더 약하게 지정해주지 않으면 성능향상을 기대하기 어려울 수 있다.  
 
-사람이 기대하는 방식대로 CPU가 작동하게 하는 방식이다.
 
-이 기준이 atomic 객체를 사용할때 memory_order를 따로 지정해주지 않으면 사용되는 default 값이다.
+## 10. 동기와 비동기 실행
 
-atomic한 conter++은 counter.fetch_add(1, memory_order_seq_cst)와 동일한 연산이다.
+동기(synchronous), 비동기(asynchronous)  
+멀티쓰레딩의 강력함을 더 쉽게 활용할 수 있게 도와주는 도구들이다.  
 
-다만 당연히 가장 코스트가 큰 연산 방식이라서 꼭 필요할때만 사용해야 한다.
+인터넷에서 데이터를 긁어와서 분석한다고 할때  
+**동기적**이란 말은 데이터를 긁어올때까지 기다린다, 다 긁어왔으면 분석한다, 다 분석했으면 또 긁어온다.  
+이런식으로 순차적으로 진행하는 개념이다.  
+문제는 데이터가 다 긁어와질때까진 CPU가 아무것도 하지 않고 대기하므로 낭비가 발생한다.  
 
-그러므로 atomic객체를 사용할때 memory_order를 더 약하게 지정해주지 않으면 성능향상을 기대하기 어려울 수 있다.
-
-|   |
-|---|
-|## 동기와 비동기 실행|
-
-동기(synchronous), 비동기(asynchronous)
-
-멀티쓰레딩의 강력함을 더 쉽게 활용할 수 있게 도와주는 도구들이다.
-
-인터넷에서 데이터를 긁어와서 분석한다고 할때
-
-**동기적**이란 말은 데이터를 긁어올때까지 기다린다, 다 긁어왔으면 분석한다, 다 분석했으면 또 긁어온다.
-
-이런식으로 순차적으로 진행하는 개념이다.
-
-문제는 데이터가 다 긁어와질때까진 CPU가 아무것도 하지 않고 대기하므로 낭비가 발생한다.
-
-**비동기적**이란 말은 데이터를 긁어올 때까지 기다리지 않고 다른 작업을 하고 있는것이라고 생각하면 된다.
+**비동기적**이란 말은 데이터를 긁어올 때까지 기다리지 않고 다른 작업을 하고 있는것이라고 생각하면 된다.  
 
 #### 동기적인 상황의 예시코드
-
-```
+```C++
 string txt = read("a.txt");                  // 5ms
 string result = do_something_with_txt(txt);  // 5ms
 
 do_other_computation();  // 5ms 걸림 (CPU 로 연산을 수행함)
 ```
-
-위의 경우 read, do_somthing_with_txt, do_other_computation 순서로 진행해서 총 15ms가 걸린다.
+위의 경우 read, do_somthing_with_txt, do_other_computation 순서로 진행해서 총 15ms가 걸린다.  
 
 #### 비동기적 상황의 예시코드
-
-```
+```C++
 void file_read(string* result) 
 {
   string txt = read("a.txt");  // (1)
@@ -865,30 +837,23 @@ int main()
   t.join();
 }
 ```
+이 경우 thread t가 생성되면서 file_read함수를 실행하므로 read함수가 실행된다.  
+그 후 read함수가 실행될동안 대기하는게 아니라 main함수 쓰레드의 do_other_computation()을 수행한다.  
+do_other_computation()이 끝나고 나면 t.join()을 수행하면서 다시 file_read함수 쓰레드를 연산하게 되는데 이땐 이미 read가 다 되어 도착해있을 것이므로 바로 do_something_with_txt를 수행한다.  
 
-이 경우 thread t가 생성되면서 file_read함수를 실행하므로 read함수가 실행된다.
+이렇게 되면 read에서 5ms를 기다리지 않고 다른 일을 처리하므로 총합 10ms에 처리가 가능하다.  
 
-그 후 read함수가 실행될동안 대기하는게 아니라 main함수 쓰레드의 do_other_computation()을 수행한다.
+C++ 11에서 추가된 표준 라이브러리를 이용해서 비동기적 실행을 간단하게 할 수 있다.  
 
-do_other_computation()이 끝나고 나면 t.join()을 수행하면서 다시 file_read함수 쓰레드를 연산하게 되는데 이땐 이미 read가 다 되어 도착해있을 것이므로 바로 do_something_with_txt를 수행한다.
 
-이렇게 되면 read에서 5ms를 기다리지 않고 다른 일을 처리하므로 총합 10ms에 처리가 가능하다.
+## 11. std::promise와 std::future
 
-C++ 11에서 추가된 표준 라이브러리를 이용해서 비동기적 실행을 간단하게 할 수 있다.
+비동기적 실행을 구현하기 위한 객체들이다.  
 
-|   |
-|---|
-|## std::promise와 std::future|
-
-비동기적 실행을 구현하기 위한 객체들이다.
-
-비동기적 실행으로 처리하고 싶은 일이 무엇인가?
-
-내가 다른 일을 할 동안 다른 쓰레드가 어떠한 데이터를 처리하게 한 후 받아내는 것이다.
-
-즉 미래(future)에 다른 쓰레드가 내게 원하는 데이터를 돌려주겠다는 약속(promise)이다.
-
-```
+비동기적 실행으로 처리하고 싶은 일이 무엇인가?  
+내가 다른 일을 할 동안 다른 쓰레드가 어떠한 데이터를 처리하게 한 후 받아내는 것이다.  
+즉 미래(future)에 다른 쓰레드가 내게 원하는 데이터를 돌려주겠다는 약속(promise)이다.  
+```C++
 #include <future>
 #include <iostream>
 #include <string>
@@ -919,20 +884,15 @@ int main() {
   t.join();
 }
 ```
+메인함수쪽을 잘 보면 된다.  
+다른 설명은 주석을 통해 잘 달아놨지만 get()을 절대 두번 써선 안되는 점에 주의해야 한다.  
+furture에서 get을 호출하면 설정된 객체가 이동된다. 그래서 get을 또 호출하면 안된다.  
+만약 여러 쓰레드에서 future를 get해야 해서 여러번 써야 한다면 shared_future를 사용해야 한다.  
 
-메인함수쪽을 잘 보면 된다.
+정리해보면 promise는 마치 생산자이고, future는 소비자인것처럼 보인다.  
 
-다른 설명은 주석을 통해 잘 달아놨지만 get()을 절대 두번 써선 안되는 점에 주의해야 한다.
-
-furture에서 get을 호출하면 설정된 객체가 이동된다. 그래서 get을 또 호출하면 안된다.
-
-만약 여러 쓰레드에서 future를 get해야 해서 여러번 써야 한다면 shared_future를 사용해야 한다.
-
-정리해보면 promise는 마치 생산자이고, future는 소비자인것처럼 보인다.
-
-future는 예외도 던질 수 있기때문에 예외를 잡기에도 더 좋다.
-
-```
+future는 예외도 던질 수 있기때문에 예외를 잡기에도 더 좋다.  
+```C++
 #include <exception>
 #include <future>
 #include <iostream>
@@ -969,12 +929,9 @@ int main() {
 ```
 
 #### packaged_task
-
-packaged_task를 사용한다면 위의 코드에서 굳이 promise를 전달하지 않아도 된다.
-
-packaged_task가 함수의 리턴값을 처리해준다.
-
-```
+packaged_task를 사용한다면 위의 코드에서 굳이 promise를 전달하지 않아도 된다.  
+packaged_task가 함수의 리턴값을 처리해준다.  
+```C++
 #include <future>
 #include <iostream>
 #include <thread>
@@ -998,12 +955,9 @@ int main() {
 ```
 
 #### wait_for()
-
-위에서 wait()는 있어도 없어도 된다고 했었다.
-
-wait()대신에 wait_for을 사용하면 값이 준비될때까지 기다리는게 아니라 정한 시간만큼만 기다렸다가 리턴하게 만들 수 있다.
-
-```
+위에서 wait()는 있어도 없어도 된다고 했었다.  
+wait()대신에 wait_for을 사용하면 값이 준비될때까지 기다리는게 아니라 정한 시간만큼만 기다렸다가 리턴하게 만들 수 있다.  
+```C++
  while (true) {
     std::future_status status = data.wait_for(std::chrono::seconds(1));
 
