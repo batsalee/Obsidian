@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md",
+                "file": "C++/Modern C++/thread.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md",
+                "file": "C++/Modern C++/thread.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md",
+                "file": "C++/Modern C++/thread.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md"
+                "file": "C++/Modern C++/thread.md"
               }
             }
           },
@@ -184,6 +184,7 @@
   },
   "active": "deb3021d490e2fa7",
   "lastOpenFiles": [
+    "Notepad/Today_Study 정리파일.md",
     "C++/Modern C++/thread.md",
     "C++/Modern C++/decltype, declval, value category.md",
     "C++/Modern C++/constexpr.md",
@@ -193,7 +194,6 @@
     "C++/Modern C++/Modern C++.md",
     "C++/Modern C++/optional, variant, Structured binding.md",
     "C++/Modern C++/type_traits.md",
-    "Notepad/Today_Study 정리파일.md",
     "프로젝트/TaskManager 리팩토링.md",
     "프로젝트/TaskManager.md",
     "CS 지식/소프트웨어공학/UML/활동 다이어그램.md",
