@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
+    },
+    {
+      "basename": "thread",
+      "path": "C++/Modern C++/thread.md"
+    },
+    {
       "basename": "decltype, declval, value category",
       "path": "C++/Modern C++/decltype, declval, value category.md"
     },
@@ -31,14 +39,6 @@
     {
       "basename": "type_traits",
       "path": "C++/Modern C++/type_traits.md"
-    },
-    {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
-    },
-    {
-      "basename": "thread",
-      "path": "C++/Modern C++/thread.md"
     },
     {
       "basename": "TaskManager 리팩토링",
