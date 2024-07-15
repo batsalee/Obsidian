@@ -66,6 +66,7 @@ std::optional<std::reference_wrapper<A>> maybe_a = std::ref(a);
 ## 2. variant
 
 C++ 17부터 지원  
+`#include <variant>` 라이브러리 필요  
 one-of를 구현한 클래스  
 
 컴파일 타임에 여러개의 타입 중 한가지를 보관할 수 있는 클래스이다.  
