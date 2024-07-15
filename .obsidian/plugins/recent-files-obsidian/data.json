@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "optional, variant, Structured binding",
-      "path": "C++/Modern C++/Library/optional, variant, Structured binding.md"
-    },
-    {
-      "basename": "type_traits",
-      "path": "C++/Modern C++/Library/type_traits.md"
+      "basename": "Uniform Initialization, initializer_list",
+      "path": "C++/Modern C++/Uniform Initialization, initializer_list.md"
     },
     {
       "basename": "functional과 Callable",
-      "path": "C++/Modern C++/Library/functional과 Callable.md"
+      "path": "C++/Modern C++/functional과 Callable.md"
+    },
+    {
+      "basename": "final",
+      "path": "C++/Modern C++/final.md"
+    },
+    {
+      "basename": "Modern C++",
+      "path": "C++/Modern C++/Modern C++.md"
+    },
+    {
+      "basename": "optional, variant, Structured binding",
+      "path": "C++/Modern C++/optional, variant, Structured binding.md"
+    },
+    {
+      "basename": "type_traits",
+      "path": "C++/Modern C++/type_traits.md"
     },
     {
       "basename": "Today_Study 정리파일",
@@ -18,7 +30,7 @@
     },
     {
       "basename": "thread",
-      "path": "C++/Modern C++/Library/thread.md"
+      "path": "C++/Modern C++/thread.md"
     },
     {
       "basename": "TaskManager 리팩토링",
@@ -66,11 +78,11 @@
     },
     {
       "basename": "string_view",
-      "path": "C++/Modern C++/Library/string_view.md"
+      "path": "C++/Modern C++/string_view.md"
     },
     {
       "basename": "Raw String Literal",
-      "path": "C++/Modern C++/Keyword/Raw String Literal.md"
+      "path": "C++/Modern C++/Raw String Literal.md"
     },
     {
       "basename": "백준 플래티넘 티어 달성 후기",
@@ -187,18 +199,6 @@
     {
       "basename": "완전탐색, 백트래킹",
       "path": "CS 지식/알고리즘/완전탐색, 백트래킹.md"
-    },
-    {
-      "basename": "DP",
-      "path": "CS 지식/알고리즘/DP.md"
-    },
-    {
-      "basename": "LIS",
-      "path": "CS 지식/알고리즘/LIS.md"
-    },
-    {
-      "basename": "신발끈공식(다각형의 넓이 구하기)",
-      "path": "CS 지식/알고리즘/신발끈공식(다각형의 넓이 구하기).md"
     }
   ],
   "omittedPaths": [],
