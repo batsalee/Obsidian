@@ -1,16 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
+    },
+    {
+      "basename": "코딩 습관들여야 할 것들",
+      "path": "Notepad/코딩 습관들여야 할 것들.md"
+    },
+    {
+      "basename": "노션 강의 정리",
+      "path": "Notepad/노션 강의 정리.md"
+    },
+    {
+      "basename": "Notepad",
+      "path": "Notepad/Notepad.md"
+    },
+    {
+      "basename": "mermaid 사용해보기",
+      "path": "Notepad/mermaid 사용해보기.md"
+    },
+    {
+      "basename": "문서 작성 시 번호매기는 순서",
+      "path": "Hello Obsidian/문서 작성 시 번호매기는 순서.md"
+    },
+    {
+      "basename": "옵시디언 티스토리 플러그인",
+      "path": "Hello Obsidian/옵시디언 티스토리 플러그인.md"
+    },
+    {
+      "basename": "마크다운 문법 정리",
+      "path": "Hello Obsidian/마크다운 문법 정리.md"
+    },
+    {
+      "basename": "Hello Obsidian",
+      "path": "Hello Obsidian/Hello Obsidian.md"
+    },
+    {
+      "basename": "Protected",
+      "path": "Protected/Protected.md"
+    },
+    {
       "basename": "thread",
       "path": "C++/Modern C++/thread.md"
     },
     {
       "basename": "메모리와 캐시",
       "path": "CS 지식/프로그래밍 지식/메모리와 캐시.md"
-    },
-    {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
     },
     {
       "basename": "decltype, declval, value category",
@@ -141,18 +177,6 @@
       "path": "프로젝트/PinkWard.md"
     },
     {
-      "basename": "코딩 습관들여야 할 것들",
-      "path": "Notepad/코딩 습관들여야 할 것들.md"
-    },
-    {
-      "basename": "mermaid 사용해보기",
-      "path": "Notepad/mermaid 사용해보기.md"
-    },
-    {
-      "basename": "Notepad",
-      "path": "Notepad/Notepad.md"
-    },
-    {
       "basename": "유니온 파인드",
       "path": "CS 지식/알고리즘/유니온 파인드.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "최단거리",
       "path": "CS 지식/알고리즘/최단거리.md"
-    },
-    {
-      "basename": "Heap",
-      "path": "CS 지식/자료구조/심화 자료구조/Heap.md"
-    },
-    {
-      "basename": "Pasted image 20231130145554",
-      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png"
-    },
-    {
-      "basename": "Pasted image 20231130145542",
-      "path": "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145542.png"
-    },
-    {
-      "basename": "UML",
-      "path": "CS 지식/소프트웨어공학/UML.md"
-    },
-    {
-      "basename": "노션 강의 정리",
-      "path": "Notepad/노션 강의 정리.md"
-    },
-    {
-      "basename": "트리",
-      "path": "CS 지식/자료구조/비선형 구조/트리.md"
     }
   ],
   "omittedPaths": [],
