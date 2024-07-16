@@ -692,11 +692,7 @@ ProxyA가 A의 속성값을 변경시켜선 안됌
 accept 안에 내용을 다른 객체가 해당 역할을 하게 하는거라 구현은 쉬운데 코드 양만 늘리는 꼴인것 같기도 하고...
 그래도 코드 양 늘려서 단일책임원칙 준수하는게 목적인듯 하다.
 
-이동생성자는 복사생성자처럼 클래스 구현할때 직접 만들어 주는 것이지 저절로 생기는게 아니다.  
-만약 `MyString str1 = str2 + str3;`로 쓰면 str2와 str3를 붙인 MyString임시객체를 str1으로 복사생성자 이용해서 객체 생성하는 것이고  
-`MyString&& str1 = str2 + str3;`로 쓰면 str2와 str3를 붙인 MyString임시객체를 이동생성자를 이용해서 이동시키게 된다.  
-
-move함수는 좌측값을 우측값으로 형변환시켜주는 함수
+move함수는 좌측값을 우측값레퍼런스로 형변환시켜주는 함수
 ```C++
 template <typename T>
 void my_swap(T &a, T &b) {
@@ -705,7 +701,7 @@ void my_swap(T &a, T &b) {
   b = tmp;
 }
 ```
-위같은 상황에서 a, b가 아주 크면 안좋으니까 이럴때 좌측값을 우측값마냥 만들고, operator=도 구현해서  
+위같은 상황에서 a, b가 아주 크면 안좋으니까 이럴때 좌측값을 우측값레퍼런스로 만들고, operator=도 구현해서  
 ```C++
 template <typename T>
 void my_swap(T &a, T &b) {
