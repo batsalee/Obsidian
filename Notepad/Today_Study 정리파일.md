@@ -497,17 +497,6 @@ cout은 6자리를 정밀도 기본값으로 사용한다.(setprecision으로 �
 - 0은 int형 0으로 취급, 0LL은 long long형 0으로 취급
 
 - 소수 판별할땐 N - 1까지 확인이 아니라 sqrt(N)까지만 확인하면 된다.
-```C++
-bool is_primenumber(int n)
-{
-	if (n < 2) return false;
-
-	for (int i = 2; i <= sqrt(n); i++) {
-		if (n % i == 0) return false;
-	}
-	return true;
-}
-```
 
 - isdigit 사용할때 매번 이상했던 점 해결  
 ``if(isdigit(*part.c_str()))``
@@ -521,25 +510,7 @@ isdigit은 인자로 char변수를 받아야 함 , 즉 문자 한개만 �
 10 >> 1; 은 5가 되고  
 10 >> 2; 는 2.5가 되는 것  
 
-- ``cout << string(10, '*');``하면 * 10개 출력 가능
-
-* range based for는   
-기본적으로  
-```C++
-for(int v : vec) {  
-	cout << v;  
-}
-```
-이런 형태겠지만 vec을 v로 복사할 필요 없이 참조만 하는 경우는  
-`for(const int& v : vec)` 처럼 쓰는게 더 좋다  
-
-
-문장의 문자들을 모두 소문자로 바꾸고 싶다면
-transform(my_string.begin(), my_string.end(), my_string.begin(), ::tolower);
-
-
 min_element / max_element는 만약 vector에 가장 작은/큰 값이 여러개라면 가장 왼쪽의 itr을 출력해줌
-
 
 cout << fixed; cout.precision();은 자동으로 반올림을 한다.
 예를들어 
@@ -550,29 +521,15 @@ cout.precision(3);
 cout << d; // 1234.568
 ```
 
-
-우선순위큐는 heap으로 구현
-set은 이분탐색트리로 구현
-map은 레드블랙트리로 구현
-
-heap은 완전이진트리를 이용해서 구현함
-근데 완전이진트리는 array로 구현
-그러므로 heap도 구현시에는 array를 사용하는 듯
-그럼 우선순위큐도 마찬가지로 array를 사용하게 될듯(혹은 vector)
-
-
-
 set과 map에  
 algorithm header의 lower_bound와 upper_bound를 사용하면 O(N)으로 비효율적이다  
 set의 iterator는 양방향itr이기때문  
 그래서 set과 map에는 멤버함수로 lower_bound, upper_bound함수가 따로있다.  
-  
+근데 애초에 정렬된 자료구조라 find나 이분탐색이나 똑같지 않나?    
 그래서 특정값이상을 찾아 erase가 잦은 경우 단지 erase가 잦다는 이유로 list를 택할 수 없다.  
 list에서 제공하는 lower_bound는 O(N)이고 erase가 O(1)인것을 감안해도   
-set/multiset에 넣고 lower_bound하고 erase하는게 더 효율적일 수 있다.  
-  
+set/multiset에 넣고 lower_bound하고 erase하는게 더 효율적일 수 있다.    
 관련문제 : [https://www.acmicpc.net/problem/1202](https://www.acmicpc.net/problem/1202)
-
 정답코드)
 ```C++
 #include <bits/stdc++.h>
@@ -625,8 +582,6 @@ int main()
 }
 ```
 
-
-
 #### vector간의 비교연산자
 vector간의 비교는 보통 두 벡터가 같은지 확인하는
 ```C++
@@ -660,7 +615,6 @@ size가 같다면 index 0부터 비교하면서 처음으로 숫자가 달라지
 마치 {1, 2, 3, 4}와 {1, 2, 4, 5} 두개의 벡터의 값들을 문자열로 붙인것마냥 1234와 1245의 비교로 1245가 더 크다고 판정하는것처럼 받아들이면 됨  
 ![](https://blog.kakaocdn.net/dn/JLxTi/btsGNZzBEtW/O8X3gCIkio6usldCJMimD1/img.png)
 
-
 #### string rfind
 string에서 find로 글자를 찾으면 왼쪽부터 비교해서 처음 발견된 인덱스를 반환해줌  
 반면 rfind로 찾으면 오른쪽부터 비교해서 처음 발견된 인덱스를 반환해줌  
@@ -677,8 +631,6 @@ int main() {
 결과)  
 ![](https://blog.kakaocdn.net/dn/9bokk/btsHbCYqzZ4/p2erKGK2F1I3o865yEo0l1/img.png)
 그래서 특정 문자로 끝나게 자르고 싶다면 뒤에서부터 위치를 찾아서 인덱스를 얻어서 substr하는 방법이 있음
-
-
 
 #### 인터프리터 해석 과정
 #### 1) 렉싱(Lexing)
@@ -739,15 +691,6 @@ ProxyA가 A의 속성값을 변경시켜선 안됌
 사실상 그냥 성격과 맞지 않는 함수를 작성할 자리에 accept를 작성하고 
 accept 안에 내용을 다른 객체가 해당 역할을 하게 하는거라 구현은 쉬운데 코드 양만 늘리는 꼴인것 같기도 하고...
 그래도 코드 양 늘려서 단일책임원칙 준수하는게 목적인듯 하다.
-
-
-unique_ptr은 스마트포인터와 소유권의 개념을 합쳐서 만든 것
-vector의 capacity가 크면 shrink_to_fit 혹은 swap으로 해결
-
-
-좌측값과 우측값의 구분 기준은 주소값을 취할수 있냐 없냐
-좌측값은 좌측 우측 다 갈수 있음, 우측값은 우측만갈 수 있음
-
 
 이동생성자는 복사생성자처럼 클래스 구현할때 직접 만들어 주는 것이지 저절로 생기는게 아니다.  
 만약 `MyString str1 = str2 + str3;`로 쓰면 str2와 str3를 붙인 MyString임시객체를 str1으로 복사생성자 이용해서 객체 생성하는 것이고  

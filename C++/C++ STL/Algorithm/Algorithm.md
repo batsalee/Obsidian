@@ -119,6 +119,11 @@ transform (시작 반복자, 끝 반복자, 결과를 저장할 컨테이너의 
 std::transform(vec.begin(), vec.end(), vec.begin(), [](int i){ return i + 1; });
 ```
 
+문장의 문자들을 모두 소문자로 바꾸고 싶다면
+```C++
+transform(my_string.begin(), my_string.end(), my_string.begin(), ::tolower);
+```
+
 ## 4. all_of / any_of
 
 all_of 함수는 인자로 받은 범위안의 모든 원소가 다 조건을 만족해야 true  
