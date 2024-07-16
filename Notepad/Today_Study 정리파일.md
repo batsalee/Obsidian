@@ -9,6 +9,28 @@ if(buffer != "") stoi(buffer);
 ```
 ★ 포인터나 문자열에 접근하기 전에는 항상 != null 사용하는 습관 들이기
 
+## 7. stoi와 atoi로 숫자 뽑아내기
+
+#### atoi
+첫 문자부터 확인해서 숫자가 아닌게 나올때까지 읽어서 반환해줌  
+첫 문자가 숫자가 아닌 경우 0으로 변환 됨  
+``` C++
+cout << atoi("abc"); // 0
+cout << atoi("123"); // 123
+cout << atoi("123abc"); // 123
+cout << atoi("abc123"); // 0
+```
+
+#### stoi
+첫 문자부터 확인해서 숫자가 아닌게 나올때까지 읽어서 반환해줌  
+첫 문자가 숫자가 아닌 경우 atoi와는 다르게 오류가 발생함  
+```C++
+cout << stoi("abc"); // 오류발생
+cout << stoi("123"); // 123
+cout << stoi("123abc"); // 123
+cout << stoi("abc123"); // 오류발생
+```
+
 ## 2. 메모리 공간
 
 프로그램이 운영체제로부터 할당받는 메모리공간은 대표적으로 4가지  
@@ -98,28 +120,6 @@ bool operator==(MyString& str);
 자기 자신을 리턴하지 않는 연산자는 2번케이스인 외부함수로 선언(+ - * /같은 것)  
 외부에 일반함수로 선언하면 a나 b가 private인 경우 접근을 못하므로 해당 클래스에 friend로 추가해주면 됨  
 
-## 7. stoi와 atoi로 숫자 뽑아내기
-
-#### atoi
-첫 문자부터 확인해서 숫자가 아닌게 나올때까지 읽어서 반환해줌  
-첫 문자가 숫자가 아닌 경우 0으로 변환 됨  
-``` C++
-cout << atoi("abc"); // 0
-cout << atoi("123"); // 123
-cout << atoi("123abc"); // 123
-cout << atoi("abc123"); // 0
-```
-
-#### stoi
-첫 문자부터 확인해서 숫자가 아닌게 나올때까지 읽어서 반환해줌  
-첫 문자가 숫자가 아닌 경우 atoi와는 다르게 오류가 발생함  
-```C++
-cout << stoi("abc"); // 오류발생
-cout << stoi("123"); // 123
-cout << stoi("123abc"); // 123
-cout << stoi("abc123"); // 오류발생
-```
-
 ## 8. 형변환(명시적/암시적)
 
 - static_cast : 흔히 생각하는 일반적인 타입 변환  
@@ -161,29 +161,6 @@ c는 애초에 파생클래스의 객체이므로 Derived* p_c = p_p;는 사실 
 */
 ```
 단 위와 같이 가능한 경우에도 오류가 발생한다면 오류를 알려주도록 dynamic_cast를 사용
-
-## 10. is-a와 has-a
-#### is-a  
-```
-class Manager : public Employee  
-```
-위처럼 쓰면 의미는  
-1. Manager클래스는 Employee의 모든 기능을 포함한다.  
-2. Manager클래스는 Employee의 모든 기능을 수행 할 수 있기 때문에 Manager를 Employee라고 칭할 수 있다  
-3. 즉 모든 Manager는 Employee다. (Manager is a Employee)
-그러므로 모든 상속관계는 is-a관계라고 볼 수 있음  
-
-#### has-a  
-자동차 클래스를 만든다면 엔진클래스, 타이어클래스, 브레이크클래스 등이 필요해지는데  
-이를 상속받는다고 해서 자동차는 엔진이다. 자동차는 브레이크다. 이렇게 되면 말이 안되고  
-자동차는 엔진을 가진다. 자동차는 브레이크를 가진다. 이럴때 has-a 관계  
-```C++
-class Car  
-{  
-	Encing e;  
-	Brake b;  
-}
-```
 
 ## 11. 상속
 #### virtual
@@ -463,74 +440,6 @@ catch(기반클래스 x) {}
 생성자는 완벽하게 생성과정을 마치고 생성자를 끝내지 않으면 객체가 생성되지 않았다고 판단하고 소멸자도 호출하지 않음  
 그러니 이런 경우 생성자 안에서 예외를 던지는 경우 catch문으로잘 처리해줘야 함  
 예를들면 생성자안에서 동적할당을 사용한다면 catch문에서 할당해제를 해줘야 함  
-
-## 17. stringstream
-
-```C++
-string buffer; // 분리된 문자열을 넣는 버퍼
-
-string str1 = "This is Test";
-istringstream ss1(str1);
-while (getline(ss1, buffer, ' ')) { // 띄어쓰기를 기준으로 분리
-	cout << buffer << endl;
-}
-
-string str2 = "AB/CDE/DFDG/ASCD";
-istringstream ss2(str2);
-while (getline(ss2, buffer, '/')) { // '/'을 기준으로 분리
-	cout << buffer << endl;
-}
-```
-
-```C++
-string name;
-int birth;
-bool on;
-
-string temp = "mike 1105 1";
-stringstream ss;
-ss.str(temp);
-ss >> name >> birth >> on;
-
-cout << name << endl << birth << endl << on;
-
-//////////////////////////////////////////
-
-// 갯수가 정해져있다면 이런식으로도 가능
-istringstream ss(input);
-string split[3]; 
-for (int i = 0; i < 3; i++) {  
-	getline(ss, split[i], '/'); 
-	cout << split[i];
-}
-```
-
-```C++
-// 입력 형태가 무조건 고정되어 있다면
-// 예를들어 10 + 20 = 30 처럼 "숫자 연산기호 숫자 등호 결과" 순으로 고정이고
-// 띄어쓰기마저 완전히 항상 고정이라면 아래와 같이 사용 가능
-
-stringstream ss;
-ss.str(s);
-ss >> a >> op >> b >> eq >> c;
-// 위처럼 아예 고정해버리고 시작하면 쉽다.
-```
-
-stringstream 사용시 주의점  
-stringstream으로 문자열에서 특정 문자를 기준으로 자르게 처리할때  
-```C++
-while(getline(ss, part, 'x')) {
-	answer.push_back(part);
-}
-```
-위처럼 처리할 수가 있는데   
-문제는 ss가 "axxbxx"같은 형태라면 "a", "", "b", "" 형태로 ""도 결과에 들어가게 됨  
-그러므로 ""는 무시하게 만들어줘야 할 필요가 있음  
-```C++
-    while(getline(ss, part, 'x')) {
-        if(part != "") answer.push_back(part);
-    }
-```
 
 
 ## 18. 재귀

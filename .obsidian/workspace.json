@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#내",
+                "query": "stringstream",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,8 +184,9 @@
   },
   "active": "deb3021d490e2fa7",
   "lastOpenFiles": [
-    "Notepad/코딩 습관들여야 할 것들.md",
+    "C++/Modern C++/stringstream.md",
     "Notepad/Today_Study 정리파일.md",
+    "Notepad/코딩 습관들여야 할 것들.md",
     "Notepad/노션 강의 정리.md",
     "Notepad/Notepad.md",
     "Notepad/mermaid 사용해보기.md",
@@ -210,7 +211,6 @@
     "CS 지식/소프트웨어공학/UML/상태 다이어그램.md",
     "CS 지식/소프트웨어공학/UML",
     "CS 지식/소프트웨어공학/UML/유스케이스 다이어그램.md",
-    "CS 지식/소프트웨어공학/UML/시퀀스 다이어그램.md",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145542.png",
     "CS 지식/소프트웨어공학",

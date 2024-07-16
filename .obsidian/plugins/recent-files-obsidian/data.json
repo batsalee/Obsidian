@@ -5,6 +5,10 @@
       "path": "Notepad/Today_Study 정리파일.md"
     },
     {
+      "basename": "stringstream",
+      "path": "C++/Modern C++/stringstream.md"
+    },
+    {
       "basename": "코딩 습관들여야 할 것들",
       "path": "Notepad/코딩 습관들여야 할 것들.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "세그먼트 트리(Segment Tree)",
       "path": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md"
-    },
-    {
-      "basename": "최단거리",
-      "path": "CS 지식/알고리즘/최단거리.md"
     }
   ],
   "omittedPaths": [],
