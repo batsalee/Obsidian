@@ -9,26 +9,7 @@ if(buffer != "") stoi(buffer);
 ```
 ★ 포인터나 문자열에 접근하기 전에는 항상 != null 사용하는 습관 들이기
 
-## 2. pair STL
-
-``` C++
-pair<int, int> ip;
-ip.first = 1;
-ip.second = 2; // 이런식으로 대입도 가능
-    
-cout << "ip.first : " << ip.first << ", ip.second : " << ip.second << endl;
- 
-pair<int, double> idp(1, 2.5); // 이런식으로초기화도 가능
-cout << "idp.first : " << idp.first << ", idp.second : " << idp.second << endl;
- 
-pair<string, int> sip;
-sip = make_pair("스트링", 10); // make_pair를 사용해 대입도 가능
-cout << "sip.first : " << sip.first << ", sip.second : " << sip.second << endl;
-```
-make_pair는 C++11버전이고 C++17이후로 {}를 쓰는 듯하다  
-{}를 써도 문제 없는걸로 보이니 둘 다 알아두기
-
-## 3. 메모리 공간
+## 2. 메모리 공간
 
 프로그램이 운영체제로부터 할당받는 메모리공간은 대표적으로 4가지  
 코드영역부터 낮은주소값에 위치하고, 스택영역이 가장 높은 주소에 위치  
@@ -38,7 +19,7 @@ make_pair는 C++11버전이고 C++17이후로 {}를 쓰는 듯하다
 3. 힙영역 : 동적할당영역(런타임에 크기가 결정됨, 낮은 주소에서 높은 주소 순으로 할당)
 4. 스택영역 : 지역변수, 매개변수(컴파일시에 크기가 결정됨, 높은 주소에서 낮은 주소 순으로 할당)
 
-## 4. 생성자
+## 3. 생성자
 #### 기본생성자
 생성자를 하나라도 정의하는 순간 디폴트생성자는 생성되지 않게 돼서 다 구현해줘야 하는 불편함이 있었는데  
 ``` C++
