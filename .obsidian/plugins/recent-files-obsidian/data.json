@@ -5,6 +5,14 @@
       "path": "Notepad/Today_Study 정리파일.md"
     },
     {
+      "basename": "싱글턴",
+      "path": "CS 지식/디자인패턴/생성패턴/싱글턴.md"
+    },
+    {
+      "basename": "우측값 레퍼런스와 좌측값의 이동",
+      "path": "C++/Modern C++/우측값 레퍼런스와 좌측값의 이동.md"
+    },
+    {
       "basename": "Algorithm",
       "path": "C++/C++ STL/Algorithm/Algorithm.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "세그먼트 트리, 펜윅 트리",
       "path": "CS 지식/알고리즘/세그먼트 트리, 펜윅 트리.md"
-    },
-    {
-      "basename": "펜윅 트리(Fenwick Tree)",
-      "path": "CS 지식/자료구조/심화 자료구조/펜윅 트리(Fenwick Tree).md"
-    },
-    {
-      "basename": "세그먼트 트리(Segment Tree)",
-      "path": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md"
     }
   ],
   "omittedPaths": [],
