@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "코딩 습관들여야 할 것들",
-      "path": "Notepad/코딩 습관들여야 할 것들.md"
+      "basename": "알고리즘 공부를 하다 보면 드는 생각",
+      "path": "공부 후기 및 고찰/알고리즘 공부를 하다 보면 드는 생각.md"
     },
     {
       "basename": "Today_Study 정리파일",
       "path": "Notepad/Today_Study 정리파일.md"
+    },
+    {
+      "basename": "Notepad",
+      "path": "Notepad/Notepad.md"
+    },
+    {
+      "basename": "mermaid 사용해보기",
+      "path": "Notepad/mermaid 사용해보기.md"
     },
     {
       "basename": "노션 강의 정리",
@@ -27,14 +35,6 @@
     {
       "basename": "stringstream",
       "path": "C++/Modern C++/stringstream.md"
-    },
-    {
-      "basename": "Notepad",
-      "path": "Notepad/Notepad.md"
-    },
-    {
-      "basename": "mermaid 사용해보기",
-      "path": "Notepad/mermaid 사용해보기.md"
     },
     {
       "basename": "문서 작성 시 번호매기는 순서",
