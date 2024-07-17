@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "AI 시대에 내가 살아남을 수 있을까",
+      "path": "공부 후기 및 고찰/AI 시대에 내가 살아남을 수 있을까.md"
+    },
+    {
       "basename": "알고리즘 공부를 하다 보면 드는 생각",
       "path": "공부 후기 및 고찰/알고리즘 공부를 하다 보면 드는 생각.md"
+    },
+    {
+      "basename": "복잡도개념",
+      "path": "CS 지식/알고리즘/복잡도개념.md"
+    },
+    {
+      "basename": "알고리즘",
+      "path": "CS 지식/알고리즘/알고리즘.md"
     },
     {
       "basename": "백준 플래티넘 티어 달성 후기",
@@ -15,10 +27,6 @@
     {
       "basename": "디자인 패턴 공부 후기",
       "path": "공부 후기 및 고찰/디자인 패턴 공부 후기.md"
-    },
-    {
-      "basename": "AI 시대에 내가 살아남을 수 있을까",
-      "path": "공부 후기 및 고찰/AI 시대에 내가 살아남을 수 있을까.md"
     },
     {
       "basename": "Today_Study 정리파일",
@@ -161,20 +169,12 @@
       "path": "C++/Modern C++/Raw String Literal.md"
     },
     {
-      "basename": "알고리즘",
-      "path": "CS 지식/알고리즘/알고리즘.md"
-    },
-    {
       "basename": "위상정렬",
       "path": "CS 지식/알고리즘/위상정렬.md"
     },
     {
       "basename": "MST 알고리즘",
       "path": "CS 지식/알고리즘/MST 알고리즘.md"
-    },
-    {
-      "basename": "복잡도개념",
-      "path": "CS 지식/알고리즘/복잡도개념.md"
     },
     {
       "basename": "데스크탑 프로그램 GUI 프레임워크 정리",
