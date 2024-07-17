@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "자료형 범위",
+      "path": "C++/개념정리/자료형 범위.md"
+    },
+    {
+      "basename": "진법 변환",
+      "path": "수학적 지식/진법 변환.md"
+    },
+    {
+      "basename": "알파벳 개수",
+      "path": "수학적 지식/알파벳 개수.md"
+    },
+    {
+      "basename": "소수 여부 판별",
+      "path": "수학적 지식/소수 여부 판별.md"
+    },
+    {
+      "basename": "nCr",
+      "path": "수학적 지식/nCr.md"
+    },
+    {
+      "basename": "윤년",
+      "path": "수학적 지식/윤년.md"
+    },
+    {
+      "basename": "두 수의 합의 나머지",
+      "path": "수학적 지식/두 수의 합의 나머지.md"
+    },
+    {
+      "basename": "1~N까지 더하기",
+      "path": "수학적 지식/1~N까지 더하기.md"
+    },
+    {
+      "basename": "GCD, LCM",
+      "path": "수학적 지식/GCD, LCM.md"
+    },
+    {
+      "basename": "모스부호",
+      "path": "수학적 지식/모스부호.md"
+    },
+    {
+      "basename": "모듈러 연산의 분배법칙",
+      "path": "수학적 지식/모듈러 연산의 분배법칙.md"
+    },
+    {
+      "basename": "PinkWard",
+      "path": "프로젝트/PinkWard.md"
+    },
+    {
+      "basename": "오늘 뭐 먹지",
+      "path": "프로젝트/오늘 뭐 먹지.md"
+    },
+    {
       "basename": "나 혼자 산다",
       "path": "프로젝트/나 혼자 산다.md"
     },
@@ -147,58 +199,6 @@
     {
       "basename": "상태 다이어그램",
       "path": "CS 지식/소프트웨어공학/UML/상태 다이어그램.md"
-    },
-    {
-      "basename": "유스케이스 다이어그램",
-      "path": "CS 지식/소프트웨어공학/UML/유스케이스 다이어그램.md"
-    },
-    {
-      "basename": "시퀀스 다이어그램",
-      "path": "CS 지식/소프트웨어공학/UML/시퀀스 다이어그램.md"
-    },
-    {
-      "basename": "클래스 다이어그램",
-      "path": "CS 지식/소프트웨어공학/UML/클래스 다이어그램.md"
-    },
-    {
-      "basename": "소프트웨어 공학 용어",
-      "path": "CS 지식/소프트웨어공학/소프트웨어 공학 용어.md"
-    },
-    {
-      "basename": "스트레티지",
-      "path": "CS 지식/디자인패턴/행동패턴/스트레티지.md"
-    },
-    {
-      "basename": "string_view",
-      "path": "C++/Modern C++/string_view.md"
-    },
-    {
-      "basename": "Raw String Literal",
-      "path": "C++/Modern C++/Raw String Literal.md"
-    },
-    {
-      "basename": "위상정렬",
-      "path": "CS 지식/알고리즘/위상정렬.md"
-    },
-    {
-      "basename": "MST 알고리즘",
-      "path": "CS 지식/알고리즘/MST 알고리즘.md"
-    },
-    {
-      "basename": "데스크탑 프로그램 GUI 프레임워크 정리",
-      "path": "CS 지식/프로그래밍 지식/데스크탑 프로그램 GUI 프레임워크 정리.md"
-    },
-    {
-      "basename": "InfoManager",
-      "path": "프로젝트/InfoManager.md"
-    },
-    {
-      "basename": "오늘 뭐 먹지",
-      "path": "프로젝트/오늘 뭐 먹지.md"
-    },
-    {
-      "basename": "PinkWard",
-      "path": "프로젝트/PinkWard.md"
     }
   ],
   "omittedPaths": [],
