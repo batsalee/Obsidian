@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "자료형 범위",
-      "path": "C++/개념정리/자료형 범위.md"
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
+    },
+    {
+      "basename": "InfoManager",
+      "path": "프로젝트/InfoManager.md"
     },
     {
       "basename": "진법 변환",
       "path": "수학적 지식/진법 변환.md"
+    },
+    {
+      "basename": "자료형 범위",
+      "path": "C++/개념정리/자료형 범위.md"
     },
     {
       "basename": "알파벳 개수",
@@ -59,10 +67,6 @@
     {
       "basename": "PushPush",
       "path": "프로젝트/PushPush.md"
-    },
-    {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
     },
     {
       "basename": "백준 플래티넘 티어 달성 후기",
@@ -195,10 +199,6 @@
     {
       "basename": "활동 다이어그램",
       "path": "CS 지식/소프트웨어공학/UML/활동 다이어그램.md"
-    },
-    {
-      "basename": "상태 다이어그램",
-      "path": "CS 지식/소프트웨어공학/UML/상태 다이어그램.md"
     }
   ],
   "omittedPaths": [],
