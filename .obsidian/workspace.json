@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로젝트/TaskManager 리팩토링.md",
+                "file": "Notepad/Today_Study 정리파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프로젝트/TaskManager 리팩토링.md",
+                "file": "Notepad/Today_Study 정리파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프로젝트/TaskManager 리팩토링.md",
+                "file": "Notepad/Today_Study 정리파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "프로젝트/TaskManager 리팩토링.md"
+                "file": "Notepad/Today_Study 정리파일.md"
               }
             }
           },
@@ -184,6 +184,7 @@
   },
   "active": "deb3021d490e2fa7",
   "lastOpenFiles": [
+    "프로젝트/TaskManager 리팩토링.md",
     "Notepad/Today_Study 정리파일.md",
     "프로젝트/InfoManager.md",
     "수학적 지식/진법 변환.md",
@@ -209,7 +210,6 @@
     "공부 후기 및 고찰/알고리즘 공부를 하다 보면 드는 생각.md",
     "CS 지식/알고리즘/복잡도개념.md",
     "CS 지식/알고리즘/알고리즘.md",
-    "Notepad/Notepad.md",
     "CS 지식/소프트웨어공학/UML",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145542.png",
