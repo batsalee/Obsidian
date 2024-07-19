@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8536a9936956e94f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "프로젝트/TaskManager 리팩토링.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,7 +195,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "deb3021d490e2fa7",
+  "active": "8536a9936956e94f",
   "lastOpenFiles": [
     "Notepad/Today_Study 정리파일.md",
     "프로젝트/TaskManager 리팩토링.md",
