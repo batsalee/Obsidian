@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/자료구조/심화 자료구조/Hash Table.md",
+                "file": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/자료구조/심화 자료구조/Hash Table.md",
+                "file": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/자료구조/심화 자료구조/Hash Table.md",
+                "file": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/자료구조/심화 자료구조/Hash Table.md"
+                "file": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md"
               }
             }
           },
@@ -197,6 +197,8 @@
   },
   "active": "8536a9936956e94f",
   "lastOpenFiles": [
+    "CS 지식/자료구조/심화 자료구조/신장 트리, 최소 신장 트리.md",
+    "CS 지식/자료구조/심화 자료구조/Hash Table.md",
     "CS 지식/자료구조/심화 자료구조/Heap.md",
     "CS 지식/자료구조/비선형 구조/그래프.md",
     "CS 지식/자료구조/contents/Pasted image 20231130113849.png",
@@ -222,8 +224,6 @@
     "CS 지식/프로그래밍 지식/헝가리안 표기법.md",
     "CS 지식/프로그래밍 지식/아스키코드.md",
     "CS 지식/프로그래밍 지식/CamelCase, snake_case.md",
-    "CS 지식/프로그래밍 지식/정규표현식.md",
-    "프로젝트/TaskManager 리팩토링.md",
     "CS 지식/소프트웨어공학/UML",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145542.png",
