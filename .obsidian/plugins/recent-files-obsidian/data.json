@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "GitHub",
+      "path": "CS 지식/Git & GitHub/GitHub.md"
+    },
+    {
       "basename": "Git",
       "path": "CS 지식/Git & GitHub/Git.md"
+    },
+    {
+      "basename": "GitHub에 이미지 올리는 법",
+      "path": "CS 지식/Git & GitHub/GitHub에 이미지 올리는 법.md"
     },
     {
       "basename": "DLL(Dynamic Link Library)",
@@ -191,14 +199,6 @@
     {
       "basename": "마크다운 문법 정리",
       "path": "Hello Obsidian/마크다운 문법 정리.md"
-    },
-    {
-      "basename": "Hello Obsidian",
-      "path": "Hello Obsidian/Hello Obsidian.md"
-    },
-    {
-      "basename": "Protected",
-      "path": "Protected/Protected.md"
     }
   ],
   "omittedPaths": [],

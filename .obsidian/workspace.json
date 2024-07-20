@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/Git & GitHub/Git.md",
+                "file": "CS 지식/Git & GitHub/GitHub.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/Git & GitHub/Git.md",
+                "file": "CS 지식/Git & GitHub/GitHub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/Git & GitHub/Git.md",
+                "file": "CS 지식/Git & GitHub/GitHub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/Git & GitHub/Git.md"
+                "file": "CS 지식/Git & GitHub/GitHub.md"
               }
             }
           },
@@ -197,6 +197,9 @@
   },
   "active": "8536a9936956e94f",
   "lastOpenFiles": [
+    "CS 지식/Git & GitHub/Git.md",
+    "CS 지식/Git & GitHub/GitHub.md",
+    "CS 지식/Git & GitHub/GitHub에 이미지 올리는 법.md",
     "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
     "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md",
     "CS 지식/프로그래밍 용어/메타데이터(meta-data).md",
@@ -220,9 +223,6 @@
     "수학적 지식/두 수의 합의 나머지.md",
     "수학적 지식/1~N까지 더하기.md",
     "수학적 지식/GCD, LCM.md",
-    "수학적 지식/모스부호.md",
-    "수학적 지식/모듈러 연산의 분배법칙.md",
-    "프로젝트/PinkWard.md",
     "CS 지식/소프트웨어공학/UML",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145542.png",
