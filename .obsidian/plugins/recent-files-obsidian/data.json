@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "트리",
-      "path": "CS 지식/자료구조/비선형 구조/트리.md"
+      "basename": "그래프",
+      "path": "CS 지식/자료구조/비선형 구조/그래프.md"
     },
     {
       "basename": "Pasted image 20231130113849",
       "path": "CS 지식/자료구조/contents/Pasted image 20231130113849.png"
+    },
+    {
+      "basename": "트리",
+      "path": "CS 지식/자료구조/비선형 구조/트리.md"
     },
     {
       "basename": "Priority_queue",
@@ -195,10 +199,6 @@
     {
       "basename": "복잡도개념",
       "path": "CS 지식/알고리즘/복잡도개념.md"
-    },
-    {
-      "basename": "알고리즘",
-      "path": "CS 지식/알고리즘/알고리즘.md"
     }
   ],
   "omittedPaths": [],
