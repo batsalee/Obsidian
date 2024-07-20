@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "서드 파티(Third Party)",
+      "path": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md"
+    },
+    {
+      "basename": "데스크탑 프로그램 GUI 프레임워크 정리",
+      "path": "CS 지식/프로그래밍 지식/데스크탑 프로그램 GUI 프레임워크 정리.md"
+    },
+    {
       "basename": "메모리와 캐시",
       "path": "CS 지식/프로그래밍 지식/메모리와 캐시.md"
     },
     {
       "basename": "bits stdc++.h",
       "path": "CS 지식/프로그래밍 지식/bits stdc++.h.md"
-    },
-    {
-      "basename": "데스크탑 프로그램 GUI 프레임워크 정리",
-      "path": "CS 지식/프로그래밍 지식/데스크탑 프로그램 GUI 프레임워크 정리.md"
     },
     {
       "basename": "헝가리안 표기법",
@@ -195,10 +199,6 @@
     {
       "basename": "Uniform Initialization, initializer_list",
       "path": "C++/Modern C++/Uniform Initialization, initializer_list.md"
-    },
-    {
-      "basename": "functional과 Callable",
-      "path": "C++/Modern C++/functional과 Callable.md"
     }
   ],
   "omittedPaths": [],

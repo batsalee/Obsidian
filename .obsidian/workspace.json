@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/프로그래밍 지식/메모리와 캐시.md",
+                "file": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/프로그래밍 지식/메모리와 캐시.md",
+                "file": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/프로그래밍 지식/메모리와 캐시.md",
+                "file": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/프로그래밍 지식/메모리와 캐시.md"
+                "file": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md"
               }
             }
           },
@@ -197,9 +197,9 @@
   },
   "active": "8536a9936956e94f",
   "lastOpenFiles": [
-    "CS 지식/프로그래밍 지식/bits stdc++.h.md",
-    "CS 지식/프로그래밍 지식/메모리와 캐시.md",
     "CS 지식/프로그래밍 지식/데스크탑 프로그램 GUI 프레임워크 정리.md",
+    "CS 지식/프로그래밍 지식/메모리와 캐시.md",
+    "CS 지식/프로그래밍 지식/bits stdc++.h.md",
     "CS 지식/프로그래밍 지식/헝가리안 표기법.md",
     "CS 지식/프로그래밍 지식/아스키코드.md",
     "CS 지식/프로그래밍 지식/CamelCase, snake_case.md",
