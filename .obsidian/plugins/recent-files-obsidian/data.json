@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "DLL(Dynamic Link Library)",
+      "path": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
+    },
+    {
+      "basename": "콜백함수(Callback Func)",
+      "path": "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md"
+    },
+    {
+      "basename": "메타데이터(meta-data)",
+      "path": "CS 지식/프로그래밍 용어/메타데이터(meta-data).md"
+    },
+    {
       "basename": "서드 파티(Third Party)",
       "path": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "thread",
       "path": "C++/Modern C++/thread.md"
-    },
-    {
-      "basename": "decltype, declval, value category",
-      "path": "C++/Modern C++/decltype, declval, value category.md"
-    },
-    {
-      "basename": "constexpr",
-      "path": "C++/Modern C++/constexpr.md"
-    },
-    {
-      "basename": "Uniform Initialization, initializer_list",
-      "path": "C++/Modern C++/Uniform Initialization, initializer_list.md"
     }
   ],
   "omittedPaths": [],

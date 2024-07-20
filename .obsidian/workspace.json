@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md",
+                "file": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md",
+                "file": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md",
+                "file": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md"
+                "file": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
               }
             }
           },
@@ -197,6 +197,9 @@
   },
   "active": "8536a9936956e94f",
   "lastOpenFiles": [
+    "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md",
+    "CS 지식/프로그래밍 용어/메타데이터(meta-data).md",
+    "CS 지식/프로그래밍 용어/서드 파티(Third Party).md",
     "CS 지식/프로그래밍 지식/데스크탑 프로그램 GUI 프레임워크 정리.md",
     "CS 지식/프로그래밍 지식/메모리와 캐시.md",
     "CS 지식/프로그래밍 지식/bits stdc++.h.md",
@@ -220,9 +223,6 @@
     "수학적 지식/모듈러 연산의 분배법칙.md",
     "프로젝트/PinkWard.md",
     "프로젝트/오늘 뭐 먹지.md",
-    "프로젝트/나 혼자 산다.md",
-    "프로젝트/PushPush.md",
-    "공부 후기 및 고찰/백준 플래티넘 티어 달성 후기.md",
     "CS 지식/소프트웨어공학/UML",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145542.png",
