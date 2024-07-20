@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/자료구조/자료구조.md",
+                "file": "CS 지식/자료구조/선형 구조/Queue.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/자료구조/자료구조.md",
+                "file": "CS 지식/자료구조/선형 구조/Queue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/자료구조/자료구조.md",
+                "file": "CS 지식/자료구조/선형 구조/Queue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/자료구조/자료구조.md"
+                "file": "CS 지식/자료구조/선형 구조/Queue.md"
               }
             }
           },
@@ -197,6 +197,12 @@
   },
   "active": "8536a9936956e94f",
   "lastOpenFiles": [
+    "CS 지식/자료구조/선형 구조/Stack.md",
+    "CS 지식/자료구조/선형 구조/deque.md",
+    "CS 지식/자료구조/선형 구조/list.md",
+    "CS 지식/자료구조/선형 구조/배열.md",
+    "CS 지식/자료구조/자료구조.md",
+    "CS 지식/자료구조/심화 자료구조/펜윅 트리(Fenwick Tree).md",
     "CS 지식/Git & GitHub/GitHub.md",
     "CS 지식/Git & GitHub/Git.md",
     "CS 지식/Git & GitHub/GitHub에 이미지 올리는 법.md",
@@ -217,12 +223,6 @@
     "수학적 지식/진법 변환.md",
     "C++/개념정리/자료형 범위.md",
     "수학적 지식/알파벳 개수.md",
-    "수학적 지식/소수 여부 판별.md",
-    "수학적 지식/nCr.md",
-    "수학적 지식/윤년.md",
-    "수학적 지식/두 수의 합의 나머지.md",
-    "수학적 지식/1~N까지 더하기.md",
-    "수학적 지식/GCD, LCM.md",
     "CS 지식/소프트웨어공학/UML",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145542.png",

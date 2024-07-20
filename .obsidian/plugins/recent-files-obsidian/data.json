@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Queue",
+      "path": "CS 지식/자료구조/선형 구조/Queue.md"
+    },
+    {
+      "basename": "Stack",
+      "path": "CS 지식/자료구조/선형 구조/Stack.md"
+    },
+    {
+      "basename": "deque",
+      "path": "CS 지식/자료구조/선형 구조/deque.md"
+    },
+    {
+      "basename": "list",
+      "path": "CS 지식/자료구조/선형 구조/list.md"
+    },
+    {
+      "basename": "배열",
+      "path": "CS 지식/자료구조/선형 구조/배열.md"
+    },
+    {
       "basename": "자료구조",
       "path": "CS 지식/자료구조/자료구조.md"
+    },
+    {
+      "basename": "펜윅 트리(Fenwick Tree)",
+      "path": "CS 지식/자료구조/심화 자료구조/펜윅 트리(Fenwick Tree).md"
     },
     {
       "basename": "GitHub",
@@ -175,30 +199,6 @@
     {
       "basename": "노션 강의 정리",
       "path": "Notepad/노션 강의 정리.md"
-    },
-    {
-      "basename": "싱글턴",
-      "path": "CS 지식/디자인패턴/생성패턴/싱글턴.md"
-    },
-    {
-      "basename": "우측값 레퍼런스와 좌측값의 이동",
-      "path": "C++/Modern C++/우측값 레퍼런스와 좌측값의 이동.md"
-    },
-    {
-      "basename": "Algorithm",
-      "path": "C++/C++ STL/Algorithm/Algorithm.md"
-    },
-    {
-      "basename": "stringstream",
-      "path": "C++/Modern C++/stringstream.md"
-    },
-    {
-      "basename": "문서 작성 시 번호매기는 순서",
-      "path": "Hello Obsidian/문서 작성 시 번호매기는 순서.md"
-    },
-    {
-      "basename": "옵시디언 티스토리 플러그인",
-      "path": "Hello Obsidian/옵시디언 티스토리 플러그인.md"
     }
   ],
   "omittedPaths": [],
