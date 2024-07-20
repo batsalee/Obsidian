@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Hash Table",
+      "path": "CS 지식/자료구조/심화 자료구조/Hash Table.md"
+    },
+    {
+      "basename": "Heap",
+      "path": "CS 지식/자료구조/심화 자료구조/Heap.md"
+    },
+    {
       "basename": "그래프",
       "path": "CS 지식/자료구조/비선형 구조/그래프.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "AI 시대에 내가 살아남을 수 있을까",
       "path": "공부 후기 및 고찰/AI 시대에 내가 살아남을 수 있을까.md"
-    },
-    {
-      "basename": "알고리즘 공부를 하다 보면 드는 생각",
-      "path": "공부 후기 및 고찰/알고리즘 공부를 하다 보면 드는 생각.md"
-    },
-    {
-      "basename": "복잡도개념",
-      "path": "CS 지식/알고리즘/복잡도개념.md"
     }
   ],
   "omittedPaths": [],
