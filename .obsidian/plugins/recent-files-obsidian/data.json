@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
+      "basename": "메모리와 캐시",
+      "path": "CS 지식/프로그래밍 지식/메모리와 캐시.md"
+    },
+    {
+      "basename": "bits stdc++.h",
+      "path": "CS 지식/프로그래밍 지식/bits stdc++.h.md"
+    },
+    {
+      "basename": "데스크탑 프로그램 GUI 프레임워크 정리",
+      "path": "CS 지식/프로그래밍 지식/데스크탑 프로그램 GUI 프레임워크 정리.md"
+    },
+    {
+      "basename": "헝가리안 표기법",
+      "path": "CS 지식/프로그래밍 지식/헝가리안 표기법.md"
+    },
+    {
+      "basename": "아스키코드",
+      "path": "CS 지식/프로그래밍 지식/아스키코드.md"
+    },
+    {
+      "basename": "CamelCase, snake_case",
+      "path": "CS 지식/프로그래밍 지식/CamelCase, snake_case.md"
+    },
+    {
+      "basename": "정규표현식",
+      "path": "CS 지식/프로그래밍 지식/정규표현식.md"
     },
     {
       "basename": "TaskManager 리팩토링",
       "path": "프로젝트/TaskManager 리팩토링.md"
+    },
+    {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
     },
     {
       "basename": "InfoManager",
@@ -157,10 +185,6 @@
       "path": "C++/Modern C++/thread.md"
     },
     {
-      "basename": "메모리와 캐시",
-      "path": "CS 지식/프로그래밍 지식/메모리와 캐시.md"
-    },
-    {
       "basename": "decltype, declval, value category",
       "path": "C++/Modern C++/decltype, declval, value category.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "functional과 Callable",
       "path": "C++/Modern C++/functional과 Callable.md"
-    },
-    {
-      "basename": "final",
-      "path": "C++/Modern C++/final.md"
-    },
-    {
-      "basename": "Modern C++",
-      "path": "C++/Modern C++/Modern C++.md"
-    },
-    {
-      "basename": "optional, variant, Structured binding",
-      "path": "C++/Modern C++/optional, variant, Structured binding.md"
-    },
-    {
-      "basename": "type_traits",
-      "path": "C++/Modern C++/type_traits.md"
-    },
-    {
-      "basename": "TaskManager",
-      "path": "프로젝트/TaskManager.md"
-    },
-    {
-      "basename": "활동 다이어그램",
-      "path": "CS 지식/소프트웨어공학/UML/활동 다이어그램.md"
     }
   ],
   "omittedPaths": [],
