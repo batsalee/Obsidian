@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "트리",
+      "path": "CS 지식/자료구조/비선형 구조/트리.md"
+    },
+    {
+      "basename": "Pasted image 20231130113849",
+      "path": "CS 지식/자료구조/contents/Pasted image 20231130113849.png"
+    },
+    {
+      "basename": "Priority_queue",
+      "path": "CS 지식/자료구조/선형 구조/Priority_queue.md"
+    },
+    {
       "basename": "Queue",
       "path": "CS 지식/자료구조/선형 구조/Queue.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "알고리즘",
       "path": "CS 지식/알고리즘/알고리즘.md"
-    },
-    {
-      "basename": "Notepad",
-      "path": "Notepad/Notepad.md"
-    },
-    {
-      "basename": "mermaid 사용해보기",
-      "path": "Notepad/mermaid 사용해보기.md"
-    },
-    {
-      "basename": "노션 강의 정리",
-      "path": "Notepad/노션 강의 정리.md"
     }
   ],
   "omittedPaths": [],

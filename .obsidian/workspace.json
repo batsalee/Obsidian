@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/자료구조/선형 구조/Queue.md",
+                "file": "CS 지식/자료구조/비선형 구조/트리.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/자료구조/선형 구조/Queue.md",
+                "file": "CS 지식/자료구조/비선형 구조/트리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/자료구조/선형 구조/Queue.md",
+                "file": "CS 지식/자료구조/비선형 구조/트리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/자료구조/선형 구조/Queue.md"
+                "file": "CS 지식/자료구조/비선형 구조/트리.md"
               }
             }
           },
@@ -197,6 +197,9 @@
   },
   "active": "8536a9936956e94f",
   "lastOpenFiles": [
+    "CS 지식/자료구조/contents/Pasted image 20231130113849.png",
+    "CS 지식/자료구조/선형 구조/Priority_queue.md",
+    "CS 지식/자료구조/선형 구조/Queue.md",
     "CS 지식/자료구조/선형 구조/Stack.md",
     "CS 지식/자료구조/선형 구조/deque.md",
     "CS 지식/자료구조/선형 구조/list.md",
@@ -220,14 +223,10 @@
     "프로젝트/TaskManager 리팩토링.md",
     "Notepad/Today_Study 정리파일.md",
     "프로젝트/InfoManager.md",
-    "수학적 지식/진법 변환.md",
-    "C++/개념정리/자료형 범위.md",
-    "수학적 지식/알파벳 개수.md",
     "CS 지식/소프트웨어공학/UML",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145542.png",
     "CS 지식/소프트웨어공학",
-    "CS 지식/자료구조/contents/Pasted image 20231130113849.png",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153756.png",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153714.png",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153604.png",
