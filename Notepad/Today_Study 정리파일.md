@@ -9,7 +9,7 @@ if(buffer != "") stoi(buffer);
 ```
 ★ 포인터나 문자열에 접근하기 전에는 항상 != null 사용하는 습관 들이기
 
-## 7. stoi와 atoi로 숫자 뽑아내기
+## 2. stoi와 atoi로 숫자 뽑아내기
 
 #### atoi
 첫 문자부터 확인해서 숫자가 아닌게 나올때까지 읽어서 반환해줌  
@@ -42,6 +42,13 @@ int* p = new int;
 
 delete p;
 p = nullptr;
+```
+
+```C++
+int* arr = new int[10]; // 배열의 경우 이렇게 선언
+
+delete[] arr; // 그리고 이렇게 할당 해제
+arr = nullptr;
 ```
 만약 마지막에 p값을 return해서 다른 함수로 반환해준다면 그 받은 함수에서만 delete해주면 같은 주소값이니 한번으로 해제되므로 여러번 해제할 필요 없다.  
 
