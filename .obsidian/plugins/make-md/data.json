@@ -92,12 +92,13 @@
       "C++/C++ STL/Iteraoter",
       "프로젝트/contents",
       "프로젝트/contents",
-      "CS 지식/자료구조/심화 자료구조",
       "CS 지식/소프트웨어공학/UML",
       "C++/Modern C++/Library",
       "CS 지식/디자인패턴/생성패턴",
       "CS 지식",
-      "C++"
+      "C++",
+      "CS 지식/자료구조",
+      "CS 지식/자료구조/선형 구조"
     ],
     "as": [
       "Hello Obsidian",

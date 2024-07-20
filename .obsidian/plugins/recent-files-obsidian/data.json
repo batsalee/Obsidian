@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "자료구조",
+      "path": "CS 지식/자료구조/자료구조.md"
+    },
+    {
       "basename": "GitHub",
       "path": "CS 지식/Git & GitHub/GitHub.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "옵시디언 티스토리 플러그인",
       "path": "Hello Obsidian/옵시디언 티스토리 플러그인.md"
-    },
-    {
-      "basename": "마크다운 문법 정리",
-      "path": "Hello Obsidian/마크다운 문법 정리.md"
     }
   ],
   "omittedPaths": [],
