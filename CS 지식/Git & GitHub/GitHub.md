@@ -37,7 +37,8 @@ git push -u origin main
 	로컬의 다운받을 위치의 폴더로 가서 우클릭 -> git bash 실행 -> git clone 주소 하면 복사 됨  
 
 3) .git 제외 내 github로 가져오는 법(fork)
-	접근 권한이 없는 다른 사람의 github의 코드를 내 깃허브로 복사해온 후 클론해서 로컬에서 변경 후 push하고 pull request하는 식으로 진행 가능
+	접근 권한이 없는 다른 사람의 github의 코드에 기여하고 싶을 때  
+	코드를 내 깃허브로 복사해온 후 Clone해서 로컬에서 변경 후 push하고 pull request하는 식으로 진행 가능
 > [!note] git pull과의 차이점
 > pull은 이미 코드 다운받은 상황에서 origin에서 변경된 내용만 받아오는 것, 위 두가지는 처음에 코드 다운받는 내용
 
