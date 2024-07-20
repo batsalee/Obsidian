@@ -194,7 +194,7 @@ bool operator==(MyString& str);
 static_cast<int>(float변수); //float을 int로 형변환
 ```
 
-## 9. 업캐스팅과 다운캐스팅
+## 12. 업캐스팅과 다운캐스팅
 #### 업캐스팅
 문제가 발생하지 않음  
 파생클래스에서 기반클래스로 캐스팅하는 것  
@@ -224,7 +224,7 @@ c는 애초에 파생클래스의 객체이므로 Derived* p_c = p_p;는 사실 
 ```
 단 위와 같이 가능한 경우에도 오류가 발생한다면 오류를 알려주도록 dynamic_cast를 사용
 
-## 11. 상속
+## 13. 상속
 #### virtual
 ``기반클래스* ap = &파생클래스객체;`` 처럼 선언할때 ap.func()를 하면 기반클래스의 함수가 사용되는데  
 그 이유는 기반클래스에는 파생클래스의 정보가 없으므로 파생클래스가 애초에 존재하는지  
@@ -261,7 +261,7 @@ override한다고 썼는데 기반클래스에 what이 없어서 override�
 하나의 메소드를 호출했음에도 그떄그때 다른 작업을 하는 것  
 오버로딩이나 오버라이딩에 의한 동적바인딩 같은 상황  
 
-## 12. cin 및 cin의 오류 관련
+## 14. cin 및 cin의 오류 관련
 #### cin
 cin의 4가지 상태  
 - good : 입출력 작업이 가능할 때  
@@ -293,14 +293,14 @@ hex외에도 boolalpha, left(왼쪽정렬), right(오른쪽정렬), endl, flush 
 
 precision은 정밀도  
 
-## 13. getline
+## 15. getline
 ```C++
 getline(cin, buf); // \n 바로 앞글자까지 받음, string라이브러리  
 getline(cin, buf, '+'); // + 바로 앞글자까지 받음('\n'도 다 저장하고 +들어와야만 끝남), 뒷 문자열 다 잘림 string라이브러리
 cin.getline(buf, bufsize, '+'); // + 바로 앞글자까지 받음('\n'도 다 저장하고 +들어와야만 끝남), iostream라이브러리
 ```
 
-## 14. template함수
+## 16. template함수
 1) 기본적인 형태의 template 함수  
 	add_num(변수); 로 쓰면 알아서 변수 자료형에 맞게 처리해줌  
 ``` C++
@@ -389,7 +389,7 @@ fold식은 반드시 (... + nums)처럼 괄호로 감싸야 한다
 
 ※ 참고문서 : https://modoocode.com/290
 
-## 15. using
+## 17. using
 
 C++ 11부턴 typedef보다 더 직관적인 using을 사용  
 ``typedef unsigned int UINT;``를 아래처럼  
@@ -399,7 +399,7 @@ C++ 11부턴 typedef보다 더 직관적인 using을 사용
 ``typedef void (*func)(int, int);`` 였다면  
 ``using func = void (*)(int, int);``로 사용 가능  
 
-## 16. 예외처리
+## 18. 예외처리
 예외란?  
 문법상에는 문제가 없지만 실행해보면 오류가 발생하는 정상적이지 않은 상황들  
 할당되지 않은 메모리에 접근하거나, 할당 할 수 없는 너무 큰 메모리를 할당 하는 등의 경우  
