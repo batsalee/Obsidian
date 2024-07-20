@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Git",
+      "path": "CS 지식/Git & GitHub/Git.md"
+    },
+    {
       "basename": "DLL(Dynamic Link Library)",
       "path": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Protected",
       "path": "Protected/Protected.md"
-    },
-    {
-      "basename": "thread",
-      "path": "C++/Modern C++/thread.md"
     }
   ],
   "omittedPaths": [],
