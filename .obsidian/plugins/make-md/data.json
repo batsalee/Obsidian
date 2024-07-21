@@ -74,7 +74,6 @@
       "contents",
       "CS 지식/Git",
       "자료구조",
-      "C++/C++ STL/Algorithm",
       "C++/contents",
       "일기장/공부",
       "일기장/프로젝트",
@@ -86,7 +85,6 @@
       "일기장/공부",
       "일기장/취미",
       "C++/Modern C++/개념",
-      "C++/C++ STL/Algorithm",
       "프로젝트/contents",
       "프로젝트/contents",
       "CS 지식/소프트웨어공학/UML",
@@ -95,7 +93,9 @@
       "C++",
       "C++/C++ STL",
       "C++/C++ STL/Container",
-      "C++/C++ STL/Container/연관 컨테이너"
+      "C++/C++ STL/Container/연관 컨테이너",
+      "C++/C++ STL/Container/해시 컨테이너",
+      "C++/C++ STL/Container/컨테이너 어댑터"
     ],
     "as": [
       "Hello Obsidian",
