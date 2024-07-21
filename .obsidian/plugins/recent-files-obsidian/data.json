@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "시퀀스 다이어그램",
+      "path": "CS 지식/소프트웨어공학/UML/시퀀스 다이어그램.md"
+    },
+    {
+      "basename": "클래스 다이어그램",
+      "path": "CS 지식/소프트웨어공학/UML/클래스 다이어그램.md"
+    },
+    {
       "basename": "객체지향의 원칙",
       "path": "CS 지식/소프트웨어공학/객체지향의 원칙.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Container",
       "path": "C++/C++ STL/Container/Container.md"
-    },
-    {
-      "basename": "STL",
-      "path": "C++/C++ STL/STL.md"
-    },
-    {
-      "basename": "알고리즘",
-      "path": "CS 지식/알고리즘/알고리즘.md"
     }
   ],
   "omittedPaths": [],
