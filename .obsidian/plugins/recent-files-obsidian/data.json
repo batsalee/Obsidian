@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Iterator",
+      "path": "C++/C++ STL/Iteraoter/Iterator.md"
+    },
+    {
+      "basename": "연관 컨테이너",
+      "path": "C++/C++ STL/Container/연관 컨테이너/연관 컨테이너.md"
+    },
+    {
+      "basename": "int와 long의 차이",
+      "path": "C++/개념정리/int와 long의 차이.md"
+    },
+    {
+      "basename": "STL Container의 크기 고찰",
+      "path": "C++/개념정리/STL Container의 크기 고찰.md"
+    },
+    {
       "basename": "C++ 예외의 종류",
       "path": "C++/개념정리/C++ 예외의 종류.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Git",
       "path": "CS 지식/Git & GitHub/Git.md"
-    },
-    {
-      "basename": "GitHub에 이미지 올리는 법",
-      "path": "CS 지식/Git & GitHub/GitHub에 이미지 올리는 법.md"
-    },
-    {
-      "basename": "DLL(Dynamic Link Library)",
-      "path": "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md"
-    },
-    {
-      "basename": "콜백함수(Callback Func)",
-      "path": "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md"
-    },
-    {
-      "basename": "메타데이터(meta-data)",
-      "path": "CS 지식/프로그래밍 용어/메타데이터(meta-data).md"
     }
   ],
   "omittedPaths": [],

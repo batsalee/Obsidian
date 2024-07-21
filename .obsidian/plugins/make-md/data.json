@@ -76,7 +76,6 @@
       "자료구조",
       "C++/C++ STL/Algorithm",
       "C++/contents",
-      "C++/개념정리/contents",
       "일기장/공부",
       "일기장/프로젝트",
       "일기장/프로젝트/contents",
@@ -97,8 +96,7 @@
       "C++",
       "C++/C++ STL",
       "C++/C++ STL/Container",
-      "C++/C++ STL/Container/연관 컨테이너",
-      "C++/개념정리"
+      "C++/C++ STL/Container/연관 컨테이너"
     ],
     "as": [
       "Hello Obsidian",
