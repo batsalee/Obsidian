@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "세그먼트 트리(Segment Tree)",
-      "path": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md"
-    },
-    {
       "basename": "펜윅 트리(Fenwick Tree)",
       "path": "CS 지식/자료구조/심화 자료구조/펜윅 트리(Fenwick Tree).md"
+    },
+    {
+      "basename": "세그먼트 트리(Segment Tree)",
+      "path": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md"
     },
     {
       "basename": "신장 트리, 최소 신장 트리",
