@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/자료구조/심화 자료구조/펜윅 트리(Fenwick Tree).md",
+                "file": "CS 지식/알고리즘/알고리즘.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/자료구조/심화 자료구조/펜윅 트리(Fenwick Tree).md",
+                "file": "CS 지식/알고리즘/알고리즘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/자료구조/심화 자료구조/펜윅 트리(Fenwick Tree).md",
+                "file": "CS 지식/알고리즘/알고리즘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/자료구조/심화 자료구조/펜윅 트리(Fenwick Tree).md"
+                "file": "CS 지식/알고리즘/알고리즘.md"
               }
             }
           },
@@ -197,8 +197,8 @@
   },
   "active": "8536a9936956e94f",
   "lastOpenFiles": [
-    "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md",
     "CS 지식/자료구조/심화 자료구조/펜윅 트리(Fenwick Tree).md",
+    "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md",
     "CS 지식/자료구조/심화 자료구조/신장 트리, 최소 신장 트리.md",
     "CS 지식/자료구조/심화 자료구조/Hash Table.md",
     "CS 지식/자료구조/심화 자료구조/Heap.md",

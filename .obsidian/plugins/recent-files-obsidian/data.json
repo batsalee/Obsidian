@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "알고리즘",
+      "path": "CS 지식/알고리즘/알고리즘.md"
+    },
+    {
       "basename": "펜윅 트리(Fenwick Tree)",
       "path": "CS 지식/자료구조/심화 자료구조/펜윅 트리(Fenwick Tree).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "70주간의 1일 1커밋 후기",
       "path": "공부 후기 및 고찰/70주간의 1일 1커밋 후기.md"
-    },
-    {
-      "basename": "객체지향의 원칙",
-      "path": "CS 지식/소프트웨어공학/객체지향의 원칙.md"
     }
   ],
   "omittedPaths": [],
