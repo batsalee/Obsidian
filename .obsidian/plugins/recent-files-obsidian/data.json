@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "소수 여부 판별",
+      "path": "C++/Code Keeping/소수 여부 판별.md"
+    },
+    {
+      "basename": "DLL(Dynamic Link Library)",
+      "path": "C++/Code Keeping/DLL(Dynamic Link Library).md"
+    },
+    {
+      "basename": "nCr",
+      "path": "C++/Code Keeping/nCr.md"
+    },
+    {
+      "basename": "sqrt, pow",
+      "path": "C++/Code Keeping/sqrt, pow.md"
+    },
+    {
+      "basename": "CodingTestFrame",
+      "path": "C++/Code Keeping/CodingTestFrame.md"
+    },
+    {
+      "basename": "MySQL 연동",
+      "path": "C++/Code Keeping/MySQL 연동.md"
+    },
+    {
+      "basename": "accumulate",
+      "path": "C++/Code Keeping/accumulate.md"
+    },
+    {
+      "basename": "3개이상 max, min",
+      "path": "C++/Code Keeping/3개이상 max, min.md"
+    },
+    {
       "basename": "deque",
       "path": "C++/C++ STL/Container/시퀀스 컨테이너/deque.md"
     },
@@ -167,38 +199,6 @@
     {
       "basename": "Today_Study 정리파일",
       "path": "Notepad/Today_Study 정리파일.md"
-    },
-    {
-      "basename": "InfoManager",
-      "path": "프로젝트/InfoManager.md"
-    },
-    {
-      "basename": "진법 변환",
-      "path": "수학적 지식/진법 변환.md"
-    },
-    {
-      "basename": "자료형 범위",
-      "path": "C++/개념정리/자료형 범위.md"
-    },
-    {
-      "basename": "알파벳 개수",
-      "path": "수학적 지식/알파벳 개수.md"
-    },
-    {
-      "basename": "소수 여부 판별",
-      "path": "수학적 지식/소수 여부 판별.md"
-    },
-    {
-      "basename": "nCr",
-      "path": "수학적 지식/nCr.md"
-    },
-    {
-      "basename": "윤년",
-      "path": "수학적 지식/윤년.md"
-    },
-    {
-      "basename": "두 수의 합의 나머지",
-      "path": "수학적 지식/두 수의 합의 나머지.md"
     }
   ],
   "omittedPaths": [],

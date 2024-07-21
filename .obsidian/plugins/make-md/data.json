@@ -88,7 +88,6 @@
       "일기장/취미",
       "C++/Modern C++/개념",
       "C++/C++ STL/Algorithm",
-      "C++/C++ STL/Container/시퀀스 컨테이너",
       "C++/C++ STL/Iteraoter",
       "프로젝트/contents",
       "프로젝트/contents",
@@ -97,7 +96,9 @@
       "CS 지식/디자인패턴/생성패턴",
       "C++",
       "C++/C++ STL",
-      "C++/C++ STL/Container"
+      "C++/C++ STL/Container",
+      "C++/C++ STL/Container/연관 컨테이너",
+      "C++/Code Keeping"
     ],
     "as": [
       "Hello Obsidian",
