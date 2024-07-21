@@ -5,6 +5,10 @@
       "path": "CS 지식/알고리즘/알고리즘.md"
     },
     {
+      "basename": "복잡도개념",
+      "path": "CS 지식/알고리즘/복잡도개념.md"
+    },
+    {
       "basename": "펜윅 트리(Fenwick Tree)",
       "path": "CS 지식/자료구조/심화 자료구조/펜윅 트리(Fenwick Tree).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "백준 플래티넘 티어 달성 후기",
       "path": "공부 후기 및 고찰/백준 플래티넘 티어 달성 후기.md"
-    },
-    {
-      "basename": "70주간의 1일 1커밋 후기",
-      "path": "공부 후기 및 고찰/70주간의 1일 1커밋 후기.md"
     }
   ],
   "omittedPaths": [],
