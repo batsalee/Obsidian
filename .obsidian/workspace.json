@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "ba2778a59448dc2b",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d0b42edfadd06f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76b0337def2bfeda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS 지식/소프트웨어공학/UML/활동 다이어그램.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f04464f93698917e",
+    "type": "split",
+    "children": [
+      {
+        "id": "108fafa316a90df0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5f6636e469017a8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ac77a984984a41b8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "initializer_list",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "444d57f0570de5f8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "e375788b9f7f9984",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "865fcff0f57ed8b2",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 309.5
+  },
+  "right": {
+    "id": "0aeebf3c0c27fdc4",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4c48beec8a8787f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c33e0cb92f56176d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CS 지식/소프트웨어공학/UML/활동 다이어그램.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ecbb9dd8a1dec49c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CS 지식/소프트웨어공학/UML/활동 다이어그램.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ba35e1ded9eb5e42",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "146c9216649bfe96",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CS 지식/소프트웨어공학/UML/활동 다이어그램.md"
+              }
+            }
+          },
+          {
+            "id": "8e9145508b0f8c3b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "6359081808810abc",
+            "type": "leaf",
+            "state": {
+              "type": "make-context-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "76b0337def2bfeda",
+  "lastOpenFiles": [
+    "CS 지식/소프트웨어공학/UML/상태 다이어그램.md",
+    "CS 지식/소프트웨어공학/UML/활동 다이어그램.md",
+    "CS 지식/소프트웨어공학/UML/유스케이스 다이어그램.md",
+    "CS 지식/소프트웨어공학/UML/시퀀스 다이어그램.md",
+    "CS 지식/소프트웨어공학/UML/클래스 다이어그램.md",
+    "CS 지식/소프트웨어공학/객체지향의 원칙.md",
+    "CS 지식/소프트웨어공학/소프트웨어 공학 용어.md",
+    "C++/C++ STL/Container/컨테이너 어댑터/priority_queue.md",
+    "C++/C++ STL/Container/컨테이너 어댑터/queue.md",
+    "C++/C++ STL/Container/컨테이너 어댑터/stack.md",
+    "C++/C++ STL/Container/컨테이너 어댑터/컨테이너 어댑터.md",
+    "C++/C++ STL/Container/해시 컨테이너/unordered_multimap.md",
+    "프로젝트/TaskManager 리팩토링.md",
+    "C++/C++ STL/Container/해시 컨테이너/unordered_multiset.md",
+    "C++/C++ STL/Container/해시 컨테이너/unordered_map.md",
+    "Protected/Protected.md",
+    "C++/C++ STL/Container/해시 컨테이너/unordered_set.md",
+    "C++/C++ STL/Container/해시 컨테이너/해시 컨테이너.md",
+    "C++/C++ STL/Container/연관 컨테이너/multimap.md",
+    "C++/C++ STL/Container/연관 컨테이너/multiset.md",
+    "C++/C++ STL/Container/연관 컨테이너/map.md",
+    "C++/C++ STL/Container/연관 컨테이너/set.md",
+    "C++/C++ STL/Container/연관 컨테이너/연관 컨테이너.md",
+    "C++/C++ STL/Algorithm/Algorithm.md",
+    "C++/C++ STL/Iteraoter/Iterator.md",
+    "C++/개념정리/int와 long의 차이.md",
+    "CS 지식/자료구조/contents/Pasted image 20231130113849.png",
+    "CS 지식/소프트웨어공학/UML",
+    "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png",
+    "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145542.png",
+    "CS 지식/소프트웨어공학",
+    "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153756.png",
+    "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153714.png",
+    "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153604.png",
+    "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153529.png",
+    "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153143.png",
+    "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130153325.png",
+    "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130152029.png",
+    "공부 후기 및 고찰/gui글",
+    "공부 후기 및 고찰/ai글",
+    "프로젝트/contents",
+    "C++/Modern C++/contents",
+    "C++/Modern C++/개념",
+    "C++/Modern C++/Keyword",
+    "CS 지식/디자인패턴/생성패턴/contents",
+    "CS 지식/디자인패턴/구조패턴/contents",
+    "무제 파일.canvas"
+  ]
+}
