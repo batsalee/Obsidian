@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "map",
+      "path": "C++/C++ STL/Container/연관 컨테이너/map.md"
+    },
+    {
+      "basename": "set",
+      "path": "C++/C++ STL/Container/연관 컨테이너/set.md"
+    },
+    {
       "basename": "연관 컨테이너",
       "path": "C++/C++ STL/Container/연관 컨테이너/연관 컨테이너.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "배열",
       "path": "CS 지식/자료구조/선형 구조/배열.md"
-    },
-    {
-      "basename": "자료구조",
-      "path": "CS 지식/자료구조/자료구조.md"
-    },
-    {
-      "basename": "GitHub",
-      "path": "CS 지식/Git & GitHub/GitHub.md"
     }
   ],
   "omittedPaths": [],
