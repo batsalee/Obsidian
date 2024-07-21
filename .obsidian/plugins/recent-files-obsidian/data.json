@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "상태 다이어그램",
+      "path": "CS 지식/소프트웨어공학/UML/상태 다이어그램.md"
+    },
+    {
+      "basename": "유스케이스 다이어그램",
+      "path": "CS 지식/소프트웨어공학/UML/유스케이스 다이어그램.md"
+    },
+    {
       "basename": "시퀀스 다이어그램",
       "path": "CS 지식/소프트웨어공학/UML/시퀀스 다이어그램.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Uniform Initialization, initializer_list",
       "path": "C++/Modern C++/Uniform Initialization, initializer_list.md"
-    },
-    {
-      "basename": "시퀀스 컨테이너",
-      "path": "C++/C++ STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md"
-    },
-    {
-      "basename": "Container",
-      "path": "C++/C++ STL/Container/Container.md"
     }
   ],
   "omittedPaths": [],
