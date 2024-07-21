@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "list",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/list.md"
+    },
+    {
       "basename": "vector",
       "path": "C++/C++ STL/Container/시퀀스 컨테이너/vector.md"
     },
     {
       "basename": "array",
       "path": "C++/C++ STL/Container/시퀀스 컨테이너/array.md"
+    },
+    {
+      "basename": "forward_list",
+      "path": "C++/C++ STL/Container/시퀀스 컨테이너/forward_list.md"
     },
     {
       "basename": "Uniform Initialization, initializer_list",
@@ -191,14 +199,6 @@
     {
       "basename": "1~N까지 더하기",
       "path": "수학적 지식/1~N까지 더하기.md"
-    },
-    {
-      "basename": "GCD, LCM",
-      "path": "수학적 지식/GCD, LCM.md"
-    },
-    {
-      "basename": "모스부호",
-      "path": "수학적 지식/모스부호.md"
     }
   ],
   "omittedPaths": [],
