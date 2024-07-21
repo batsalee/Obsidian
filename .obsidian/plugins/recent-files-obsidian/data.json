@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Algorithm",
+      "path": "C++/C++ STL/Algorithm/Algorithm.md"
+    },
+    {
       "basename": "Iterator",
       "path": "C++/C++ STL/Iteraoter/Iterator.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "GitHub",
       "path": "CS 지식/Git & GitHub/GitHub.md"
-    },
-    {
-      "basename": "Git",
-      "path": "CS 지식/Git & GitHub/Git.md"
     }
   ],
   "omittedPaths": [],
