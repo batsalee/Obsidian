@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "객체지향의 원칙",
+      "path": "CS 지식/소프트웨어공학/객체지향의 원칙.md"
+    },
+    {
+      "basename": "소프트웨어 공학 용어",
+      "path": "CS 지식/소프트웨어공학/소프트웨어 공학 용어.md"
+    },
+    {
+      "basename": "priority_queue",
+      "path": "C++/C++ STL/Container/컨테이너 어댑터/priority_queue.md"
+    },
+    {
+      "basename": "queue",
+      "path": "C++/C++ STL/Container/컨테이너 어댑터/queue.md"
+    },
+    {
+      "basename": "stack",
+      "path": "C++/C++ STL/Container/컨테이너 어댑터/stack.md"
+    },
+    {
+      "basename": "컨테이너 어댑터",
+      "path": "C++/C++ STL/Container/컨테이너 어댑터/컨테이너 어댑터.md"
+    },
+    {
+      "basename": "unordered_multimap",
+      "path": "C++/C++ STL/Container/해시 컨테이너/unordered_multimap.md"
+    },
+    {
+      "basename": "TaskManager 리팩토링",
+      "path": "프로젝트/TaskManager 리팩토링.md"
+    },
+    {
+      "basename": "unordered_multiset",
+      "path": "C++/C++ STL/Container/해시 컨테이너/unordered_multiset.md"
+    },
+    {
       "basename": "unordered_map",
       "path": "C++/C++ STL/Container/해시 컨테이너/unordered_map.md"
     },
@@ -163,42 +199,6 @@
     {
       "basename": "알고리즘",
       "path": "CS 지식/알고리즘/알고리즘.md"
-    },
-    {
-      "basename": "복잡도개념",
-      "path": "CS 지식/알고리즘/복잡도개념.md"
-    },
-    {
-      "basename": "펜윅 트리(Fenwick Tree)",
-      "path": "CS 지식/자료구조/심화 자료구조/펜윅 트리(Fenwick Tree).md"
-    },
-    {
-      "basename": "세그먼트 트리(Segment Tree)",
-      "path": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md"
-    },
-    {
-      "basename": "신장 트리, 최소 신장 트리",
-      "path": "CS 지식/자료구조/심화 자료구조/신장 트리, 최소 신장 트리.md"
-    },
-    {
-      "basename": "Hash Table",
-      "path": "CS 지식/자료구조/심화 자료구조/Hash Table.md"
-    },
-    {
-      "basename": "Heap",
-      "path": "CS 지식/자료구조/심화 자료구조/Heap.md"
-    },
-    {
-      "basename": "그래프",
-      "path": "CS 지식/자료구조/비선형 구조/그래프.md"
-    },
-    {
-      "basename": "Pasted image 20231130113849",
-      "path": "CS 지식/자료구조/contents/Pasted image 20231130113849.png"
-    },
-    {
-      "basename": "트리",
-      "path": "CS 지식/자료구조/비선형 구조/트리.md"
     }
   ],
   "omittedPaths": [],

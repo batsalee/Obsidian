@@ -96,7 +96,7 @@ struct cmp
 		} 
 	}; 
 	
-std::priority_queue<int, std::vector<int>, cmp> pq3;
+std::priority_queue<int, std::vector<int>, cmp()> pq3;
 ```
 
 

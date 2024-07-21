@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "62870b69749a79ee",
+        "id": "2d0b42edfadd06f2",
         "type": "tabs",
         "children": [
           {
-            "id": "deb3021d490e2fa7",
+            "id": "76b0337def2bfeda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로젝트/TaskManager 리팩토링.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8536a9936956e94f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/C++ STL/Container/해시 컨테이너/unordered_map.md",
+                "file": "CS 지식/소프트웨어공학/객체지향의 원칙.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/C++ STL/Container/해시 컨테이너/unordered_map.md",
+                "file": "CS 지식/소프트웨어공학/객체지향의 원칙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/C++ STL/Container/해시 컨테이너/unordered_map.md",
+                "file": "CS 지식/소프트웨어공학/객체지향의 원칙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/C++ STL/Container/해시 컨테이너/unordered_map.md"
+                "file": "CS 지식/소프트웨어공학/객체지향의 원칙.md"
               }
             }
           },
@@ -195,10 +182,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8536a9936956e94f",
+  "active": "76b0337def2bfeda",
   "lastOpenFiles": [
-    "Protected/Protected.md",
+    "CS 지식/소프트웨어공학/소프트웨어 공학 용어.md",
+    "C++/C++ STL/Container/컨테이너 어댑터/priority_queue.md",
+    "C++/C++ STL/Container/컨테이너 어댑터/queue.md",
+    "C++/C++ STL/Container/컨테이너 어댑터/stack.md",
+    "C++/C++ STL/Container/컨테이너 어댑터/컨테이너 어댑터.md",
+    "C++/C++ STL/Container/해시 컨테이너/unordered_multimap.md",
+    "프로젝트/TaskManager 리팩토링.md",
+    "C++/C++ STL/Container/해시 컨테이너/unordered_multiset.md",
     "C++/C++ STL/Container/해시 컨테이너/unordered_map.md",
+    "Protected/Protected.md",
     "C++/C++ STL/Container/해시 컨테이너/unordered_set.md",
     "C++/C++ STL/Container/해시 컨테이너/해시 컨테이너.md",
     "C++/C++ STL/Container/연관 컨테이너/multimap.md",
@@ -215,14 +210,6 @@
     "C++/연산자/typeid.md",
     "C++/연산자/abs.md",
     "C++/Code Keeping/GCD, LCM.md",
-    "C++/Code Keeping/윤년.md",
-    "C++/Code Keeping/진법 변환.md",
-    "C++/Code Keeping/cout 지수출력 방지.md",
-    "C++/Code Keeping/temp변수를 사용하지 않는 swap 구현.md",
-    "C++/Code Keeping/eof.md",
-    "C++/Code Keeping/소수 여부 판별.md",
-    "C++/Code Keeping/DLL(Dynamic Link Library).md",
-    "C++/Code Keeping/nCr.md",
     "CS 지식/자료구조/contents/Pasted image 20231130113849.png",
     "CS 지식/소프트웨어공학/UML",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png",
