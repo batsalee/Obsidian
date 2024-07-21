@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "unordered_map",
+      "path": "C++/C++ STL/Container/해시 컨테이너/unordered_map.md"
+    },
+    {
+      "basename": "Protected",
+      "path": "Protected/Protected.md"
+    },
+    {
+      "basename": "unordered_set",
+      "path": "C++/C++ STL/Container/해시 컨테이너/unordered_set.md"
+    },
+    {
+      "basename": "해시 컨테이너",
+      "path": "C++/C++ STL/Container/해시 컨테이너/해시 컨테이너.md"
+    },
+    {
+      "basename": "multimap",
+      "path": "C++/C++ STL/Container/연관 컨테이너/multimap.md"
+    },
+    {
+      "basename": "multiset",
+      "path": "C++/C++ STL/Container/연관 컨테이너/multiset.md"
+    },
+    {
       "basename": "map",
       "path": "C++/C++ STL/Container/연관 컨테이너/map.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "트리",
       "path": "CS 지식/자료구조/비선형 구조/트리.md"
-    },
-    {
-      "basename": "Priority_queue",
-      "path": "CS 지식/자료구조/선형 구조/Priority_queue.md"
-    },
-    {
-      "basename": "Queue",
-      "path": "CS 지식/자료구조/선형 구조/Queue.md"
-    },
-    {
-      "basename": "Stack",
-      "path": "CS 지식/자료구조/선형 구조/Stack.md"
-    },
-    {
-      "basename": "deque",
-      "path": "CS 지식/자료구조/선형 구조/deque.md"
-    },
-    {
-      "basename": "list",
-      "path": "CS 지식/자료구조/선형 구조/list.md"
-    },
-    {
-      "basename": "배열",
-      "path": "CS 지식/자료구조/선형 구조/배열.md"
     }
   ],
   "omittedPaths": [],
