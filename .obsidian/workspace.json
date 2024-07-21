@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/알고리즘/알고리즘.md",
+                "file": "C++/C++ STL/Container/시퀀스 컨테이너/array.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "long long 범위",
+                "query": "initializer_list",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/알고리즘/알고리즘.md",
+                "file": "C++/C++ STL/Container/시퀀스 컨테이너/array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/알고리즘/알고리즘.md",
+                "file": "C++/C++ STL/Container/시퀀스 컨테이너/array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/알고리즘/알고리즘.md"
+                "file": "C++/C++ STL/Container/시퀀스 컨테이너/array.md"
               }
             }
           },
@@ -197,8 +197,13 @@
   },
   "active": "8536a9936956e94f",
   "lastOpenFiles": [
-    "CS 지식/알고리즘/복잡도개념.md",
+    "C++/Modern C++/Uniform Initialization, initializer_list.md",
+    "C++/C++ STL/Container/시퀀스 컨테이너/array.md",
+    "C++/C++ STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md",
+    "C++/C++ STL/Container/Container.md",
+    "C++/C++ STL/STL.md",
     "CS 지식/알고리즘/알고리즘.md",
+    "CS 지식/알고리즘/복잡도개념.md",
     "CS 지식/자료구조/심화 자료구조/펜윅 트리(Fenwick Tree).md",
     "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md",
     "CS 지식/자료구조/심화 자료구조/신장 트리, 최소 신장 트리.md",
@@ -219,11 +224,6 @@
     "CS 지식/Git & GitHub/GitHub에 이미지 올리는 법.md",
     "CS 지식/프로그래밍 용어/DLL(Dynamic Link Library).md",
     "CS 지식/프로그래밍 용어/콜백함수(Callback Func).md",
-    "CS 지식/프로그래밍 용어/메타데이터(meta-data).md",
-    "CS 지식/프로그래밍 용어/서드 파티(Third Party).md",
-    "CS 지식/프로그래밍 지식/데스크탑 프로그램 GUI 프레임워크 정리.md",
-    "CS 지식/프로그래밍 지식/메모리와 캐시.md",
-    "CS 지식/프로그래밍 지식/bits stdc++.h.md",
     "CS 지식/소프트웨어공학/UML",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145542.png",
