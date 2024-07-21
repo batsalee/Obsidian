@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "C++ 예외의 종류",
+      "path": "C++/개념정리/C++ 예외의 종류.md"
+    },
+    {
+      "basename": "자료형 범위",
+      "path": "C++/개념정리/자료형 범위.md"
+    },
+    {
+      "basename": "typeid",
+      "path": "C++/연산자/typeid.md"
+    },
+    {
+      "basename": "abs",
+      "path": "C++/연산자/abs.md"
+    },
+    {
+      "basename": "GCD, LCM",
+      "path": "C++/Code Keeping/GCD, LCM.md"
+    },
+    {
+      "basename": "윤년",
+      "path": "C++/Code Keeping/윤년.md"
+    },
+    {
+      "basename": "진법 변환",
+      "path": "C++/Code Keeping/진법 변환.md"
+    },
+    {
+      "basename": "cout 지수출력 방지",
+      "path": "C++/Code Keeping/cout 지수출력 방지.md"
+    },
+    {
+      "basename": "temp변수를 사용하지 않는 swap 구현",
+      "path": "C++/Code Keeping/temp변수를 사용하지 않는 swap 구현.md"
+    },
+    {
+      "basename": "eof",
+      "path": "C++/Code Keeping/eof.md"
+    },
+    {
       "basename": "소수 여부 판별",
       "path": "C++/Code Keeping/소수 여부 판별.md"
     },
@@ -159,46 +199,6 @@
     {
       "basename": "메타데이터(meta-data)",
       "path": "CS 지식/프로그래밍 용어/메타데이터(meta-data).md"
-    },
-    {
-      "basename": "서드 파티(Third Party)",
-      "path": "CS 지식/프로그래밍 용어/서드 파티(Third Party).md"
-    },
-    {
-      "basename": "데스크탑 프로그램 GUI 프레임워크 정리",
-      "path": "CS 지식/프로그래밍 지식/데스크탑 프로그램 GUI 프레임워크 정리.md"
-    },
-    {
-      "basename": "메모리와 캐시",
-      "path": "CS 지식/프로그래밍 지식/메모리와 캐시.md"
-    },
-    {
-      "basename": "bits stdc++.h",
-      "path": "CS 지식/프로그래밍 지식/bits stdc++.h.md"
-    },
-    {
-      "basename": "헝가리안 표기법",
-      "path": "CS 지식/프로그래밍 지식/헝가리안 표기법.md"
-    },
-    {
-      "basename": "아스키코드",
-      "path": "CS 지식/프로그래밍 지식/아스키코드.md"
-    },
-    {
-      "basename": "CamelCase, snake_case",
-      "path": "CS 지식/프로그래밍 지식/CamelCase, snake_case.md"
-    },
-    {
-      "basename": "정규표현식",
-      "path": "CS 지식/프로그래밍 지식/정규표현식.md"
-    },
-    {
-      "basename": "TaskManager 리팩토링",
-      "path": "프로젝트/TaskManager 리팩토링.md"
-    },
-    {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
     }
   ],
   "omittedPaths": [],

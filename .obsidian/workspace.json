@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Code Keeping/소수 여부 판별.md",
+                "file": "C++/개념정리/C++ 예외의 종류.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Code Keeping/소수 여부 판별.md",
+                "file": "C++/개념정리/C++ 예외의 종류.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Code Keeping/소수 여부 판별.md",
+                "file": "C++/개념정리/C++ 예외의 종류.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Code Keeping/소수 여부 판별.md"
+                "file": "C++/개념정리/C++ 예외의 종류.md"
               }
             }
           },
@@ -197,6 +197,16 @@
   },
   "active": "8536a9936956e94f",
   "lastOpenFiles": [
+    "C++/개념정리/자료형 범위.md",
+    "C++/연산자/typeid.md",
+    "C++/연산자/abs.md",
+    "C++/Code Keeping/GCD, LCM.md",
+    "C++/Code Keeping/윤년.md",
+    "C++/Code Keeping/진법 변환.md",
+    "C++/Code Keeping/cout 지수출력 방지.md",
+    "C++/Code Keeping/temp변수를 사용하지 않는 swap 구현.md",
+    "C++/Code Keeping/eof.md",
+    "C++/Code Keeping/소수 여부 판별.md",
     "C++/Code Keeping/DLL(Dynamic Link Library).md",
     "C++/Code Keeping/nCr.md",
     "C++/Code Keeping/sqrt, pow.md",
@@ -213,17 +223,7 @@
     "C++/C++ STL/Container/시퀀스 컨테이너/시퀀스 컨테이너.md",
     "C++/C++ STL/Container/Container.md",
     "C++/C++ STL/STL.md",
-    "CS 지식/알고리즘/알고리즘.md",
-    "CS 지식/알고리즘/복잡도개념.md",
-    "CS 지식/자료구조/심화 자료구조/펜윅 트리(Fenwick Tree).md",
-    "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md",
-    "CS 지식/자료구조/심화 자료구조/신장 트리, 최소 신장 트리.md",
-    "CS 지식/자료구조/심화 자료구조/Hash Table.md",
-    "CS 지식/자료구조/심화 자료구조/Heap.md",
-    "CS 지식/자료구조/비선형 구조/그래프.md",
     "CS 지식/자료구조/contents/Pasted image 20231130113849.png",
-    "CS 지식/자료구조/비선형 구조/트리.md",
-    "CS 지식/자료구조/선형 구조/Priority_queue.md",
     "CS 지식/소프트웨어공학/UML",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145542.png",
