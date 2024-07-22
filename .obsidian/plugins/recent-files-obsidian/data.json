@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "구조패턴",
+      "path": "CS 지식/디자인패턴/구조패턴/구조패턴.md"
+    },
+    {
       "basename": "싱글턴",
       "path": "CS 지식/디자인패턴/생성패턴/싱글턴.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "CodingTestFrame",
       "path": "C++/Code Keeping/CodingTestFrame.md"
-    },
-    {
-      "basename": "MySQL 연동",
-      "path": "C++/Code Keeping/MySQL 연동.md"
     }
   ],
   "omittedPaths": [],

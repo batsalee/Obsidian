@@ -89,14 +89,12 @@
       "프로젝트/contents",
       "CS 지식/소프트웨어공학/UML",
       "C++/Modern C++/Library",
-      "CS 지식/디자인패턴/생성패턴",
       "C++/C++ STL/Container",
       "C++/C++ STL/Container/해시 컨테이너",
       "C++/C++ STL/Container/컨테이너 어댑터",
       "CS 지식/디자인패턴",
-      "CS 지식/디자인패턴/생성패턴",
       "CS 지식",
-      "CS 지식/디자인패턴/생성패턴"
+      "CS 지식/디자인패턴/구조패턴"
     ],
     "as": [
       "Hello Obsidian",
