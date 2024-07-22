@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "팩토리 메소드",
+      "path": "CS 지식/디자인패턴/생성패턴/팩토리 메소드.md"
+    },
+    {
+      "basename": "생성패턴",
+      "path": "CS 지식/디자인패턴/생성패턴/생성패턴.md"
+    },
+    {
       "basename": "디자인패턴",
       "path": "CS 지식/디자인패턴/디자인패턴.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "list",
       "path": "C++/C++ STL/Container/시퀀스 컨테이너/list.md"
-    },
-    {
-      "basename": "vector",
-      "path": "C++/C++ STL/Container/시퀀스 컨테이너/vector.md"
-    },
-    {
-      "basename": "array",
-      "path": "C++/C++ STL/Container/시퀀스 컨테이너/array.md"
     }
   ],
   "omittedPaths": [],
