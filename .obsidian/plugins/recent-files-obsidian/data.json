@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "TaskManager 리팩토링",
+      "path": "프로젝트/TaskManager 리팩토링.md"
+    },
+    {
       "basename": "디자인패턴",
       "path": "CS 지식/디자인패턴/디자인패턴.md"
     },
@@ -51,10 +55,6 @@
     {
       "basename": "unordered_multimap",
       "path": "C++/C++ STL/Container/해시 컨테이너/unordered_multimap.md"
-    },
-    {
-      "basename": "TaskManager 리팩토링",
-      "path": "프로젝트/TaskManager 리팩토링.md"
     },
     {
       "basename": "unordered_multiset",
