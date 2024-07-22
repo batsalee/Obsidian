@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "추상 팩토리",
+      "path": "CS 지식/디자인패턴/생성패턴/추상 팩토리.md"
+    },
+    {
       "basename": "팩토리 메소드",
       "path": "CS 지식/디자인패턴/생성패턴/팩토리 메소드.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "deque",
       "path": "C++/C++ STL/Container/시퀀스 컨테이너/deque.md"
-    },
-    {
-      "basename": "list",
-      "path": "C++/C++ STL/Container/시퀀스 컨테이너/list.md"
     }
   ],
   "omittedPaths": [],
