@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "프로토타입",
+      "path": "CS 지식/디자인패턴/생성패턴/프로토타입.md"
+    },
+    {
       "basename": "빌더",
       "path": "CS 지식/디자인패턴/생성패턴/빌더.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "accumulate",
       "path": "C++/Code Keeping/accumulate.md"
-    },
-    {
-      "basename": "3개이상 max, min",
-      "path": "C++/Code Keeping/3개이상 max, min.md"
     }
   ],
   "omittedPaths": [],
