@@ -5,6 +5,10 @@
       "path": "CS 지식/디자인패턴/행동패턴/행동패턴.md"
     },
     {
+      "basename": "TaskManager 리팩토링",
+      "path": "프로젝트/TaskManager 리팩토링.md"
+    },
+    {
       "basename": "비지터",
       "path": "CS 지식/디자인패턴/행동패턴/비지터.md"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "디자인패턴",
       "path": "CS 지식/디자인패턴/디자인패턴.md"
-    },
-    {
-      "basename": "TaskManager 리팩토링",
-      "path": "프로젝트/TaskManager 리팩토링.md"
     },
     {
       "basename": "싱글턴",
