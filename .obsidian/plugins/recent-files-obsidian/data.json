@@ -5,16 +5,52 @@
       "path": "CS 지식/디자인패턴/행동패턴/행동패턴.md"
     },
     {
-      "basename": "TaskManager 리팩토링",
-      "path": "프로젝트/TaskManager 리팩토링.md"
-    },
-    {
       "basename": "비지터",
       "path": "CS 지식/디자인패턴/행동패턴/비지터.md"
     },
     {
+      "basename": "템플릿 메서드",
+      "path": "CS 지식/디자인패턴/행동패턴/템플릿 메서드.md"
+    },
+    {
+      "basename": "스트레티지",
+      "path": "CS 지식/디자인패턴/행동패턴/스트레티지.md"
+    },
+    {
+      "basename": "스테이트",
+      "path": "CS 지식/디자인패턴/행동패턴/스테이트.md"
+    },
+    {
+      "basename": "옵저버",
+      "path": "CS 지식/디자인패턴/행동패턴/옵저버.md"
+    },
+    {
+      "basename": "메멘토",
+      "path": "CS 지식/디자인패턴/행동패턴/메멘토.md"
+    },
+    {
+      "basename": "미디에이터",
+      "path": "CS 지식/디자인패턴/행동패턴/미디에이터.md"
+    },
+    {
+      "basename": "이터레이터",
+      "path": "CS 지식/디자인패턴/행동패턴/이터레이터.md"
+    },
+    {
+      "basename": "커맨드",
+      "path": "CS 지식/디자인패턴/행동패턴/커맨드.md"
+    },
+    {
+      "basename": "인터프리터",
+      "path": "CS 지식/디자인패턴/행동패턴/인터프리터.md"
+    },
+    {
       "basename": "역할 사슬",
       "path": "CS 지식/디자인패턴/행동패턴/역할 사슬.md"
+    },
+    {
+      "basename": "TaskManager 리팩토링",
+      "path": "프로젝트/TaskManager 리팩토링.md"
     },
     {
       "basename": "데코레이터 패턴",
@@ -163,42 +199,6 @@
     {
       "basename": "연관 컨테이너",
       "path": "C++/C++ STL/Container/연관 컨테이너/연관 컨테이너.md"
-    },
-    {
-      "basename": "Algorithm",
-      "path": "C++/C++ STL/Algorithm/Algorithm.md"
-    },
-    {
-      "basename": "Iterator",
-      "path": "C++/C++ STL/Iteraoter/Iterator.md"
-    },
-    {
-      "basename": "int와 long의 차이",
-      "path": "C++/개념정리/int와 long의 차이.md"
-    },
-    {
-      "basename": "STL Container의 크기 고찰",
-      "path": "C++/개념정리/STL Container의 크기 고찰.md"
-    },
-    {
-      "basename": "C++ 예외의 종류",
-      "path": "C++/개념정리/C++ 예외의 종류.md"
-    },
-    {
-      "basename": "자료형 범위",
-      "path": "C++/개념정리/자료형 범위.md"
-    },
-    {
-      "basename": "typeid",
-      "path": "C++/연산자/typeid.md"
-    },
-    {
-      "basename": "abs",
-      "path": "C++/연산자/abs.md"
-    },
-    {
-      "basename": "GCD, LCM",
-      "path": "C++/Code Keeping/GCD, LCM.md"
     }
   ],
   "omittedPaths": [],
