@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
+    },
+    {
+      "basename": "Notepad",
+      "path": "Notepad/Notepad.md"
+    },
+    {
       "basename": "우측값 레퍼런스와 좌측값의 이동",
       "path": "C++/Modern C++/우측값 레퍼런스와 좌측값의 이동.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Protected",
       "path": "Protected/Protected.md"
-    },
-    {
-      "basename": "unordered_set",
-      "path": "C++/C++ STL/Container/해시 컨테이너/unordered_set.md"
-    },
-    {
-      "basename": "해시 컨테이너",
-      "path": "C++/C++ STL/Container/해시 컨테이너/해시 컨테이너.md"
     }
   ],
   "omittedPaths": [],
