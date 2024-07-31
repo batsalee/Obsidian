@@ -94,7 +94,9 @@
       "C++/C++ STL/Container/컨테이너 어댑터",
       "CS 지식/디자인패턴",
       "CS 지식/디자인패턴/행동패턴",
-      "CS 지식"
+      "CS 지식",
+      "C++",
+      "C++/Modern C++"
     ],
     "as": [
       "Hello Obsidian",
@@ -194,7 +196,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1722454990383,
+  "spacesAutoBackupLast": 1722456955818,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
