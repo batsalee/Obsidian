@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/디자인패턴/행동패턴/메멘토.md",
+                "file": "CS 지식/디자인패턴/행동패턴/옵저버.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/디자인패턴/행동패턴/메멘토.md",
+                "file": "CS 지식/디자인패턴/행동패턴/옵저버.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/디자인패턴/행동패턴/메멘토.md",
+                "file": "CS 지식/디자인패턴/행동패턴/옵저버.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/디자인패턴/행동패턴/메멘토.md"
+                "file": "CS 지식/디자인패턴/행동패턴/옵저버.md"
               }
             }
           },
@@ -184,6 +184,9 @@
   },
   "active": "76b0337def2bfeda",
   "lastOpenFiles": [
+    "CS 지식/디자인패턴/행동패턴/템플릿 메서드.md",
+    "CS 지식/디자인패턴/행동패턴/옵저버.md",
+    "CS 지식/디자인패턴/행동패턴/메멘토.md",
     "CS 지식/디자인패턴/행동패턴/미디에이터.md",
     "CS 지식/디자인패턴/행동패턴/이터레이터.md",
     "CS 지식/디자인패턴/행동패턴/인터프리터.md",
@@ -195,11 +198,8 @@
     "C++/Modern C++/RVO, NRVO.md",
     "CS 지식/프로그래밍 지식/msvc와 MinGW.md",
     "CS 지식/디자인패턴/행동패턴/비지터.md",
-    "CS 지식/디자인패턴/행동패턴/템플릿 메서드.md",
     "CS 지식/디자인패턴/행동패턴/스트레티지.md",
     "CS 지식/디자인패턴/행동패턴/스테이트.md",
-    "CS 지식/디자인패턴/행동패턴/옵저버.md",
-    "CS 지식/디자인패턴/행동패턴/메멘토.md",
     "Notepad/노션 강의 정리.md",
     "Notepad/Today_Study 정리파일.md",
     "Notepad/Notepad.md",
