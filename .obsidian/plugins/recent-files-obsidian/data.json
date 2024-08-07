@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "알고리즘",
+      "path": "CS 지식/알고리즘/알고리즘.md"
+    },
+    {
       "basename": "스트레티지",
       "path": "CS 지식/디자인패턴/행동패턴/스트레티지.md"
     },
@@ -95,10 +99,6 @@
     {
       "basename": "decltype, declval, value category",
       "path": "C++/Modern C++/decltype, declval, value category.md"
-    },
-    {
-      "basename": "알고리즘",
-      "path": "CS 지식/알고리즘/알고리즘.md"
     },
     {
       "basename": "TaskManager 리팩토링",
