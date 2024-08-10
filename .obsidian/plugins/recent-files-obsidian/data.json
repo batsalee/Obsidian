@@ -5,6 +5,10 @@
       "path": "CS 지식/디자인패턴/행동패턴/스트레티지.md"
     },
     {
+      "basename": "decltype, declval, value category",
+      "path": "C++/Modern C++/decltype, declval, value category.md"
+    },
+    {
       "basename": "템플릿 메서드",
       "path": "CS 지식/디자인패턴/행동패턴/템플릿 메서드.md"
     },
@@ -95,10 +99,6 @@
     {
       "basename": "filesystem과 fstream",
       "path": "C++/Modern C++/filesystem과 fstream.md"
-    },
-    {
-      "basename": "decltype, declval, value category",
-      "path": "C++/Modern C++/decltype, declval, value category.md"
     },
     {
       "basename": "TaskManager 리팩토링",
