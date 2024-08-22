@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Notepad",
+      "path": "Notepad/Notepad.md"
+    },
+    {
       "basename": "생성패턴",
       "path": "CS 지식/디자인패턴/생성패턴/생성패턴.md"
     },
@@ -87,10 +91,6 @@
     {
       "basename": "Today_Study 정리파일",
       "path": "Notepad/Today_Study 정리파일.md"
-    },
-    {
-      "basename": "Notepad",
-      "path": "Notepad/Notepad.md"
     },
     {
       "basename": "mermaid 사용해보기",
