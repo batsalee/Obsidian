@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/프로그래밍 용어/애드혹(ad-hoc).md",
+                "file": "프로젝트/TaskManager 리팩토링.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/프로그래밍 용어/애드혹(ad-hoc).md",
+                "file": "프로젝트/TaskManager 리팩토링.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/프로그래밍 용어/애드혹(ad-hoc).md",
+                "file": "프로젝트/TaskManager 리팩토링.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/프로그래밍 용어/애드혹(ad-hoc).md"
+                "file": "프로젝트/TaskManager 리팩토링.md"
               }
             }
           },
@@ -184,8 +184,9 @@
   },
   "active": "fc02faa244ec0e62",
   "lastOpenFiles": [
-    "C++/Code Keeping/진법 변환.md",
+    "Hello Obsidian/문서 작성 시 번호매기는 순서.md",
     "CS 지식/프로그래밍 용어/애드혹(ad-hoc).md",
+    "C++/Code Keeping/진법 변환.md",
     "Notepad/Notepad.md",
     "CS 지식/디자인패턴/생성패턴/생성패턴.md",
     "CS 지식/디자인패턴/생성패턴/추상 팩토리.md",
@@ -209,7 +210,6 @@
     "CS 지식/프로그래밍 지식/msvc와 MinGW.md",
     "Notepad/노션 강의 정리.md",
     "Notepad/Today_Study 정리파일.md",
-    "Notepad/mermaid 사용해보기.md",
     "CS 지식/자료구조/contents/Pasted image 20231130113849.png",
     "CS 지식/소프트웨어공학/UML",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png",
