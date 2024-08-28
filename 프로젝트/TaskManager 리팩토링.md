@@ -223,7 +223,6 @@ ___
 
 1) C++을 선택한 이유  
 - 우선은 윈도우에서 사용할 프로그램이므로 C++을 선택했습니다.
-
 - 개인 일정을 다루는 프로그램이므로 데이터베이스 서버에 업로드하기보다는 개인 PC내에서 **파일입출력**을 통해 빠르게 처리하고자 했습니다.
 
 2) Qt Quick을 선택한 이유  
@@ -232,38 +231,24 @@ ___
 - **크로스플랫폼** 개발을 경험해보고 싶어서 선택했습니다.
 
 또한 윈도우 GUI 프로그램을 만들기 위한 플랫폼을 선택하기 위해 많은 정보조사를 했습니다만 아래의 환경들은 해당 이유로 선택지에서 제외되었습니다.
-
 - Win32 Api 및 MFC : 성능 중시 분야를 제외하고는 신규 프로젝트보다는 유지보수에 사용되며, 현재는 다소 과거의 개발 환경으로 여겨지는듯 했습니다.  
 - Electron : 실행환경에 거의 영향을 받지 않는다고 볼 수 있는 웹 기반 GUI를 표현한다는 장점이 있었지만 HTML, CSS, JavaScript를 익혀야하므로 현시점에 당장 만들어보기에는 학습량이 배보다 배꼽이 더 커질 수 있는 상황이었기에 다음 기회로 미뤄두기로 했습니다.  
 - nana 및 WinUI3 : C++에는 익숙하지만 GUI 개발환경은 새로 익혀야 하는 입장에서 자료가 너무 적었기에 아쉽게도 후순위로 밀리게 되었습니다.  
 - Winform 및 WPF : 윈도우 프로그램을 만들기에 아주 좋은 선택지였지만 C#은 기초문법정도만 공부했던 상황인지라 Electron과 마찬가지로 학습량의 벽이 있었고, 무엇보다 .NET 환경에서만 작동 가능하다는 점이 Qt의 크로스플랫폼에 밀렸습니다. 다만 WPF는 다음 학습목표로 두고 꼭 배워보고 싶은 목표가 되었습니다.
 
-더 자세한 조사내용은 아래의 글에 정리해두었습니다.
+GUI에 대한 조사내용은 아래의 글에 정리해두었습니다.
+https://smallpants.tistory.com/294
 
-[https://smallpants.tistory.com/294](https://smallpants.tistory.com/294)
-
- [데스크탑 프로그램 GUI 프레임워크 정리
-
-1. 개요Window에서 사용할 GUI 프로그램을 개발하기 위해 GUI관련 조사를 해본적이 있었다.그때 결국 내 당시 상황에서 빨리 배워서 빨리 쓸 수 있는게 Qt였어서 Qt로 개발을 해봤었다.다음번에 다른
-
-smallpants.tistory.com](https://smallpants.tistory.com/294)
-
----
-
+___
 ## 8. 링크
 
 #### 1) GitHub
-
-[https://github.com/batsalee/TaskManager/tree/version-2.0-refactoring](https://github.com/batsalee/TaskManager/tree/version-2.0-refactoring)
+https://github.com/batsalee/TaskManager/tree/version-2.0-refactoring
 
 #### 2) Blog
-
-[https://smallpants.tistory.com/321](https://smallpants.tistory.com/321)
+https://smallpants.tistory.com/321
 
 #### 3) 진행상황에 대한 기록
-
-아래 링크에 진행 상황을 기록해가며 작업했습니다.
-
-정리되어 있지 않은 내용이며 해당 내용들이 정리된 내용이 이 문서이지만 관련 문서이므로 링크만 남겨둡니다.
-
-[https://smallpants.tistory.com/315](https://smallpants.tistory.com/315)
+아래 링크에 진행 상황을 기록해가며 작업했습니다.  
+정리되어 있지 않은 내용이며 해당 내용들이 정리된 내용이 이 문서이지만 관련 문서이므로 링크만 남겨둡니다. 
+https://smallpants.tistory.com/315
