@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "thread",
+      "path": "C++/Modern C++/thread.md"
+    },
+    {
       "basename": "TaskManager 리팩토링",
       "path": "프로젝트/TaskManager 리팩토링.md"
     },
@@ -115,10 +119,6 @@
     {
       "basename": "우측값 레퍼런스와 좌측값의 이동",
       "path": "C++/Modern C++/우측값 레퍼런스와 좌측값의 이동.md"
-    },
-    {
-      "basename": "thread",
-      "path": "C++/Modern C++/thread.md"
     },
     {
       "basename": "filesystem과 fstream",
