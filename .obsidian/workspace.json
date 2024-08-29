@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Modern C++/thread.md",
+                "file": "CS 지식/알고리즘/알고리즘.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Modern C++/thread.md",
+                "file": "CS 지식/알고리즘/알고리즘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Modern C++/thread.md",
+                "file": "CS 지식/알고리즘/알고리즘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Modern C++/thread.md"
+                "file": "CS 지식/알고리즘/알고리즘.md"
               }
             }
           },
@@ -184,6 +184,8 @@
   },
   "active": "fc02faa244ec0e62",
   "lastOpenFiles": [
+    "C++/Modern C++/RVO, NRVO.md",
+    "C++/Modern C++/thread.md",
     "프로젝트/TaskManager 리팩토링.md",
     "Hello Obsidian/문서 작성 시 번호매기는 순서.md",
     "CS 지식/프로그래밍 용어/애드혹(ad-hoc).md",
@@ -195,7 +197,6 @@
     "CS 지식/디자인패턴/행동패턴/템플릿 메서드.md",
     "CS 지식/디자인패턴/행동패턴/비지터.md",
     "CS 지식/디자인패턴/행동패턴/역할 사슬.md",
-    "C++/Modern C++/RVO, NRVO.md",
     "C++/Modern C++/decltype, declval, value category.md",
     "CS 지식/알고리즘/알고리즘.md",
     "CS 지식/디자인패턴/행동패턴/스테이트.md",
@@ -209,7 +210,6 @@
     "CS 지식/디자인패턴/디자인패턴.md",
     "수학적 지식/알파벳 개수.md",
     "CS 지식/프로그래밍 지식/msvc와 MinGW.md",
-    "Notepad/노션 강의 정리.md",
     "CS 지식/자료구조/contents/Pasted image 20231130113849.png",
     "CS 지식/소프트웨어공학/UML",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png",
