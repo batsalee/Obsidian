@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "복잡도개념",
+      "path": "CS 지식/알고리즘/복잡도개념.md"
+    },
+    {
       "basename": "알고리즘",
       "path": "CS 지식/알고리즘/알고리즘.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "객체지향의 원칙",
       "path": "CS 지식/소프트웨어공학/객체지향의 원칙.md"
-    },
-    {
-      "basename": "소프트웨어 공학 용어",
-      "path": "CS 지식/소프트웨어공학/소프트웨어 공학 용어.md"
     }
   ],
   "omittedPaths": [],
