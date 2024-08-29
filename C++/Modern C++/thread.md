@@ -1054,7 +1054,7 @@ int parallel_sum(const std::vector<int>& v) {
     std::async(std::launch::async, sum, cref(v), 0, v.size() / 2);
 
   // upper_half 는 501 부터 1000 까지 더함
-  int upper_half = sum(v, v.size() / 2, v.size());
+  int upper_half = sum(v, v.size() / 2 + 1, v.size());
 
   return lower_half_future.get() + upper_half;
 }
