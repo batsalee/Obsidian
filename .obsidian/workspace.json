@@ -182,10 +182,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "865fcff0f57ed8b2",
+  "active": "fc02faa244ec0e62",
   "lastOpenFiles": [
-    "Notepad/Today_Study 정리파일.md",
+    "C++/Modern C++/constexpr.md",
     "CS 지식/알고리즘/이분 탐색.md",
+    "Notepad/Today_Study 정리파일.md",
     "CS 지식/알고리즘/정렬 알고리즘.md",
     "CS 지식/자료구조/심화 자료구조/Hash Table.md",
     "CS 지식/알고리즘/완전탐색, 백트래킹.md",
@@ -209,7 +210,6 @@
     "CS 지식/디자인패턴/생성패턴/추상 팩토리.md",
     "CS 지식/디자인패턴/행동패턴/스트레티지.md",
     "CS 지식/디자인패턴/행동패턴/템플릿 메서드.md",
-    "CS 지식/디자인패턴/행동패턴/비지터.md",
     "CS 지식/자료구조/contents/Pasted image 20231130113849.png",
     "CS 지식/소프트웨어공학/UML",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png",

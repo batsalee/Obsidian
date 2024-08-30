@@ -5,6 +5,10 @@
       "path": "CS 지식/알고리즘/이분 탐색.md"
     },
     {
+      "basename": "constexpr",
+      "path": "C++/Modern C++/constexpr.md"
+    },
+    {
       "basename": "Today_Study 정리파일",
       "path": "Notepad/Today_Study 정리파일.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "브릿지 패턴",
       "path": "CS 지식/디자인패턴/구조패턴/브릿지 패턴.md"
-    },
-    {
-      "basename": "어댑터 패턴",
-      "path": "CS 지식/디자인패턴/구조패턴/어댑터 패턴.md"
     }
   ],
   "omittedPaths": [],
