@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "BFS, DFS, 트리순회",
+      "path": "CS 지식/알고리즘/BFS, DFS, 트리순회.md"
+    },
+    {
       "basename": "비트마스킹",
       "path": "CS 지식/알고리즘/비트마스킹.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "팩토리 메소드",
       "path": "CS 지식/디자인패턴/생성패턴/팩토리 메소드.md"
-    },
-    {
-      "basename": "활동 다이어그램",
-      "path": "CS 지식/소프트웨어공학/UML/활동 다이어그램.md"
     }
   ],
   "omittedPaths": [],
