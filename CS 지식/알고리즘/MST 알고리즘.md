@@ -151,6 +151,7 @@ int main()
 		int cost = get<0>(t);
 		int from = get<1>(t);
 		int to = get<2>(t);
+		// 위 코드 Uniform Initializagion으로 auto [cost, from, to] = t; 사용 가능하지 않을까 싶음
 
 		if (Find(from) != Find(to)) { // 부모가 다르다면
 			answer += cost; // 비용에 더해주고
