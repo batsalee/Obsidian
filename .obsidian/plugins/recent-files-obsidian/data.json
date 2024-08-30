@@ -5,6 +5,10 @@
       "path": "CS 지식/알고리즘/이분 탐색.md"
     },
     {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
+    },
+    {
       "basename": "정렬 알고리즘",
       "path": "CS 지식/알고리즘/정렬 알고리즘.md"
     },
@@ -155,10 +159,6 @@
     {
       "basename": "노션 강의 정리",
       "path": "Notepad/노션 강의 정리.md"
-    },
-    {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
     },
     {
       "basename": "mermaid 사용해보기",
