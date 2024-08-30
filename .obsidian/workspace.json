@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/알고리즘/DP.md",
+                "file": "CS 지식/알고리즘/유니온 파인드.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/알고리즘/DP.md",
+                "file": "CS 지식/알고리즘/유니온 파인드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/알고리즘/DP.md",
+                "file": "CS 지식/알고리즘/유니온 파인드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/알고리즘/DP.md"
+                "file": "CS 지식/알고리즘/유니온 파인드.md"
               }
             }
           },
@@ -184,6 +184,10 @@
   },
   "active": "fc02faa244ec0e62",
   "lastOpenFiles": [
+    "CS 지식/알고리즘/신발끈공식(다각형의 넓이 구하기).md",
+    "CS 지식/알고리즘/세그먼트 트리, 펜윅 트리.md",
+    "CS 지식/알고리즘/LIS.md",
+    "CS 지식/알고리즘/DP.md",
     "CS 지식/알고리즘/이분 탐색.md",
     "C++/Modern C++/constexpr.md",
     "Notepad/Today_Study 정리파일.md",
@@ -206,10 +210,6 @@
     "CS 지식/프로그래밍 용어/애드혹(ad-hoc).md",
     "C++/Code Keeping/진법 변환.md",
     "Notepad/Notepad.md",
-    "CS 지식/디자인패턴/생성패턴/생성패턴.md",
-    "CS 지식/디자인패턴/생성패턴/추상 팩토리.md",
-    "CS 지식/디자인패턴/행동패턴/스트레티지.md",
-    "CS 지식/디자인패턴/행동패턴/템플릿 메서드.md",
     "CS 지식/자료구조/contents/Pasted image 20231130113849.png",
     "CS 지식/소프트웨어공학/UML",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png",

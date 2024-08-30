@@ -92,6 +92,61 @@ int main()
 ```
 
 
+## 3. LIS 수열 출력
+
+그냥 lis의 길이가 아니라 LIS 배열 결과를 출력해야 하는 경우  
+index 배열을 만들고 해당 배열에 i는 LIS의 몇번 index에 들어갔는가를 저장함  
+마지막에 뒤에서부터 --하면서 같은 숫자면 넣고 reverse  
+```C++
+#include <bits/stdc++.h>
+using namespace std;
+
+#define INF 2147483647
+
+int main()
+{
+    int N;
+    cin >> N;
+
+    vector<int> input(N), index(N);;
+    for (int i = 0; i < N ; i++) { cin >> input[i]; }
+
+    vector<int> lis_vec;
+    lis_vec.push_back(-INF);
+    for (int i = 0; i < N; i++) {
+        if (lis_vec.back() < input[i]) {
+            lis_vec.push_back(input[i]);
+            index[i] = lis_vec.size() - 1;
+        }
+        else {
+            auto itr = lower_bound(lis_vec.begin(), lis_vec.end(), input[i]);
+            *itr = input[i];
+            index[i] = itr - lis_vec.begin();
+        }
+    }
+    
+    int lis = lis_vec.size() - 1;
+    cout << lis << '\n';
+
+    vector<int> answer;
+    for (int i = N - 1; i >= 0; i--) {
+        if (index[i] == lis) {
+            answer.push_back(input[i]);
+            lis--;
+        }
+    }
+
+    for (auto ritr = answer.rbegin(); ritr != answer.rend(); ritr++) {
+        cout << *ritr << ' ';
+    }
+    
+    return 0;
+}
+```
+
+
+
+
 
 
 ※ 참고 문헌
