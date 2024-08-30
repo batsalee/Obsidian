@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "세그먼트 트리(Segment Tree)",
+      "path": "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md"
+    },
+    {
       "basename": "세그먼트 트리, 펜윅 트리",
       "path": "CS 지식/알고리즘/세그먼트 트리, 펜윅 트리.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "노션 강의 정리",
       "path": "Notepad/노션 강의 정리.md"
-    },
-    {
-      "basename": "mermaid 사용해보기",
-      "path": "Notepad/mermaid 사용해보기.md"
     }
   ],
   "omittedPaths": [],
