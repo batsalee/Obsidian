@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "템플릿",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -182,7 +182,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fc02faa244ec0e62",
+  "active": "865fcff0f57ed8b2",
   "lastOpenFiles": [
     "CS 지식/알고리즘/MST 알고리즘.md",
     "CS 지식/알고리즘/최단거리.md",
