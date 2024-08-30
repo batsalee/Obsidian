@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "위상정렬",
+      "path": "CS 지식/알고리즘/위상정렬.md"
+    },
+    {
       "basename": "MST 알고리즘",
       "path": "CS 지식/알고리즘/MST 알고리즘.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "mermaid 사용해보기",
       "path": "Notepad/mermaid 사용해보기.md"
-    },
-    {
-      "basename": "우측값 레퍼런스와 좌측값의 이동",
-      "path": "C++/Modern C++/우측값 레퍼런스와 좌측값의 이동.md"
     }
   ],
   "omittedPaths": [],
