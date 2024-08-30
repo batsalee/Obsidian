@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "최단거리",
+      "path": "CS 지식/알고리즘/최단거리.md"
+    },
+    {
       "basename": "BFS, DFS, 트리순회",
       "path": "CS 지식/알고리즘/BFS, DFS, 트리순회.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "빌더",
       "path": "CS 지식/디자인패턴/생성패턴/빌더.md"
-    },
-    {
-      "basename": "팩토리 메소드",
-      "path": "CS 지식/디자인패턴/생성패턴/팩토리 메소드.md"
     }
   ],
   "omittedPaths": [],
