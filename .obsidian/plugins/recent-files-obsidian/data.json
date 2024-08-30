@@ -5,12 +5,12 @@
       "path": "CS 지식/알고리즘/완전탐색, 백트래킹.md"
     },
     {
-      "basename": "최단거리",
-      "path": "CS 지식/알고리즘/최단거리.md"
-    },
-    {
       "basename": "BFS, DFS, 트리순회",
       "path": "CS 지식/알고리즘/BFS, DFS, 트리순회.md"
+    },
+    {
+      "basename": "최단거리",
+      "path": "CS 지식/알고리즘/최단거리.md"
     },
     {
       "basename": "비트마스킹",

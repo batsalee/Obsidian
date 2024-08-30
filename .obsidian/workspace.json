@@ -184,8 +184,9 @@
   },
   "active": "fc02faa244ec0e62",
   "lastOpenFiles": [
-    "CS 지식/알고리즘/최단거리.md",
     "CS 지식/알고리즘/BFS, DFS, 트리순회.md",
+    "CS 지식/알고리즘/완전탐색, 백트래킹.md",
+    "CS 지식/알고리즘/최단거리.md",
     "CS 지식/알고리즘/비트마스킹.md",
     "CS 지식/알고리즘/투포인터.md",
     "CS 지식/알고리즘/스위핑.md",
@@ -209,7 +210,6 @@
     "C++/Modern C++/decltype, declval, value category.md",
     "CS 지식/디자인패턴/행동패턴/스테이트.md",
     "CS 지식/디자인패턴/행동패턴/옵저버.md",
-    "CS 지식/디자인패턴/행동패턴/메멘토.md",
     "CS 지식/자료구조/contents/Pasted image 20231130113849.png",
     "CS 지식/소프트웨어공학/UML",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png",
