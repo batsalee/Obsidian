@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "완전탐색, 백트래킹",
+      "path": "CS 지식/알고리즘/완전탐색, 백트래킹.md"
+    },
+    {
       "basename": "최단거리",
       "path": "CS 지식/알고리즘/최단거리.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "프로토타입",
       "path": "CS 지식/디자인패턴/생성패턴/프로토타입.md"
-    },
-    {
-      "basename": "빌더",
-      "path": "CS 지식/디자인패턴/생성패턴/빌더.md"
     }
   ],
   "omittedPaths": [],
