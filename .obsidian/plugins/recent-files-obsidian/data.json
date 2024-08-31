@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "생성패턴",
+      "path": "CS 지식/디자인패턴/생성패턴/생성패턴.md"
+    },
+    {
       "basename": "펜윅 트리(Fenwick Tree)",
       "path": "CS 지식/자료구조/심화 자료구조/펜윅 트리(Fenwick Tree).md"
     },
@@ -127,10 +131,6 @@
     {
       "basename": "Notepad",
       "path": "Notepad/Notepad.md"
-    },
-    {
-      "basename": "생성패턴",
-      "path": "CS 지식/디자인패턴/생성패턴/생성패턴.md"
     },
     {
       "basename": "추상 팩토리",
