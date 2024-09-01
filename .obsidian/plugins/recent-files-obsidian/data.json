@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
+    },
+    {
+      "basename": "Notepad",
+      "path": "Notepad/Notepad.md"
+    },
+    {
       "basename": "생성패턴",
       "path": "CS 지식/디자인패턴/생성패턴/생성패턴.md"
     },
@@ -55,10 +63,6 @@
     {
       "basename": "constexpr",
       "path": "C++/Modern C++/constexpr.md"
-    },
-    {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
     },
     {
       "basename": "정렬 알고리즘",
@@ -127,10 +131,6 @@
     {
       "basename": "진법 변환",
       "path": "C++/Code Keeping/진법 변환.md"
-    },
-    {
-      "basename": "Notepad",
-      "path": "Notepad/Notepad.md"
     },
     {
       "basename": "추상 팩토리",
