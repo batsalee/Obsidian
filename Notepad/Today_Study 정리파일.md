@@ -901,8 +901,9 @@ C의 함수포인터는 정말로 함수객체만 보관 가능했다면 functio
 그 경험을 할 때 도움이 될것이다.
 
 enum 사용법
+enum { x, y, z}; // Good
 enum B { x , y, z };  // Good!
-cout << B::x;
+coust << x; 또는 cout << B::x;
 
 mutex lock unlock도 빼먹을 수 있으니 RAII패턴을 적용해서 lock_guard나 unique_lock을 사용할 수 있다.
 뮤텍스 뿐 아니라 아토믹으로 사용해도 된다.
