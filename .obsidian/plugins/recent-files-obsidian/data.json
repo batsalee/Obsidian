@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "데이터베이스 이론",
+      "path": "CS 지식/Database/데이터베이스 이론.md"
+    },
+    {
+      "basename": "SQL기본문법",
+      "path": "CS 지식/Database/SQL기본문법.md"
+    },
+    {
       "basename": "DB",
       "path": "CS 지식/Database/DB.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "역할 사슬",
       "path": "CS 지식/디자인패턴/행동패턴/역할 사슬.md"
-    },
-    {
-      "basename": "decltype, declval, value category",
-      "path": "C++/Modern C++/decltype, declval, value category.md"
-    },
-    {
-      "basename": "행동패턴",
-      "path": "CS 지식/디자인패턴/행동패턴/행동패턴.md"
     }
   ],
   "omittedPaths": [],
