@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "DQL",
+      "path": "CS 지식/Database/DQL.md"
+    },
+    {
       "basename": "DB",
       "path": "CS 지식/Database/DB.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "추상 팩토리",
       "path": "CS 지식/디자인패턴/생성패턴/추상 팩토리.md"
-    },
-    {
-      "basename": "역할 사슬",
-      "path": "CS 지식/디자인패턴/행동패턴/역할 사슬.md"
     }
   ],
   "omittedPaths": [],
