@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "TCL",
+      "path": "CS 지식/Database/TCL.md"
+    },
+    {
+      "basename": "DCL",
+      "path": "CS 지식/Database/DCL.md"
+    },
+    {
       "basename": "DB",
       "path": "CS 지식/Database/DB.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "애드혹(ad-hoc)",
       "path": "CS 지식/프로그래밍 용어/애드혹(ad-hoc).md"
-    },
-    {
-      "basename": "진법 변환",
-      "path": "C++/Code Keeping/진법 변환.md"
-    },
-    {
-      "basename": "추상 팩토리",
-      "path": "CS 지식/디자인패턴/생성패턴/추상 팩토리.md"
     }
   ],
   "omittedPaths": [],
