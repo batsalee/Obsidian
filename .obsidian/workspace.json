@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md",
+                "file": "CS 지식/디자인패턴/디자인패턴.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md",
+                "file": "CS 지식/디자인패턴/디자인패턴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md",
+                "file": "CS 지식/디자인패턴/디자인패턴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md"
+                "file": "CS 지식/디자인패턴/디자인패턴.md"
               }
             }
           },
@@ -184,13 +184,15 @@
   },
   "active": "fc02faa244ec0e62",
   "lastOpenFiles": [
+    "C++/Modern C++/optional, variant, Structured binding.md",
+    "C++/Modern C++/functional과 Callable.md",
+    "Notepad/Today_Study 정리파일.md",
     "CS 지식/Database/DQL.md",
     "CS 지식/Database/TCL.md",
     "CS 지식/Database/DCL.md",
     "CS 지식/Database/DB.md",
     "CS 지식/Database/데이터베이스 이론.md",
     "CS 지식/Database/SQL기본문법.md",
-    "Notepad/Today_Study 정리파일.md",
     "Notepad/Notepad.md",
     "Notepad/노션 강의 정리.md",
     "CS 지식/디자인패턴/행동패턴/스테이트.md",
@@ -208,8 +210,6 @@
     "CS 지식/자료구조/심화 자료구조/펜윅 트리(Fenwick Tree).md",
     "CS 지식/자료구조/심화 자료구조/세그먼트 트리(Segment Tree).md",
     "CS 지식/알고리즘/세그먼트 트리, 펜윅 트리.md",
-    "CS 지식/알고리즘/MST 알고리즘.md",
-    "CS 지식/알고리즘/최단거리.md",
     "CS 지식/자료구조/contents/Pasted image 20231130113849.png",
     "CS 지식/소프트웨어공학/UML",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png",

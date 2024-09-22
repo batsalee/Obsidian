@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "디자인패턴",
+      "path": "CS 지식/디자인패턴/디자인패턴.md"
+    },
+    {
+      "basename": "optional, variant, Structured binding",
+      "path": "C++/Modern C++/optional, variant, Structured binding.md"
+    },
+    {
+      "basename": "functional과 Callable",
+      "path": "C++/Modern C++/functional과 Callable.md"
+    },
+    {
       "basename": "Today_Study 정리파일",
       "path": "Notepad/Today_Study 정리파일.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "thread",
       "path": "C++/Modern C++/thread.md"
-    },
-    {
-      "basename": "TaskManager 리팩토링",
-      "path": "프로젝트/TaskManager 리팩토링.md"
-    },
-    {
-      "basename": "문서 작성 시 번호매기는 순서",
-      "path": "Hello Obsidian/문서 작성 시 번호매기는 순서.md"
-    },
-    {
-      "basename": "애드혹(ad-hoc)",
-      "path": "CS 지식/프로그래밍 용어/애드혹(ad-hoc).md"
     }
   ],
   "omittedPaths": [],
