@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "MST 알고리즘",
+      "path": "CS 지식/알고리즘/MST 알고리즘.md"
+    },
+    {
+      "basename": "활동 다이어그램",
+      "path": "CS 지식/소프트웨어공학/UML/활동 다이어그램.md"
+    },
+    {
+      "basename": "상태 다이어그램",
+      "path": "CS 지식/소프트웨어공학/UML/상태 다이어그램.md"
+    },
+    {
+      "basename": "유스케이스 다이어그램",
+      "path": "CS 지식/소프트웨어공학/UML/유스케이스 다이어그램.md"
+    },
+    {
       "basename": "시퀀스 다이어그램",
       "path": "CS 지식/소프트웨어공학/UML/시퀀스 다이어그램.md"
     },
@@ -137,10 +153,6 @@
       "path": "CS 지식/알고리즘/세그먼트 트리, 펜윅 트리.md"
     },
     {
-      "basename": "MST 알고리즘",
-      "path": "CS 지식/알고리즘/MST 알고리즘.md"
-    },
-    {
       "basename": "유니온 파인드",
       "path": "CS 지식/알고리즘/유니온 파인드.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "BFS, DFS, 트리순회",
       "path": "CS 지식/알고리즘/BFS, DFS, 트리순회.md"
-    },
-    {
-      "basename": "비트마스킹",
-      "path": "CS 지식/알고리즘/비트마스킹.md"
-    },
-    {
-      "basename": "투포인터",
-      "path": "CS 지식/알고리즘/투포인터.md"
-    },
-    {
-      "basename": "스위핑",
-      "path": "CS 지식/알고리즘/스위핑.md"
     }
   ],
   "omittedPaths": [],
