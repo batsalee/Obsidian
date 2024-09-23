@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "memory(unique_ptr 등)",
+      "path": "C++/Modern C++/memory(unique_ptr 등).md"
+    },
+    {
       "basename": "MST 알고리즘",
       "path": "CS 지식/알고리즘/MST 알고리즘.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "완전탐색, 백트래킹",
       "path": "CS 지식/알고리즘/완전탐색, 백트래킹.md"
-    },
-    {
-      "basename": "BFS, DFS, 트리순회",
-      "path": "CS 지식/알고리즘/BFS, DFS, 트리순회.md"
     }
   ],
   "omittedPaths": [],

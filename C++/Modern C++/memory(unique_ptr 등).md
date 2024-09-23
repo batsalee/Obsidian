@@ -1,6 +1,5 @@
 # memory 라이브러리(unique_ptr, shared_ptr, weak_ptr)  
 
-
 ## 1. RAII 디자인 패턴
 
 Resource Acquisition Is Initialization의 약자로 **자원의 획득은 초기화다** 라는 뜻이며  

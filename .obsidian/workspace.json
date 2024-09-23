@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/알고리즘/MST 알고리즘.md",
+                "file": "C++/Modern C++/memory(unique_ptr 등).md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/알고리즘/MST 알고리즘.md",
+                "file": "C++/Modern C++/memory(unique_ptr 등).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/알고리즘/MST 알고리즘.md",
+                "file": "C++/Modern C++/memory(unique_ptr 등).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/알고리즘/MST 알고리즘.md"
+                "file": "C++/Modern C++/memory(unique_ptr 등).md"
               }
             }
           },
@@ -184,6 +184,7 @@
   },
   "active": "fc02faa244ec0e62",
   "lastOpenFiles": [
+    "CS 지식/알고리즘/MST 알고리즘.md",
     "CS 지식/소프트웨어공학/UML/활동 다이어그램.md",
     "CS 지식/소프트웨어공학/UML/상태 다이어그램.md",
     "CS 지식/소프트웨어공학/UML/유스케이스 다이어그램.md",
@@ -209,7 +210,6 @@
     "CS 지식/디자인패턴/행동패턴/스테이트.md",
     "CS 지식/디자인패턴/행동패턴/비지터.md",
     "CS 지식/디자인패턴/행동패턴/템플릿 메서드.md",
-    "CS 지식/디자인패턴/행동패턴/스트레티지.md",
     "CS 지식/자료구조/contents/Pasted image 20231130113849.png",
     "CS 지식/소프트웨어공학/UML",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png",
