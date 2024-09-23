@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 지식/알고리즘/최단거리.md",
+                "file": "CS 지식/소프트웨어공학/객체지향의 원칙.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 지식/알고리즘/최단거리.md",
+                "file": "CS 지식/소프트웨어공학/객체지향의 원칙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 지식/알고리즘/최단거리.md",
+                "file": "CS 지식/소프트웨어공학/객체지향의 원칙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 지식/알고리즘/최단거리.md"
+                "file": "CS 지식/소프트웨어공학/객체지향의 원칙.md"
               }
             }
           },
@@ -182,11 +182,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "865fcff0f57ed8b2",
+  "active": "fc02faa244ec0e62",
   "lastOpenFiles": [
+    "CS 지식/소프트웨어공학/소프트웨어 공학 용어.md",
+    "CS 지식/디자인패턴/디자인패턴.md",
+    "C++/개념정리/자료형 범위.md",
+    "CS 지식/알고리즘/최단거리.md",
     "Notepad/Today_Study 정리파일.md",
     "CS 지식/디자인패턴/구조패턴/플라이웨이트 패턴.md",
-    "CS 지식/디자인패턴/디자인패턴.md",
     "C++/Modern C++/optional, variant, Structured binding.md",
     "C++/Modern C++/functional과 Callable.md",
     "CS 지식/Database/DQL.md",
@@ -207,9 +210,6 @@
     "CS 지식/디자인패턴/행동패턴/이터레이터.md",
     "CS 지식/디자인패턴/행동패턴/인터프리터.md",
     "CS 지식/디자인패턴/행동패턴/커맨드.md",
-    "CS 지식/디자인패턴/구조패턴/프록시 패턴.md",
-    "CS 지식/디자인패턴/생성패턴/생성패턴.md",
-    "CS 지식/자료구조/심화 자료구조/펜윅 트리(Fenwick Tree).md",
     "CS 지식/자료구조/contents/Pasted image 20231130113849.png",
     "CS 지식/소프트웨어공학/UML",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png",
