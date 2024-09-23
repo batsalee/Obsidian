@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md",
+                "file": "CS 지식/알고리즘/최단거리.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md",
+                "file": "CS 지식/알고리즘/최단거리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md",
+                "file": "CS 지식/알고리즘/최단거리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notepad/Today_Study 정리파일.md"
+                "file": "CS 지식/알고리즘/최단거리.md"
               }
             }
           },
@@ -182,10 +182,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fc02faa244ec0e62",
+  "active": "865fcff0f57ed8b2",
   "lastOpenFiles": [
-    "CS 지식/디자인패턴/구조패턴/플라이웨이트 패턴.md",
     "Notepad/Today_Study 정리파일.md",
+    "CS 지식/디자인패턴/구조패턴/플라이웨이트 패턴.md",
     "CS 지식/디자인패턴/디자인패턴.md",
     "C++/Modern C++/optional, variant, Structured binding.md",
     "C++/Modern C++/functional과 Callable.md",

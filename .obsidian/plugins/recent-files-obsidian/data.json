@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "최단거리",
+      "path": "CS 지식/알고리즘/최단거리.md"
+    },
+    {
       "basename": "Today_Study 정리파일",
       "path": "Notepad/Today_Study 정리파일.md"
     },
@@ -115,10 +119,6 @@
     {
       "basename": "MST 알고리즘",
       "path": "CS 지식/알고리즘/MST 알고리즘.md"
-    },
-    {
-      "basename": "최단거리",
-      "path": "CS 지식/알고리즘/최단거리.md"
     },
     {
       "basename": "유니온 파인드",
