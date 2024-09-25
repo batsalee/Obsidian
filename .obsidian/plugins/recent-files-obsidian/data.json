@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "백준 플래티넘 티어 달성 후기",
+      "path": "공부 후기 및 고찰/백준 플래티넘 티어 달성 후기.md"
+    },
+    {
       "basename": "디자인패턴",
       "path": "CS 지식/디자인패턴/디자인패턴.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "정렬 알고리즘",
       "path": "CS 지식/알고리즘/정렬 알고리즘.md"
-    },
-    {
-      "basename": "Hash Table",
-      "path": "CS 지식/자료구조/심화 자료구조/Hash Table.md"
     }
   ],
   "omittedPaths": [],
