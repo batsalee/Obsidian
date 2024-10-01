@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "enum, enum class",
+      "path": "C++/Modern C++/enum, enum class.md"
+    },
+    {
       "basename": "위상정렬",
       "path": "CS 지식/알고리즘/위상정렬.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "constexpr",
       "path": "C++/Modern C++/constexpr.md"
-    },
-    {
-      "basename": "정렬 알고리즘",
-      "path": "CS 지식/알고리즘/정렬 알고리즘.md"
     }
   ],
   "omittedPaths": [],
