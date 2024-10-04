@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Notepad",
+      "path": "Notepad/Notepad.md"
+    },
+    {
       "basename": "enum, enum class",
       "path": "C++/Modern C++/enum, enum class.md"
     },
@@ -107,10 +111,6 @@
     {
       "basename": "SQL기본문법",
       "path": "CS 지식/Database/SQL기본문법.md"
-    },
-    {
-      "basename": "Notepad",
-      "path": "Notepad/Notepad.md"
     },
     {
       "basename": "노션 강의 정리",
