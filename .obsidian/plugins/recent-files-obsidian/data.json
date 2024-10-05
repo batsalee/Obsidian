@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Notepad",
-      "path": "Notepad/Notepad.md"
-    },
-    {
       "basename": "enum, enum class",
       "path": "C++/Modern C++/enum, enum class.md"
+    },
+    {
+      "basename": "Notepad",
+      "path": "Notepad/Notepad.md"
     },
     {
       "basename": "위상정렬",
