@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Modern C++/enum, enum class.md",
+                "file": "Notepad/Notepad.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Modern C++/enum, enum class.md",
+                "file": "Notepad/Notepad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Modern C++/enum, enum class.md",
+                "file": "Notepad/Notepad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Modern C++/enum, enum class.md"
+                "file": "Notepad/Notepad.md"
               }
             }
           },
@@ -184,8 +184,9 @@
   },
   "active": "fc02faa244ec0e62",
   "lastOpenFiles": [
-    "Notepad/Notepad.md",
+    "Notepad/Today_Study 정리파일.md",
     "C++/Modern C++/enum, enum class.md",
+    "Notepad/Notepad.md",
     "CS 지식/알고리즘/위상정렬.md",
     "CS 지식/디자인패턴/생성패턴/생성패턴.md",
     "공부 후기 및 고찰/백준 플래티넘 티어 달성 후기.md",
@@ -202,7 +203,6 @@
     "CS 지식/소프트웨어공학/객체지향의 원칙.md",
     "CS 지식/소프트웨어공학/소프트웨어 공학 용어.md",
     "CS 지식/알고리즘/최단거리.md",
-    "Notepad/Today_Study 정리파일.md",
     "CS 지식/디자인패턴/구조패턴/플라이웨이트 패턴.md",
     "C++/Modern C++/optional, variant, Structured binding.md",
     "C++/Modern C++/functional과 Callable.md",

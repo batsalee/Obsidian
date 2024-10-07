@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "enum, enum class",
-      "path": "C++/Modern C++/enum, enum class.md"
-    },
-    {
       "basename": "Notepad",
       "path": "Notepad/Notepad.md"
+    },
+    {
+      "basename": "Today_Study 정리파일",
+      "path": "Notepad/Today_Study 정리파일.md"
+    },
+    {
+      "basename": "enum, enum class",
+      "path": "C++/Modern C++/enum, enum class.md"
     },
     {
       "basename": "위상정렬",
@@ -71,10 +75,6 @@
     {
       "basename": "최단거리",
       "path": "CS 지식/알고리즘/최단거리.md"
-    },
-    {
-      "basename": "Today_Study 정리파일",
-      "path": "Notepad/Today_Study 정리파일.md"
     },
     {
       "basename": "플라이웨이트 패턴",
