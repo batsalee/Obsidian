@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "functional과 Callable",
+      "path": "C++/Modern C++/functional과 Callable.md"
+    },
+    {
+      "basename": "decltype, declval, value category",
+      "path": "C++/Modern C++/decltype, declval, value category.md"
+    },
+    {
       "basename": "Notepad",
       "path": "Notepad/Notepad.md"
     },
@@ -83,10 +91,6 @@
     {
       "basename": "optional, variant, Structured binding",
       "path": "C++/Modern C++/optional, variant, Structured binding.md"
-    },
-    {
-      "basename": "functional과 Callable",
-      "path": "C++/Modern C++/functional과 Callable.md"
     },
     {
       "basename": "DQL",
@@ -195,10 +199,6 @@
     {
       "basename": "이분 탐색",
       "path": "CS 지식/알고리즘/이분 탐색.md"
-    },
-    {
-      "basename": "constexpr",
-      "path": "C++/Modern C++/constexpr.md"
     }
   ],
   "omittedPaths": [],
