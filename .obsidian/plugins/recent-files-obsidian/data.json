@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Notepad",
+      "path": "Notepad/Notepad.md"
+    },
+    {
       "basename": "functional과 Callable",
       "path": "C++/Modern C++/functional과 Callable.md"
     },
     {
       "basename": "decltype, declval, value category",
       "path": "C++/Modern C++/decltype, declval, value category.md"
-    },
-    {
-      "basename": "Notepad",
-      "path": "Notepad/Notepad.md"
     },
     {
       "basename": "Today_Study 정리파일",
