@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "진법 변환",
+      "path": "C++/Code Keeping/진법 변환.md"
+    },
+    {
       "basename": "Notepad",
       "path": "Notepad/Notepad.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "DP",
       "path": "CS 지식/알고리즘/DP.md"
-    },
-    {
-      "basename": "이분 탐색",
-      "path": "CS 지식/알고리즘/이분 탐색.md"
     }
   ],
   "omittedPaths": [],
