@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "3개이상 max, min",
+      "path": "C++/Code Keeping/3개이상 max, min.md"
+    },
+    {
       "basename": "진법 변환",
       "path": "C++/Code Keeping/진법 변환.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "LIS",
       "path": "CS 지식/알고리즘/LIS.md"
-    },
-    {
-      "basename": "DP",
-      "path": "CS 지식/알고리즘/DP.md"
     }
   ],
   "omittedPaths": [],

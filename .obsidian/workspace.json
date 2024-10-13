@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Code Keeping/진법 변환.md",
+                "file": "C++/Code Keeping/3개이상 max, min.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Code Keeping/진법 변환.md",
+                "file": "C++/Code Keeping/3개이상 max, min.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Code Keeping/진법 변환.md",
+                "file": "C++/Code Keeping/3개이상 max, min.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Code Keeping/진법 변환.md"
+                "file": "C++/Code Keeping/3개이상 max, min.md"
               }
             }
           },
@@ -184,6 +184,7 @@
   },
   "active": "fc02faa244ec0e62",
   "lastOpenFiles": [
+    "C++/Code Keeping/진법 변환.md",
     "Notepad/Notepad.md",
     "C++/Modern C++/functional과 Callable.md",
     "C++/Modern C++/decltype, declval, value category.md",
@@ -209,7 +210,6 @@
     "C++/Modern C++/optional, variant, Structured binding.md",
     "CS 지식/Database/DQL.md",
     "CS 지식/Database/TCL.md",
-    "CS 지식/Database/DCL.md",
     "CS 지식/자료구조/contents/Pasted image 20231130113849.png",
     "CS 지식/소프트웨어공학/UML",
     "CS 지식/자료구조/심화 자료구조/contents/Pasted image 20231130145554.png",
