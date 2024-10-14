@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Notepad",
+      "path": "Notepad/Notepad.md"
+    },
+    {
       "basename": "3개이상 max, min",
       "path": "C++/Code Keeping/3개이상 max, min.md"
     },
     {
       "basename": "진법 변환",
       "path": "C++/Code Keeping/진법 변환.md"
-    },
-    {
-      "basename": "Notepad",
-      "path": "Notepad/Notepad.md"
     },
     {
       "basename": "functional과 Callable",
