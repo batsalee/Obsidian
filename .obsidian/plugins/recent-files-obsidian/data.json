@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Notepad",
+      "path": "Notepad/Notepad.md"
+    },
+    {
       "basename": "stash(스테이시)",
       "path": "CS 지식/Git & GitHub/stash(스테이시).md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "Git",
       "path": "CS 지식/Git & GitHub/Git.md"
-    },
-    {
-      "basename": "Notepad",
-      "path": "Notepad/Notepad.md"
     },
     {
       "basename": "CodingTestFrame",

@@ -39,12 +39,14 @@
             "id": "9e9a90666b4f8c8d",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.7.5"
+                "file": "Notepad/Notepad.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.5"
+              "title": "Notepad"
             }
           }
         ],
@@ -133,9 +135,19 @@
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
             }
+          },
+          {
+            "id": "1029d5b5ae29237a",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Spaces"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -247,7 +259,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e375788b9f7f9984",
+  "active": "9e9a90666b4f8c8d",
   "lastOpenFiles": [
     "CS 지식/Git & GitHub/switch와 checkout의 차이점.md",
     "CS 지식/Git & GitHub/cherry-pick.md",
