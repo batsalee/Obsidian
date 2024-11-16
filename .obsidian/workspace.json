@@ -140,6 +140,18 @@
             "id": "1029d5b5ae29237a",
             "type": "leaf",
             "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "eb493f9d55bd37f9",
+            "type": "leaf",
+            "state": {
               "type": "mk-file-view",
               "state": {},
               "icon": "layout-grid",
@@ -147,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -259,7 +271,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9e9a90666b4f8c8d",
+  "active": "e375788b9f7f9984",
   "lastOpenFiles": [
     "CS 지식/Git & GitHub/switch와 checkout의 차이점.md",
     "CS 지식/Git & GitHub/cherry-pick.md",
